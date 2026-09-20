@@ -1,0 +1,58 @@
+#+TITLE: 行后再知：结果、错误与学习
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-90-CN
+:SEMANTIC_ID: philosophy.reflection.knowing-after-action
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.90-knowing-after-action.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.knowing-after-action-cn
+:END:
+为什么 action 返回成功不是认识闭环的终点？结果、错误和未预期后果应如何重新进入 knowledge state，
+使系统在行动之后真正“再知”？
+
+[[file:../40-sources/40.80-dewey-action-experience-learning.org][Dewey 来源说明]] · [[file:30.10-knowledge-action-in-agent-age.org][合一而不坍缩]]
+* 论证
+行动把一个判断置入世界，也让世界有机会回答。Dewey 对 experience 的 processual、transactional 理解
+提醒我们：经验不是主体内部多了一条记录，而是 organism 与 environment 在 doing、undergoing、调整和
+再调整中的关系。对 Agent 而言，调用工具只是 doing；承受并解释结果才开始构成 undergoing。
+
+因此必须区分 execution receipt、outcome 与 effect。receipt 可以证明请求被接受、命令退出或 API 返回；
+outcome 描述目标状态是否出现；effect 还包括外部性、延迟影响和其他主体承受的变化。把第一项当成后三项，
+会让系统在最需要学习时错误宣告完成。
+
+错误不是闭环边缘的异常，而是知识更新的入口。错误可能表明事实已经变化、模型不适用、权限不足、执行
+偏离、观测失真或价值目标本身不完整。不同错误需要回写到不同对象；统一记作“失败”会丢失学习所需的
+结构，统一重试则可能放大伤害。
+
+学习至少需要四步：观察结果与预期的差异；把差异归因到仍可争论的假设；更新 claim、scope、policy 或
+capability；重新评估此前依赖它的决定。所谓 reconciliation 不是让数据库最终一致，而是让过去的行动
+能够改变未来的理由。
+* 反例
+并非每个行动都适合实验。不可逆、高风险或涉及他人权利的行动，不能因为“需要学习”就降低授权门槛。
+实验价值从不自动压过 consent、dignity 与安全。
+
+世界的反馈也不是透明答案。结果可能被噪声、选择偏差、时间延迟或同时发生的变化污染。行动后观察到 B，
+不等于行动 A 导致 B；学习循环仍需要因果与测量纪律。
+
+过快更新会追逐噪声，过慢更新会固守失败。系统必须保存置信度、观察窗口和复验条件，而不是把 adaptability
+理解为每次结果后立即改写原则。
+* 暂定结论
+行不是知的终点，而是下一轮知的实验条件。真正闭合的循环是：知进入受约束的行动，行动产生可观察后果，
+后果经过对账与因果审查，随后改变可修正的知识状态。
+
+因此，“成功”至少需要两种不同陈述：执行是否按协议完成，以及世界是否朝被授权的目标变化。后者若未知，
+系统应保持 unknown 或 pending，而不是借用前者的成功码。
+* 升格条件
+需要用可逆操作、延迟后果、部分失败和不可观测结果四类案例验证更新循环；明确哪些差异触发停止、补救、
+重试或知识降级；并证明学习机制不会把未经同意的人变成实验对象。满足这些条件后，才考虑深化 practical
+learning Charter，而不是新增一个抽象口号。
+* 导航
+[[file:../README.org][语言入口]]

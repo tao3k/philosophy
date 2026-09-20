@@ -32,21 +32,23 @@
 :CUSTOM_ID: source-gu-yanwu-practical-learning-en
 :END:
 
-This note interprets practical learning as requiring knowledge to answer to concrete harms, benefits, and public consequences rather than slogans. Edition and passage-level sourcing remain pending.
+This note interprets practical learning as requiring knowledge to undergo a real-world test of benefit, harm, and public consequence rather than remain a slogan. Edition- and passage-level sourcing is still pending, so the “benefit-harm test” is a Tao3k modernization rather than a verbatim thesis attributed to the Record of Daily Knowledge.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]]
 
 * Context
 
-Practical learning resists discourse detached from facts and real problems, but it is not short-term utilitarianism or single-objective optimization.
+Practical learning resists discourse detached from facts, institutions, and real problems, but it is not short-term utilitarianism or single-objective optimization. Modern technical usefulness must keep asking who benefits, who bears cost, which problem actually improved, which dependencies were created, and how long-term options changed.
+
+This returns benchmarks, throughput, and automation ratios to the status of evidence. They may establish a capability change but cannot independently establish increased public value. The object of statecraft is consequence in lived and institutional reality, not the metric itself.
 
 * Interpretation Boundaries
 
-It cannot endorse every automation labelled useful; beneficiaries, burden bearers, and evidential sufficiency remain review questions.
+It cannot endorse every automation labelled useful or reduce “the public” to aggregate majority utility. Irreversible harm borne by minorities, diminished agency, maintenance debt, and future exit costs all belong to the benefit-harm account. Gu Yanwu did not supply a modern AI scorecard; the present question framework remains this repository's responsibility.
 
 * Influence
 
-It enters the reflection on practical learning and human-centered AI, constraining any Charter from reducing human value to a metric.
+It enters [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]], moving evaluation from performance increase to benefit, burden, dependency, reversibility, and long-term optionality while preventing a Charter from reducing human value to a metric.
 
 * Interpretation Chain
 

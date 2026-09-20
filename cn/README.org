@@ -52,9 +52,19 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 时间与因果 | [[file:10-charter/10.20-temporality-and-causality.org][PHIL-TEMP-001]] | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟不是预测]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式方法、证明与反例]] |
 | 人的能动性 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.40-optimization-is-not-human-value.org][优化不是人的价值]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 行动与权限 | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][行动需要权限]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统的状态与权限]] |
-| 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][Agent 时代的知行关系]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
+| 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
+
+* Modern AI Philosophy — Content M1
+
+| 核心问题 | Reflection | 主要来源 |
+|----------+------------+----------|
+| 知与行如何合一而不坍缩 | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] | [[file:40-sources/40.10-wang-yangming-knowledge-action.org][王阳明：真知与行动]] |
+| 知如何从来源追到后果 | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][可追溯的知]] | [[file:40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce：可错论与探究]] |
+| 不同主张如何承担失败 | [[file:30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]] | [[file:40-sources/40.70-popper-falsifiability.org][Popper：可证伪性]]；[[file:40-sources/40.90-woodward-interventionism.org][Woodward：干预主义]] |
+| 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
+| 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 
 * 关系图
 

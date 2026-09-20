@@ -1,0 +1,42 @@
+#+TITLE: Woodward: Interventionism and Causal Explanation
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-90-EN
+:SEMANTIC_ID: philosophy.source.woodward-interventionism
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.90-woodward-interventionism.org
+:SOURCE_ID: source.sep.causal-explanation
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Lauren Ross and James Woodward
+:SOURCE_WORK: Causal Approaches to Scientific Explanation
+:SOURCE_EDITION: 2023-03-17
+:SOURCE_DATE: 2023-03-17
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.woodward-interventionism
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.woodward-interventionism-en
+:END:
+This note uses Lauren Ross and James Woodward's [[https://plato.stanford.edu/entries/causal-explanation-science/][SEP entry on causal approaches to scientific explanation]], taking Woodward's interventionist and counterfactual line as the present interpretive entry point.
+* Context
+Interventionism asks whether an explanation reveals the variables on which an outcome depends under appropriate changes or interventions, rather than merely identifying temporal sequence or correlation. The entry also discusses explanatory depth, variable grain, screening-off, and cross-level causation, showing why adding detail does not automatically improve explanation.
+* Interpretation Boundaries
+Not every variable can ethically be manipulated, and not every domain permits real experiments. An intervention model may choose the wrong variables, ignore structural constraints, or treat people as controllable objects. Interventionism alone cannot determine which action is authorized.
+* Influence
+It enters [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][Refutable, Challengeable, Revisable]] and [[file:../30-reflections/30.90-knowing-after-action.org][Knowing Again After Action]], requiring causal claims to expose counterfactual, intervention, and confounding assumptions and preventing an agent from rewriting after as because of.
+* Interpretation Chain
+SEP causal-explanation survey → Woodwardian intervention and counterfactual dependence → Tao3k testing discipline for causal claims → attribution boundaries for post-action outcomes. The chain does not confuse a philosophical model with execution authority.
+* Navigation
+[[file:../README.org][navigation]]

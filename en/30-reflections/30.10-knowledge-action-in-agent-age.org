@@ -1,4 +1,4 @@
-#+TITLE: The Unity of Knowledge and Action in the Agent Age
+#+TITLE: Unity Without Collapse: Knowledge and Action in the Agent Age
 #+AUTHOR: Tao3k
 #+DATE: 2026-09-20
 #+FILETAGS: :philosophy:en:reflection:
@@ -18,22 +18,45 @@
 :CUSTOM_ID: reflection-knowledge-action-in-agent-age-en
 :END:
 
-When an agent can read, reason, and invoke tools, how should knowledge and action form a loop without collapsing evidence, decision, and authority?
+When an agent can read, reason, propose, receive authority, and invoke tools, how can knowledge and action belong to one chain of responsibility without collapsing facts, inference, judgment, authority, execution, and outcome into an unreviewable black box?
 
 [[file:../40-sources/40.10-wang-yangming-knowledge-action.org][source note]] · [[file:../10-charter/10.40-action-and-authority.org][target thematic Charter]]
 
 * Argument
 
-Action must consume sourced knowledge, explicit judgment, and authorization; outcomes must return through receipts and observation. Closure is not a jump from model confidence to execution.
+Wang Yangming's unity of knowing and acting first addresses a separation: treating verbal assent as completed knowledge while postponing conduct as an unrelated later task. The criticism still matters for agents. A system that recites a principle but cannot let it constrain proposals, refuse unauthorized action, or revise later judgment holds a retrievable statement, not knowledge that has entered practice.
+
+Modernization cannot mean that whatever is known must be executed. A system may know a risk but lack authority to alter the world. It may form a sound proposal but properly await human consent. It may decline to act because the action is irreversible. Non-action does not by itself disprove knowledge, and correct motivation does not legitimize unauthorized execution. The Tao3k revision is that genuine knowledge must be able to enter the action structure correctly while respecting authority, risk, human agency, and refusal.
+
+Unity therefore names a relation of responsibility and revision, not the disappearance of types:
+
+#+begin_example
+source → observation → claim → reasoning → judgment
+       → decision → authority → execution → outcome → new observation
+#+end_example
+
+Each object remains separately challengeable. A fact may be true while a decision is unjustified; a decision may be reasonable while the actor is unauthorized; an execution may return success while its real-world consequence fails. Layering is not a betrayal of unity. It is what prevents unity from becoming opaque domination in an AI system.
+
+Closure also requires outcomes to alter knowledge. Action is not the terminus of knowledge but an experimental condition under which the world supplies further evidence. If an outcome is not observed, reconciled, and returned to a revisable epistemic state, execution has completed but learning has not.
 
 * Counterexamples
 
-Read-only queries need not carry production-grade authorization; emergency stops may act before full explanation; some outcomes can only be observed later.
+Read-only inquiry need not carry production-grade authorization. Assurance should be proportional to consequence rather than imposed uniformly on every step.
+
+An emergency stop may act before a complete explanation, but the exception still needs a trigger, an authority source, and retrospective review. Otherwise emergency becomes a permanent path around responsibility.
+
+Some outcomes are observable only after delay, and others remain only partially observable. This does not defeat closure. It requires explicit pending, unknown, and unobservable states, and forbids recording “no failure found yet” as “success established.”
+
+Finally, ethical motivation and engineering reliability cannot substitute for one another. An honest but incapable agent can still cause harm; an accurate but unauthorized agent still may not act. Unity does not remove the separate tests of capability, authority, and consequence.
 
 * Provisional Conclusion
 
-The provisional conclusion is that knowledge and action constrain each other while proposal, decision, authority, execution, and outcome remain distinct.
+The Tao3k modernization can be stated as unity without collapse. Epistemically, knowing, discriminating, justifying, acting, and verifying belong to one traceable, challengeable, and revisable chain of responsibility. Architecturally, claim, judgment, decision, authority, execution, and outcome must remain distinguishable states with distinguishable owners.
+
+Philosophical unity therefore does not imply implementation collapse. Only by preserving these distinctions can we answer what the system knew, why it chose, who permitted action, what happened in the world, and how the next cycle must know differently.
 
 * Promotion Criteria
 
-Promote when authority boundaries, failure compensation, and real receipt patterns have executable evidence.
+Before promotion, test three claims across both low- and high-consequence settings: how sound knowledge remains a proposal when authority is absent; how failure, partial success, and delayed consequence re-enter one update loop; and how people retain informed refusal and withdrawal at different stages. The responsibility chain must also prove that it supports challenge, correction, and stopping rather than merely producing more logs.
+
+See [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable Knowledge]] and [[file:30.90-knowing-after-action.org][Knowing Again After Action]].

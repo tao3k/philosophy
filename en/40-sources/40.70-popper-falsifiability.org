@@ -1,0 +1,42 @@
+#+TITLE: Popper: Falsifiability and Empirical Claims
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-70-EN
+:SEMANTIC_ID: philosophy.source.popper-falsifiability
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.70-popper-falsifiability.org
+:SOURCE_ID: source.sep.pseudo-science
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Stanford Encyclopedia of Philosophy
+:SOURCE_WORK: Science and Pseudo-Science
+:SOURCE_EDITION: 2025-07-28
+:SOURCE_DATE: 2025-07-28
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.popper-falsifiability
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.popper-falsifiability-en
+:END:
+This note uses the [[https://plato.stanford.edu/entries/pseudo-science/][SEP entry Science and Pseudo-Science]] to record the place of Popperian falsifiability in the demarcation problem and the criticisms that followed. It is not a summary of Popper's complete philosophy of science.
+* Context
+Popper rejected verifiability as the boundary of empirical science and required scientific statements to be capable of logical conflict with possible observations. The entry also explains that falsifiability is not a complete definition of scientific practice: a single demarcation criterion can exclude legitimate science or admit pseudoscience, and the methodological willingness to accept refutation matters alongside logical form.
+* Interpretation Boundaries
+Falsifiability primarily disciplines empirical statements. It cannot be directly imposed on normative principles such as dignity, agency, or proportional assurance. Nor does one anomaly necessarily overturn a theory without examining measurement, background assumptions, and alternatives. Tao3k therefore rejects the slogan that all content must be falsifiable.
+* Influence
+It supports requiring empirical claims to expose possible observations that would count against them. It enters [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][Refutable, Challengeable, Revisable]], where empirical, causal, and normative forms of authority are distinguished.
+* Interpretation Chain
+SEP entry → Popperian demarcation and falsifiability → criticism of the criterion's limits → Tao3k failure conditions for empirical claims. The normative challenge path is a further synthesis of this repository, not a doctrine attributed back to Popper.
+* Navigation
+[[file:../README.org][navigation]]

@@ -1,0 +1,42 @@
+#+TITLE: Refutable, Challengeable, Revisable
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-80-EN
+:SEMANTIC_ID: philosophy.reflection.refutable-challengeable-revisable
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.80-refutable-challengeable-revisable.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.refutable-challengeable-revisable-en
+:END:
+If “every claim must be falsifiable” mistakenly treats normative principles as empirical hypotheses, what failure conditions, challenge paths, and revision conditions should different authoritative claims expose?
+
+[[file:../40-sources/40.70-popper-falsifiability.org][Popper source note]] · [[file:../40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce source note]] · [[file:../40-sources/40.90-woodward-interventionism.org][Woodward source note]]
+* Argument
+Empirical and predictive claims should be refutable. “This model upgrade will not change payment outcomes” must state which possible observations would conflict with it. A claim that can be redescribed as correct after any outcome bears no empirical risk and should not receive high epistemic authority.
+
+Causal claims require a stronger discipline. Temporal order, correlation, and predictive usefulness do not individually establish causation. To say that A causes B should expose the intervention or counterfactual variation under which B changes with A, and identify confounding, selection mechanisms, or levels that may defeat the explanation. Real intervention is not always permitted, but causal language should still disclose the intervention model on which it depends.
+
+Normative principles are not empirical hypotheses of the same kind. “Greater irreversibility requires stronger assurance” is not defeated by one observation, but it must be challengeable. Does a counterexample show that its scope is too broad? Does a value conflict require an exception? Does compliance produce unexpected harm? Can excluded people object? After challenge, a principle may be retained, qualified, revised, superseded, or withdrawn.
+
+All three disciplines point toward revisability. A mature knowledge object gives current reasons and also states what would make it stale, degraded, or invalid. Admitted is not eternal; proved is not universally applicable; observed is not permanently current. Peircean fallibilism does not leave everything undecided. It refuses to let present success block future inquiry.
+* Counterexamples
+An excessive focus on falsification can ignore measurement error, background assumptions, and theory holism, treating one anomaly as a simple veto. Refutation conditions must be evaluated with data quality, replication, and alternative explanations.
+
+“Anyone may challenge” can become indefinite delay or harassment without evidential duties and response deadlines. A challenge path should be accessible, but not every objection has veto power. The response must explain acceptance, rejection, or deferral.
+
+Revision can also become refusal to commit: after each failure, scope is rewritten so the claim never bears consequences. Revision must retain versions, old predictions, reasons for change, and affected decisions rather than erase failure history.
+* Provisional Conclusion
+The Tao3k discipline is not that everything is falsifiable. Empirical claims are refutable; causal claims face intervention and counterexample tests; normative principles are challengeable. Every authoritative object is revisable and preserves the history and impact of revision.
+
+Authority comes from accepting failure risk and challenge paths, not from immovability. The more a claim can change the world, the more clearly it should state how it may be wrong, who may question it, when review becomes mandatory, and how correction propagates.
+* Promotion Criteria
+Before promotion, provide positive and negative cases for empirical, causal, and normative claims and show that the classification handles mixed claims rather than hiding them. Define admission, response, and supersession duties for challenges, and verify that new versions cannot overwrite the record of prior failure.
+* Navigation
+[[file:../README.org][language index]]

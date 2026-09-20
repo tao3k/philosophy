@@ -33,6 +33,19 @@ insert_line_after() {
   mv "${temporary}" "${file}"
 }
 
+empty_section() {
+  local file="$1"
+  local heading="$2"
+  local following_heading="$3"
+  local temporary="${file}.tmp"
+  awk -v heading="${heading}" -v following_heading="${following_heading}" '
+    $0 == heading { print; skipping = 1; next }
+    skipping && $0 == following_heading { print; skipping = 0; next }
+    !skipping { print }
+  ' "${file}" > "${temporary}"
+  mv "${temporary}" "${file}"
+}
+
 expect_contract_failure() {
   local root="$1"
   local assertion_id="$2"
@@ -128,14 +141,12 @@ expect_contract_failure "${empty_en_section_root}" charter.en.has-counterargumen
 
 empty_cn_reflection_root="$(make_fixture empty-cn-reflection-argument)"
 empty_cn_reflection_file="${empty_cn_reflection_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
-replace_line "${empty_cn_reflection_file}" \
-  '^行动必须消费有来源的知识、显式判断与授权；结果必须以 receipt 和观察重新进入知识层。闭环不是从模型置信度直接跳到执行。$' ''
+empty_section "${empty_cn_reflection_file}" '* 论证' '* 反例'
 expect_contract_failure "${empty_cn_reflection_root}" reflection.cn.has-argument
 
 empty_en_reflection_root="$(make_fixture empty-en-reflection-argument)"
 empty_en_reflection_file="${empty_en_reflection_root}/en/30-reflections/30.10-knowledge-action-in-agent-age.org"
-replace_line "${empty_en_reflection_file}" \
-  '^Action must consume sourced knowledge, explicit judgment, and authorization; outcomes must return through receipts and observation. Closure is not a jump from model confidence to execution.$' ''
+empty_section "${empty_en_reflection_file}" '* Argument' '* Counterexamples'
 expect_contract_failure "${empty_en_reflection_root}" reflection.en.has-argument
 
 empty_cn_engineering_root="$(make_fixture empty-cn-engineering-review)"
@@ -220,14 +231,12 @@ done
 
 empty_cn_source_context_root="$(make_fixture empty-cn-source-context)"
 empty_cn_source_context_file="${empty_cn_source_context_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
-replace_line "${empty_cn_source_context_file}" \
-  '^“知”不是模型中任意可用的命题缓存，“行”也不是工具调用。原语境关注道德认识、意向与实践不可被方便地割裂。$' ''
+empty_section "${empty_cn_source_context_file}" '* 语境' '* 解释边界'
 expect_contract_failure "${empty_cn_source_context_root}" source-note.cn.has-context
 
 empty_en_source_context_root="$(make_fixture empty-en-source-context)"
 empty_en_source_context_file="${empty_en_source_context_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"
-replace_line "${empty_en_source_context_file}" \
-  '^Knowledge is not an arbitrary proposition cache, and action is not a tool call. The historical concern is that moral understanding, intention, and practice cannot be separated for convenience.$' ''
+empty_section "${empty_en_source_context_file}" '* Context' '* Interpretation Boundaries'
 expect_contract_failure "${empty_en_source_context_root}" source-note.en.has-context
 
 source_kind_root="$(make_fixture invalid-source-kind)"

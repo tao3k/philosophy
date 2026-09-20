@@ -1,0 +1,42 @@
+#+TITLE: Peirce: Fallibilism and Continuing Inquiry
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-60-EN
+:SEMANTIC_ID: philosophy.source.peirce-fallibilism-inquiry
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.60-peirce-fallibilism-inquiry.org
+:SOURCE_ID: source.sep.peirce
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Stanford Encyclopedia of Philosophy
+:SOURCE_WORK: Charles Sanders Peirce
+:SOURCE_EDITION: 2021-02-11
+:SOURCE_DATE: 2021-02-11
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.peirce-fallibilism-inquiry
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.peirce-fallibilism-inquiry-en
+:END:
+This note uses the [[https://plato.stanford.edu/entries/peirce/][Stanford Encyclopedia of Philosophy entry on Peirce]] to focus on fallibilism, continuing inquiry, and the methodological relation among abduction, deduction, and induction. It is a secondary interpretive entry, not a substitute for Peirce's primary texts.
+* Context
+Peircean fallibilism does not say that every belief is equally unreliable. It denies that inquiry at a particular historical moment may assume possession of final, unrevisable truth, while also rejecting skeptical paralysis. The entry connects this stance with the injunction not to block the way of inquiry and with a continuing process of hypothesis formation, consequence derivation, and testing.
+* Interpretation Boundaries
+Fallibilism does not imply indefinite deferral of decisions or permit absence of evidence to masquerade as openness. Action sometimes occurs under incomplete knowledge; the discipline is to retain uncertainty, revision conditions, and subsequent tests rather than refuse responsibility. The source does not prove any versioning, lineage, or invalidation implementation correct.
+* Influence
+It supports “admitted is not eternal” and the requirement that mature knowledge state its invalidation conditions. It enters [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][Refutable, Challengeable, Revisable]] and prevents Tao3k from treating a current proof, benchmark, or acceptance as permanent authority.
+* Interpretation Chain
+SEP entry → Peircean fallibilism and method of inquiry → Tao3k discipline of revisable knowledge → version, failure-history, and supersession requirements in the reflection. The chain preserves the difference between a secondary source and present normative interpretation.
+* Navigation
+[[file:../README.org][navigation]]

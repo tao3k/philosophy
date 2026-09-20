@@ -1,0 +1,50 @@
+#+TITLE: Traceable Knowledge: From Source to Consequence
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-70-EN
+:SEMANTIC_ID: philosophy.reflection.traceable-knowledge
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.70-traceable-knowledge-source-to-consequence.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.traceable-knowledge-en
+:END:
+A claim with real-world authority should be able to explain both why it was known and what followed from treating it as knowledge. Why is traceability that ends at a file source or model input insufficient for responsibility?
+
+[[file:30.10-knowledge-action-in-agent-age.org][Unity Without Collapse]] · [[file:../40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce source note]]
+* Argument
+Traceability first has an epistemic direction. A claim should lead back to the inference that produced it; the inference should expose evidence and assumptions; the evidence should lead to observations; and the observations should identify source, time, version, conditions, and missing scope. This chain does not guarantee truth. It lets another person reconstruct why belief was warranted at that time.
+
+#+begin_example
+claim ← inference ← evidence ← observation ← source
+#+end_example
+
+There is also a practical direction. Once knowledge participates in judgment, it may alter decisions, authority, actions, and effects. Forward traceability does not predict every future. It preserves the choices that actually occurred so the consequence of a claim does not disappear at the execution boundary.
+
+#+begin_example
+knowledge → judgment → decision → authority → action → effect → observation
+#+end_example
+
+Together the two directions turn provenance into answerability. Maintainers can ask which evidence supported an action, which authority permitted a change to the world, and whether harm calls for revising an observation, inference, scope, decision rule, or authority arrangement. Answerability is not automatic blame. It is first the capacity of a system and organization to answer why.
+
+The trace must also represent absences: excluded sources, unsatisfied premises, rejected proposals, withheld authority, and outcomes not yet observed. Recording only the successful route creates false inevitability and hides the alternatives that were genuinely available.
+* Counterexamples
+Retaining every intermediate state can violate privacy, expose security boundaries, or bury low-risk work under audit cost. Traceability is not unlimited retention; consequence, sensitivity, and reversibility should determine granularity, duration, and access.
+
+A provenance chain may also be formally complete yet epistemically empty: sources copy one another, evidence is irrelevant to the conclusion, observations have expired, or a receipt proves command completion without proving real effect. The existence of a chain cannot replace evaluation of its relations.
+
+Some human experience cannot be reduced to machine-verifiable observations. Requiring all knowledge to present structured evidence can systematically exclude real but difficult-to-quantify harm. Traceability must admit testimony and dissent while marking their interpretive boundaries.
+* Provisional Conclusion
+Mature knowledge carries two forms of traceability: backward to sources, observations, assumptions, and inference; forward to judgment, authority, action, consequence, and new observation. The first disciplines warrant and the second disciplines responsibility. Together they place an output inside a history that can be challenged and revised.
+
+Traceability is not maximized recording. It is the minimum chain sufficient to reconstruct reasons and consequences. Its quality is measured by whether it enables refutation, correction, stopping, and remedy—not by log volume.
+* Promotion Criteria
+Test at least three cases: reliable source with faulty inference, reasonable inference without authority, and successful execution with harmful long-term effects. Establish deletion rules for conflicts between privacy and answerability, and show that “not observed” never silently becomes “no effect.” Until these boundaries mature, this remains a knowledge discipline rather than a new Charter principle.
+* Navigation
+[[file:../README.org][language index]]

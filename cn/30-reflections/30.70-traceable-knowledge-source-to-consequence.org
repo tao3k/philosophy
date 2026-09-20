@@ -1,0 +1,64 @@
+#+TITLE: 可追溯的知：从来源到后果
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-70-CN
+:SEMANTIC_ID: philosophy.reflection.traceable-knowledge
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.70-traceable-knowledge-source-to-consequence.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.traceable-knowledge-cn
+:END:
+一个拥有现实权威的主张，应当能够向后说明“凭什么知道”，也能够向前说明“这个知后来造成了什么”。
+如果 traceability 只停在文件来源或模型输入，它为何仍不足以构成责任？
+
+[[file:30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] · [[file:../40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce 来源说明]]
+* 论证
+可追溯首先有一个认识论方向。一个 claim 必须能够回到产生它的 inference，inference 必须暴露所用的
+evidence 与 assumptions，evidence 必须回到 observation，observation 又必须说明 source、时间、版本、
+观察条件和缺失范围。这条链不是保证真理，而是让别人能够重建“当时为什么有理由这样相信”。
+
+#+begin_example
+claim ← inference ← evidence ← observation ← source
+#+end_example
+
+第二个方向是实践性的。知识一旦参与判断，就可能改变 decision、authority、action 和 effect。向前追溯
+不是预测所有未来，而是保存实际发生的选择链，使一个主张的后果不会在执行边界处失踪。
+
+#+begin_example
+knowledge → judgment → decision → authority → action → effect → observation
+#+end_example
+
+双向链合在一起后，traceability 才从 provenance 上升为 answerability。它使维护者可以追问：哪个证据
+支撑了这次行动？哪个授权允许了现实改变？出现伤害后，应修正的是 observation、inference、scope、
+decision rule，还是权限安排？可问责并不等于自动归罪；它首先意味着系统和组织有能力回答“为什么”。
+
+追溯对象还必须包含“没有发生的东西”：被排除的来源、未满足的前提、被拒绝的建议、没有获得的权限、
+尚未观察的后果。只记录成功路径会制造一种虚假的必然性，使后来者看不到当时有哪些真实替代方案。
+* 反例
+完整保存每个中间状态可能侵犯隐私、泄露安全边界或让低风险工作被审计成本淹没。因此可追溯不等于无限
+留存；它需要按后果、敏感度和可逆性选择粒度、保留期与访问权。
+
+一条 provenance 链也可能形式完整却认识论空洞：来源互相抄袭、证据与结论不相干、时间已经过期，或
+receipt 只证明命令运行而没有证明现实效果。链的存在不能替代对链中关系的评价。
+
+有些人的经验不能被还原成可机器验证的 observation。要求所有知识都提交结构化证据，可能系统性排除
+难以量化但真实的伤害。可追溯必须允许证词、异议和不可量化影响进入，同时明确其解释边界。
+* 暂定结论
+成熟的“知”应当携带两种可追溯性：向后追到来源、观察、假设与推理，向前追到判断、授权、行动、后果
+与新观察。前者约束凭据，后者约束责任；二者共同把一次输出放进可以质询和修正的历史。
+
+但 traceability 不是最大化记录，而是保存足以重建理由与后果的最小责任链。它的质量由能否支持反驳、
+纠错、停止和补救判断，而不是由日志体积判断。
+* 升格条件
+需要通过至少三类案例检验：来源可靠但推理错误、推理合理但权限不足、执行成功但长期后果有害。还要形成
+隐私与可问责冲突下的删减规则，并证明“未观察”不会被错误转换为“无影响”。在这些边界成熟前，本篇
+只提出知识纪律，不新增 Charter。
+* 导航
+[[file:../README.org][语言入口]]
