@@ -13,9 +13,18 @@ check:
 trace document:
     ./scripts/trace-org-contract.sh "{{document}}"
 
-# Create a contract-shaped document. Set TITLE_ZH, TITLE_EN, and optionally AUTHOR.
+# Create a paired contract-shaped document. Run `just new-help` for required inputs.
 new kind filename doc_id:
     ./scripts/new-philosophy-document.sh "{{kind}}" "{{filename}}" "{{doc_id}}"
+
+# Show common and kind-specific inputs for `just new`.
+new-help:
+    @printf '%s\n' \
+      'common: TITLE_ZH TITLE_EN (optional: AUTHOR)' \
+      'charter: PRINCIPLE_REF REFINES' \
+      'engineering-map: PRINCIPLE_REF' \
+      'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE' \
+      'source-note optional: SOURCE_ID SOURCE_KIND SOURCE_EDITION SOURCE_DATE INTERPRETATION_STATUS CLAIM_SCOPE'
 
 # List document kinds accepted by the scaffolder.
 kinds:
