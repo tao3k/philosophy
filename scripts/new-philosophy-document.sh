@@ -51,20 +51,47 @@ if [ -e "${cn_destination}" ] || [ -e "${en_destination}" ]; then
 fi
 
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
-principle_ref="${PRINCIPLE_REF:-${base_doc_id}}"
+principle_ref="${PRINCIPLE_REF:-}"
+refines="${REFINES:-}"
 source_id="${SOURCE_ID:-${base_doc_id}}"
 source_kind="${SOURCE_KIND:-SYNTHESIS}"
+source_author="${SOURCE_AUTHOR:-}"
+source_work="${SOURCE_WORK:-}"
+source_language="${SOURCE_LANGUAGE:-}"
+source_date="${SOURCE_DATE:-}"
 today="$(date -u +%Y-%m-%d)"
 
-if [ "${kind}" = "source-note" ]; then
-  case "${source_kind}" in
-    PRIMARY|SECONDARY|SYNTHESIS|ENGINEERING_EVIDENCE) ;;
-    *)
-      echo "philosophy: SOURCE_KIND must be PRIMARY, SECONDARY, SYNTHESIS, or ENGINEERING_EVIDENCE" >&2
-      exit 2
-      ;;
-  esac
-fi
+require_input() {
+  local name="$1"
+  local value="$2"
+  if [ -z "${value}" ]; then
+    echo "philosophy: ${name} is required for ${kind}" >&2
+    exit 2
+  fi
+}
+
+case "${kind}" in
+  charter)
+    require_input PRINCIPLE_REF "${principle_ref}"
+    require_input REFINES "${refines}"
+    ;;
+  engineering-map)
+    require_input PRINCIPLE_REF "${principle_ref}"
+    ;;
+  source-note)
+    require_input SOURCE_AUTHOR "${source_author}"
+    require_input SOURCE_WORK "${source_work}"
+    require_input SOURCE_LANGUAGE "${source_language}"
+    source_date="${source_date:-${today}}"
+    case "${source_kind}" in
+      PRIMARY|SECONDARY|SYNTHESIS|ENGINEERING_EVIDENCE) ;;
+      *)
+        echo "philosophy: SOURCE_KIND must be PRIMARY, SECONDARY, SYNTHESIS, or ENGINEERING_EVIDENCE" >&2
+        exit 2
+        ;;
+    esac
+    ;;
+esac
 
 escape_sed_replacement() {
   printf '%s' "$1" | sed 's/[&|\\]/\\&/g'
@@ -87,13 +114,14 @@ render_template() {
     -e "s|<SEMANTIC_ID>|$(escape_sed_replacement "${semantic_id}")|g" \
     -e "s|<COUNTERPART>|$(escape_sed_replacement "${counterpart}")|g" \
     -e "s|<PRINCIPLE_REF>|$(escape_sed_replacement "${principle_ref}")|g" \
+    -e "s|<REFINES>|$(escape_sed_replacement "${refines}")|g" \
     -e "s|<SOURCE_ID>|$(escape_sed_replacement "${source_id}")|g" \
     -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${source_kind}")|g" \
-    -e "s|<SOURCE_AUTHOR>|$(escape_sed_replacement "${author}")|g" \
-    -e "s|<SOURCE_WORK>|$(escape_sed_replacement "${title}")|g" \
+    -e "s|<SOURCE_AUTHOR>|$(escape_sed_replacement "${source_author}")|g" \
+    -e "s|<SOURCE_WORK>|$(escape_sed_replacement "${source_work}")|g" \
     -e "s|<SOURCE_EDITION>|$(escape_sed_replacement "${SOURCE_EDITION:-1}")|g" \
-    -e "s|<SOURCE_DATE>|${today}|g" \
-    -e "s|<SOURCE_LANGUAGE>|$(if [ "${locale}" = cn ]; then printf zh-CN; else printf en; fi)|g" \
+    -e "s|<SOURCE_DATE>|$(escape_sed_replacement "${source_date}")|g" \
+    -e "s|<SOURCE_LANGUAGE>|$(escape_sed_replacement "${source_language}")|g" \
     -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${INTERPRETATION_STATUS:-MODERNIZED}")|g" \
     -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
     -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \
