@@ -14,7 +14,7 @@
 :SOURCE_ID: source.agent-systems
 :SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Tao3k engineering synthesis
-:SOURCE_WORK: ASP, MRR, mrr-data, POO Flow, Marlin, Aitia, and Episteme engineering observations
+:SOURCE_WORK: ASP、MRR、mrr-data、POO Flow、Marlin、Aitia、Episteme 工程实践综合 / engineering-practice synthesis
 :SOURCE_EDITION: workspace-synthesis-v1
 :SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh

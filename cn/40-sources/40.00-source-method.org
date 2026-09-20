@@ -14,7 +14,7 @@
 :SOURCE_ID: philosophy.source-method.v1
 :SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Tao3k
-:SOURCE_WORK: 来源与解释方法
+:SOURCE_WORK: 来源与解释方法 / Source and Interpretation Method
 :SOURCE_EDITION: 1
 :SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh

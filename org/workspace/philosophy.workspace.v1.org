@@ -183,6 +183,8 @@
   (properties
     "SOURCE_ID"
     "SOURCE_KIND"
+    "SOURCE_AUTHOR"
+    "SOURCE_WORK"
     "SOURCE_EDITION"
     "SOURCE_DATE"
     "SOURCE_LANGUAGE"
@@ -211,6 +213,8 @@
   (properties
     "SOURCE_ID"
     "SOURCE_KIND"
+    "SOURCE_AUTHOR"
+    "SOURCE_WORK"
     "SOURCE_EDITION"
     "SOURCE_DATE"
     "SOURCE_LANGUAGE"

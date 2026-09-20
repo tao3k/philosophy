@@ -100,13 +100,28 @@ done
 
 expect_failure "${common[@]}" "${scaffolder}" charter 10.90-missing.org PHIL-MISSING
 env TITLE_ZH=原则 TITLE_EN=Principle \
-  PRINCIPLE_REF=PHIL-NEW-001 REFINES='PHIL-002 PHIL-005' \
+  PRINCIPLE_REF=PHIL-NEW-001 PRINCIPLE_KIND=refinement REFINES='PHIL-002 PHIL-005' \
   "${scaffolder}" charter 10.91-principle.org PHIL-NEW >/dev/null
 for locale in cn en; do
   charter_file="${fixture_root}/${locale}/10-charter/10.91-principle.org"
   assert_property "${charter_file}" PRINCIPLE_ID PHIL-NEW-001
   assert_property "${charter_file}" REFINES 'PHIL-002 PHIL-005'
 done
+
+env TITLE_ZH=基础 TITLE_EN=Foundation \
+  PRINCIPLE_REF=PHIL-NEW-FOUNDATION PRINCIPLE_KIND=foundational \
+  "${scaffolder}" charter 10.92-foundation.org PHIL-FOUNDATION >/dev/null
+for locale in cn en; do
+  foundation_file="${fixture_root}/${locale}/10-charter/10.92-foundation.org"
+  assert_property "${foundation_file}" PRINCIPLE_KIND foundational
+  assert_property "${foundation_file}" REFINES none
+done
+expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
+  PRINCIPLE_REF=PHIL-INVALID PRINCIPLE_KIND=foundational REFINES=PHIL-001 \
+  "${scaffolder}" charter 10.93-invalid-foundation.org PHIL-INVALID
+expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
+  PRINCIPLE_REF=PHIL-INVALID PRINCIPLE_KIND=refinement REFINES=none \
+  "${scaffolder}" charter 10.94-invalid-refinement.org PHIL-INVALID
 
 expect_failure "${common[@]}" "${scaffolder}" engineering-map 20.90-missing.org MAP-MISSING
 env TITLE_ZH=映射 TITLE_EN=Map PRINCIPLE_REF=PHIL-AUTH-001 \

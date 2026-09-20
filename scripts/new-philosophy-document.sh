@@ -48,6 +48,7 @@ en_destination="${repository_root}/en/${subdir}/${filename}"
 
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
 principle_ref="${PRINCIPLE_REF:-}"
+principle_kind="${PRINCIPLE_KIND:-refinement}"
 refines="${REFINES:-}"
 source_id="${SOURCE_ID:-${base_doc_id}}"
 source_kind="${SOURCE_KIND:-SYNTHESIS}"
@@ -75,7 +76,26 @@ require_input() {
 case "${kind}" in
   charter)
     require_input PRINCIPLE_REF "${principle_ref}"
-    require_input REFINES "${refines}"
+    case "${principle_kind}" in
+      foundational)
+        if [ -n "${refines}" ] && [ "${refines}" != none ]; then
+          echo "philosophy: foundational principles must use REFINES=none" >&2
+          exit 2
+        fi
+        refines=none
+        ;;
+      refinement)
+        require_input REFINES "${refines}"
+        if [ "${refines}" = none ]; then
+          echo "philosophy: refinement principles must name at least one REFINES target" >&2
+          exit 2
+        fi
+        ;;
+      *)
+        echo "philosophy: PRINCIPLE_KIND must be foundational or refinement" >&2
+        exit 2
+        ;;
+    esac
     ;;
   engineering-map)
     require_input PRINCIPLE_REF "${principle_ref}"
@@ -131,6 +151,7 @@ render_template() {
     -e "s|<SEMANTIC_ID>|$(escape_sed_replacement "${semantic_id}")|g" \
     -e "s|<COUNTERPART>|$(escape_sed_replacement "${counterpart}")|g" \
     -e "s|<PRINCIPLE_REF>|$(escape_sed_replacement "${principle_ref}")|g" \
+    -e "s|<PRINCIPLE_KIND>|$(escape_sed_replacement "${principle_kind}")|g" \
     -e "s|<REFINES>|$(escape_sed_replacement "${refines}")|g" \
     -e "s|<SOURCE_ID>|$(escape_sed_replacement "${source_id}")|g" \
     -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${source_kind}")|g" \

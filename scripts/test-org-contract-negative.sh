@@ -82,6 +82,11 @@ source_pair_file="${source_pair_root}/en/40-sources/40.10-wang-yangming-knowledg
 replace_line "${source_pair_file}" '^:SOURCE_ID:.*$' ':SOURCE_ID: source.unrelated'
 expect_contract_failure "${source_pair_root}" 'must have equal document property SOURCE_ID'
 
+source_author_pair_root="$(make_fixture mismatched-source-author)"
+source_author_pair_file="${source_author_pair_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"
+replace_line "${source_author_pair_file}" '^:SOURCE_AUTHOR:.*$' ':SOURCE_AUTHOR: unrelated author'
+expect_contract_failure "${source_author_pair_root}" 'must have equal document property SOURCE_AUTHOR'
+
 locator_pair_root="$(make_fixture mismatched-source-paths)"
 locator_pair_file="${locator_pair_root}/en/40-sources/40.50-agent-systems-state-authority.org"
 replace_line "${locator_pair_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: unrelated/path'
@@ -91,6 +96,11 @@ governance_pair_root="$(make_fixture mismatched-governance-id)"
 governance_pair_file="${governance_pair_root}/en/90-governance/90.00-authoring-and-admission.org"
 replace_line "${governance_pair_file}" '^:GOVERNANCE_ID:.*$' ':GOVERNANCE_ID: philosophy.other-governance.v1'
 expect_contract_failure "${governance_pair_root}" 'must have equal document property GOVERNANCE_ID'
+
+principle_kind_root="$(make_fixture invalid-foundational-refines)"
+principle_kind_file="${principle_kind_root}/cn/10-charter/10.00-tao3k-charter.org"
+replace_line "${principle_kind_file}" '^:REFINES: none$' ':REFINES: PHIL-001'
+expect_contract_failure "${principle_kind_root}" charter.cn.every-principle-has-complete-metadata
 
 principle_ref_root="$(make_fixture empty-principle-ref)"
 principle_ref_file="${principle_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"

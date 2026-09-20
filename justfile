@@ -23,7 +23,7 @@ new kind filename doc_id:
 new-help:
     @printf '%s\n' \
       'common: TITLE_ZH TITLE_EN (optional: AUTHOR)' \
-      'charter: PRINCIPLE_REF REFINES' \
+      'charter: PRINCIPLE_REF PRINCIPLE_KIND (refinement also requires REFINES)' \
       'engineering-map: PRINCIPLE_REF' \
       'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE SOURCE_EDITION SOURCE_DATE' \
       'engineering evidence: SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE' \

@@ -931,6 +931,13 @@
       (or
         (= (property "PRINCIPLE_KIND") "foundational")
         (= (property "PRINCIPLE_KIND") "refinement"))
+      (or
+        (and
+          (= (property "PRINCIPLE_KIND") "foundational")
+          (= (property "REFINES") "none"))
+        (and
+          (= (property "PRINCIPLE_KIND") "refinement")
+          (not (= (property "REFINES") "none"))))
       (not (= (property "NORMATIVE_LEVEL") ""))
       (not (= (property "SCOPE") ""))
       (not (= (property "REVISION") ""))
@@ -1068,6 +1075,13 @@
       (or
         (= (property "PRINCIPLE_KIND") "foundational")
         (= (property "PRINCIPLE_KIND") "refinement"))
+      (or
+        (and
+          (= (property "PRINCIPLE_KIND") "foundational")
+          (= (property "REFINES") "none"))
+        (and
+          (= (property "PRINCIPLE_KIND") "refinement")
+          (not (= (property "REFINES") "none"))))
       (not (= (property "NORMATIVE_LEVEL") ""))
       (not (= (property "SCOPE") ""))
       (not (= (property "REVISION") ""))
