@@ -7,6 +7,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "repository-index")))
+#+end_src
 ** Language links
 :PROPERTIES:
 :ASSERT_ID: repository-index.has-language-links
@@ -38,6 +46,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "engineering-map")))
+#+end_src
 ** Principle reference
 :PROPERTIES:
 :ASSERT_ID: engineering-map.cn.has-principle-ref
@@ -93,6 +109,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "engineering-map")))
+#+end_src
 ** Principle reference
 :PROPERTIES:
 :ASSERT_ID: engineering-map.en.has-principle-ref
@@ -148,6 +172,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "reflection")))
+#+end_src
 ** Question
 :PROPERTIES:
 :ASSERT_ID: reflection.cn.has-question
@@ -195,6 +227,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "reflection")))
+#+end_src
 ** Question
 :PROPERTIES:
 :ASSERT_ID: reflection.en.has-question
@@ -242,13 +282,21 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "source-note")))
+#+end_src
 ** Source id
 :PROPERTIES:
 :ASSERT_ID: source-note.cn.has-source-id
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_ID")))
+(assert exists (and (node-property :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Source kind
 :PROPERTIES:
@@ -258,10 +306,10 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "SOURCE_KIND" value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND" value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND" value "SYNTHESIS"))
-    (node-property :summary (key "SOURCE_KIND" value "ENGINEERING_EVIDENCE"))))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -269,7 +317,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_AUTHOR")))
+(assert exists (and (node-property :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
 #+end_src
 ** Source work
 :PROPERTIES:
@@ -277,7 +325,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_WORK")))
+(assert exists (and (node-property :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
 #+end_src
 ** Source edition
 :PROPERTIES:
@@ -285,7 +333,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_EDITION")))
+(assert exists (and (node-property :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
 #+end_src
 ** Source date
 :PROPERTIES:
@@ -293,7 +341,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_DATE")))
+(assert exists (and (node-property :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
 #+end_src
 ** Source language
 :PROPERTIES:
@@ -301,7 +349,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_LANGUAGE")))
+(assert exists (and (node-property :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
 #+end_src
 ** Interpretation status
 :PROPERTIES:
@@ -309,7 +357,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "INTERPRETATION_STATUS")))
+(assert exists (and (node-property :summary (key "INTERPRETATION_STATUS")) (not (= (summary value) ""))))
 #+end_src
 ** Claim scope
 :PROPERTIES:
@@ -317,7 +365,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "CLAIM_SCOPE")))
+(assert exists (and (node-property :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
 #+end_src
 ** Source
 :PROPERTIES:
@@ -366,13 +414,21 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "source-note")))
+#+end_src
 ** Source id
 :PROPERTIES:
 :ASSERT_ID: source-note.en.has-source-id
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_ID")))
+(assert exists (and (node-property :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Source kind
 :PROPERTIES:
@@ -382,10 +438,10 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "SOURCE_KIND" value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND" value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND" value "SYNTHESIS"))
-    (node-property :summary (key "SOURCE_KIND" value "ENGINEERING_EVIDENCE"))))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -393,7 +449,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_AUTHOR")))
+(assert exists (and (node-property :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
 #+end_src
 ** Source work
 :PROPERTIES:
@@ -401,7 +457,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_WORK")))
+(assert exists (and (node-property :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
 #+end_src
 ** Source edition
 :PROPERTIES:
@@ -409,7 +465,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_EDITION")))
+(assert exists (and (node-property :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
 #+end_src
 ** Source date
 :PROPERTIES:
@@ -417,7 +473,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_DATE")))
+(assert exists (and (node-property :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
 #+end_src
 ** Source language
 :PROPERTIES:
@@ -425,7 +481,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_LANGUAGE")))
+(assert exists (and (node-property :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
 #+end_src
 ** Interpretation status
 :PROPERTIES:
@@ -433,7 +489,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "INTERPRETATION_STATUS")))
+(assert exists (and (node-property :summary (key "INTERPRETATION_STATUS")) (not (= (summary value) ""))))
 #+end_src
 ** Claim scope
 :PROPERTIES:
@@ -441,7 +497,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "CLAIM_SCOPE")))
+(assert exists (and (node-property :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
 #+end_src
 ** Source
 :PROPERTIES:
@@ -576,6 +632,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: topology.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "topology")))
+#+end_src
 ** Topology id
 :PROPERTIES:
 :ASSERT_ID: topology.has-id
@@ -623,6 +687,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "charter")))
+#+end_src
 ** Claim
 :PROPERTIES:
 :ASSERT_ID: charter.cn.has-claim
@@ -752,6 +824,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "charter")))
+#+end_src
 ** Claim
 :PROPERTIES:
 :ASSERT_ID: charter.en.has-claim
@@ -881,6 +961,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "governance")))
+#+end_src
 ** Governance identity
 :PROPERTIES:
 :ASSERT_ID: governance.cn.has-identity
@@ -952,6 +1040,14 @@
 :CONTRACT_SCOPE: document
 :CONTRACT_KIND: org-elements
 :END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND") :summary (value "governance")))
+#+end_src
 ** Governance identity
 :PROPERTIES:
 :ASSERT_ID: governance.en.has-identity

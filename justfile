@@ -7,6 +7,7 @@ default:
 # Delegate closed-world topology, exact composition, pairing, and assertions to Orgize.
 check:
     ./scripts/test-new-philosophy-document.sh
+    ./scripts/test-org-contract-negative.sh
     ./scripts/check-org-contracts.sh
 
 # Print the parser-owned contract trace for one document.
