@@ -54,13 +54,21 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "原则")))
 #+end_src
-** Mapping section
+** Normative requirements
 :PROPERTIES:
-:ASSERT_ID: engineering-map.cn.has-mapping
+:ASSERT_ID: engineering-map.cn.has-normative-requirements
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "工程映射")))
+(assert exists (headline :summary (title "规范要求")))
+#+end_src
+** Current realization
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-current-realization
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "当前实现")))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -70,13 +78,13 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "审查问题")))
 #+end_src
-** Mapping table
+** Requirement and realization tables
 :PROPERTIES:
-:ASSERT_ID: engineering-map.cn.has-table
+:ASSERT_ID: engineering-map.cn.has-two-tables
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (table))
+(assert count >= 2 (table))
 #+end_src
 
 * English engineering map v1
@@ -101,13 +109,21 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "Principle")))
 #+end_src
-** Mapping section
+** Normative requirements
 :PROPERTIES:
-:ASSERT_ID: engineering-map.en.has-mapping
+:ASSERT_ID: engineering-map.en.has-normative-requirements
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Engineering Mapping")))
+(assert exists (headline :summary (title "Normative Requirements")))
+#+end_src
+** Current realization
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-current-realization
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Current Realization")))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -117,13 +133,13 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "Review Questions")))
 #+end_src
-** Mapping table
+** Requirement and realization tables
 :PROPERTIES:
-:ASSERT_ID: engineering-map.en.has-table
+:ASSERT_ID: engineering-map.en.has-two-tables
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (table))
+(assert count >= 2 (table))
 #+end_src
 
 * Chinese reflection v1
@@ -234,6 +250,70 @@
 #+begin_src org-contract
 (assert exists (node-property :summary (key "SOURCE_ID")))
 #+end_src
+** Source kind
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_KIND")))
+#+end_src
+** Source author
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-author
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_AUTHOR")))
+#+end_src
+** Source work
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-work
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_WORK")))
+#+end_src
+** Source edition
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_EDITION")))
+#+end_src
+** Source date
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_DATE")))
+#+end_src
+** Source language
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_LANGUAGE")))
+#+end_src
+** Interpretation status
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-interpretation-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "INTERPRETATION_STATUS")))
+#+end_src
+** Claim scope
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-claim-scope
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "CLAIM_SCOPE")))
+#+end_src
 ** Source
 :PROPERTIES:
 :ASSERT_ID: source-note.cn.has-source
@@ -266,6 +346,14 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "影响")))
 #+end_src
+** Interpretation chain
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-interpretation-chain
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "解释链")))
+#+end_src
 
 * English source note v1
 :PROPERTIES:
@@ -280,6 +368,70 @@
 :END:
 #+begin_src org-contract
 (assert exists (node-property :summary (key "SOURCE_ID")))
+#+end_src
+** Source kind
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_KIND")))
+#+end_src
+** Source author
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-author
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_AUTHOR")))
+#+end_src
+** Source work
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-work
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_WORK")))
+#+end_src
+** Source edition
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_EDITION")))
+#+end_src
+** Source date
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_DATE")))
+#+end_src
+** Source language
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_LANGUAGE")))
+#+end_src
+** Interpretation status
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-interpretation-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "INTERPRETATION_STATUS")))
+#+end_src
+** Claim scope
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-claim-scope
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "CLAIM_SCOPE")))
 #+end_src
 ** Source
 :PROPERTIES:
@@ -312,6 +464,14 @@
 :END:
 #+begin_src org-contract
 (assert exists (headline :summary (title "Influence")))
+#+end_src
+** Interpretation chain
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-interpretation-chain
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Interpretation Chain")))
 #+end_src
 * Maintained philosophy document v1
 :PROPERTIES:
@@ -461,6 +621,78 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "主张")))
 #+end_src
+** First-class principles
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-nodes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "原则")))
+#+end_src
+** Principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "PRINCIPLE_ID")))
+#+end_src
+** Principle status
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-statuses
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "PRINCIPLE_STATUS")))
+#+end_src
+** Normative level
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-normative-levels
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "NORMATIVE_LEVEL")))
+#+end_src
+** Scope
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-scopes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SCOPE")))
+#+end_src
+** Revision
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "REVISION")))
+#+end_src
+** Supersedes
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-supersedes-links
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SUPERSEDES")))
+#+end_src
+** Superseded by
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-superseded-by-links
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SUPERSEDED_BY")))
+#+end_src
+** Change rationale
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-change-rationales
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "CHANGE_RATIONALE")))
+#+end_src
 ** Rationale
 :PROPERTIES:
 :ASSERT_ID: charter.cn.has-rationale
@@ -532,6 +764,78 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "Claim")))
 #+end_src
+** First-class principles
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-nodes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Principles")))
+#+end_src
+** Principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "PRINCIPLE_ID")))
+#+end_src
+** Principle status
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-statuses
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "PRINCIPLE_STATUS")))
+#+end_src
+** Normative level
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-normative-levels
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "NORMATIVE_LEVEL")))
+#+end_src
+** Scope
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-scopes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SCOPE")))
+#+end_src
+** Revision
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "REVISION")))
+#+end_src
+** Supersedes
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-supersedes-links
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SUPERSEDES")))
+#+end_src
+** Superseded by
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-superseded-by-links
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "SUPERSEDED_BY")))
+#+end_src
+** Change rationale
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-change-rationales
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1 (node-property :summary (key "CHANGE_RATIONALE")))
+#+end_src
 ** Rationale
 :PROPERTIES:
 :ASSERT_ID: charter.en.has-rationale
@@ -587,4 +891,146 @@
 :END:
 #+begin_src org-contract
 (assert exists (table))
+#+end_src
+
+* Chinese governance v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.governance.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Governance identity
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "GOVERNANCE_ID")))
+#+end_src
+** Lifecycle identity
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-lifecycle-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "LIFECYCLE_ID")))
+#+end_src
+** Authority
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-authority
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "权威")))
+#+end_src
+** Lifecycle
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-lifecycle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "生命周期")))
+#+end_src
+** Admission
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-admission
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "准入")))
+#+end_src
+** Change policy
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-change-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "变更策略")))
+#+end_src
+** Failure handling
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-failure-handling
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "失败处理")))
+#+end_src
+** Review and challenge
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-review-and-challenge
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "审查与挑战")))
+#+end_src
+
+* English governance v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.governance.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Governance identity
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "GOVERNANCE_ID")))
+#+end_src
+** Lifecycle identity
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-lifecycle-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "LIFECYCLE_ID")))
+#+end_src
+** Authority
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-authority
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Authority")))
+#+end_src
+** Lifecycle
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-lifecycle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Lifecycle")))
+#+end_src
+** Admission
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-admission
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Admission")))
+#+end_src
+** Change policy
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-change-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Change Policy")))
+#+end_src
+** Failure handling
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-failure-handling
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Failure Handling")))
+#+end_src
+** Review and challenge
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-review-and-challenge
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Review and Challenge")))
 #+end_src

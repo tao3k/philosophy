@@ -42,3 +42,8 @@ flowchart TD
 All maintained prose lives below =cn/= or =en/=. Files with the same
 =SEMANTIC_ID= are semantic counterparts, not generated translations. The root
 index only routes readers and tools; it is not a third language projection.
+
+Repository admission is declared as Org AST in
+[[file:org/workspace/philosophy.workspace.v1.org][philosophy.workspace.v1.org]] and executed by
+=orgize contract workspace=. The shell entry behind =just check= is intentionally only a thin
+argument-forwarding wrapper; it does not implement a second governance language.

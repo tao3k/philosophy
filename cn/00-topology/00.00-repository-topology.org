@@ -27,7 +27,7 @@
 | =20-engineering/= | engineering-map | 规范性映射 |
 | =30-reflections/= | reflection | 探索性 |
 | =40-sources/= | source-note | 解释性证据 |
-| =90-governance/= | engineering-map | 仓库治理 |
+| =90-governance/= | governance | 仓库治理 |
 
 * 拓扑
 

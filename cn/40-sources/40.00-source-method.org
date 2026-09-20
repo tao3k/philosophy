@@ -12,6 +12,14 @@
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.00-source-method.org
 :SOURCE_ID: philosophy.source-method.v1
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: Tao3k
+:SOURCE_WORK: 来源与解释方法
+:SOURCE_EDITION: 1
+:SOURCE_DATE: 2026-09-20
+:SOURCE_LANGUAGE: zh-CN
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: repository-method
 :END:
 
 * 来源
@@ -36,3 +44,9 @@
 
 来源先进入 Reflection。只有经反例、边界和工程后果审查后，才可能进入 Charter；
 引用本身不产生规范权威。
+
+* 解释链
+
+来源身份与历史语境先被记录；解释声明其直接、类比或现代化状态；Reflection 对其提出
+反例和边界；只有通过治理审查的结论才可进入 Charter，随后由 Engineering Map 区分
+规范要求与当前实现。

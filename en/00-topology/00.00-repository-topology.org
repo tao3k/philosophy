@@ -27,7 +27,7 @@
 | =20-engineering/= | engineering-map | Normative mapping |
 | =30-reflections/= | reflection | Exploratory |
 | =40-sources/= | source-note | Interpretive evidence |
-| =90-governance/= | engineering-map | Repository governance |
+| =90-governance/= | governance | Repository governance |
 
 * Topology
 

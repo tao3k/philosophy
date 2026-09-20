@@ -22,7 +22,7 @@
 The [[file:../10-charter/10.00-tao3k-charter.org][Tao3k Charter]] requires knowledge, judgment, assurance, authority,
 execution, and consequences to remain traceable and non-collapsed.
 
-* Engineering Mapping
+* Normative Requirements
 
 | Stage | Must preserve | Must not substitute | Typical owner |
 |-------+---------------+---------------------+---------------|
@@ -31,6 +31,15 @@ execution, and consequences to remain traceable and non-collapsed.
 | Assure | proof, verification, evidence sufficiency | linguistic fluency | Episteme / Aitia |
 | Act | decision, policy, authority, intervention | tool availability | ASP / Marlin |
 | Reconcile | receipt, observation, invalidation | invocation return code | POO Flow / MRR |
+
+* Current Realization
+
+| Surface | Current realization | Status | Evidence entry |
+|---------+---------------------+--------+----------------|
+| Contract admission | Orgize linear =CONTRACT_ORG= composition | Implemented | =just check= |
+| Workspace topology | Orgize single-scan closed-world routing | Implemented | =org/workspace/philosophy.workspace.v1.org= |
+| Agent scenario gate | ASP Rust Scenario benchmark macro | Implemented | Orgize workspace scale scenario |
+| Downstream philosophy mapping | POO Flow / MRR / ASP / Marlin / Aitia | Requires independent proof | Per-project receipt |
 
 * Review Questions
 

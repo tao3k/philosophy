@@ -17,8 +17,12 @@
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
 [[file:../README.org][navigation]]
-* Engineering Mapping
+* Normative Requirements
 | Principle | Engineering property | Owner | Evidence |
 |-----------+----------------------+-------+----------|
 | <PRINCIPLE_REF> | | | |
+* Current Realization
+| Surface | Current realization | Status | Evidence |
+|---------+---------------------+--------+----------|
+| <PRINCIPLE_REF> | | proposed | |
 * Review Questions

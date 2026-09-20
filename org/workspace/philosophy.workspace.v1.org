@@ -1,0 +1,205 @@
+#+TITLE: Philosophy Workspace Contract
+
+:PROPERTIES:
+:WORKSPACE_CONTRACT_ID: philosophy.workspace.v1
+:IGNORE_DIRS: .git .data .devenv target
+:END:
+
+* Root index
+:PROPERTIES:
+:PATH: README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.repository-index.v1
+:END:
+
+* CN language index
+:PROPERTIES:
+:PATH: cn/README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN language index
+:PROPERTIES:
+:PATH: en/README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN topology
+:PROPERTIES:
+:PATH: cn/00-topology
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN topology
+:PROPERTIES:
+:PATH: en/00-topology
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN charter
+:PROPERTIES:
+:PATH: cn/10-charter
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.charter.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:PAIR_NODE_ID_PROPERTY: PRINCIPLE_ID
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN charter
+:PROPERTIES:
+:PATH: en/10-charter
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.charter.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:PAIR_NODE_ID_PROPERTY: PRINCIPLE_ID
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN engineering map
+:PROPERTIES:
+:PATH: cn/20-engineering
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.engineering-map.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN engineering map
+:PROPERTIES:
+:PATH: en/20-engineering
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.engineering-map.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN reflection
+:PROPERTIES:
+:PATH: cn/30-reflections
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN reflection
+:PROPERTIES:
+:PATH: en/30-reflections
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN source note
+:PROPERTIES:
+:PATH: cn/40-sources
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.source-note.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN source note
+:PROPERTIES:
+:PATH: en/40-sources
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.source-note.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN governance
+:PROPERTIES:
+:PATH: cn/90-governance
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.governance.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN governance
+:PROPERTIES:
+:PATH: en/90-governance
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.governance.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* Contract registries
+:PROPERTIES:
+:PATH: org/contracts
+:PATH_KIND: directory
+:ROLE: support
+:END:
+
+* Authoring templates
+:PROPERTIES:
+:PATH: org/templates
+:PATH_KIND: directory
+:ROLE: support
+:END:
+
+* Workspace policies
+:PROPERTIES:
+:PATH: org/workspace
+:PATH_KIND: directory
+:ROLE: support
+:END:

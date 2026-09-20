@@ -4,7 +4,7 @@ set shell := ["bash", "-cu"]
 default:
     @just --list
 
-# Validate the closed file topology and every maintained Org contract.
+# Delegate closed-world topology, exact composition, pairing, and assertions to Orgize.
 check:
     ./scripts/check-org-contracts.sh
 

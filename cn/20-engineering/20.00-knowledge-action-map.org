@@ -21,7 +21,7 @@
 
 [[file:../10-charter/10.00-tao3k-charter.org][Tao3k 宪章]]要求知识、判断、证成、权限、执行和后果保持可追溯且不坍缩。
 
-* 工程映射
+* 规范要求
 
 | 阶段 | 必须保存 | 不得替代 | 典型所有者 |
 |------+----------+----------+------------|
@@ -30,6 +30,15 @@
 | 证 | proof、verification、evidence sufficiency | 语言流畅性 | Episteme / Aitia |
 | 行 | decision、policy、authority、intervention | tool availability | ASP / Marlin |
 | 验 | receipt、observation、invalidation | 调用返回码 | POO Flow / MRR |
+
+* 当前实现
+
+| 表面 | 当前实现 | 状态 | 证据入口 |
+|------+----------+------+----------|
+| Contract admission | Orgize 的线性 =CONTRACT_ORG= 组合 | 已实现 | =just check= |
+| Workspace topology | Orgize 单次扫描的 closed-world 路由 | 已实现 | =org/workspace/philosophy.workspace.v1.org= |
+| Agent scenario gate | ASP Rust Scenario benchmark macro | 已实现 | Orgize workspace scale scenario |
+| 下游哲学映射 | POO Flow / MRR / ASP / Marlin / Aitia | 待逐项证明 | 各项目独立 receipt |
 
 * 审查问题
 

@@ -1,39 +1,85 @@
-#+TITLE: Authoring and Admission
+#+TITLE: Authoring, Principle Lifecycle, and Admission
 #+AUTHOR: Tao3k
 #+DATE: 2026-09-20
 #+FILETAGS: :philosophy:en:governance:
 
 :PROPERTIES:
-:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:CONTRACT_ORG: philosophy.document.v1 philosophy.governance.en.v1
 :DOC_ID: PHIL-GOV-EN-001
 :SEMANTIC_ID: philosophy.governance.authoring-admission
-:DOC_KIND: engineering-map
+:DOC_KIND: governance
 :STATUS: accepted
 :LANGUAGE: en
 :COUNTERPART: ../../cn/90-governance/90.00-authoring-and-admission.org
-:PRINCIPLE_REF: PHIL-001..PHIL-007
+:GOVERNANCE_ID: philosophy.governance.v1
+:LIFECYCLE_ID: philosophy.principle-lifecycle.v1
 :END:
 
-* Principle
+* Authority
 :PROPERTIES:
-:CUSTOM_ID: authoring-principle-en
+:CUSTOM_ID: governance-authority-en
 :END:
 
-The human entry point is the [[file:../../justfile][Justfile]], execution is owned by
-=scripts/*.sh=, and semantic validation authority remains =tao3k/orgize
-CONTRACT_ORG=. Maintainers do not invent unregistered document shapes by hand.
+The authoring entry point is the [[file:../../justfile][Justfile]]; shell only forwards arguments to
+=orgize contract workspace=. Org AST parsing, exact path indexing, linear contract composition,
+CN/EN pairing, and semantic assertions are executed by =tao3k/orgize=. The workspace policy,
+contract registry, and bilingual documents jointly define admission.
+No implementation repository, author, or cited source independently creates Tao3k normative authority.
 
-* Engineering Mapping
+* Lifecycle
 
-| Action | Just entry | Bash owner | Result |
-|--------+------------+------------+--------|
-| List kinds | =just kinds= | =new-philosophy-document.sh --list= | Registered kinds |
-| Create a pair | =just new ...= | =new-philosophy-document.sh= | Atomic CN/EN pair |
-| Trace one document | =just trace ...= | =trace-org-contract.sh= | Orgize trace |
-| Admit repository | =just check= | =check-org-contracts.sh= | Topology, pair, and contract receipts |
+The principle state machine is:
 
-* Review Questions
+#+begin_src text
+draft -> proposed -> accepted -> superseded
+                              \-> withdrawn
+#+end_src
 
-Does Orgize remain the contract parser? Did templates and contracts change
-together? Do CN and EN share =SEMANTIC_ID= and point to each other? Does Charter
-retain counterarguments and failure modes? See the [[file:../00-topology/00.00-repository-topology.org][topology]].
+Every principle node declares =PRINCIPLE_ID=, =PRINCIPLE_STATUS=, =NORMATIVE_LEVEL=, =SCOPE=,
+=REVISION=, =SUPERSEDES=, =SUPERSEDED_BY=, and =CHANGE_RATIONALE=. An accepted principle is not
+editable prose under a permanent identity. A meaning-preserving clarification increments =REVISION=;
+a change to obligations, scope, or failure boundaries creates a new principle identity or explicit
+supersession chain while retaining the old node.
+
+* Admission
+
+| Object | Required evidence | Admission result |
+|--------+-------------------+------------------|
+| CN/EN document | Unique =SEMANTIC_ID=, reciprocal =COUNTERPART=, exact contract composition | Maintained pair |
+| Reflection | Argument, counterexample, provisional conclusion, promotion criteria | Open inquiry |
+| Principle | First-class node, lifecycle fields, counterarguments, failure modes | Proposed or accepted norm |
+| Engineering Map | Stable normative requirement separated from replaceable current realization | Traceable implementation |
+| Source | Source identity, historical context, interpretation status, claim scope | No automatic normative authority |
+
+=just check= must pass Orgize closed-world topology, unique pairing, exact linear contract
+composition, and contract assertions. Orgize itself maintains scale performance and admission
+regressions through the ASP Rust Scenario macro.
+
+* Change Policy
+
+- =draft -> proposed= requires bilingual pairing, counterexamples, boundaries, and engineering consequences.
+- =proposed -> accepted= requires an explicit maintainer review; tool success is not acceptance.
+- Meaning-preserving clarification increments =REVISION= and records its rationale.
+- Normative meaning changes never silently overwrite an accepted principle; use =SUPERSEDES= and =SUPERSEDED_BY=.
+- =withdrawn= ends the claim while retaining historical identity and evidence.
+
+* Failure Handling
+
+Topology escape, incorrect contract composition, non-reciprocal counterpart, a third document with the
+same semantic identity, failed contract assertions, or missing interpretation metadata rejects admission.
+Automation must not fill in content merely to pass; the receipt identifies the first actionable boundary.
+
+* Review and Challenge
+
+Any accepted principle may return to Reflection because of a new counterexample, observed engineering
+failure, new scientific evidence, or value conflict. A challenge record distinguishes:
+
+| Kind | Question |
+|------+----------|
+| Challenge | Which normative claim is challenged? |
+| Counterexample | Which explicit case limits or defeats it? |
+| Observed failure | Which real outcome diverged from expectation? |
+| Revision proposal | Retain, clarify, supersede, or withdraw? |
+
+The loop is =Charter -> Engineering -> observed counterexample -> Reflection -> revised / retained /
+superseded Charter=. The repository therefore follows its own “know → act → reconcile → new knowledge” rule.

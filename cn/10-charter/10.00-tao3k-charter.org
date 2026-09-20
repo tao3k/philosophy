@@ -12,7 +12,7 @@
 :STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/10-charter/10.00-tao3k-charter.org
-:PRINCIPLE_ID: PHIL-001..PHIL-007
+:PRINCIPLE_SET: PHIL-001..PHIL-007
 :END:
 
 * 主张
@@ -23,15 +23,105 @@
 AI 系统中的知与行必须形成受证据、证成和权限约束的闭环：
 =知 → 辨 → 证 → 行 → 验 → 知=。
 
-| ID | 原则 |
-|----+------|
-| PHIL-001 | 知识主张必须携带来源、身份、代际与 provenance。 |
-| PHIL-002 | 未知不等于假，不完整覆盖不得被合理化补全。 |
-| PHIL-003 | 关系推理必须保留依赖、因果、时间、支持与冲突。 |
-| PHIL-004 | 判断必须与证明、验证和证据充分性区分。 |
-| PHIL-005 | 提议、决策、授权和执行不得坍缩。 |
-| PHIL-006 | 人的 agency 是不变量；优化从属于意义、约束和后果。 |
-| PHIL-007 | 行动结果必须重新成为观察，使旧知可复用或失效。 |
+* 原则
+
+** 知须有据
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：使知识主张可追溯。
+:END:
+
+知识主张必须携带来源、身份、代际与 provenance。
+
+** 未知不可伪造
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-002
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：保存未知与覆盖边界。
+:END:
+
+未知不等于假，不完整覆盖不得被合理化补全。
+
+** 关系不得坍缩
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-003
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：保存推理关系的语义。
+:END:
+
+关系推理必须保留依赖、因果、时间、支持与冲突。
+
+** 判断与证明分离
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-004
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：区分判断、证成与证据充分性。
+:END:
+
+判断必须与证明、验证和证据充分性区分。
+
+** 提议、决策、授权与执行分离
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-005
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：防止行动权限坍缩。
+:END:
+
+提议、决策、授权和执行不得坍缩。
+
+** 人的主体性
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-006
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：使优化从属于人的意义与后果。
+:END:
+
+人的 agency 是不变量；优化从属于意义、约束和后果。
+
+** 结果重新进入知识
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-007
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：闭合行动、观察与知识修订。
+:END:
+
+行动结果必须重新成为观察，使旧知可复用或失效。
 
 * 理由
 

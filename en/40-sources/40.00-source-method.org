@@ -12,6 +12,14 @@
 :LANGUAGE: en
 :COUNTERPART: ../../cn/40-sources/40.00-source-method.org
 :SOURCE_ID: philosophy.source-method.v1
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: Tao3k
+:SOURCE_WORK: Source and Interpretation Method
+:SOURCE_EDITION: 1
+:SOURCE_DATE: 2026-09-20
+:SOURCE_LANGUAGE: en
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: repository-method
 :END:
 
 * Source
@@ -39,3 +47,10 @@ constrain purpose without reducing human value to utility maximization.
 A source enters Reflection first. It may reach Charter only after review of
 counterexamples, boundaries, and engineering consequences. Citation alone does
 not confer normative authority.
+
+* Interpretation Chain
+
+Source identity and historical context are recorded first; the interpretation
+declares whether it is direct, analogical, or modernized; Reflection tests its
+counterexamples and boundaries; only a governance-reviewed conclusion may enter
+Charter, after which an Engineering Map separates requirements from realization.

@@ -4,7 +4,7 @@ set -euo pipefail
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [ "${1:-}" = "--list" ]; then
-  printf '%s\n' charter engineering-map reflection source-note
+  printf '%s\n' charter engineering-map reflection source-note governance
   exit 0
 fi
 
@@ -39,6 +39,7 @@ case "${kind}" in
   engineering-map) subdir="20-engineering" ;;
   reflection) subdir="30-reflections" ;;
   source-note) subdir="40-sources" ;;
+  governance) subdir="90-governance" ;;
   *) echo "philosophy: unsupported kind '${kind}'; run 'just kinds'" >&2; exit 2 ;;
 esac
 
@@ -76,6 +77,16 @@ render_template() {
     -e "s|<COUNTERPART>|$(escape_sed_replacement "${counterpart}")|g" \
     -e "s|<PRINCIPLE_REF>|$(escape_sed_replacement "${principle_ref}")|g" \
     -e "s|<SOURCE_ID>|$(escape_sed_replacement "${source_id}")|g" \
+    -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${SOURCE_KIND:-INTERPRETATION}")|g" \
+    -e "s|<SOURCE_AUTHOR>|$(escape_sed_replacement "${author}")|g" \
+    -e "s|<SOURCE_WORK>|$(escape_sed_replacement "${title}")|g" \
+    -e "s|<SOURCE_EDITION>|$(escape_sed_replacement "${SOURCE_EDITION:-1}")|g" \
+    -e "s|<SOURCE_DATE>|${today}|g" \
+    -e "s|<SOURCE_LANGUAGE>|$(if [ "${locale}" = cn ]; then printf zh-CN; else printf en; fi)|g" \
+    -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${INTERPRETATION_STATUS:-MODERNIZED}")|g" \
+    -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
+    -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \
+    -e "s|<LIFECYCLE_ID>|$(escape_sed_replacement "${LIFECYCLE_ID:-${base_doc_id}.lifecycle}")|g" \
     -e "s|<CUSTOM_ID>|$(escape_sed_replacement "${semantic_id}-${locale}")|g" \
     "${template}" > "${temporary_file}"
 }
