@@ -91,6 +91,18 @@
   (identity "PRINCIPLE_ID")
   (allow "none"))
 #+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "SUPERSEDES")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "SUPERSEDED_BY")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
 
 * EN charter
 :PROPERTIES:
@@ -119,6 +131,18 @@
 #+begin_src org-contract
 (assert node-property-values-resolve-node-identities
   (property "REFINES")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "SUPERSEDES")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "SUPERSEDED_BY")
   (identity "PRINCIPLE_ID")
   (allow "none"))
 #+end_src

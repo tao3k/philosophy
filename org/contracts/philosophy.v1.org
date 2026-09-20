@@ -482,7 +482,11 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "INTERPRETATION_STATUS")) (not (= (summary value) ""))))
+(assert exists
+  (or
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
 #+end_src
 ** Claim scope
 :PROPERTIES:
@@ -709,7 +713,11 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "INTERPRETATION_STATUS")) (not (= (summary value) ""))))
+(assert exists
+  (or
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
 #+end_src
 ** Claim scope
 :PROPERTIES:

@@ -77,9 +77,16 @@ for locale in cn en; do
   assert_property "${source_file}" SOURCE_KIND PRIMARY
   assert_property "${source_file}" SOURCE_EDITION juan-1
   assert_property "${source_file}" SOURCE_DATE 1527
+  assert_property "${source_file}" INTERPRETATION_STATUS MODERNIZED
   assert_property "${source_file}" SOURCE_REPOSITORIES not-applicable
   assert_property "${source_file}" CONSTITUENT_SOURCES not-applicable
 done
+
+expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
+  SOURCE_AUTHOR=Tao3k SOURCE_WORK=Invalid SOURCE_LANGUAGE=en \
+  SOURCE_KIND=PRIMARY SOURCE_EDITION=v1 SOURCE_DATE=2026-09-20 \
+  INTERPRETATION_STATUS=COMPLETE \
+  "${scaffolder}" source-note 40.97-invalid-interpretation.org SOURCE-INVALID
 
 expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \

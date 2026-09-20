@@ -52,6 +52,7 @@ principle_kind="${PRINCIPLE_KIND:-refinement}"
 refines="${REFINES:-}"
 source_id="${SOURCE_ID:-${base_doc_id}}"
 source_kind="${SOURCE_KIND:-SYNTHESIS}"
+interpretation_status="${INTERPRETATION_STATUS:-MODERNIZED}"
 source_author="${SOURCE_AUTHOR:-}"
 source_work="${SOURCE_WORK:-}"
 source_language="${SOURCE_LANGUAGE:-}"
@@ -124,6 +125,13 @@ case "${kind}" in
         exit 2
         ;;
     esac
+    case "${interpretation_status}" in
+      DIRECT|ANALOGICAL|MODERNIZED) ;;
+      *)
+        echo "philosophy: INTERPRETATION_STATUS must be DIRECT, ANALOGICAL, or MODERNIZED" >&2
+        exit 2
+        ;;
+    esac
     if [ "${source_kind}" = ENGINEERING_EVIDENCE ]; then
       source_repositories="${SOURCE_REPOSITORIES:-}"
       source_revisions="${SOURCE_REVISIONS:-}"
@@ -180,7 +188,7 @@ render_template() {
     -e "s|<SOURCE_PATHS>|$(escape_sed_replacement "${source_paths}")|g" \
     -e "s|<OBSERVATION_DATE>|$(escape_sed_replacement "${observation_date}")|g" \
     -e "s|<CONSTITUENT_SOURCES>|$(escape_sed_replacement "${constituent_sources}")|g" \
-    -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${INTERPRETATION_STATUS:-MODERNIZED}")|g" \
+    -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${interpretation_status}")|g" \
     -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
     -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \
     -e "s|<LIFECYCLE_ID>|$(escape_sed_replacement "${LIFECYCLE_ID:-${base_doc_id}.lifecycle}")|g" \

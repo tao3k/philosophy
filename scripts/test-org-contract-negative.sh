@@ -178,6 +178,24 @@ replace_line "${unresolved_refines_file}" '^:REFINES:.*$' ':REFINES: PHIL-MISSIN
 replace_line "${unresolved_refines_root}/en/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
 expect_contract_failure "${unresolved_refines_root}" 'node property REFINES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
 
+unresolved_supersedes_root="$(make_fixture unresolved-supersedes)"
+for locale in cn en; do
+  replace_line "${unresolved_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-MISSING-001'
+done
+expect_contract_failure "${unresolved_supersedes_root}" 'node property SUPERSEDES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+
+unresolved_superseded_by_root="$(make_fixture unresolved-superseded-by)"
+for locale in cn en; do
+  replace_line "${unresolved_superseded_by_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-MISSING-001'
+done
+expect_contract_failure "${unresolved_superseded_by_root}" 'node property SUPERSEDED_BY reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+
+interpretation_status_root="$(make_fixture invalid-interpretation-status)"
+for locale in cn en; do
+  replace_line "${interpretation_status_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org" '^:INTERPRETATION_STATUS:.*$' ':INTERPRETATION_STATUS: COMPLETE'
+done
+expect_contract_failure "${interpretation_status_root}" source-note.cn.has-interpretation-status
+
 trace_root="$(make_fixture empty-trace-row)"
 trace_file="${trace_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
 replace_line "${trace_file}" '^[|] PHIL-EPI-001 .*$' '| PHIL-EPI-001 | | | |'
