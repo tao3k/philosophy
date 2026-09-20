@@ -99,6 +99,7 @@
   (target node-identity "PRINCIPLE_ID")
   (allow "none")
   (exclude-self true)
+  (acyclic true)
   (reciprocal "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
@@ -107,6 +108,7 @@
   (target node-identity "PRINCIPLE_ID")
   (allow "none")
   (exclude-self true)
+  (acyclic true)
   (reciprocal "SUPERSEDES"))
 #+end_src
 

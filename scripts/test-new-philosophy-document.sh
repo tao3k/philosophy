@@ -42,6 +42,15 @@ assert_property() {
   fi
 }
 
+assert_contains() {
+  local file="$1"
+  local expected="$2"
+  if ! grep -Fq "${expected}" "${file}"; then
+    echo "philosophy scaffolder test: ${file} lacks ${expected}" >&2
+    exit 1
+  fi
+}
+
 assert_mode() {
   local file="$1"
   local actual
@@ -80,6 +89,7 @@ for locale in cn en; do
   assert_property "${topology_file}" PATH_POLICY closed-world
   assert_property "${topology_file}" TOPOLOGY_ID TOPO-001
   assert_property "${topology_file}" CUSTOM_ID "philosophy.topology.00.90-topology-${locale}"
+  assert_contains "${topology_file}" '[[file:../README.org]'
 done
 
 env TITLE_ZH=自定义拓扑 TITLE_EN='Custom topology' TOPOLOGY_ID=topology.custom.v1 \

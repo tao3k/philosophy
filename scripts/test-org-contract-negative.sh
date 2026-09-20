@@ -206,6 +206,19 @@ for locale in cn en; do
 done
 expect_contract_failure "${self_supersession_root}" "node \`PHIL-EPI-001\` property SUPERSEDES must not reference its own identity"
 
+supersession_cycle_root="$(make_fixture supersession-cycle)"
+for locale in cn en; do
+  epistemology_file="${supersession_cycle_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  temporality_file="${supersession_cycle_root}/${locale}/10-charter/10.20-temporality-and-causality.org"
+  replace_line "${epistemology_file}" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
+  replace_line "${epistemology_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-TEMP-001'
+  replace_line "${epistemology_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-TEMP-001'
+  replace_line "${temporality_file}" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
+  replace_line "${temporality_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-EPI-001'
+  replace_line "${temporality_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-EPI-001'
+done
+expect_contract_failure "${supersession_cycle_root}" 'must be acyclic; cycle: PHIL-EPI-001 -> PHIL-TEMP-001 -> PHIL-EPI-001'
+
 unresolved_supersedes_root="$(make_fixture unresolved-supersedes)"
 for locale in cn en; do
   replace_line "${unresolved_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-MISSING-001'
