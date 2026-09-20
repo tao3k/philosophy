@@ -197,6 +197,23 @@ for locale in cn en; do
 done
 expect_contract_failure "${superseded_without_successor_root}" charter.cn.every-principle-has-complete-metadata
 
+accepted_successor_root="$(make_fixture accepted-successor)"
+for locale in cn en; do
+  epistemology_file="${accepted_successor_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  temporality_file="${accepted_successor_root}/${locale}/10-charter/10.20-temporality-and-causality.org"
+  replace_line "${epistemology_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-TEMP-001'
+  replace_line "${temporality_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-EPI-001'
+done
+expect_contract_failure "${accepted_successor_root}" charter.cn.every-principle-has-complete-metadata
+
+for invalid_revision in latest -1 0 +1; do
+  revision_root="$(make_fixture "invalid-revision-${invalid_revision//+/-plus-}")"
+  for locale in cn en; do
+    replace_line "${revision_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REVISION:.*$' ":REVISION: ${invalid_revision}"
+  done
+  expect_contract_failure "${revision_root}" charter.cn.every-principle-has-complete-metadata
+done
+
 self_supersession_root="$(make_fixture self-supersession)"
 for locale in cn en; do
   self_supersession_file="${self_supersession_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"

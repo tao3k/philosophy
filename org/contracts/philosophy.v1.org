@@ -1011,12 +1011,16 @@
       (not (= (property "NORMATIVE_LEVEL") ""))
       (not (= (property "SCOPE") ""))
       (not (= (property "REVISION") ""))
+      (positive-integer (property "REVISION"))
       (not (= (property "REFINES") ""))
       (not (= (property "SUPERSEDES") ""))
       (not (= (property "SUPERSEDED_BY") ""))
       (or
         (not (= (property "PRINCIPLE_STATUS") "superseded"))
         (not (= (property "SUPERSEDED_BY") "none")))
+      (or
+        (= (property "SUPERSEDED_BY") "none")
+        (= (property "PRINCIPLE_STATUS") "superseded"))
       (not (= (property "CHANGE_RATIONALE") "")))))
 #+end_src
 ** Rationale
@@ -1189,12 +1193,16 @@
       (not (= (property "NORMATIVE_LEVEL") ""))
       (not (= (property "SCOPE") ""))
       (not (= (property "REVISION") ""))
+      (positive-integer (property "REVISION"))
       (not (= (property "REFINES") ""))
       (not (= (property "SUPERSEDES") ""))
       (not (= (property "SUPERSEDED_BY") ""))
       (or
         (not (= (property "PRINCIPLE_STATUS") "superseded"))
         (not (= (property "SUPERSEDED_BY") "none")))
+      (or
+        (= (property "SUPERSEDED_BY") "none")
+        (= (property "PRINCIPLE_STATUS") "superseded"))
       (not (= (property "CHANGE_RATIONALE") "")))))
 #+end_src
 ** Rationale

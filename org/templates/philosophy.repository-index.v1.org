@@ -15,6 +15,9 @@
 :NAVIGATION_ROOT: cn/README.org en/README.org
 :END:
 * Language roots
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
 | Language | Maintained root | Contracted topology |
 |----------+-----------------+---------------------|
 | 中文 | [[file:cn/README.org][cn/README.org]] | [[file:cn/00-topology/00.00-repository-topology.org][CN topology]] |
