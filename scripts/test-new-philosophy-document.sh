@@ -2,12 +2,15 @@
 set -euo pipefail
 
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
+orgize_bin="${ORGIZE_BIN:-orgize}"
 fixture_root="$(mktemp -d "${TMPDIR:-/tmp}/philosophy-scaffolder.XXXXXX")"
 trap 'rm -rf "${fixture_root}"' EXIT
 
 mkdir -p \
   "${fixture_root}/scripts" \
   "${fixture_root}/org/templates" \
+  "${fixture_root}/cn/00-topology" \
+  "${fixture_root}/en/00-topology" \
   "${fixture_root}/cn/10-charter" \
   "${fixture_root}/en/10-charter" \
   "${fixture_root}/cn/20-engineering" \
@@ -17,7 +20,7 @@ mkdir -p \
   "${fixture_root}/cn/40-sources" \
   "${fixture_root}/en/40-sources"
 cp "${repository_root}/scripts/new-philosophy-document.sh" "${fixture_root}/scripts/"
-cp "${repository_root}"/org/templates/philosophy.{charter,engineering-map,reflection,source-note}.{cn,en}.v1.org \
+cp "${repository_root}"/org/templates/philosophy.{topology,charter,engineering-map,reflection,source-note}.{cn,en}.v1.org \
   "${fixture_root}/org/templates/"
 
 scaffolder="${fixture_root}/scripts/new-philosophy-document.sh"
@@ -54,6 +57,28 @@ assert_mode() {
 }
 
 common=(env TITLE_ZH=测试 TITLE_EN=Test)
+
+if [ ! -f "${repository_root}/org/templates/philosophy.repository-index.v1.org" ]; then
+  echo "philosophy scaffolder test: repository-index template is missing" >&2
+  exit 1
+fi
+for template in \
+  philosophy.repository-index.v1.org \
+  philosophy.topology.cn.v1.org \
+  philosophy.topology.en.v1.org; do
+  "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/${template}" >/dev/null
+done
+
+env TITLE_ZH=拓扑 TITLE_EN=Topology \
+  "${scaffolder}" topology 00.90-topology.org TOPO-001 >/dev/null
+for locale in cn en; do
+  topology_file="${fixture_root}/${locale}/00-topology/00.90-topology.org"
+  assert_mode "${topology_file}"
+  assert_property "${topology_file}" DOC_KIND topology
+  assert_property "${topology_file}" PATH_POLICY closed-world
+done
 
 expect_failure "${common[@]}" "${scaffolder}" source-note 40.90-missing.org SRC-MISSING
 expect_failure env TITLE_ZH=测试 TITLE_EN=Test \

@@ -4,6 +4,8 @@
 
 | Kind | CN template | EN template |
 |------+-------------+-------------|
+| Repository index | [[file:philosophy.repository-index.v1.org][singleton]] | — |
+| Topology | [[file:philosophy.topology.cn.v1.org][CN]] | [[file:philosophy.topology.en.v1.org][EN]] |
 | Charter | [[file:philosophy.charter.cn.v1.org][CN]] | [[file:philosophy.charter.en.v1.org][EN]] |
 | Engineering map | [[file:philosophy.engineering-map.cn.v1.org][CN]] | [[file:philosophy.engineering-map.en.v1.org][EN]] |
 | Reflection | [[file:philosophy.reflection.cn.v1.org][CN]] | [[file:philosophy.reflection.en.v1.org][EN]] |

@@ -1,0 +1,27 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:topology:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: topology
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:TOPOLOGY_ID: <SEMANTIC_ID>.cn.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: ../README.org
+:END:
+* 路径所有权
+| 路径 | 文档类型 | 权威程度 |
+|------+----------+----------|
+| =00-topology/= | topology | 仓库结构 |
+* 拓扑
+#+begin_src mermaid :exports results :file topology.svg
+flowchart LR
+  ROOT[语言入口] --> CONTENT[维护内容]
+#+end_src
+* 边界
+# 在提交前说明该拓扑拥有的路径、排除项与迁移边界。

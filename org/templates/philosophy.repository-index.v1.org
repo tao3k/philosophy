@@ -1,0 +1,28 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:topology:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.repository-index.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: repository-index
+:DOC_STATUS: proposed
+:LANGUAGE: mul
+:COUNTERPART: none
+:TOPOLOGY_ID: <SEMANTIC_ID>
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: cn/README.org en/README.org
+:END:
+* Language roots
+| Language | Maintained root | Contracted topology |
+|----------+-----------------+---------------------|
+| 中文 | [[file:cn/README.org][cn/README.org]] | [[file:cn/00-topology/00.00-repository-topology.org][CN topology]] |
+| English | [[file:en/README.org][en/README.org]] | [[file:en/00-topology/00.00-repository-topology.org][EN topology]] |
+* Repository flow
+#+begin_src mermaid :exports results :file philosophy-repository-flow.svg
+flowchart TD
+  ROOT[README.org] --> CN[cn/]
+  ROOT --> EN[en/]
+  CN <-->|same SEMANTIC_ID| EN
+#+end_src

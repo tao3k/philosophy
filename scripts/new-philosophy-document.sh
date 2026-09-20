@@ -4,7 +4,7 @@ set -euo pipefail
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [ "${1:-}" = "--list" ]; then
-  printf '%s\n' charter engineering-map reflection source-note governance
+  printf '%s\n' topology charter engineering-map reflection source-note governance
   exit 0
 fi
 
@@ -35,6 +35,7 @@ case "${filename}" in
 esac
 
 case "${kind}" in
+  topology) subdir="00-topology" ;;
   charter) subdir="10-charter" ;;
   engineering-map) subdir="20-engineering" ;;
   reflection) subdir="30-reflections" ;;
@@ -169,9 +170,8 @@ render_template() {
   local title="$2"
   local doc_id="$3"
   local counterpart="$4"
-  local destination="$5"
   local template="${repository_root}/org/templates/philosophy.${kind}.${locale}.v1.org"
-  local temporary_file="$6"
+  local temporary_file="$5"
 
   sed \
     -e "s|<TITLE>|$(escape_sed_replacement "${title}")|g" \
@@ -221,8 +221,8 @@ fi
 cn_temporary="$(mktemp "${cn_destination}.tmp.XXXXXX")"
 en_temporary="$(mktemp "${en_destination}.tmp.XXXXXX")"
 
-render_template cn "${title_zh}" "${base_doc_id}-CN" "../../en/${subdir}/${filename}" "${cn_destination}" "${cn_temporary}"
-render_template en "${title_en}" "${base_doc_id}-EN" "../../cn/${subdir}/${filename}" "${en_destination}" "${en_temporary}"
+render_template cn "${title_zh}" "${base_doc_id}-CN" "../../en/${subdir}/${filename}" "${cn_temporary}"
+render_template en "${title_en}" "${base_doc_id}-EN" "../../cn/${subdir}/${filename}" "${en_temporary}"
 chmod 0644 "${cn_temporary}" "${en_temporary}"
 
 if ! mv -n "${cn_temporary}" "${cn_destination}" || [ -e "${cn_temporary}" ]; then

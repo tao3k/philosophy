@@ -170,37 +170,43 @@ unresolved_ref_root="$(make_fixture unresolved-principle-ref)"
 unresolved_ref_file="${unresolved_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"
 replace_line "${unresolved_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-MISSING-001'
 replace_line "${unresolved_ref_root}/en/20-engineering/20.10-cross-repository-realization-map.org" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-MISSING-001'
-expect_contract_failure "${unresolved_ref_root}" 'document property PRINCIPLE_REF reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+expect_contract_failure "${unresolved_ref_root}" "document property PRINCIPLE_REF reference \`PHIL-MISSING-001\` does not resolve to node identity PRINCIPLE_ID"
 
 unresolved_refines_root="$(make_fixture unresolved-refines)"
 unresolved_refines_file="${unresolved_refines_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
 replace_line "${unresolved_refines_file}" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
 replace_line "${unresolved_refines_root}/en/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
-expect_contract_failure "${unresolved_refines_root}" 'node property REFINES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+expect_contract_failure "${unresolved_refines_root}" "node property REFINES reference \`PHIL-MISSING-001\` does not resolve to node identity PRINCIPLE_ID"
 
 self_refines_root="$(make_fixture self-refines)"
 for locale in cn en; do
   replace_line "${self_refines_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-EPI-001'
 done
-expect_contract_failure "${self_refines_root}" 'node `PHIL-EPI-001` property REFINES must not reference its own identity'
+expect_contract_failure "${self_refines_root}" "node \`PHIL-EPI-001\` property REFINES must not reference its own identity"
+
+superseded_without_successor_root="$(make_fixture superseded-without-successor)"
+for locale in cn en; do
+  replace_line "${superseded_without_successor_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
+done
+expect_contract_failure "${superseded_without_successor_root}" charter.cn.every-principle-has-complete-metadata
 
 unresolved_supersedes_root="$(make_fixture unresolved-supersedes)"
 for locale in cn en; do
   replace_line "${unresolved_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-MISSING-001'
 done
-expect_contract_failure "${unresolved_supersedes_root}" 'node property SUPERSEDES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+expect_contract_failure "${unresolved_supersedes_root}" "node property SUPERSEDES reference \`PHIL-MISSING-001\` does not resolve to node identity PRINCIPLE_ID"
 
 unresolved_superseded_by_root="$(make_fixture unresolved-superseded-by)"
 for locale in cn en; do
   replace_line "${unresolved_superseded_by_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-MISSING-001'
 done
-expect_contract_failure "${unresolved_superseded_by_root}" 'node property SUPERSEDED_BY reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+expect_contract_failure "${unresolved_superseded_by_root}" "node property SUPERSEDED_BY reference \`PHIL-MISSING-001\` does not resolve to node identity PRINCIPLE_ID"
 
 nonreciprocal_supersedes_root="$(make_fixture nonreciprocal-supersedes)"
 for locale in cn en; do
   replace_line "${nonreciprocal_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-001'
 done
-expect_contract_failure "${nonreciprocal_supersedes_root}" 'property SUPERSEDES reference `PHIL-001` must be reciprocated by target property SUPERSEDED_BY'
+expect_contract_failure "${nonreciprocal_supersedes_root}" "property SUPERSEDES reference \`PHIL-001\` must be reciprocated by target property SUPERSEDED_BY"
 
 interpretation_status_root="$(make_fixture invalid-interpretation-status)"
 for locale in cn en; do
@@ -212,5 +218,10 @@ trace_root="$(make_fixture empty-trace-row)"
 trace_file="${trace_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
 replace_line "${trace_file}" '^[|] PHIL-EPI-001 .*$' '| PHIL-EPI-001 | | | |'
 expect_contract_failure "${trace_root}" charter.cn.has-trace-table
+
+trace_coverage_root="$(make_fixture missing-trace-principle)"
+trace_coverage_file="${trace_coverage_root}/cn/10-charter/10.00-tao3k-charter.org"
+replace_line "${trace_coverage_file}" '^[|] PHIL-007 .*$' '| PHIL-001 | duplicate trace | duplicate owner |'
+expect_contract_failure "${trace_coverage_root}" charter.cn.trace-covers-every-principle
 
 echo "philosophy contract negative test: passed"
