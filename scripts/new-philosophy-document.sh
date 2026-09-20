@@ -149,6 +149,7 @@ case "${kind}" in
     if [ "${source_kind}" = SYNTHESIS ]; then
       constituent_sources="${CONSTITUENT_SOURCES:-}"
       require_input CONSTITUENT_SOURCES "${constituent_sources}"
+      reject_contract_sentinel CONSTITUENT_SOURCES "${constituent_sources}"
     fi
     ;;
 esac

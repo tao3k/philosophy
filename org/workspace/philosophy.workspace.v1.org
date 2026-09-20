@@ -103,6 +103,20 @@
   (identity "PRINCIPLE_ID")
   (allow "none"))
 #+end_src
+#+begin_src org-contract
+(assert node-property-values-have-reciprocal-node-property
+  (property "SUPERSEDES")
+  (identity "PRINCIPLE_ID")
+  (reciprocal "SUPERSEDED_BY")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-have-reciprocal-node-property
+  (property "SUPERSEDED_BY")
+  (identity "PRINCIPLE_ID")
+  (reciprocal "SUPERSEDES")
+  (allow "none"))
+#+end_src
 
 * EN charter
 :PROPERTIES:
@@ -144,6 +158,20 @@
 (assert node-property-values-resolve-node-identities
   (property "SUPERSEDED_BY")
   (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-have-reciprocal-node-property
+  (property "SUPERSEDES")
+  (identity "PRINCIPLE_ID")
+  (reciprocal "SUPERSEDED_BY")
+  (allow "none"))
+#+end_src
+#+begin_src org-contract
+(assert node-property-values-have-reciprocal-node-property
+  (property "SUPERSEDED_BY")
+  (identity "PRINCIPLE_ID")
+  (reciprocal "SUPERSEDES")
   (allow "none"))
 #+end_src
 

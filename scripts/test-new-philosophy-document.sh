@@ -92,6 +92,13 @@ expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
   SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
   "${scaffolder}" source-note 40.95-missing-constituents.org SYN-MISSING
+for sentinel in not-applicable evidence-pending; do
+  expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
+    SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
+    SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
+    "CONSTITUENT_SOURCES=${sentinel}" \
+    "${scaffolder}" source-note 40.95-invalid-constituents.org SYN-INVALID
+done
 env TITLE_ZH=综合 TITLE_EN=Synthesis \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
   SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \

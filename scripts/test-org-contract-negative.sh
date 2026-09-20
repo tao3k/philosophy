@@ -190,6 +190,12 @@ for locale in cn en; do
 done
 expect_contract_failure "${unresolved_superseded_by_root}" 'node property SUPERSEDED_BY reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
 
+nonreciprocal_supersedes_root="$(make_fixture nonreciprocal-supersedes)"
+for locale in cn en; do
+  replace_line "${nonreciprocal_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-001'
+done
+expect_contract_failure "${nonreciprocal_supersedes_root}" 'property SUPERSEDES reference `PHIL-001` must be reciprocated by target property SUPERSEDED_BY'
+
 interpretation_status_root="$(make_fixture invalid-interpretation-status)"
 for locale in cn en; do
   replace_line "${interpretation_status_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org" '^:INTERPRETATION_STATUS:.*$' ':INTERPRETATION_STATUS: COMPLETE'
