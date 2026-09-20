@@ -4,7 +4,7 @@
 #+FILETAGS: :philosophy:cn:topology:
 
 :PROPERTIES:
-:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
 :DOC_ID: PHIL-TOPO-CN-001
 :SEMANTIC_ID: philosophy.repository-topology
 :DOC_KIND: topology

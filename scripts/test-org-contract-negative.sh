@@ -81,7 +81,17 @@ for locale in cn en; do
   replace_line "${wrong_topology_navigation_root}/${locale}/00-topology/00.00-repository-topology.org" \
     '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: nowhere'
 done
-expect_contract_failure "${wrong_topology_navigation_root}" topology.has-navigation-root
+expect_contract_failure "${wrong_topology_navigation_root}" repository-topology.has-navigation-root
+
+swapped_topology_navigation_root="$(make_fixture swapped-topology-navigation-root)"
+for locale in cn en; do
+  replace_line "${swapped_topology_navigation_root}/${locale}/README.org" \
+    '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: ../README.org'
+  replace_line "${swapped_topology_navigation_root}/${locale}/00-topology/00.00-repository-topology.org" \
+    '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: 00-topology/00.00-repository-topology.org'
+done
+expect_contract_failure "${swapped_topology_navigation_root}" language-index.has-navigation-root
+expect_contract_failure "${swapped_topology_navigation_root}" repository-topology.has-navigation-root
 
 empty_title_root="$(make_fixture empty-title)"
 replace_line "${empty_title_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org" \
@@ -235,19 +245,38 @@ for locale in cn en; do
 done
 expect_contract_failure "${masked_source_kind_root}" source-note.cn.has-source-kind
 
-engineering_locator_root="$(make_fixture missing-engineering-locator)"
-engineering_locator_file="${engineering_locator_root}/cn/40-sources/40.50-agent-systems-state-authority.org"
-replace_line "${engineering_locator_file}" '^:SOURCE_KIND:.*$' ':SOURCE_KIND: ENGINEERING_EVIDENCE'
-replace_line "${engineering_locator_file}" '^:SOURCE_REPOSITORIES:.*$' ':SOURCE_REPOSITORIES: philosophy'
-replace_line "${engineering_locator_file}" '^:SOURCE_REVISIONS:.*$' ':SOURCE_REVISIONS: evidence-pending'
-replace_line "${engineering_locator_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: org/contracts/philosophy.v1.org'
-replace_line "${engineering_locator_file}" '^:OBSERVATION_DATE:.*$' ':OBSERVATION_DATE: 2026-09-20'
-expect_contract_failure "${engineering_locator_root}" source-note.cn.has-engineering-revisions
+for locator in SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE; do
+  case "${locator}" in
+    SOURCE_REPOSITORIES) assertion_suffix=engineering-repositories ;;
+    SOURCE_REVISIONS) assertion_suffix=engineering-revisions ;;
+    SOURCE_PATHS) assertion_suffix=engineering-paths ;;
+    OBSERVATION_DATE) assertion_suffix=engineering-observation-date ;;
+  esac
+  for sentinel in not-applicable edition-pending evidence-pending; do
+    engineering_locator_root="$(make_fixture "engineering-${locator}-${sentinel}")"
+    for locale in cn en; do
+      engineering_locator_file="${engineering_locator_root}/${locale}/40-sources/40.50-agent-systems-state-authority.org"
+      replace_line "${engineering_locator_file}" '^:SOURCE_KIND:.*$' ':SOURCE_KIND: ENGINEERING_EVIDENCE'
+      replace_line "${engineering_locator_file}" '^:SOURCE_REPOSITORIES:.*$' ':SOURCE_REPOSITORIES: philosophy'
+      replace_line "${engineering_locator_file}" '^:SOURCE_REVISIONS:.*$' ':SOURCE_REVISIONS: 52d315155ebbba917f0694068444d3bbde5f9920'
+      replace_line "${engineering_locator_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: org/contracts/philosophy.v1.org'
+      replace_line "${engineering_locator_file}" '^:OBSERVATION_DATE:.*$' ':OBSERVATION_DATE: 2026-09-20'
+      replace_line "${engineering_locator_file}" "^:${locator}:.*$" ":${locator}: ${sentinel}"
+    done
+    expect_contract_failure "${engineering_locator_root}" "source-note.cn.has-${assertion_suffix}"
+    expect_contract_failure "${engineering_locator_root}" "source-note.en.has-${assertion_suffix}"
+  done
+done
 
-synthesis_root="$(make_fixture missing-synthesis-constituents)"
-synthesis_file="${synthesis_root}/cn/40-sources/40.30-scientific-method-evidence.org"
-replace_line "${synthesis_file}" '^:CONSTITUENT_SOURCES:.*$' ':CONSTITUENT_SOURCES: evidence-pending'
-expect_contract_failure "${synthesis_root}" source-note.cn.has-synthesis-constituent-sources
+for sentinel in not-applicable edition-pending evidence-pending; do
+  synthesis_root="$(make_fixture "synthesis-constituents-${sentinel}")"
+  for locale in cn en; do
+    synthesis_file="${synthesis_root}/${locale}/40-sources/40.30-scientific-method-evidence.org"
+    replace_line "${synthesis_file}" '^:CONSTITUENT_SOURCES:.*$' ":CONSTITUENT_SOURCES: ${sentinel}"
+  done
+  expect_contract_failure "${synthesis_root}" source-note.cn.has-synthesis-constituent-sources
+  expect_contract_failure "${synthesis_root}" source-note.en.has-synthesis-constituent-sources
+done
 
 source_pair_root="$(make_fixture mismatched-source-id)"
 source_pair_file="${source_pair_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"

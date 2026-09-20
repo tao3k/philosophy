@@ -18,7 +18,7 @@
 :PATH: cn/README.org
 :PATH_KIND: file
 :ROLE: maintained
-:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
 :PAIR_GROUP: philosophy.cn-en
 :LANGUAGE_ROOT: cn
 :COUNTERPART_ROOT: en
@@ -30,7 +30,7 @@
 :PATH: en/README.org
 :PATH_KIND: file
 :ROLE: maintained
-:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
 :PAIR_GROUP: philosophy.cn-en
 :LANGUAGE_ROOT: en
 :COUNTERPART_ROOT: cn
@@ -42,7 +42,7 @@
 :PATH: cn/00-topology
 :PATH_KIND: directory
 :ROLE: maintained
-:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
 :PAIR_GROUP: philosophy.cn-en
 :LANGUAGE_ROOT: cn
 :COUNTERPART_ROOT: en
@@ -54,7 +54,7 @@
 :PATH: en/00-topology
 :PATH_KIND: directory
 :ROLE: maintained
-:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
 :PAIR_GROUP: philosophy.cn-en
 :LANGUAGE_ROOT: en
 :COUNTERPART_ROOT: cn

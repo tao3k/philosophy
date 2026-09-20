@@ -426,6 +426,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
@@ -443,6 +444,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
@@ -460,6 +462,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
@@ -477,6 +480,7 @@
         (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Synthesis constituent sources
@@ -494,6 +498,7 @@
         (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
@@ -675,6 +680,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
@@ -692,6 +698,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
@@ -709,6 +716,7 @@
         (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
@@ -726,6 +734,7 @@
         (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Synthesis constituent sources
@@ -743,6 +752,7 @@
         (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
         (not (= (summary value) ""))
         (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
         (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
@@ -1008,10 +1018,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "../README.org"))
-    (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "00-topology/00.00-repository-topology.org"))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
 #+end_src
 ** Path table
 :PROPERTIES:
@@ -1041,6 +1048,36 @@
           (headline :summary (title "Boundaries"))))
       (body (section :child-of "$section")))
   (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* Language index topology role v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.language-index.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: language-index.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "00-topology/00.00-repository-topology.org")))
+#+end_src
+
+* Repository topology role v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.repository-topology.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: repository-topology.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "../README.org")))
 #+end_src
 
 * Chinese charter v1

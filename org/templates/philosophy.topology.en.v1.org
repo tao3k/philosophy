@@ -3,7 +3,7 @@
 #+DATE: <DATE>
 #+FILETAGS: :philosophy:en:topology:
 :PROPERTIES:
-:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
 :DOC_ID: <DOC_ID>
 :SEMANTIC_ID: <SEMANTIC_ID>
 :DOC_KIND: topology

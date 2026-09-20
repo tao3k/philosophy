@@ -5,7 +5,7 @@
 #+OPTIONS: toc:2 num:nil
 
 :PROPERTIES:
-:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
 :DOC_ID: PHIL-EN-ROOT-001
 :SEMANTIC_ID: philosophy.language-root
 :DOC_KIND: topology

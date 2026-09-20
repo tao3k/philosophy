@@ -190,7 +190,7 @@ expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
   "${scaffolder}" source-note 40.97-invalid-interpretation.org SOURCE-INVALID
 
 for source_kind in PRIMARY SECONDARY; do
-  for source_edition in not-applicable edition-pending evidence-pending; do
+  for source_edition in not-applicable evidence-pending; do
     expect_failure env TITLE_ZH=测试 TITLE_EN=Test \
       SOURCE_AUTHOR=Author SOURCE_WORK=Work SOURCE_LANGUAGE=zh \
       "SOURCE_KIND=${source_kind}" "SOURCE_EDITION=${source_edition}" SOURCE_DATE=2026-09-20 \
@@ -198,11 +198,20 @@ for source_kind in PRIMARY SECONDARY; do
   done
 done
 
+env TITLE_ZH=待考版本 TITLE_EN='Pending edition' \
+  SOURCE_AUTHOR=Author SOURCE_WORK=Work SOURCE_LANGUAGE=zh \
+  SOURCE_KIND=PRIMARY SOURCE_EDITION=edition-pending SOURCE_DATE=2026-09-20 \
+  "${scaffolder}" source-note 40.94-pending-edition.org SOURCE-PENDING-EDITION >/dev/null
+for locale in cn en; do
+  assert_property "${fixture_root}/${locale}/40-sources/40.94-pending-edition.org" \
+    SOURCE_EDITION edition-pending
+done
+
 expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
   SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
   "${scaffolder}" source-note 40.95-missing-constituents.org SYN-MISSING
-for sentinel in not-applicable evidence-pending; do
+for sentinel in not-applicable edition-pending evidence-pending; do
   expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
     SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
     SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
@@ -224,7 +233,7 @@ expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
   SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
   "${scaffolder}" source-note 40.93-missing-locators.org ENG-MISSING
 for locator in SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE; do
-  for sentinel in not-applicable evidence-pending; do
+  for sentinel in not-applicable edition-pending evidence-pending; do
     expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
       SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
       SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \

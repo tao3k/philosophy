@@ -155,7 +155,9 @@ case "${kind}" in
     esac
     case "${source_kind}" in
       PRIMARY|SECONDARY)
-        reject_contract_sentinel SOURCE_EDITION "${source_edition}"
+        if [ "${source_edition}" != edition-pending ]; then
+          reject_contract_sentinel SOURCE_EDITION "${source_edition}"
+        fi
         ;;
     esac
     case "${interpretation_status}" in
