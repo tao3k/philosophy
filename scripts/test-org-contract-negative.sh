@@ -351,7 +351,7 @@ compensated_trace_file="${compensated_trace_root}/cn/10-charter/10.00-tao3k-char
 replace_line "${compensated_trace_file}" \
   '^[|] PHIL-007 [|].*$' '| PHIL-007 || POO Flow / MRR |'
 insert_line_after "${compensated_trace_file}" \
-  '^[|][-]+[+][-]+[+][-]+[|]$' '| | compensating direction | compensating owner |'
+  '^[|][-]+[+][-]+[+][-]+[|]$' '| PHIL-001 | compensating direction | compensating owner |'
 expect_contract_failure "${compensated_trace_root}" charter.cn.trace-engineering-complete
 
 trace_owner_root="$(make_fixture missing-trace-owner)"

@@ -1166,14 +1166,19 @@
 (let ((principles
        (headline :property-contains ("PRINCIPLE_ID" "")))
       (section (headline :summary (title "可追溯性")))
-      (body (section :child-of "$section")))
-  (assert count == $principles
-    (table-row
-      :within "$body"
-      :header false
-      :column-nonempty "原则"
-      :column-nonempty "工程方向"
-      :column-nonempty "下游所有者")))
+      (body (section :child-of "$section"))
+      (complete-rows
+       (table-row
+         :within "$body"
+         :header false
+         :column-nonempty "原则"
+         :column-nonempty "工程方向"
+         :column-nonempty "下游所有者")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :child-of "$complete-rows" :column "原则" :header false :nonempty true)
+      (summary "text"))))
 #+end_src
 ** Trace owner or evidence for every principle
 :PROPERTIES:
@@ -1379,14 +1384,19 @@
 (let ((principles
        (headline :property-contains ("PRINCIPLE_ID" "")))
       (section (headline :summary (title "Traceability")))
-      (body (section :child-of "$section")))
-  (assert count == $principles
-    (table-row
-      :within "$body"
-      :header false
-      :column-nonempty "Principle"
-      :column-nonempty "Engineering direction"
-      :column-nonempty "Downstream owner")))
+      (body (section :child-of "$section"))
+      (complete-rows
+       (table-row
+         :within "$body"
+         :header false
+         :column-nonempty "Principle"
+         :column-nonempty "Engineering direction"
+         :column-nonempty "Downstream owner")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :child-of "$complete-rows" :column "Principle" :header false :nonempty true)
+      (summary "text"))))
 #+end_src
 ** Trace owner or evidence for every principle
 :PROPERTIES:
