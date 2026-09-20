@@ -30,11 +30,17 @@
 :PROPERTIES:
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
+# State the normative claim before admission; an empty section fails the contract.
 * Rationale
+# State why the claim should hold before admission.
 * Counterarguments
+# State the strongest counterargument and its boundary before admission.
 * Engineering Consequences
+# State the constraints on engineering design and verification before admission.
 * Failure Modes
+# State how the principle can be followed formally but violated in substance.
 * Open Questions
+# State the unresolved questions before admission.
 * Traceability
 | Principle | Engineering surface | Evidence |
 |-----------+---------------------+----------|

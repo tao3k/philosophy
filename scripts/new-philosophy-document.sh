@@ -197,6 +197,7 @@ en_temporary="$(mktemp "${en_destination}.tmp.XXXXXX")"
 
 render_template cn "${title_zh}" "${base_doc_id}-CN" "../../en/${subdir}/${filename}" "${cn_destination}" "${cn_temporary}"
 render_template en "${title_en}" "${base_doc_id}-EN" "../../cn/${subdir}/${filename}" "${en_destination}" "${en_temporary}"
+chmod 0644 "${cn_temporary}" "${en_temporary}"
 
 if ! mv -n "${cn_temporary}" "${cn_destination}" || [ -e "${cn_temporary}" ]; then
   echo "philosophy: CN destination appeared during pair publication" >&2

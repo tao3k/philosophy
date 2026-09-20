@@ -879,7 +879,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "主张")))
+(let ((section (headline :summary (title "主张")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** First-class principles
 :PROPERTIES:
@@ -952,7 +954,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "理由")))
+(let ((section (headline :summary (title "理由")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Counterarguments
 :PROPERTIES:
@@ -960,7 +964,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "反对意见")))
+(let ((section (headline :summary (title "反对意见")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Engineering consequences
 :PROPERTIES:
@@ -968,7 +974,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "工程后果")))
+(let ((section (headline :summary (title "工程后果")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Failure modes
 :PROPERTIES:
@@ -976,7 +984,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "失效模式")))
+(let ((section (headline :summary (title "失效模式")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Open questions
 :PROPERTIES:
@@ -984,7 +994,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "开放问题")))
+(let ((section (headline :summary (title "开放问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Traceability
 :PROPERTIES:
@@ -1023,7 +1035,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Claim")))
+(let ((section (headline :summary (title "Claim")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** First-class principles
 :PROPERTIES:
@@ -1096,7 +1110,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Rationale")))
+(let ((section (headline :summary (title "Rationale")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Counterarguments
 :PROPERTIES:
@@ -1104,7 +1120,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Counterarguments")))
+(let ((section (headline :summary (title "Counterarguments")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Engineering consequences
 :PROPERTIES:
@@ -1112,7 +1130,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Engineering Consequences")))
+(let ((section (headline :summary (title "Engineering Consequences")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Failure modes
 :PROPERTIES:
@@ -1120,7 +1140,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Failure Modes")))
+(let ((section (headline :summary (title "Failure Modes")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Open questions
 :PROPERTIES:
@@ -1128,7 +1150,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Open Questions")))
+(let ((section (headline :summary (title "Open Questions")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Traceability
 :PROPERTIES:

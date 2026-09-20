@@ -48,6 +48,18 @@ kind_document="${kind_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org
 replace_line "${kind_document}" '^:DOC_KIND: charter$' ':DOC_KIND: reflection'
 expect_contract_failure "${kind_root}" charter.cn.has-document-kind
 
+empty_cn_section_root="$(make_fixture empty-cn-counterarguments)"
+empty_cn_section_file="${empty_cn_section_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
+replace_line "${empty_cn_section_file}" \
+  '^低风险默认值和明确封闭世界仍可使用，但必须声明适用边界，不能冒充普遍事实。$' ''
+expect_contract_failure "${empty_cn_section_root}" charter.cn.has-counterarguments
+
+empty_en_section_root="$(make_fixture empty-en-counterarguments)"
+empty_en_section_file="${empty_en_section_root}/en/10-charter/10.10-epistemology-and-uncertainty.org"
+replace_line "${empty_en_section_file}" \
+  '^Low-risk defaults and explicit closed worlds remain useful, but their scope must be declared rather than presented as universal fact.$' ''
+expect_contract_failure "${empty_en_section_root}" charter.en.has-counterarguments
+
 document_id_root="$(make_fixture empty-document-id)"
 document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
 replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '

@@ -39,6 +39,20 @@ assert_property() {
   fi
 }
 
+assert_mode() {
+  local file="$1"
+  local actual
+  if actual="$(stat -c '%a' "${file}" 2>/dev/null)"; then
+    :
+  else
+    actual="$(stat -f '%Lp' "${file}")"
+  fi
+  if [ "${actual}" != "644" ]; then
+    echo "philosophy scaffolder test: ${file} mode is ${actual}, expected 644" >&2
+    exit 1
+  fi
+}
+
 common=(env TITLE_ZH=测试 TITLE_EN=Test)
 
 expect_failure "${common[@]}" "${scaffolder}" source-note 40.90-missing.org SRC-MISSING
@@ -56,6 +70,7 @@ env TITLE_ZH=来源 TITLE_EN=Source \
   "${scaffolder}" source-note 40.92-source.org SRC-001 >/dev/null
 for locale in cn en; do
   source_file="${fixture_root}/${locale}/40-sources/40.92-source.org"
+  assert_mode "${source_file}"
   assert_property "${source_file}" SOURCE_AUTHOR 'Source Author'
   assert_property "${source_file}" SOURCE_WORK 'Source Work'
   assert_property "${source_file}" SOURCE_LANGUAGE classical-zh
