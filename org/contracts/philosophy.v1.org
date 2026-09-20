@@ -841,7 +841,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "DOC_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "DOC_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Semantic id
 :PROPERTIES:
@@ -849,7 +849,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SEMANTIC_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SEMANTIC_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Counterpart
 :PROPERTIES:
@@ -857,7 +857,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "COUNTERPART")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "COUNTERPART")) (not (= (summary value) ""))))
 #+end_src
 ** Document kind
 :PROPERTIES:
@@ -865,7 +865,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "DOC_KIND")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "DOC_KIND")) (not (= (summary value) ""))))
 #+end_src
 ** Document status
 :PROPERTIES:
@@ -875,9 +875,9 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "DOC_STATUS") :summary (value "draft"))
-    (node-property :summary (key "DOC_STATUS") :summary (value "proposed"))
-    (node-property :summary (key "DOC_STATUS") :summary (value "accepted"))))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "accepted"))))
 #+end_src
 ** Language
 :PROPERTIES:
@@ -887,9 +887,9 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "LANGUAGE") :summary (value "zh-CN"))
-    (node-property :summary (key "LANGUAGE") :summary (value "en"))
-    (node-property :summary (key "LANGUAGE") :summary (value "mul"))))
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "zh-CN"))
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "en"))
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "mul"))))
 #+end_src
 ** Stable anchor
 :PROPERTIES:

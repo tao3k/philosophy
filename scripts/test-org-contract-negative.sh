@@ -136,6 +136,21 @@ document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-i
 replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '
 expect_contract_failure "${document_id_root}" document.has-doc-id
 
+child_masked_doc_status_root="$(make_fixture child-masked-doc-status)"
+for locale in cn en; do
+  child_masked_doc_status_file="${child_masked_doc_status_root}/${locale}/30-reflections/30.10-knowledge-action-in-agent-age.org"
+  replace_line "${child_masked_doc_status_file}" '^:DOC_STATUS:.*$' ':DOC_STATUS: withdrawn'
+  printf '\n* Invalid child mask\n:PROPERTIES:\n:DOC_STATUS: accepted\n:END:\n' >> "${child_masked_doc_status_file}"
+done
+expect_contract_failure "${child_masked_doc_status_root}" document.has-doc-status
+
+duplicate_principle_root="$(make_fixture duplicate-principle-identity)"
+for locale in cn en; do
+  replace_line "${duplicate_principle_root}/${locale}/10-charter/10.00-tao3k-charter.org" \
+    '^:PRINCIPLE_ID: PHIL-007$' ':PRINCIPLE_ID: PHIL-001'
+done
+expect_contract_failure "${duplicate_principle_root}" 'must have identical unique paired node identities in PRINCIPLE_ID'
+
 source_root="$(make_fixture empty-source-author)"
 source_document="${source_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
 replace_line "${source_document}" '^:SOURCE_AUTHOR:.*$' ':SOURCE_AUTHOR: '
