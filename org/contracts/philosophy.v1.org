@@ -849,7 +849,11 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (keyword :context "metadata") (= (summary key) "TITLE")))
+(assert exists
+  (and
+    (keyword :context "metadata")
+    (= (summary key) "TITLE")
+    (not (= (summary value) ""))))
 #+end_src
 ** Contract list
 :PROPERTIES:
@@ -968,7 +972,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "../README.org"))
+    (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "00-topology/00.00-repository-topology.org"))))
 #+end_src
 ** Path table
 :PROPERTIES:

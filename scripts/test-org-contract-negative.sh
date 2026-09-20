@@ -74,6 +74,19 @@ for locale in cn en; do
   printf '\n* Invalid child mask\n:PROPERTIES:\n:TOPOLOGY_ID: child.topology\n:PATH_POLICY: closed-world\n:NAVIGATION_ROOT: child-root\n:END:\n' >> "${child_masked_topology_file}"
 done
 expect_contract_failure "${child_masked_topology_root}" topology.has-id
+expect_contract_failure "${child_masked_topology_root}" topology.has-navigation-root
+
+wrong_topology_navigation_root="$(make_fixture wrong-topology-navigation-root)"
+for locale in cn en; do
+  replace_line "${wrong_topology_navigation_root}/${locale}/00-topology/00.00-repository-topology.org" \
+    '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: nowhere'
+done
+expect_contract_failure "${wrong_topology_navigation_root}" topology.has-navigation-root
+
+empty_title_root="$(make_fixture empty-title)"
+replace_line "${empty_title_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org" \
+  '^.*TITLE:.*$' '\#+TITLE:'
+expect_contract_failure "${empty_title_root}" document.has-title
 
 child_masked_repository_index_root="$(make_fixture child-masked-repository-index-metadata)"
 child_masked_repository_index_file="${child_masked_repository_index_root}/README.org"
