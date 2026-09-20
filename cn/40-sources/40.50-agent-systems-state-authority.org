@@ -12,16 +12,17 @@
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.50-agent-systems-state-authority.org
 :SOURCE_ID: source.agent-systems
-:SOURCE_KIND: ENGINEERING_EVIDENCE
+:SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Tao3k engineering synthesis
 :SOURCE_WORK: ASP、MRR、mrr-data、POO Flow、Marlin、Aitia、Episteme 工程观察
 :SOURCE_EDITION: workspace-synthesis-v1
 :SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh
-:SOURCE_REPOSITORIES: agent-semantic-protocols mrr mrr-data poo-flow marlin aitia lambda-episteme
-:SOURCE_REVISIONS: evidence-pending
-:SOURCE_PATHS: evidence-pending
-:OBSERVATION_DATE: 2026-09-20
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: agent-semantic-protocols; MRR; mrr-data; POO Flow; Marlin; Aitia; Episteme engineering practice
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -31,8 +32,9 @@
 :CUSTOM_ID: source-agent-systems-state-authority-cn
 :END:
 
-本条记录 Agent 系统中状态、提议、决策、授权、执行与结果回执必须保持区分的当前工程证据。
-在 =SOURCE_REVISIONS= 与 =SOURCE_PATHS= 被具体 receipt 替换以前，它只是一项待落地的 synthesis。
+本条综合多个 Agent 工程项目中关于状态、提议、决策、授权、执行与结果回执应保持区分的
+设计取向；它不声称已经提供时点工程证据。若要升格为 =ENGINEERING_EVIDENCE=，必须另行记录
+repository、revision、RFC/path 与 observation date。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]]
 
@@ -50,4 +52,4 @@
 
 * 解释链
 
-时点工程观察 → Tao3k 现代解释 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。该链保留工程证据、解释和规范之间的方向，禁止反向声称观察已经证明当前架构。
+工程实践综合 → Tao3k 现代解释 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。该链保留综合、解释和规范之间的方向，禁止反向声称综合已经证明当前架构。

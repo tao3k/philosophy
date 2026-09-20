@@ -26,6 +26,7 @@ new-help:
       'engineering-map: PRINCIPLE_REF' \
       'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE SOURCE_EDITION SOURCE_DATE' \
       'engineering evidence: SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE' \
+      'synthesis: CONSTITUENT_SOURCES' \
       'source-note optional: SOURCE_ID SOURCE_KIND INTERPRETATION_STATUS CLAIM_SCOPE'
 
 # List document kinds accepted by the scaffolder.

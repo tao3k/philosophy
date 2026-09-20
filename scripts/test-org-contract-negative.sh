@@ -65,8 +65,17 @@ expect_contract_failure "${source_kind_root}" source-note.cn.has-source-kind
 
 engineering_locator_root="$(make_fixture missing-engineering-locator)"
 engineering_locator_file="${engineering_locator_root}/cn/40-sources/40.50-agent-systems-state-authority.org"
-replace_line "${engineering_locator_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: not-applicable'
-expect_contract_failure "${engineering_locator_root}" source-note.cn.has-engineering-paths
+replace_line "${engineering_locator_file}" '^:SOURCE_KIND:.*$' ':SOURCE_KIND: ENGINEERING_EVIDENCE'
+replace_line "${engineering_locator_file}" '^:SOURCE_REPOSITORIES:.*$' ':SOURCE_REPOSITORIES: philosophy'
+replace_line "${engineering_locator_file}" '^:SOURCE_REVISIONS:.*$' ':SOURCE_REVISIONS: evidence-pending'
+replace_line "${engineering_locator_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: org/contracts/philosophy.v1.org'
+replace_line "${engineering_locator_file}" '^:OBSERVATION_DATE:.*$' ':OBSERVATION_DATE: 2026-09-20'
+expect_contract_failure "${engineering_locator_root}" source-note.cn.has-engineering-revisions
+
+synthesis_root="$(make_fixture missing-synthesis-constituents)"
+synthesis_file="${synthesis_root}/cn/40-sources/40.30-scientific-method-evidence.org"
+replace_line "${synthesis_file}" '^:CONSTITUENT_SOURCES:.*$' ':CONSTITUENT_SOURCES: evidence-pending'
+expect_contract_failure "${synthesis_root}" source-note.cn.has-synthesis-constituent-sources
 
 source_pair_root="$(make_fixture mismatched-source-id)"
 source_pair_file="${source_pair_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"
@@ -77,6 +86,11 @@ locator_pair_root="$(make_fixture mismatched-source-paths)"
 locator_pair_file="${locator_pair_root}/en/40-sources/40.50-agent-systems-state-authority.org"
 replace_line "${locator_pair_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: unrelated/path'
 expect_contract_failure "${locator_pair_root}" 'must have equal document property SOURCE_PATHS'
+
+governance_pair_root="$(make_fixture mismatched-governance-id)"
+governance_pair_file="${governance_pair_root}/en/90-governance/90.00-authoring-and-admission.org"
+replace_line "${governance_pair_file}" '^:GOVERNANCE_ID:.*$' ':GOVERNANCE_ID: philosophy.other-governance.v1'
+expect_contract_failure "${governance_pair_root}" 'must have equal document property GOVERNANCE_ID'
 
 principle_ref_root="$(make_fixture empty-principle-ref)"
 principle_ref_file="${principle_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"

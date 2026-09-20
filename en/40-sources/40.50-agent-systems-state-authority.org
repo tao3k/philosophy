@@ -12,16 +12,17 @@
 :LANGUAGE: en
 :COUNTERPART: ../../cn/40-sources/40.50-agent-systems-state-authority.org
 :SOURCE_ID: source.agent-systems
-:SOURCE_KIND: ENGINEERING_EVIDENCE
+:SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Tao3k engineering synthesis
 :SOURCE_WORK: ASP, MRR, mrr-data, POO Flow, Marlin, Aitia, and Episteme engineering observations
 :SOURCE_EDITION: workspace-synthesis-v1
 :SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh
-:SOURCE_REPOSITORIES: agent-semantic-protocols mrr mrr-data poo-flow marlin aitia lambda-episteme
-:SOURCE_REVISIONS: evidence-pending
-:SOURCE_PATHS: evidence-pending
-:OBSERVATION_DATE: 2026-09-20
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: agent-semantic-protocols; MRR; mrr-data; POO Flow; Marlin; Aitia; Episteme engineering practice
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -31,9 +32,10 @@
 :CUSTOM_ID: source-agent-systems-state-authority-en
 :END:
 
-This note records current engineering evidence for keeping state, proposal, decision, authorization,
-execution, and outcome receipts distinct in agent systems. Until =SOURCE_REVISIONS= and =SOURCE_PATHS=
-are replaced by concrete receipts, it remains a synthesis awaiting downstream evidence.
+This note synthesizes the design tendency across several agent-system projects to keep state,
+proposal, decision, authorization, execution, and outcome receipts distinct. It does not claim a
+time-bound engineering observation. Promotion to =ENGINEERING_EVIDENCE= requires a separate record
+with repository, revision, RFC/path, and observation date.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]]
 
@@ -51,4 +53,4 @@ It enters the action/authority reflection and provides engineering counterexampl
 
 * Interpretation Chain
 
-Time-bound engineering observation → Tao3k modern interpretation → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between engineering evidence, interpretation, and norm; it must not be reversed into a claim that the observation proved the current architecture.
+Engineering-practice synthesis → Tao3k modern interpretation → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between synthesis, interpretation, and norm; it must not be reversed into a claim that the synthesis proved the current architecture.

@@ -22,6 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Tao3k philosophy source corpus and governance practice
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: repository-method
 :END:

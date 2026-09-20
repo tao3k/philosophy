@@ -190,6 +190,7 @@
     "SOURCE_REVISIONS"
     "SOURCE_PATHS"
     "OBSERVATION_DATE"
+    "CONSTITUENT_SOURCES"
     "INTERPRETATION_STATUS"
     "CLAIM_SCOPE"))
 #+end_src
@@ -217,6 +218,7 @@
     "SOURCE_REVISIONS"
     "SOURCE_PATHS"
     "OBSERVATION_DATE"
+    "CONSTITUENT_SOURCES"
     "INTERPRETATION_STATUS"
     "CLAIM_SCOPE"))
 #+end_src
@@ -232,6 +234,10 @@
 :COUNTERPART_ROOT: en
 :LANGUAGE_VALUE: zh-CN
 :END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "GOVERNANCE_ID" "LIFECYCLE_ID"))
+#+end_src
 
 * EN governance
 :PROPERTIES:
@@ -244,6 +250,10 @@
 :COUNTERPART_ROOT: cn
 :LANGUAGE_VALUE: en
 :END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "GOVERNANCE_ID" "LIFECYCLE_ID"))
+#+end_src
 
 * Contract registries
 :PROPERTIES:

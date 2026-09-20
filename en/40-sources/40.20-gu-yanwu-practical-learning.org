@@ -22,6 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:

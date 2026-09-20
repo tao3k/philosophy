@@ -325,7 +325,8 @@
     (and
       (node-property :summary (key "SOURCE_REPOSITORIES"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
 :PROPERTIES:
@@ -341,7 +342,8 @@
     (and
       (node-property :summary (key "SOURCE_REVISIONS"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
 :PROPERTIES:
@@ -357,7 +359,8 @@
     (and
       (node-property :summary (key "SOURCE_PATHS"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
 :PROPERTIES:
@@ -373,7 +376,25 @@
     (and
       (node-property :summary (key "OBSERVATION_DATE"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Synthesis constituent sources
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-synthesis-constituent-sources
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :summary (key "CONSTITUENT_SOURCES"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -521,7 +542,8 @@
     (and
       (node-property :summary (key "SOURCE_REPOSITORIES"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
 :PROPERTIES:
@@ -537,7 +559,8 @@
     (and
       (node-property :summary (key "SOURCE_REVISIONS"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
 :PROPERTIES:
@@ -553,7 +576,8 @@
     (and
       (node-property :summary (key "SOURCE_PATHS"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
 :PROPERTIES:
@@ -569,7 +593,25 @@
     (and
       (node-property :summary (key "OBSERVATION_DATE"))
       (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable")))))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Synthesis constituent sources
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-synthesis-constituent-sources
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :summary (key "CONSTITUENT_SOURCES"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
 :PROPERTIES:

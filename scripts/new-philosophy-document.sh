@@ -64,6 +64,7 @@ source_repositories="${SOURCE_REPOSITORIES:-not-applicable}"
 source_revisions="${SOURCE_REVISIONS:-not-applicable}"
 source_paths="${SOURCE_PATHS:-not-applicable}"
 observation_date="${OBSERVATION_DATE:-not-applicable}"
+constituent_sources="${CONSTITUENT_SOURCES:-not-applicable}"
 today="$(date -u +%Y-%m-%d)"
 
 require_input() {
@@ -106,6 +107,10 @@ case "${kind}" in
       require_input SOURCE_PATHS "${source_paths}"
       require_input OBSERVATION_DATE "${observation_date}"
     fi
+    if [ "${source_kind}" = SYNTHESIS ]; then
+      constituent_sources="${CONSTITUENT_SOURCES:-}"
+      require_input CONSTITUENT_SOURCES "${constituent_sources}"
+    fi
     ;;
 esac
 
@@ -142,6 +147,7 @@ render_template() {
     -e "s|<SOURCE_REVISIONS>|$(escape_sed_replacement "${source_revisions}")|g" \
     -e "s|<SOURCE_PATHS>|$(escape_sed_replacement "${source_paths}")|g" \
     -e "s|<OBSERVATION_DATE>|$(escape_sed_replacement "${observation_date}")|g" \
+    -e "s|<CONSTITUENT_SOURCES>|$(escape_sed_replacement "${constituent_sources}")|g" \
     -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${INTERPRETATION_STATUS:-MODERNIZED}")|g" \
     -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
     -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \

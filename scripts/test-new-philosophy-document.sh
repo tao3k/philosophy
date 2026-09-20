@@ -61,6 +61,21 @@ for locale in cn en; do
   assert_property "${source_file}" SOURCE_EDITION juan-1
   assert_property "${source_file}" SOURCE_DATE 1527
   assert_property "${source_file}" SOURCE_REPOSITORIES not-applicable
+  assert_property "${source_file}" CONSTITUENT_SOURCES not-applicable
+done
+
+expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
+  SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
+  SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
+  "${scaffolder}" source-note 40.95-missing-constituents.org SYN-MISSING
+env TITLE_ZH=综合 TITLE_EN=Synthesis \
+  SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
+  SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \
+  CONSTITUENT_SOURCES='Popper; Bayesian epistemology' \
+  "${scaffolder}" source-note 40.96-synthesis.org SYN-001 >/dev/null
+for locale in cn en; do
+  assert_property "${fixture_root}/${locale}/40-sources/40.96-synthesis.org" \
+    CONSTITUENT_SOURCES 'Popper; Bayesian epistemology'
 done
 
 expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
