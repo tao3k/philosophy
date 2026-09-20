@@ -15,13 +15,49 @@
 #+begin_src org-contract
 (assert exists (node-property :summary (key "DOC_KIND") :summary (value "repository-index")))
 #+end_src
-** Language links
+** CN language index link
 :PROPERTIES:
-:ASSERT_ID: repository-index.has-language-links
+:ASSERT_ID: repository-index.has-cn-index-link
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert count >= 2 (link))
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:cn/README.org")))
+#+end_src
+** CN topology link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-cn-topology-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:cn/00-topology/00.00-repository-topology.org")))
+#+end_src
+** EN language index link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-en-index-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:en/README.org")))
+#+end_src
+** EN topology link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-en-topology-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:en/00-topology/00.00-repository-topology.org")))
 #+end_src
 ** Topology table
 :PROPERTIES:

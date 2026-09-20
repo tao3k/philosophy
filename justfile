@@ -22,7 +22,8 @@ new kind filename doc_id:
 # Show common and kind-specific inputs for `just new`.
 new-help:
     @printf '%s\n' \
-      'common: TITLE_ZH TITLE_EN (optional: AUTHOR)' \
+      'paired kinds: TITLE_ZH TITLE_EN (optional: AUTHOR)' \
+      'repository-index: TITLE; renders the singleton README.org' \
       'topology: optional TOPOLOGY_ID (defaults from DOC_ID)' \
       'charter: PRINCIPLE_REF PRINCIPLE_KIND (refinement also requires REFINES)' \
       'engineering-map: PRINCIPLE_REF' \

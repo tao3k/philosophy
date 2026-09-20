@@ -20,6 +20,8 @@ mkdir -p \
   "${fixture_root}/cn/40-sources" \
   "${fixture_root}/en/40-sources"
 cp "${repository_root}/scripts/new-philosophy-document.sh" "${fixture_root}/scripts/"
+cp "${repository_root}/org/templates/philosophy.repository-index.v1.org" \
+  "${fixture_root}/org/templates/"
 cp "${repository_root}"/org/templates/philosophy.{topology,charter,engineering-map,reflection,source-note}.{cn,en}.v1.org \
   "${fixture_root}/org/templates/"
 
@@ -67,6 +69,8 @@ assert_mode() {
 
 common=(env TITLE_ZH=测试 TITLE_EN=Test)
 
+assert_contains <("${scaffolder}" --list) repository-index
+
 if [ ! -f "${repository_root}/org/templates/philosophy.repository-index.v1.org" ]; then
   echo "philosophy scaffolder test: repository-index template is missing" >&2
   exit 1
@@ -79,6 +83,23 @@ for template in \
     --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
     "${repository_root}/org/templates/${template}" >/dev/null
 done
+
+env TITLE='Philosophy Repository' TOPOLOGY_ID=philosophy.repository.custom.v1 \
+  "${scaffolder}" repository-index README.org PHIL-ROOT-TEST >/dev/null
+repository_index="${fixture_root}/README.org"
+assert_mode "${repository_index}"
+assert_property "${repository_index}" DOC_ID PHIL-ROOT-TEST
+assert_property "${repository_index}" DOC_KIND repository-index
+assert_property "${repository_index}" TOPOLOGY_ID philosophy.repository.custom.v1
+assert_property "${repository_index}" CUSTOM_ID philosophy.repository-index.README-index
+if grep -Eq '<[A-Z][A-Z_]*>' "${repository_index}"; then
+  echo "philosophy scaffolder test: repository index retains a template placeholder" >&2
+  exit 1
+fi
+expect_failure env TITLE='Duplicate' \
+  "${scaffolder}" repository-index README.org PHIL-ROOT-DUPLICATE
+expect_failure env TITLE='Wrong path' \
+  "${scaffolder}" repository-index ROOT.org PHIL-ROOT-WRONG
 
 env TITLE_ZH=拓扑 TITLE_EN=Topology \
   "${scaffolder}" topology 00.90-topology.org TOPO-001 >/dev/null

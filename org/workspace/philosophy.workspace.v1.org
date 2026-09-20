@@ -109,7 +109,8 @@
   (allow "none")
   (exclude-self true)
   (acyclic true)
-  (reciprocal "SUPERSEDES"))
+  (reciprocal "SUPERSEDES")
+  (target-property "PRINCIPLE_STATUS" (allow "accepted" "superseded")))
 #+end_src
 
 * EN charter
@@ -160,7 +161,8 @@
   (allow "none")
   (exclude-self true)
   (acyclic true)
-  (reciprocal "SUPERSEDES"))
+  (reciprocal "SUPERSEDES")
+  (target-property "PRINCIPLE_STATUS" (allow "accepted" "superseded")))
 #+end_src
 
 * CN engineering map

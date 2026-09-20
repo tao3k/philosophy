@@ -48,6 +48,12 @@ kind_document="${kind_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org
 replace_line "${kind_document}" '^:DOC_KIND: charter$' ':DOC_KIND: reflection'
 expect_contract_failure "${kind_root}" charter.cn.has-document-kind
 
+missing_en_route_root="$(make_fixture missing-en-index-route)"
+replace_line "${missing_en_route_root}/README.org" \
+  '\[\[file:en/README.org\]\[en/README.org\]\]' \
+  '[[file:cn/README.org][cn/README.org]]'
+expect_contract_failure "${missing_en_route_root}" repository-index.has-en-index-link
+
 empty_cn_section_root="$(make_fixture empty-cn-counterarguments)"
 empty_cn_section_file="${empty_cn_section_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
 replace_line "${empty_cn_section_file}" \
@@ -205,6 +211,17 @@ for locale in cn en; do
   replace_line "${temporality_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-EPI-001'
 done
 expect_contract_failure "${accepted_successor_root}" charter.cn.every-principle-has-complete-metadata
+
+draft_successor_root="$(make_fixture draft-successor)"
+for locale in cn en; do
+  epistemology_file="${draft_successor_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  temporality_file="${draft_successor_root}/${locale}/10-charter/10.20-temporality-and-causality.org"
+  replace_line "${epistemology_file}" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
+  replace_line "${epistemology_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-TEMP-001'
+  replace_line "${temporality_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-EPI-001'
+done
+expect_contract_failure "${draft_successor_root}" \
+  'target property PRINCIPLE_STATUS must be one of accepted, superseded'
 
 for invalid_revision in latest -1 0 +1; do
   revision_root="$(make_fixture "invalid-revision-${invalid_revision//+/-plus-}")"

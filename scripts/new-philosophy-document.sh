@@ -4,7 +4,7 @@ set -euo pipefail
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [ "${1:-}" = "--list" ]; then
-  printf '%s\n' topology charter engineering-map reflection source-note governance
+  printf '%s\n' repository-index topology charter engineering-map reflection source-note governance
   exit 0
 fi
 
@@ -13,13 +13,18 @@ filename="${2:-}"
 base_doc_id="${3:-}"
 title_zh="${TITLE_ZH:-}"
 title_en="${TITLE_EN:-}"
+title="${TITLE:-}"
 author="${AUTHOR:-Tao3k}"
 
 if [ -z "${kind}" ] || [ -z "${filename}" ] || [ -z "${base_doc_id}" ]; then
   echo "usage: TITLE_ZH='...' TITLE_EN='...' just new <kind> <NN.name.org> <DOC_ID>" >&2
   exit 2
 fi
-if [ -z "${title_zh}" ] || [ -z "${title_en}" ]; then
+if [ "${kind}" = repository-index ] && [ -z "${title}" ]; then
+  echo "philosophy: TITLE is required for repository-index" >&2
+  exit 2
+fi
+if [ "${kind}" != repository-index ] && { [ -z "${title_zh}" ] || [ -z "${title_en}" ]; }; then
   echo "philosophy: TITLE_ZH and TITLE_EN are required" >&2
   exit 2
 fi
@@ -35,6 +40,13 @@ case "${filename}" in
 esac
 
 case "${kind}" in
+  repository-index)
+    subdir=""
+    if [ "${filename}" != README.org ]; then
+      echo "philosophy: repository-index must render to README.org" >&2
+      exit 2
+    fi
+    ;;
   topology) subdir="00-topology" ;;
   charter) subdir="10-charter" ;;
   engineering-map) subdir="20-engineering" ;;
@@ -44,8 +56,12 @@ case "${kind}" in
   *) echo "philosophy: unsupported kind '${kind}'; run 'just kinds'" >&2; exit 2 ;;
 esac
 
-cn_destination="${repository_root}/cn/${subdir}/${filename}"
-en_destination="${repository_root}/en/${subdir}/${filename}"
+if [ "${kind}" = repository-index ]; then
+  singleton_destination="${repository_root}/${filename}"
+else
+  cn_destination="${repository_root}/cn/${subdir}/${filename}"
+  en_destination="${repository_root}/en/${subdir}/${filename}"
+fi
 
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
 topology_id="${TOPOLOGY_ID:-${base_doc_id}}"
@@ -204,6 +220,36 @@ render_template() {
     -e "s|<CUSTOM_ID>|$(escape_sed_replacement "${semantic_id}-${locale}")|g" \
     "${template}" > "${temporary_file}"
 }
+
+if [ "${kind}" = repository-index ]; then
+  singleton_temporary=""
+  trap '[ -z "${singleton_temporary}" ] || rm -f "${singleton_temporary}"' EXIT
+  if [ -e "${singleton_destination}" ]; then
+    echo "philosophy: refusing to overwrite existing README.org" >&2
+    exit 1
+  fi
+  singleton_temporary="$(mktemp "${singleton_destination}.tmp.XXXXXX")"
+  sed \
+    -e "s|<TITLE>|$(escape_sed_replacement "${title}")|g" \
+    -e "s|<AUTHOR>|$(escape_sed_replacement "${author}")|g" \
+    -e "s|<DATE>|${today}|g" \
+    -e "s|<DOC_ID>|$(escape_sed_replacement "${base_doc_id}")|g" \
+    -e "s|<SEMANTIC_ID>|$(escape_sed_replacement "${semantic_id}")|g" \
+    -e "s|<TOPOLOGY_ID>|$(escape_sed_replacement "${topology_id}")|g" \
+    -e "s|<CUSTOM_ID>|$(escape_sed_replacement "${semantic_id}-index")|g" \
+    "${repository_root}/org/templates/philosophy.repository-index.v1.org" \
+    > "${singleton_temporary}"
+  chmod 0644 "${singleton_temporary}"
+  if ! mv -n "${singleton_temporary}" "${singleton_destination}" || [ -e "${singleton_temporary}" ]; then
+    echo "philosophy: README.org appeared during publication" >&2
+    exit 1
+  fi
+  singleton_temporary=""
+  trap - EXIT
+  echo "philosophy: created README.org"
+  echo "philosophy: complete the repository index, then run 'just check'"
+  exit 0
+fi
 
 cn_temporary=""
 en_temporary=""
