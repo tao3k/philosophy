@@ -17,7 +17,6 @@
 :PROPERTIES:
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
-[[file:../README.org][导航]] · [[file:../00-topology/00.00-repository-topology.org][仓库拓扑]]
 * 生命周期
 # 在提交前定义治理对象的生命周期。
 * 准入
@@ -28,3 +27,5 @@
 # 在提交前定义失败检测、恢复与回滚责任。
 * 审查与挑战
 # 在提交前定义审查、异议与申诉机制。
+* 导航
+[[file:../README.org][导航]] · [[file:../00-topology/00.00-repository-topology.org][仓库拓扑]]

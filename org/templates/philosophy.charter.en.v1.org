@@ -44,4 +44,6 @@
 * Traceability
 | Principle | Engineering direction | Downstream owner |
 |-----------+---------------------+----------|
-| <PRINCIPLE_REF> | | [[file:../README.org][navigation]] |
+| <PRINCIPLE_REF> | | |
+* Navigation
+[[file:../README.org][navigation]]

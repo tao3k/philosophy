@@ -121,6 +121,10 @@ case "${kind}" in
           exit 2
         fi
         for target in ${refines}; do
+          if [ "${target}" = none ]; then
+            echo "philosophy: refinement principles must not mix REFINES=none with targets" >&2
+            exit 2
+          fi
           if [ "${target}" = "${principle_ref}" ]; then
             echo "philosophy: REFINES must not contain its own PRINCIPLE_REF" >&2
             exit 2

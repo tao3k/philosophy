@@ -29,7 +29,6 @@
 :PROPERTIES:
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
-[[file:../README.org][navigation]]
 * Context
 # State the source's historical and conceptual context before admission.
 * Interpretation Boundaries
@@ -38,3 +37,5 @@
 # State how the source influences this repository's principles before admission.
 * Interpretation Chain
 # State the traceable chain from the source to the current interpretation before admission.
+* Navigation
+[[file:../README.org][navigation]]

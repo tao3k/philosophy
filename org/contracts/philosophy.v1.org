@@ -37,7 +37,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "cn/README.org en/README.org")))
 #+end_src
 ** CN language index link
 :PROPERTIES:

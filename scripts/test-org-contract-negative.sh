@@ -79,8 +79,8 @@ child_masked_repository_index_root="$(make_fixture child-masked-repository-index
 child_masked_repository_index_file="${child_masked_repository_index_root}/README.org"
 replace_line "${child_masked_repository_index_file}" '^:TOPOLOGY_ID:.*$' ':TOPOLOGY_ID: '
 replace_line "${child_masked_repository_index_file}" '^:PATH_POLICY:.*$' ':PATH_POLICY: open-world'
-replace_line "${child_masked_repository_index_file}" '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: '
-printf '\n* Invalid child mask\n:PROPERTIES:\n:TOPOLOGY_ID: child.repository\n:PATH_POLICY: closed-world\n:NAVIGATION_ROOT: child-root\n:END:\n' >> "${child_masked_repository_index_file}"
+replace_line "${child_masked_repository_index_file}" '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: nowhere'
+printf '\n* Invalid child mask\n:PROPERTIES:\n:TOPOLOGY_ID: child.repository\n:PATH_POLICY: closed-world\n:NAVIGATION_ROOT: cn/README.org en/README.org\n:END:\n' >> "${child_masked_repository_index_file}"
 expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-topology-id
 expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-path-policy
 expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-navigation-root
@@ -272,6 +272,12 @@ replace_line "${unresolved_refines_file}" '^:REFINES:.*$' ':REFINES: PHIL-MISSIN
 replace_line "${unresolved_refines_root}/en/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
 expect_contract_failure "${unresolved_refines_root}" "node property REFINES reference \`PHIL-MISSING-001\` does not resolve to node identity PRINCIPLE_ID"
 
+mixed_refines_root="$(make_fixture mixed-refines-sentinel)"
+for locale in cn en; do
+  replace_line "${mixed_refines_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: none PHIL-KNOW-ACT-001'
+done
+expect_contract_failure "${mixed_refines_root}" 'node property REFINES must not mix allowed sentinel values with identity references'
+
 self_refines_root="$(make_fixture self-refines)"
 for locale in cn en; do
   replace_line "${self_refines_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-EPI-001'
@@ -327,6 +333,15 @@ for locale in cn en; do
   replace_line "${self_supersession_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-EPI-001'
 done
 expect_contract_failure "${self_supersession_root}" "node \`PHIL-EPI-001\` property SUPERSEDES must not reference its own identity"
+
+mixed_supersession_root="$(make_fixture mixed-supersession-sentinel)"
+for locale in cn en; do
+  mixed_supersession_file="${mixed_supersession_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  replace_line "${mixed_supersession_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: none PHIL-KNOW-ACT-001'
+  replace_line "${mixed_supersession_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: none PHIL-TEMP-001'
+done
+expect_contract_failure "${mixed_supersession_root}" 'node property SUPERSEDES must not mix allowed sentinel values with identity references'
+expect_contract_failure "${mixed_supersession_root}" 'node property SUPERSEDED_BY must not mix allowed sentinel values with identity references'
 
 supersession_cycle_root="$(make_fixture supersession-cycle)"
 for locale in cn en; do

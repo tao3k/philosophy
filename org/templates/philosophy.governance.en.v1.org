@@ -17,7 +17,6 @@
 :PROPERTIES:
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
-[[file:../README.org][navigation]] · [[file:../00-topology/00.00-repository-topology.org][repository topology]]
 * Lifecycle
 # Define the governed lifecycle before admission.
 * Admission
@@ -28,3 +27,5 @@
 # Define failure detection, recovery, and rollback responsibility before admission.
 * Review and Challenge
 # Define review, challenge, and appeal mechanisms before admission.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../00-topology/00.00-repository-topology.org][repository topology]]

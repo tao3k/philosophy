@@ -40,8 +40,10 @@ assert_trace_status() {
   shift 2
   local trace
   trace="$("$@")"
-  if ! grep -Fq "\"assertionId\": \"${assertion_id}\"" <<<"${trace}" ||
-    ! grep -Fq "\"status\": \"${expected}\"" <<<"${trace}"; then
+  if ! jq -e --arg assertion_id "${assertion_id}" --arg expected "${expected}" \
+    'any(.files[].evaluations[].assertions[];
+      .assertionId == $assertion_id and .status == $expected)' \
+    <<<"${trace}" >/dev/null; then
     echo "philosophy scaffolder test: expected ${assertion_id} to be ${expected}" >&2
     exit 1
   fi
@@ -98,6 +100,24 @@ for template in philosophy.topology.cn.v1.org philosophy.topology.en.v1.org; do
     "${orgize_bin}" contract trace \
     --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
     "${repository_root}/org/templates/${template}"
+done
+for locale in cn en; do
+  assert_trace_status failed "governance.${locale}.has-authority" \
+    "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/philosophy.governance.${locale}.v1.org"
+  assert_trace_status failed "source-note.${locale}.has-source" \
+    "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/philosophy.source-note.${locale}.v1.org"
+  assert_trace_status failed "engineering-map.${locale}.has-principle" \
+    "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/philosophy.engineering-map.${locale}.v1.org"
+  assert_trace_status failed "charter.${locale}.trace-owner-complete" \
+    "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/philosophy.charter.${locale}.v1.org"
 done
 
 env TITLE='Philosophy Repository' TOPOLOGY_ID=philosophy.repository.custom.v1 \
@@ -243,6 +263,9 @@ expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
 expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
   PRINCIPLE_REF=PHIL-INVALID PRINCIPLE_KIND=refinement REFINES=none \
   "${scaffolder}" charter 10.94-invalid-refinement.org PHIL-INVALID
+expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
+  PRINCIPLE_REF=PHIL-INVALID PRINCIPLE_KIND=refinement REFINES='none PHIL-001' \
+  "${scaffolder}" charter 10.94-invalid-mixed-refinement.org PHIL-INVALID
 expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
   PRINCIPLE_REF=PHIL-SELF PRINCIPLE_KIND=refinement REFINES=PHIL-SELF \
   "${scaffolder}" charter 10.95-self-refinement.org PHIL-SELF

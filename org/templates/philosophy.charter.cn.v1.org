@@ -44,4 +44,6 @@
 * 可追溯性
 | 原则 | 工程方向 | 下游所有者 |
 |------+----------+------|
-| <PRINCIPLE_REF> | | [[file:../README.org][导航]] |
+| <PRINCIPLE_REF> | | |
+* 导航
+[[file:../README.org][导航]]

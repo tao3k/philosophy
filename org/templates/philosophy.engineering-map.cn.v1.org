@@ -16,7 +16,6 @@
 :PROPERTIES:
 :CUSTOM_ID: <CUSTOM_ID>
 :END:
-[[file:../README.org][导航]]
 * 规范要求
 # 在提交前填写至少一项具有工程性质、所有者或证据的规范要求。
 | 原则 | 工程性质 | 所有者 | 证据 |
@@ -29,3 +28,5 @@
 | <PRINCIPLE_REF> | | proposed | |
 * 审查问题
 # 在提交前写明审查者必须回答的问题。
+* 导航
+[[file:../README.org][导航]]
