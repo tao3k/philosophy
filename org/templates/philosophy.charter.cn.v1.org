@@ -1,0 +1,27 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:charter:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:PRINCIPLE_ID: <PRINCIPLE_REF>
+:END:
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* 理由
+* 反对意见
+* 工程后果
+* 失效模式
+* 开放问题
+* 可追溯性
+| 原则 | 工程表面 | 证据 |
+|------+----------+------|
+| <PRINCIPLE_REF> | | [[file:../README.org][导航]] |

@@ -1,0 +1,27 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:charter:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:PRINCIPLE_ID: <PRINCIPLE_REF>
+:END:
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* Rationale
+* Counterarguments
+* Engineering Consequences
+* Failure Modes
+* Open Questions
+* Traceability
+| Principle | Engineering surface | Evidence |
+|-----------+---------------------+----------|
+| <PRINCIPLE_REF> | | [[file:../README.org][navigation]] |

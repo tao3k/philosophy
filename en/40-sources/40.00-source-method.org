@@ -1,0 +1,41 @@
+#+TITLE: Source and Interpretation Method
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-EN-001
+:SEMANTIC_ID: philosophy.source.interpretation-method
+:DOC_KIND: source-note
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.00-source-method.org
+:SOURCE_ID: philosophy.source-method.v1
+:END:
+
+* Source
+:PROPERTIES:
+:CUSTOM_ID: source-method-en
+:END:
+
+The source layer admits classical Chinese thought, modern philosophy of
+science, formal methods, and computer-systems thought into shared inquiry. See
+the [[file:../README.org][English root]] for repository navigation.
+
+* Context
+
+Concepts from Wang Yangming, Gu Yanwu, or modern thinkers retain their
+historical context. They are not a vocabulary to map directly onto protocol fields.
+
+* Interpretation Boundaries
+
+The unity of knowledge and action can inspire a closed knowledge-action loop,
+but does not prove one agent architecture correct. Practical learning can
+constrain purpose without reducing human value to utility maximization.
+
+* Influence
+
+A source enters Reflection first. It may reach Charter only after review of
+counterexamples, boundaries, and engineering consequences. Citation alone does
+not confer normative authority.

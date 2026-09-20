@@ -1,0 +1,22 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:SOURCE_ID: <SOURCE_ID>
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+[[file:../README.org][导航]]
+* 语境
+* 解释边界
+* 影响

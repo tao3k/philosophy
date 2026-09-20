@@ -1,0 +1,43 @@
+#+TITLE: How a Reflection Becomes Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REFL-EN-001
+:SEMANTIC_ID: philosophy.reflection.promotion-governance
+:DOC_KIND: reflection
+:STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.00-reflection-governance.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-question-en
+:END:
+
+Under what conditions may an illuminating idea become a cross-project constraint?
+
+* Argument
+
+Quotation and resonance do not confer normative authority. An idea must become
+an explicit claim with counterarguments, failure modes, auditable engineering
+consequences, and bounded scope. See the [[file:../10-charter/10.00-tao3k-charter.org][current Charter]].
+
+* Counterexamples
+
+“More automation is always better” converts easily into an implementation
+slogan while failing to preserve consent, reversibility, or human agency.
+
+* Provisional Conclusion
+
+Reflection preserves dispute; Charter bears stable normative force. A file move
+cannot transform one into the other.
+
+* Promotion Criteria
+
+Align the CN and EN semantics, state counterexamples and boundaries, establish
+engineering traces, satisfy the Charter Org Contract, and explicitly change
+=STATUS= to =proposed= or =accepted= through review.

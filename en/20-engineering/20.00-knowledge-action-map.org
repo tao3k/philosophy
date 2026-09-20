@@ -1,0 +1,39 @@
+#+TITLE: Know–Discern–Assure–Act–Reconcile Engineering Map
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:engineering:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:DOC_ID: PHIL-MAP-EN-001
+:SEMANTIC_ID: philosophy.engineering.knowledge-action-map
+:DOC_KIND: engineering-map
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/20-engineering/20.00-knowledge-action-map.org
+:PRINCIPLE_REF: PHIL-001..PHIL-007
+:END:
+
+* Principle
+:PROPERTIES:
+:CUSTOM_ID: engineering-principle-en
+:END:
+
+The [[file:../10-charter/10.00-tao3k-charter.org][Tao3k Charter]] requires knowledge, judgment, assurance, authority,
+execution, and consequences to remain traceable and non-collapsed.
+
+* Engineering Mapping
+
+| Stage | Must preserve | Must not substitute | Typical owner |
+|-------+---------------+---------------------+---------------|
+| Know | source identity, generation, provenance | model confidence | ASP / MRR |
+| Discern | dependency, causality, unknown frontier | plausible completion | MRR |
+| Assure | proof, verification, evidence sufficiency | linguistic fluency | Episteme / Aitia |
+| Act | decision, policy, authority, intervention | tool availability | ASP / Marlin |
+| Reconcile | receipt, observation, invalidation | invocation return code | POO Flow / MRR |
+
+* Review Questions
+
+A design review asks what is known, what remains unknown, what relations support
+the judgment, what assurance is required, who has authority, how the world will
+change, how the outcome returns as knowledge, and what happens when it is ambiguous.

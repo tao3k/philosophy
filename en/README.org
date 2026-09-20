@@ -1,0 +1,55 @@
+#+TITLE: Tao3k Philosophy
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:topology:
+#+OPTIONS: toc:2 num:nil
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:DOC_ID: PHIL-EN-ROOT-001
+:SEMANTIC_ID: philosophy.language-root
+:DOC_KIND: topology
+:STATUS: accepted
+:LANGUAGE: en
+:COUNTERPART: ../cn/README.org
+:TOPOLOGY_ID: philosophy.en.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: 00-topology/00.00-repository-topology.org
+:END:
+
+* Position
+:PROPERTIES:
+:CUSTOM_ID: en-position
+:END:
+
+Tao3k Philosophy maintains the shared thought, concepts, and normative
+principles of the Tao3k ecosystem. It produces no runtime and does not replace
+project RFCs. See the [[file:../cn/README.org][Chinese root]] for its semantic counterpart.
+
+#+begin_quote
+Knowledge must be grounded; reasoning must preserve evidence; decisions must be
+justified; actions must be authorized; consequences must return as knowledge.
+#+end_quote
+
+* Navigation
+
+| Directory | Content | Contract family |
+|-----------+---------+-----------------|
+| [[file:00-topology/00.00-repository-topology.org][00-topology]] | File structure and boundaries | topology |
+| [[file:10-charter/10.00-tao3k-charter.org][10-charter]] | Accepted or proposed principles | charter.en |
+| [[file:20-engineering/20.00-knowledge-action-map.org][20-engineering]] | Principle-to-engineering mappings | engineering-map.en |
+| [[file:30-reflections/30.00-reflection-governance.org][30-reflections]] | Arguments not yet normative | reflection.en |
+| [[file:40-sources/40.00-source-method.org][40-sources]] | Sources and interpretation limits | source-note.en |
+| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | Authoring and admission | engineering-map.en |
+
+* Relation graph
+
+#+name: philosophy-en-flow
+#+begin_src mermaid :exports results :file philosophy-en-flow.svg
+flowchart TD
+  S[Sources] --> R[Reflections]
+  R --> C[Charter]
+  C --> E[Engineering mappings]
+  E --> D[Downstream implementations]
+  D --> R
+#+end_src

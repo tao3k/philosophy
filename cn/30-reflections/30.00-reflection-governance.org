@@ -1,0 +1,39 @@
+#+TITLE: 反思如何成为宪章
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REFL-CN-001
+:SEMANTIC_ID: philosophy.reflection.promotion-governance
+:DOC_KIND: reflection
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.00-reflection-governance.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-question-cn
+:END:
+
+一个有启发性的思想在什么条件下可以成为跨项目上位约束？
+
+* 论证
+
+仅有引用或共鸣不足以产生规范权威。思想必须能形成明确主张、反对意见、失效模式与
+可审计工程后果，且其范围不能覆盖尚未检查的系统。参见 [[file:../10-charter/10.00-tao3k-charter.org][当前宪章]]。
+
+* 反例
+
+“更多自动化总是更好”容易转成实现口号，却无法保存 consent、可逆性与人的 agency。
+
+* 暂定结论
+
+Reflection 保留争论空间；Charter 承担稳定规范。二者不可由目录移动互换。
+
+* 升格条件
+
+完成中英文语义对齐、给出反例与边界、建立工程追踪、通过 Charter Org Contract，
+再由维护者明确把 =STATUS= 改为 =proposed= 或 =accepted=。

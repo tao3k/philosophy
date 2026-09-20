@@ -1,0 +1,37 @@
+#+TITLE: 写作与准入
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:governance:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.cn.v1
+:DOC_ID: PHIL-GOV-CN-001
+:SEMANTIC_ID: philosophy.governance.authoring-admission
+:DOC_KIND: engineering-map
+:STATUS: accepted
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/90-governance/90.00-authoring-and-admission.org
+:PRINCIPLE_REF: PHIL-001..PHIL-007
+:END:
+
+* 原则
+:PROPERTIES:
+:CUSTOM_ID: authoring-principle-cn
+:END:
+
+写作入口是 [[file:../../justfile][Justfile]]，执行机制是 =scripts/*.sh=，语义验证权威是
+=tao3k/orgize CONTRACT_ORG=。维护者不得手工创造未登记的文档形状。
+
+* 工程映射
+
+| 动作 | Just 入口 | Bash 所有者 | 结果 |
+|------+-----------+-------------+------|
+| 查看类型 | =just kinds= | =new-philosophy-document.sh --list= | 已登记类型 |
+| 新建一对文档 | =just new ...= | =new-philosophy-document.sh= | CN/EN 原子成对 |
+| 单文档追踪 | =just trace ...= | =trace-org-contract.sh= | Orgize trace |
+| 全仓准入 | =just check= | =check-org-contracts.sh= | topology + pair + contract receipts |
+
+* 审查问题
+
+合约是否仍由 Orgize 解析？模板与合约是否同改？CN/EN 是否共享 =SEMANTIC_ID= 并互指？
+Charter 是否保留反对意见和失效模式？详情见 [[file:../00-topology/00.00-repository-topology.org][拓扑]]。

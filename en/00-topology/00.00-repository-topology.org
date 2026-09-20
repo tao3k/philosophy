@@ -1,0 +1,50 @@
+#+TITLE: Repository Topology
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:topology:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:DOC_ID: PHIL-TOPO-EN-001
+:SEMANTIC_ID: philosophy.repository-topology
+:DOC_KIND: topology
+:STATUS: accepted
+:LANGUAGE: en
+:COUNTERPART: ../../cn/00-topology/00.00-repository-topology.org
+:TOPOLOGY_ID: philosophy.content.en.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: ../README.org
+:END:
+
+* Path ownership
+:PROPERTIES:
+:CUSTOM_ID: topology-path-ownership-en
+:END:
+
+| Path | Document kind | Authority |
+|------+---------------+-----------|
+| =10-charter/= | charter | Normative principle |
+| =20-engineering/= | engineering-map | Normative mapping |
+| =30-reflections/= | reflection | Exploratory |
+| =40-sources/= | source-note | Interpretive evidence |
+| =90-governance/= | engineering-map | Repository governance |
+
+* Topology
+
+#+name: en-content-topology
+#+begin_src mermaid :exports results :file en-content-topology.svg
+flowchart LR
+  SRC[40 Sources] --> REF[30 Reflections]
+  REF --> CHA[10 Charter]
+  CHA --> MAP[20 Engineering]
+  GOV[90 Governance] -.constrains.-> SRC
+  GOV -.constrains.-> REF
+  GOV -.constrains.-> CHA
+  GOV -.constrains.-> MAP
+#+end_src
+
+* Boundaries
+
+Promotion from Reflection to Charter is a contract rewrite and review, not a
+file move. CN and EN are paired by identical =SEMANTIC_ID= values and reciprocal
+=COUNTERPART= paths. Return to the [[file:../README.org][English root]].

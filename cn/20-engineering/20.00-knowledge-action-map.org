@@ -1,0 +1,37 @@
+#+TITLE: 知—辨—证—行—验工程映射
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:engineering:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.cn.v1
+:DOC_ID: PHIL-MAP-CN-001
+:SEMANTIC_ID: philosophy.engineering.knowledge-action-map
+:DOC_KIND: engineering-map
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/20-engineering/20.00-knowledge-action-map.org
+:PRINCIPLE_REF: PHIL-001..PHIL-007
+:END:
+
+* 原则
+:PROPERTIES:
+:CUSTOM_ID: engineering-principle-cn
+:END:
+
+[[file:../10-charter/10.00-tao3k-charter.org][Tao3k 宪章]]要求知识、判断、证成、权限、执行和后果保持可追溯且不坍缩。
+
+* 工程映射
+
+| 阶段 | 必须保存 | 不得替代 | 典型所有者 |
+|------+----------+----------+------------|
+| 知 | source identity、generation、provenance | 模型自信 | ASP / MRR |
+| 辨 | dependency、causality、unknown frontier | plausible completion | MRR |
+| 证 | proof、verification、evidence sufficiency | 语言流畅性 | Episteme / Aitia |
+| 行 | decision、policy、authority、intervention | tool availability | ASP / Marlin |
+| 验 | receipt、observation、invalidation | 调用返回码 | POO Flow / MRR |
+
+* 审查问题
+
+设计审查必须回答：知道什么、仍未知什么、推理关系是什么、需要何种证成、谁有权、
+世界将如何变化、结果如何复验，以及结果含混时如何处理。

@@ -1,0 +1,49 @@
+#+TITLE: 仓库拓扑
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:topology:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:DOC_ID: PHIL-TOPO-CN-001
+:SEMANTIC_ID: philosophy.repository-topology
+:DOC_KIND: topology
+:STATUS: accepted
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/00-topology/00.00-repository-topology.org
+:TOPOLOGY_ID: philosophy.content.cn.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: ../README.org
+:END:
+
+* 路径所有权
+:PROPERTIES:
+:CUSTOM_ID: topology-path-ownership-cn
+:END:
+
+| 路径 | 文档类型 | 权威程度 |
+|------+----------+----------|
+| =10-charter/= | charter | 规范性原则 |
+| =20-engineering/= | engineering-map | 规范性映射 |
+| =30-reflections/= | reflection | 探索性 |
+| =40-sources/= | source-note | 解释性证据 |
+| =90-governance/= | engineering-map | 仓库治理 |
+
+* 拓扑
+
+#+name: cn-content-topology
+#+begin_src mermaid :exports results :file cn-content-topology.svg
+flowchart LR
+  SRC[40 来源] --> REF[30 反思]
+  REF --> CHA[10 宪章]
+  CHA --> MAP[20 工程映射]
+  GOV[90 治理] -.约束.-> SRC
+  GOV -.约束.-> REF
+  GOV -.约束.-> CHA
+  GOV -.约束.-> MAP
+#+end_src
+
+* 边界
+
+从 Reflection 升格为 Charter 是合约重写与审查，不是移动文件。中英文通过相同
+=SEMANTIC_ID= 和互指 =COUNTERPART= 成对维护。返回 [[file:../README.org][中文入口]]。

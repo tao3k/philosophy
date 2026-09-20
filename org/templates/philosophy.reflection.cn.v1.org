@@ -1,0 +1,22 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* 论证
+* 反例
+* 暂定结论
+* 升格条件
+参见 [[file:../README.org][导航]]。

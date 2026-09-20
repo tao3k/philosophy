@@ -1,0 +1,39 @@
+#+TITLE: Authoring and Admission
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:governance:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:DOC_ID: PHIL-GOV-EN-001
+:SEMANTIC_ID: philosophy.governance.authoring-admission
+:DOC_KIND: engineering-map
+:STATUS: accepted
+:LANGUAGE: en
+:COUNTERPART: ../../cn/90-governance/90.00-authoring-and-admission.org
+:PRINCIPLE_REF: PHIL-001..PHIL-007
+:END:
+
+* Principle
+:PROPERTIES:
+:CUSTOM_ID: authoring-principle-en
+:END:
+
+The human entry point is the [[file:../../justfile][Justfile]], execution is owned by
+=scripts/*.sh=, and semantic validation authority remains =tao3k/orgize
+CONTRACT_ORG=. Maintainers do not invent unregistered document shapes by hand.
+
+* Engineering Mapping
+
+| Action | Just entry | Bash owner | Result |
+|--------+------------+------------+--------|
+| List kinds | =just kinds= | =new-philosophy-document.sh --list= | Registered kinds |
+| Create a pair | =just new ...= | =new-philosophy-document.sh= | Atomic CN/EN pair |
+| Trace one document | =just trace ...= | =trace-org-contract.sh= | Orgize trace |
+| Admit repository | =just check= | =check-org-contracts.sh= | Topology, pair, and contract receipts |
+
+* Review Questions
+
+Does Orgize remain the contract parser? Did templates and contracts change
+together? Do CN and EN share =SEMANTIC_ID= and point to each other? Does Charter
+retain counterarguments and failure modes? See the [[file:../00-topology/00.00-repository-topology.org][topology]].

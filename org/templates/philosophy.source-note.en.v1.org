@@ -1,0 +1,22 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:SOURCE_ID: <SOURCE_ID>
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+[[file:../README.org][navigation]]
+* Context
+* Interpretation Boundaries
+* Influence

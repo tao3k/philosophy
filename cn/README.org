@@ -1,0 +1,53 @@
+#+TITLE: Tao3k 哲学
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:topology:
+#+OPTIONS: toc:2 num:nil
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1
+:DOC_ID: PHIL-CN-ROOT-001
+:SEMANTIC_ID: philosophy.language-root
+:DOC_KIND: topology
+:STATUS: accepted
+:LANGUAGE: zh-CN
+:COUNTERPART: ../en/README.org
+:TOPOLOGY_ID: philosophy.cn.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: 00-topology/00.00-repository-topology.org
+:END:
+
+* 定位
+:PROPERTIES:
+:CUSTOM_ID: cn-position
+:END:
+
+Tao3k Philosophy 维护 Tao3k 跨项目共享的思想、概念和规范原则。它不生产
+runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][English root]]。
+
+#+begin_quote
+知须有据，辨须明理，决须可证，行须有权，果须复验。
+#+end_quote
+
+* 导航
+
+| 目录 | 内容 | 合约族 |
+|------+------|--------|
+| [[file:00-topology/00.00-repository-topology.org][00-topology]] | 文件结构和边界 | topology |
+| [[file:10-charter/10.00-tao3k-charter.org][10-charter]] | 已接受或提议的原则 | charter.cn |
+| [[file:20-engineering/20.00-knowledge-action-map.org][20-engineering]] | 原则到工程性质的映射 | engineering-map.cn |
+| [[file:30-reflections/30.00-reflection-governance.org][30-reflections]] | 尚未成为规范的论证 | reflection.cn |
+| [[file:40-sources/40.00-source-method.org][40-sources]] | 来源与解释边界 | source-note.cn |
+| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | 写作与准入 | engineering-map.cn |
+
+* 关系图
+
+#+name: philosophy-cn-flow
+#+begin_src mermaid :exports results :file philosophy-cn-flow.svg
+flowchart TD
+  S[来源] --> R[反思]
+  R --> C[宪章]
+  C --> E[工程映射]
+  E --> D[下游实现]
+  D --> R
+#+end_src

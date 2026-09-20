@@ -1,0 +1,22 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* Argument
+* Counterexamples
+* Provisional Conclusion
+* Promotion Criteria
+See [[file:../README.org][navigation]].

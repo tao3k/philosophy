@@ -1,0 +1,38 @@
+#+TITLE: 来源与解释方法
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-001
+:SEMANTIC_ID: philosophy.source.interpretation-method
+:DOC_KIND: source-note
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.00-source-method.org
+:SOURCE_ID: philosophy.source-method.v1
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-method-cn
+:END:
+
+来源层允许中国古典思想、现代科学哲学、形式化方法与计算机系统思想共同进入讨论。
+仓库导航见 [[file:../README.org][中文入口]]。
+
+* 语境
+
+王阳明、顾炎武或现代思想家的概念必须说明历史语境；它们不是可以脱离语境直接导入
+协议字段的术语库。
+
+* 解释边界
+
+“知行合一”启发知识与行动的闭环，但不自动证明某种 Agent 架构正确；“经世致用”
+约束目的，但不把效用最大化等同于人的价值。
+
+* 影响
+
+来源先进入 Reflection。只有经反例、边界和工程后果审查后，才可能进入 Charter；
+引用本身不产生规范权威。

@@ -1,0 +1,590 @@
+#+TITLE: Tao3k Philosophy Org Contracts v1
+#+PROPERTY: CONTRACT_SET philosophy.v1
+
+* Repository index v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.repository-index.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Language links
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-language-links
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 2 (link))
+#+end_src
+** Topology table
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+** Topology diagram
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-mermaid
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (src-block :language "mermaid"))
+#+end_src
+
+* Chinese engineering map v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.engineering-map.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Principle reference
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-principle-ref
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "PRINCIPLE_REF")))
+#+end_src
+** Principle section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "原则")))
+#+end_src
+** Mapping section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-mapping
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "工程映射")))
+#+end_src
+** Review section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-review
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "审查问题")))
+#+end_src
+** Mapping table
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+
+* English engineering map v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.engineering-map.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Principle reference
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-principle-ref
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "PRINCIPLE_REF")))
+#+end_src
+** Principle section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Principle")))
+#+end_src
+** Mapping section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-mapping
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Engineering Mapping")))
+#+end_src
+** Review section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-review
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Review Questions")))
+#+end_src
+** Mapping table
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+
+* Chinese reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.reflection.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Question
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-question
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "问题")))
+#+end_src
+** Argument
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-argument
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "论证")))
+#+end_src
+** Counterexamples
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-counterexamples
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "反例")))
+#+end_src
+** Provisional conclusion
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-conclusion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "暂定结论")))
+#+end_src
+** Promotion criteria
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-promotion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "升格条件")))
+#+end_src
+
+* English reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.reflection.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Question
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-question
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Question")))
+#+end_src
+** Argument
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-argument
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Argument")))
+#+end_src
+** Counterexamples
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-counterexamples
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Counterexamples")))
+#+end_src
+** Provisional conclusion
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-conclusion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Provisional Conclusion")))
+#+end_src
+** Promotion criteria
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-promotion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Promotion Criteria")))
+#+end_src
+
+* Chinese source note v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.source-note.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Source id
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_ID")))
+#+end_src
+** Source
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "来源")))
+#+end_src
+** Context
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-context
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "语境")))
+#+end_src
+** Interpretation boundaries
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-boundaries
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "解释边界")))
+#+end_src
+** Influence
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-influence
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "影响")))
+#+end_src
+
+* English source note v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.source-note.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Source id
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SOURCE_ID")))
+#+end_src
+** Source
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Source")))
+#+end_src
+** Context
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-context
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Context")))
+#+end_src
+** Interpretation boundaries
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-boundaries
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Interpretation Boundaries")))
+#+end_src
+** Influence
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-influence
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Influence")))
+#+end_src
+* Maintained philosophy document v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.document.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Title
+:PROPERTIES:
+:ASSERT_ID: document.has-title
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (keyword :context "metadata") (= (summary key) "TITLE")))
+#+end_src
+** Contract list
+:PROPERTIES:
+:ASSERT_ID: document.has-contract-list
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "CONTRACT_ORG")))
+#+end_src
+** Document id
+:PROPERTIES:
+:ASSERT_ID: document.has-doc-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_ID")))
+#+end_src
+** Semantic id
+:PROPERTIES:
+:ASSERT_ID: document.has-semantic-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "SEMANTIC_ID")))
+#+end_src
+** Counterpart
+:PROPERTIES:
+:ASSERT_ID: document.has-counterpart
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "COUNTERPART")))
+#+end_src
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: document.has-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "DOC_KIND")))
+#+end_src
+** Status
+:PROPERTIES:
+:ASSERT_ID: document.has-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "STATUS")))
+#+end_src
+** Language
+:PROPERTIES:
+:ASSERT_ID: document.has-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "LANGUAGE")))
+#+end_src
+** Stable anchor
+:PROPERTIES:
+:ASSERT_ID: document.has-custom-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "CUSTOM_ID")))
+#+end_src
+** Knowledge graph link
+:PROPERTIES:
+:ASSERT_ID: document.has-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (link))
+#+end_src
+
+* Topology v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.topology.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Topology id
+:PROPERTIES:
+:ASSERT_ID: topology.has-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "TOPOLOGY_ID")))
+#+end_src
+** Path policy
+:PROPERTIES:
+:ASSERT_ID: topology.has-path-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "PATH_POLICY")))
+#+end_src
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: topology.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :summary (key "NAVIGATION_ROOT")))
+#+end_src
+** Path table
+:PROPERTIES:
+:ASSERT_ID: topology.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+** Executable graph
+:PROPERTIES:
+:ASSERT_ID: topology.has-mermaid
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (src-block :language "mermaid"))
+#+end_src
+
+* Chinese charter v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.charter.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Claim
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-claim
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "主张")))
+#+end_src
+** Rationale
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-rationale
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "理由")))
+#+end_src
+** Counterarguments
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-counterarguments
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "反对意见")))
+#+end_src
+** Engineering consequences
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-engineering-consequences
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "工程后果")))
+#+end_src
+** Failure modes
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-failure-modes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "失效模式")))
+#+end_src
+** Open questions
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "开放问题")))
+#+end_src
+** Traceability
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-traceability
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "可追溯性")))
+#+end_src
+** Trace table
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-trace-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+
+* English charter v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.charter.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Claim
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-claim
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Claim")))
+#+end_src
+** Rationale
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-rationale
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Rationale")))
+#+end_src
+** Counterarguments
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-counterarguments
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Counterarguments")))
+#+end_src
+** Engineering consequences
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-engineering-consequences
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Engineering Consequences")))
+#+end_src
+** Failure modes
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-failure-modes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Failure Modes")))
+#+end_src
+** Open questions
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Open Questions")))
+#+end_src
+** Traceability
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-traceability
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Traceability")))
+#+end_src
+** Trace table
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-trace-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
