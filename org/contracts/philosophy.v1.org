@@ -364,7 +364,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "source-note")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "source-note")))
 #+end_src
 ** Source id
 :PROPERTIES:
@@ -372,7 +372,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Source kind
 :PROPERTIES:
@@ -478,7 +478,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
 #+end_src
 ** Source work
 :PROPERTIES:
@@ -486,7 +486,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
 #+end_src
 ** Source edition
 :PROPERTIES:
@@ -494,7 +494,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
 #+end_src
 ** Source date
 :PROPERTIES:
@@ -502,7 +502,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
 #+end_src
 ** Source language
 :PROPERTIES:
@@ -510,7 +510,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
 #+end_src
 ** Interpretation status
 :PROPERTIES:
@@ -520,9 +520,9 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
 #+end_src
 ** Claim scope
 :PROPERTIES:
@@ -530,7 +530,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
 #+end_src
 ** Source
 :PROPERTIES:
@@ -595,7 +595,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "source-note")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "source-note")))
 #+end_src
 ** Source id
 :PROPERTIES:
@@ -603,7 +603,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Source kind
 :PROPERTIES:
@@ -709,7 +709,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
 #+end_src
 ** Source work
 :PROPERTIES:
@@ -717,7 +717,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
 #+end_src
 ** Source edition
 :PROPERTIES:
@@ -725,7 +725,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
 #+end_src
 ** Source date
 :PROPERTIES:
@@ -733,7 +733,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
 #+end_src
 ** Source language
 :PROPERTIES:
@@ -741,7 +741,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
 #+end_src
 ** Interpretation status
 :PROPERTIES:
@@ -751,9 +751,9 @@
 #+begin_src org-contract
 (assert exists
   (or
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
-    (node-property :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
 #+end_src
 ** Claim scope
 :PROPERTIES:
@@ -761,7 +761,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
 #+end_src
 ** Source
 :PROPERTIES:
@@ -1168,7 +1168,12 @@
       (section (headline :summary (title "可追溯性")))
       (body (section :child-of "$section")))
   (assert count == $principles
-    (table-cell :within "$body" :column "工程方向" :header false :nonempty true)))
+    (table-row
+      :within "$body"
+      :header false
+      :column-nonempty "原则"
+      :column-nonempty "工程方向"
+      :column-nonempty "下游所有者")))
 #+end_src
 ** Trace owner or evidence for every principle
 :PROPERTIES:
@@ -1376,7 +1381,12 @@
       (section (headline :summary (title "Traceability")))
       (body (section :child-of "$section")))
   (assert count == $principles
-    (table-cell :within "$body" :column "Engineering direction" :header false :nonempty true)))
+    (table-row
+      :within "$body"
+      :header false
+      :column-nonempty "Principle"
+      :column-nonempty "Engineering direction"
+      :column-nonempty "Downstream owner")))
 #+end_src
 ** Trace owner or evidence for every principle
 :PROPERTIES:

@@ -24,6 +24,15 @@ replace_line() {
   mv "${temporary}" "${file}"
 }
 
+insert_line_after() {
+  local file="$1"
+  local pattern="$2"
+  local line="$3"
+  local temporary="${file}.tmp"
+  awk -v pattern="${pattern}" -v line="${line}" '{ print } $0 ~ pattern { print line }' "${file}" > "${temporary}"
+  mv "${temporary}" "${file}"
+}
+
 expect_contract_failure() {
   local root="$1"
   local assertion_id="$2"
@@ -313,6 +322,14 @@ for locale in cn en; do
 done
 expect_contract_failure "${interpretation_status_root}" source-note.cn.has-interpretation-status
 
+child_masked_status_root="$(make_fixture child-masked-interpretation-status)"
+for locale in cn en; do
+  child_masked_status_file="${child_masked_status_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org"
+  replace_line "${child_masked_status_file}" '^:INTERPRETATION_STATUS:.*$' ':INTERPRETATION_STATUS: COMPLETE'
+  printf '\n* Invalid child mask\n:PROPERTIES:\n:INTERPRETATION_STATUS: DIRECT\n:END:\n' >> "${child_masked_status_file}"
+done
+expect_contract_failure "${child_masked_status_root}" source-note.cn.has-interpretation-status
+
 trace_root="$(make_fixture empty-trace-row)"
 trace_file="${trace_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
 replace_line "${trace_file}" '^[|] PHIL-EPI-001 .*$' '| PHIL-EPI-001 | | | |'
@@ -328,6 +345,14 @@ trace_engineering_file="${trace_engineering_root}/cn/10-charter/10.00-tao3k-char
 replace_line "${trace_engineering_file}" \
   '^[|] PHIL-007 [|].*$' '| PHIL-007 || POO Flow / MRR |'
 expect_contract_failure "${trace_engineering_root}" charter.cn.trace-engineering-complete
+
+compensated_trace_root="$(make_fixture compensated-trace-engineering)"
+compensated_trace_file="${compensated_trace_root}/cn/10-charter/10.00-tao3k-charter.org"
+replace_line "${compensated_trace_file}" \
+  '^[|] PHIL-007 [|].*$' '| PHIL-007 || POO Flow / MRR |'
+insert_line_after "${compensated_trace_file}" \
+  '^[|][-]+[+][-]+[+][-]+[|]$' '| | compensating direction | compensating owner |'
+expect_contract_failure "${compensated_trace_root}" charter.cn.trace-engineering-complete
 
 trace_owner_root="$(make_fixture missing-trace-owner)"
 trace_owner_file="${trace_owner_root}/en/10-charter/10.00-tao3k-charter.org"
