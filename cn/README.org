@@ -66,6 +66,15 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
 | 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 
+* Modern AI Philosophy — Content M2
+
+| 核心问题 | Reflection | 主要来源 |
+|----------+------------+----------|
+| 模型中的可能性何时能够成为现实预测 | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation 不是 Prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式化方法：证明、模型检查与反例]] |
+| 可计算目标为何不能独自产生人的价值 | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization 不等于 Human Value]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
+| 未知如何约束推理并组织下一步探究 | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown 是一等状态]] | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法]] |
+| 技术能力何时获得改变世界的权限 | [[file:30-reflections/30.60-action-requires-authority.org][Action 必须经过 Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
+
 * 关系图
 
 #+name: philosophy-cn-flow

@@ -24,16 +24,28 @@ When an executable tool exists, what additional conditions authorize an agent to
 
 * Argument
 
-A proposal describes what could be done, a decision selects whether to act, authority proves who permits it, execution changes the world, and an outcome receipt records the result. Each stage must be independently rejectable.
+Tool capability says only what a system can do. It does not say what should be done, what may be done now, or on whose behalf. Treating capability as authority turns installation, network reach, or possession of credentials into implicit permission and hides a normative boundary inside accidental technical reachability.
+
+A proposal describes a candidate change and its reasons; a decision selects among alternatives; authority identifies who permits it and on what basis; execution changes a resource; outcome observes what followed in the world. These stages may be close in time, but they need distinct rejection points. A reasonable proposal may be refused, a sound decision may wait for permission, valid authority may be revoked before execution, and command success may fail to produce the intended result.
+
+Authority is a scoped relation rather than a Boolean. It binds at least a principal, agent, action, resource, purpose, time, risk limit, and delegation path. Permission to read an account does not imply permission to transfer money; permission to pay one bill today does not imply indefinite financial management; permission to read data for diagnosis does not imply permission to use it for training.
+
+Delegation must preserve origin and attenuation. A downstream agent cannot receive more authority than its parent, redelegation must remain visible, and changes in purpose or environment require reevaluation. Revocation must also have real effect: it must stop pending actions, address operations in flight, and account for effects that already occurred and cannot be reversed.
+
+For consequential action, authority and assurance must meet. Permission does not mean evidence is sufficient, while sufficient evidence does not grant permission. The former asks who may impose consequences on the world; the latter asks whether there is reason to do so. Neither can substitute for the other.
 
 * Counterexamples
 
-Policy may pre-authorize low-risk actions; emergency stops may lack per-action human approval; distributed authority may be a capability rather than a click.
+Policy may pre-authorize reversible, low-risk, well-bounded actions without a human click each time. Emergency stopping may act before case-specific approval to prevent greater harm, and distributed systems often represent authority through unforgeable capabilities. The objection is not automation; it is automation without an identifiable principal, scope, duration, and review path.
+
+Excessively granular authorization produces consent fatigue and habitual approval of requests people cannot understand. Formal confirmation at every step may provide less control than a stable, legible delegation. Review intensity should vary with risk, uncertainty, reversibility, and novelty rather than counting prompts as human control.
+
+Inaction can also cause harm. A system that demands authority for action but leaves delay and refusal unaccountable will systematically favor the status quo. High-consequence abstention should identify who established the stopping rule, what opportunity may be lost, and when the matter escalates to a person.
 
 * Provisional Conclusion
 
-Action requires explicit authority scope, resources, time bounds, revocation or compensation paths, and outcome receipts.
+Real-world action requires traceable, scoped authority: who delegates to whom, for which action and resource, for what purpose and duration, under what risk limit, with what redelegation, revocation, stopping, and compensation path. Authority must be verifiable before execution and answerable after outcome. Tool capability, model confidence, and command success cannot replace it.
 
 * Promotion Criteria
 
-Promote when positive and negative authority cases and failure modes are executable.
+Cover preauthorization, case-specific approval, emergency power, redelegation, revocation races, partial execution, irreversible action, and consequential inaction. Negative cases must show that read cannot become write, expired delegation cannot revive, purpose change triggers review, downstream scope cannot expand, and a receipt cannot turn invocation success into a real-world outcome. Only then should this enter the action and authority Charter.

@@ -68,6 +68,15 @@ This directory owns English philosophy documents and their semantic navigation o
 | How does action produce knowledge again? | [[file:30-reflections/30.90-knowing-after-action.org][Knowing Again After Action]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey: action, experience, and learning]] |
 | How should technology undergo a benefit-harm test? | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu: statecraft and practical learning]] |
 
+* Modern AI Philosophy — Content M2
+
+| Core question | Reflection | Primary sources |
+|---------------+------------+-----------------|
+| When can possibility inside a model become a prediction about reality? | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
+| Why can a computable objective not independently create human value? | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization Is Not Human Value]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu: statecraft and practical learning]] |
+| How does unknown constrain inference and organize the next inquiry? | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown Is a First-Class State]] | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method]] |
+| When does technical capability acquire authority to change the world? | [[file:30-reflections/30.60-action-requires-authority.org][Action Requires Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
+
 * Relation graph
 
 #+name: philosophy-en-flow

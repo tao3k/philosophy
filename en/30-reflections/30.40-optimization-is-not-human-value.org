@@ -24,16 +24,26 @@ Why can improvement of an objective function not be directly interpreted as huma
 
 * Argument
 
-An objective selects measurable proxies and necessarily omits context, rights, distribution, fairness, and future option value. Human agents must be able to define, refuse, override, and challenge goals.
+An objective function compresses a complex world into comparable scores. Compression is necessary for computation, but it also makes normative choices: what counts, whose loss remains invisible, how benefits across people are combined, and whether short-term improvement may purchase long-term dependence. Even perfect computation proves only that a proxy improved under its rule—not that human lives improved.
+
+Once a proxy becomes a strong incentive, it changes the system being measured. Organizations move costs outside visible metrics, models discover shortcuts their designers did not anticipate, and people adapt to scoring. The problem is not merely a misspecified objective. The measurement-incentive-adaptation loop continuously changes what the objective was meant to represent.
+
+Human value is also not one hidden function awaiting discovery. It includes conflicts, commitments, identities, non-fungible rights, and preferences that change through experience. Different people bear different consequences. Aggregate welfare cannot automatically override individual consent, an average gain cannot erase concentrated harm, and one expression of preference cannot authorize indefinite optimization on a person's behalf.
+
+Agency requires at least four practical powers: participation in defining a goal, refusal to enter an optimization, override of a running policy, and challenge to its rule or outcome. These powers must exist before and after a decision. A preference screen paired with prohibitive exit costs is not substantive consent.
+
+Optimization therefore belongs to the means layer. It may rank candidate actions inside a legitimate purpose, authority, and constraint set, but “this action scores highest” does not entail “the system may do it.” Normative authority comes from answerable delegation, rights, and the standing of affected people—not from solver optimality.
 
 * Counterexamples
 
-Some closed control problems safely optimize one metric; users can explicitly delegate preferences; excessive intervention can damage usability.
+Some closed control problems can safely optimize one measure, such as energy use under explicit physical constraints. People may delegate bounded preferences, and requiring a new choice at every step creates fatigue that can reduce control. What matters is whether delegation is specific, revocable, reviewable, and contained within acceptable failure boundaries.
+
+Not every value can be articulated before action. Emergencies and collective allocation sometimes require decisions amid conflicting preferences. Agency cannot mean an absolute veto for each person; it requires an account of who is affected, how conflict is handled, who may contest the decision, and how harm can be remedied.
 
 * Provisional Conclusion
 
-Optimization ranks candidate actions; it cannot independently create normative authority or human consent.
+Optimization ranks candidate actions only within a declared representation, constraint set, and delegation. It cannot independently create normative authority, consent, or realized value. A human-centered system does not stop at guessing what a user wants. It preserves the person's power to define, refuse, override, contest, and leave while observing how benefits, burdens, dependence, and future options are distributed.
 
 * Promotion Criteria
 
-Promote when consent, override, contestability, and impact receipts become engineering requirements.
+Show through cases that average benefit cannot hide severe minority harm, historical preference cannot impersonate present consent, revoked delegation actually stops future action, contestation can alter an objective or constraint, and impact receipts record costs outside the metric. Also specify where low-risk defaults remain stable and when consent must be renewed. Only then should this enter the human-agency Charter.

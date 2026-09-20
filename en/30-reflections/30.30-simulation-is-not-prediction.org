@@ -24,16 +24,26 @@ What claims can simulations, counterfactual trajectories, and bounded-horizon se
 
 * Argument
 
-A simulation output is a candidate trajectory under an explicit model, initial state, intervention, and horizon. It is neither observed fact nor automatically a probabilistic forecast or causal conclusion.
+A simulation output is a candidate trajectory under an explicit model, initial state, parameters, intervention, and horizon. It first answers what the model permits and which paths fail if those commitments are accepted. It does not directly answer what the world will most probably do next, much less prove that entities outside the model obey the same mechanism.
+
+A prediction bears probability and calibration obligations. It identifies the forecast time, target population, time window, distributional conditions, and error, and its confidence must fall when outcomes repeatedly diverge. Even when a simulation repeatedly produces one path, run frequency is not real-world probability without observational grounding and calibration.
+
+A counterfactual makes a third kind of claim: what would have happened under another action. It depends on causal structure and comparability between possible worlds. Changing an input and rerunning a program is insufficient when the change breaks structural relations, omits common causes, or creates an unreachable initial state.
+
+Future-facing statements therefore need at least five epistemic states. Observed records what happened; predicted accepts calibration against what has not yet happened; simulated exposes trajectories inside a model; counterfactual compares hypothetical interventions; unknown marks what is not supported. These are authority constraints, not display labels. Simulation may explore, stress-test, and discover counterexamples, but cannot silently become a forecast, causal claim, or fact.
+
+Model evaluation also has two directions. Verification asks whether an implementation executes its declared model correctly; validation asks whether that model adequately represents the world for the present use. Passing the first does not imply the second, and historical calibration does not remove the need to inspect drift, institutional change, and human adaptation.
 
 * Counterexamples
 
-Calibrated predictive models can produce probabilities; digital twins can guide control; model checking can prove properties within a closed model.
+A rigorously calibrated model that remains answerable to outcomes may serve as both simulation and prediction. A digital twin can guide control inside a sensor-linked scope with known error, and model checking can prove properties of a closed transition system. The distinction lies in the evidence obligation carried by the conclusion, not in the tool's name.
+
+Conversely, requiring every simulation to become an accurate prediction would destroy its exploratory value. Extreme risks, unprecedented failures, and policy alternatives often must first be studied in models. The discipline is not to forbid them, but to prevent a possibility worth considering from being stated as a fact that will occur.
 
 * Provisional Conclusion
 
-Every future-facing claim must distinguish observed, predicted, simulated, counterfactual, or unknown while retaining horizon and assumptions.
+Every future-facing claim should retain its epistemic type, model version, initial state, horizon, intervention, assumptions, and invalidation conditions. Simulation supplies a possibility space, prediction answers to real frequencies, and counterfactual reasoning answers to causal comparison. They may be composed, but must not impersonate one another. Downstream systems should use the type when deciding whether a claim may be displayed, ranked, authorized, or executed.
 
 * Promotion Criteria
 
-Promote when semantic types and negative tests are executable.
+Demonstrate rejection of at least four failures: treating simulation frequency as probability, extrapolating short-horizon success into long-term safety, treating input substitution as valid intervention, and treating verification as real-world validation. Also show that model expiry or world drift reduces downstream authority rather than merely changing a timestamp. Only then should this enter the temporality and causality Charter.
