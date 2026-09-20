@@ -24,3 +24,5 @@
 # State the provisional conclusion and its uncertainty before admission.
 * Promotion Criteria
 # State the evidence, counterexample handling, and review required for Charter promotion.
+* Navigation
+[[file:../README.org][language index]]
