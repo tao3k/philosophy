@@ -1072,7 +1072,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (table))
+(let ((section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 
 * English charter v1
@@ -1228,7 +1231,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (table))
+(let ((section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 
 * Chinese governance v1

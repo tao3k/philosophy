@@ -20,7 +20,7 @@ replace_line() {
   local original="$2"
   local replacement="$3"
   local temporary="${file}.tmp"
-  sed "s|${original}|${replacement}|" "${file}" > "${temporary}"
+  sed "s#${original}#${replacement}#" "${file}" > "${temporary}"
   mv "${temporary}" "${file}"
 }
 
@@ -165,5 +165,22 @@ pair_ref_root="$(make_fixture mismatched-principle-ref)"
 pair_ref_file="${pair_ref_root}/en/20-engineering/20.10-cross-repository-realization-map.org"
 replace_line "${pair_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-OTHER-001'
 expect_contract_failure "${pair_ref_root}" 'must have equal document property PRINCIPLE_REF'
+
+unresolved_ref_root="$(make_fixture unresolved-principle-ref)"
+unresolved_ref_file="${unresolved_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"
+replace_line "${unresolved_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-MISSING-001'
+replace_line "${unresolved_ref_root}/en/20-engineering/20.10-cross-repository-realization-map.org" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-MISSING-001'
+expect_contract_failure "${unresolved_ref_root}" 'document property PRINCIPLE_REF reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+
+unresolved_refines_root="$(make_fixture unresolved-refines)"
+unresolved_refines_file="${unresolved_refines_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
+replace_line "${unresolved_refines_file}" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
+replace_line "${unresolved_refines_root}/en/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
+expect_contract_failure "${unresolved_refines_root}" 'node property REFINES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
+
+trace_root="$(make_fixture empty-trace-row)"
+trace_file="${trace_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org"
+replace_line "${trace_file}" '^[|] PHIL-EPI-001 .*$' '| PHIL-EPI-001 | | | |'
+expect_contract_failure "${trace_root}" charter.cn.has-trace-table
 
 echo "philosophy contract negative test: passed"

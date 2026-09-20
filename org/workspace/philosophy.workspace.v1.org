@@ -85,6 +85,12 @@
     "SUPERSEDES"
     "SUPERSEDED_BY"))
 #+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "REFINES")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
 
 * EN charter
 :PROPERTIES:
@@ -110,6 +116,12 @@
     "SUPERSEDES"
     "SUPERSEDED_BY"))
 #+end_src
+#+begin_src org-contract
+(assert node-property-values-resolve-node-identities
+  (property "REFINES")
+  (identity "PRINCIPLE_ID")
+  (allow "none"))
+#+end_src
 
 * CN engineering map
 :PROPERTIES:
@@ -126,6 +138,11 @@
 (assert pair-document-properties-equal
   (properties "PRINCIPLE_REF"))
 #+end_src
+#+begin_src org-contract
+(assert document-property-values-resolve-node-identities
+  (property "PRINCIPLE_REF")
+  (identity "PRINCIPLE_ID"))
+#+end_src
 
 * EN engineering map
 :PROPERTIES:
@@ -141,6 +158,11 @@
 #+begin_src org-contract
 (assert pair-document-properties-equal
   (properties "PRINCIPLE_REF"))
+#+end_src
+#+begin_src org-contract
+(assert document-property-values-resolve-node-identities
+  (property "PRINCIPLE_REF")
+  (identity "PRINCIPLE_ID"))
 #+end_src
 
 * CN reflection

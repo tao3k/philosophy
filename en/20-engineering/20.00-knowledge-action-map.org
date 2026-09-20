@@ -11,7 +11,7 @@
 :DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/20-engineering/20.00-knowledge-action-map.org
-:PRINCIPLE_REF: PHIL-001..PHIL-007
+:PRINCIPLE_REF: PHIL-001 PHIL-002 PHIL-003 PHIL-004 PHIL-005 PHIL-006 PHIL-007
 :END:
 
 * Principle
