@@ -186,7 +186,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "问题")))
+(let ((section (headline :summary (title "问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Argument
 :PROPERTIES:
@@ -194,7 +196,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "论证")))
+(let ((section (headline :summary (title "论证")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Counterexamples
 :PROPERTIES:
@@ -202,7 +206,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "反例")))
+(let ((section (headline :summary (title "反例")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Provisional conclusion
 :PROPERTIES:
@@ -210,7 +216,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "暂定结论")))
+(let ((section (headline :summary (title "暂定结论")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Promotion criteria
 :PROPERTIES:
@@ -241,7 +249,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Question")))
+(let ((section (headline :summary (title "Question")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Argument
 :PROPERTIES:
@@ -249,7 +259,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Argument")))
+(let ((section (headline :summary (title "Argument")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Counterexamples
 :PROPERTIES:
@@ -257,7 +269,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Counterexamples")))
+(let ((section (headline :summary (title "Counterexamples")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Provisional conclusion
 :PROPERTIES:
@@ -265,7 +279,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Provisional Conclusion")))
+(let ((section (headline :summary (title "Provisional Conclusion")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Promotion criteria
 :PROPERTIES:

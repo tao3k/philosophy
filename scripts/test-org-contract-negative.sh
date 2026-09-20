@@ -60,6 +60,18 @@ replace_line "${empty_en_section_file}" \
   '^Low-risk defaults and explicit closed worlds remain useful, but their scope must be declared rather than presented as universal fact.$' ''
 expect_contract_failure "${empty_en_section_root}" charter.en.has-counterarguments
 
+empty_cn_reflection_root="$(make_fixture empty-cn-reflection-argument)"
+empty_cn_reflection_file="${empty_cn_reflection_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
+replace_line "${empty_cn_reflection_file}" \
+  '^行动必须消费有来源的知识、显式判断与授权；结果必须以 receipt 和观察重新进入知识层。闭环不是从模型置信度直接跳到执行。$' ''
+expect_contract_failure "${empty_cn_reflection_root}" reflection.cn.has-argument
+
+empty_en_reflection_root="$(make_fixture empty-en-reflection-argument)"
+empty_en_reflection_file="${empty_en_reflection_root}/en/30-reflections/30.10-knowledge-action-in-agent-age.org"
+replace_line "${empty_en_reflection_file}" \
+  '^Action must consume sourced knowledge, explicit judgment, and authorization; outcomes must return through receipts and observation. Closure is not a jump from model confidence to execution.$' ''
+expect_contract_failure "${empty_en_reflection_root}" reflection.en.has-argument
+
 document_id_root="$(make_fixture empty-document-id)"
 document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
 replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '

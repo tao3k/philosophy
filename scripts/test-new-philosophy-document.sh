@@ -99,6 +99,17 @@ expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
   SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
   "${scaffolder}" source-note 40.93-missing-locators.org ENG-MISSING
+for locator in SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE; do
+  for sentinel in not-applicable evidence-pending; do
+    expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
+      SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
+      SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
+      SOURCE_REPOSITORIES=orgize SOURCE_REVISIONS=abc123 \
+      SOURCE_PATHS=src/lib.rs OBSERVATION_DATE=2026-09-20 \
+      "${locator}=${sentinel}" \
+      "${scaffolder}" source-note 40.93-invalid-locator.org ENG-INVALID
+  done
+done
 env TITLE_ZH=工程 TITLE_EN=Engineering \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
   SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
@@ -145,6 +156,16 @@ for locale in cn en; do
   assert_property "${fixture_root}/${locale}/20-engineering/20.91-map.org" \
     PRINCIPLE_REF PHIL-AUTH-001
 done
+
+stale_lock="${fixture_root}/cn/30-reflections/30.89-stale.org.lock"
+mkdir "${stale_lock}"
+printf '%s\n%s\n' 999999 'stale-process-identity' > "${stale_lock}/owner"
+env TITLE_ZH=陈旧锁 TITLE_EN='Stale lock' \
+  "${scaffolder}" reflection 30.89-stale.org REF-STALE >/dev/null
+if [ -e "${stale_lock}" ]; then
+  echo "philosophy scaffolder test: stale lock was not reclaimed" >&2
+  exit 1
+fi
 
 env TITLE_ZH=第一 TITLE_EN=First \
   "${scaffolder}" reflection 30.90-concurrent.org REF-FIRST \
