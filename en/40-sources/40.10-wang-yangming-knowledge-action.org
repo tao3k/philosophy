@@ -18,6 +18,10 @@
 :SOURCE_EDITION: edition-pending
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:

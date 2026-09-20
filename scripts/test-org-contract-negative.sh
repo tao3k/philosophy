@@ -73,6 +73,11 @@ source_pair_file="${source_pair_root}/en/40-sources/40.10-wang-yangming-knowledg
 replace_line "${source_pair_file}" '^:SOURCE_ID:.*$' ':SOURCE_ID: source.unrelated'
 expect_contract_failure "${source_pair_root}" 'must have equal document property SOURCE_ID'
 
+locator_pair_root="$(make_fixture mismatched-source-paths)"
+locator_pair_file="${locator_pair_root}/en/40-sources/40.50-agent-systems-state-authority.org"
+replace_line "${locator_pair_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: unrelated/path'
+expect_contract_failure "${locator_pair_root}" 'must have equal document property SOURCE_PATHS'
+
 principle_ref_root="$(make_fixture empty-principle-ref)"
 principle_ref_file="${principle_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"
 replace_line "${principle_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: '

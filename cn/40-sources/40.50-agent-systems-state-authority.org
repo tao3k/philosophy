@@ -50,4 +50,4 @@
 
 * 解释链
 
-历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。
+时点工程观察 → Tao3k 现代解释 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。该链保留工程证据、解释和规范之间的方向，禁止反向声称观察已经证明当前架构。

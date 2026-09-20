@@ -51,4 +51,4 @@ It enters the action/authority reflection and provides engineering counterexampl
 
 * Interpretation Chain
 
-Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between source, interpretation, and norm; it must not be reversed into a claim that the source proved the current architecture.
+Time-bound engineering observation → Tao3k modern interpretation → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between engineering evidence, interpretation, and norm; it must not be reversed into a claim that the observation proved the current architecture.
