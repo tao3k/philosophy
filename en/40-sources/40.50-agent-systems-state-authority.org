@@ -1,0 +1,48 @@
+#+TITLE: Agent Systems: State, Authority, and Real-World Action
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-EN-50
+:SEMANTIC_ID: philosophy.source.agent-systems-state-authority
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.50-agent-systems-state-authority.org
+:SOURCE_ID: source.agent-systems
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: Tao3k engineering synthesis
+:SOURCE_WORK: ASP、MRR、POO Flow、Marlin、Aitia 工程经验
+:SOURCE_EDITION: workspace-synthesis-v1
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: en-and-zh
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* Source
+:PROPERTIES:
+:CUSTOM_ID: source-agent-systems-state-authority-en
+:END:
+
+This note records the engineering source for keeping state, proposal, decision, authorization, execution, and outcome receipts distinct in agent systems.
+
+[[file:../README.org][English navigation]] · [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]]
+
+* Context
+
+Tool availability is not authority to act, model output is not a decision, and invocation success is not sufficient reconciliation of real-world outcomes.
+
+* Interpretation Boundaries
+
+Current Tao3k implementations are replaceable realizations and cannot define permanent philosophical norms in reverse.
+
+* Influence
+
+It enters the action/authority reflection and provides engineering counterexamples for the thematic Charter.
+
+* Interpretation Chain
+
+Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between source, interpretation, and norm; it must not be reversed into a claim that the source proved the current architecture.

@@ -1,0 +1,39 @@
+#+TITLE: Why Simulation Is Not Prediction
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-30
+:SEMANTIC_ID: philosophy.reflection.simulation-not-prediction
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.30-simulation-is-not-prediction.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-simulation-is-not-prediction-en
+:END:
+
+What claims can simulations, counterfactual trajectories, and bounded-horizon searches support, and what claims remain unsupported?
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]] · [[file:../10-charter/10.20-temporality-and-causality.org][target thematic Charter]]
+
+* Argument
+
+A simulation output is a candidate trajectory under an explicit model, initial state, intervention, and horizon. It is neither observed fact nor automatically a probabilistic forecast or causal conclusion.
+
+* Counterexamples
+
+Calibrated predictive models can produce probabilities; digital twins can guide control; model checking can prove properties within a closed model.
+
+* Provisional Conclusion
+
+Every future-facing claim must distinguish observed, predicted, simulated, counterfactual, or unknown while retaining horizon and assumptions.
+
+* Promotion Criteria
+
+Promote when semantic types and negative tests are executable.

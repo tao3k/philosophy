@@ -1,0 +1,39 @@
+#+TITLE: Why Unknown Must Be a First-Class State
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-50
+:SEMANTIC_ID: philosophy.reflection.unknown-first-class
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.50-unknown-as-first-class.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-unknown-as-first-class-en
+:END:
+
+How should a system preserve unknown, conflicted, and hypothesized states rather than fill gaps with plausible completion?
+
+[[file:../40-sources/40.30-scientific-method-evidence.org][source note]] · [[file:../10-charter/10.10-epistemology-and-uncertainty.org][target thematic Charter]]
+
+* Argument
+
+The unknown frontier determines what cannot be inferred, what retrieval or measurement is required, and whether action should pause. Losing unknown disguises missing evidence as fact.
+
+* Counterexamples
+
+Wrapping every value as unknown creates noise; low-risk defaults can suffice; engineering systems need computability rather than infinite doubt.
+
+* Provisional Conclusion
+
+Preserve unknown, conflicted, and hypothesized explicitly at decision-relevant boundaries, with provenance and resolution conditions.
+
+* Promotion Criteria
+
+Promote when negative tests prove that missing evidence cannot default to truth.

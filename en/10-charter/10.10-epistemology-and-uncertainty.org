@@ -1,0 +1,64 @@
+#+TITLE: Epistemology and Uncertainty Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-10
+:SEMANTIC_ID: philosophy.charter.epistemology-uncertainty
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.10-epistemology-and-uncertainty.org
+:PRINCIPLE_SET: PHIL-EPI-001
+:END:
+
+* Principles
+
+** Unknown must remain visible
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-EPI-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-epistemology-and-uncertainty-en
+:END:
+
+A system must not silently promote missing, conflicted, or hypothetical information into known fact. Decision-relevant unknown, conflicted, and hypothesized states retain provenance, scope, and resolution conditions.
+
+* Rationale
+
+A visible unknown frontier enables retrieval, measurement, pausing, and proportional assurance; hidden unknown lets fluency replace evidence.
+
+[[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Low-risk defaults and explicit closed worlds remain useful, but their scope must be declared rather than presented as universal fact.
+
+* Engineering Consequences
+
+Public models express epistemic status; queries and receipts preserve provenance; admission includes missing-evidence and conflict negatives.
+
+* Failure Modes
+
+Status labels exist but execution ignores them; unknown is swallowed by empty strings, zero values, or model completion.
+
+* Open Questions
+
+Which boundaries deserve explicit modeling? How should unknown propagate without creating epistemic noise?
+
+* Traceability
+
+| Principle | Argument | Engineering mapping | Status |
+|---+---+---+---|
+| PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |

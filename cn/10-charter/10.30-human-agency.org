@@ -1,0 +1,64 @@
+#+TITLE: 人的主体性 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-30
+:SEMANTIC_ID: philosophy.charter.human-agency
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.30-human-agency.org
+:PRINCIPLE_SET: PHIL-AGENCY-001
+:END:
+
+* 原则
+
+** 目标必须可归属、拒绝与挑战
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-AGENCY-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-human-agency-cn
+:END:
+
+高影响系统必须说明目标由谁定义、谁受影响，以及人如何 consent、override、refuse 和 contest。优化结果不等于人的价值或同意。
+
+* 理由
+
+人的价值不可由单一 proxy 完整表示；主体性要求保留退出、纠错、申诉和重新定义目标的能力。
+
+[[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+显式委托和低风险自动化可以减少逐次确认，但委托范围、时限和撤销路径必须清楚。
+
+* 工程后果
+
+策略与 UI 暴露 goal owner、affected parties、consent state、override 与 challenge receipts。
+
+* 失效模式
+
+dark pattern 使退出不可行；代理目标被当成福利；受影响者没有挑战入口。
+
+* 开放问题
+
+群体目标冲突时谁有决定权？长期委托何时必须重新确认？
+
+* 可追溯性
+
+| 原则 | 论证 | 工程映射 | 状态 |
+|---+---+---+---|
+| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | proposed |

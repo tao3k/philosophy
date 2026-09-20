@@ -1,0 +1,39 @@
+#+TITLE: Practical Learning and Human-Centered AI
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-20
+:SEMANTIC_ID: philosophy.reflection.practical-learning-human-centered-ai
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.20-practical-learning-human-centered-ai.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-practical-learning-human-centered-ai-en
+:END:
+
+How can technology answer to real human problems and consequences without reducing human value to an optimizable metric?
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]] · [[file:../10-charter/10.70-practical-learning.org][target thematic Charter]]
+
+* Argument
+
+Engineering value must name beneficiaries, affected people, contestability, real effects, and long-term costs. Metrics are evidence, not value itself.
+
+* Counterexamples
+
+Infrastructure improvements may lack a direct user narrative; research may have no near-term deployment effect; stakeholder interests can conflict.
+
+* Provisional Conclusion
+
+The provisional requirement is that every high-impact optimization preserve human agency, stakeholder interests, and real-world receipts.
+
+* Promotion Criteria
+
+Promote when evaluation templates expose benefit, harm, unknowns, and challenge paths.

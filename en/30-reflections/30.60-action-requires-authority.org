@@ -1,0 +1,39 @@
+#+TITLE: Why Action Requires Authority
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-60
+:SEMANTIC_ID: philosophy.reflection.action-requires-authority
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.60-action-requires-authority.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-action-requires-authority-en
+:END:
+
+When an executable tool exists, what additional conditions authorize an agent to change the external world?
+
+[[file:../40-sources/40.50-agent-systems-state-authority.org][source note]] · [[file:../10-charter/10.40-action-and-authority.org][target thematic Charter]]
+
+* Argument
+
+A proposal describes what could be done, a decision selects whether to act, authority proves who permits it, execution changes the world, and an outcome receipt records the result. Each stage must be independently rejectable.
+
+* Counterexamples
+
+Policy may pre-authorize low-risk actions; emergency stops may lack per-action human approval; distributed authority may be a capability rather than a click.
+
+* Provisional Conclusion
+
+Action requires explicit authority scope, resources, time bounds, revocation or compensation paths, and outcome receipts.
+
+* Promotion Criteria
+
+Promote when positive and negative authority cases and failure modes are executable.

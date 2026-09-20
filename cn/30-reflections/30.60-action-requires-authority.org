@@ -1,0 +1,39 @@
+#+TITLE: Action 为什么必须经过 Authority
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-60
+:SEMANTIC_ID: philosophy.reflection.action-requires-authority
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.60-action-requires-authority.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-action-requires-authority-cn
+:END:
+
+一个可执行工具存在时，什么额外条件才使 Agent 有权改变外部世界？
+
+[[file:../40-sources/40.50-agent-systems-state-authority.org][来源说明]] · [[file:../10-charter/10.40-action-and-authority.org][目标专题 Charter]]
+
+* 论证
+
+提议说明可能做什么，决策选择是否做，authority 证明谁允许，execution 改变世界，outcome receipt 记录结果。这些阶段必须可独立拒绝。
+
+* 反例
+
+自动化策略可以预先授权低风险动作；紧急制动可能没有逐次人工批准；分布式系统的授权可能是能力而非用户点击。
+
+* 暂定结论
+
+行动需要明确 authority scope、资源、时限、撤销/补偿路径和结果回执。
+
+* 升格条件
+
+当正负授权案例与失效模式可执行时，进入行动与权限 Charter。

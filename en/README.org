@@ -40,7 +40,19 @@ justified; actions must be authorized; consequences must return as knowledge.
 | [[file:20-engineering/20.00-knowledge-action-map.org][20-engineering]] | Principle-to-engineering mappings | engineering-map.en |
 | [[file:30-reflections/30.00-reflection-governance.org][30-reflections]] | Arguments not yet normative | reflection.en |
 | [[file:40-sources/40.00-source-method.org][40-sources]] | Sources and interpretation limits | source-note.en |
-| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | Authoring and admission | engineering-map.en |
+| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | Authoring and admission | governance.en |
+
+* Topic Index
+
+| Topic | Charter | Reflection | Source / engineering map |
+|-------+---------+------------+--------------------------|
+| Epistemology and uncertainty | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown as a first-class object]] | [[file:40-sources/40.30-scientific-method-evidence.org][Scientific method and evidence]] |
+| Temporality and causality | [[file:10-charter/10.20-temporality-and-causality.org][PHIL-TEMP-001]] | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation is not prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods, proof, and counterexample]] |
+| Human agency | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization is not human value]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Action and authority | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][Action requires authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][State and authority in agent systems]] |
+| Proportional assurance | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][Knowledge and action in the agent age]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Resilience, reversibility, and optionality | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Practical learning | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu and practical learning]] |
 
 * Relation graph
 

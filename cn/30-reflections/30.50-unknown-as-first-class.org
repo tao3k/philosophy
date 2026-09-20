@@ -1,0 +1,39 @@
+#+TITLE: Unknown 为什么应是一等状态
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-50
+:SEMANTIC_ID: philosophy.reflection.unknown-first-class
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.50-unknown-as-first-class.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-unknown-as-first-class-cn
+:END:
+
+系统应如何保存 unknown、conflicted 和 hypothesized，而不是用 plausible completion 填平空白？
+
+[[file:../40-sources/40.30-scientific-method-evidence.org][来源说明]] · [[file:../10-charter/10.10-epistemology-and-uncertainty.org][目标专题 Charter]]
+
+* 论证
+
+未知边界决定哪些结论不可推出、需要何种检索或测量、以及行动是否应暂停。丢失 unknown 会把缺证伪装成事实。
+
+* 反例
+
+所有值都包装成 unknown 会制造噪声；某些低风险默认值足够；工程系统需要可计算而非无限怀疑。
+
+* 暂定结论
+
+只在决策相关的边界上显式保存 unknown/conflicted/hypothesized，并携带来源和消解条件。
+
+* 升格条件
+
+当负例能证明缺证不会被默认为真时，进入认识与不确定性 Charter。

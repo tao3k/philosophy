@@ -1,0 +1,39 @@
+#+TITLE: Optimization 为什么不等于 Human Value
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-40
+:SEMANTIC_ID: philosophy.reflection.optimization-not-human-value
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.40-optimization-is-not-human-value.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-optimization-is-not-human-value-cn
+:END:
+
+为什么目标函数的提升不能直接被解释为人的福祉、同意或价值实现？
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]] · [[file:../10-charter/10.30-human-agency.org][目标专题 Charter]]
+
+* 论证
+
+目标函数选择了可测代理，必然遗漏语境、权利、分配、公平和未来选择权。人的主体性必须能定义、拒绝、覆盖和挑战目标。
+
+* 反例
+
+某些封闭控制问题可安全优化单一指标；用户也可明确委托偏好；过多干预会损害可用性。
+
+* 暂定结论
+
+优化只产生候选行动排序，不能独自产生规范权威或人的同意。
+
+* 升格条件
+
+当 consent、override、contestability 与影响回执成为工程 requirement 时进入人的主体性 Charter。

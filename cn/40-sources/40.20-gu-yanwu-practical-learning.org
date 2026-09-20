@@ -1,0 +1,48 @@
+#+TITLE: 顾炎武：经世致用与实学
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-20
+:SEMANTIC_ID: philosophy.source.gu-yanwu-practical-learning
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.20-gu-yanwu-practical-learning.org
+:SOURCE_ID: source.gu-yanwu.rizhilu
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
+:SOURCE_WORK: 《日知录》与实学传统 / Record of Daily Knowledge and practical-learning tradition
+:SOURCE_EDITION: edition-pending
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: classical-zh
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-gu-yanwu-practical-learning-cn
+:END:
+
+本条把经世致用理解为知识必须面对现实利病与公共后果，而不是抽象口号。具体版本与篇章仍需后续来源审定。
+
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]]
+
+* 语境
+
+实学反对脱离事实与现实问题的空疏论说，但不等同于短期功利主义或单一效用最大化。
+
+* 解释边界
+
+它不能被用来为任何声称“有用”的自动化背书；谁受益、谁承担代价、证据是否充分仍须审查。
+
+* 影响
+
+进入“经世致用与 human-centered AI”Reflection，并约束专题 Charter 不把人的价值缩减成指标。
+
+* 解释链
+
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。

@@ -1,0 +1,39 @@
+#+TITLE: Agent 时代的知行合一
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-10
+:SEMANTIC_ID: philosophy.reflection.knowledge-action-agent-age
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.10-knowledge-action-in-agent-age.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-knowledge-action-in-agent-age-cn
+:END:
+
+当 Agent 可以读取、推理并调用工具时，知识与行动应如何闭环而不坍缩证据、决策和权限？
+
+[[file:../40-sources/40.10-wang-yangming-knowledge-action.org][来源说明]] · [[file:../10-charter/10.40-action-and-authority.org][目标专题 Charter]]
+
+* 论证
+
+行动必须消费有来源的知识、显式判断与授权；结果必须以 receipt 和观察重新进入知识层。闭环不是从模型置信度直接跳到执行。
+
+* 反例
+
+只读查询不需要生产级授权；紧急停止可能先行动后补全解释；某些行动结果只能延迟观察。
+
+* 暂定结论
+
+暂定结论是知识与行动互相约束，但中间的 proposal、decision、authority、execution 和 outcome 不得合并。
+
+* 升格条件
+
+当权限边界、失败补偿和真实回执模式有可执行证据时，相关结论进入行动与权限 Charter。

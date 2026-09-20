@@ -1,0 +1,48 @@
+#+TITLE: Agent 系统：状态、权限与现实行动
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-50
+:SEMANTIC_ID: philosophy.source.agent-systems-state-authority
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.50-agent-systems-state-authority.org
+:SOURCE_ID: source.agent-systems
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: Tao3k engineering synthesis
+:SOURCE_WORK: ASP、MRR、POO Flow、Marlin、Aitia 工程经验
+:SOURCE_EDITION: workspace-synthesis-v1
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: en-and-zh
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-agent-systems-state-authority-cn
+:END:
+
+本条记录 Agent 系统中状态、提议、决策、授权、执行与结果回执必须保持区分的工程来源。
+
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]]
+
+* 语境
+
+工具可用性不是行动授权，模型输出不是决策，调用成功也不是现实结果已经被充分复验。
+
+* 解释边界
+
+当前 Tao3k 实现只是可替换的 realization，不能反向定义永久哲学规范。
+
+* 影响
+
+进入 action/authority Reflection，并为行动与权限专题 Charter 提供工程反例。
+
+* 解释链
+
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。

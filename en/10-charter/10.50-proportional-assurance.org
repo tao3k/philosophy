@@ -1,0 +1,64 @@
+#+TITLE: Proportional Assurance Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-50
+:SEMANTIC_ID: philosophy.charter.proportional-assurance
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.50-proportional-assurance.org
+:PRINCIPLE_SET: PHIL-ASSURE-001
+:END:
+
+* Principles
+
+** Greater impact requires stronger assurance
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-ASSURE-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-proportional-assurance-en
+:END:
+
+Required assurance increases with irreversibility, impact radius, uncertainty, and authority scope. This is a normative relation, not pretend mathematical precision.
+
+* Rationale
+
+Reading a webpage, editing a draft, deploying production, transferring money, trading, and medical intervention must not share one confidence threshold or execution path.
+
+[[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Assurance cost can itself cause delay and harm; emergencies need controlled degradation; low-risk actions must not be burdened by high-risk procedure.
+
+* Engineering Consequences
+
+Profiles select evidence, verification, approval, rollback, and observation by risk; degradation records rationale and receipts.
+
+* Failure Modes
+
+One LLM confidence triggers every action; thresholds rise without independent evidence; an old profile survives risk escalation.
+
+* Open Questions
+
+How should the four factors compose without cosmetic quantification? Who approves emergency degradation?
+
+* Traceability
+
+| Principle | Argument | Engineering mapping | Status |
+|---+---+---+---|
+| PHIL-ASSURE-001 | [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |

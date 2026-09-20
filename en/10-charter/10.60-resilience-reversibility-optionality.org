@@ -1,0 +1,64 @@
+#+TITLE: Resilience, Reversibility, and Optionality Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-60
+:SEMANTIC_ID: philosophy.charter.resilience-reversibility-optionality
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.60-resilience-reversibility-optionality.org
+:PRINCIPLE_SET: PHIL-RESIL-001
+:END:
+
+* Principles
+
+** Local optimization must not exhaust future options
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-RESIL-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-resilience-reversibility-optionality-en
+:END:
+
+Decisions treat reversibility, resilience, and future optionality as first-class consequences. Short-term local optima must not silently create irrecoverable dependency or a single point of failure.
+
+* Rationale
+
+Unknowns and environmental change cannot be eliminated; recovery paths, alternatives, and exit rights reduce the long-term cost of mistaken judgment.
+
+[[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Some irreversible commitments are necessary; redundancy and options have real costs; prolonged indecision also loses opportunities.
+
+* Engineering Consequences
+
+High-impact changes declare rollback or compensation, blast radius, fallback, lock-in, and recovery-drill evidence.
+
+* Failure Modes
+
+Rollback exists only in documentation; backups are never restored; local benchmarks hide system fragility.
+
+* Open Questions
+
+How should option cost be assessed? When should an irreversible commitment be accepted?
+
+* Traceability
+
+| Principle | Argument | Engineering mapping | Status |
+|---+---+---+---|
+| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |

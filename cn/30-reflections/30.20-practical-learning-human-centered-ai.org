@@ -1,0 +1,39 @@
+#+TITLE: 经世致用与 Human-Centered AI
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-20
+:SEMANTIC_ID: philosophy.reflection.practical-learning-human-centered-ai
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.20-practical-learning-human-centered-ai.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-practical-learning-human-centered-ai-cn
+:END:
+
+如何要求技术回到真实人的问题与后果，同时避免把人的价值简化成可优化指标？
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]] · [[file:../10-charter/10.70-practical-learning.org][目标专题 Charter]]
+
+* 论证
+
+工程价值必须说明受益者、受影响者、可争议机制、现实效果与长期代价。指标只是证据之一，不是价值本身。
+
+* 反例
+
+基础设施改进可能没有直接用户叙事；纯研究可在短期没有部署效果；不同群体的利益会冲突。
+
+* 暂定结论
+
+暂定要求是每项高影响优化都保留 human agency、利害关系与现实回执。
+
+* 升格条件
+
+当评价模板能暴露受益、受损、未知和可挑战路径时，进入经世致用 Charter。

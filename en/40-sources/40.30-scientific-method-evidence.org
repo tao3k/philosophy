@@ -1,0 +1,48 @@
+#+TITLE: Modern Scientific Method: Evidence, Counterexamples, and Uncertainty
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-EN-30
+:SEMANTIC_ID: philosophy.source.scientific-method-evidence
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.30-scientific-method-evidence.org
+:SOURCE_ID: source.modern-scientific-method
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: 多来源 / Multiple traditions
+:SOURCE_WORK: 可证伪性、贝叶斯更新与测量方法 / Falsifiability, Bayesian updating, and measurement
+:SOURCE_EDITION: interpretive-synthesis-v1
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: multiple
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* Source
+:PROPERTIES:
+:CUSTOM_ID: source-scientific-method-evidence-en
+:END:
+
+This note synthesizes shared constraints from modern scientific method concerning observable evidence, counterexamples, measurement error, reproducibility, and uncertainty.
+
+[[file:../README.org][English navigation]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]]
+
+* Context
+
+Schools of philosophy of science disagree. This is a Tao3k methodological synthesis, not a claim that one school is the sole authority.
+
+* Interpretation Boundaries
+
+Probabilities, confidence intervals, and model fit do not automatically create causal facts; absence of a counterexample is not a global proof.
+
+* Influence
+
+It informs reflections on unknown as a first-class state and on the simulation/prediction boundary.
+
+* Interpretation Chain
+
+Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between source, interpretation, and norm; it must not be reversed into a claim that the source proved the current architecture.

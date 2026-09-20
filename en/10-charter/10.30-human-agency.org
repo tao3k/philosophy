@@ -1,0 +1,64 @@
+#+TITLE: Human Agency Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-30
+:SEMANTIC_ID: philosophy.charter.human-agency
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.30-human-agency.org
+:PRINCIPLE_SET: PHIL-AGENCY-001
+:END:
+
+* Principles
+
+** Goals must be attributable, rejectable, and contestable
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-AGENCY-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-human-agency-en
+:END:
+
+A high-impact system identifies who defines the goal, who is affected, and how people consent, override, refuse, and contest. Optimization results are not human value or consent.
+
+* Rationale
+
+No single proxy fully represents human value; agency requires exit, correction, appeal, and the ability to redefine goals.
+
+[[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Explicit delegation and low-risk automation can reduce per-action confirmation, but scope, duration, and revocation remain explicit.
+
+* Engineering Consequences
+
+Policy and UI expose goal owner, affected parties, consent state, overrides, and challenge receipts.
+
+* Failure Modes
+
+Dark patterns make exit impractical; proxy objectives are treated as welfare; affected people lack a challenge path.
+
+* Open Questions
+
+Who decides when group goals conflict? When must long-lived delegation be reconfirmed?
+
+* Traceability
+
+| Principle | Argument | Engineering mapping | Status |
+|---+---+---+---|
+| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |

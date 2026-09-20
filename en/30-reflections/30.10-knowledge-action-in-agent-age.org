@@ -1,0 +1,39 @@
+#+TITLE: The Unity of Knowledge and Action in the Agent Age
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-10
+:SEMANTIC_ID: philosophy.reflection.knowledge-action-agent-age
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.10-knowledge-action-in-agent-age.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-knowledge-action-in-agent-age-en
+:END:
+
+When an agent can read, reason, and invoke tools, how should knowledge and action form a loop without collapsing evidence, decision, and authority?
+
+[[file:../40-sources/40.10-wang-yangming-knowledge-action.org][source note]] · [[file:../10-charter/10.40-action-and-authority.org][target thematic Charter]]
+
+* Argument
+
+Action must consume sourced knowledge, explicit judgment, and authorization; outcomes must return through receipts and observation. Closure is not a jump from model confidence to execution.
+
+* Counterexamples
+
+Read-only queries need not carry production-grade authorization; emergency stops may act before full explanation; some outcomes can only be observed later.
+
+* Provisional Conclusion
+
+The provisional conclusion is that knowledge and action constrain each other while proposal, decision, authority, execution, and outcome remain distinct.
+
+* Promotion Criteria
+
+Promote when authority boundaries, failure compensation, and real receipt patterns have executable evidence.

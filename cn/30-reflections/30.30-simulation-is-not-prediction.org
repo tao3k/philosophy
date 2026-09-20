@@ -1,0 +1,39 @@
+#+TITLE: 为什么 Simulation 不是 Prediction
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-CN-30
+:SEMANTIC_ID: philosophy.reflection.simulation-not-prediction
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.30-simulation-is-not-prediction.org
+:END:
+
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: reflection-simulation-is-not-prediction-cn
+:END:
+
+模拟、反事实轨迹和有限 horizon 搜索能够支持什么陈述，不能支持什么陈述？
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]] · [[file:../10-charter/10.20-temporality-and-causality.org][目标专题 Charter]]
+
+* 论证
+
+simulation 输出是在显式模型、初态、干预和 horizon 下生成的候选轨迹。它不是观察事实，也不自动是概率预测或因果结论。
+
+* 反例
+
+经过严格校准的预测模型确实可以给出概率；数字孪生可用于控制；模型检查能在封闭模型内证明性质。
+
+* 暂定结论
+
+所有未来陈述必须标记 observed、predicted、simulated、counterfactual 或 unknown，且保留 horizon 与假设。
+
+* 升格条件
+
+当语义类型和负例测试可执行时，进入时态与因果 Charter。

@@ -1,0 +1,64 @@
+#+TITLE: Practical Learning Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-70
+:SEMANTIC_ID: philosophy.charter.practical-learning
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.70-practical-learning.org
+:PRINCIPLE_SET: PHIL-PRAXIS-001
+:END:
+
+* Principles
+
+** Technical value must answer to real consequences
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-PRAXIS-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-practical-learning-en
+:END:
+
+A technical claim connects to real human problems, benefits, costs, and observable effects; abstract optimization, architectural elegance, or a benchmark cannot alone prove value.
+
+* Rationale
+
+Practical learning is modernized here as traceable problem → intervention → outcome → learning, not as historical authority endorsing a product.
+
+[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Basic research and platform engineering may lack immediate outcomes; long-term value must allow exploration and contributions not immediately measurable.
+
+* Engineering Consequences
+
+RFCs state problem owners, intended effects, negative externalities, and observation plans; post-run outcomes return to Reflection.
+
+* Failure Modes
+
+Usage substitutes for welfare; benefits are reported without costs; historical citation is treated as normative proof.
+
+* Open Questions
+
+How should non-quantifiable value be handled? How can stakeholder conflicts remain visible rather than averaged away?
+
+* Traceability
+
+| Principle | Argument | Engineering mapping | Status |
+|---+---+---+---|
+| PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |

@@ -1,0 +1,64 @@
+#+TITLE: 行动与权限 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-40
+:SEMANTIC_ID: philosophy.charter.action-authority
+:DOC_KIND: charter
+:STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.40-action-and-authority.org
+:PRINCIPLE_SET: PHIL-AUTH-001
+:END:
+
+* 原则
+
+** 可执行不等于有权执行
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-AUTH-001
+:PRINCIPLE_STATUS: proposed
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-action-and-authority-cn
+:END:
+
+proposal、decision、authority、execution 与 outcome 必须保持可区分、可审计和可独立拒绝。工具存在或调用成功不产生行动权。
+
+* 理由
+
+现实行动会改变资源、权利与风险；显式 authority scope 是把推理与外部效果连接起来的合约边界。
+
+[[file:../30-reflections/30.60-action-requires-authority.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+预授权策略、能力令牌和紧急制动都可以授权行动，不要求每次人工点击。
+
+* 工程后果
+
+执行入口验证主体、资源、动作、时限和环境；产生不可混淆的 execution 与 outcome receipts；支持撤销或补偿。
+
+* 失效模式
+
+proposal 被 runtime 直接执行；authority 过期后仍可复用；返回码被当作业务结果。
+
+* 开放问题
+
+分布式 delegation 如何组合？跨组织 authority 冲突如何裁决？
+
+* 可追溯性
+
+| 原则 | 论证 | 工程映射 | 状态 |
+|---+---+---+---|
+| PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | proposed |

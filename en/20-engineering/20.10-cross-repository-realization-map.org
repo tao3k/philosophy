@@ -1,0 +1,66 @@
+#+TITLE: Cross-Repository Principle Realization Map
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:engineering:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:DOC_ID: PHIL-MAP-EN-010
+:SEMANTIC_ID: philosophy.engineering.cross-repository-realization-map
+:DOC_KIND: engineering-map
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/20-engineering/20.10-cross-repository-realization-map.org
+:PRINCIPLE_REF: PHIL-EPI-001 PHIL-TEMP-001 PHIL-AGENCY-001 PHIL-AUTH-001 PHIL-ASSURE-001 PHIL-RESIL-001 PHIL-PRAXIS-001
+:END:
+
+* Principle
+:PROPERTIES:
+:CUSTOM_ID: cross-repository-principle-en
+:END:
+
+This map projects the seven thematic principles into engineering review conditions. It does not freeze
+today's repository structure: an implementation may be replaced without changing the philosophy; a change
+to normative meaning must return to the lifecycle of the corresponding Charter.
+
+Topic entry points: [[file:../10-charter/10.10-epistemology-and-uncertainty.org][Epistemology and Uncertainty]],
+[[file:../10-charter/10.20-temporality-and-causality.org][Temporality and Causality]],
+[[file:../10-charter/10.30-human-agency.org][Human Agency]],
+[[file:../10-charter/10.40-action-and-authority.org][Action and Authority]],
+[[file:../10-charter/10.50-proportional-assurance.org][Proportional Assurance]],
+[[file:../10-charter/10.60-resilience-reversibility-optionality.org][Resilience, Reversibility, and Optionality]], and
+[[file:../10-charter/10.70-practical-learning.org][Practical Learning]].
+
+* Normative Requirements
+
+| Principle ID | Stable engineering requirement | Unacceptable substitute |
+|--------------+--------------------------------+-------------------------|
+| PHIL-EPI-001 | Preserve sources, observations, inferences, and unknown frontiers | Treating model confidence or fluency as fact |
+| PHIL-TEMP-001 | Distinguish event time, observation time, order, and causal claims | Inferring causality directly from correlation or log order |
+| PHIL-AGENCY-001 | Preserve human intent, refusal, override, and appeal | Replacing human value and consent with an optimization metric |
+| PHIL-AUTH-001 | Prove actor, scope, validity, and policy authority before action | Treating tool availability as permission to act |
+| PHIL-ASSURE-001 | Increase assurance with irreversibility, impact radius, uncertainty, and authority scope | One confidence threshold for every action |
+| PHIL-RESIL-001 | Prefer rollback, isolation, degradation, observation, and retained options | Proving only the success path |
+| PHIL-PRAXIS-001 | Return outcomes through receipts and re-observation to the knowledge system | Treating an execution return code as a learning loop |
+
+* Current Realization
+
+The rows below are candidate landing points that each repository must prove independently. They are not
+claims of conformance. Only locatable and repeatable tests, Scenarios, proofs, or receipts can advance a
+candidate to verified status.
+
+| Repository/system | Candidate responsibility | Current evidence status | Next evidence entry |
+|-------------------+--------------------------+-------------------------+---------------------|
+| POO Flow | Action composition, rollback boundaries, and outcome reconciliation | Candidate; project receipt required | Scenario execution and recovery proof |
+| MRR / mrr-data | Sources, generations, observations, and retrieval evidence | Candidate; project receipt required | Provenance and generation tests |
+| ASP / ASP Rust | Agent protocols, authority, Scenario macros, and performance gates | Partial mechanisms exist; principle conformance unproven | Scenario receipts and benchmarks |
+| Marlin | Policy, decision, and intervention boundaries | Candidate; project receipt required | Authority rejection and degradation tests |
+| Aitia | Causal models, counterfactuals, and uncertainty expression | Candidate; project receipt required | Counterexamples and non-identifiability proofs |
+| Episteme | Proof, verification, and evidence sufficiency | Candidate; project receipt required | Proof artifacts and falsification cases |
+
+* Review Questions
+
+Reviewers must answer: which Principle ID is cited; what semantics the implementation preserves; which
+parts remain candidates; where the evidence lives; which counterexample or failure invalidates the claim;
+whether an implementation replacement preserves normative meaning; and, if meaning changes, whether it
+has returned to the Charter's proposed → challenged → accepted / rejected lifecycle.

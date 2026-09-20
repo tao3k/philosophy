@@ -1,0 +1,48 @@
+#+TITLE: 现代科学方法：证据、反例与不确定性
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-30
+:SEMANTIC_ID: philosophy.source.scientific-method-evidence
+:DOC_KIND: source-note
+:STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.30-scientific-method-evidence.org
+:SOURCE_ID: source.modern-scientific-method
+:SOURCE_KIND: INTERPRETATION
+:SOURCE_AUTHOR: 多来源 / Multiple traditions
+:SOURCE_WORK: 可证伪性、贝叶斯更新与测量方法 / Falsifiability, Bayesian updating, and measurement
+:SOURCE_EDITION: interpretive-synthesis-v1
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: multiple
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-scientific-method-evidence-cn
+:END:
+
+本条综合现代科学方法中关于可观察证据、反例、测量误差、可重复性和不确定性的共同约束。
+
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]]
+
+* 语境
+
+不同科学哲学传统并不完全一致；这里记录的是 Tao3k 的方法论综合，而不是把某一学派声明成唯一权威。
+
+* 解释边界
+
+概率、置信区间和模型拟合不自动产生因果事实；缺少反例也不等于全局证明。
+
+* 影响
+
+进入 unknown 一等状态与 simulation/prediction 边界的 Reflection。
+
+* 解释链
+
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。

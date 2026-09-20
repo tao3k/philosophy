@@ -1,0 +1,39 @@
+#+TITLE: Why Optimization Is Not Human Value
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-40
+:SEMANTIC_ID: philosophy.reflection.optimization-not-human-value
+:DOC_KIND: reflection
+:STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.40-optimization-is-not-human-value.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-optimization-is-not-human-value-en
+:END:
+
+Why can improvement of an objective function not be directly interpreted as human welfare, consent, or realized value?
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]] · [[file:../10-charter/10.30-human-agency.org][target thematic Charter]]
+
+* Argument
+
+An objective selects measurable proxies and necessarily omits context, rights, distribution, fairness, and future option value. Human agents must be able to define, refuse, override, and challenge goals.
+
+* Counterexamples
+
+Some closed control problems safely optimize one metric; users can explicitly delegate preferences; excessive intervention can damage usability.
+
+* Provisional Conclusion
+
+Optimization ranks candidate actions; it cannot independently create normative authority or human consent.
+
+* Promotion Criteria
+
+Promote when consent, override, contestability, and impact receipts become engineering requirements.

@@ -38,7 +38,19 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | [[file:20-engineering/20.00-knowledge-action-map.org][20-engineering]] | 原则到工程性质的映射 | engineering-map.cn |
 | [[file:30-reflections/30.00-reflection-governance.org][30-reflections]] | 尚未成为规范的论证 | reflection.cn |
 | [[file:40-sources/40.00-source-method.org][40-sources]] | 来源与解释边界 | source-note.cn |
-| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | 写作与准入 | engineering-map.cn |
+| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | 写作与准入 | governance.cn |
+
+* 专题索引
+
+| 专题 | Charter | Reflection | Source / 工程映射 |
+|------+---------+------------+-------------------|
+| 认识论与不确定性 | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.50-unknown-as-first-class.org][把未知作为一等对象]] | [[file:40-sources/40.30-scientific-method-evidence.org][科学方法与证据]] |
+| 时间与因果 | [[file:10-charter/10.20-temporality-and-causality.org][PHIL-TEMP-001]] | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟不是预测]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式方法、证明与反例]] |
+| 人的能动性 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.40-optimization-is-not-human-value.org][优化不是人的价值]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
+| 行动与权限 | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][行动需要权限]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统的状态与权限]] |
+| 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][Agent 时代的知行关系]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
+| 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
+| 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 
 * 关系图
 
