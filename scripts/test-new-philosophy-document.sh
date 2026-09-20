@@ -189,6 +189,15 @@ expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
   INTERPRETATION_STATUS=COMPLETE \
   "${scaffolder}" source-note 40.97-invalid-interpretation.org SOURCE-INVALID
 
+for source_kind in PRIMARY SECONDARY; do
+  for source_edition in not-applicable edition-pending evidence-pending; do
+    expect_failure env TITLE_ZH=测试 TITLE_EN=Test \
+      SOURCE_AUTHOR=Author SOURCE_WORK=Work SOURCE_LANGUAGE=zh \
+      "SOURCE_KIND=${source_kind}" "SOURCE_EDITION=${source_edition}" SOURCE_DATE=2026-09-20 \
+      "${scaffolder}" source-note 40.98-invalid-edition.org SOURCE-INVALID-EDITION
+  done
+done
+
 expect_failure env TITLE_ZH=综合 TITLE_EN=Synthesis \
   SOURCE_AUTHOR=Tao3k SOURCE_WORK=Synthesis SOURCE_LANGUAGE=multiple \
   SOURCE_KIND=SYNTHESIS SOURCE_EDITION=synthesis-v1 SOURCE_DATE=2026-09-20 \

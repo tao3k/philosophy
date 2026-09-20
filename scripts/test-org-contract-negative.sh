@@ -197,6 +197,17 @@ source_document="${source_root}/cn/40-sources/40.10-wang-yangming-knowledge-acti
 replace_line "${source_document}" '^:SOURCE_AUTHOR:.*$' ':SOURCE_AUTHOR: '
 expect_contract_failure "${source_root}" source-note.cn.has-source-author
 
+for invalid_edition in not-applicable edition-pending evidence-pending; do
+  accepted_pending_edition_root="$(make_fixture "accepted-pending-edition-${invalid_edition}")"
+  for locale in cn en; do
+    accepted_pending_edition_file="${accepted_pending_edition_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org"
+    replace_line "${accepted_pending_edition_file}" '^:DOC_STATUS:.*$' ':DOC_STATUS: accepted'
+    replace_line "${accepted_pending_edition_file}" '^:SOURCE_EDITION:.*$' ":SOURCE_EDITION: ${invalid_edition}"
+  done
+  expect_contract_failure "${accepted_pending_edition_root}" source-note.cn.accepted-has-grounded-edition
+  expect_contract_failure "${accepted_pending_edition_root}" source-note.en.accepted-has-grounded-edition
+done
+
 empty_cn_source_context_root="$(make_fixture empty-cn-source-context)"
 empty_cn_source_context_file="${empty_cn_source_context_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
 replace_line "${empty_cn_source_context_file}" \

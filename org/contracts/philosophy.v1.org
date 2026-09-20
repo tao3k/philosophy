@@ -520,6 +520,24 @@
 #+begin_src org-contract
 (assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
 #+end_src
+** Accepted source edition grounding
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.accepted-has-grounded-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :outline-depth 0 :summary (key "SOURCE_EDITION"))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "edition-pending"))
+      (not (= (summary value) "evidence-pending")))))
+#+end_src
 ** Source date
 :PROPERTIES:
 :ASSERT_ID: source-note.cn.has-source-date
@@ -750,6 +768,24 @@
 :END:
 #+begin_src org-contract
 (assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
+#+end_src
+** Accepted source edition grounding
+:PROPERTIES:
+:ASSERT_ID: source-note.en.accepted-has-grounded-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :outline-depth 0 :summary (key "SOURCE_EDITION"))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "edition-pending"))
+      (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source date
 :PROPERTIES:

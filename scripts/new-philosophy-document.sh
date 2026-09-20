@@ -96,7 +96,7 @@ reject_contract_sentinel() {
   local name="$1"
   local value="$2"
   case "${value}" in
-    not-applicable|evidence-pending)
+    not-applicable|edition-pending|evidence-pending)
       echo "philosophy: ${name} cannot use contract sentinel '${value}' for ${kind}" >&2
       exit 2
       ;;
@@ -151,6 +151,11 @@ case "${kind}" in
       *)
         echo "philosophy: SOURCE_KIND must be PRIMARY, SECONDARY, SYNTHESIS, or ENGINEERING_EVIDENCE" >&2
         exit 2
+        ;;
+    esac
+    case "${source_kind}" in
+      PRIMARY|SECONDARY)
+        reject_contract_sentinel SOURCE_EDITION "${source_edition}"
         ;;
     esac
     case "${interpretation_status}" in
