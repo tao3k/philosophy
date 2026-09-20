@@ -157,16 +157,6 @@ for locale in cn en; do
     PRINCIPLE_REF PHIL-AUTH-001
 done
 
-stale_lock="${fixture_root}/cn/30-reflections/30.89-stale.org.lock"
-mkdir "${stale_lock}"
-printf '%s\n%s\n' 999999 'stale-process-identity' > "${stale_lock}/owner"
-env TITLE_ZH=陈旧锁 TITLE_EN='Stale lock' \
-  "${scaffolder}" reflection 30.89-stale.org REF-STALE >/dev/null
-if [ -e "${stale_lock}" ]; then
-  echo "philosophy scaffolder test: stale lock was not reclaimed" >&2
-  exit 1
-fi
-
 env TITLE_ZH=第一 TITLE_EN=First \
   "${scaffolder}" reflection 30.90-concurrent.org REF-FIRST \
   >"${fixture_root}/first.out" 2>&1 &

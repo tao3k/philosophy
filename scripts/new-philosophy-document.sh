@@ -188,55 +188,11 @@ render_template() {
     "${template}" > "${temporary_file}"
 }
 
-lock_directory="${cn_destination}.lock"
-lock_owner_file="${lock_directory}/owner"
-process_started_at() {
-  ps -o lstart= -p "$1" 2>/dev/null | sed 's/^[[:space:]]*//'
-}
-
-if ! mkdir "${lock_directory}" 2>/dev/null; then
-  owner_pid="$(sed -n '1p' "${lock_owner_file}" 2>/dev/null || true)"
-  owner_started="$(sed -n '2p' "${lock_owner_file}" 2>/dev/null || true)"
-  current_started=""
-  case "${owner_pid}" in
-    ''|*[!0-9]*) ;;
-    *)
-      if kill -0 "${owner_pid}" 2>/dev/null; then
-        current_started="$(process_started_at "${owner_pid}")"
-      fi
-      ;;
-  esac
-  if [ -n "${owner_started}" ] && [ "${current_started}" = "${owner_started}" ]; then
-    echo "philosophy: another writer is creating this CN/EN document pair" >&2
-    exit 1
-  fi
-
-  stale_lock="${lock_directory}.stale.$$"
-  if ! mv "${lock_directory}" "${stale_lock}" 2>/dev/null; then
-    echo "philosophy: lock ownership changed while checking for a stale writer" >&2
-    exit 1
-  fi
-  moved_pid="$(sed -n '1p' "${stale_lock}/owner" 2>/dev/null || true)"
-  moved_started="$(sed -n '2p' "${stale_lock}/owner" 2>/dev/null || true)"
-  if [ "${moved_pid}" != "${owner_pid}" ] || [ "${moved_started}" != "${owner_started}" ]; then
-    mv -n "${stale_lock}" "${lock_directory}" 2>/dev/null || true
-    echo "philosophy: lock ownership changed while checking for a stale writer" >&2
-    exit 1
-  fi
-  rm -f "${stale_lock}/owner"
-  if ! rmdir "${stale_lock}" || ! mkdir "${lock_directory}" 2>/dev/null; then
-    echo "philosophy: could not reclaim stale document-pair lock" >&2
-    exit 1
-  fi
-fi
-printf '%s\n%s\n' "$$" "$(process_started_at "$$")" > "${lock_owner_file}"
 cn_temporary=""
 en_temporary=""
 cleanup() {
   [ -z "${cn_temporary}" ] || rm -f "${cn_temporary}"
   [ -z "${en_temporary}" ] || rm -f "${en_temporary}"
-  rm -f "${lock_owner_file}"
-  rmdir "${lock_directory}" 2>/dev/null || true
 }
 trap cleanup EXIT
 
@@ -263,8 +219,6 @@ if ! mv -n "${en_temporary}" "${en_destination}" || [ -e "${en_temporary}" ]; th
   exit 1
 fi
 en_temporary=""
-rm -f "${lock_owner_file}"
-rmdir "${lock_directory}"
 trap - EXIT
 
 echo "philosophy: created cn/${subdir}/${filename}"
