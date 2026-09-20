@@ -53,7 +53,18 @@ fi
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
 principle_ref="${PRINCIPLE_REF:-${base_doc_id}}"
 source_id="${SOURCE_ID:-${base_doc_id}}"
+source_kind="${SOURCE_KIND:-SYNTHESIS}"
 today="$(date -u +%Y-%m-%d)"
+
+if [ "${kind}" = "source-note" ]; then
+  case "${source_kind}" in
+    PRIMARY|SECONDARY|SYNTHESIS|ENGINEERING_EVIDENCE) ;;
+    *)
+      echo "philosophy: SOURCE_KIND must be PRIMARY, SECONDARY, SYNTHESIS, or ENGINEERING_EVIDENCE" >&2
+      exit 2
+      ;;
+  esac
+fi
 
 escape_sed_replacement() {
   printf '%s' "$1" | sed 's/[&|\\]/\\&/g'
@@ -77,7 +88,7 @@ render_template() {
     -e "s|<COUNTERPART>|$(escape_sed_replacement "${counterpart}")|g" \
     -e "s|<PRINCIPLE_REF>|$(escape_sed_replacement "${principle_ref}")|g" \
     -e "s|<SOURCE_ID>|$(escape_sed_replacement "${source_id}")|g" \
-    -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${SOURCE_KIND:-INTERPRETATION}")|g" \
+    -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${source_kind}")|g" \
     -e "s|<SOURCE_AUTHOR>|$(escape_sed_replacement "${author}")|g" \
     -e "s|<SOURCE_WORK>|$(escape_sed_replacement "${title}")|g" \
     -e "s|<SOURCE_EDITION>|$(escape_sed_replacement "${SOURCE_EDITION:-1}")|g" \

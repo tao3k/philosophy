@@ -639,6 +639,15 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "原则")))
 #+end_src
+** At least one principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1
+  (headline :property-contains ("PRINCIPLE_ID" "")))
+#+end_src
 ** Complete metadata on every principle node
 :PROPERTIES:
 :ASSERT_ID: charter.cn.every-principle-has-complete-metadata
@@ -758,6 +767,15 @@
 :END:
 #+begin_src org-contract
 (assert exists (headline :summary (title "Principles")))
+#+end_src
+** At least one principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1
+  (headline :property-contains ("PRINCIPLE_ID" "")))
 #+end_src
 ** Complete metadata on every principle node
 :PROPERTIES:
