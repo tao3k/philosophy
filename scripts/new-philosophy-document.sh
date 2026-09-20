@@ -102,6 +102,12 @@ case "${kind}" in
           echo "philosophy: refinement principles must name at least one REFINES target" >&2
           exit 2
         fi
+        for target in ${refines}; do
+          if [ "${target}" = "${principle_ref}" ]; then
+            echo "philosophy: REFINES must not contain its own PRINCIPLE_REF" >&2
+            exit 2
+          fi
+        done
         ;;
       *)
         echo "philosophy: PRINCIPLE_KIND must be foundational or refinement" >&2
@@ -199,9 +205,11 @@ render_template() {
 
 cn_temporary=""
 en_temporary=""
+cn_published=""
 cleanup() {
   [ -z "${cn_temporary}" ] || rm -f "${cn_temporary}"
   [ -z "${en_temporary}" ] || rm -f "${en_temporary}"
+  [ -z "${cn_published}" ] || rm -f "${cn_published}"
 }
 trap cleanup EXIT
 
@@ -222,12 +230,15 @@ if ! mv -n "${cn_temporary}" "${cn_destination}" || [ -e "${cn_temporary}" ]; th
   exit 1
 fi
 cn_temporary=""
+cn_published="${cn_destination}"
 if ! mv -n "${en_temporary}" "${en_destination}" || [ -e "${en_temporary}" ]; then
   rm -f "${cn_destination}"
+  cn_published=""
   echo "philosophy: EN publication failed; rolled back the CN document" >&2
   exit 1
 fi
 en_temporary=""
+cn_published=""
 trap - EXIT
 
 echo "philosophy: created cn/${subdir}/${filename}"

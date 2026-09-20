@@ -86,36 +86,25 @@
     "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "REFINES")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "REFINES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "SUPERSEDES")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "SUPERSEDES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (reciprocal "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "SUPERSEDED_BY")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
-#+end_src
-#+begin_src org-contract
-(assert node-property-values-have-reciprocal-node-property
-  (property "SUPERSEDES")
-  (identity "PRINCIPLE_ID")
-  (reciprocal "SUPERSEDED_BY")
-  (allow "none"))
-#+end_src
-#+begin_src org-contract
-(assert node-property-values-have-reciprocal-node-property
-  (property "SUPERSEDED_BY")
-  (identity "PRINCIPLE_ID")
-  (reciprocal "SUPERSEDES")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "SUPERSEDED_BY")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (reciprocal "SUPERSEDES"))
 #+end_src
 
 * EN charter
@@ -143,36 +132,25 @@
     "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "REFINES")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "REFINES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "SUPERSEDES")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "SUPERSEDES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (reciprocal "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
-(assert node-property-values-resolve-node-identities
-  (property "SUPERSEDED_BY")
-  (identity "PRINCIPLE_ID")
-  (allow "none"))
-#+end_src
-#+begin_src org-contract
-(assert node-property-values-have-reciprocal-node-property
-  (property "SUPERSEDES")
-  (identity "PRINCIPLE_ID")
-  (reciprocal "SUPERSEDED_BY")
-  (allow "none"))
-#+end_src
-#+begin_src org-contract
-(assert node-property-values-have-reciprocal-node-property
-  (property "SUPERSEDED_BY")
-  (identity "PRINCIPLE_ID")
-  (reciprocal "SUPERSEDES")
-  (allow "none"))
+(assert workspace-reference
+  (source node-property "SUPERSEDED_BY")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (reciprocal "SUPERSEDES"))
 #+end_src
 
 * CN engineering map
@@ -191,9 +169,9 @@
   (properties "PRINCIPLE_REF"))
 #+end_src
 #+begin_src org-contract
-(assert document-property-values-resolve-node-identities
-  (property "PRINCIPLE_REF")
-  (identity "PRINCIPLE_ID"))
+(assert workspace-reference
+  (source document-property "PRINCIPLE_REF")
+  (target node-identity "PRINCIPLE_ID"))
 #+end_src
 
 * EN engineering map
@@ -212,9 +190,9 @@
   (properties "PRINCIPLE_REF"))
 #+end_src
 #+begin_src org-contract
-(assert document-property-values-resolve-node-identities
-  (property "PRINCIPLE_REF")
-  (identity "PRINCIPLE_ID"))
+(assert workspace-reference
+  (source document-property "PRINCIPLE_REF")
+  (target node-identity "PRINCIPLE_ID"))
 #+end_src
 
 * CN reflection

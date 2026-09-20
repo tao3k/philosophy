@@ -162,6 +162,9 @@ expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
 expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
   PRINCIPLE_REF=PHIL-INVALID PRINCIPLE_KIND=refinement REFINES=none \
   "${scaffolder}" charter 10.94-invalid-refinement.org PHIL-INVALID
+expect_failure env TITLE_ZH=错误 TITLE_EN=Invalid \
+  PRINCIPLE_REF=PHIL-SELF PRINCIPLE_KIND=refinement REFINES=PHIL-SELF \
+  "${scaffolder}" charter 10.95-self-refinement.org PHIL-SELF
 
 expect_failure "${common[@]}" "${scaffolder}" engineering-map 20.90-missing.org MAP-MISSING
 env TITLE_ZH=映射 TITLE_EN=Map PRINCIPLE_REF=PHIL-AUTH-001 \

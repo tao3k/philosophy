@@ -178,6 +178,12 @@ replace_line "${unresolved_refines_file}" '^:REFINES:.*$' ':REFINES: PHIL-MISSIN
 replace_line "${unresolved_refines_root}/en/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-MISSING-001'
 expect_contract_failure "${unresolved_refines_root}" 'node property REFINES reference `PHIL-MISSING-001` does not resolve to node identity PRINCIPLE_ID'
 
+self_refines_root="$(make_fixture self-refines)"
+for locale in cn en; do
+  replace_line "${self_refines_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-EPI-001'
+done
+expect_contract_failure "${self_refines_root}" 'node `PHIL-EPI-001` property REFINES must not reference its own identity'
+
 unresolved_supersedes_root="$(make_fixture unresolved-supersedes)"
 for locale in cn en; do
   replace_line "${unresolved_supersedes_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-MISSING-001'
