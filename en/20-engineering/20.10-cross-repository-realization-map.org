@@ -63,5 +63,6 @@ candidate to verified status.
 
 Reviewers must answer: which Principle ID is cited; what semantics the implementation preserves; which
 parts remain candidates; where the evidence lives; which counterexample or failure invalidates the claim;
-whether an implementation replacement preserves normative meaning; and, if meaning changes, whether it
-has returned to the Charter's proposed → challenged → accepted / rejected lifecycle.
+whether an implementation replacement preserves normative meaning; and, if meaning changes, whether
+challenge or Reflection evidence has returned it to the Charter with an explicit retained, revised,
+superseded, or withdrawn decision. Challenge is an event and evidence, not a Principle status.

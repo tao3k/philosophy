@@ -4,12 +4,28 @@ set shell := ["bash", "-cu"]
 default:
     @just --list
 
-# Delegate closed-world topology, exact composition, pairing, and assertions to Orgize.
+# Fast qualification: verify the pinned parser and one stable AST workspace receipt.
 check:
+    ./scripts/check-orgize-toolchain.sh
+    ./scripts/check-workspace-receipt.sh
+
+# Full behavioral regression suite; CI runs this target.
+test: check
     ./scripts/test-new-philosophy-document.sh
     ./scripts/test-org-contract-negative.sh
     ./scripts/test-trace-org-contract.sh
+
+# Print the parser-owned workspace evaluation for human inspection.
+contract:
     ./scripts/check-org-contracts.sh
+
+# Install the exact Orgize revision declared by the Org toolchain contract.
+toolchain-install:
+    ./scripts/install-orgize-toolchain.sh
+
+# Refresh the stable machine qualification receipt after an intentional change.
+receipt:
+    ./scripts/update-workspace-receipt.sh
 
 # Print the parser-owned contract trace for one document.
 trace document:

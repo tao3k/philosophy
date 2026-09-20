@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Install the pinned Orgize toolchain
+        run: just toolchain-install
+      - name: Check the Philosophy workspace
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          just test

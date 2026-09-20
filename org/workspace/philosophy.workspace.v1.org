@@ -343,3 +343,10 @@
 :PATH_KIND: directory
 :ROLE: support
 :END:
+
+* Toolchain contracts and receipts
+:PROPERTIES:
+:PATH: org/toolchain
+:PATH_KIND: directory
+:ROLE: support
+:END:

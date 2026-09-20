@@ -5,7 +5,8 @@
   purpose-specific contract on one `CONTRACT_ORG` property line.
 - Chinese and English live under `cn/` and `en/`. Each pair shares one
   `SEMANTIC_ID` and has reciprocal `COUNTERPART` paths.
-- Put accepted cross-project principles in `cn|en/10-charter/`, engineering
+- Put normative principle drafts, proposals, and accepted principles in
+  `cn|en/10-charter/`, engineering
   consequences in `cn|en/20-engineering/`, unsettled work in
   `cn|en/30-reflections/`, and interpreted sources in `cn|en/40-sources/`.
 - Do not promote a reflection into the charter by changing only its path or
