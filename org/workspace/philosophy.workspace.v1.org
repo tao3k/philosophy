@@ -141,13 +141,16 @@
   (source node-property "REFINES")
   (target node-identity "PRINCIPLE_ID")
   (allow "none")
-  (exclude-self true))
+  (exclude-self true)
+  (acyclic true))
 #+end_src
 #+begin_src org-contract
 (assert workspace-reference
   (source node-property "SUPERSEDES")
   (target node-identity "PRINCIPLE_ID")
   (allow "none")
+  (exclude-self true)
+  (acyclic true)
   (reciprocal "SUPERSEDED_BY"))
 #+end_src
 #+begin_src org-contract
@@ -155,6 +158,8 @@
   (source node-property "SUPERSEDED_BY")
   (target node-identity "PRINCIPLE_ID")
   (allow "none")
+  (exclude-self true)
+  (acyclic true)
   (reciprocal "SUPERSEDES"))
 #+end_src
 
