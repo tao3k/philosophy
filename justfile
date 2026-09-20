@@ -8,6 +8,7 @@ default:
 check:
     ./scripts/test-new-philosophy-document.sh
     ./scripts/test-org-contract-negative.sh
+    ./scripts/test-trace-org-contract.sh
     ./scripts/check-org-contracts.sh
 
 # Print the parser-owned contract trace for one document.

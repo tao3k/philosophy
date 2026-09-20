@@ -20,14 +20,12 @@ case "${document}" in
   *) target="${repository_root}/${document}" ;;
 esac
 
-case "${target}" in
-  "${repository_root}"/README.org|"${repository_root}"/cn/README.org|"${repository_root}"/en/README.org|"${repository_root}"/cn/*/*.org|"${repository_root}"/en/*/*.org)
-    ;;
-  *)
-    echo "philosophy: trace target is outside maintained content topology: ${document}" >&2
-    exit 1
-    ;;
-esac
+"${orgize_bin}" contract workspace \
+  --root "${repository_root}" \
+  --policy "${repository_root}/org/workspace/philosophy.workspace.v1.org" \
+  --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+  --require-maintained "${target}" \
+  >/dev/null
 
 "${orgize_bin}" contract trace \
   --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \

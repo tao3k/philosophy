@@ -45,10 +45,6 @@ esac
 
 cn_destination="${repository_root}/cn/${subdir}/${filename}"
 en_destination="${repository_root}/en/${subdir}/${filename}"
-if [ -e "${cn_destination}" ] || [ -e "${en_destination}" ]; then
-  echo "philosophy: refusing to overwrite an existing CN/EN document pair" >&2
-  exit 1
-fi
 
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
 principle_ref="${PRINCIPLE_REF:-}"
@@ -156,15 +152,43 @@ render_template() {
     "${template}" > "${temporary_file}"
 }
 
-cn_temporary="$(mktemp "${TMPDIR:-/tmp}/philosophy-cn.XXXXXX")"
-en_temporary="$(mktemp "${TMPDIR:-/tmp}/philosophy-en.XXXXXX")"
-trap 'rm -f "${cn_temporary}" "${en_temporary}"' EXIT
+lock_directory="${cn_destination}.lock"
+if ! mkdir "${lock_directory}" 2>/dev/null; then
+  echo "philosophy: another writer is creating this CN/EN document pair" >&2
+  exit 1
+fi
+cn_temporary=""
+en_temporary=""
+cleanup() {
+  [ -z "${cn_temporary}" ] || rm -f "${cn_temporary}"
+  [ -z "${en_temporary}" ] || rm -f "${en_temporary}"
+  rmdir "${lock_directory}" 2>/dev/null || true
+}
+trap cleanup EXIT
+
+if [ -e "${cn_destination}" ] || [ -e "${en_destination}" ]; then
+  echo "philosophy: refusing to overwrite an existing CN/EN document pair" >&2
+  exit 1
+fi
+
+cn_temporary="$(mktemp "${cn_destination}.tmp.XXXXXX")"
+en_temporary="$(mktemp "${en_destination}.tmp.XXXXXX")"
 
 render_template cn "${title_zh}" "${base_doc_id}-CN" "../../en/${subdir}/${filename}" "${cn_destination}" "${cn_temporary}"
 render_template en "${title_en}" "${base_doc_id}-EN" "../../cn/${subdir}/${filename}" "${en_destination}" "${en_temporary}"
 
-mv "${cn_temporary}" "${cn_destination}"
-mv "${en_temporary}" "${en_destination}"
+if ! mv -n "${cn_temporary}" "${cn_destination}" || [ -e "${cn_temporary}" ]; then
+  echo "philosophy: CN destination appeared during pair publication" >&2
+  exit 1
+fi
+cn_temporary=""
+if ! mv -n "${en_temporary}" "${en_destination}" || [ -e "${en_temporary}" ]; then
+  rm -f "${cn_destination}"
+  echo "philosophy: EN publication failed; rolled back the CN document" >&2
+  exit 1
+fi
+en_temporary=""
+rmdir "${lock_directory}"
 trap - EXIT
 
 echo "philosophy: created cn/${subdir}/${filename}"

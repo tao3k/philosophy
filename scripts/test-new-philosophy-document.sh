@@ -12,10 +12,12 @@ mkdir -p \
   "${fixture_root}/en/10-charter" \
   "${fixture_root}/cn/20-engineering" \
   "${fixture_root}/en/20-engineering" \
+  "${fixture_root}/cn/30-reflections" \
+  "${fixture_root}/en/30-reflections" \
   "${fixture_root}/cn/40-sources" \
   "${fixture_root}/en/40-sources"
 cp "${repository_root}/scripts/new-philosophy-document.sh" "${fixture_root}/scripts/"
-cp "${repository_root}"/org/templates/philosophy.{charter,engineering-map,source-note}.{cn,en}.v1.org \
+cp "${repository_root}"/org/templates/philosophy.{charter,engineering-map,reflection,source-note}.{cn,en}.v1.org \
   "${fixture_root}/org/templates/"
 
 scaffolder="${fixture_root}/scripts/new-philosophy-document.sh"
@@ -113,6 +115,40 @@ for locale in cn en; do
   assert_property "${fixture_root}/${locale}/20-engineering/20.91-map.org" \
     PRINCIPLE_REF PHIL-AUTH-001
 done
+
+env TITLE_ZH=第一 TITLE_EN=First \
+  "${scaffolder}" reflection 30.90-concurrent.org REF-FIRST \
+  >"${fixture_root}/first.out" 2>&1 &
+first_pid=$!
+env TITLE_ZH=第二 TITLE_EN=Second \
+  "${scaffolder}" reflection 30.90-concurrent.org REF-SECOND \
+  >"${fixture_root}/second.out" 2>&1 &
+second_pid=$!
+set +e
+wait "${first_pid}"
+first_status=$?
+wait "${second_pid}"
+second_status=$?
+set -e
+if { [ "${first_status}" -eq 0 ] && [ "${second_status}" -eq 0 ]; } || \
+   { [ "${first_status}" -ne 0 ] && [ "${second_status}" -ne 0 ]; }; then
+  echo "philosophy scaffolder test: exactly one concurrent writer must succeed" >&2
+  sed -n '1,80p' "${fixture_root}/first.out" >&2
+  sed -n '1,80p' "${fixture_root}/second.out" >&2
+  exit 1
+fi
+concurrent_cn="${fixture_root}/cn/30-reflections/30.90-concurrent.org"
+concurrent_en="${fixture_root}/en/30-reflections/30.90-concurrent.org"
+if grep -Fq '#+TITLE: 第一' "${concurrent_cn}"; then
+  grep -Fq '#+TITLE: First' "${concurrent_en}"
+  assert_property "${concurrent_cn}" DOC_ID REF-FIRST-CN
+  assert_property "${concurrent_en}" DOC_ID REF-FIRST-EN
+else
+  grep -Fq '#+TITLE: 第二' "${concurrent_cn}"
+  grep -Fq '#+TITLE: Second' "${concurrent_en}"
+  assert_property "${concurrent_cn}" DOC_ID REF-SECOND-CN
+  assert_property "${concurrent_en}" DOC_ID REF-SECOND-EN
+fi
 
 if rg -n '<[A-Z_]+>|PHIL-ROOT-ID' "${fixture_root}/cn" "${fixture_root}/en"; then
   echo "philosophy scaffolder test: generated documents contain unresolved placeholders" >&2
