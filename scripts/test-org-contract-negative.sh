@@ -48,6 +48,11 @@ kind_document="${kind_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org
 replace_line "${kind_document}" '^:DOC_KIND: charter$' ':DOC_KIND: reflection'
 expect_contract_failure "${kind_root}" charter.cn.has-document-kind
 
+document_id_root="$(make_fixture empty-document-id)"
+document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
+replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '
+expect_contract_failure "${document_id_root}" document.has-doc-id
+
 source_root="$(make_fixture empty-source-author)"
 source_document="${source_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
 replace_line "${source_document}" '^:SOURCE_AUTHOR:.*$' ':SOURCE_AUTHOR: '
@@ -57,5 +62,15 @@ source_kind_root="$(make_fixture invalid-source-kind)"
 source_kind_document="${source_kind_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
 replace_line "${source_kind_document}" '^:SOURCE_KIND: PRIMARY$' ':SOURCE_KIND: INTERPRETATION'
 expect_contract_failure "${source_kind_root}" source-note.cn.has-source-kind
+
+principle_ref_root="$(make_fixture empty-principle-ref)"
+principle_ref_file="${principle_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"
+replace_line "${principle_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: '
+expect_contract_failure "${principle_ref_root}" engineering-map.cn.has-principle-ref
+
+pair_ref_root="$(make_fixture mismatched-principle-ref)"
+pair_ref_file="${pair_ref_root}/en/20-engineering/20.10-cross-repository-realization-map.org"
+replace_line "${pair_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: PHIL-OTHER-001'
+expect_contract_failure "${pair_ref_root}" 'must have equal document property PRINCIPLE_REF'
 
 echo "philosophy contract negative test: passed"

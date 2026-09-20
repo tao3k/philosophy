@@ -122,6 +122,10 @@
 :COUNTERPART_ROOT: en
 :LANGUAGE_VALUE: zh-CN
 :END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "PRINCIPLE_REF"))
+#+end_src
 
 * EN engineering map
 :PROPERTIES:
@@ -134,6 +138,10 @@
 :COUNTERPART_ROOT: cn
 :LANGUAGE_VALUE: en
 :END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "PRINCIPLE_REF"))
+#+end_src
 
 * CN reflection
 :PROPERTIES:
