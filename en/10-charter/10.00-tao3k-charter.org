@@ -9,7 +9,7 @@
 :DOC_ID: PHIL-001-EN
 :SEMANTIC_ID: philosophy.charter.knowledge-action-loop
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.00-tao3k-charter.org
 :PRINCIPLE_SET: PHIL-001..PHIL-007
@@ -29,6 +29,8 @@ assurance, and authority: =know → discern → assure → act → reconcile →
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-001
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -43,6 +45,8 @@ Knowledge claims carry source, identity, generation, and provenance.
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-002
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -57,6 +61,8 @@ Unknown is not false; incomplete coverage must not become plausible completion.
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-003
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -71,6 +77,8 @@ Relational reasoning preserves dependency, causality, time, support, and conflic
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-004
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -85,6 +93,8 @@ Judgment remains distinct from proof, verification, and evidence sufficiency.
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-005
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -99,6 +109,8 @@ Proposal, decision, authority, and execution must not collapse.
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-006
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -113,6 +125,8 @@ Human agency is invariant; optimization is subordinate to meaning, constraints, 
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-007
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -156,12 +170,12 @@ human agency? When observations conflict, when may prior knowledge remain usable
 
 | Principle | Engineering direction | Downstream owner |
 |-----------+-----------------------+------------------|
-| PHIL-001 | FactId, GenerationId, SourceBinding | MRR / ASP |
+| PHIL-001 | Semantic identity, GenerationId, SourceBinding; separated physical snapshots | MRR; mrr-data (physical plane only) |
 | PHIL-002 | unknown frontier, coverage, blocked | MRR / Aitia |
-| PHIL-003 | WHY, WHY-NOT, IMPACT | MRR / POO Flow |
-| PHIL-004 | Lean, TLA+, evidence sufficiency | Episteme / Aitia |
+| PHIL-003 | Typed relations, WHY, WHY-NOT, IMPACT, Temporal Causality | MRR / POO Flow |
+| PHIL-004 | Obligations, verifier evidence, generic verifier handoff | Aitia / POO Flow |
 | PHIL-005 | ExecutionAuthority, policy boundary | ASP / Marlin |
-| PHIL-006 | consent, reversibility, optionality | Product and Profile owners |
+| PHIL-006 | Consent, reversibility, optionality, vertical policy meaning | Product and Profile owners / Episteme |
 | PHIL-007 | receipt, observation, invalidation | POO Flow / MRR |
 
 See the [[file:../20-engineering/20.00-knowledge-action-map.org][engineering map]].

@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-TOPO-CN-001
 :SEMANTIC_ID: philosophy.repository-topology
 :DOC_KIND: topology
-:STATUS: accepted
+:DOC_STATUS: accepted
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/00-topology/00.00-repository-topology.org
 :TOPOLOGY_ID: philosophy.content.cn.v1

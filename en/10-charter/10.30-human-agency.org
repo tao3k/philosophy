@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-30
 :SEMANTIC_ID: philosophy.charter.human-agency
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.30-human-agency.org
 :PRINCIPLE_SET: PHIL-AGENCY-001
@@ -19,7 +19,9 @@
 ** Goals must be attributable, rejectable, and contestable
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-AGENCY-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-006
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ Who decides when group goals conflict? When must long-lived delegation be reconf
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

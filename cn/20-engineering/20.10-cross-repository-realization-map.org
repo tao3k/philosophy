@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-MAP-CN-010
 :SEMANTIC_ID: philosophy.engineering.cross-repository-realization-map
 :DOC_KIND: engineering-map
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/20-engineering/20.10-cross-repository-realization-map.org
 :PRINCIPLE_REF: PHIL-EPI-001 PHIL-TEMP-001 PHIL-AGENCY-001 PHIL-AUTH-001 PHIL-ASSURE-001 PHIL-RESIL-001 PHIL-PRAXIS-001
@@ -49,12 +49,13 @@
 
 | 仓库/系统 | 候选职责 | 当前证据状态 | 下一证据入口 |
 |-----------+----------+--------------+--------------|
-| POO Flow | 组合行动、回滚边界、结果复验 | 候选；需项目 receipt | 场景执行与恢复证明 |
-| MRR / mrr-data | 来源、代际、观察与检索证据 | 候选；需项目 receipt | provenance 与 generation 测试 |
+| POO Flow | 通用组合与 verifier/runtime handoff；Temporal Causality 的 event graph、cut、trajectory、counterfactual、impact 与 unknown frontier | 局部机制存在；原则符合性待证明 | Temporal Causality 反例、执行与恢复 receipt |
+| MRR | semantic identity、typed relation、lineage、query、transition、IMPACT 与 admission | 局部机制存在；原则符合性待证明 | 关系、代际、查询与 admission receipt |
+| mrr-data | Arrow / GraphAr、snapshot、物理持久化与分发 | 候选；仅为物理数据平面，不产生语义权威 | snapshot / persistence / distribution receipt |
 | ASP / ASP Rust | agent 协议、authority、Scenario 宏与性能门 | 局部机制存在；原则符合性待证明 | Scenario receipt 与 benchmark |
 | Marlin | policy、decision 与 intervention 边界 | 候选；需项目 receipt | 权限拒绝和降级测试 |
-| Aitia | 因果模型、反事实与不确定性表达 | 候选；需项目 receipt | 反例与不可识别性证明 |
-| Episteme | proof、verification 与 evidence sufficiency | 候选；需项目 receipt | proof artifact 与否证用例 |
+| Aitia | causal assurance：claim、assumption、evidence、obligation、invalidation、verification planning 与 SDLC / ADR / GitOps assurance | 候选；需项目 receipt | obligation、verifier evidence 与 invalidation receipt |
+| Episteme | 垂直领域 meaning、ontology、relation、policy、source、Scenario / Profile / Case 与 qualification metadata | 候选；需项目 receipt | 领域语义与 qualification receipt |
 
 * 审查问题
 

@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-40
 :SEMANTIC_ID: philosophy.charter.action-authority
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.40-action-and-authority.org
 :PRINCIPLE_SET: PHIL-AUTH-001
@@ -19,7 +19,9 @@
 ** Executable does not mean authorized
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-AUTH-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-005
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ How should distributed delegation compose? How are cross-organizational authorit
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

@@ -256,7 +256,12 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_KIND")))
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND" value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND" value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND" value "SYNTHESIS"))
+    (node-property :summary (key "SOURCE_KIND" value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -375,7 +380,12 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "SOURCE_KIND")))
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND" value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND" value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND" value "SYNTHESIS"))
+    (node-property :summary (key "SOURCE_KIND" value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -527,13 +537,13 @@
 #+begin_src org-contract
 (assert exists (node-property :summary (key "DOC_KIND")))
 #+end_src
-** Status
+** Document status
 :PROPERTIES:
-:ASSERT_ID: document.has-status
+:ASSERT_ID: document.has-doc-status
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "STATUS")))
+(assert exists (node-property :summary (key "DOC_STATUS")))
 #+end_src
 ** Language
 :PROPERTIES:
@@ -629,69 +639,46 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "原则")))
 #+end_src
-** Principle identity
+** Complete metadata on every principle node
 :PROPERTIES:
-:ASSERT_ID: charter.cn.has-principle-identities
+:ASSERT_ID: charter.cn.every-principle-has-complete-metadata
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "PRINCIPLE_ID")))
-#+end_src
-** Principle status
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-principle-statuses
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "PRINCIPLE_STATUS")))
-#+end_src
-** Normative level
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-normative-levels
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "NORMATIVE_LEVEL")))
-#+end_src
-** Scope
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-principle-scopes
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SCOPE")))
-#+end_src
-** Revision
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-revisions
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "REVISION")))
-#+end_src
-** Supersedes
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-supersedes-links
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SUPERSEDES")))
-#+end_src
-** Superseded by
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-superseded-by-links
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SUPERSEDED_BY")))
-#+end_src
-** Change rationale
-:PROPERTIES:
-:ASSERT_ID: charter.cn.has-change-rationales
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "CHANGE_RATIONALE")))
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" ""))))
+  (assert count == $principles
+    (and
+      (headline
+        :property-contains ("PRINCIPLE_ID" "")
+        :property-contains ("PRINCIPLE_STATUS" "")
+        :property-contains ("PRINCIPLE_KIND" "")
+        :property-contains ("NORMATIVE_LEVEL" "")
+        :property-contains ("SCOPE" "")
+        :property-contains ("REVISION" "")
+        :property-contains ("REFINES" "")
+        :property-contains ("SUPERSEDES" "")
+        :property-contains ("SUPERSEDED_BY" "")
+        :property-contains ("CHANGE_RATIONALE" ""))
+      (not (= (property "PRINCIPLE_ID") ""))
+      (not (= (property "PRINCIPLE_STATUS") ""))
+      (not (= (property "PRINCIPLE_KIND") ""))
+      (or
+        (= (property "PRINCIPLE_STATUS") "draft")
+        (= (property "PRINCIPLE_STATUS") "proposed")
+        (= (property "PRINCIPLE_STATUS") "accepted")
+        (= (property "PRINCIPLE_STATUS") "superseded")
+        (= (property "PRINCIPLE_STATUS") "withdrawn"))
+      (or
+        (= (property "PRINCIPLE_KIND") "foundational")
+        (= (property "PRINCIPLE_KIND") "refinement"))
+      (not (= (property "NORMATIVE_LEVEL") ""))
+      (not (= (property "SCOPE") ""))
+      (not (= (property "REVISION") ""))
+      (not (= (property "REFINES") ""))
+      (not (= (property "SUPERSEDES") ""))
+      (not (= (property "SUPERSEDED_BY") ""))
+      (not (= (property "CHANGE_RATIONALE") "")))))
 #+end_src
 ** Rationale
 :PROPERTIES:
@@ -772,69 +759,46 @@
 #+begin_src org-contract
 (assert exists (headline :summary (title "Principles")))
 #+end_src
-** Principle identity
+** Complete metadata on every principle node
 :PROPERTIES:
-:ASSERT_ID: charter.en.has-principle-identities
+:ASSERT_ID: charter.en.every-principle-has-complete-metadata
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "PRINCIPLE_ID")))
-#+end_src
-** Principle status
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-principle-statuses
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "PRINCIPLE_STATUS")))
-#+end_src
-** Normative level
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-normative-levels
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "NORMATIVE_LEVEL")))
-#+end_src
-** Scope
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-principle-scopes
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SCOPE")))
-#+end_src
-** Revision
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-revisions
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "REVISION")))
-#+end_src
-** Supersedes
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-supersedes-links
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SUPERSEDES")))
-#+end_src
-** Superseded by
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-superseded-by-links
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "SUPERSEDED_BY")))
-#+end_src
-** Change rationale
-:PROPERTIES:
-:ASSERT_ID: charter.en.has-change-rationales
-:SEVERITY: error
-:END:
-#+begin_src org-contract
-(assert count >= 1 (node-property :summary (key "CHANGE_RATIONALE")))
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" ""))))
+  (assert count == $principles
+    (and
+      (headline
+        :property-contains ("PRINCIPLE_ID" "")
+        :property-contains ("PRINCIPLE_STATUS" "")
+        :property-contains ("PRINCIPLE_KIND" "")
+        :property-contains ("NORMATIVE_LEVEL" "")
+        :property-contains ("SCOPE" "")
+        :property-contains ("REVISION" "")
+        :property-contains ("REFINES" "")
+        :property-contains ("SUPERSEDES" "")
+        :property-contains ("SUPERSEDED_BY" "")
+        :property-contains ("CHANGE_RATIONALE" ""))
+      (not (= (property "PRINCIPLE_ID") ""))
+      (not (= (property "PRINCIPLE_STATUS") ""))
+      (not (= (property "PRINCIPLE_KIND") ""))
+      (or
+        (= (property "PRINCIPLE_STATUS") "draft")
+        (= (property "PRINCIPLE_STATUS") "proposed")
+        (= (property "PRINCIPLE_STATUS") "accepted")
+        (= (property "PRINCIPLE_STATUS") "superseded")
+        (= (property "PRINCIPLE_STATUS") "withdrawn"))
+      (or
+        (= (property "PRINCIPLE_KIND") "foundational")
+        (= (property "PRINCIPLE_KIND") "refinement"))
+      (not (= (property "NORMATIVE_LEVEL") ""))
+      (not (= (property "SCOPE") ""))
+      (not (= (property "REVISION") ""))
+      (not (= (property "REFINES") ""))
+      (not (= (property "SUPERSEDES") ""))
+      (not (= (property "SUPERSEDED_BY") ""))
+      (not (= (property "CHANGE_RATIONALE") "")))))
 #+end_src
 ** Rationale
 :PROPERTIES:

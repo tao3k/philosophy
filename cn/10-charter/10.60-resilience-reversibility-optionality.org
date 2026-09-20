@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-CN-60
 :SEMANTIC_ID: philosophy.charter.resilience-reversibility-optionality
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/10-charter/10.60-resilience-reversibility-optionality.org
 :PRINCIPLE_SET: PHIL-RESIL-001
@@ -19,7 +19,9 @@
 ** 局部最优不得耗尽未来选择
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-RESIL-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-005 PHIL-006
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ rollback 只存在文档中；备份从未恢复测试；局部 benchmark 掩盖
 
 | 原则 | 论证 | 工程映射 | 状态 |
 |---+---+---+---|
-| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | proposed |
+| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

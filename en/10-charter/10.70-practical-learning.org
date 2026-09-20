@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-70
 :SEMANTIC_ID: philosophy.charter.practical-learning
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.70-practical-learning.org
 :PRINCIPLE_SET: PHIL-PRAXIS-001
@@ -19,7 +19,9 @@
 ** Technical value must answer to real consequences
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-PRAXIS-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-007
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ How should non-quantifiable value be handled? How can stakeholder conflicts rema
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

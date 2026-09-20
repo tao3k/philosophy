@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-CN-20
 :SEMANTIC_ID: philosophy.charter.temporality-causality
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/10-charter/10.20-temporality-and-causality.org
 :PRINCIPLE_SET: PHIL-TEMP-001
@@ -19,7 +19,9 @@
 ** 模拟不得冒充预测
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-TEMP-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-003
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ past、present、future、predicted、simulated 与 counterfactual 不得坍缩�
 
 | 原则 | 论证 | 工程映射 | 状态 |
 |---+---+---+---|
-| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | proposed |
+| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

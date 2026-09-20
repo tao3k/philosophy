@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-GOV-CN-001
 :SEMANTIC_ID: philosophy.governance.authoring-admission
 :DOC_KIND: governance
-:STATUS: accepted
+:DOC_STATUS: accepted
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/90-governance/90.00-authoring-and-admission.org
 :GOVERNANCE_ID: philosophy.governance.v1
@@ -25,6 +25,10 @@ Org AST 的解析、精确路径索引、线性合约组合、中英文配对和
 =tao3k/orgize= 执行。workspace policy、合约文件与双语文档共同定义准入；任何单一
 实现仓库、作者或引用来源都不能独自产生 Tao3k 规范权威。
 
+=zh-CN= 是规范源语言，=en= 是持续维护的语义投影。workspace gate 证明结构、原则身份和
+规范元数据一致，不声称自动证明两种正文的语义等价。措辞冲突无法通过共同修订消解时，
+以中文规范含义裁决，同时必须修正英文投影并保留变更理由。
+
 * 生命周期
 
 原则状态机为：
@@ -34,10 +38,15 @@ draft -> proposed -> accepted -> superseded
                               \-> withdrawn
 #+end_src
 
-每个原则节点必须声明 =PRINCIPLE_ID=、=PRINCIPLE_STATUS=、=NORMATIVE_LEVEL=、=SCOPE=、
-=REVISION=、=SUPERSEDES=、=SUPERSEDED_BY= 与 =CHANGE_RATIONALE=。accepted 原则不是可以
+每个原则节点必须声明 =PRINCIPLE_ID=、=PRINCIPLE_STATUS=、=PRINCIPLE_KIND=、=REFINES=、
+=NORMATIVE_LEVEL=、=SCOPE=、=REVISION=、=SUPERSEDES=、=SUPERSEDED_BY= 与
+=CHANGE_RATIONALE=。accepted 原则不是可以
 在永久身份下任意改写的散文：不改变规范含义的澄清递增 =REVISION=；改变义务、范围或
 失效边界时必须建立新的原则身份或显式替代链，并保留旧节点。
+
+=DOC_STATUS= 只描述文档的编辑与仓库生命周期；=PRINCIPLE_STATUS= 描述规范权威生命周期。
+因此一个已维护或已接受的 Charter 文档可以合法包含 draft / proposed principle，文档状态
+绝不向内部原则传播规范权威。
 
 * 准入
 
@@ -45,16 +54,18 @@ draft -> proposed -> accepted -> superseded
 |------+----------+----------|
 | CN/EN 文档 | 唯一 =SEMANTIC_ID=、双向 =COUNTERPART=、精确合约组合 | 成对维护 |
 | Reflection | 论证、反例、暂定结论、升格条件 | 保留争论 |
-| Principle | 一等节点、完整生命周期字段、反对意见与失效模式 | 可提议或接受 |
+| Principle | 一等节点、完整生命周期字段、细化关系、反对意见与失效模式 | 可起草、提议或接受 |
 | Engineering Map | 稳定规范要求与可替换当前实现分离 | 可追溯实现 |
 | Source | 来源身份、历史语境、解释状态与主张范围 | 不自动产生规范权威 |
 
-=just check= 必须通过 Orgize 的 closed-world topology、配对唯一性、精确线性合约组合和
-合约断言；Orgize 自身以 ASP Rust Scenario 宏维护规模性能与 admission 回归测试。
+=just check= 必须通过 Orgize 的 closed-world topology、配对唯一性、精确线性合约组合、
+逐原则节点完整性以及中英文规范元数据相等断言；Orgize 自身以 ASP Rust Scenario 宏维护
+规模性能与 admission 回归测试。
 
 * 变更策略
 
-- =draft -> proposed= 要求中英文语义配对、反例、边界与工程后果。
+- Reflection 只产生论证；建立 Charter 节点时先进入 =draft=。
+- =draft -> proposed= 要求升格条件已经满足，并具备中英文语义配对、反例、边界与工程后果。
 - =proposed -> accepted= 需要维护者明确审查；工具通过不是接受决定。
 - 语义不变的措辞澄清递增 =REVISION= 并记录理由。
 - 规范含义变化不得静默覆盖 accepted 原则；使用 =SUPERSEDES= / =SUPERSEDED_BY=。

@@ -8,16 +8,20 @@
 :DOC_ID: PHIL-SRC-EN-50
 :SEMANTIC_ID: philosophy.source.agent-systems-state-authority
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: en
 :COUNTERPART: ../../cn/40-sources/40.50-agent-systems-state-authority.org
 :SOURCE_ID: source.agent-systems
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: ENGINEERING_EVIDENCE
 :SOURCE_AUTHOR: Tao3k engineering synthesis
-:SOURCE_WORK: ASP、MRR、POO Flow、Marlin、Aitia 工程经验
+:SOURCE_WORK: ASP, MRR, mrr-data, POO Flow, Marlin, Aitia, and Episteme engineering observations
 :SOURCE_EDITION: workspace-synthesis-v1
-:SOURCE_DATE: historical-source
+:SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh
+:SOURCE_REPOSITORIES: agent-semantic-protocols mrr mrr-data poo-flow marlin aitia lambda-episteme
+:SOURCE_REVISIONS: evidence-pending
+:SOURCE_PATHS: evidence-pending
+:OBSERVATION_DATE: 2026-09-20
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -27,7 +31,9 @@
 :CUSTOM_ID: source-agent-systems-state-authority-en
 :END:
 
-This note records the engineering source for keeping state, proposal, decision, authorization, execution, and outcome receipts distinct in agent systems.
+This note records current engineering evidence for keeping state, proposal, decision, authorization,
+execution, and outcome receipts distinct in agent systems. Until =SOURCE_REVISIONS= and =SOURCE_PATHS=
+are replaced by concrete receipts, it remains a synthesis awaiting downstream evidence.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]]
 

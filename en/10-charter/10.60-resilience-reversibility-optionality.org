@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-60
 :SEMANTIC_ID: philosophy.charter.resilience-reversibility-optionality
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.60-resilience-reversibility-optionality.org
 :PRINCIPLE_SET: PHIL-RESIL-001
@@ -19,7 +19,9 @@
 ** Local optimization must not exhaust future options
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-RESIL-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-005 PHIL-006
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ How should option cost be assessed? When should an irreversible commitment be ac
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

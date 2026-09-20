@@ -9,7 +9,7 @@
 :DOC_ID: PHIL-001-CN
 :SEMANTIC_ID: philosophy.charter.knowledge-action-loop
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/10-charter/10.00-tao3k-charter.org
 :PRINCIPLE_SET: PHIL-001..PHIL-007
@@ -29,6 +29,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-001
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -43,6 +45,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-002
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -57,6 +61,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-003
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -71,6 +77,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-004
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -85,6 +93,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-005
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -99,6 +109,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-006
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -113,6 +125,8 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-007
 :PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -153,12 +167,12 @@ AI 系统中的知与行必须形成受证据、证成和权限约束的闭环�
 
 | 原则 | 工程方向 | 下游所有者 |
 |------+----------+------------|
-| PHIL-001 | FactId、GenerationId、SourceBinding | MRR / ASP |
+| PHIL-001 | semantic identity、GenerationId、SourceBinding；物理 snapshot 分层 | MRR；mrr-data（仅物理层） |
 | PHIL-002 | unknown frontier、coverage、blocked | MRR / Aitia |
-| PHIL-003 | WHY、WHY-NOT、IMPACT | MRR / POO Flow |
-| PHIL-004 | Lean、TLA+、evidence sufficiency | Episteme / Aitia |
+| PHIL-003 | typed relation、WHY、WHY-NOT、IMPACT、Temporal Causality | MRR / POO Flow |
+| PHIL-004 | obligation、verifier evidence、generic verifier handoff | Aitia / POO Flow |
 | PHIL-005 | ExecutionAuthority、policy boundary | ASP / Marlin |
-| PHIL-006 | consent、reversibility、optionality | 产品与 Profile 所有者 |
+| PHIL-006 | consent、reversibility、optionality、vertical policy meaning | 产品与 Profile 所有者 / Episteme |
 | PHIL-007 | receipt、observation、invalidation | POO Flow / MRR |
 
 细化见 [[file:../20-engineering/20.00-knowledge-action-map.org][工程映射]]。

@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-REF-EN-20
 :SEMANTIC_ID: philosophy.reflection.practical-learning-human-centered-ai
 :DOC_KIND: reflection
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/30-reflections/30.20-practical-learning-human-centered-ai.org
 :END:

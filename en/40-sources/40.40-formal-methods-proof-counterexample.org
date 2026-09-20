@@ -8,11 +8,11 @@
 :DOC_ID: PHIL-SRC-EN-40
 :SEMANTIC_ID: philosophy.source.formal-methods-proof-counterexample
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: en
 :COUNTERPART: ../../cn/40-sources/40.40-formal-methods-proof-counterexample.org
 :SOURCE_ID: source.formal-methods
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: 形式化方法共同体 / Formal-methods community
 :SOURCE_WORK: 定理证明、模型检查与规范 / Theorem proving, model checking, and specification
 :SOURCE_EDITION: interpretive-synthesis-v1

@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-REF-EN-40
 :SEMANTIC_ID: philosophy.reflection.optimization-not-human-value
 :DOC_KIND: reflection
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/30-reflections/30.40-optimization-is-not-human-value.org
 :END:

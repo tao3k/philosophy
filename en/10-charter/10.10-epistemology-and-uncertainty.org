@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-10
 :SEMANTIC_ID: philosophy.charter.epistemology-uncertainty
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.10-epistemology-and-uncertainty.org
 :PRINCIPLE_SET: PHIL-EPI-001
@@ -19,7 +19,9 @@
 ** Unknown must remain visible
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-EPI-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-001 PHIL-002
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ Which boundaries deserve explicit modeling? How should unknown propagate without
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

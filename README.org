@@ -9,7 +9,7 @@
 :DOC_ID: PHIL-ROOT-001
 :SEMANTIC_ID: philosophy.repository
 :DOC_KIND: repository-index
-:STATUS: accepted
+:DOC_STATUS: accepted
 :TOPOLOGY_ID: philosophy.repository.v1
 :PATH_POLICY: closed-world
 :NAVIGATION_ROOT: cn/README.org en/README.org

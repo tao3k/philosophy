@@ -8,11 +8,11 @@
 :DOC_ID: PHIL-SRC-EN-10
 :SEMANTIC_ID: philosophy.source.wang-yangming-knowledge-action
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: en
 :COUNTERPART: ../../cn/40-sources/40.10-wang-yangming-knowledge-action.org
 :SOURCE_ID: source.wang-yangming.chuanxilu
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 王阳明 / Wang Yangming
 :SOURCE_WORK: 《传习录》 / Instructions for Practical Living
 :SOURCE_EDITION: edition-pending

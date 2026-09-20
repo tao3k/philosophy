@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-REF-EN-50
 :SEMANTIC_ID: philosophy.reflection.unknown-first-class
 :DOC_KIND: reflection
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/30-reflections/30.50-unknown-as-first-class.org
 :END:

@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-REF-CN-60
 :SEMANTIC_ID: philosophy.reflection.action-requires-authority
 :DOC_KIND: reflection
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/30-reflections/30.60-action-requires-authority.org
 :END:

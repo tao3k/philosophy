@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-REFL-EN-001
 :SEMANTIC_ID: philosophy.reflection.promotion-governance
 :DOC_KIND: reflection
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: en
 :COUNTERPART: ../../cn/30-reflections/30.00-reflection-governance.org
 :END:
@@ -40,4 +40,5 @@ cannot transform one into the other.
 
 Align the CN and EN semantics, state counterexamples and boundaries, establish
 engineering traces, satisfy the Charter Org Contract, and explicitly change
-=STATUS= to =proposed= or =accepted= through review.
+Once promotion criteria are met, create a =PRINCIPLE_STATUS: draft= node and let maintainers explicitly
+advance it to =proposed= or =accepted=. =DOC_STATUS= describes only this document's editorial state.

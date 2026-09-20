@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-MAP-CN-001
 :SEMANTIC_ID: philosophy.engineering.knowledge-action-map
 :DOC_KIND: engineering-map
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/20-engineering/20.00-knowledge-action-map.org
 :PRINCIPLE_REF: PHIL-001..PHIL-007
@@ -27,7 +27,7 @@
 |------+----------+----------+------------|
 | 知 | source identity、generation、provenance | 模型自信 | ASP / MRR |
 | 辨 | dependency、causality、unknown frontier | plausible completion | MRR |
-| 证 | proof、verification、evidence sufficiency | 语言流畅性 | Episteme / Aitia |
+| 证 | proof、verification、evidence sufficiency | 语言流畅性 | Aitia / POO Flow verifier handoff |
 | 行 | decision、policy、authority、intervention | tool availability | ASP / Marlin |
 | 验 | receipt、observation、invalidation | 调用返回码 | POO Flow / MRR |
 
@@ -38,7 +38,7 @@
 | Contract admission | Orgize 的线性 =CONTRACT_ORG= 组合 | 已实现 | =just check= |
 | Workspace topology | Orgize 单次扫描的 closed-world 路由 | 已实现 | =org/workspace/philosophy.workspace.v1.org= |
 | Agent scenario gate | ASP Rust Scenario benchmark macro | 已实现 | Orgize workspace scale scenario |
-| 下游哲学映射 | POO Flow / MRR / ASP / Marlin / Aitia | 待逐项证明 | 各项目独立 receipt |
+| 下游哲学映射 | POO Flow / MRR / mrr-data / ASP / Marlin / Aitia / Episteme | 待逐项证明 | [[file:20.10-cross-repository-realization-map.org][跨仓库工程映射]]与各项目独立 receipt |
 
 * 审查问题
 

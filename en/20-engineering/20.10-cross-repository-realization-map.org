@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-MAP-EN-010
 :SEMANTIC_ID: philosophy.engineering.cross-repository-realization-map
 :DOC_KIND: engineering-map
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/20-engineering/20.10-cross-repository-realization-map.org
 :PRINCIPLE_REF: PHIL-EPI-001 PHIL-TEMP-001 PHIL-AGENCY-001 PHIL-AUTH-001 PHIL-ASSURE-001 PHIL-RESIL-001 PHIL-PRAXIS-001
@@ -51,12 +51,13 @@ candidate to verified status.
 
 | Repository/system | Candidate responsibility | Current evidence status | Next evidence entry |
 |-------------------+--------------------------+-------------------------+---------------------|
-| POO Flow | Action composition, rollback boundaries, and outcome reconciliation | Candidate; project receipt required | Scenario execution and recovery proof |
-| MRR / mrr-data | Sources, generations, observations, and retrieval evidence | Candidate; project receipt required | Provenance and generation tests |
+| POO Flow | Generic composition and verifier/runtime handoff; Temporal Causality event graphs, cuts, trajectories, counterfactuals, impact, and unknown frontiers | Partial mechanisms exist; principle conformance unproven | Temporal Causality counterexamples, execution, and recovery receipts |
+| MRR | Semantic identity, typed relations, lineage, query, transition, IMPACT, and admission | Partial mechanisms exist; principle conformance unproven | Relation, generation, query, and admission receipts |
+| mrr-data | Arrow / GraphAr, snapshots, physical persistence, and distribution | Candidate; physical data plane only, with no semantic authority | Snapshot, persistence, and distribution receipts |
 | ASP / ASP Rust | Agent protocols, authority, Scenario macros, and performance gates | Partial mechanisms exist; principle conformance unproven | Scenario receipts and benchmarks |
 | Marlin | Policy, decision, and intervention boundaries | Candidate; project receipt required | Authority rejection and degradation tests |
-| Aitia | Causal models, counterfactuals, and uncertainty expression | Candidate; project receipt required | Counterexamples and non-identifiability proofs |
-| Episteme | Proof, verification, and evidence sufficiency | Candidate; project receipt required | Proof artifacts and falsification cases |
+| Aitia | Causal assurance: claims, assumptions, evidence, obligations, invalidation, verification planning, and SDLC / ADR / GitOps assurance | Candidate; project receipt required | Obligation, verifier-evidence, and invalidation receipts |
+| Episteme | Vertical-domain meaning, ontology, relations, policies, sources, Scenario / Profile / Case, and qualification metadata | Candidate; project receipt required | Domain-semantic and qualification receipts |
 
 * Review Questions
 

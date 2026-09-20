@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-CN-30
 :SEMANTIC_ID: philosophy.charter.human-agency
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/10-charter/10.30-human-agency.org
 :PRINCIPLE_SET: PHIL-AGENCY-001
@@ -19,7 +19,9 @@
 ** 目标必须可归属、拒绝与挑战
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-AGENCY-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-006
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ dark pattern 使退出不可行；代理目标被当成福利；受影响者没�
 
 | 原则 | 论证 | 工程映射 | 状态 |
 |---+---+---+---|
-| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | proposed |
+| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

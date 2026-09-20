@@ -8,11 +8,11 @@
 :DOC_ID: PHIL-SRC-CN-20
 :SEMANTIC_ID: philosophy.source.gu-yanwu-practical-learning
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.20-gu-yanwu-practical-learning.org
 :SOURCE_ID: source.gu-yanwu.rizhilu
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
 :SOURCE_WORK: 《日知录》与实学传统 / Record of Daily Knowledge and practical-learning tradition
 :SOURCE_EDITION: edition-pending

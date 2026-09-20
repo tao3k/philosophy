@@ -8,11 +8,11 @@
 :DOC_ID: PHIL-SRC-CN-001
 :SEMANTIC_ID: philosophy.source.interpretation-method
 :DOC_KIND: source-note
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.00-source-method.org
 :SOURCE_ID: philosophy.source-method.v1
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Tao3k
 :SOURCE_WORK: 来源与解释方法
 :SOURCE_EDITION: 1
@@ -29,6 +29,13 @@
 
 来源层允许中国古典思想、现代科学哲学、形式化方法与计算机系统思想共同进入讨论。
 仓库导航见 [[file:../README.org][中文入口]]。
+
+| SOURCE_KIND | 含义 | 最低定位要求 |
+|-------------+------+--------------|
+| PRIMARY | 作者、制度或系统的一手材料 | 版本、篇章或稳定 locator |
+| SECONDARY | 对一手材料的学术解释 | 作者、出版物、版本与论证范围 |
+| SYNTHESIS | Tao3k 对多个来源的显式综合 | 构成来源、解释距离与反例边界 |
+| ENGINEERING_EVIDENCE | 当前工程状态的时点观察 | repository、revision、RFC/path 与 observation date |
 
 * 语境
 
@@ -50,3 +57,5 @@
 来源身份与历史语境先被记录；解释声明其直接、类比或现代化状态；Reflection 对其提出
 反例和边界；只有通过治理审查的结论才可进入 Charter，随后由 Engineering Map 区分
 规范要求与当前实现。
+
+=edition-pending= 或 =evidence-pending= 是公开缺口，不得被展示为完成的来源扎实度。

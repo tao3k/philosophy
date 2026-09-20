@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-GOV-EN-001
 :SEMANTIC_ID: philosophy.governance.authoring-admission
 :DOC_KIND: governance
-:STATUS: accepted
+:DOC_STATUS: accepted
 :LANGUAGE: en
 :COUNTERPART: ../../cn/90-governance/90.00-authoring-and-admission.org
 :GOVERNANCE_ID: philosophy.governance.v1
@@ -26,6 +26,11 @@ CN/EN pairing, and semantic assertions are executed by =tao3k/orgize=. The works
 contract registry, and bilingual documents jointly define admission.
 No implementation repository, author, or cited source independently creates Tao3k normative authority.
 
+=zh-CN= is the normative source language; =en= is its maintained semantic projection. The workspace
+gate proves structural, principle-identity, and normative-metadata parity. It does not claim to prove
+prose semantic equivalence. If wording conflict cannot be resolved by a shared revision, Chinese
+normative meaning decides; the English projection must then be corrected with a retained rationale.
+
 * Lifecycle
 
 The principle state machine is:
@@ -35,11 +40,16 @@ draft -> proposed -> accepted -> superseded
                               \-> withdrawn
 #+end_src
 
-Every principle node declares =PRINCIPLE_ID=, =PRINCIPLE_STATUS=, =NORMATIVE_LEVEL=, =SCOPE=,
-=REVISION=, =SUPERSEDES=, =SUPERSEDED_BY=, and =CHANGE_RATIONALE=. An accepted principle is not
+Every principle node declares =PRINCIPLE_ID=, =PRINCIPLE_STATUS=, =PRINCIPLE_KIND=, =REFINES=,
+=NORMATIVE_LEVEL=, =SCOPE=, =REVISION=, =SUPERSEDES=, =SUPERSEDED_BY=, and =CHANGE_RATIONALE=.
+An accepted principle is not
 editable prose under a permanent identity. A meaning-preserving clarification increments =REVISION=;
 a change to obligations, scope, or failure boundaries creates a new principle identity or explicit
 supersession chain while retaining the old node.
+
+=DOC_STATUS= describes only editorial and repository lifecycle. =PRINCIPLE_STATUS= describes normative
+authority. A maintained or accepted Charter document may therefore contain draft or proposed principles;
+document status never confers normative authority on its contents.
 
 * Admission
 
@@ -47,17 +57,18 @@ supersession chain while retaining the old node.
 |--------+-------------------+------------------|
 | CN/EN document | Unique =SEMANTIC_ID=, reciprocal =COUNTERPART=, exact contract composition | Maintained pair |
 | Reflection | Argument, counterexample, provisional conclusion, promotion criteria | Open inquiry |
-| Principle | First-class node, lifecycle fields, counterarguments, failure modes | Proposed or accepted norm |
+| Principle | First-class node, lifecycle fields, refinement relation, counterarguments, failure modes | Draft, proposed, or accepted norm |
 | Engineering Map | Stable normative requirement separated from replaceable current realization | Traceable implementation |
 | Source | Source identity, historical context, interpretation status, claim scope | No automatic normative authority |
 
 =just check= must pass Orgize closed-world topology, unique pairing, exact linear contract
-composition, and contract assertions. Orgize itself maintains scale performance and admission
-regressions through the ASP Rust Scenario macro.
+composition, per-principle node completeness, and bilingual normative-metadata equality assertions.
+Orgize itself maintains scale performance and admission regressions through the ASP Rust Scenario macro.
 
 * Change Policy
 
-- =draft -> proposed= requires bilingual pairing, counterexamples, boundaries, and engineering consequences.
+- Reflection supplies an argument; a newly materialized Charter node begins at =draft=.
+- =draft -> proposed= requires satisfied promotion criteria, bilingual pairing, counterexamples, boundaries, and engineering consequences.
 - =proposed -> accepted= requires an explicit maintainer review; tool success is not acceptance.
 - Meaning-preserving clarification increments =REVISION= and records its rationale.
 - Normative meaning changes never silently overwrite an accepted principle; use =SUPERSEDES= and =SUPERSEDED_BY=.

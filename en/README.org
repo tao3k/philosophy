@@ -9,7 +9,7 @@
 :DOC_ID: PHIL-EN-ROOT-001
 :SEMANTIC_ID: philosophy.language-root
 :DOC_KIND: topology
-:STATUS: accepted
+:DOC_STATUS: accepted
 :LANGUAGE: en
 :COUNTERPART: ../cn/README.org
 :TOPOLOGY_ID: philosophy.en.v1

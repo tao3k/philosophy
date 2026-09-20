@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-20
 :SEMANTIC_ID: philosophy.charter.temporality-causality
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.20-temporality-and-causality.org
 :PRINCIPLE_SET: PHIL-TEMP-001
@@ -19,7 +19,9 @@
 ** Simulation must not masquerade as prediction
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-TEMP-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-003
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ How should model disagreement, model drift, and open-world horizons be represent
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

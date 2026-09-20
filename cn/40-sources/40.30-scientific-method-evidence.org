@@ -8,11 +8,11 @@
 :DOC_ID: PHIL-SRC-CN-30
 :SEMANTIC_ID: philosophy.source.scientific-method-evidence
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.30-scientific-method-evidence.org
 :SOURCE_ID: source.modern-scientific-method
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: 多来源 / Multiple traditions
 :SOURCE_WORK: 可证伪性、贝叶斯更新与测量方法 / Falsifiability, Bayesian updating, and measurement
 :SOURCE_EDITION: interpretive-synthesis-v1

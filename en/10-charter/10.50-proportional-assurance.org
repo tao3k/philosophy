@@ -8,7 +8,7 @@
 :DOC_ID: PHIL-CHARTER-EN-50
 :SEMANTIC_ID: philosophy.charter.proportional-assurance
 :DOC_KIND: charter
-:STATUS: proposed
+:DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: ../../cn/10-charter/10.50-proportional-assurance.org
 :PRINCIPLE_SET: PHIL-ASSURE-001
@@ -19,7 +19,9 @@
 ** Greater impact requires stronger assurance
 :PROPERTIES:
 :PRINCIPLE_ID: PHIL-ASSURE-001
-:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-004 PHIL-005
 :NORMATIVE_LEVEL: must
 :SCOPE: tao3k
 :REVISION: 1
@@ -61,4 +63,4 @@ How should the four factors compose without cosmetic quantification? Who approve
 
 | Principle | Argument | Engineering mapping | Status |
 |---+---+---+---|
-| PHIL-ASSURE-001 | [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | proposed |
+| PHIL-ASSURE-001 | [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

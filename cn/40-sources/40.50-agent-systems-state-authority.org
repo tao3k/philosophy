@@ -8,16 +8,20 @@
 :DOC_ID: PHIL-SRC-CN-50
 :SEMANTIC_ID: philosophy.source.agent-systems-state-authority
 :DOC_KIND: source-note
-:STATUS: draft
+:DOC_STATUS: draft
 :LANGUAGE: zh-CN
 :COUNTERPART: ../../en/40-sources/40.50-agent-systems-state-authority.org
 :SOURCE_ID: source.agent-systems
-:SOURCE_KIND: INTERPRETATION
+:SOURCE_KIND: ENGINEERING_EVIDENCE
 :SOURCE_AUTHOR: Tao3k engineering synthesis
-:SOURCE_WORK: ASP、MRR、POO Flow、Marlin、Aitia 工程经验
+:SOURCE_WORK: ASP、MRR、mrr-data、POO Flow、Marlin、Aitia、Episteme 工程观察
 :SOURCE_EDITION: workspace-synthesis-v1
-:SOURCE_DATE: historical-source
+:SOURCE_DATE: 2026-09-20
 :SOURCE_LANGUAGE: en-and-zh
+:SOURCE_REPOSITORIES: agent-semantic-protocols mrr mrr-data poo-flow marlin aitia lambda-episteme
+:SOURCE_REVISIONS: evidence-pending
+:SOURCE_PATHS: evidence-pending
+:OBSERVATION_DATE: 2026-09-20
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -27,7 +31,8 @@
 :CUSTOM_ID: source-agent-systems-state-authority-cn
 :END:
 
-本条记录 Agent 系统中状态、提议、决策、授权、执行与结果回执必须保持区分的工程来源。
+本条记录 Agent 系统中状态、提议、决策、授权、执行与结果回执必须保持区分的当前工程证据。
+在 =SOURCE_REVISIONS= 与 =SOURCE_PATHS= 被具体 receipt 替换以前，它只是一项待落地的 synthesis。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]]
 
