@@ -41,13 +41,16 @@ common=(env TITLE_ZH=测试 TITLE_EN=Test)
 
 expect_failure "${common[@]}" "${scaffolder}" source-note 40.90-missing.org SRC-MISSING
 expect_failure env TITLE_ZH=测试 TITLE_EN=Test \
+  SOURCE_AUTHOR=Author SOURCE_WORK=Work SOURCE_LANGUAGE=zh SOURCE_EDITION=edition-1 \
+  "${scaffolder}" source-note 40.90-missing-date.org SRC-MISSING-DATE
+expect_failure env TITLE_ZH=测试 TITLE_EN=Test \
   SOURCE_AUTHOR=Author SOURCE_WORK=Work SOURCE_LANGUAGE=zh \
   SOURCE_KIND=INTERPRETATION \
   "${scaffolder}" source-note 40.91-invalid-kind.org SRC-INVALID
 
 env TITLE_ZH=来源 TITLE_EN=Source \
   SOURCE_AUTHOR='Source Author' SOURCE_WORK='Source Work' \
-  SOURCE_LANGUAGE=classical-zh SOURCE_KIND=PRIMARY SOURCE_DATE=1527 \
+  SOURCE_LANGUAGE=classical-zh SOURCE_KIND=PRIMARY SOURCE_EDITION=juan-1 SOURCE_DATE=1527 \
   "${scaffolder}" source-note 40.92-source.org SRC-001 >/dev/null
 for locale in cn en; do
   source_file="${fixture_root}/${locale}/40-sources/40.92-source.org"
@@ -55,7 +58,27 @@ for locale in cn en; do
   assert_property "${source_file}" SOURCE_WORK 'Source Work'
   assert_property "${source_file}" SOURCE_LANGUAGE classical-zh
   assert_property "${source_file}" SOURCE_KIND PRIMARY
+  assert_property "${source_file}" SOURCE_EDITION juan-1
   assert_property "${source_file}" SOURCE_DATE 1527
+  assert_property "${source_file}" SOURCE_REPOSITORIES not-applicable
+done
+
+expect_failure env TITLE_ZH=工程 TITLE_EN=Engineering \
+  SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
+  SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
+  "${scaffolder}" source-note 40.93-missing-locators.org ENG-MISSING
+env TITLE_ZH=工程 TITLE_EN=Engineering \
+  SOURCE_AUTHOR=Tao3k SOURCE_WORK=Observation SOURCE_LANGUAGE=en \
+  SOURCE_KIND=ENGINEERING_EVIDENCE SOURCE_EDITION=workspace-v1 SOURCE_DATE=2026-09-20 \
+  SOURCE_REPOSITORIES='orgize philosophy' SOURCE_REVISIONS='abc123 def456' \
+  SOURCE_PATHS='rfc/001 src/lib.rs' OBSERVATION_DATE=2026-09-20 \
+  "${scaffolder}" source-note 40.94-engineering.org ENG-001 >/dev/null
+for locale in cn en; do
+  engineering_file="${fixture_root}/${locale}/40-sources/40.94-engineering.org"
+  assert_property "${engineering_file}" SOURCE_REPOSITORIES 'orgize philosophy'
+  assert_property "${engineering_file}" SOURCE_REVISIONS 'abc123 def456'
+  assert_property "${engineering_file}" SOURCE_PATHS 'rfc/001 src/lib.rs'
+  assert_property "${engineering_file}" OBSERVATION_DATE 2026-09-20
 done
 
 expect_failure "${common[@]}" "${scaffolder}" charter 10.90-missing.org PHIL-MISSING

@@ -24,8 +24,9 @@ new-help:
       'common: TITLE_ZH TITLE_EN (optional: AUTHOR)' \
       'charter: PRINCIPLE_REF REFINES' \
       'engineering-map: PRINCIPLE_REF' \
-      'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE' \
-      'source-note optional: SOURCE_ID SOURCE_KIND SOURCE_EDITION SOURCE_DATE INTERPRETATION_STATUS CLAIM_SCOPE'
+      'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE SOURCE_EDITION SOURCE_DATE' \
+      'engineering evidence: SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE' \
+      'source-note optional: SOURCE_ID SOURCE_KIND INTERPRETATION_STATUS CLAIM_SCOPE'
 
 # List document kinds accepted by the scaffolder.
 kinds:

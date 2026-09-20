@@ -63,6 +63,16 @@ source_kind_document="${source_kind_root}/cn/40-sources/40.10-wang-yangming-know
 replace_line "${source_kind_document}" '^:SOURCE_KIND: PRIMARY$' ':SOURCE_KIND: INTERPRETATION'
 expect_contract_failure "${source_kind_root}" source-note.cn.has-source-kind
 
+engineering_locator_root="$(make_fixture missing-engineering-locator)"
+engineering_locator_file="${engineering_locator_root}/cn/40-sources/40.50-agent-systems-state-authority.org"
+replace_line "${engineering_locator_file}" '^:SOURCE_PATHS:.*$' ':SOURCE_PATHS: not-applicable'
+expect_contract_failure "${engineering_locator_root}" source-note.cn.has-engineering-paths
+
+source_pair_root="$(make_fixture mismatched-source-id)"
+source_pair_file="${source_pair_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"
+replace_line "${source_pair_file}" '^:SOURCE_ID:.*$' ':SOURCE_ID: source.unrelated'
+expect_contract_failure "${source_pair_root}" 'must have equal document property SOURCE_ID'
+
 principle_ref_root="$(make_fixture empty-principle-ref)"
 principle_ref_file="${principle_ref_root}/cn/20-engineering/20.10-cross-repository-realization-map.org"
 replace_line "${principle_ref_file}" '^:PRINCIPLE_REF:.*$' ':PRINCIPLE_REF: '

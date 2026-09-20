@@ -58,7 +58,12 @@ source_kind="${SOURCE_KIND:-SYNTHESIS}"
 source_author="${SOURCE_AUTHOR:-}"
 source_work="${SOURCE_WORK:-}"
 source_language="${SOURCE_LANGUAGE:-}"
+source_edition="${SOURCE_EDITION:-}"
 source_date="${SOURCE_DATE:-}"
+source_repositories="${SOURCE_REPOSITORIES:-not-applicable}"
+source_revisions="${SOURCE_REVISIONS:-not-applicable}"
+source_paths="${SOURCE_PATHS:-not-applicable}"
+observation_date="${OBSERVATION_DATE:-not-applicable}"
 today="$(date -u +%Y-%m-%d)"
 
 require_input() {
@@ -82,7 +87,8 @@ case "${kind}" in
     require_input SOURCE_AUTHOR "${source_author}"
     require_input SOURCE_WORK "${source_work}"
     require_input SOURCE_LANGUAGE "${source_language}"
-    source_date="${source_date:-${today}}"
+    require_input SOURCE_EDITION "${source_edition}"
+    require_input SOURCE_DATE "${source_date}"
     case "${source_kind}" in
       PRIMARY|SECONDARY|SYNTHESIS|ENGINEERING_EVIDENCE) ;;
       *)
@@ -90,6 +96,16 @@ case "${kind}" in
         exit 2
         ;;
     esac
+    if [ "${source_kind}" = ENGINEERING_EVIDENCE ]; then
+      source_repositories="${SOURCE_REPOSITORIES:-}"
+      source_revisions="${SOURCE_REVISIONS:-}"
+      source_paths="${SOURCE_PATHS:-}"
+      observation_date="${OBSERVATION_DATE:-}"
+      require_input SOURCE_REPOSITORIES "${source_repositories}"
+      require_input SOURCE_REVISIONS "${source_revisions}"
+      require_input SOURCE_PATHS "${source_paths}"
+      require_input OBSERVATION_DATE "${observation_date}"
+    fi
     ;;
 esac
 
@@ -119,9 +135,13 @@ render_template() {
     -e "s|<SOURCE_KIND>|$(escape_sed_replacement "${source_kind}")|g" \
     -e "s|<SOURCE_AUTHOR>|$(escape_sed_replacement "${source_author}")|g" \
     -e "s|<SOURCE_WORK>|$(escape_sed_replacement "${source_work}")|g" \
-    -e "s|<SOURCE_EDITION>|$(escape_sed_replacement "${SOURCE_EDITION:-1}")|g" \
+    -e "s|<SOURCE_EDITION>|$(escape_sed_replacement "${source_edition}")|g" \
     -e "s|<SOURCE_DATE>|$(escape_sed_replacement "${source_date}")|g" \
     -e "s|<SOURCE_LANGUAGE>|$(escape_sed_replacement "${source_language}")|g" \
+    -e "s|<SOURCE_REPOSITORIES>|$(escape_sed_replacement "${source_repositories}")|g" \
+    -e "s|<SOURCE_REVISIONS>|$(escape_sed_replacement "${source_revisions}")|g" \
+    -e "s|<SOURCE_PATHS>|$(escape_sed_replacement "${source_paths}")|g" \
+    -e "s|<OBSERVATION_DATE>|$(escape_sed_replacement "${observation_date}")|g" \
     -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${INTERPRETATION_STATUS:-MODERNIZED}")|g" \
     -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
     -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \

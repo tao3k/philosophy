@@ -311,6 +311,70 @@
     (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
     (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
 #+end_src
+** Engineering repositories
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-repositories
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_REPOSITORIES"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering revisions
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_REVISIONS"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering paths
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-paths
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_PATHS"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering observation date
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-observation-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "OBSERVATION_DATE"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
 ** Source author
 :PROPERTIES:
 :ASSERT_ID: source-note.cn.has-source-author
@@ -442,6 +506,70 @@
     (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
     (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
     (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
+#+end_src
+** Engineering repositories
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-repositories
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_REPOSITORIES"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering revisions
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_REVISIONS"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering paths
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-paths
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "SOURCE_PATHS"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
+#+end_src
+** Engineering observation date
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-observation-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (and
+      (node-property :summary (key "OBSERVATION_DATE"))
+      (not (= (summary value) ""))
+      (not (= (summary value) "not-applicable")))))
 #+end_src
 ** Source author
 :PROPERTIES:
