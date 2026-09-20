@@ -15,6 +15,30 @@
 #+begin_src org-contract
 (assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "repository-index")))
 #+end_src
+** Topology id
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-topology-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "TOPOLOGY_ID")) (not (= (summary value) ""))))
+#+end_src
+** Path policy
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-path-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "PATH_POLICY") :summary (value "closed-world")))
+#+end_src
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
+#+end_src
 ** CN language index link
 :PROPERTIES:
 :ASSERT_ID: repository-index.has-cn-index-link

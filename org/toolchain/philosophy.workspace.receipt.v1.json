@@ -1,5 +1,5 @@
 {
-  "assertionCount": 1175,
+  "assertionCount": 1178,
   "documentCount": 53,
   "evaluationCount": 106,
   "findings": [],
@@ -8,5 +8,5 @@
   "schemaVersion": 1,
   "status": "passed",
   "workspaceContractId": "philosophy.workspace.v1",
-  "workspaceDigest": "blake3:938a86d256d3894a83bc1b2f1af18cde67f0190c8b4737e984c7500ac48fdf08"
+  "workspaceDigest": "blake3:57098906014e4f2ca770f16b16e94f5b82f6f9a4a9b30cd26532fce856dbfcad"
 }

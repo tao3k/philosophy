@@ -75,6 +75,16 @@ for locale in cn en; do
 done
 expect_contract_failure "${child_masked_topology_root}" topology.has-id
 
+child_masked_repository_index_root="$(make_fixture child-masked-repository-index-metadata)"
+child_masked_repository_index_file="${child_masked_repository_index_root}/README.org"
+replace_line "${child_masked_repository_index_file}" '^:TOPOLOGY_ID:.*$' ':TOPOLOGY_ID: '
+replace_line "${child_masked_repository_index_file}" '^:PATH_POLICY:.*$' ':PATH_POLICY: open-world'
+replace_line "${child_masked_repository_index_file}" '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: '
+printf '\n* Invalid child mask\n:PROPERTIES:\n:TOPOLOGY_ID: child.repository\n:PATH_POLICY: closed-world\n:NAVIGATION_ROOT: child-root\n:END:\n' >> "${child_masked_repository_index_file}"
+expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-topology-id
+expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-path-policy
+expect_contract_failure "${child_masked_repository_index_root}" repository-index.has-navigation-root
+
 missing_en_route_root="$(make_fixture missing-en-index-route)"
 replace_line "${missing_en_route_root}/README.org" \
   '\[\[file:en/README.org\]\[en/README.org\]\]' \
