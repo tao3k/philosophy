@@ -57,6 +57,24 @@ kind_document="${kind_root}/cn/10-charter/10.10-epistemology-and-uncertainty.org
 replace_line "${kind_document}" '^:DOC_KIND: charter$' ':DOC_KIND: reflection'
 expect_contract_failure "${kind_root}" charter.cn.has-document-kind
 
+child_masked_kind_root="$(make_fixture child-masked-charter-kind)"
+for locale in cn en; do
+  child_masked_kind_file="${child_masked_kind_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  replace_line "${child_masked_kind_file}" '^:DOC_KIND: charter$' ':DOC_KIND: reflection'
+  printf '\n* Invalid child mask\n:PROPERTIES:\n:DOC_KIND: charter\n:END:\n' >> "${child_masked_kind_file}"
+done
+expect_contract_failure "${child_masked_kind_root}" charter.cn.has-document-kind
+
+child_masked_topology_root="$(make_fixture child-masked-topology-metadata)"
+for locale in cn en; do
+  child_masked_topology_file="${child_masked_topology_root}/${locale}/00-topology/00.00-repository-topology.org"
+  replace_line "${child_masked_topology_file}" '^:TOPOLOGY_ID:.*$' ':TOPOLOGY_ID: '
+  replace_line "${child_masked_topology_file}" '^:PATH_POLICY:.*$' ':PATH_POLICY: open-world'
+  replace_line "${child_masked_topology_file}" '^:NAVIGATION_ROOT:.*$' ':NAVIGATION_ROOT: '
+  printf '\n* Invalid child mask\n:PROPERTIES:\n:TOPOLOGY_ID: child.topology\n:PATH_POLICY: closed-world\n:NAVIGATION_ROOT: child-root\n:END:\n' >> "${child_masked_topology_file}"
+done
+expect_contract_failure "${child_masked_topology_root}" topology.has-id
+
 missing_en_route_root="$(make_fixture missing-en-index-route)"
 replace_line "${missing_en_route_root}/README.org" \
   '\[\[file:en/README.org\]\[en/README.org\]\]' \

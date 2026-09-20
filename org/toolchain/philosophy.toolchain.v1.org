@@ -3,7 +3,7 @@
 :PROPERTIES:
 :TOOLCHAIN_CONTRACT_ID: philosophy.toolchain.v1
 :ORGIZE_REPOSITORY: https://github.com/tao3k/orgize
-:ORGIZE_REVISION: 313a3db6c698372c9b153ddcf0b8d13fe7e9d698
+:ORGIZE_REVISION: accd7f53a9b578708f2812cd3f5838fb99dd956d
 :ORGIZE_CAPABILITY: contract-workspace-summary-receipt.v1
 :END:
 

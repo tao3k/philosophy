@@ -3,10 +3,10 @@
   "documentCount": 53,
   "evaluationCount": 106,
   "findings": [],
-  "orgizeRevision": "313a3db6c698372c9b153ddcf0b8d13fe7e9d698",
+  "orgizeRevision": "accd7f53a9b578708f2812cd3f5838fb99dd956d",
   "orgizeSourceDirty": false,
   "schemaVersion": 1,
   "status": "passed",
   "workspaceContractId": "philosophy.workspace.v1",
-  "workspaceDigest": "blake3:13af94a9fd3d5389ef34429023511f28e812a1afa5050b18e19f33f003ccccf4"
+  "workspaceDigest": "blake3:938a86d256d3894a83bc1b2f1af18cde67f0190c8b4737e984c7500ac48fdf08"
 }

@@ -13,7 +13,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "repository-index")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "repository-index")))
 #+end_src
 ** CN language index link
 :PROPERTIES:
@@ -88,7 +88,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "engineering-map")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "engineering-map")))
 #+end_src
 ** Principle reference
 :PROPERTIES:
@@ -96,7 +96,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
 #+end_src
 ** Principle section
 :PROPERTIES:
@@ -161,7 +161,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "engineering-map")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "engineering-map")))
 #+end_src
 ** Principle reference
 :PROPERTIES:
@@ -169,7 +169,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
 #+end_src
 ** Principle section
 :PROPERTIES:
@@ -234,7 +234,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "reflection")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "reflection")))
 #+end_src
 ** Question
 :PROPERTIES:
@@ -299,7 +299,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "reflection")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "reflection")))
 #+end_src
 ** Question
 :PROPERTIES:
@@ -833,7 +833,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "CONTRACT_ORG")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "CONTRACT_ORG")) (not (= (summary value) ""))))
 #+end_src
 ** Document id
 :PROPERTIES:
@@ -920,7 +920,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "topology")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "topology")))
 #+end_src
 ** Topology id
 :PROPERTIES:
@@ -928,7 +928,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "TOPOLOGY_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "TOPOLOGY_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Path policy
 :PROPERTIES:
@@ -936,7 +936,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "PATH_POLICY") :summary (value "closed-world")))
+(assert exists (node-property :outline-depth 0 :summary (key "PATH_POLICY") :summary (value "closed-world")))
 #+end_src
 ** Navigation root
 :PROPERTIES:
@@ -944,7 +944,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
 #+end_src
 ** Path table
 :PROPERTIES:
@@ -988,7 +988,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "charter")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "charter")))
 #+end_src
 ** Claim
 :PROPERTIES:
@@ -1206,7 +1206,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "charter")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "charter")))
 #+end_src
 ** Claim
 :PROPERTIES:
@@ -1424,7 +1424,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "governance")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "governance")))
 #+end_src
 ** Governance identity
 :PROPERTIES:
@@ -1432,7 +1432,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Lifecycle identity
 :PROPERTIES:
@@ -1440,7 +1440,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Authority
 :PROPERTIES:
@@ -1515,7 +1515,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (node-property :summary (key "DOC_KIND") :summary (value "governance")))
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "governance")))
 #+end_src
 ** Governance identity
 :PROPERTIES:
@@ -1523,7 +1523,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Lifecycle identity
 :PROPERTIES:
@@ -1531,7 +1531,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (and (node-property :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
+(assert exists (and (node-property :outline-depth 0 :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
 #+end_src
 ** Authority
 :PROPERTIES:
