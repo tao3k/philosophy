@@ -18,11 +18,14 @@
 :END:
 [[file:../README.org][navigation]]
 * Normative Requirements
+# Fill at least one requirement with substantive engineering properties, ownership, or evidence before admission.
 | Principle | Engineering property | Owner | Evidence |
 |-----------+----------------------+-------+----------|
 | <PRINCIPLE_REF> | | | |
 * Current Realization
+# Fill at least one locatable realization or evidence entry before admission.
 | Surface | Current realization | Status | Evidence |
 |---------+---------------------+--------+----------|
 | <PRINCIPLE_REF> | | proposed | |
 * Review Questions
+# State the questions reviewers must answer before admission.

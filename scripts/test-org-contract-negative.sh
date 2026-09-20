@@ -72,6 +72,24 @@ replace_line "${empty_en_reflection_file}" \
   '^Action must consume sourced knowledge, explicit judgment, and authorization; outcomes must return through receipts and observation. Closure is not a jump from model confidence to execution.$' ''
 expect_contract_failure "${empty_en_reflection_root}" reflection.en.has-argument
 
+empty_cn_engineering_root="$(make_fixture empty-cn-engineering-review)"
+empty_cn_engineering_file="${empty_cn_engineering_root}/cn/20-engineering/20.00-knowledge-action-map.org"
+replace_line "${empty_cn_engineering_file}" \
+  '^设计审查必须回答：知道什么、仍未知什么、推理关系是什么、需要何种证成、谁有权、$' ''
+replace_line "${empty_cn_engineering_file}" \
+  '^世界将如何变化、结果如何复验，以及结果含混时如何处理。$' ''
+expect_contract_failure "${empty_cn_engineering_root}" engineering-map.cn.has-review
+
+empty_en_engineering_root="$(make_fixture empty-en-engineering-review)"
+empty_en_engineering_file="${empty_en_engineering_root}/en/20-engineering/20.00-knowledge-action-map.org"
+replace_line "${empty_en_engineering_file}" \
+  '^A design review asks what is known, what remains unknown, what relations support$' ''
+replace_line "${empty_en_engineering_file}" \
+  '^the judgment, what assurance is required, who has authority, how the world will$' ''
+replace_line "${empty_en_engineering_file}" \
+  '^change, how the outcome returns as knowledge, and what happens when it is ambiguous.$' ''
+expect_contract_failure "${empty_en_engineering_root}" engineering-map.en.has-review
+
 document_id_root="$(make_fixture empty-document-id)"
 document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
 replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '
@@ -81,6 +99,18 @@ source_root="$(make_fixture empty-source-author)"
 source_document="${source_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
 replace_line "${source_document}" '^:SOURCE_AUTHOR:.*$' ':SOURCE_AUTHOR: '
 expect_contract_failure "${source_root}" source-note.cn.has-source-author
+
+empty_cn_source_context_root="$(make_fixture empty-cn-source-context)"
+empty_cn_source_context_file="${empty_cn_source_context_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
+replace_line "${empty_cn_source_context_file}" \
+  '^“知”不是模型中任意可用的命题缓存，“行”也不是工具调用。原语境关注道德认识、意向与实践不可被方便地割裂。$' ''
+expect_contract_failure "${empty_cn_source_context_root}" source-note.cn.has-context
+
+empty_en_source_context_root="$(make_fixture empty-en-source-context)"
+empty_en_source_context_file="${empty_en_source_context_root}/en/40-sources/40.10-wang-yangming-knowledge-action.org"
+replace_line "${empty_en_source_context_file}" \
+  '^Knowledge is not an arbitrary proposition cache, and action is not a tool call. The historical concern is that moral understanding, intention, and practice cannot be separated for convenience.$' ''
+expect_contract_failure "${empty_en_source_context_root}" source-note.en.has-context
 
 source_kind_root="$(make_fixture invalid-source-kind)"
 source_kind_document="${source_kind_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"

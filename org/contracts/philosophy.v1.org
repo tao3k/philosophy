@@ -68,7 +68,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "原则")))
+(let ((section (headline :summary (title "原则")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Normative requirements
 :PROPERTIES:
@@ -76,7 +78,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "规范要求")))
+(let ((section (headline :summary (title "规范要求")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 ** Current realization
 :PROPERTIES:
@@ -84,7 +89,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "当前实现")))
+(let ((section (headline :summary (title "当前实现")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -92,7 +100,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "审查问题")))
+(let ((section (headline :summary (title "审查问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Requirement and realization tables
 :PROPERTIES:
@@ -131,7 +141,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Principle")))
+(let ((section (headline :summary (title "Principle")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Normative requirements
 :PROPERTIES:
@@ -139,7 +151,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Normative Requirements")))
+(let ((section (headline :summary (title "Normative Requirements")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 ** Current realization
 :PROPERTIES:
@@ -147,7 +162,10 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Current Realization")))
+(let ((section (headline :summary (title "Current Realization")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -155,7 +173,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Review Questions")))
+(let ((section (headline :summary (title "Review Questions")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Requirement and realization tables
 :PROPERTIES:
@@ -226,7 +246,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "升格条件")))
+(let ((section (headline :summary (title "升格条件")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
 * English reflection v1
@@ -289,7 +311,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Promotion Criteria")))
+(let ((section (headline :summary (title "Promotion Criteria")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
 * Chinese source note v1
@@ -474,7 +498,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "来源")))
+(let ((section (headline :summary (title "来源")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Context
 :PROPERTIES:
@@ -482,7 +508,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "语境")))
+(let ((section (headline :summary (title "语境")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Interpretation boundaries
 :PROPERTIES:
@@ -490,7 +518,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "解释边界")))
+(let ((section (headline :summary (title "解释边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Influence
 :PROPERTIES:
@@ -498,7 +528,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "影响")))
+(let ((section (headline :summary (title "影响")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Interpretation chain
 :PROPERTIES:
@@ -506,7 +538,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "解释链")))
+(let ((section (headline :summary (title "解释链")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
 * English source note v1
@@ -691,7 +725,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Source")))
+(let ((section (headline :summary (title "Source")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Context
 :PROPERTIES:
@@ -699,7 +735,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Context")))
+(let ((section (headline :summary (title "Context")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Interpretation boundaries
 :PROPERTIES:
@@ -707,7 +745,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Interpretation Boundaries")))
+(let ((section (headline :summary (title "Interpretation Boundaries")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Influence
 :PROPERTIES:
@@ -715,7 +755,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Influence")))
+(let ((section (headline :summary (title "Influence")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Interpretation chain
 :PROPERTIES:
@@ -723,7 +765,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Interpretation Chain")))
+(let ((section (headline :summary (title "Interpretation Chain")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 * Maintained philosophy document v1
 :PROPERTIES:
@@ -1223,7 +1267,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "权威")))
+(let ((section (headline :summary (title "权威")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Lifecycle
 :PROPERTIES:
@@ -1231,7 +1277,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "生命周期")))
+(let ((section (headline :summary (title "生命周期")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Admission
 :PROPERTIES:
@@ -1239,7 +1287,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "准入")))
+(let ((section (headline :summary (title "准入")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Change policy
 :PROPERTIES:
@@ -1247,7 +1297,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "变更策略")))
+(let ((section (headline :summary (title "变更策略")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Failure handling
 :PROPERTIES:
@@ -1255,7 +1307,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "失败处理")))
+(let ((section (headline :summary (title "失败处理")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Review and challenge
 :PROPERTIES:
@@ -1263,7 +1317,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "审查与挑战")))
+(let ((section (headline :summary (title "审查与挑战")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
 * English governance v1
@@ -1302,7 +1358,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Authority")))
+(let ((section (headline :summary (title "Authority")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Lifecycle
 :PROPERTIES:
@@ -1310,7 +1368,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Lifecycle")))
+(let ((section (headline :summary (title "Lifecycle")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Admission
 :PROPERTIES:
@@ -1318,7 +1378,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Admission")))
+(let ((section (headline :summary (title "Admission")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Change policy
 :PROPERTIES:
@@ -1326,7 +1388,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Change Policy")))
+(let ((section (headline :summary (title "Change Policy")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Failure handling
 :PROPERTIES:
@@ -1334,7 +1398,9 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Failure Handling")))
+(let ((section (headline :summary (title "Failure Handling")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 ** Review and challenge
 :PROPERTIES:
@@ -1342,5 +1408,7 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists (headline :summary (title "Review and Challenge")))
+(let ((section (headline :summary (title "Review and Challenge")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src

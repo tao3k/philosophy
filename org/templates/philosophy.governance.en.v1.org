@@ -19,7 +19,12 @@
 :END:
 [[file:../README.org][navigation]] · [[file:../00-topology/00.00-repository-topology.org][repository topology]]
 * Lifecycle
+# Define the governed lifecycle before admission.
 * Admission
+# Define admission evidence and rejection conditions before admission.
 * Change Policy
+# Define change, migration, and retirement policy before admission.
 * Failure Handling
+# Define failure detection, recovery, and rollback responsibility before admission.
 * Review and Challenge
+# Define review, challenge, and appeal mechanisms before admission.

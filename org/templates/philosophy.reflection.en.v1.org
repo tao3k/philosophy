@@ -23,4 +23,4 @@
 * Provisional Conclusion
 # State the provisional conclusion and its uncertainty before admission.
 * Promotion Criteria
-See [[file:../README.org][navigation]].
+# State the evidence, counterexample handling, and review required for Charter promotion.

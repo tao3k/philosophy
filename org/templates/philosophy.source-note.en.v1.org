@@ -31,6 +31,10 @@
 :END:
 [[file:../README.org][navigation]]
 * Context
+# State the source's historical and conceptual context before admission.
 * Interpretation Boundaries
+# State what cannot be concluded from the source before admission.
 * Influence
+# State how the source influences this repository's principles before admission.
 * Interpretation Chain
+# State the traceable chain from the source to the current interpretation before admission.
