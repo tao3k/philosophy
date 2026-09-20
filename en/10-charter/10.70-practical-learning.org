@@ -61,6 +61,6 @@ How should non-quantifiable value be handled? How can stakeholder conflicts rema
 
 * Traceability
 
-| Principle | Argument | Engineering mapping | Status |
+| Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
 | PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

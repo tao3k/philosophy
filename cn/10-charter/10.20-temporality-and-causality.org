@@ -61,6 +61,6 @@ past、present、future、predicted、simulated 与 counterfactual 不得坍缩�
 
 * 可追溯性
 
-| 原则 | 论证 | 工程映射 | 状态 |
+| 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
 | PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

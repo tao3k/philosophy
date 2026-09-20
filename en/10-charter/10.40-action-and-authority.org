@@ -61,6 +61,6 @@ How should distributed delegation compose? How are cross-organizational authorit
 
 * Traceability
 
-| Principle | Argument | Engineering mapping | Status |
+| Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
 | PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

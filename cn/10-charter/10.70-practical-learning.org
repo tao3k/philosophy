@@ -61,6 +61,6 @@ RFC 说明问题所有者、预期效果、负面外部性和观察计划；运�
 
 * 可追溯性
 
-| 原则 | 论证 | 工程映射 | 状态 |
+| 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
 | PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

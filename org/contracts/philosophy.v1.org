@@ -116,8 +116,8 @@
 #+begin_src org-contract
 (let ((section (headline :summary (title "规范要求")))
       (body (section :child-of "$section")))
-  (assert count >= 3
-    (table-cell :within "$body" :header false :nonempty true)))
+  (assert exists
+    (table-cell :within "$body" :column "工程性质" :header false :nonempty true)))
 #+end_src
 ** Current realization
 :PROPERTIES:
@@ -127,8 +127,8 @@
 #+begin_src org-contract
 (let ((section (headline :summary (title "当前实现")))
       (body (section :child-of "$section")))
-  (assert count >= 3
-    (table-cell :within "$body" :header false :nonempty true)))
+  (assert exists
+    (table-cell :within "$body" :column "当前实现" :header false :nonempty true)))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -189,8 +189,8 @@
 #+begin_src org-contract
 (let ((section (headline :summary (title "Normative Requirements")))
       (body (section :child-of "$section")))
-  (assert count >= 3
-    (table-cell :within "$body" :header false :nonempty true)))
+  (assert exists
+    (table-cell :within "$body" :column "Engineering property" :header false :nonempty true)))
 #+end_src
 ** Current realization
 :PROPERTIES:
@@ -200,8 +200,8 @@
 #+begin_src org-contract
 (let ((section (headline :summary (title "Current Realization")))
       (body (section :child-of "$section")))
-  (assert count >= 3
-    (table-cell :within "$body" :header false :nonempty true)))
+  (assert exists
+    (table-cell :within "$body" :column "Current realization" :header false :nonempty true)))
 #+end_src
 ** Review section
 :PROPERTIES:
@@ -1157,6 +1157,32 @@
       (table-cell :within "$body" :column "原则" :header false :nonempty true)
       (summary "text"))))
 #+end_src
+** Trace engineering data for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.cn.trace-engineering-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "工程方向" :header false :nonempty true)))
+#+end_src
+** Trace owner or evidence for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.cn.trace-owner-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "下游所有者" :header false :nonempty true)))
+#+end_src
 
 * English charter v1
 :PROPERTIES:
@@ -1338,6 +1364,32 @@
     (target
       (table-cell :within "$body" :column "Principle" :header false :nonempty true)
       (summary "text"))))
+#+end_src
+** Trace engineering data for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.en.trace-engineering-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "Engineering direction" :header false :nonempty true)))
+#+end_src
+** Trace owner or evidence for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.en.trace-owner-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "Downstream owner" :header false :nonempty true)))
 #+end_src
 
 * Chinese governance v1

@@ -61,6 +61,6 @@ proposal 被 runtime 直接执行；authority 过期后仍可复用；返回码�
 
 * 可追溯性
 
-| 原则 | 论证 | 工程映射 | 状态 |
+| 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
 | PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

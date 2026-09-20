@@ -42,6 +42,6 @@
 * Open Questions
 # State the unresolved questions before admission.
 * Traceability
-| Principle | Engineering surface | Evidence |
+| Principle | Engineering direction | Downstream owner |
 |-----------+---------------------+----------|
 | <PRINCIPLE_REF> | | [[file:../README.org][navigation]] |

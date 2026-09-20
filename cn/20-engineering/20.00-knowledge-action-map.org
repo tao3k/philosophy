@@ -23,7 +23,7 @@
 
 * 规范要求
 
-| 阶段 | 必须保存 | 不得替代 | 典型所有者 |
+| 阶段 | 工程性质 | 不得替代 | 典型所有者 |
 |------+----------+----------+------------|
 | 知 | source identity、generation、provenance | 模型自信 | ASP / MRR |
 | 辨 | dependency、causality、unknown frontier | plausible completion | MRR |

@@ -24,7 +24,7 @@ execution, and consequences to remain traceable and non-collapsed.
 
 * Normative Requirements
 
-| Stage | Must preserve | Must not substitute | Typical owner |
+| Stage | Engineering property | Must not substitute | Typical owner |
 |-------+---------------+---------------------+---------------|
 | Know | source identity, generation, provenance | model confidence | ASP / MRR |
 | Discern | dependency, causality, unknown frontier | plausible completion | MRR |

@@ -61,6 +61,6 @@ How should option cost be assessed? When should an irreversible commitment be ac
 
 * Traceability
 
-| Principle | Argument | Engineering mapping | Status |
+| Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
 | PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

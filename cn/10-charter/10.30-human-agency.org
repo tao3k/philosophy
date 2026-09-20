@@ -61,6 +61,6 @@ dark pattern 使退出不可行；代理目标被当成福利；受影响者没�
 
 * 可追溯性
 
-| 原则 | 论证 | 工程映射 | 状态 |
+| 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
 | PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

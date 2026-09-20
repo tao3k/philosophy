@@ -32,7 +32,7 @@
 
 * 规范要求
 
-| 原则 ID | 稳定工程要求 | 不可接受的替代 |
+| 原则 ID | 工程性质 | 不可接受的替代 |
 |---------+--------------+----------------|
 | PHIL-EPI-001 | 保存来源、观察、推断和未知边界 | 把模型置信或流畅表达当作事实 |
 | PHIL-TEMP-001 | 区分事件时间、观察时间、顺序和因果主张 | 由相关性或日志顺序直接推出因果 |
@@ -47,7 +47,7 @@
 下表是待各仓库独立证明的候选落点，不构成实现已符合原则的声明。只有可定位、可复验的
 测试、Scenario、proof 或 receipt 才能把候选状态推进为“已验证”。
 
-| 仓库/系统 | 候选职责 | 当前证据状态 | 下一证据入口 |
+| 仓库/系统 | 当前实现 | 当前证据状态 | 下一证据入口 |
 |-----------+----------+--------------+--------------|
 | POO Flow | 通用组合与 verifier/runtime handoff；Temporal Causality 的 event graph、cut、trajectory、counterfactual、impact 与 unknown frontier | 局部机制存在；原则符合性待证明 | Temporal Causality 反例、执行与恢复 receipt |
 | MRR | semantic identity、typed relation、lineage、query、transition、IMPACT 与 admission | 局部机制存在；原则符合性待证明 | 关系、代际、查询与 admission receipt |

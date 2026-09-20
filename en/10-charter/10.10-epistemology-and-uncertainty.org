@@ -61,6 +61,6 @@ Which boundaries deserve explicit modeling? How should unknown propagate without
 
 * Traceability
 
-| Principle | Argument | Engineering mapping | Status |
+| Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
 | PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

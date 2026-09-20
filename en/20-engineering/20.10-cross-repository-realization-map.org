@@ -33,7 +33,7 @@ Topic entry points: [[file:../10-charter/10.10-epistemology-and-uncertainty.org]
 
 * Normative Requirements
 
-| Principle ID | Stable engineering requirement | Unacceptable substitute |
+| Principle ID | Engineering property | Unacceptable substitute |
 |--------------+--------------------------------+-------------------------|
 | PHIL-EPI-001 | Preserve sources, observations, inferences, and unknown frontiers | Treating model confidence or fluency as fact |
 | PHIL-TEMP-001 | Distinguish event time, observation time, order, and causal claims | Inferring causality directly from correlation or log order |
@@ -49,7 +49,7 @@ The rows below are candidate landing points that each repository must prove inde
 claims of conformance. Only locatable and repeatable tests, Scenarios, proofs, or receipts can advance a
 candidate to verified status.
 
-| Repository/system | Candidate responsibility | Current evidence status | Next evidence entry |
+| Repository/system | Current realization | Current evidence status | Next evidence entry |
 |-------------------+--------------------------+-------------------------+---------------------|
 | POO Flow | Generic composition and verifier/runtime handoff; Temporal Causality event graphs, cuts, trajectories, counterfactuals, impact, and unknown frontiers | Partial mechanisms exist; principle conformance unproven | Temporal Causality counterexamples, execution, and recovery receipts |
 | MRR | Semantic identity, typed relations, lineage, query, transition, IMPACT, and admission | Partial mechanisms exist; principle conformance unproven | Relation, generation, query, and admission receipts |

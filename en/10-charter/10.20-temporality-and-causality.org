@@ -61,6 +61,6 @@ How should model disagreement, model drift, and open-world horizons be represent
 
 * Traceability
 
-| Principle | Argument | Engineering mapping | Status |
+| Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
 | PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

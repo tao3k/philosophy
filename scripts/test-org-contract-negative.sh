@@ -96,6 +96,32 @@ replace_line "${empty_en_engineering_file}" \
   '^change, how the outcome returns as knowledge, and what happens when it is ambiguous.$' ''
 expect_contract_failure "${empty_en_engineering_root}" engineering-map.en.has-review
 
+empty_cn_engineering_property_root="$(make_fixture empty-cn-engineering-property)"
+empty_cn_engineering_property_file="${empty_cn_engineering_property_root}/cn/20-engineering/20.00-knowledge-action-map.org"
+replace_line "${empty_cn_engineering_property_file}" \
+  '^[|] 知 [|].*$' '| 知 || 模型自信 | ASP / MRR |'
+replace_line "${empty_cn_engineering_property_file}" \
+  '^[|] 辨 [|].*$' '| 辨 || plausible completion | MRR |'
+replace_line "${empty_cn_engineering_property_file}" \
+  '^[|] 证 [|].*$' '| 证 || 语言流畅性 | Aitia / POO Flow verifier handoff |'
+replace_line "${empty_cn_engineering_property_file}" \
+  '^[|] 行 [|].*$' '| 行 || 工具可用性 | ASP / Marlin |'
+replace_line "${empty_cn_engineering_property_file}" \
+  '^[|] 验 [|].*$' '| 验 || 调用返回码 | POO Flow / MRR |'
+expect_contract_failure "${empty_cn_engineering_property_root}" engineering-map.cn.has-normative-requirements
+
+empty_en_current_realization_root="$(make_fixture empty-en-current-realization)"
+empty_en_current_realization_file="${empty_en_current_realization_root}/en/20-engineering/20.00-knowledge-action-map.org"
+replace_line "${empty_en_current_realization_file}" \
+  '^[|] Contract admission [|].*$' '| Contract admission || Implemented | =just check= |'
+replace_line "${empty_en_current_realization_file}" \
+  '^[|] Workspace topology [|].*$' '| Workspace topology || Implemented | =org/workspace/philosophy.workspace.v1.org= |'
+replace_line "${empty_en_current_realization_file}" \
+  '^[|] Agent scenario gate [|].*$' '| Agent scenario gate || Implemented | Orgize workspace scale scenario |'
+replace_line "${empty_en_current_realization_file}" \
+  '^[|] Downstream philosophy mapping [|].*$' '| Downstream philosophy mapping || Requires independent proof | per-project receipts |'
+expect_contract_failure "${empty_en_current_realization_root}" engineering-map.en.has-current-realization
+
 document_id_root="$(make_fixture empty-document-id)"
 document_id_file="${document_id_root}/cn/30-reflections/30.10-knowledge-action-in-agent-age.org"
 replace_line "${document_id_file}" '^:DOC_ID:.*$' ':DOC_ID: '
@@ -296,5 +322,17 @@ trace_coverage_root="$(make_fixture missing-trace-principle)"
 trace_coverage_file="${trace_coverage_root}/cn/10-charter/10.00-tao3k-charter.org"
 replace_line "${trace_coverage_file}" '^[|] PHIL-007 .*$' '| PHIL-001 | duplicate trace | duplicate owner |'
 expect_contract_failure "${trace_coverage_root}" charter.cn.trace-covers-every-principle
+
+trace_engineering_root="$(make_fixture missing-trace-engineering)"
+trace_engineering_file="${trace_engineering_root}/cn/10-charter/10.00-tao3k-charter.org"
+replace_line "${trace_engineering_file}" \
+  '^[|] PHIL-007 [|].*$' '| PHIL-007 || POO Flow / MRR |'
+expect_contract_failure "${trace_engineering_root}" charter.cn.trace-engineering-complete
+
+trace_owner_root="$(make_fixture missing-trace-owner)"
+trace_owner_file="${trace_owner_root}/en/10-charter/10.00-tao3k-charter.org"
+replace_line "${trace_owner_file}" \
+  '^[|] PHIL-007 [|].*$' '| PHIL-007 | receipt, observation, invalidation ||'
+expect_contract_failure "${trace_owner_root}" charter.en.trace-owner-complete
 
 echo "philosophy contract negative test: passed"
