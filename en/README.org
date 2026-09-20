@@ -31,6 +31,10 @@ Knowledge must be grounded; reasoning must preserve evidence; decisions must be
 justified; actions must be authorized; consequences must return as knowledge.
 #+end_quote
 
+* Boundaries
+
+This directory owns English philosophy documents and their semantic navigation only; runtime implementations, project-level RFCs, and Chinese prose remain owned by downstream engineering repositories, the relevant projects, and =cn/= respectively.
+
 * Navigation
 
 | Directory | Content | Contract family |

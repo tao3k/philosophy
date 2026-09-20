@@ -380,12 +380,12 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Engineering repositories
 :PROPERTIES:
@@ -393,16 +393,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_REPOSITORIES"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
 :PROPERTIES:
@@ -410,16 +410,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_REVISIONS"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
 :PROPERTIES:
@@ -427,16 +427,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_PATHS"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
 :PROPERTIES:
@@ -444,16 +444,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "OBSERVATION_DATE"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Synthesis constituent sources
 :PROPERTIES:
@@ -461,16 +461,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
-    (and
-      (node-property :summary (key "CONSTITUENT_SOURCES"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+      (and
+        (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -611,12 +611,12 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
 #+end_src
 ** Engineering repositories
 :PROPERTIES:
@@ -624,16 +624,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_REPOSITORIES"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering revisions
 :PROPERTIES:
@@ -641,16 +641,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_REVISIONS"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering paths
 :PROPERTIES:
@@ -658,16 +658,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "SOURCE_PATHS"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Engineering observation date
 :PROPERTIES:
@@ -675,16 +675,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
-    (and
-      (node-property :summary (key "OBSERVATION_DATE"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Synthesis constituent sources
 :PROPERTIES:
@@ -692,16 +692,16 @@
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(assert exists
-  (or
-    (node-property :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
-    (node-property :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
-    (and
-      (node-property :summary (key "CONSTITUENT_SOURCES"))
-      (not (= (summary value) ""))
-      (not (= (summary value) "not-applicable"))
-      (not (= (summary value) "evidence-pending")))))
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+      (and
+        (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "evidence-pending")))))
 #+end_src
 ** Source author
 :PROPERTIES:
@@ -961,6 +961,19 @@
 :END:
 #+begin_src org-contract
 (assert exists (src-block :language "mermaid"))
+#+end_src
+** Substantive boundary
+:PROPERTIES:
+:ASSERT_ID: topology.has-substantive-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section
+        (or
+          (headline :summary (title "边界"))
+          (headline :summary (title "Boundaries"))))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
 * Chinese charter v1

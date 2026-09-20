@@ -34,6 +34,19 @@ expect_failure() {
   fi
 }
 
+assert_trace_status() {
+  local expected="$1"
+  local assertion_id="$2"
+  shift 2
+  local trace
+  trace="$("$@")"
+  if ! grep -Fq "\"assertionId\": \"${assertion_id}\"" <<<"${trace}" ||
+    ! grep -Fq "\"status\": \"${expected}\"" <<<"${trace}"; then
+    echo "philosophy scaffolder test: expected ${assertion_id} to be ${expected}" >&2
+    exit 1
+  fi
+}
+
 assert_property() {
   local file="$1"
   local property="$2"
@@ -75,13 +88,16 @@ if [ ! -f "${repository_root}/org/templates/philosophy.repository-index.v1.org" 
   echo "philosophy scaffolder test: repository-index template is missing" >&2
   exit 1
 fi
-for template in \
-  philosophy.repository-index.v1.org \
-  philosophy.topology.cn.v1.org \
-  philosophy.topology.en.v1.org; do
+for template in philosophy.repository-index.v1.org; do
   "${orgize_bin}" contract trace \
     --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
     "${repository_root}/org/templates/${template}" >/dev/null
+done
+for template in philosophy.topology.cn.v1.org philosophy.topology.en.v1.org; do
+  assert_trace_status failed topology.has-substantive-boundary \
+    "${orgize_bin}" contract trace \
+    --org-contract-registry "${repository_root}/org/contracts/philosophy.v1.org" \
+    "${repository_root}/org/templates/${template}"
 done
 
 env TITLE='Philosophy Repository' TOPOLOGY_ID=philosophy.repository.custom.v1 \

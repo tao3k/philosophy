@@ -28,4 +28,5 @@ flowchart LR
 #+end_src
 * 边界
 # 在提交前说明该拓扑拥有的路径、排除项与迁移边界。
+* 导航
 返回 [[file:../README.org][语言入口]]。

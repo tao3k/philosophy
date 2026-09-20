@@ -119,9 +119,19 @@ replace_line "${empty_en_source_context_file}" \
 expect_contract_failure "${empty_en_source_context_root}" source-note.en.has-context
 
 source_kind_root="$(make_fixture invalid-source-kind)"
-source_kind_document="${source_kind_root}/cn/40-sources/40.10-wang-yangming-knowledge-action.org"
-replace_line "${source_kind_document}" '^:SOURCE_KIND: PRIMARY$' ':SOURCE_KIND: INTERPRETATION'
+for locale in cn en; do
+  source_kind_document="${source_kind_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org"
+  replace_line "${source_kind_document}" '^:SOURCE_KIND: PRIMARY$' ':SOURCE_KIND: INTERPRETATION'
+done
 expect_contract_failure "${source_kind_root}" source-note.cn.has-source-kind
+
+masked_source_kind_root="$(make_fixture child-masked-source-kind)"
+for locale in cn en; do
+  masked_source_kind_file="${masked_source_kind_root}/${locale}/40-sources/40.10-wang-yangming-knowledge-action.org"
+  replace_line "${masked_source_kind_file}" '^:SOURCE_KIND: PRIMARY$' ':SOURCE_KIND: INTERPRETATION'
+  printf '\n* Masking child\n:PROPERTIES:\n:SOURCE_KIND: PRIMARY\n:END:\n' >>"${masked_source_kind_file}"
+done
+expect_contract_failure "${masked_source_kind_root}" source-note.cn.has-source-kind
 
 engineering_locator_root="$(make_fixture missing-engineering-locator)"
 engineering_locator_file="${engineering_locator_root}/cn/40-sources/40.50-agent-systems-state-authority.org"
