@@ -78,6 +78,15 @@ for locale in cn en; do
   assert_mode "${topology_file}"
   assert_property "${topology_file}" DOC_KIND topology
   assert_property "${topology_file}" PATH_POLICY closed-world
+  assert_property "${topology_file}" TOPOLOGY_ID TOPO-001
+  assert_property "${topology_file}" CUSTOM_ID "philosophy.topology.00.90-topology-${locale}"
+done
+
+env TITLE_ZH=自定义拓扑 TITLE_EN='Custom topology' TOPOLOGY_ID=topology.custom.v1 \
+  "${scaffolder}" topology 00.91-custom-topology.org TOPO-002 >/dev/null
+for locale in cn en; do
+  assert_property "${fixture_root}/${locale}/00-topology/00.91-custom-topology.org" \
+    TOPOLOGY_ID topology.custom.v1
 done
 
 expect_failure "${common[@]}" "${scaffolder}" source-note 40.90-missing.org SRC-MISSING

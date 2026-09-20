@@ -48,6 +48,7 @@ cn_destination="${repository_root}/cn/${subdir}/${filename}"
 en_destination="${repository_root}/en/${subdir}/${filename}"
 
 semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
+topology_id="${TOPOLOGY_ID:-${base_doc_id}}"
 principle_ref="${PRINCIPLE_REF:-}"
 principle_kind="${PRINCIPLE_KIND:-refinement}"
 refines="${REFINES:-}"
@@ -179,6 +180,7 @@ render_template() {
     -e "s|<DATE>|${today}|g" \
     -e "s|<DOC_ID>|$(escape_sed_replacement "${doc_id}")|g" \
     -e "s|<SEMANTIC_ID>|$(escape_sed_replacement "${semantic_id}")|g" \
+    -e "s|<TOPOLOGY_ID>|$(escape_sed_replacement "${topology_id}")|g" \
     -e "s|<COUNTERPART>|$(escape_sed_replacement "${counterpart}")|g" \
     -e "s|<PRINCIPLE_REF>|$(escape_sed_replacement "${principle_ref}")|g" \
     -e "s|<PRINCIPLE_KIND>|$(escape_sed_replacement "${principle_kind}")|g" \

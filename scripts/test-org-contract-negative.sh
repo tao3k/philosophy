@@ -184,11 +184,27 @@ for locale in cn en; do
 done
 expect_contract_failure "${self_refines_root}" "node \`PHIL-EPI-001\` property REFINES must not reference its own identity"
 
+refinement_cycle_root="$(make_fixture refinement-cycle)"
+for locale in cn en; do
+  replace_line "${refinement_cycle_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:REFINES:.*$' ':REFINES: PHIL-TEMP-001'
+  replace_line "${refinement_cycle_root}/${locale}/10-charter/10.20-temporality-and-causality.org" '^:REFINES:.*$' ':REFINES: PHIL-EPI-001'
+done
+expect_contract_failure "${refinement_cycle_root}" 'node property REFINES must be acyclic; cycle: PHIL-EPI-001 -> PHIL-TEMP-001 -> PHIL-EPI-001'
+
 superseded_without_successor_root="$(make_fixture superseded-without-successor)"
 for locale in cn en; do
   replace_line "${superseded_without_successor_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
 done
 expect_contract_failure "${superseded_without_successor_root}" charter.cn.every-principle-has-complete-metadata
+
+self_supersession_root="$(make_fixture self-supersession)"
+for locale in cn en; do
+  self_supersession_file="${self_supersession_root}/${locale}/10-charter/10.10-epistemology-and-uncertainty.org"
+  replace_line "${self_supersession_file}" '^:PRINCIPLE_STATUS:.*$' ':PRINCIPLE_STATUS: superseded'
+  replace_line "${self_supersession_file}" '^:SUPERSEDES:.*$' ':SUPERSEDES: PHIL-EPI-001'
+  replace_line "${self_supersession_file}" '^:SUPERSEDED_BY:.*$' ':SUPERSEDED_BY: PHIL-EPI-001'
+done
+expect_contract_failure "${self_supersession_root}" "node \`PHIL-EPI-001\` property SUPERSEDES must not reference its own identity"
 
 unresolved_supersedes_root="$(make_fixture unresolved-supersedes)"
 for locale in cn en; do

@@ -10,11 +10,14 @@
 :DOC_STATUS: proposed
 :LANGUAGE: en
 :COUNTERPART: <COUNTERPART>
-:TOPOLOGY_ID: <SEMANTIC_ID>.en.v1
+:TOPOLOGY_ID: <TOPOLOGY_ID>
 :PATH_POLICY: closed-world
 :NAVIGATION_ROOT: ../README.org
 :END:
 * Path ownership
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
 | Path | Document kind | Authority |
 |------+---------------+-----------|
 | =00-topology/= | topology | repository structure |

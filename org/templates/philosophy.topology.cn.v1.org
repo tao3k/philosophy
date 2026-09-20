@@ -10,11 +10,14 @@
 :DOC_STATUS: proposed
 :LANGUAGE: zh-CN
 :COUNTERPART: <COUNTERPART>
-:TOPOLOGY_ID: <SEMANTIC_ID>.cn.v1
+:TOPOLOGY_ID: <TOPOLOGY_ID>
 :PATH_POLICY: closed-world
 :NAVIGATION_ROOT: ../README.org
 :END:
 * 路径所有权
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
 | 路径 | 文档类型 | 权威程度 |
 |------+----------+----------|
 | =00-topology/= | topology | 仓库结构 |
