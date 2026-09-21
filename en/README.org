@@ -46,6 +46,21 @@ This directory owns English philosophy documents and their semantic navigation o
 | [[file:40-sources/40.00-source-method.org][40-sources]] | Sources and interpretation limits | source-note.en |
 | [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | Authoring and admission | governance.en |
 
+* Enter Through Questions About Life
+Begin with [[file:30-reflections/30.96-living-with-ai.org][Facing Life with AI: Purposes, Possibilities, and Judgment]]. Life is not a fixed objective function, simulation is not a verdict of destiny, and AI's value extends beyond safer task execution. Zhisheng supplies a practical entry; education, care, changing abilities, relocation, creation and retirement also belong here.
+
+These paths connect reflections still requiring scrutiny, not claims all promoted to Charter. Actual improvement needs experience from participants and affected people; complete documents and consistent logic cannot substitute for it.
+
+| Question | Suggested reading path |
+|----------+------------------------|
+| What life matters to me, and what should AI help with? | [[file:30-reflections/30.96-living-with-ai.org][Framing essay]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and positive help]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][Purpose formation and value]] |
+| Which futures can we see, and what remains unknown? | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation, candidates and reflexivity]] → [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown and model boundaries]] → [[file:30-reflections/30.93-intertemporal-agency.org][Time and commitment]] |
+| How should AI and others participate in my judgment? | [[file:30-reflections/30.60-action-requires-authority.org][Influence and authority]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][Entrusted support]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][Shared life and responsibility]] |
+| What if purposes change or advice proves wrong? | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][Reasons and consequences]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][Challenging the question]] → [[file:30-reflections/30.90-knowing-after-action.org][Learning again]] |
+| How can I start with a concrete situation? | [[file:30-reflections/30.95-life-after-job-loss.org][Job loss and renewed choice]] → [[file:30-reflections/30.91-financial-life-simulation.org][Zhisheng]] → [[file:30-reflections/30.94-financial-life-stress-test.org][Stress-testing bounded preparation]] |
+
+Two additional source strands: [[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen: resources and substantive opportunities]] and [[file:40-sources/40.96-performative-prediction.org][performative prediction: predictions change the world]]. They ground questions without excusing our modern interpretations from argument.
+
 * Topic Index
 
 | Topic | Charter | Reflection | Source / engineering map |
@@ -58,7 +73,7 @@ This directory owns English philosophy documents and their semantic navigation o
 | Resilience, reversibility, and optionality | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
 | Practical learning | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu and practical learning]] |
 
-* Modern AI Philosophy — Content M1
+* Knowledge, Action and Experience
 
 | Core question | Reflection | Primary sources |
 |---------------+------------+-----------------|
@@ -68,7 +83,7 @@ This directory owns English philosophy documents and their semantic navigation o
 | How does action produce knowledge again? | [[file:30-reflections/30.90-knowing-after-action.org][Knowing Again After Action]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey: action, experience, and learning]] |
 | How should technology undergo a benefit-harm test? | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu: statecraft and practical learning]] |
 
-* Modern AI Philosophy — Content M2
+* Models, Value and the Limits of Judgment
 
 | Core question | Reflection | Primary sources |
 |---------------+------------+-----------------|
@@ -77,7 +92,7 @@ This directory owns English philosophy documents and their semantic navigation o
 | How does unknown constrain inference and organize the next inquiry? | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown Is a First-Class State]] | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method]] |
 | When does technical capability acquire authority to change the world? | [[file:30-reflections/30.60-action-requires-authority.org][Action Requires Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
 
-* Modern AI Philosophy — Content M3
+* How Ideas Undergo Scrutiny
 
 | Method question | Entry point |
 |-----------------+-------------|
@@ -86,7 +101,7 @@ This directory owns English philosophy documents and their semantic navigation o
 | What can proof, model checking, testing, simulation, and observation each establish? | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
 | How do classical protection principles enter Agent authority without becoming complete normative legitimacy? | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
 
-* Modern AI Philosophy — Content M4
+* Zhisheng: Testing Ideas Against Situated Life
 
 | Real-world stress test | Reflection / Case |
 |------------------------+-------------------|

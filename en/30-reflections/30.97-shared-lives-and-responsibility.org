@@ -1,0 +1,92 @@
+#+TITLE: Living Together: Relationships, Responsibilities, and Burdens That Cannot Be Shifted
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-97-EN
+:SEMANTIC_ID: philosophy.reflection.shared-lives-and-responsibility
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.97-shared-lives-and-responsibility.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.shared-lives-and-responsibility-en
+:END:
+When AI plans a life for “the user,” whom does that term exclude? Someone taking a job gains income while relatives take on care; someone moving gains opportunities while a child loses familiar support; an organization saves time while service recipients bear appeal costs. One person's optimization often takes place inside other people's lives.
+
+[[file:30.96-living-with-ai.org][Facing life with AI]] must therefore address more than individual choice: how shared purposes form, who has standing to speak or refuse, and which responsibilities survive delegation.
+* Argument
+Affected people are not background variables. Nor do they all have identical decision rights. Interests, rights, existing obligations and forms of participation need distinction before acceptable arrangements can be discussed. Neither weighted preferences nor a universal veto adequately describes every relationship.
+
+** A household has internal differences
+A plan raising household net benefit may require someone to sleep less, abandon learning or leave work. Recording money but omitting time, labor and relationships already favors priced benefits. Care is not naturally free, and having always provided it does not automatically mean agreeing to continue.
+
+Shared goals require negotiation, but not only with the most articulate person, account holder or AI operator. Children can participate in age-appropriate ways; people needing support can express themselves through trusted supporters. Inability to use an interface is not absence of a view. Collecting more private data cannot substitute for participation.
+
+** Refusing an imposed arrangement does not erase responsibility
+Parents, carers, partners and organizations may have existing obligations. Not agreeing to a model's new plan does not erase them; having a responsibility does not justify any imposed workload. Distinguish grounded obligations, new demands and arrangements requiring renegotiation.
+
+A parent considering night shifts should examine both existing care responsibilities and another parent's actual burden. Refusing unnegotiated additional night care is not rejecting the child. Higher household income cannot end the discussion. Shift changes, fewer hours or external support may be explored, but support not yet obtained must not count as an established condition.
+
+** Three distinct boundaries
+We propose review distinctions, not authority for a system to settle rights. The grounds of particular rights and obligations require contextual verification.
+
+#+NAME: participation-boundaries-en
+| Boundary | Question | Invalid substitution |
+|----------+----------+----------------------|
+| Authorization | Does this newly use someone else's money, time, data or representative identity? | One user's confirmation means everyone's consent |
+| Participation and explanation | Does it substantially change another person's circumstances, with an opportunity to hear them? | No veto means no need to listen |
+| Responsibility and remedy | Are there existing obligations, harms or interests of those unable to participate? | Notification means responsibility discharged |
+
+A bounded relational rule can expose omissions. It flags a review gap, not illegality or a universal right to veto.
+
+#+NAME: shared-life-participation-en
+#+CAPTION: Flag a plan that newly allocates someone's time without recorded participation; a missing record does not prove that participation never happened.
+#+begin_src ascent :eval never :exports code
+relation assigns_time(&'static str, &'static str);
+relation participation_recorded(&'static str, &'static str);
+relation review_needed(&'static str, &'static str);
+
+review_needed(p, person) <--
+    assigns_time(p, person), !participation_recorded(p, person);
+#+end_src
+
+** Delegation distributes work without evaporating responsibility
+AI can organize schedules, explain alternatives, reveal conflicts and perform authorized tasks. We should still distinguish who framed the purpose, checked the facts, decided, executed and must help remedy harm. Neither “the model suggested it” nor placing every consequence of design and deployment on an ordinary user is adequate.
+
+Responsibility should reflect control, obligation and actual influence. A click cannot grant an institution unconditional immunity; a complete log cannot replace understanding, challenge and correction. [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceability]] must lead to usable explanations and routes to remedy.
+
+** Some constraints cannot be absorbed inside a household
+If working conditions persistently conflict with necessary care, redistributing exhaustion among relatives does not resolve the underlying problem. Temporary arrangements may still be needed, but coping must remain distinct from fairness and sustainability.
+
+AI may help identify support gaps, organize questions for institutions and consider collective cooperation. It must not invent available benefits, services or entitlements, or shift structural reform onto those already most exhausted. Individual action and institutional change are not mutually exclusive, but capacities to undertake them differ.
+
+** Disagreement may remain
+Living together does not require identical purposes. One person wants to move; another values local relationships. There may be no option that improves everyone's situation. Show actual conflicts, parts that can be tried in stages, losses that cannot be compensated and judgments still required, rather than pretending an aggregate score resolves them.
+
+Preserving disagreement need not mean waiting forever. Existing obligations, deadlines and consequences of inaction matter. Where necessary, someone with legitimate decision standing must take responsibility for deciding, while preserving explanation, remedy and later reconsideration.
+** Argument and evidence progress [2/4] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+This progress concerns the essay only.
+
+- [X] Distinguish authorization, participation, explanation, existing responsibility and remedy.
+- [X] Test a single user's optimum against care, relocation and organizational arrangements.
+- [ ] Examine participation through real experience in different households and support relationships.
+- [ ] Test whether less powerful participants can actually use explanations and appeals.
+* Counterexamples
+Requiring advance consent from everyone affected could make ordinary life impossible or empower controlling people. Participation should reflect impact and legitimate standing. “Joint decision-making” must not justify preventing someone from leaving a harmful relationship.
+
+Excessive disclosure is another danger. Explaining a shared plan by revealing health, debt or relationship details may cause new harm. Use the least disclosure sufficient for judgment and recognize situations needing separate conversations or trusted support; this essay assumes no household structure is necessarily safe.
+
+Finally, tables and rules can make unjust divisions of labor appear procedurally complete. Passing a procedure does not settle the grounds of responsibility or the distribution of burdens.
+* Provisional Conclusion
+AI-assisted life judgment cannot take an account as its sole unit or treat households, organizations and societies as internally uniform persons. Benefits, burdens, decision standing and remedy must remain discussable. Recognize relational dependence while preserving space for individuals not to be swallowed by a relationship.
+* Promotion Criteria
+Test these distinctions across household structures, abilities, languages, organizational settings and unsafe relationships. Participation, authorization, care duties and rights require contextual grounds; this essay does not establish legal conclusions. Include feedback from adopters and nonparticipants.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Framing essay]] · [[file:30.92-stewardship-not-sovereignty.org][Stewardship, not sovereignty]]

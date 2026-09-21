@@ -44,6 +44,21 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | [[file:40-sources/40.00-source-method.org][40-sources]] | 来源与解释边界 | source-note.cn |
 | [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | 写作与准入 | governance.cn |
 
+* 从人生问题进入
+从 [[file:30-reflections/30.96-living-with-ai.org][与 AI 共同面对人生：目的、可能性与判断]] 开始：生活不是固定目标函数，模拟不是命运判决，AI 的价值不止是更安全地执行事务。治生提供实践入口，教育、照护、能力变化、迁居、创造与退休同样属于这里的讨论。
+
+这些阅读路径连接尚待检验的反思，不表示所有主张已经成为 Charter。真实改善需要当事人与受影响者的经验反馈，文档完整和逻辑一致不能代替它。
+
+| 想追问什么 | 建议阅读路径 |
+|------------+--------------|
+| 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实学与积极帮助]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
+| 能看见多少未来，又有哪些不可知？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
+| AI 和他人应如何参与我的判断？ | [[file:30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][受托帮助]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][共同生活与责任]] |
+| 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
+| 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
+
+两条新增来源线索：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+
 * 专题索引
 
 | 专题 | Charter | Reflection | Source / 工程映射 |
@@ -56,7 +71,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 
-* Modern AI Philosophy — Content M1
+* 知、行与经验
 
 | 核心问题 | Reflection | 主要来源 |
 |----------+------------+----------|
@@ -66,7 +81,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
 | 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 
-* Modern AI Philosophy — Content M2
+* 模型、价值与判断边界
 
 | 核心问题 | Reflection | 主要来源 |
 |----------+------------+----------|
@@ -75,7 +90,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 未知如何约束推理并组织下一步探究 | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown 是一等状态]] | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法]] |
 | 技术能力何时获得改变世界的权限 | [[file:30-reflections/30.60-action-requires-authority.org][Action 必须经过 Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
 
-* Modern AI Philosophy — Content M3
+* 思想如何接受检验
 
 | 方法问题 | 入口 |
 |----------+------|
@@ -84,7 +99,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | proof、model checking、test、simulation 与 observation 各能证明什么 | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式化方法：证明、模型检查与反例]] |
 | 经典 protection 原则如何进入 Agent 权限而不冒充全部规范正当性 | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
 
-* Modern AI Philosophy — Content M4
+* 治生：从现实处境检验思想
 
 | 现实压力测试 | Reflection / Case |
 |--------------+-------------------|

@@ -34,6 +34,19 @@ knowledge → judgment → decision → authority → action → effect → obse
 Together the two directions turn provenance into answerability. Maintainers can ask which evidence supported an action, which authority permitted a change to the world, and whether harm calls for revising an observation, inference, scope, decision rule, or authority arrangement. Answerability is not automatic blame. It is first the capacity of a system and organization to answer why.
 
 The trace must also represent absences: excluded sources, unsatisfied premises, rejected proposals, withheld authority, and outcomes not yet observed. Recording only the successful route creates false inevitability and hides the alternatives that were genuinely available.
+** Trace presentation as well as inputs
+Life judgment needs more than the data behind an answer: why these options, why this ordering, which purposes were expressed and which inferred? An undisplayed direction may never enter comparison. Recording only the final confirmation can portray narrowed choices as adequate choice.
+
+Explanations must be usable by affected people. “Postpone the course because care arrangements remain unconfirmed” should distinguish insufficient facts, value conflict and a conservative system default. People need to correct particular premises, not merely confront incomprehensible model scores.
+
+** Narratives are an entrance to evidence, not noise to clean away
+“I completed the plan but feel less like myself” is not an established causal conclusion, but it is a reason to inquire again. Loneliness, exhaustion, respect and creative meaning need not acquire a scale before being heard. Preserve who speaks, context and interpretive boundaries without stripping the account of its meaning.
+
+Conversely, traceability must not force repeated proof of suffering or disclosure of irrelevant private matters. Information sufficient for present review differs from permission to reuse a life story indefinitely. Necessary decision reasons may survive deletion of sensitive detail, but deleted evidence must not be fabricated.
+
+** Records must lead to correction
+If advice imposes unnegotiated labor on a relative, a log proving only that the primary user clicked confirmation records an inadequate procedure. Someone must be able to explain, stop future arrangements, discuss remedy and identify dependent plans. Responsibilities in [[file:30.97-shared-lives-and-responsibility.org][shared life]] cannot be washed away by an event chain.
+
 * Counterexamples
 Retaining every intermediate state can violate privacy, expose security boundaries, or bury low-risk work under audit cost. Traceability is not unlimited retention; consequence, sensitivity, and reversibility should determine granularity, duration, and access.
 
@@ -45,6 +58,8 @@ Mature knowledge carries two forms of traceability: backward to sources, observa
 
 Traceability is not maximized recording. It is the minimum chain sufficient to reconstruct reasons and consequences. Its quality is measured by whether it enables refutation, correction, stopping, and remedy—not by log volume.
 * Promotion Criteria
+Further tests should cover option exclusion, narrative evidence, minimal disclosure and less powerful participants' actual ability to correct premises. Logs should support reconsideration, not merely institutional self-certification.
+
 Test at least three cases: reliable source with faulty inference, reasonable inference without authority, and successful execution with harmful long-term effects. Establish deletion rules for conflicts between privacy and answerability, and show that “not observed” never silently becomes “no effect.” Until these boundaries mature, this remains a knowledge discipline rather than a new Charter principle.
 * Navigation
 [[file:../README.org][language index]]

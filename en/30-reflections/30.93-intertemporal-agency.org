@@ -46,11 +46,28 @@ Long-term arrangements need lock-in periods, exit costs, bearers of adverse outc
 
 ** Preparation should fit available resources
 People with few resources may lack room to save or buy expensive resilience. AI can help identify verifiable support, avoid unnecessary fees and commitments, design smaller trials, or clarify infeasibility. It should not blame insufficient discipline or recommend unaffordable safety products. Low resources do not establish low willingness or weak agency.
+** Commitment makes some lives possible
+Learning a craft, raising children together, caring and sustained creation can acquire meaning through time invested. Keeping every option open forever prevents such lives from forming. Reversibility helps avoid entrapment in error; it does not demand that every relationship be costlessly undoable.
+
+Distinguish understood, willingly undertaken irreversibility from entrapment through misinformation, pressure or missing exit support. The former still permits regret and reconsideration; the latter does not become voluntary merely through a signed consent. Persistence deserves respect without treating departure from an unsuitable path as shameful failure.
+
+** A future self may pursue a different life
+Early career purposes, divisions of family labor and standards of achievement can change. Changes in health or ability may require new understandings of independence and participation. Protecting future agency means preserving explanation, support and renegotiation, not forcing every past preference upon the future.
+
+Retirement, for example, is not only an asset arrangement after income stops; it can involve rebuilding rhythms, relationships and contribution. Losing one ability does not erase every valuable direction. Assistance can seek conditions for adaptation without setting a countdown for grief or demanding past performance as proof of normality.
+
+** Give noncompensable time standing
+Some opportunities cannot simply be postponed: companionship, present rest and experiences within particular relationships change over time. Discounting them all into future returns can make a better future an excuse for indefinitely deferring the present. Valuing the present likewise cannot cancel obligations to others and the future.
+
+Intertemporal judgment should keep these incompletely compensable conflicts visible. The [[file:30.96-living-with-ai.org][framing essay]] concerns not perpetual option growth but the ability to form and undertake an endorsed life with dignified support through change.
+
 * Counterexamples
 Preserving every future option can prevent housing, education, relationships, or enterprise that require commitment; waiting also closes opportunities. Conversely, appeals to living courageously do not justify ignoring essentials or risks imposed on others. Deliberate, reasoned irreversible commitments can be legitimate when their burdens, boundaries, and remedies are understood, not when consent rests on an illusion of effortless exit.
 * Provisional Conclusion
 Intertemporal agency does not declare either present or future selves the sole winner. It supports understandable, reviewable commitments worth undertaking within limited resources. Preparation should support life, not become a permanent task of postponing it.
 * Promotion Criteria
+Add nonfinancial situations involving sustained learning and creation, changing abilities, retirement, grief and care. Test respect for reasoned persistence and redirection, without treating support needs as failed agency or converting all noncompensable present experience into future returns.
+
 Across consumption, saving, debt, housing, enterprise, and care, demonstrate sufficiency and stopping conditions, opportunity costs of delay, meaningful risk and rest, detection of double commitments, and revision under family disagreement, scarcity, or changed goals without shifting burdens onto others.
 * Navigation
 [[file:../README.org][language index]]

@@ -30,12 +30,22 @@ Statecraft requires knowledge to enter real problems; a benefit-harm test requir
 benchmark ↑
 ≠ public value ↑
 
-value claim = benefit + burden + agency + dependency + reversibility + time
+value inquiry: benefit; burden; agency; dependency; reversibility; time
 #+end_example
 
 Human-centered cannot mean only friendly UI or a final human click. Human agency includes understanding what is happening, refusing an unreasonable objective, withdrawing authority, choosing alternatives, and retaining the capacity to form one's own judgment. A system that increases efficiency while creating inescapable dependency may be useful in the short term and diminish practical capacity over time.
 
 Every high-impact optimization therefore needs a benefit-harm account: the concrete problem claimed to improve, evidence and observation window, distribution of benefits and costs, populations not measured, reversibility of failure, ownership of maintenance and migration costs, and the options that remain if the technology stops. This is not an ethical score. It prevents one metric from monopolizing the meaning of value.
+
+** From avoiding harm to enabling action
+Responsibility to people includes helping them do things, not only preventing danger. An exhausted carer may need scattered problems organized into a manageable next step; someone returning to study may lack a low-burden trial; a retiree may want to contribute experience without finding a relationship through which to do so. Help connects aspirations to actual conditions rather than declaring success after listing more options.
+
+Distinguish expressing an aspiration, identifying a possible path and obtaining conditions for action. A clear explanation does not make a course accessible; a generated plan does not provide time; a displayed community does not ensure acceptance. [[file:../40-sources/40.95-sen-capability-and-opportunity.org][Substantive opportunity]] directs attention to this conversion. Differences in ability, care responsibilities and support are not execution noise.
+
+** Usefulness does not turn all of life into a project
+Some want tasks completed faster; others want freedom from continuous optimization. Rest, companionship, reading and exploration without a defined output need not establish an economic return to matter. Appropriate help sometimes reduces decisions, sometimes develops judgment, and sometimes stops prompting.
+
+Agency therefore cannot be measured uniformly by completed system tasks. Shared care, supported communication and appropriate delegation can strengthen it; demanding that users understand every technical detail may do the opposite. The positive value developed in the [[file:30.96-living-with-ai.org][framing essay]] concerns making important things more possible while preserving life without this system.
 
 * Counterexamples
 
@@ -54,3 +64,5 @@ Practical learning here does not mean “deploy whatever works.” It requires t
 * Promotion Criteria
 
 Before promotion, test an efficiency gain that reduces agency, a short-term cost that improves resilience, and a conflict of benefits across groups. Evaluation must expose benefit, harm, unknowns, exit costs, and challenge paths, and show that distinct dimensions are not collapsed into one score.
+
+Also test whether assistance project-manages ordinary life: more completed tasks may mean greater exhaustion, and more options may remain inaccessible. Conversely, less usage and fewer prompts may indicate that help has succeeded.

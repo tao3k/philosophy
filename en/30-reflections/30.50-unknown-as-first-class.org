@@ -34,6 +34,21 @@ Unknown also schedules inquiry. It should carry why the matter is unknown, which
 
 Preserving unknown also protects dissent. When sources conflict, prematurely selecting one truth deletes minority evidence and a route to later correction. Marking conflicted does not require permanent neutrality; it requires adjudication to retain rejected reasons, time, and conditions for reopening.
 
+** Unknown is more than a missing number
+Sometimes the kind of risk is known but not its timing or size; sometimes outcomes can be imagined without defensible probabilities; some changes have not entered the categories of the question. Assigning “other risks: 5%” does not make the last category known. A bounded model can state its considered scope, not invent coverage of unarticulated futures.
+
+Listed risks may also share causes. Moving can affect income, support networks, travel and care together. Each burden being bearable does not establish that their conjunction is bearable; dependence may itself be unknown. The [[file:30.95-life-after-job-loss.org][job-loss case]] distinguishes a single shock from repeated shocks to avoid presenting a narrow assumption as comprehensive resilience.
+
+** Not knowing does not always justify more collection
+Knowing an entire life is neither realistic nor a prerequisite for legitimate assistance. Privacy, creative openness and unformed purposes are not defects to repair. Ask only what can change the present judgment and is appropriate to ask, while leaving room not to explain.
+
+Discussing attendance at a course may require a timetable, not the family's entire relationship history. When necessary grounds remain unavailable, narrow the advice instead of treating more data access as the only route forward.
+
+** Continue living amid uncertainty
+Respond to uncertainty at the level of particular actions: pause a new payment while continuing existing care; replace an invalid prediction with small exploratory steps instead of declaring that no path remains. Explain what continues, what pauses, who supports review and what waiting itself costs.
+
+Preparation aims not to enumerate every disaster but to reduce single dependencies, preserve proportionate flexibility and recognize when the original question has become inadequate. This is compatible with [[file:30.93-intertemporal-agency.org][meaningful commitment]]: life cannot wait for complete knowledge.
+
 * Counterexamples
 
 Wrapping every field in elaborate epistemic state creates noise, latency, and false precision. Low-risk defaults often suffice, and engineering systems must act with incomplete information. First-class unknown is not infinite doubt. It preserves distinctions only where they can change judgment, authority, or consequence.
@@ -49,3 +64,5 @@ At decision-relevant boundaries, distinguish unknown, absent, not-applicable, co
 * Promotion Criteria
 
 Show that missing evidence defaults to neither true nor false, conflicts cannot be overwritten by the last writer, withheld cannot degrade into absent, and defaults cannot escape their low-risk scope. Cases should demonstrate how one unknown can appropriately trigger continuation, retrieval, an authority request, increased assurance, or stopping. Only then should this enter the epistemology and uncertainty Charter.
+
+Add cases of uncategorized change, compound shocks with shared causes, legitimate privacy and pausing some actions while continuing necessary responsibilities. Test appropriate adjustment rather than global paralysis or perpetual data demands.

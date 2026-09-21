@@ -38,8 +38,8 @@ C's larger cash balance does not make it the best life; B's smaller balance does
 ** Job loss has happened; training remains an option
 Job loss changes present circumstances. Considering training means neither enrollment nor inevitable future employment. Situating both together lets us ask what conditions are still missing between the present and a possible path.
 
-#+EXPLANATION: Job loss belongs to the present event cut; training remains an uncommitted counterfactual. Positions zero and one denote logical order, not months.
 #+NAME: job-loss-context-en
+#+CAPTION: Job loss belongs to the present event cut; training remains an uncommitted counterfactual. Positions zero and one denote logical order, not months.
 #+begin_src scheme :eval never :exports code
 (import :poo-flow/src/modules/temporal-causality/interface)
 
@@ -65,16 +65,16 @@ Job loss changes present circumstances. Considering training means neither enrol
 ** Which plans need another look?
 Housing and training may depend on the same reserve; temporary work may take time previously available for searching or care. After income changes, locate related plans and inspect how effects travel through those relationships.
 
-#+EXPLANATION: Find plans depending on the household's shared cash.
 #+NAME: job-loss-dependencies-en
+#+CAPTION: Find plans depending on the household's shared cash.
 #+begin_src gql :eval never :exports code
 MATCH (plan:Plan)-[:DEPENDS_ON]->(resource:Resource)
 WHERE resource.name = 'shared-cash'
 RETURN plan
 #+end_src
 
-#+EXPLANATION: x depends on y; if y changes or is affected, include x among the items requiring inspection.
 #+NAME: job-loss-impact-en
+#+CAPTION: x depends on y; if y changes or is affected, include x among the items requiring inspection.
 #+begin_src ascent :eval never :exports code
 relation depends(&'static str, &'static str);
 relation changed(&'static str);
@@ -93,8 +93,8 @@ An event is what happened; an Effect is a resulting change, marked expected or h
 ** The same money can support a commitment only once
 One reserve cannot fully underwrite several plans simultaneously, and one evening cannot simultaneously provide work, learning, and care. Cash buffers concern the whole path, not just its endpoint.
 
-#+EXPLANATION: C is cash, I income, E essentials, F one-off costs, K extra care, and S shocks; no category is counted twice.
 #+NAME: job-loss-equations-en
+#+CAPTION: C is cash, I income, E essentials, F one-off costs, K extra care, and S shocks; no category is counted twice.
 #+begin_src typst :eval never :exports code
 $ C_(t+1) = C_t + I_t - E_t - F_t - K_t - S_t $
 $ C_6^A = 60000 + 6 (6000 - 10000) = 36000 $
@@ -109,8 +109,8 @@ These equations measure neither career meaning, a child's interests, nor care qu
 ** The next shock is unknown; the next commitment can still be constrained
 Some risks have unknown timing or scale; other changes are not yet represented. We cannot guarantee their absence, but can require that invalidated grounds no longer authorize new commitments. Renewed understanding is a condition for continuing action.
 
-#+EXPLANATION: This 6,000 payment needs a current basis, explicit authorization, and at least 20,000 remaining cash; shocks or pending review withdraw old authorization.
 #+NAME: job-loss-risk-en
+#+CAPTION: This 6,000 payment needs a current basis, explicit authorization, and at least 20,000 remaining cash; shocks or pending review withdraw old authorization.
 #+begin_src tla :eval never :exports code
 vars == <<cash, current, review, authorized>>
 Permit == current /\ ~review /\ authorized /\ cash - 6000 >= 20000

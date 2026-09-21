@@ -1,0 +1,111 @@
+#+TITLE: Facing Life with AI: Purposes, Possibilities, and Judgment
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-96-EN
+:SEMANTIC_ID: philosophy.reflection.living-with-ai
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.96-living-with-ai.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.living-with-ai-en
+:END:
+If AI can simulate many trajectories through work, learning, family life and later years, what should it improve? Income, safety, longevity, satisfaction of existing preferences—or people's ability to understand changing circumstances, form purposes and live with others? These ends need not coincide. Prediction accuracy cannot choose between them for us.
+
+This essay places life simulation within Philosophy's central inquiry. A person is not a fixed objective function, life is not a predefined task list, and AI should not become the final authority interpreting someone's life. [[file:30.91-financial-life-simulation.org][Zhisheng]] is one practical entry into that inquiry, not its entire scope.
+* Argument
+We provisionally understand AI's positive contribution as helping people understand their situation, articulate aspirations, discover genuinely available paths, undertake reasoned commitments and reconsider them as experience changes. Being more able includes support, appropriate delegation and cooperation; it does not mean making everyone decide more things alone.
+
+** Ask what is worth living for before asking what to optimize
+“I want a different job” may express a need for income, dignity, freedom from harm, time to care, or an emerging creative aspiration. Recasting it immediately as salary maximization already decides what the problem is. Purposes need clarification through dialogue and may remain in tension: “I value stability, but I do not want to keep giving up learning.”
+
+AI can help uncover conflicts, distinguish aspirations from external pressures and revisit past choices. It cannot dismiss a person's interpretation with “I know your true preferences better.” Past clicks, purchases and compromises are not a verdict on who someone must remain. The [[file:30.40-optimization-is-not-human-value.org][value essay]] therefore asks who frames the objective and whether it can change, rather than merely adding constraints to optimization.
+
+** Resources, feasible paths and worthwhile paths differ
+Money, information and access to a model do not necessarily create a real choice. The same course fee means different things to someone with spare time and someone caring for a child alone. The discussion of [[file:../40-sources/40.95-sen-capability-and-opportunity.org][substantive opportunities]] prompts us to examine how resources become room for action.
+
+Many candidates do not mean more opportunities. Nonexistent jobs, inaccessible facilities and arrangements requiring unlimited cooperation cannot count as substantive opportunities. A few paths with reliable support may be more useful than dozens of unsupported suggestions.
+
+#+NAME: life-possibilities-en
+#+CAPTION: The represented set M differs from the actually feasible set F; even their intersection requires value judgment. Our knowledge of both sets may be incomplete.
+#+begin_src typst :eval never :exports code
+$ M_t = "paths represented at time t" $
+$ F_t = "paths feasible in the actual situation at time t" $
+$ V_t = M_t inter F_t $
+#+end_src
+
+This distinction prevents treating “absent from the model” as “absent from reality,” or “possible” as “morally required.” Action can also create conditions: arranging shared care, trying a class or obtaining accessibility support changes later opportunities, rather than merely ranking existing options.
+
+** Different domains of life ask different questions
+These situations are neither standard life stages nor medical, employment or benefits advice. They test whether one philosophy can accommodate different lives instead of imposing one progress line.
+
+#+NAME: life-questions-en
+| Situation | What someone may cherish | What AI can help develop | What this does not authorize it to decide |
+|-----------+--------------------------+--------------------------+-------------------------------------------|
+| Learning and education | Curiosity, mastery, identity exploration | Low-burden trials, feedback and actual learning conditions | A future occupation determined by test scores |
+| Changes in health or ability | Dignity, connection, adaptation, valued activities | An account of daily barriers, support needs and questions to ask | A person's life's worth from a functional score |
+| Care and shared life | Intimacy, responsibility, rest and fairness | Visible workloads, negotiated alternatives and support | A relative's effort treated as free spare capacity |
+| Moving and belonging | Safety, opportunity, language, relationships | Actual settling-in conditions and changes to relationships | Leaving a familiar community treated as costless |
+| Creative and public activity | Expression, contribution, sustained work | Small practices, partners and bearable commitments | Value rejected because markets have not recognized it |
+| Retirement or changing roles | Rhythm, connection, passing on knowledge, starting again | Participation not defined by employment or productivity | Not working interpreted as no longer contributing |
+
+These questions share a structure, not a universal life score. Learning, trust, creative meaning and payable bills require different ways of knowing; adding them together does not automatically produce justice.
+
+** Simulation is not an omniscient view from outside life
+The variables and situations a model makes visible shape imagination. A simulation displaying only high-income careers makes care, rest and creation look like deviations. Believed predictions also change actions, which may change the conditions of the prediction. [[file:../40-sources/40.96-performative-prediction.org][Performative prediction]] offers one entry into studying this feedback.
+
+The [[file:30.30-simulation-is-not-prediction.org][simulation essay]] must therefore ask what supports these paths, what is missing, and what displaying them may itself change. An adverse scenario can support preparation or premature surrender; an attractive one can open imagination or induce unbearable investment. Expressive power does not confer authority to persuade.
+
+** Living is not only preventing loss
+Unenumerable risks do not justify steering everyone toward the most conservative life. Learning, relationships, care and creative work can involve commitments that cannot be fully undone. Value does not always come from keeping an exit open; persistence can express agency too.
+
+The distinction concerns whether a commitment is understood, whether it shifts unbearable burdens onto nonparticipants, and whether support and reconsideration remain possible. [[file:30.93-intertemporal-agency.org][Intertemporal agency]] protects future judgment without disqualifying meaningful commitments today.
+
+For [[file:30.50-unknown-as-first-class.org][changes not yet understood]], the demand is to acknowledge model boundaries, prepare proportionate slack and recognize signals that require renewed understanding—not pretend every disaster has been listed. Pausing one automated action need not pause someone's entire life.
+
+** AI participates in judgment without monopolizing it
+“You have only one rational choice” can narrow someone's sense of possibility before any tool call. Authority concerns not only actions but the role, grounds and interests from which advice is offered. The [[file:30.60-action-requires-authority.org][authority essay]] must address this influence as well as confirmation buttons.
+
+This does not require approval for every sentence. Everyday low-risk help should remain lightweight; consequential advice needs visible grounds, alternative interpretations and uncertainty. Long-term assistance also needs scrutiny when people become less able to leave it. Good cooperation permits comfortable delegation of routine work while returning important disagreements to human judgment.
+
+** Living together changes “best for me”
+A household's total benefit does not establish fair work-sharing; an employer's efficiency does not establish workers' opportunities; a platform's activity does not establish better lives. Benefits, decision power and costs may fall on different people. [[file:30.97-shared-lives-and-responsibility.org][Living together]] examines this asymmetry and the standing of children, carers and people outside the interaction.
+
+Institutional conditions are not personal character defects. A shortage of jobs or support, discrimination and unreasonable hours should not become “this person did not try hard enough.” Helping someone find a path now can coexist with identifying conditions that organizations and collective action should change.
+
+** Learning after action is not measuring obedience
+[[file:30.90-knowing-after-action.org][Knowing after action]] asks what our understanding missed, what became possible, who bore unseen burdens and whether purposes reasonably changed. Adoption, task completion or rising satisfaction alone cannot establish a better life.
+
+Trying a profession may reveal that someone does not want it; that need not be execution failure. A system may also misjudge its effects by hearing only from those who remain. Refusal, exit and nonbeneficiaries' experience matter, as does the ability to [[file:30.80-refutable-challengeable-revisable.org][challenge the framing itself]]. [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceability]] serves reconsideration, not an institutional alibi.
+
+** Argument and research progress [3/6] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+This records the manuscript's work, not anyone's life progress.
+
+- [X] Distinguish purposes, resources, substantive opportunities and represented candidates.
+- [X] Connect simulation, value, uncertainty, authority, shared life and learning.
+- [X] Develop boundaries and counterexamples across more than financial situations.
+- [ ] Test the framing against voluntarily contributed accounts of lived experience.
+- [ ] Examine whether assistance increases real opportunities rather than decision burden under different support conditions.
+- [ ] Establish longer-term feedback about preference formation, dependence and unseen costs.
+* Counterexamples
+First, people sometimes want a usable answer, not a conversation about their life. Respect bounded tasks rather than imposing a values interview; unfold the inquiry when conflicting purposes or consequences require it.
+
+Second, emphasizing choice can overlook relationally formed purposes or disguise deprivation as failed choice. Support and institutional responsibility belong in the analysis, not just individual adaptation.
+
+Third, allowing revision everywhere may weaken commitment. Revision is not permission to transfer responsibilities arbitrarily; changing course still requires facing effects on others and consequences already caused.
+
+Fourth, clarification itself can become manipulation. Helping someone understand themselves must not become an excuse to implant the system's or operator's preferred way of life.
+* Provisional Conclusion
+Life simulation should help people understand and participate in their futures, not pronounce a final verdict about them. Its value depends on substantive opportunities, reasoned judgment, responsibilities within shared life and revision through experience. Safety and efficiency are conditions of this work, not its whole purpose.
+* Promotion Criteria
+This remains a framing draft. Promotion requires counterexample review across life domains and resource conditions, particularly involving people who do not want optimization, people needing decision support, and people bearing others' choices. Distinguish narrative resonance from evidence of actual improvement and identify context-limited claims. Complete chapters and a passing document gate do not close the philosophical argument.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.95-life-after-job-loss.org][Practical entry: after job loss]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]]

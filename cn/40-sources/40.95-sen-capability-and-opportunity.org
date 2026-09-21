@@ -1,0 +1,44 @@
+#+TITLE: Sen：从资源数量到实质机会
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-95-CN
+:SEMANTIC_ID: philosophy.source.sen-capability-and-opportunity
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.95-sen-capability-and-opportunity.org
+:SOURCE_ID: PHIL-SRC-95
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Amartya Sen
+:SOURCE_WORK: Equality of What?
+:SOURCE_EDITION: Tanner Lecture, Stanford University, 22 May 1979; published text pp. 195-220
+:SOURCE_DATE: 1979
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.sen-capability-and-opportunity
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.sen-capability-and-opportunity-cn
+:END:
+Amartya Sen，[[https://tannerlectures.org/lectures/equality-of-what/][Equality of What?]]，1979 年 5 月 22 日 Stanford Tanner Lecture。依据 [[https://tannerlectures.org/wp-content/uploads/2024/07/sen80.pdf][官方刊行文本]] 第 4–5 节，印刷页 218–220。
+* 语境
+Sen 将平等讨论的注意力从持有多少物品转向人实际能够做什么：相同资源对不同处境的人作用不同。这一视角不是全部道德问题的唯一准则，也没有消除比较与权重的困难。
+* 解释边界
+本文只取这一问题转换，不宣称原文提出 AI 人生规划系统。“人的实质机会”不能与软件工具的 capability 权限混同；可行机会也不是应当选择的生活。
+* 影响
+本仓库据此提出自己的审查问题：一项建议所需要的时间、无障碍条件、照护和社会支持，是否真的存在？资源账面相同是否掩盖了不同的实现条件？这些是对 AI 建议的现代应用，不是给 Sen 追加技术主张。
+
+我们还须防止系统以“替你增加能力”为名，擅自规定值得追求的生活。机会的评价要保留当事人的参与、拒绝和目的修订。
+* 解释链
+原文的问题转换 → 对资源转化条件的现代解释 → [[file:../30-reflections/30.96-living-with-ai.org][与 AI 共同面对人生]] 的机会区分 → [[file:../30-reflections/30.40-optimization-is-not-human-value.org][价值判断]] 与 [[file:../30-reflections/30.97-shared-lives-and-responsibility.org][共同生活]] 的反例审查。此链条是思想影响，不是经验有效性的证明。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][实学与人本 AI]]

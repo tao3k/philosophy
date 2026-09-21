@@ -58,6 +58,11 @@ For a laptop buyer with a 1,500 budget and travel savings to preserve, first ask
 Retain alternatives and their incommensurable tradeoffs in a choice frontier. Exclude paths violating explicit constraints and offer reasoned conditional recommendations under priorities people have stated. Unknown preferences stay unknown: the system cannot silently decide how much two extra weeks are worth. Recommendations need reasons, alternatives, sacrifices, invalidation conditions, and a way to refuse. Analysis should be proportionate to impact; a small reversible purchase does not require a complete life model.
 
 Simulation describes possible processes under assumptions, not inevitable success. Unsupported scenario probabilities must not masquerade as a Monte Carlo success rate. Decision support can be comprehensive while decision authority remains limited; [[file:30.92-stewardship-not-sovereignty.org][Stewardship, Not Sovereignty]] defines the delegation boundary.
+** Zhisheng is an entry, not all of life
+Financial conditions affect many choices without turning every question into wealth management. Learning need not aim at income; caring for a relative does not require an emotional return calculation; participation after retirement need not establish productivity. Zhisheng should clarify how material conditions support these purposes while recognizing that it cannot define their value.
+
+This essay is therefore a practical entry into [[file:30.96-living-with-ai.org][life and AI]], not a total model. Education, changed abilities, relocation, creation and public life require their own facts and interpretations. Resource scarcity also calls for discussion of [[file:30.97-shared-lives-and-responsibility.org][relationships and responsibility]], not an assumption that reallocation within a budget can absorb every difficulty.
+
 * Counterexamples
 Rejecting every summary can leave people unable to act; meaningful local money totals, time budgets, and conditional rankings are necessary. Conversely, elaborate models can omit care, shame, dignity, and relationships while manufacturing certainty. More preparation can lose opportunities; more options can increase burden. Zhisheng must not universalize comfortable middle-class resources or treat a family as an automatically consenting shared objective function.
 * Provisional Conclusion

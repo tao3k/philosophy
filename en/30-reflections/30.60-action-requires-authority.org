@@ -34,6 +34,21 @@ Delegation must preserve origin and attenuation. A downstream agent cannot recei
 
 For consequential action, authority and assurance must meet. Permission does not mean evidence is sufficient, while sufficient evidence does not grant permission. The former asks who may impose consequences on the world; the latter asks whether there is reason to do so. Neither can substitute for the other.
 
+** Influence precedes tool calls
+Ranking, defaults and tone shape how people understand their choices. Without execution authority, a system can still make someone believe that only one path is reasonable. Not every suggestion is an overreach, but tool authorization does not exhaust responsibility for influence.
+
+Distinguish being delegated a task, invited to think together and appointing oneself a life mentor. Permission to organize course information does not authorize persistent career shaping; comparing relocation options does not authorize defining success for a family. Important advice should expose its purpose, grounds and interests, and which alternative interpretations were excluded.
+
+** Delegating means differs from delegating purposes
+“Organize this week's appointments” can have bounded means; “help me live better” needs clarification, not an interpretation as unlimited life-management authority. While goals remain unsettled, a system can ask questions and propose interpretations without treating its own completion as a committed human purpose.
+
+Changed purposes need not be corrected. If someone shifts from promotion toward more care time, an efficient prior strategy may lose its justification. [[file:30.40-optimization-is-not-human-value.org][Value judgment]] meets [[file:30.92-stewardship-not-sovereignty.org][stewardship]] here: tasks can be delegated without default delegation of ultimate ends.
+
+** Match judgment support to consequences
+Routine organization, reminders and bounded suggestions can use stable, disableable defaults. Changes to major commitments, repeated steering of attention or pressure on vulnerability demand stronger explanation and review. Continued use is not blanket consent to influence, and refusing advice must not be punished by abrupt withdrawal of necessary support.
+
+Shared affairs also require clarity about representation. In [[file:30.97-shared-lives-and-responsibility.org][shared life]], one operator cannot automatically supply another person's participation or consent. Institutional deployment does not remove responsibility for explanation and remedy.
+
 * Counterexamples
 
 Policy may pre-authorize reversible, low-risk, well-bounded actions without a human click each time. Emergency stopping may act before case-specific approval to prevent greater harm, and distributed systems often represent authority through unforgeable capabilities. The objection is not automation; it is automation without an identifiable principal, scope, duration, and review path.
@@ -47,5 +62,7 @@ Inaction can also cause harm. A system that demands authority for action but lea
 Real-world action requires traceable, scoped authority: who delegates to whom, for which action and resource, for what purpose and duration, under what risk limit, with what redelegation, revocation, stopping, and compensation path. Authority must be verifiable before execution and answerable after outcome. Tool capability, model confidence, and command success cannot replace it.
 
 * Promotion Criteria
+Also test persistent purpose-shaping without tool calls, access to necessary support after refusing advice, and changed ends invalidating old strategies. Proportionate responsibility for influence must not become approval popups for every sentence.
+
 
 Cover preauthorization, case-specific approval, emergency power, redelegation, revocation races, partial execution, irreversible action, and consequential inaction. Negative cases must show that read cannot become write, expired delegation cannot revive, purpose change triggers review, downstream scope cannot expand, and a receipt cannot turn invocation success into a real-world outcome. Only then should this enter the action and authority Charter.

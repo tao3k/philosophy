@@ -34,6 +34,21 @@ Agency requires at least four practical powers: participation in defining a goal
 
 Optimization therefore belongs to the means layer. It may rank candidate actions inside a legitimate purpose, authority, and constraint set, but “this action scores highest” does not entail “the system may do it.” Normative authority comes from answerable delegation, rights, and the standing of affected people—not from solver optimality.
 
+** Purposes also form through living
+Preferences need not exist fully before action. Trying music, taking on care, experiencing changed abilities or joining a shared undertaking may change what someone cherishes. Change need not be defective goal drift, nor is it necessarily manipulation merely because it follows AI use.
+
+Distinguish open exploration from shaping that serves an operator: are different directions visible, can someone pause or refuse, are reasons and interests understandable, and will the system still help after purposes change? Before-and-after satisfaction alone cannot settle these questions.
+
+** Incommensurability does not prohibit comparison
+Finite time requires tradeoffs without making all goods convertible into one unit. Creation, care, health support and income may admit local comparisons and priorities endorsed by the person without an objective total ranking. Exclude unacceptable harms, compare feasible paths and preserve unresolved disagreements.
+
+For example, a learner may bound affordable time and fees before comparing courses. This does not price joy or identity exploration. An [[file:../40-sources/40.95-sen-capability-and-opportunity.org][opportunity perspective]] asks whether paths are genuinely available without deciding which life ought to be chosen.
+
+** Adaptation to deprivation is not necessarily adequate choice
+“This is fine” may express endorsement or diminished expectations after prolonged lack of support. A system should neither automatically declare preferences inauthentic nor impose a better life. It can make previously unseen conditions explorable, distinguishing not wanting something from never having a chance to try it.
+
+Clarifying purposes must also not become endless reflective labor. For bounded, clearly expressed wishes, sensible defaults and revocable delegation can reduce burden. [[file:30.96-living-with-ai.org][Facing life with AI]] supports situated people, not an ideal of perfect decision-makers.
+
 * Counterexamples
 
 Some closed control problems can safely optimize one measure, such as energy use under explicit physical constraints. People may delegate bounded preferences, and requiring a new choice at every step creates fatigue that can reduce control. What matters is whether delegation is specific, revocable, reviewable, and contained within acceptable failure boundaries.
@@ -47,3 +62,5 @@ Optimization ranks candidate actions only within a declared representation, cons
 * Promotion Criteria
 
 Show through cases that average benefit cannot hide severe minority harm, historical preference cannot impersonate present consent, revoked delegation actually stops future action, contestation can alter an objective or constraint, and impact receipts record costs outside the metric. Also specify where low-risk defaults remain stable and when consent must be renewed. Only then should this enter the human-agency Charter.
+
+Also review purposes reasonably changed by experience, preferences expressed under deprivation and operator-induced preference shaping. Restoring supposed true preferences must not bypass the person's interpretation, and one consent must not freeze future purposes.

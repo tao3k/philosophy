@@ -38,8 +38,8 @@ C 的现金较多不等于最好的人生；B 的现金较少也不意味着转�
 ** 失业已经发生，培训仍是候选
 已经发生的失业改变了当前处境；考虑培训并不等于已经报名，更不等于未来必然就业。把两者放在同一情境里，才能讨论从现在走向某条路径还缺哪些条件。
 
-#+EXPLANATION: 失业进入当前事件切面；培训保留为未承诺的反事实。位置 0、1 表示逻辑先后，不表示月份。
 #+NAME: job-loss-context-cn
+#+CAPTION: 失业进入当前事件切面；培训保留为未承诺的反事实。位置 0、1 表示逻辑先后，不表示月份。
 #+begin_src scheme :eval never :exports code
 (import :poo-flow/src/modules/temporal-causality/interface)
 
@@ -65,16 +65,16 @@ C 的现金较多不等于最好的人生；B 的现金较少也不意味着转�
 ** 哪些计划需要重新检查
 住房与培训可能依赖同一笔储备；临时工作又可能占用原本用于求职或照护的时间。收入改变之后，应先找出相关计划，再检查影响如何沿这些关系传递。
 
-#+EXPLANATION: 找出依赖家庭共享现金的计划。
 #+NAME: job-loss-dependencies-cn
+#+CAPTION: 找出依赖家庭共享现金的计划。
 #+begin_src gql :eval never :exports code
 MATCH (plan:Plan)-[:DEPENDS_ON]->(resource:Resource)
 WHERE resource.name = 'shared-cash'
 RETURN plan
 #+end_src
 
-#+EXPLANATION: x 依赖 y；当 y 发生变化或已受影响时，将 x 纳入需要检查的集合。
 #+NAME: job-loss-impact-cn
+#+CAPTION: x 依赖 y；当 y 发生变化或已受影响时，将 x 纳入需要检查的集合。
 #+begin_src ascent :eval never :exports code
 relation depends(&'static str, &'static str);
 relation changed(&'static str);
@@ -93,8 +93,8 @@ affected(x) <-- depends(x, y), affected(y);
 ** 同一笔钱只能支撑一次承诺
 同一现金池不能同时为几个计划完整兜底，同一个晚上也不能同时用于工作、学习和照护。现金缓冲要检查整个期间，而不仅是末值。
 
-#+EXPLANATION: C 为现金，I 为收入，E 为必要支出，F 为一次性费用，K 为额外照护，S 为冲击；各项不重复计入。
 #+NAME: job-loss-equations-cn
+#+CAPTION: C 为现金，I 为收入，E 为必要支出，F 为一次性费用，K 为额外照护，S 为冲击；各项不重复计入。
 #+begin_src typst :eval never :exports code
 $ C_(t+1) = C_t + I_t - E_t - F_t - K_t - S_t $
 $ C_6^A = 60000 + 6 (6000 - 10000) = 36000 $
@@ -109,8 +109,8 @@ $ "buffer holds" equiv min_(0 <= t <= 6) C_t >= 20000 $
 ** 不知道下一次冲击，仍可以约束下一次承诺
 有些风险已知，但时点和规模未知；另一些变化尚未进入当前模型。我们不能保证它们不发生，却可以要求：依据失效之后，不再沿用旧授权新增承诺。重新理解处境，是继续行动的条件。
 
-#+EXPLANATION: 这笔 6,000 元付款须有有效依据和明确授权，且付款后现金至少 20,000；冲击或待复核状态撤回旧授权。
 #+NAME: job-loss-risk-cn
+#+CAPTION: 这笔 6,000 元付款须有有效依据和明确授权，且付款后现金至少 20,000；冲击或待复核状态撤回旧授权。
 #+begin_src tla :eval never :exports code
 vars == <<cash, current, review, authorized>>
 Permit == current /\ ~review /\ authorized /\ cash - 6000 >= 20000

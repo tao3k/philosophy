@@ -26,6 +26,21 @@ Execution receipt, outcome, and effect must therefore remain distinct. A receipt
 Error is not an edge case outside the loop but an entrance to knowledge revision. It may show that facts changed, a model does not apply, authority was insufficient, execution diverged, observation was distorted, or the value objective was incomplete. Different errors must update different objects. Recording all of them as “failure” discards the structure needed to learn, while retrying all of them can amplify harm.
 
 Learning requires at least four moves: observe the difference between result and expectation; attribute the difference to assumptions that remain contestable; update a claim, scope, policy, or capability; and reassess earlier decisions that depended on it. Reconciliation is not merely eventual database consistency. It lets past action change future reasons.
+** A better life cannot borrow the system's definition of success
+Course enrollment, a completed schedule and higher advice adoption each establish limited things. What was learned? Was necessary care maintained? Did exhaustion increase? Are new paths actually available? Who paid for these changes? Different purposes need different observation windows, not one total score.
+
+The person's assessment matters, but short-term satisfaction can coexist with long-term dependence. External measures can also omit the most valued changes. Bring personal accounts, concrete circumstances and checkable changes together without pretending they replace one another.
+
+** Feedback filters out those who did not remain
+Continuing users, successful executors and willing respondents need not represent everyone affected. People may leave because they are dissatisfied or no longer need help. A missing click may express refusal or lack of time. Silence is not approval, and exit is not necessarily failure.
+
+Advice can also change expectations so that old indicators become easier to satisfy. A [[file:../40-sources/40.96-performative-prediction.org][feedback perspective]] prompts scrutiny of evaluation conditions changed by intervention. Subsequent changes cannot all be attributed to AI without further grounds; obtaining cleaner evidence cannot justify unauthorized human experimentation.
+
+** Learning judgment or learning dependence?
+Long-term help should examine whether people can better explain choices, recognize inapplicable advice, seek other support and continue important activities when the system is unavailable. Usage frequency cannot answer this alone: ongoing supported communication can sustain agency, while repeated confirmations can manufacture dependence.
+
+Discovering through a trial that a path is unwanted can be valuable learning. But if the trial rested on false promises, “at least you know yourself better” cannot erase losses. Address knowledge gained, actual costs and responsibility separately. Feedback in [[file:30.96-living-with-ai.org][facing life with AI]] must return to living, not product retention.
+
 * Counterexamples
 Not every action is a legitimate experiment. Irreversible, high-risk, or rights-affecting action cannot lower its authority threshold merely because learning has value. Experimental value never automatically overrides consent, dignity, or safety.
 
@@ -37,6 +52,8 @@ Action is not the terminus of knowledge but an experimental condition for the ne
 
 “Success” therefore needs at least two statements: whether execution completed according to protocol and whether the world moved toward the authorized objective. When the latter is unknown, the system should remain unknown or pending rather than borrow the success code of the former.
 * Promotion Criteria
+Add cases of reasonable purpose change, nonuser feedback, long-term dependence and continued life after leaving. Report learning, actual life changes and what remains unattributed or unobserved separately; satisfaction or retention cannot be sole evidence of value.
+
 Validate the update loop with reversible operations, delayed consequence, partial failure, and unobservable result. Define which differences trigger stopping, remedy, retry, or epistemic downgrade. Show that learning does not turn people who did not consent into experimental subjects. Only then consider deepening the practical-learning Charter rather than adding another abstract slogan.
 * Navigation
 [[file:../README.org][language index]]
