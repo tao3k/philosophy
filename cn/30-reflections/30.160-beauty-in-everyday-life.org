@@ -81,6 +81,10 @@ AI 可以把遗漏的使用者提醒出来，模拟不同时间与路径，帮�
 哪些正在改变；为什么别人可以不同。AI 提供词汇和比较，不替人占有这份判断。一个人最终不需要
 风格名称，也完全可以。
 
+还要检验一种不容易从效果图看出的失败：方案精致了，住在里面的人却说“这不是我想保留的地方”。
+此时不能只调低风格强度，或用更多候选逼他选一张。应回到他原先在意的动作与关系，允许他删去
+模型添加的东西，也允许一句“先别改”改变整个方案。[[file:30.220-making-what-matters-possible.org][《把在意的事做出来》]]把这种能改变方向的参与，放到人的实践和 AI 自身会变化的关系里讨论。
+
 ** 留白使地方可以被继续生活
 
 《画筌》的“无画处”提醒我们，完整不等于把每个位置都塞进设计意图。《道德经》的房室之“无”
@@ -145,4 +149,4 @@ AI 减少无谓负担之后，可能让普通人有更多时间理解并参与�
 还需面对：谁拥有共同空间的最终决定权；当审美、无障碍、安全和生计冲突时如何排序；怎样避免
 临时参与成为替机构节省成本的无偿劳动；怎样让“不想改造，只想安稳生活”同样成为被尊重的结果。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活与责任]] · [[file:../40-sources/40.140-unfilled-space-and-rest.org][留白与休息]] · [[file:../40-sources/40.130-leisure-interest-and-ordinary-experience.org][日常经验]]
+[[file:../README.org][语言入口]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.220-making-what-matters-possible.org][把在意的事做出来]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活与责任]] · [[file:../40-sources/40.140-unfilled-space-and-rest.org][留白与休息]] · [[file:../40-sources/40.130-leisure-interest-and-ordinary-experience.org][日常经验]]
