@@ -54,7 +54,7 @@ RSI 文献关心系统能否将试验结果转化为下一次改进。综述区�
 
 迎合研究报告的是实验条件下的意愿与即时判断，不是每位参与者在现实中已经修复或破坏了关系。我们据此警惕把受欢迎的回复当成认可，不据此禁止具体、诚实的鼓励。
 * 影响
-这些来源支持 [[file:../30-reflections/30.220-making-what-matters-possible.org][新 Reflection]] 提出更精确的问题：AI 改进的是结果、方法还是评价器？谁能改变它追求的目标？作品质量、作者的声音、与他人的关系、集体差异、现实机会和受影响者的代价，哪些被测到、哪些没有？
+这些来源支持 [[file:../30-reflections/30.220-making-what-matters-possible.org][共同实践]]提出更精确的问题：AI 改进的是结果、方法还是评价器？谁能改变它追求的目标？作品质量、作者的声音、与他人的关系、集体差异、现实机会和受影响者的代价，哪些被测到、哪些没有？[[file:../30-reflections/30.240-when-ai-says-it-improved.org][时态与因果的后续反思]]进一步区分基准上的改进、对某人选择的影响和生活价值；两篇论文都没有直接验证后两者。
 
 它们尚不构成新的 Charter Principle。若以后提出规范，必须另行说明适用范围、失败模式与可挑战条件；Governance 则另行决定谁参与准入和修订，不能由热门论文代替。
 * 解释链
@@ -69,4 +69,4 @@ Cheng 等的迎合实验
 
 两条链相遇时，Tao3k 提出一个仍待检验的判断：在人与会改变自身方法的 AI 共同行动时，能否保留本人修正方向、他人提出异议、系统按明确任务继续学习的空间。这个判断不是来源作者共同签署的结论，也不是已经完成的产品验证。
 * 导航
-[[file:../README.org][导航]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][当 AI 也在改变]] · [[file:40.99-ai-help-work-learning-creation.org][工作、学习与创作]]
+[[file:../README.org][导航]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][当 AI 也在改变]] · [[file:../30-reflections/30.240-when-ai-says-it-improved.org][时间、因果与人的生活]] · [[file:40.99-ai-help-work-learning-creation.org][工作、学习与创作]]

@@ -59,6 +59,22 @@ candidate to verified status.
 | Aitia | Causal assurance: claims, assumptions, evidence, obligations, invalidation, verification planning, and SDLC / ADR / GitOps assurance | Candidate; project receipt required | Obligation, verifier-evidence, and invalidation receipts |
 | Episteme | Vertical-domain meaning, ontology, relations, policies, sources, Scenario / Profile / Case, and qualification metadata | Candidate; project receipt required | Domain-semantic and qualification receipts |
 
+* Evidence boundaries when self-improvement enters a life
+
+[[file:../30-reflections/30.240-when-ai-says-it-improved.org][When AI Says It Has Improved]] continues an imagined case: the system misses fewer shop-opening expenses in isolated tasks, and a night-shift worker later decides to stay for now. The following are points of review between a paper, an architecture, and a life. They are not an implemented cross-repository pipeline, and this Reflection does not justify a new recording DSL.
+
+#+NAME: self-improvement-evidence-route-en
+#+EXPLANATION: Each layer establishes only what it owns; a success at one layer cannot sign for missing evidence at the next.
+| Position and owner | Bounded claim that can be checked | Invalid promotion |
+|--------------------+-----------------------------------+-------------------|
+| [[file:../40-sources/40.220-recognition-and-self-improvement.org][Paper and source note]] | Which version improved on which tasks and independent evaluations | Advice and lives improved for everyone |
+| ASP / ASP Rust | Which Agent version, Scenario, authority scope, and performance gate took part | Passing tests grants broader permission or human endorsement |
+| MRR | Sources, semantic generations, relations, and derivations are admitted within scope or remain unknown, stale, or incomplete | Advice preceding a choice proves causation, or unobserved effects are false |
+| POO Flow Temporal Causality | Structural impact, trajectories, and unknown frontiers relative to a Case, cut, relations, and horizon | A graph path is causation in a life, or a counterfactual is a fact |
+| Participant and affected people | Actual experience, burden, and dissent under voluntary, proportionate inquiry | One satisfaction score establishes a universal good or everyone's consent |
+
+Boundary-testing counterexamples include: a revised Agent using old permission only to compare options as authority to make a commitment to an employer; a stale source about jobs presented as current fact; no consequence found within a finite horizon published as “no impact”; and a better benchmark score used to claim that AI caused one worker's later decision. The owners can design rejections and counterexamples for the earlier failures. The last also needs real-world causal inquiry and human interpretation; technical receipts alone cannot close it. There is currently no end-to-end receipt for this cross-layer life scenario.
+
 * Review Questions
 
 Reviewers must answer: which Principle ID is cited; what semantics the implementation preserves; which

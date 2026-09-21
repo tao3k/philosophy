@@ -75,4 +75,4 @@ AI 若只在当事人最容易回答的时候学习，就可能错过累得无�
 
 规范上，尚须区分哪些边界应成为普遍保护，哪些只能由具体关系和情境决定；治理上，则要另问由谁制定、审议与修正标准。本文仍是 Reflection，不因提出可操作的问题就替代 Principle 或 Governance。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.220-making-what-matters-possible.org][当 AI 也在改变]] · [[file:30.93-intertemporal-agency.org][跨时间主体性]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:../40-sources/40.97-transformative-experience-evaluability.org][转化性经验的解释边界]]
+[[file:../README.org][语言入口]] · [[file:30.220-making-what-matters-possible.org][当 AI 也在改变]] · [[file:30.240-when-ai-says-it-improved.org][时间、因果与生活]] · [[file:30.93-intertemporal-agency.org][跨时间主体性]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:../40-sources/40.97-transformative-experience-evaluability.org][转化性经验的解释边界]]

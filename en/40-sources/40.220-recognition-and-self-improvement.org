@@ -54,7 +54,7 @@ Personal endorsement is not an infallible gold label either. Fatigue, flattery, 
 
 The sycophancy study reports intentions and immediate judgments under experimental conditions, not that each participant actually repaired or damaged a relationship in the world. It warrants caution about treating preferred replies as recognition, not a ban on specific, honest encouragement.
 * Influence
-These sources help the [[file:../30-reflections/30.220-making-what-matters-possible.org][new Reflection]] ask sharper questions. Is AI improving a result, its method, or its evaluator? Who can alter the goal? Which of work quality, a person's voice, relationships with others, collective diversity, real opportunity, and costs to others were measured—and which were not?
+These sources help the [[file:../30-reflections/30.220-making-what-matters-possible.org][reflection on shared practice]] ask sharper questions. Is AI improving a result, its method, or its evaluator? Who can alter the goal? Which of work quality, a person's voice, relationships with others, collective diversity, real opportunity, and costs to others were measured—and which were not? [[file:../30-reflections/30.240-when-ai-says-it-improved.org][The follow-up on time and causality]] further distinguishes benchmark improvement, influence on one person's choice, and value in a life. Neither RSI paper directly establishes the latter two.
 
 They do not directly add a Charter Principle. Any future normative claim needs its own scope, failure modes, and challenge conditions. Governance must separately decide who participates in admitting and revising a standard; popularity of a research topic cannot decide that.
 * Interpretation Chain
@@ -69,4 +69,4 @@ Cheng and colleagues' sycophancy experiments
 
 Where these chains meet, Tao3k proposes an unverified judgment: as people work with AI that can change its own methods, can the person still redirect assistance, others still object, and the system still learn on clearly specified tasks? This is not a conclusion co-signed by the cited authors or a completed product validation.
 * Navigation
-[[file:../README.org][navigation]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][When AI changes too]] · [[file:40.99-ai-help-work-learning-creation.org][Work, learning, and creation]]
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][When AI changes too]] · [[file:../30-reflections/30.240-when-ai-says-it-improved.org][Time, causality, and human lives]] · [[file:40.99-ai-help-work-learning-creation.org][Work, learning, and creation]]
