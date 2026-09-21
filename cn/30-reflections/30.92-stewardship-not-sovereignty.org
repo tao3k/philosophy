@@ -1,0 +1,34 @@
+#+TITLE: 托管而非主权：受托手段与人的目的
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-92-CN
+:SEMANTIC_ID: philosophy.reflection.stewardship-not-sovereignty
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.92-stewardship-not-sovereignty.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.stewardship-not-sovereignty-cn
+:END:
+当 AI 被授权持续管理人的手段时，怎样防止它逐渐接管人的目的？
+
+[[file:30.60-action-requires-authority.org][Action 与 Authority]] · [[file:../40-sources/40.94-financial-planning-support-boundaries.org][规划与支持边界]]
+* 论证
+Stewardship 是受托照料，sovereignty 是决定目的与例外的最终权力。AI 可以观察、解释、模拟、提议，也可在明确委托内 manage，例如把限定额度转入指定储备账户。但管理手段不能默默改写住房、创业、照护或生活质量的优先级。
+
+“Delegated Means, Human Ends”要求委托说明 principal、purpose、resource、action、额度、期限、风险、复核与撤销。发现更高收益不构成扩大资产类别、延长期限或牺牲流动性的授权。
+
+Observe、Explain、Simulate、Propose、Manage、Act 是不同权限层。越接近不可逆现实改变，越需要具体 authority 与 assurance；升级必须是显式事件，而不是产品功能自然滑移。
+* 反例
+人可以真诚委托广泛目标，并希望自动化减少反复决策。Stewardship 允许有界策略和默认值，只要用户能理解、退出且沉默不会扩大 scope。AI 可帮助澄清不稳定目的，却不能把推断偏好伪装成授权。
+* 暂定结论
+AI 的正当角色是可撤回的 stewardship：忠于人的目的，在授权范围内管理手段，暴露冲突并把目的变化交还给人。计算优势不产生人生主权。
+* 升格条件
+证明 scope 不因收益机会自动扩大，推断偏好不成为 authority，撤销能停止未来行动，目的冲突会升级给人，并覆盖紧急、失能、共同账户和多受益人情形。
+* 导航
+[[file:../README.org][语言入口]]

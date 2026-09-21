@@ -1,0 +1,42 @@
+#+TITLE: AI 金融建议：供给、需求与生命周期后果
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-93-CN
+:SEMANTIC_ID: philosophy.source.ai-financial-advice-life-cycle
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.93-ai-financial-advice-life-cycle.org
+:SOURCE_ID: source.nber.w35574
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Taha Choukhmane; Tim de Silva; Weidong Lin; Matthew Akuzawa
+:SOURCE_WORK: AI Financial Advice: Supply, Demand, and Life Cycle Implications
+:SOURCE_EDITION: NBER Working Paper 35574
+:SOURCE_DATE: 2026-08
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.ai-financial-advice-life-cycle
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.ai-financial-advice-life-cycle-cn
+:END:
+依据 [[https://www.nber.org/papers/w35574][NBER Working Paper 35574]]；它是 2026 年工作论文，不按已完成同行评审处理。
+* 语境
+研究让代表性样本向 LLM 询问消费与投资建议，再模拟长期遵循建议的生命周期后果。摘要报告建议总体更接近若干生命周期金融行为，同时随性别、AI 经验和金融素养系统变化；性别差异同时来自提问差异与相同问题上的模型差异。
+* 解释边界
+靠近标准模型不等于更符合个人价值，模拟的 lifetime effect 也不是已观察因果结果。具体模型、提示和 2026 时点限制外推；群体差异不能自动解释为适当个性化。
+* 影响
+它证明一句建议可能累积为长期轨迹，进入 [[file:../30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship]] 的 value boundary：AI 是帮助表达目的，还是把典型人生写入未来？
+* 解释链
+调查提示 → LLM 建议 → 生命周期模型 → 异质长期结果 → Tao3k 对 supply、demand、authority 与 revisability 的追问。
+* 导航
+[[file:../README.org][导航]]

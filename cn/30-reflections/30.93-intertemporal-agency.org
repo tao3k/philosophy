@@ -1,0 +1,34 @@
+#+TITLE: 跨时间主体性：今天的选择与未来的自己
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-93-CN
+:SEMANTIC_ID: philosophy.reflection.intertemporal-agency
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.93-intertemporal-agency.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.intertemporal-agency-cn
+:END:
+今天的选择会约束未来的自己；怎样在不把未来财富最大化当作唯一善的前提下保护跨时间主体性？
+
+[[file:../40-sources/40.92-life-cycle-finance.org][生命周期金融]] · [[file:../40-sources/40.91-cfpb-financial-well-being.org][金融福祉]]
+* 论证
+当前的我、未来的我与家庭成员不是完全分离的人，却也没有完全相同的需要。消费可以增加当下自由并减少未来缓冲；极端储蓄可以增加安全却牺牲当下生活。任何单一 discount rate 都只是模型选择，不能解决这场规范冲突。
+
+Intertemporal agency 要求选择保留未来重新决定的能力。resilience 保护冲击后的行动空间，reversibility 限制错误承诺的持续伤害，optionality 保存尚未选择的可行路径。它们不是纯 risk score，而是未来主体性条件。
+
+长期承诺应说明锁定期、退出代价、谁承担尾部风险及哪些未来变化触发复核。当前同意不能无限授权系统代表未来的我继续执行已经失去目的的策略。
+* 反例
+过度保护未来选择会阻止住房、教育、创业等必须承诺的项目；不作决定本身也会关闭机会。目标不是最大化可撤回性，而是让不可逆程度与理由、期限和复核相称。
+* 暂定结论
+人的主体性跨越时间：既不能让当前冲动任意征用未来，也不能让抽象未来财富取消当下生活。AI 应展示跨期负担与被关闭的选择，而不是替不同时间的自己宣布唯一赢家。
+* 升格条件
+覆盖消费/储蓄、债务、住房、创业、保险与照护案例，证明复核能因家庭、健康、收入和目标变化触发，并处理有意且正当的不可逆承诺。
+* 导航
+[[file:../README.org][语言入口]]

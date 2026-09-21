@@ -86,6 +86,16 @@ This directory owns English philosophy documents and their semantic navigation o
 | What can proof, model checking, testing, simulation, and observation each establish? | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
 | How do classical protection principles enter Agent authority without becoming complete normative legitimacy? | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
 
+* Modern AI Philosophy — Content M4
+
+| Real-world stress test | Reflection / Case |
+|------------------------+-------------------|
+| How can life trajectories be simulated without a total “best life” ranking? | [[file:30-reflections/30.91-financial-life-simulation.org][Financial Life Simulation]] |
+| How can AI manage means without taking ownership of human ends? | [[file:30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship, Not Sovereignty]] |
+| How can present choice preserve the agency of a future self? | [[file:30-reflections/30.93-intertemporal-agency.org][Intertemporal Agency]] |
+| Three-trajectory stress test for leaving employment within twelve months | [[file:30-reflections/30.94-financial-life-stress-test.org][Financial Life Stress Test]] |
+| External grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]; [[file:40-sources/40.92-life-cycle-finance.org][life-cycle finance]]; [[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI financial advice]]; [[file:40-sources/40.94-financial-planning-support-boundaries.org][market and regulatory boundaries]] |
+
 * Relation graph
 
 #+name: philosophy-en-flow

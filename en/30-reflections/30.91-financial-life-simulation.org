@@ -1,0 +1,34 @@
+#+TITLE: Financial Life Simulation: Exchange, Choice, and Consequence
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-91-EN
+:SEMANTIC_ID: philosophy.reflection.financial-life-simulation
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.91-financial-life-simulation.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.financial-life-simulation-en
+:END:
+When AI helps ordinary people manage exchange, choice, and consequence, how can it compare life paths without collapsing money, time, obligations, meaning, and future options into one score?
+
+[[file:../40-sources/40.91-cfpb-financial-well-being.org][CFPB source]] · [[file:../40-sources/40.92-life-cycle-finance.org][life-cycle finance source]]
+* Argument
+Financial assets transfer resources across time and outcomes, but life planning is not terminal-wealth maximization. Day-to-day control, shock capacity, goal progress, and freedom of choice can conflict; housing, entrepreneurship, care, and retirement lack a complete common currency.
+
+Simulation should return a choice frontier, not a best life. Each trajectory retains initial state, goals, obligations, assumptions, unknowns, affected people, and invalidation conditions while exposing benefit, harm, liquidity, resilience, reversibility, optionality, and obligations at risk.
+
+Simulation shows possibilities under a model. It does not predict personal success or turn a Monte Carlo rate into an instruction. Changes in goals, family relations, or risk posture must invalidate or recompute the comparison.
+* Counterexamples
+Refusing every aggregate can prevent action. Solvency may be a hard constraint, and paths may be ranked within one explicitly chosen goal. Yet detail can create false precision; sensitivity analysis cannot compensate for care work or non-monetary harm absent from the representation.
+* Provisional Conclusion
+Financial life simulation helps a person see exchanges and consequences rather than defining a successful life. It supplies bounded counterfactuals, infeasibility judgments, and a choice frontier. Human beings retain ownership of ends, non-fungible values, and commitment.
+* Promotion Criteria
+Show that the system emits no total life ranking, does not replace unknown with an average, cannot hide concentrated harm behind net worth, and invalidates conclusions when goals change. Regulatory classification remains jurisdiction-specific.
+* Navigation
+[[file:../README.org][language index]]

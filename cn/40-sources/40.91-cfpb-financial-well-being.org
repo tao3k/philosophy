@@ -1,0 +1,42 @@
+#+TITLE: CFPB：金融福祉、安全与选择自由
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-91-CN
+:SEMANTIC_ID: philosophy.source.cfpb-financial-well-being
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.91-cfpb-financial-well-being.org
+:SOURCE_ID: source.cfpb.financial-well-being
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Consumer Financial Protection Bureau
+:SOURCE_WORK: Why financial well-being?
+:SOURCE_EDITION: web-page-observed-2026-09-21
+:SOURCE_DATE: undated
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.cfpb-financial-well-being
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.cfpb-financial-well-being-cn
+:END:
+依据 [[https://www.consumerfinance.gov/consumer-tools/financial-well-being/about/][CFPB 的 Why financial well-being?]]。
+* 语境
+CFPB 将 financial well-being 表述为金钱状况与选择带来的 security 和 freedom of choice，并具体包括日常控制、承受冲击、朝目标前进及享受生活的选择自由。它明确指出收入、净资产或信用分数不足以单独描述个人福祉。
+* 解释边界
+该框架不是投资建议、效用函数或普遍人生排序，也不证明 CFPB 问卷可直接成为 Agent objective。跨司法辖区的监管含义需另行判断。
+* 影响
+它为 [[file:../30-reflections/30.91-financial-life-simulation.org][金融人生模拟]] 提供外部 grounding：security 与 choice 必须并存，financial outcome 不能缩成净资产。
+* 解释链
+CFPB 消费者研究 → financial security/freedom → Tao3k 的 resilience、goal trajectory 与 optionality。choice frontier 是本仓库的进一步综合。
+* 导航
+[[file:../README.org][导航]]

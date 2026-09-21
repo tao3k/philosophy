@@ -1,0 +1,36 @@
+#+TITLE: Financial Life Stress Test: Three Trajectories for an Entrepreneurial Choice
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-94-EN
+:SEMANTIC_ID: philosophy.reflection.financial-life-stress-test
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.94-financial-life-stress-test.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.financial-life-stress-test-en
+:END:
+For “Should I leave employment to start a business within twelve months?”, can the existing Philosophy give consistent boundaries without answering Yes or No for the person?
+* Argument
+Initial state includes income, essential spending, liquid reserves, debt, insurance, housing, and family support. Goals include entrepreneurship, housing, parental care, and long-term security. Unknowns include income, venture cash flow, health events, housing cost, and family change.
+
+Construct three counterfactuals: A start now; B start after twelve months; C validate while employed. Each faces income interruption, family medical cost, housing change, and venture failure or success rather than averaging shocks away.
+
+#+begin_example
+LifeState0 → A now | B later | C validate part-time → shocks → new observation
+#+end_example
+
+Return a choice frontier for goal progress, liquidity, resilience, reversibility, future optionality, obligations at risk, major unknowns, and affected people. Forbid one score and automatic recommendation; every result traces to assumptions and invalidation conditions.
+* Counterexamples
+A trajectory unable to cover essential obligations under every declared condition may be infeasible; that is not a value ranking. An explicit hard priority permits bounded ranking only if sacrificed dimensions remain visible. Family members are affected parties, not model parameters; absent voices become unknown or governance gaps.
+* Provisional Conclusion
+The case jointly tests EPI, TEMP, AGENCY, AUTH, ASSURE, RESIL, PRAXIS, traceability, and revisability. A valid output is not one choice but challengeable exchanges, infeasibility boundaries, and a plan for renewed observation.
+* Promotion Criteria
+Repeat with varied initial states and show that simulation never impersonates prediction, templates do not replace human ends, Manage/Act lacks no authority, major unknown changes action level, and outcomes return to knowledge.
+* Navigation
+[[file:../README.org][language index]]

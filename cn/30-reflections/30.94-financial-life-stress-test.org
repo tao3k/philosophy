@@ -1,0 +1,38 @@
+#+TITLE: 金融人生压力测试：创业选择的三条轨迹
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-94-CN
+:SEMANTIC_ID: philosophy.reflection.financial-life-stress-test
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.94-financial-life-stress-test.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.financial-life-stress-test-cn
+:END:
+对于“未来十二个月是否离职创业”，现有 Philosophy 能否给出一致的分析边界而不替人回答 Yes/No？
+* 论证
+初态包括收入、必要支出、流动储备、债务、保险、住房与家庭支持义务；目标包括创业、住房、照顾父母和长期安全；unknown 包括未来收入、创业现金流、健康事件、住房成本与家庭变化。
+
+建立三条反事实轨迹：A 现在创业；B 十二个月后创业；C 边工作边验证。每条分别承受收入中断、家庭医疗支出、住房成本变化与创业成败，而不是把 shock 平均掉。
+
+#+begin_example
+LifeState0 → A now | B later | C validate part-time → shocks → new observation
+#+end_example
+
+输出 choice frontier：goal progress、liquidity、resilience、reversibility、future optionality、obligations at risk、major unknowns、affected people。禁止总分和自动建议；每个结论都要能回到假设，并说明什么变化使其失效。
+* 反例
+若某轨迹在所有声明情境下都无法覆盖必要义务，系统可以判为不可行；这不是价值排名。若用户明确声明硬优先级，也可在该边界内排序，但必须展示被牺牲维度。
+
+家庭成员不是模型参数。若照护义务、共同财产或风险落到他人身上，他们是 affected parties，其缺席应成为 unknown 或治理缺口。
+* 暂定结论
+该 case 能同时压测 EPI、TEMP、AGENCY、AUTH、ASSURE、RESIL、PRAXIS、traceability 与 revisability。合格输出不是一个选择，而是一组可质询的交换、不可行边界和重新观察计划。
+* 升格条件
+用不同初态重复案例并证明：simulation 不冒充 prediction，人的目标不被默认模板替换，Manage/Act 没有隐式授权，重大 unknown 会改变行动层级，执行后的 outcome 会回到知识状态。
+* 导航
+[[file:../README.org][语言入口]]

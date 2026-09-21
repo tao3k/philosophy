@@ -1,0 +1,34 @@
+#+TITLE: Intertemporal Agency: Present Choice and the Future Self
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-93-EN
+:SEMANTIC_ID: philosophy.reflection.intertemporal-agency
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.93-intertemporal-agency.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.intertemporal-agency-en
+:END:
+Present choices constrain a future self. How can intertemporal agency be protected without treating future-wealth maximization as the only good?
+
+[[file:../40-sources/40.92-life-cycle-finance.org][life-cycle finance]] · [[file:../40-sources/40.91-cfpb-financial-well-being.org][financial well-being]]
+* Argument
+The present self, future self, and family are neither strangers nor identical interests. Consumption may increase present freedom while reducing future buffers; extreme saving may increase security while sacrificing life now. A discount rate is a modeling choice, not a resolution of this normative conflict.
+
+Intertemporal agency preserves a future capacity to decide again. Resilience protects action space after shock, reversibility limits persistent harm from error, and optionality keeps unchosen paths feasible. They are conditions of future agency, not merely risk scores.
+
+Long commitments should state lock-in, exit cost, bearers of tail risk, and changes that trigger review. Present consent cannot indefinitely authorize a system to execute a strategy that has lost its purpose.
+* Counterexamples
+Overprotecting future options can block housing, education, entrepreneurship, and care that require commitment. Inaction also closes opportunities. The aim is not maximum revocability, but proportional reasons, duration, and review for irreversibility.
+* Provisional Conclusion
+Agency extends through time: present impulse may not freely consume the future, and abstract future wealth may not erase present life. AI exposes intertemporal burdens and closed options rather than declaring one temporal self the winner.
+* Promotion Criteria
+Cover consumption and saving, debt, housing, entrepreneurship, insurance, and care. Show review triggered by family, health, income, and goal changes while respecting deliberate and legitimate irreversible commitments.
+* Navigation
+[[file:../README.org][language index]]
