@@ -71,6 +71,7 @@ Stabilize == /\ mode = "disrupted"
              /\ UNCHANGED <<observations, commitments, review_required>>
 
 Reconsider(next_commitments) ==
+  /\ mode = "stabilizing"
   /\ review_required
   /\ mode' = "reconsidering"
   /\ commitments' = next_commitments
