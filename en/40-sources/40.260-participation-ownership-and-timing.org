@@ -1,4 +1,4 @@
-#+TITLE: How a Person Enters the Work: Ownership, Co-Creation, and Timing
+#+TITLE: How a Person Enters and Changes the Work: Ownership, Co-Creation, and Time
 #+AUTHOR: Tao3k
 #+DATE: 2026-09-21
 #+FILETAGS: :philosophy:en:source:
@@ -12,16 +12,16 @@
 :COUNTERPART: ../../cn/40-sources/40.260-participation-ownership-and-timing.org
 :SOURCE_ID: PHIL-SRC-260
 :SOURCE_KIND: SYNTHESIS
-:SOURCE_AUTHOR: Fiona Draxler et al.; Jack McGuire et al.; Peinuan Qin et al.; Maurice Jakesch et al.
-:SOURCE_WORK: The AI Ghostwriter Effect; Establishing the importance of co-creation and self-efficacy in creative collaboration with artificial intelligence; Timing Matters; Co-Writing with Opinionated Language Models Affects Users' Views
+:SOURCE_AUTHOR: Fiona Draxler et al.; Jack McGuire et al.; Peinuan Qin et al.; Maurice Jakesch et al.; Yibo Meng et al.
+:SOURCE_WORK: The AI Ghostwriter Effect; Establishing the importance of co-creation and self-efficacy in creative collaboration with artificial intelligence; Timing Matters; Co-Writing with Opinionated Language Models Affects Users' Views; Where Does the Human End? Creative Agency with Generative AI across Five Years of Chinese Digital Painting
 :SOURCE_EDITION: original articles and arXiv versions accessed 2026-09-21
-:SOURCE_DATE: 2023; 2024; 2025
+:SOURCE_DATE: 2023; 2024; 2025; 2026
 :SOURCE_LANGUAGE: en
 :SOURCE_REPOSITORIES: not-applicable
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: arXiv 2303.03283v2; Scientific Reports 2024 article 18525; arXiv 2502.06197v1; arXiv 2302.00560v1
+:CONSTITUENT_SOURCES: arXiv 2303.03283v2; Scientific Reports 2024 article 18525; arXiv 2502.06197v1; arXiv 2302.00560v1; arXiv 2609.09333v1
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: philosophy.source-note.40.260-participation-ownership-and-timing
 :END:
@@ -29,7 +29,7 @@
 :PROPERTIES:
 :CUSTOM_ID: philosophy.source-note.40.260-participation-ownership-and-timing-en
 :END:
-These four studies examine ownership of text, ways of co-creating a poem, when help enters ideation, and opinionated writing assistance. They make “could the person's judgment change the work?” a more useful question than “does the generated text sound like them?” Tasks, samples, and measures differ; they do not add up to one product-effect estimate.
+The first four studies examine ownership of text, ways of co-creating a poem, when help enters ideation, and opinionated writing assistance; the fifth follows interviews with Chinese digital painters across years. They make “could the person's judgment change the work, and could the terms of help be renegotiated later?” more useful than “does the generated text sound like them?” Tasks, samples, and measures differ; they do not add up to one product-effect estimate.
 
 #+NAME: participation-studies-en
 #+EXPLANATION: These are research participants, not Tao3k users; an unmeasured outcome is not an outcome shown absent.
@@ -39,19 +39,27 @@ These four studies examine ownership of text, ways of co-creating a poem, when h
 | [[https://www.nature.com/articles/s41598-024-69423-2][McGuire et al., poetry studies]], two experiments with a particular poetry system | Editing a completed AI poem received lower creativity ratings from professional poets than writing unaided; in an iterative co-creation condition the earlier gap was not statistically significant, and creative self-efficacy also differed | Strict equivalence has been proved, or co-creation always beats delegation |
 | [[https://arxiv.org/abs/2502.06197v1][Qin et al., writing ideation]], 60 people | LLM use from the start, compared with ideation before LLM use, was associated with fewer original ideas and lower creative self-efficacy and self-credit in the task | Everyone must think unaided first, or later AI use improves life over time |
 | [[https://arxiv.org/abs/2302.00560v1][Jakesch et al., opinion writing]], 1,506 people | An assistant favoring one side of a question about social media affected the written views and a subsequent attitude survey | Personality changed permanently, or every persuasive influence is manipulation |
+| [[https://arxiv.org/abs/2609.09333v1][Meng et al., digital-painters interview preprint]], 2021–2025, 17 at baseline, 13 with all five waves | In this small cohort, refusal, bounded delegation, and redrawing human-work boundaries did not follow one uniform path; peers, clients, fatigue, and labor conditions shaped change | All creators pass through one sequence of AI adoption, or the interviews establish a product effect on creativity |
 * Context
 The first two studies concern people's roles and experiences in particular text and poetry tasks. Claimed authorship, psychological ownership, and legal authorship are different. The poetry experiments used a purpose-built system, not every contemporary language model. Qin and colleagues compared timings in one ideation task. Jakesch and colleagues studied a writing assistant's directional bias, not a participant's “true desire.”
+
+Meng and colleagues' preprint draws on annual interviews with Chinese digital painters, retaining accounts recorded in different years rather than randomly assigning a tool in a single experiment. It asks how professional and hobbyist painters reallocated tasks and authorship as image tools, peers, and client expectations changed. It gives “the terms of collaboration can change with a life” real testimony, but it does not follow the photographer imagined in this repository.
 * Interpretation Boundaries
 A nonsignificant difference does not prove strict equivalence. Expert ratings of poems and creative self-efficacy are distinct outcomes; ownership and self-credit are not long-term capability. None of these studies establishes “more edits means more agency.” Two decisive choices may set a work's direction. Someone may need extensive accessible assistance, or simply want quiet delegation. The experiments cannot judge those ways of living illegitimate.
 
-None studied the imagined photographer in [[file:../30-reflections/30.220-making-what-matters-possible.org][the early-street scene]] or followed a work into family, community, or private life. The studies sharpen questions for observation rather than replacing it.
+The interview study is a recent preprint with a small, self-selecting cohort; four participants lacked all five waves. Its authors note recall and repeated-interview effects, and cannot isolate tool affordances from identity and industry pressure. These accounts are not a population trend for every creator, nor proof that AI caused a particular person's later change.
+
+None of the five studies examined the imagined photographer in [[file:../30-reflections/30.220-making-what-matters-possible.org][the early-street scene]] or traced his album into family, community, or private life. They sharpen questions for observation rather than provide a Tao3k practice receipt.
 * Influence
-[[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][When a Work Leaves the Screen]] distinguishes use of personal material, endorsement of a result, changed capability or opportunity, and real response. [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][When Help Changes What We Want]] uses the opinion-writing experiment to ask how help can carry a direction. These are evidence routes for Reflections, not a new Principle or a Tao3k scenario receipt.
+[[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][When a Work Leaves the Screen]] distinguishes use of personal material, endorsement of a result, changed capability or opportunity, and real response, then asks whether the next practice can reopen the terms of help. [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][When Help Changes What We Want]] uses the opinion-writing experiment to ask how help can carry a direction. These are evidence routes for Reflections, not a new Principle or a Tao3k scenario receipt.
 * Interpretation Chain
 Personalization did not remove an ownership gap + editing a finished work differed from iterative co-creation
 → Familiar-sounding text and an editable interface do not, by themselves, show that a person's meaning influenced the result.
 
 Timing affected one ideation task + an opinionated assistant affected immediate views
 → The moment help arrives and the direction it suggests must be discoverable and contestable. This is not a conclusion that AI must never influence people.
+
+Longitudinal interviews described different paths of delegation and refusal, shaped partly by working relations
+→ Terms agreed for one project cannot freeze later creation; nor does this prove everyone should renegotiate like the painters.
 * Navigation
 [[file:../README.org][Language entry]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][When help changes a wish]] · [[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][When a work leaves the screen]]

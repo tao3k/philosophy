@@ -40,6 +40,15 @@ Imagine the album unexpectedly draws attention. People repeatedly ask him for �
 
 The answer is neither to instruct him to change subject nor to keep him with what once worked. He could compare continuing, trying a small new series, sharing with fewer people, or pausing, with the real costs of each. He can keep the old album while editing, fading, or carrying away a personal profile that treats the old style as destiny. He is free to keep photographing mornings and free to no longer fit the label. A platform may prefer a stable persona; that convenience is not his long-term wish.
 
+** The next time he reaches the street
+Making one album does not reset life to the first question. A week later he passes the light again. He may take more photographs, attend to something for his family, or simply walk on. If the system treats “last time's morning series” as a standing project and keeps urging him to shoot, sequence, and publish, one assisted practice becomes an identity he must maintain. If it forgets everything, he must explain all over again why the light mattered.
+
+What he can carry forward is the work he endorsed, the objections he made, and agreements he can amend—not an unanswerable claim that this is the kind of creator he is. This time he may delegate sorting; next time he may select pictures himself; after that he may do nothing. Doing less is not a regression. Delegating more need not mean losing capacity. The terms of help must be open to change with circumstance, not signed for the future by a usage record.
+
+[[file:../40-sources/40.260-participation-ownership-and-timing.org][A recent five-year interview preprint]] describes divergent experiences among 17 Chinese digital painters, 13 with all five interview waves. Some bounded AI's role to backgrounds or drafts; some kept portions of the work for their own hand; some found boundaries harder to maintain amid peers, clients, fatigue, and work pressure. These are not the photographer's experiences, nor a rule that every creator first refuses and later accepts AI. They prevent us from looking only at satisfaction when one work ends: a later change in collaboration may involve capabilities, income, peers, and what work a person still wants to do.
+
+The next practice therefore need not start with “what more can the system generate for him?” It can start with whether he wants to look, make, or entrust anything today. AI may ask once and allow silence thereafter. It may preserve an agreed path into the past without letting that past dictate the next direction. Such room does not deliberately make a system less capable; it leaves space for new attention and new refusal.
+
 ** Four things often mistaken for one
 #+NAME: work-and-recognition-distinctions-en
 #+EXPLANATION: This is not a ladder that necessarily rises left to right; each can be true while the next is false.
@@ -54,11 +63,13 @@ AI may arrange voice notes and photographs without cleaning away meaningful loca
 * Counterexamples
 Someone may want only a neatly assembled album, not lessons or dialogue. Forcing iterative co-creation would make agency into extra labor. A person using extensive accessibility support need not establish ownership by counting edits. Conversely, someone may genuinely welcome an unexpected AI interpretation; an initial account must not forbid learning.
 
+Someone else may ask AI to remind them regularly to keep photographing, or to offer a starting point when things are difficult. Turning room into a rule that “the system may ask only once” would take away this chosen companionship. Timing, intensity, purpose, and how reminders stop are open to discussion. A system should not silently intensify them based on past engagement, but neither is every continuing form of help a dependency.
+
 Real responses can also be harsh, discriminatory, or mistaken. They do not outrank personal judgment merely because they come from “the world.” Nor should a model filter away all discomfort and lose worthwhile criticism. For someone earning a living from public work, reach and feedback are material resources. Rejecting compelled exposure is not contempt for the legitimate choice to cultivate an audience.
 * Provisional Conclusion
 What AI might amplify is not a feeling of being special but a person's practical room to bring what matters into life. Their concrete judgment can alter a result; they can receive help and response when wanted, and can also keep a work private, stop, or change course. A work that is polished, sounds like them, becomes popular, and gives them reason to continue presents four distinct facts. We should not string them into a necessary causal chain to produce a success story.
 * Questions That Remain
-None of the three continuations has occurred. If someone voluntarily brings a matter of their own, ask first whether they want delegation, experiment, practice, privacy, or sharing. Observe whether a consequential objection actually changes the help, not the count of edits. Learn about subsequent responses only if the person wishes; the account must also have room for people who decline further study. Refusing research must not mean losing basic help.
+None of the three continuations, nor the later return to the street, has occurred. If someone voluntarily brings a matter of their own, ask first whether they want delegation, experiment, practice, privacy, or sharing. Observe whether a consequential objection actually changes the help, not the count of edits. Learn about later response and changes in the terms of collaboration only if the person wishes; the account must also have room for people who decline further study. Refusing research must not mean losing basic help.
 
 This essay establishes no product effect on ownership, capability, or social recognition. A proposed Principle would need its own scope and failure modes; participation, refusal, and records belong to Governance. Real-world observations in 30.220, 30.230, and 30.240 remain [0/6], [0/4], and [0/5]. Writing this essay completes none of them.
 * Navigation
