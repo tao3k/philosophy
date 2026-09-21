@@ -108,4 +108,4 @@ $ V_t = M_t inter F_t $
 * 升格条件
 本篇仍是总论草稿。升格需要跨生活领域与不同资源条件的反例审查，尤其检验“不想优化的人”“无法独立决策而需要支持的人”和“承担他人选择代价的人”；区分叙事共鸣与实际改善证据，并说明哪些主张只适用于特定情境。不能因篇章齐全或合约检查通过而视为哲学论证已经闭合。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.95-life-after-job-loss.org][实践入口：失业之后]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活]]
+[[file:../README.org][语言入口]] · [[file:30.95-life-after-job-loss.org][实践入口：失业之后]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活]] · [[file:30.98-living-with-the-unpredictable.org][中断、恢复与重议]]

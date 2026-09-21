@@ -108,4 +108,4 @@ Life simulation should help people understand and participate in their futures, 
 * Promotion Criteria
 This remains a framing draft. Promotion requires counterexample review across life domains and resource conditions, particularly involving people who do not want optimization, people needing decision support, and people bearing others' choices. Distinguish narrative resonance from evidence of actual improvement and identify context-limited claims. Complete chapters and a passing document gate do not close the philosophical argument.
 * Navigation
-[[file:../README.org][Language entry]] · [[file:30.95-life-after-job-loss.org][Practical entry: after job loss]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]]
+[[file:../README.org][Language entry]] · [[file:30.95-life-after-job-loss.org][Practical entry: after job loss]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]] · [[file:30.98-living-with-the-unpredictable.org][Disruption, recovery and reconsideration]]

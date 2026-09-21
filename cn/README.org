@@ -45,14 +45,14 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | 写作与准入 | governance.cn |
 
 * 从人生问题进入
-从 [[file:30-reflections/30.96-living-with-ai.org][与 AI 共同面对人生：目的、可能性与判断]] 开始：生活不是固定目标函数，模拟不是命运判决，AI 的价值不止是更安全地执行事务。治生提供实践入口，教育、照护、能力变化、迁居、创造与退休同样属于这里的讨论。
+从 [[file:30-reflections/30.96-living-with-ai.org][与 AI 共同面对人生：目的、可能性与判断]] 开始：生活不是固定目标函数，模拟不是命运判决，AI 的价值不止是更安全地执行事务。治生提供实践入口，教育、照护、能力变化、迁居、创造、退休，以及不可预测的中断与恢复同样属于这里的讨论。
 
 这些阅读路径连接尚待检验的反思，不表示所有主张已经成为 Charter。真实改善需要当事人与受影响者的经验反馈，文档完整和逻辑一致不能代替它。
 
 | 想追问什么 | 建议阅读路径 |
 |------------+--------------|
 | 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实学与积极帮助]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
-| 能看见多少未来，又有哪些不可知？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
+| 能看见多少未来，又怎样面对未被表示的变化？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.98-living-with-the-unpredictable.org][中断、恢复与重议]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
 | AI 和他人应如何参与我的判断？ | [[file:30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][受托帮助]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][共同生活与责任]] |
 | 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
@@ -68,7 +68,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 人的能动性 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.40-optimization-is-not-human-value.org][优化不是人的价值]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 行动与权限 | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][行动需要权限]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统的状态与权限]] |
 | 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
-| 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
+| 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 
 * 知、行与经验
@@ -88,6 +88,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 模型中的可能性何时能够成为现实预测 | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation 不是 Prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式化方法：证明、模型检查与反例]] |
 | 可计算目标为何不能独自产生人的价值 | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization 不等于 Human Value]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 | 未知如何约束推理并组织下一步探究 | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown 是一等状态]] | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法]] |
+| 未被表示的变化发生后，恢复应先保护什么 | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式方法的证明边界]]；[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性偏差]] |
 | 技术能力何时获得改变世界的权限 | [[file:30-reflections/30.60-action-requires-authority.org][Action 必须经过 Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
 
 * 思想如何接受检验
@@ -108,6 +109,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 当前选择怎样保护未来自己的主体性 | [[file:30-reflections/30.93-intertemporal-agency.org][跨时间主体性]] |
 | 创业选择缺什么、怎样准备、如何验证生活改善 | [[file:30-reflections/30.94-financial-life-stress-test.org][治生压力测试：从资源缺口到有界准备]] |
 | 失业之后如何逐步重建选择，并用生态语言说明条件与风险 | [[file:30-reflections/30.95-life-after-job-loss.org][人生不止一条轨迹：从一次失业，到重新获得选择]] |
+| 不可预测的中断发生后，如何先恢复判断条件再重新形成生活方向 | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处：中断、恢复与重新判断]] |
 | 外部 grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]；[[file:40-sources/40.92-life-cycle-finance.org][生命周期金融]]；[[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI 金融建议]]；[[file:40-sources/40.94-financial-planning-support-boundaries.org][市场与监管边界]] |
 
 * 关系图

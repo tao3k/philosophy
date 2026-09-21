@@ -1,0 +1,126 @@
+#+TITLE: Living with the Unpredictable: Disruption, Recovery, and Reconsideration
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-98-EN
+:SEMANTIC_ID: philosophy.reflection.30.98-living-with-the-unpredictable
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.98-living-with-the-unpredictable.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.98-living-with-the-unpredictable-en
+:END:
+Some risks in life can be estimated: known bills, contractual deadlines and familiar income fluctuations. Other changes have only a vague outline, or alter the language through which we understand the problem after they occur. Illness, relationship breakdown, war, technological displacement, interrupted care or institutional change may alter resources, responsibilities, purposes and who can participate in a decision at the same time.
+
+What should AI do when its model can process only enumerated branches? It must neither pretend to have predicted the change nor stop all action because the future cannot be exhausted. This essay asks how people can prepare, respond and recover while the unknown remains real and the ability to reinterpret life remains open.
+* Argument
+The unpredictable is not merely a blank waiting for a probability. Sometimes the probability is missing; sometimes candidate events, mechanisms of impact or standards of evaluation are incomplete. Responsible assistance first says which layer is known, then distinguishes what can be prepared for, what can only be monitored and what must be reconsidered after it happens.
+
+** Risk, ambiguity and surprise are different forms of not knowing
+The distinctions below are working language, not a claim that every situation has one fixed classification. A surprise may become a discussable risk after it is understood. Apparently estimable risk may change through institutional or behavioral feedback.
+
+#+NAME: kinds-of-uncertainty-en
+| Situation | What can currently be said | Appropriate assistance | Invalid claim |
+|-----------+----------------------------+------------------------+---------------|
+| Bounded risk | Candidate outcomes and some frequencies or ranges have support | Compare exposure, keep proportionate slack, define triggers | Numerical precision makes life consequences complete |
+| Ambiguity | Candidate outcomes are broadly visible while weights or mechanisms are disputed | Keep explanations in view, seek discriminating evidence, resist premature convergence | Choosing a distribution removes the dispute |
+| Surprise | The event or its meaning exceeds the current representation | Stabilize critical conditions, record new observations, reopen the framing | What the model did not represent was impossible or unimportant |
+
+Treating the [[file:30.50-unknown-as-first-class.org][unknown as first-class]] is not just adding an =unknown= value. If a system then acts through the most complete-looking path, the unknown has not changed judgment. At minimum it should limit irreversible automated action, expose commitments that depend on unverified premises and preserve an inlet for new facts.
+
+** Preparation should not turn all of life into defense
+Slack takes many forms: money and time, alternative care, trusted contacts, copies of records, transferable skills, institutional appeals and relationships able to pause and renegotiate. These are not fully interchangeable. Money does not automatically replace a carer, and a contact cannot supply access to a service one has no right to enter.
+
+Preparation also consumes present life. Unlimited saving can cancel learning and rest; keeping every exit open can prevent meaningful commitment; continuous monitoring can import anxiety and surveillance into a household. The question is not whether more buffer is always better, but what fragile condition it protects, who bears its cost, whether it is proportionate to the harm and when it should be used to recover life rather than accumulated further.
+
+[[file:30.93-intertemporal-agency.org][Intertemporal agency]] therefore preserves future judgment without allowing future safety to consume the present. A person may knowingly accept risk. The system's task is not a life without fluctuation, but preventing undisclosed risk and unbearable cost from being silently assigned to that person or someone else.
+
+** During disruption, restore the conditions of judgment first
+Immediately after a major change, the first task may not be to optimize an entire life again. Sleep, shelter, care, medication, communication, identity records or space free from immediate harm may determine whether someone can continue to judge at all. Assistance then shifts from selecting an optimal path to restoring minimum conditions for action and understanding.
+
+This does not grant a system unlimited authority in the name of emergency. The more pressure and time scarcity increase, the more important it becomes to distinguish already authorized routine action, limited steps necessary to prevent immediate serious harm, and major decisions that must return to people with legitimate standing. When full explanation is impossible, retain the minimum necessary record and later reconsideration instead of presenting haste as full consent.
+
+Recovery need not mean returning to the state before the event. A lost relationship, ability, home or occupation may not be restorable. Someone may need to build a different life that is still worth living. Defining successful recovery as restored prior output misreads grief, adaptation and new purposes as deviation.
+
+** State transition does not mean the future has been enumerated
+TLA+ can express states, permitted transitions and conditions requiring reconsideration. It cannot make an unimagined event known. The Org Babel excerpt below states one discipline only: when a new observation disrupts the situation, commitments do not silently expand; the state moves through stabilization and reconsideration. =o= stands for an observation the system can receive, not proof that every type of event has been enumerated.[fn:tla-en]
+
+#+NAME: disruption-reconsideration-en
+#+CAPTION: A new observation first triggers disruption and review; commitments change only through explicit reconsideration. This state relation is not a risk predictor.
+#+begin_src tla :eval never :exports code
+VARIABLES mode, observations, commitments, review_required
+
+Init == /\ mode = "ordinary"
+        /\ observations = {}
+        /\ commitments = {}
+        /\ review_required = FALSE
+
+Unexpected(o) == /\ o \notin observations
+                 /\ observations' = observations \cup {o}
+                 /\ mode' = "disrupted"
+                 /\ review_required' = TRUE
+                 /\ UNCHANGED commitments
+
+Stabilize == /\ mode = "disrupted"
+             /\ mode' = "stabilizing"
+             /\ UNCHANGED <<observations, commitments, review_required>>
+
+Reconsider(next_commitments) ==
+  /\ review_required
+  /\ mode' = "reconsidering"
+  /\ commitments' = next_commitments
+  /\ review_required' = FALSE
+  /\ UNCHANGED observations
+#+end_src
+
+The relation deliberately does not state which new commitments are correct. They may require fact-checking, a person's changed interpretation, participation by affected people and external support. Formal language constrains the order of reasoning here: do not peek at the future before the event, do not retain invalid premises afterward, and do not promote an emergency action into standing authority.
+
+** AI assistance extends before, during and after change
+Before change, AI can inspect single points of dependence, help form proportionate slack and identify unverified premises. During change, it can organize facts, contact authorized support, protect essential records and reduce cognitive burden. Afterward, it should compare assumptions with experience, ask which purposes remain and which relationships or capacities changed, and support renegotiation.
+
+These stages cannot substitute for one another. Rehearsal is not occurrence, emergency response is not long-term governance, and retrospective narrative does not prove the event was predictable at the time. [[file:../40-sources/40.96-performative-prediction.org][Performative prediction]] also reminds us that advice changes behavior and institutional response. Prediction failure may reflect missing information, a changing environment or the prediction's participation in changing that environment—not merely an individual's failure to comply.
+
+** Some changes require a revised interpretive frame
+After losing an occupation, the question may not merely be how to restore income quickly. After a change in ability, the aim may not simply be restoration of previous function. Events can expose overlooked relationships, harms or aspirations. [[file:../40-sources/40.97-transformative-experience-evaluability.org][Transformative experience and evaluability bias]] offers a disputed but important warning: experience that is hard to evaluate in advance should not count as less valuable merely because it is hard to display.
+
+Post-event updating therefore changes more than balances and probabilities. A person must be able to say, “the original question was wrong,” “I no longer endorse this purpose,” or “what never entered the model matters most now.” AI may help compare these reasons with existing responsibilities, but it must not diagnose every change as instability or exploit vulnerability to rewrite long-term purposes.
+
+** Individual resilience cannot absolve institutions
+When a hospital, employer, platform or public service contains a single point of failure, giving individuals more preparation work may only move responsibility. Advice to save, learn or back up more cannot replace continuity, reasonable accommodation, correction and remedy from institutions.
+
+Personal preparation still matters, but the owner of a constraint should remain visible: which conditions an individual can alter, which need household negotiation, which belong to organizations and which need public or collective action. [[file:30.97-shared-lives-and-responsibility.org][Living together]] means recovery resources cannot always be extracted from the most exhausted, least powerful or least involved in the decision.
+
+** Argument and test progress [4/7] [57%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+This records work on the essay, not anyone's “resilience score.”
+
+- [X] Distinguish bounded risk, ambiguity and surprise beyond current representation.
+- [X] Explain what slack protects, who bears its cost and how preparation burdens present life.
+- [X] Distinguish preparation before change, stabilization during it and reconsideration afterward.
+- [X] Use a TLA+ state relation to prevent new observations from silently expanding commitments.
+- [ ] Test “restore the conditions of judgment first” against voluntarily contributed disruption accounts.
+- [ ] Compare the non-substitutability of financial, temporal, relational, accessibility and institutional slack.
+- [ ] Examine whether institutions use “individual resilience” to shift continuity and remedy duties.
+* Counterexamples
+First, not every surprise requires reopening a person's purposes. A delayed bus or ordinary expense may fit existing rules. Reconsideration should be proportionate to invalidated premises, consequences and irreversibility.
+
+Second, urgent conditions may not permit full participation. Limited emergency action may be justified, but cannot set a precedent for permanent authority. Necessity, scope, stopping conditions and later remedy need explanation.
+
+Third, emphasis on the unknown can become an excuse to reject commitment or evidence. Incomplete models do not make every judgment equally ignorant. Reliable evidence should still matter, and false claims cannot evade criticism by saying the future is unpredictable.
+
+Fourth, “accepting a changed self” can be used institutionally to lower standards of support. Respect for changed purposes does not require adaptation to preventable harm or abandonment of available treatment, accommodation, compensation and reform.
+* Provisional Conclusion
+Living with the unpredictable means neither forecasting every event nor building an invulnerable life. AI should help form proportionate and diverse slack, restore conditions for action and judgment during disruption, and reopen the question when new experience invalidates old premises. Recovery may lead toward a different life, but personal adaptation must not erase institutional responsibility, others' participation or material remedy.
+* Promotion Criteria
+This remains a reflection draft. Promotion requires voluntary experience across disruption types, resource conditions, abilities and household structures; testing the boundary between emergency action and standing authority; checking whether different forms of slack are actually available; and examining whether “reconsideration” becomes a way to steer vulnerable people. Philosophical state discipline, operational emergency procedure and applicable legal or professional duties must remain distinct. Even a syntactically checked or model-checked TLA+ excerpt would show only internal properties of the expression, not coverage of real-world risks.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Facing life with AI]] · [[file:30.50-unknown-as-first-class.org][Unknown as First-Class]] · [[file:30.90-knowing-after-action.org][Knowing after Action]]
+
+[fn:tla-en] [[https://lamport.azurewebsites.net/tla/tla.html][TLA+]] is used here as a language for states and transitions. This essay neither runs a model checker nor treats the excerpt as a receipt for real-world risk coverage.
