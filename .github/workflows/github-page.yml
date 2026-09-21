@@ -23,9 +23,9 @@ jobs:
     permissions:
       contents: read
     env:
-      ORG_ZHIXING_ROOT: ${{ runner.temp }}/org-zhixing
-      PAGES_CONTENT: ${{ runner.temp }}/philosophy
-      PAGES_OUTPUT: ${{ runner.temp }}/philosophy-pages
+      ORG_ZHIXING_ROOT: ${{ github.workspace }}/.ci/org-zhixing
+      PAGES_CONTENT: ${{ github.workspace }}/.ci/philosophy
+      PAGES_OUTPUT: ${{ github.workspace }}/.ci/philosophy-pages
     steps:
       - name: Checkout philosophy content
         uses: actions/checkout@v7
