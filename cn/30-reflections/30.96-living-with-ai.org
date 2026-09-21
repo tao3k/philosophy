@@ -83,6 +83,11 @@ $ V_t = M_t inter F_t $
 
 人可以因尝试而发现自己不喜欢某种职业；这不必是执行失败。系统也可能因为只听见留下来的使用者而误判效果。应保留拒绝、退出与未受益者的经验，并允许当事人 [[file:30.80-refutable-challengeable-revisable.org][质疑问题本身]]。[[file:30.70-traceable-knowledge-source-to-consequence.org][可追溯性]] 服务于这种复议，而不是为系统制造免责记录。
 
+** 人不应该成为学习的机器
+普通人可以只想委托一件烦琐事务，也可以想学习方法，或参与一项自己重视的创造。三者都正当，却需要不同的交互、节奏和评价。学习服务于生活，不是要求人随着每次产品更新重新证明自己有用；不会使用某种界面，也不等于缺少理解、经验或能力。
+
+产品与组织有责任让新工具不那么难学、不那么费心：入口要看得懂，遇到困难要有人帮，做出的成果能够带走，不再使用也能继续生活。技术可以使专业知识更易接近，但只有在事实、制度与真实机会同时可得时，才可能缩小知识和行动差距。[[file:30.99-shanjia-yuwu.org][善假于物]] 将委托、成长、共同创造与享受放在同一主轴上，也为不学习、不生产和只想休息保留位置。
+
 ** 论证与研究进度 [3/6] [50%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
@@ -108,4 +113,4 @@ $ V_t = M_t inter F_t $
 * 升格条件
 本篇仍是总论草稿。升格需要跨生活领域与不同资源条件的反例审查，尤其检验“不想优化的人”“无法独立决策而需要支持的人”和“承担他人选择代价的人”；区分叙事共鸣与实际改善证据，并说明哪些主张只适用于特定情境。不能因篇章齐全或合约检查通过而视为哲学论证已经闭合。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.95-life-after-job-loss.org][实践入口：失业之后]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活]] · [[file:30.98-living-with-the-unpredictable.org][中断、恢复与重议]]
+[[file:../README.org][语言入口]] · [[file:30.95-life-after-job-loss.org][实践入口：失业之后]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活]] · [[file:30.98-living-with-the-unpredictable.org][中断、恢复与重议]] · [[file:30.99-shanjia-yuwu.org][善假于物：人的价值、勇气与共同成长]]

@@ -64,6 +64,11 @@ If working conditions persistently conflict with necessary care, redistributing 
 
 AI may help identify support gaps, organize questions for institutions and consider collective cooperation. It must not invent available benefits, services or entitlements, or shift structural reform onto those already most exhausted. Individual action and institutional change are not mutually exclusive, but capacities to undertake them differ.
 
+** Who receives technical convenience and who bears its burdens?
+Time saved when an organization adopts AI does not automatically become workers' free time, income or choice. It may instead become higher quotas, denser monitoring, or checking and repair pushed onto frontline staff. Household convenience may depend on one person watching continuously. A “helpful” customer recommendation may merely make a transaction easier to complete. Any account of help must ask who benefits, who spends time learning, checking mistakes and recovering after interruption, and who can refuse.
+
+Human experience can help everyone do better, but contribution should not be the default price of receiving help. People should choose which experiences may improve the service, how long they remain and how to take them back. They should also be able to take their work and records with them, so leaving one system does not erase knowledge they formed. If only the platform accumulates while the person can neither take nor challenge what was learned, that is not shared growth. [[file:30.99-shanjia-yuwu.org][Skillfully Using Things]] therefore asks whether what technology brings ultimately remains with people.
+
 ** Disagreement may remain
 Living together does not require identical purposes. One person wants to move; another values local relationships. There may be no option that improves everyone's situation. Show actual conflicts, parts that can be tried in stages, losses that cannot be compensated and judgments still required, rather than pretending an aggregate score resolves them.
 

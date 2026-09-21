@@ -1,0 +1,61 @@
+#+TITLE: AI in Work, Learning, and Creation: Conceptual and Evidence Boundaries
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-99-EN
+:SEMANTIC_ID: philosophy.source-note.40.99-ai-help-evidence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.99-ai-help-work-learning-creation.org
+:SOURCE_ID: source.ai-help-evidence
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: J. C. R. Licklider; Douglas Engelbart; Erik Brynjolfsson et al.; Hamsa Bastani et al.; Michelle Vaccaro et al.; Anil R. Doshi and Oliver P. Hauser; ILO
+:SOURCE_WORK: Human-computer relations, work, learning, creativity, and job transformation
+:SOURCE_EDITION: Primary texts and empirical studies, 1960-2025
+:SOURCE_DATE: 1960-2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Licklider 1960; Engelbart 1962; Brynjolfsson et al. 2025; Bastani et al. 2025; Vaccaro et al. 2024; Doshi and Hauser 2024; ILO 2025
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.ai-help-evidence
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.99-ai-help-evidence-en
+:END:
+This note synthesizes two conceptual sources and five empirical strands: J. C. R. Licklider's [[https://groups.csail.mit.edu/medg/people/psz/Licklider][Man-Computer Symbiosis]] (1960); Douglas Engelbart's [[https://dougengelbart.org/content/view/138/][Augmenting Human Intellect]] (1962); Brynjolfsson, Li and Raymond's [[https://www.nber.org/papers/w31161][Generative AI at Work]] (2023 working paper; 2025 QJE version); Bastani et al.'s [[https://doi.org/10.1073/pnas.2422633122][Generative AI without guardrails can harm learning]] (2025); Vaccaro, Almaatouq and Malone's [[https://www.nature.com/articles/s41562-024-02024-1][meta-analysis of human-AI combinations]] (2024); Doshi and Hauser's [[https://doi.org/10.1126/sciadv.adn5290][generative-AI short-story experiment]] (2024); and the ILO [[https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure][2025 occupational exposure index]].
+* Context
+Licklider wanted computers to enter problem formulation and real-time thought instead of merely solving preformulated problems. Engelbart used “augmentation” for a person together with language, artifacts, methods and training. That is a source's historical term, not this repository's definition of a person. Both wrote in contexts whose division of human and machine abilities is not a permanent allocation for the present.
+
+The empirical studies show that “AI assistance” has heterogeneous outcomes that cannot be summarized by one performance gain.
+
+#+NAME: ai-help-evidence-boundaries-en
+| Source | Observation within the particular study | What it does not establish |
+|--------+-----------------------------------------+----------------------------|
+| Customer-support study | Among 5,179 agents, productivity rose about 14% on average and about 34% for novice and lower-skilled workers, with suggestive evidence of knowledge diffusion | Every occupation and worker will learn or share benefits fairly |
+| High-school mathematics experiment | Ordinary GPT assistance improved supported practice while unassisted learning could worsen; a teacher-designed guarded version mitigated the problem | AI necessarily makes people less capable, or one prompt design generalizes to all education |
+| Meta-analysis of 106 experiments | Human-AI combinations outperformed humans alone on average but underperformed the better of human or AI alone; task type and relative ability mattered | A human final confirmation automatically creates synergy |
+| Short-story experiment | AI ideas improved average creativity, writing and enjoyment ratings, especially for lower-baseline writers, while stories also became more similar | Every creative practice or culture will improve or converge in the same way |
+| ILO occupational index | About one in four workers globally are in occupations with some GenAI exposure, with job transformation judged the more likely aggregate effect | Job security, distribution of income or any individual's future has been determined |
+
+The studies measure different objects: task speed, unassisted exams, experimental performance, ratings of work and occupational task exposure. Adding them into a “total human progress score” would be meaningless.
+* Interpretation Boundaries
+The conceptual sources do not prove that today's AI improves human lives. The empirical sources cannot generalize local outcomes to every person, tool or long-term life. Customer-support productivity is not human worth, a mathematics exam is not all learning, laboratory synergy is not organizational responsibility and story ratings are not the creator's whole experience.
+
+The ILO index measures potential exposure rather than forecasting unemployment. An aggregate judgment that transformation is more likely guarantees neither safety nor displacement for a particular person.
+
+“Human alone” in experiments often assumes a person without ordinary tools. For someone needing continuing assistance, an unaided baseline may be the wrong normative aim. Conversely, legitimate dependence must not hide provider lock-in, reduced ability to understand or one-way extraction of experience.
+* Influence
+This repository observes at least three things separately: task completion, change in understanding or action according to a person's purpose, and whether the person can still direct important affairs. A human in the loop, an explanation or improved assisted performance cannot separately establish all three.
+
+Help should fit the person's purpose. Delegation should leave less to worry about; learning should ask whether judgment remains when help changes or disappears; creative help should ask whether people enjoyed taking part and whether expression remains diverse. We must also ask who receives saved time and labor, and who spends time learning a new tool, finding mistakes and repairing harm.
+* Interpretation Chain
+Licklider's problem formulation and Engelbart's whole capability system → differentiated evidence from work, education, collaboration, creation and occupational exposure → [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillful Use of Things]] distinguishes completion, growth and direction → tests through [[file:../30-reflections/30.90-knowing-after-action.org][learning after action]] and [[file:../30-reflections/30.97-shared-lives-and-responsibility.org][distribution of benefits and burdens]]. The last two steps are Tao3k's normative interpretation, not a shared conclusion of the source authors.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillful Use of Things]] · [[file:../30-reflections/30.90-knowing-after-action.org][Knowing after action]]

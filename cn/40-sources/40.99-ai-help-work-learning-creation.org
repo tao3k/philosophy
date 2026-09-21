@@ -1,0 +1,61 @@
+#+TITLE: AI 帮助人的工作、学习与创造：概念和证据边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-99-CN
+:SEMANTIC_ID: philosophy.source-note.40.99-ai-help-evidence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.99-ai-help-work-learning-creation.org
+:SOURCE_ID: source.ai-help-evidence
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: J. C. R. Licklider; Douglas Engelbart; Erik Brynjolfsson et al.; Hamsa Bastani et al.; Michelle Vaccaro et al.; Anil R. Doshi and Oliver P. Hauser; ILO
+:SOURCE_WORK: Human-computer relations, work, learning, creativity, and job transformation
+:SOURCE_EDITION: Primary texts and empirical studies, 1960-2025
+:SOURCE_DATE: 1960-2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Licklider 1960; Engelbart 1962; Brynjolfsson et al. 2025; Bastani et al. 2025; Vaccaro et al. 2024; Doshi and Hauser 2024; ILO 2025
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.ai-help-evidence
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.99-ai-help-evidence-cn
+:END:
+本说明综合两组概念来源与五组经验来源：J. C. R. Licklider 的 [[https://groups.csail.mit.edu/medg/people/psz/Licklider][Man-Computer Symbiosis]]（1960）；Douglas Engelbart 的 [[https://dougengelbart.org/content/view/138/][Augmenting Human Intellect]]（1962）；Brynjolfsson、Li 与 Raymond 的 [[https://www.nber.org/papers/w31161][Generative AI at Work]]（2023 工作论文，2025 QJE 版本）；Bastani 等的 [[https://doi.org/10.1073/pnas.2422633122][Generative AI without guardrails can harm learning]]（2025）；Vaccaro、Almaatouq 与 Malone 的 [[https://www.nature.com/articles/s41562-024-02024-1][人机组合元分析]]（2024）；Doshi 与 Hauser 的 [[https://doi.org/10.1126/sciadv.adn5290][生成式 AI 与短篇创作实验]]（2024）；以及 ILO 的 [[https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure][2025 职业暴露指数]]。
+* 语境
+Licklider 希望计算机进入问题形成和实时思考，而不只求解预先写好的问题；Engelbart 以 “augmentation” 描述人连同语言、工具、方法与训练的整体。这是来源自身的历史术语，不是本仓库对人的定义。两者都处在特定年代，其人机能力判断不是今天必须保留的永久分工。
+
+经验研究则表明“AI 帮助”包含不同结果，不能由一次性能提升统一概括。
+
+#+NAME: ai-help-evidence-boundaries-cn
+| 来源 | 在特定研究中观察到什么 | 不能据此证明什么 |
+|------+------------------------+------------------|
+| 客服研究 | 5,179 名客服中，生产率平均提高约 14%，新手与较低技能人员约提高 34%，并有知识传播的提示性证据 | 所有工作、所有员工都会学习或公平分享收益 |
+| 高中数学实验 | 普通 GPT 帮助改善练习期表现，但移除帮助后的学习可能受损；带教师设计保护的版本缓解该问题 | AI 必然使人变笨，或一种提示适用于所有教育 |
+| 106 项实验元分析 | 人机组合平均优于人单独，却平均低于“人或 AI 中较好的一方”；任务类型与相对能力影响结果 | 保留一个最终确认的人就自动产生协同 |
+| 短篇创作实验 | AI 创意提高平均创造性、可读性与愉悦评价，尤其帮助起点较低者；作品之间也更相似 | 所有创作或文化整体都会同样改善或趋同 |
+| ILO 职业指数 | 全球约四分之一劳动者所在职业有某种 GenAI 暴露，工作转型被判断为更可能的总体影响 | 具体岗位安全、收入分配或任何个人的未来已经确定 |
+
+这些研究的测量对象不同：任务速度、无辅助考试、实验绩效、作品评价、职业任务暴露。把它们相加成“人的进步总分”没有意义。
+* 解释边界
+概念来源不能证明今天的 AI 已经改善人的生活；经验来源也不能把局部结果推广到所有人、所有工具和长期生活。客服生产率不是人的价值，高中数学成绩不是全部学习，实验协同不是组织责任，短篇评分也不是创作者的全部体验。
+
+ILO 指数衡量潜在暴露而非失业预测。工作更可能转型的总体判断，不能作为任何个人无需准备或一定被替代的保证。
+
+研究中“人单独”常假设人不使用日常工具；对长期需要辅助的人，无辅助基线可能不是最合适的规范目标。相反，依赖合理也不能掩盖供应者锁定、解释能力下降或经验被单向抽取。
+* 影响
+本仓库据此分开观察至少三件事：任务是否完成，人的理解或行动是否按其目的发生变化，以及人是否仍能对重要事务作主。保留人在环里、提供解释或提高即时表现，都不能单独替这三项背书。
+
+帮助方式必须适合人的目的：代劳应让人少操心；学习要看换一种帮助或没有帮助时是否仍会判断；创作还要问人是否享受参与、表达是否仍有不同。技术省下的时间和劳动归谁，又是谁花时间学习新工具、查错和补救，同样需要追问。
+* 解释链
+Licklider 的问题形成与 Engelbart 的整体能力系统 → 工作、教育、协作、创作与职业暴露的差异化证据 → [[file:../30-reflections/30.99-shanjia-yuwu.org][善假于物]] 对完成、成长与作主的区分 → [[file:../30-reflections/30.90-knowing-after-action.org][行后学习]]、[[file:../30-reflections/30.97-shared-lives-and-responsibility.org][收益与负担分配]] 的检验。后两步是 Tao3k 的规范解释，不是来源作者的共同结论。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.99-shanjia-yuwu.org][善假于物]] · [[file:../30-reflections/30.90-knowing-after-action.org][行后再知]]

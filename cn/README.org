@@ -52,12 +52,13 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 想追问什么 | 建议阅读路径 |
 |------------+--------------|
 | 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实学与积极帮助]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
+| 借助 AI，人应得到什么、保留什么？ | [[file:30-reflections/30.99-shanjia-yuwu.org][人的价值、勇气与共同成长]] → [[file:30-reflections/30.90-knowing-after-action.org][事情做成、学会判断与仍能作主]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][便利与负担落在谁身上]] |
 | 能看见多少未来，又怎样面对未被表示的变化？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.98-living-with-the-unpredictable.org][中断、恢复与重议]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
 | AI 和他人应如何参与我的判断？ | [[file:30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][受托帮助]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][共同生活与责任]] |
 | 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
 
-三条新增来源线索：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性偏差]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性偏差]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]，以及[[file:40-sources/40.99-ai-help-work-learning-creation.org][AI 进入工作、学习与创作之后的证据边界]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
 
 * 专题索引
 
@@ -70,6 +71,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
+| 借物、学习与知识平权 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][现代证据边界]] |
 
 * 知、行与经验
 
@@ -80,6 +82,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 不同主张如何承担失败 | [[file:30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]] | [[file:40-sources/40.70-popper-falsifiability.org][Popper：可证伪性]]；[[file:40-sources/40.90-woodward-interventionism.org][Woodward：干预主义]] |
 | 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
 | 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
+| 人怎样借助 AI 更好地理解、行动、创造与享受 | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物：AI 时代人的价值、勇气与共同成长]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与工具]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作的证据]] |
 
 * 模型、价值与判断边界
 

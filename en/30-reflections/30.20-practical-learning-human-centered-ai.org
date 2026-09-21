@@ -45,7 +45,7 @@ Distinguish expressing an aspiration, identifying a possible path and obtaining 
 ** Usefulness does not turn all of life into a project
 Some want tasks completed faster; others want freedom from continuous optimization. Rest, companionship, reading and exploration without a defined output need not establish an economic return to matter. Appropriate help sometimes reduces decisions, sometimes develops judgment, and sometimes stops prompting.
 
-Agency therefore cannot be measured uniformly by completed system tasks. Shared care, supported communication and appropriate delegation can strengthen it; demanding that users understand every technical detail may do the opposite. The positive value developed in the [[file:30.96-living-with-ai.org][framing essay]] concerns making important things more possible while preserving life without this system.
+Agency therefore cannot be measured uniformly by completed system tasks. Shared care, supported communication and appropriate delegation can support it; demanding that users understand every technical detail may do the opposite. The positive value developed in the [[file:30.96-living-with-ai.org][framing essay]] concerns making important things more possible while preserving life without this system.
 
 * Counterexamples
 

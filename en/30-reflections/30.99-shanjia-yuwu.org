@@ -1,0 +1,136 @@
+#+TITLE: Skillful Use of Things: Human Worth, Courage, and Growth with AI
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-99-EN
+:SEMANTIC_ID: philosophy.reflection.30.99-shanjia-yuwu
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.99-shanjia-yuwu.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.99-shanjia-yuwu-en
+:END:
+As AI completes more searching, comparison, writing, analysis and execution, what should ordinary people gain? If the answer is only “give more things to machines,” work may finish faster while people find it harder to leave the tool; one story may look more finished while many voices become more alike.
+
+[[file:30.96-living-with-ai.org][Facing life with AI]] already asks about life purposes and substantive opportunities. This essay states a second axis explicitly: Tao3k examines not only how AI should be constrained, but how people can use AI to find more possibilities for understanding, action, creation and enjoyment. Technical development must not turn people into managed inputs, confirmation buttons supervising automation or subjects trained throughout life merely to avoid obsolescence.
+* Argument
+People are not objects waiting for an upgrade. The meaning of using tools must be understood within a life: whether people can better pursue what they endorse, understand and redirect their course, reliably entrust work they do not wish to perform, and retain the freedom not to learn or produce—to rest or enjoy something without another improvement demand.
+
+** Human worth does not rest on gaps left by machines
+Whether a task can be automated, how a job is reorganized and whether a person deserves respect are three different questions. The first two change with technology, organizations and institutions. The third cannot depend on who is faster or more accurate on a benchmark. Children, older people, people temporarily unable to work and people who do not excel at highly rewarded tasks need not prove productivity to qualify for dignity, relationships, expression and choice.
+
+“AI will never truly create” is therefore an unstable foundation for human worth. Even if a system outperforms most people in a reasoning, writing or design task, it does not acquire authority to interpret someone's life. It may process knowledge about a person without gaining the right to prescribe who that person should become.
+
+This lets us face changes in work honestly. The ILO study collected in the [[file:../40-sources/40.99-ai-help-work-learning-creation.org][evidence note on work, learning and creation]] concerns task exposure and likely job transformation, not a guarantee of employment for any person. Human worth does not depend on a job, but declarations of worth cannot hide material losses of income, identity or bargaining power.
+
+** Skillful use is not surrender to a tool
+The discussion of “skillfully making use of external things” in [[file:../40-sources/40.98-xunzi-learning-and-tools.org][Xunzi's Encouragement of Learning]] reminds us that people can extend action through things without first turning themselves into those things. A person need not swim faster than a boat to cross a river, or master every fare rule to deserve a reliable travel arrangement.
+
+AI differs from a simple physical extension or fixed-command tool. It filters information, frames options, offers reasons and influences how people understand their aspirations. Skillful use now asks at least four questions: which capability expands, which complexity is genuinely reduced, how the tool shapes the visible world, and whether a person can still challenge, replace and leave the assistance.
+
+The ancient text does not settle data rights, platform benefit or model dependence. This repository draws on the coexistence of learning and tool use, then adds contemporary questions of authority, distribution and institutional responsibility. That is a modern interpretation, not a claim about Xunzi's own technological position.
+
+** To judge help, return to the life in which it is used
+Licklider wanted computers to participate in problems not yet fully formulated. Engelbart treated people, language, artifacts, methods and training as an interacting whole. The [[file:../40-sources/40.99-ai-help-work-learning-creation.org][source synthesis]] does not require us to freeze their historical division of human and machine functions. It supports a shift in evaluation: look neither only at model parameters nor only at a user left to adapt alone, but at how assistance enters work, relationships, institutions and ordinary life.
+
+The philosophical significance of POO Flow, MRR and ASP cannot be established by counting modules. They help only when composition, relational reasoning and interaction make complex conditions easier to understand, reliable delegation reduces worry, and people can take their plans and evidence with them. Infrastructure shows that a tool might help; whether life improves remains a separate question.
+
+** Some people want relief, some want to learn, and some want to take part
+AI should neither complete everything by default nor turn every request into a lesson. Some activities matter because the work is settled, some because a person gradually learns, and some because taking part is itself valuable.
+
+#+NAME: assistance-purposes-en
+| What a person wants now | How AI might help | What the person should retain | How it can go wrong |
+|-------------------------+-------------------+-------------------------------+---------------------|
+| Relief | Settle travel, a form or reminders, asking only when a real conflict arises | The conditions already stated, knowledge that the work is done, and freedom to change or stop | The person still has to watch constantly while only back-end cost falls |
+| Learning | Offer proportionate hints, practice, feedback and ways of judging | Room to ask, try, err and think back | The answer improves now while judgment worsens once help is removed |
+| Creation or participation | Make expression easier while retaining personal language, memory and choice | Investment in the process, one's own voice and a choice about publication | Every effortful process is treated as inefficiency to remove |
+
+What someone wants may change within one activity: a booking today, an explanation tomorrow; a finished story sometimes, the experience of writing at others. Help should follow that changing wish instead of forcing study in the name of education or permanently removing participation in the name of convenience.
+
+Long-term use of assistance is not automatically failure. For people using accessibility, translation or memory support, continuing to have a say, being able to change support and actually taking part may matter more than doing everything without help. Human agency, not a myth of self-sufficiency, needs protection.
+
+** Getting something done is not the same as learning or remaining able to decide
+After assistance, ask at least three questions separately: Was the work settled? What did the person come to understand or become able to do? Can they decide how to seek help next time, change course or leave? All three can improve, or they can conflict.
+
+#+NAME: life-outcomes-en
+| What to look at | A question to ask | What cannot answer it |
+|-----------------+-------------------+-----------------------|
+| The work | Was the ticket booked within the price and direct-flight requirements? | A successful back-end status or complete-looking answer |
+| The person | Can they better inspect course evidence, express a purpose or find a next step? | A current score, accepting advice or finishing faster |
+| Having a say | Can they understand important limits, change the request, take records away and seek different help? | One final confirmation click |
+
+Studies of customer support, mathematics learning, people working with AI and short-story creation point in different directions. Some report faster work in one workplace. Some separate doing well with help from truly learning after help is removed. Some find that working together does not necessarily beat whichever party was better. Some find better-rated individual stories alongside greater similarity between them. Setting, period, task and measurement limit every result. Adding AI or leaving one person to confirm at the end cannot by itself establish a better life.
+
+** Changes in people and tools do not belong on one rising curve
+AI may use feedback to improve search, planning, code or conversation. A person may develop knowledge, judgment, habits, relationships and new purposes in life. These are not the same kind of change and should not collapse into one curve of “rising intelligence.”
+
+Growing together first does not mean “getting stronger together.” AI may improve its help only through feedback it is allowed to use. A person may gain understanding and room to act in life while continuing to say why help is wanted. Better prediction of someone's choices does not make that person better able to live. Continuing to rely on a tool does not mean failure to grow.
+
+Growing together also does not make someone's experience platform property. Saving, sharing, combining or training on experience requires a choice the person can understand, including where it came from and where it may be used. People should at least be able to take their requirements, plans, grounds and reflections with them. Otherwise the platform learns more with every use while the person receives access that can always be withdrawn.
+
+** Grounded courage differs from higher confidence
+Advice that only lowers risk may turn life into endless preparation. Advice that always urges action may sell false certainty as courage. [[file:30.93-intertemporal-agency.org][Intertemporal agency]] and [[file:30.98-living-with-the-unpredictable.org][life with the unpredictable]] need a third possibility: after understanding major costs, checking necessary conditions and facing responsibilities to others, a person may still choose a path that is not the least risky.
+
+Grounded courage comes from understanding what is being tried, where the important unknowns remain, whether the first step is bearable, which signals call for revision and why failure is not a verdict on the whole person. It can appear in starting a venture, changing occupation and creating, but also in refusing an unsuitable opportunity, protecting rest or stopping a path one no longer endorses.
+
+Small experiments reduce some unknowns but are not prerequisites for every commitment. Relationships, relocation, care and sustained creation may not be fully trialable. A helper should speak honestly about uncertainty that remains. Once those deciding understand the cost, involve the people who need a say and have authority to act, a method's preference for reversibility must not block commitment forever.
+
+** Creation, rest and enjoyment are not extras outside efficiency
+Someone writing a story may want a finished result, practice in expression or the pleasure of finding words. Assistance should remove unwanted obstruction, not all effort. Some difficulty in music, gardening, writing, play and language learning is part of participating in the activity.
+
+AI can help organize local memories, try structures and receive feedback. It can also smooth local language, hesitation and irregular experience into one common style. A work that pleases evaluators more does not show that the person experienced the creative process they wanted. One better work does not establish greater diversity in shared culture.
+
+Time saved by technology need not all return to production. Rest, relationships, care, curiosity and creation without market return are legitimate uses of technical benefit. If an organization converts every efficiency gain into a higher quota, technical progress may merely translate machine speed into new human pressure.
+
+** Equality of knowledge ultimately asks where knowledge and benefit remain
+Universal model access can coexist with records people cannot take, restrictions no one can explain, providers they cannot replace and experience flowing only one way. Knowledge becomes more equal when help is understandable enough to use, portable enough to continue and replaceable enough to avoid being tied to one provider.
+
+Distribution of technical benefit is also philosophical. Do more efficient workers receive rest, learning and bargaining space? Do customers receive more usable service or more unwanted transactions? Do relatives absorb omitted supervision and care? [[file:30.97-shared-lives-and-responsibility.org][Living together]] must place benefits, burdens, knowledge contribution and decision standing in the same map of responsibility.
+
+** Three situations from life still need observation [0/3] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+These are unfinished observations in real life, not a measure of manuscript completion.
+
+- [ ] Everyday relief: settle the matter without quietly changing important conditions, and genuinely leave the person with less to worry about.
+- [ ] Learning and action: increase real opportunities and next steps, make important judgments clearer and avoid blaming deprivation on the individual.
+- [ ] Self-directed creation: distinguish the finished work, learning and pleasure of taking part, while hearing distinctive voices, people who leave and longer-term change.
+
+** Argument and evidence progress [5/8] [62%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+This records argument work, not rankings of human worth or growth.
+
+- [X] Separate human worth from task advantage, job change and productivity.
+- [X] Distinguish legitimate purposes of delegation, learning and creative participation.
+- [X] Observe separately whether the work was settled, the person came to understand more and they could still decide.
+- [X] Distinguish grounded courage from risk minimization and induced confidence.
+- [X] Include rest, enjoyment and nonmarket creation in technical benefit.
+- [ ] Compare immediate results with later change in the three situations from life.
+- [ ] Ask what workers, households, customers and institutions each gain and what each pays to use the technology.
+- [ ] Test whether people can take their plans, grounds and experience with them, change support and decide whether to keep contributing experience.
+* Counterexamples
+First, emphasis on human growth can turn everyday help into homework. When someone only wants a low-risk matter settled, AI should do it reliably rather than force study of internal methods.
+
+Second, reasonable reliance can become a trap. Dependence is not itself a defect, but a person can no longer have much say when only one provider can interpret records, continue a plan or supply accessibility support.
+
+Third, celebrating ordinary creativity can romanticize unpaid labor or prescribe “meaningful” uses of technical leisure. Rest and purposeless entertainment do not need permission from another growth narrative.
+
+Fourth, human standing must not become an excuse to reject powerful tools. Full automation can sometimes be safer and easier than manual confirmation. The issue is whether purpose, authority, outcome and remedy are appropriate, not ceremonial retention of a human step.
+
+Fifth, sharing the benefits of technology fairly cannot be solved through product settings alone. Wages, workload, public services, educational opportunity and data rights may require organizational, legal and collective action. This essay must not return institutional problems to a row of personal switches.
+* Provisional Conclusion
+Tao3k is not committed to proving that machines will always remain inferior, nor does it treat a person as a learning machine that must train and optimize without end. Human worth does not depend on task comparison. AI's positive value lies in reducing unwanted burdens, making knowledge and complex action more available, and supporting grounded courage, creation, care, rest and shared life.
+
+Such help must be tested within life: whether the task was completed, whether people gained the understanding or reliable delegation they sought, whether the people concerned could still direct important affairs, and whether capability and benefit stayed with them. AI doing more is a condition, not a conclusion.
+* Promotion Criteria
+This remains the central draft for a second axis. Promotion requires observing the three situations over time and hearing from people whose trust was misplaced, who chose to leave, who received no benefit and who were affected without using the system. It must distinguish what people learned after help is gone, which reliance is reasonable and when one provider has trapped them, then ask who ultimately receives efficiency, data and experience. Xunzi, Licklider and Engelbart supply questions and concepts; studies of work, education, collaboration and creation supply bounded evidence. None alone proves that Tao3k has helped people live better.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Facing life with AI]] · [[file:30.90-knowing-after-action.org][Knowing after action]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]]

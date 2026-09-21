@@ -83,6 +83,11 @@ Institutional conditions are not personal character defects. A shortage of jobs 
 
 Trying a profession may reveal that someone does not want it; that need not be execution failure. A system may also misjudge its effects by hearing only from those who remain. Refusal, exit and nonbeneficiaries' experience matter, as does the ability to [[file:30.80-refutable-challengeable-revisable.org][challenge the framing itself]]. [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceability]] serves reconsideration, not an institutional alibi.
 
+** People should not become learning machines
+An ordinary person may want to delegate one tedious task, learn a method, or participate in a creation they value. All three are legitimate, but they need different interactions, tempos and evaluations. Learning serves life; it should not require people to prove their usefulness again after every product release. Unfamiliarity with one interface is not lack of understanding, experience or ability.
+
+Products and organizations have a duty to make new tools less difficult to learn and less burdensome to live with: entry should be understandable, help available when needed, work portable, and life still possible after stopping use. Technology can make specialist knowledge easier to approach, but it can narrow knowledge and action gaps only when facts, institutions and real opportunities are also available. [[file:30.99-shanjia-yuwu.org][Skillfully Using Things]] places delegation, growth, co-creation and enjoyment on one axis while leaving room not to learn or produce and simply to rest.
+
 ** Argument and research progress [3/6] [50%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
@@ -108,4 +113,4 @@ Life simulation should help people understand and participate in their futures, 
 * Promotion Criteria
 This remains a framing draft. Promotion requires counterexample review across life domains and resource conditions, particularly involving people who do not want optimization, people needing decision support, and people bearing others' choices. Distinguish narrative resonance from evidence of actual improvement and identify context-limited claims. Complete chapters and a passing document gate do not close the philosophical argument.
 * Navigation
-[[file:../README.org][Language entry]] · [[file:30.95-life-after-job-loss.org][Practical entry: after job loss]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]] · [[file:30.98-living-with-the-unpredictable.org][Disruption, recovery and reconsideration]]
+[[file:../README.org][Language entry]] · [[file:30.95-life-after-job-loss.org][Practical entry: after job loss]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]] · [[file:30.98-living-with-the-unpredictable.org][Disruption, recovery and reconsideration]] · [[file:30.99-shanjia-yuwu.org][Skillfully Using Things: human worth, courage and shared growth]]
