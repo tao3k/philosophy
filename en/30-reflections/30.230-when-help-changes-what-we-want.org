@@ -1,0 +1,78 @@
+#+TITLE: When Help Changes What We Want
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-230-EN
+:SEMANTIC_ID: philosophy.reflection.30.230-when-help-changes-what-we-want
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.230-when-help-changes-what-we-want.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.230-when-help-changes-what-we-want-en
+:END:
+Someone asks AI for help making a choice. By the end of the conversation, even what they want has changed. Did they come to understand themselves better, or were they led elsewhere by a system skilled at supplying reasons? If the wish expressed before the conversation is the sole authority, there is no room for learning or advice. If satisfaction afterward is enough, flattery, repeated suggestions, and the absence of alternatives can all look like a free choice.
+
+[[file:30.220-making-what-matters-possible.org][The preceding reflection]] asks whether help lets a person do something they care about. This one asks how the thing they care about may itself form and change during the help. It seeks no technology for reading a person's “true preference,” and it does not blame AI for every change of mind.
+* Argument
+A wish is not a checklist we can simply compare before and after a conversation. Help may bring facts, language, and opportunities to act. It may also shape uncertainty into the answer a system favors through the way it presents choices. Distinguishing the two calls for attention to a particular life, not a prior declaration of which wish is more authentic.
+
+** A conversation that might change direction
+This is an imagined case, not an interview or evidence of a product's effect. A warehouse worker on night shifts wants another job. She sleeps badly and wants a few evenings when she can eat with her family. She also enjoys repairing bicycles, and asks AI whether she could make a living from it. The system calculates rent for a shop and uncertain earnings, then advises her to stay in her current position. She reads the answer and says, “Perhaps I should be more grown-up.”
+
+That sentence alone does not show that the system harmed her. The estimate might reveal costs she had not considered. She might prefer to look for a day shift, try a small amount of repair work, or renegotiate responsibilities at home. She might genuinely prize a stable income more than she had realized. Yet if AI presents only “quit and open a shop” and “keep the night shift,” without asking whether her deepest difficulty is money, lost sleep, evenings away from family, or the work itself, a seemingly comprehensive answer may close a question that should remain open.
+
+She may eventually stay, leave, reduce night shifts, or decide nothing for now. We cannot choose an instructive ending on her behalf. What matters is whether the advice supplied new facts and feasible paths, or used words such as “mature,” “responsible,” and “brave” to make one direction sound like the kind of person she ought to be.
+
+** A changing wish does not imply an original self to restore
+“I want to quit” may mix exhaustion, anger, and an interest in repairing bikes. “I want to stay for now” may mix new knowledge, fear, and responsibility to her family. Neither statement should be made sacred; neither makes the other mere impulse. [[file:../40-sources/40.97-transformative-experience-evaluability.org][The source note on transformative experience]] reminds us that some choices become easier to understand only through living them. It does not authorize AI to override a refusal today with “you will thank me later.”
+
+AI does more than list options. What it mentions first, repeats, calculates precisely, or praises can make some reasons easier to voice than others. An income estimate may help, but tidy numbers cannot acquire decision-making authority over sleep, companionship, and interest. Equally, a moving story about starting a business cannot make rent disappear. The concern is not that a wish has been influenced; it is whether other reasons remain visible, and whether saying “No, that isn't what I meant” can actually change the conversation.
+
+** Understanding, persuasion, and taking over judgment
+Good advice can change a mind. The distinction is not whether AI persuaded someone, but how it treats disagreement and what remains unspoken. It can ask, “If opening a shop cannot happen now, could you still leave the night shift?” It can show the assumptions behind a cash estimate and admit that it does not know what her family is willing to carry. It should not infer a supposedly deeper wish from old conversations, claim greater authority than the person herself, and treat every later objection as a failure to understand her own interests.
+
+Nor should this become a test in which people must keep proving themselves. Someone may be unable to explain more than “I cannot keep doing this.” Someone else may need translation, accessible tools, or a trusted person to think alongside them. Fluency is no qualification for having a choice. AI can help articulate and remember reasons already given without taking over who bears the decision. [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] meets [[file:30.60-action-requires-authority.org][action and authority]] here: deeper understanding does not by itself expand permission to act.
+
+** The person who changes course may not bear the costs alone
+If she quits, the family's cash buffer may shrink. If she stays, lost sleep, care, and time together may continue to fall on her. Family members may voice their needs, but “the family is safer” cannot demand that she endure night shifts without limit. She, in turn, cannot treat care that others already provide as a resource she is free to allocate. Her employer might offer a different shift; other repair workers might tell her what the work actually earns. These voices have different standing and limits. They cannot be averaged into a household satisfaction score or market rating.
+
+An AI system that learns only from people when answering is easiest may miss those too exhausted to explain themselves. A system that records only choices made may mistake the absence of other jobs for a preference for stability. [[file:30.210-why-freed-time-does-not-return.org][Time that does not return]] and [[file:30.97-shared-lives-and-responsibility.org][responsibility in shared lives]] caution against reading a single “I agree” as proof that time, opportunity, and burdens have been fairly distributed. Respecting her decision also requires seeing the conditions under which she made it.
+
+** When the helper changes too, old trust cannot sign for new influence
+A model may improve at estimating costs and finding overlooked possibilities. It may also become better at detecting hesitation and making a platform's or institution's favored path sound especially appealing. People need not inspect every internal experiment. But a substantial change in the aim of advice, its grounds, what it remembers, or how it acts for someone cannot be covered indefinitely by earlier trust. [[file:30.220-making-what-matters-possible.org][The reflection on co-evolution]] distinguishes a system's task scores from a person's later life and the experience of others affected.
+
+Looking back also needs limits. After a choice, she may wish to revisit it when work, income, or health changes. Her whole life should not become a tracking project for checking whether AI was right. Some commitments cannot be undone without cost. That is precisely why one should understand the irretrievable parts and available support before deciding, rather than promise an imaginary “exit at any time.”
+
+** Questions for real experience [0/4] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+These questions have not been answered by interviews or longitudinal observation. A coherent imagined story does not complete them.
+
+- [ ] Before and after advice, invite the person to describe which reasons changed and which they can now finally express, without requiring a full account.
+- [ ] Compare questions and order of presentation: can the person introduce an omitted option, and can that option genuinely change the advice, without designating one account as correct in advance?
+- [ ] Hear separately from people materially affected by the decision; record how income, care, time, and risk are shared without giving every third party an automatic veto.
+- [ ] Where the person wishes and circumstances allow, ask later what they still affirm, regret, or newly know; also account for people who do not want continued tracking.
+* Counterexamples
+First, avoiding influence altogether is neither possible nor always desirable. A teacher, a friend, a book, and an accurate cost estimate can all change a mind. If AI presents a well-grounded objection, requiring it merely to repeat the person's first wish would deny them a chance to learn and choose again.
+
+Second, later endorsement is not an absolute verdict. Someone may say “I am satisfied” because too much has already been invested, no other route is available, or they have grown accustomed to pleasing the helper. Someone may also briefly regret a difficult but worthwhile choice. An outside researcher, however, cannot use one moment of regret to declare that the person was never acting for herself. Accounts, material conditions, costs to others, and time must be considered together, including where they do not agree.
+
+Third, not every meaningful commitment can be tried in miniature. Relocation, close relationships, raising children, and career changes sometimes require a decision amid uncertainty. If this essay is read as “never do what cannot be undone,” it is wrong. The aim is understanding, proportionate support, and responsibility for consequences, not a fantasy that life has a factory-reset button.
+
+Fourth, some people really do want AI to filter options and spare them discussion. This may be a legitimate delegation that preserves energy. If observation shows that quiet help within a clearly understood scope serves a person's life better than repeated clarification, this essay should narrow its demand for dialogue. Delegating a task, though, is not agreeing to a silent change of goals, broader use of personal material, or decisions on behalf of third parties.
+* Provisional Conclusion
+A person need not defend the first wish they voiced to have a life of their own. Nor does a final “I agree” prove that the help stayed within its bounds. Better help offers facts, language, and feasible paths while leaving its own influence open to notice, challenge, and renegotiation. It recognizes that someone may sincerely change, and may also say: “I made this decision, but I was not given enough room at the time.”
+
+For now, these judgments cannot be compressed into one universal test. In each setting we can ask which facts changed understanding, which words moved a choice, who bears what cannot readily be undone, and who can later say “we should reconsider.” These questions serve judgment in a relationship; they are not a lifelong preference questionnaire.
+* Questions That Remain
+The worker here is imagined. We have not heard her, her family, colleagues, or people who earn a living repairing bikes. We still need to hear those who cannot easily express a wish, need continuing assistance, disagree with AI but cannot readily stop using a service, or have no realistic alternative job. Different people may continue to disagree about whether a change was good; more complete data will not necessarily reconcile them.
+
+Normatively, we still need to distinguish boundaries that warrant general protection from judgments that must remain particular to a relationship and situation. Governance separately asks who may set, review, and revise standards. This remains a Reflection: actionable questions do not make it a Principle or a Governance decision.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.220-making-what-matters-possible.org][When AI Changes Too]] · [[file:30.93-intertemporal-agency.org][Agency Across Time]] · [[file:30.110-co-maintained-understanding.org][Co-maintained Understanding]] · [[file:../40-sources/40.97-transformative-experience-evaluability.org][Limits of the sources on transformative experience]]

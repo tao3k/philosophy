@@ -104,4 +104,4 @@ AI 的自进化值得认真研究，也会让人的合作空间变化。可验�
 
 研究上须分别检验任务结果、日后能力、本人认可、集体表达差异和现实参与机会，不可由一项指标推出全部。原则问题是哪些边界应普遍保护；治理问题则是由谁、凭什么经验制定与挑战标准。本文仍是 Reflection，不因 RSI 成为热门研究方向就直接升为 Charter Principle。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计]] · [[file:../40-sources/40.220-recognition-and-self-improvement.org][来源与边界]]
+[[file:../README.org][语言入口]] · [[file:30.230-when-help-changes-what-we-want.org][当帮助改变了愿望]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计]] · [[file:../40-sources/40.220-recognition-and-self-improvement.org][来源与边界]]
