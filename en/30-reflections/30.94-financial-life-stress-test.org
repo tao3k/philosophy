@@ -41,15 +41,17 @@ A resigns and launches in month 1. B keeps employment for twelve months and revi
 
 Use month-end steps: receive income, pay essentials and operating/validation costs, then deduct that month's shock or special commitment. Assume no investment returns, extra financing, insurance reimbursements, or asset sales. Intramonth payment timing is unverified, so this is not a promise of day-by-day solvency.
 
-#+begin_example
-L[0] = 180000
-L[m] = L[m-1] + salary[m] + venture_receipts[m]
-       - 14000 - venture_cost[m] - validation_cost[m]
-       - shock[m] - housing_commitment[m]
-A: salary = 0; venture_cost = 8000; receipts = 0 before month 7, then r
-B: salary = 20000; venture_cost = validation_cost = receipts = 0
-C: salary = 20000; validation_cost = 3000; venture_cost = receipts = 0
-#+end_example
+#+NAME: zhisheng-cash-equations-en
+#+CAPTION: Month-end liquid reserve L; S is salary, R venture receipts, V operating cost, Q validation cost, X a shock, and H a housing commitment. Subscript m denotes the month.
+#+begin_src typst :eval never :exports code
+$ L_0 = 180000 $
+$ L_m &= L_(m-1) + S_m + R_m - 14000 \
+      &- V_m - Q_m - X_m - H_m $
+$ A: S_m = 0, V_m = 8000, Q_m = 0 $
+$ R_m^A = cases(0 & m < 7, r & m >= 7) $
+$ B: S_m = 20000, V_m = Q_m = R_m = 0 $
+$ C: S_m = 20000, Q_m = 3000, V_m = R_m = 0 $
+#+end_src
 
 ** Every revenue branch: terminal recovery cannot repair an earlier shortfall
 Minimum balances include month 0. Negative balances extend the diagnostic funding gap, not an authorized overdraft or completed subsequent payments. The first negative month is where the original plan cannot fulfill its obligations in that scenario. “Pass” means only this twelve-month cash check under the declared timing.
