@@ -146,7 +146,7 @@ Nothing below has been completed for a real household in this fictional case. Un
 Recompute when jobs appear, tuition changes, a caregiver withdraws, or ends change. Discuss the opportunity cost of waiting too. Language models can help articulate ends, identify missing questions, and explain reasons, but plausible language cannot replace verified facts.
 
 ** Three months later: what must the same household understand again?
-Continue the same fictional household without treating the story as observation. Suppose three things occur after three months: temporary work is real but its evening shift conflicts with school pickup; a low-cost trial reveals that the unemployed parent does not want that industry but values control over work time more clearly; and the other parent refuses additional evening care without disclosing private reasons.
+Continue the same fictional household without treating the story as actual evidence. Suppose four observations are stipulated after three months: temporary work is real but its evening shift conflicts with school pickup; a low-cost trial reveals that the unemployed parent does not want that industry but values control over work time more clearly; the other parent refuses additional evening care without disclosing private reasons; and cash is better than the scenario expected while every household member reports greater exhaustion.
 
 #+NAME: job-loss-three-month-review-en
 | New observation | Why prior advice changes | A possible next step now |
