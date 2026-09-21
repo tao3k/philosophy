@@ -300,13 +300,13 @@
       (body (section :child-of "$section")))
   (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
-** Promotion criteria
+** Questions that remain
 :PROPERTIES:
-:ASSERT_ID: reflection.cn.has-promotion
+:ASSERT_ID: reflection.cn.has-open-questions
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(let ((section (headline :summary (title "升格条件")))
+(let ((section (headline :summary (title "仍需面对的问题")))
       (body (section :child-of "$section")))
   (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
@@ -365,13 +365,13 @@
       (body (section :child-of "$section")))
   (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
-** Promotion criteria
+** Questions that remain
 :PROPERTIES:
-:ASSERT_ID: reflection.en.has-promotion
+:ASSERT_ID: reflection.en.has-open-questions
 :SEVERITY: error
 :END:
 #+begin_src org-contract
-(let ((section (headline :summary (title "Promotion Criteria")))
+(let ((section (headline :summary (title "Questions That Remain")))
       (body (section :child-of "$section")))
   (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src

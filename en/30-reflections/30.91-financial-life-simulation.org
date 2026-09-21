@@ -67,7 +67,7 @@ This essay is therefore a practical entry into [[file:30.96-living-with-ai.org][
 Rejecting every summary can leave people unable to act; meaningful local money totals, time budgets, and conditional rankings are necessary. Conversely, elaborate models can omit care, shame, dignity, and relationships while manufacturing certainty. More preparation can lose opportunities; more options can increase burden. Zhisheng must not universalize comfortable middle-class resources or treat a family as an automatically consenting shared objective function.
 * Provisional Conclusion
 Zhisheng starts from life purposes to ask whether exchange is needed, what preparation helps, and when analysis should stop. AI contributes positively by making gaps visible, paths comparable, and commitments understandable so people can act. It does not own the definition of a successful life.
-* Promotion Criteria
+* Questions That Remain
 Test resource scarcity, withheld information, family disagreement, and deliberately chosen risk. Demonstrate actionable conditional recommendations with refusal and no-trade options; detection of double-booked cash and time; sufficient-preparation conditions; observations indicating improved life; and withdrawal of conclusions when goals change. Financial regulatory boundaries require jurisdiction-specific analysis; a Zhisheng label does not confer exemption.
 * Navigation
 [[file:../README.org][language index]]

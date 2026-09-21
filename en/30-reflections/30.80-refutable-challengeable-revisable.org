@@ -49,9 +49,9 @@ Revision can also become refusal to commit: after each failure, scope is rewritt
 The Tao3k discipline is not that everything is falsifiable. Empirical claims are refutable; causal claims face intervention and counterexample tests; normative principles are challengeable. Every authoritative object is revisable and preserves the history and impact of revision.
 
 Authority comes from accepting failure risk and challenge paths, not from immovability. The more a claim can change the world, the more clearly it should state how it may be wrong, who may question it, when review becomes mandatory, and how correction propagates.
-* Promotion Criteria
+* Questions That Remain
 Also show that challenge can change framing rather than only parameters, ordinary expression receives substantive response, and revising future practice does not delete past responsibility. Test actual accessibility, not just the presence of an entry point.
 
-Before promotion, provide positive and negative cases for empirical, causal, and normative claims and show that the classification handles mixed claims rather than hiding them. Define admission, response, and supersession duties for challenges, and verify that new versions cannot overwrite the record of prior failure.
+Before this becomes a shared principle, provide positive and negative cases for empirical, causal, and normative claims and show that the classification handles mixed claims rather than hiding them. Define admission, response, and supersession duties for challenges, and verify that new versions cannot overwrite the record of prior failure.
 * Navigation
 [[file:../README.org][language index]]

@@ -61,7 +61,7 @@ Inaction can also cause harm. A system that demands authority for action but lea
 
 Real-world action requires traceable, scoped authority: who delegates to whom, for which action and resource, for what purpose and duration, under what risk limit, with what redelegation, revocation, stopping, and compensation path. Authority must be verifiable before execution and answerable after outcome. Tool capability, model confidence, and command success cannot replace it.
 
-* Promotion Criteria
+* Questions That Remain
 Also test persistent purpose-shaping without tool calls, access to necessary support after refusing advice, and changed ends invalidating old strategies. Proportionate responsibility for influence must not become approval popups for every sentence.
 
 

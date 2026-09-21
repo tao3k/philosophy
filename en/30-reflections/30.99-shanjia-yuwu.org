@@ -19,7 +19,7 @@ As AI completes more searching, comparison, writing, analysis and execution, wha
 
 [[file:30.96-living-with-ai.org][Facing life with AI]] already asks about life purposes and substantive opportunities. This essay states a second axis explicitly: Tao3k examines not only how AI should be constrained, but how people can use AI to find more possibilities for understanding, action, creation and enjoyment. Technical development must not turn people into managed inputs, confirmation buttons supervising automation or subjects trained throughout life merely to avoid obsolescence.
 * Argument
-People are not objects waiting for an upgrade. The meaning of using tools must be understood within a life: whether people can better pursue what they endorse, understand and redirect their course, reliably entrust work they do not wish to perform, and retain the freedom not to learn or produce—to rest or enjoy something without another improvement demand.
+People are not products waiting to be remade without end. The meaning of using tools must be understood within a life: whether people can better pursue what they endorse, understand and redirect their course, reliably entrust work they do not wish to perform, and retain the freedom not to learn or produce—to rest or enjoy something without another improvement demand.
 
 ** Human worth does not rest on gaps left by machines
 Whether a task can be automated, how a job is reorganized and whether a person deserves respect are three different questions. The first two change with technology, organizations and institutions. The third cannot depend on who is faster or more accurate on a benchmark. Children, older people, people temporarily unable to work and people who do not excel at highly rewarded tasks need not prove productivity to qualify for dignity, relationships, expression and choice.
@@ -44,6 +44,7 @@ The philosophical significance of POO Flow, MRR and ASP cannot be established by
 AI should neither complete everything by default nor turn every request into a lesson. Some activities matter because the work is settled, some because a person gradually learns, and some because taking part is itself valuable.
 
 #+NAME: assistance-purposes-en
+#+EXPLANATION: The same assistance should first hear whether a person presently wants relief, learning or participation.
 | What a person wants now | How AI might help | What the person should retain | How it can go wrong |
 |-------------------------+-------------------+-------------------------------+---------------------|
 | Relief | Settle travel, a form or reminders, asking only when a real conflict arises | The conditions already stated, knowledge that the work is done, and freedom to change or stop | The person still has to watch constantly while only back-end cost falls |
@@ -58,6 +59,7 @@ Long-term use of assistance is not automatically failure. For people using acces
 After assistance, ask at least three questions separately: Was the work settled? What did the person come to understand or become able to do? Can they decide how to seek help next time, change course or leave? All three can improve, or they can conflict.
 
 #+NAME: life-outcomes-en
+#+EXPLANATION: The matter, the person and their continuing say are three outcomes to hear separately, not one success state.
 | What to look at | A question to ask | What cannot answer it |
 |-----------------+-------------------+-----------------------|
 | The work | Was the ticket booked within the price and direct-flight requirements? | A successful back-end status or complete-looking answer |
@@ -91,6 +93,8 @@ Time saved by technology need not all return to production. Rest, relationships,
 Universal model access can coexist with records people cannot take, restrictions no one can explain, providers they cannot replace and experience flowing only one way. Knowledge becomes more equal when help is understandable enough to use, portable enough to continue and replaceable enough to avoid being tied to one provider.
 
 Distribution of technical benefit is also philosophical. Do more efficient workers receive rest, learning and bargaining space? Do customers receive more usable service or more unwanted transactions? Do relatives absorb omitted supervision and care? [[file:30.97-shared-lives-and-responsibility.org][Living together]] must place benefits, burdens, knowledge contribution and decision standing in the same map of responsibility.
+
+The second axis therefore unfolds in two directions. Its positive side asks in [[file:30.100-after-efficiency-time-and-good-life.org][After Efficiency]] whether saved time really returns to life and how well-being can be heard without being collapsed into a score. Its protective side asks in [[file:30.110-co-maintained-understanding.org][Co-maintained Understanding]] and [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid Adversarial Information]] how a system may gradually understand a person without trapping them in a profile or letting external claims quietly become facts, preferences or authorization through retrieval, reasoning and memory. Both sides protect room to understand life, change direction and live with others.
 
 ** Three situations from life still need observation [0/3] [0%]
 :PROPERTIES:
@@ -130,7 +134,7 @@ Fifth, sharing the benefits of technology fairly cannot be solved through produc
 Tao3k is not committed to proving that machines will always remain inferior, nor does it treat a person as a learning machine that must train and optimize without end. Human worth does not depend on task comparison. AI's positive value lies in reducing unwanted burdens, making knowledge and complex action more available, and supporting grounded courage, creation, care, rest and shared life.
 
 Such help must be tested within life: whether the task was completed, whether people gained the understanding or reliable delegation they sought, whether the people concerned could still direct important affairs, and whether capability and benefit stayed with them. AI doing more is a condition, not a conclusion.
-* Promotion Criteria
-This remains the central draft for a second axis. Promotion requires observing the three situations over time and hearing from people whose trust was misplaced, who chose to leave, who received no benefit and who were affected without using the system. It must distinguish what people learned after help is gone, which reliance is reasonable and when one provider has trapped them, then ask who ultimately receives efficiency, data and experience. Xunzi, Licklider and Engelbart supply questions and concepts; studies of work, education, collaboration and creation supply bounded evidence. None alone proves that Tao3k has helped people live better.
+* Questions That Remain
+This remains the central draft for a second axis. This account still needs observing the three situations over time and hearing from people whose trust was misplaced, who chose to leave, who received no benefit and who were affected without using the system. It must distinguish what people learned after help is gone, which reliance is reasonable and when one provider has trapped them, then ask who ultimately receives efficiency, data and experience. Xunzi, Licklider and Engelbart supply questions and concepts; studies of work, education, collaboration and creation supply bounded evidence. None alone proves that Tao3k has helped people live better.
 * Navigation
-[[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Facing life with AI]] · [[file:30.90-knowing-after-action.org][Knowing after action]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]]
+[[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Facing life with AI]] · [[file:30.100-after-efficiency-time-and-good-life.org][After efficiency]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]]

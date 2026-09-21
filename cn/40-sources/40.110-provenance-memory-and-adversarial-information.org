@@ -1,0 +1,46 @@
+#+TITLE: 来源、记忆与对抗性信息的证据边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-110-CN
+:SEMANTIC_ID: philosophy.source-note.40.110-provenance-memory-and-adversarial-information
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.110-provenance-memory-and-adversarial-information.org
+:SOURCE_ID: PHIL-SRC-110
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: NIST; C2PA; Yihe Wang et al.
+:SOURCE_WORK: Adversarial Machine Learning Taxonomy and Terminology; C2PA Explainer v2.2; Bad Memory: Poisoning Attacks on Agentic AI Memory Systems
+:SOURCE_EDITION: NIST.AI.100-2e2025; C2PA v2.2; arXiv:2607.14611 v1
+:SOURCE_DATE: 2025; 2025; 2026
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: NIST adversarial machine learning taxonomy; C2PA Explainer 2.2; Wang et al. 2026 Bad Memory preprint
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: adversarial-information distinctions, provenance boundaries, and memory-poisoning evidence
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.110-provenance-memory-and-adversarial-information-cn
+:END:
+本说明综合 [[https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0][NIST.AI.100-2e2025 对抗性机器学习分类]]、[[https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html][C2PA 2.2 Explainer]]，以及 Wang 等 2026 年预印本 [[https://arxiv.org/abs/2607.14611][Bad Memory: Poisoning Attacks on Agentic AI Memory Systems]]。
+* 语境
+NIST 文档提供攻击与缓解术语，覆盖数据投毒、规避、隐私与生成式 AI 等风险，用于建立可比较的分类。C2PA 说明 Content Credentials 怎样记录数字内容来源和编辑历史，并明确这种出处信息本身不判断内容真实、准确或合乎事实。
+
+“Bad Memory”研究在合成沙箱中把恶意载荷植入代理记忆，观察它们怎样影响当前与未来会话。结果随系统和目标变化；它是 2026 年预印本，不是对所有部署环境的普遍证明。
+* 解释边界
+安全分类不能替具体系统完成威胁分析。C2PA 凭证不能证明一项主张真实，缺少凭证也不能自动证明虚假或恶意。
+
+沙箱攻击成功不能推出所有长期记忆都不安全，也不能给出真实生活中的发生率。反过来，尚未观察到攻击也不能说明把检索内容直接写入记忆是安全的。
+* 影响
+本仓库区分训练或知识投毒、检索污染、间接提示注入与长期记忆污染，并要求内容在读取、引用、推导和记忆后仍保留来源与认识地位。出处、真实性、证据支持、来源独立性和情境适用性分别判断。
+* 解释链
+NIST 的攻击位置与术语 + C2PA 对出处能力的明确边界 + 记忆投毒的早期机制证据 → [[file:../30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] 对“不得无声升级”的规范 → [[file:../30-reflections/30.110-co-maintained-understanding.org][共同维护的理解]] 中可修正、可撤回的个人材料。后两步是 Tao3k 的制度与设计解释。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]]

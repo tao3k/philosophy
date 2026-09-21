@@ -61,8 +61,8 @@ Technical value must pass a real-world benefit-harm test: not only whether perfo
 
 Practical learning here does not mean “deploy whatever works.” It requires thought and technology to answer to lived reality. Human-centered is not a product label; affected people retain standing to understand, challenge, refuse, exit, and participate in defining success.
 
-* Promotion Criteria
+* Questions That Remain
 
-Before promotion, test an efficiency gain that reduces agency, a short-term cost that improves resilience, and a conflict of benefits across groups. Evaluation must expose benefit, harm, unknowns, exit costs, and challenge paths, and show that distinct dimensions are not collapsed into one score.
+Before this becomes a shared principle, test an efficiency gain that reduces agency, a short-term cost that improves resilience, and a conflict of benefits across groups. Evaluation must expose benefit, harm, unknowns, exit costs, and challenge paths, and show that distinct dimensions are not collapsed into one score.
 
 Also test whether assistance project-manages ordinary life: more completed tasks may mean greater exhaustion, and more options may remain inaccessible. Conversely, less usage and fewer prompts may indicate that help has succeeded.

@@ -61,7 +61,7 @@ Persistent uncertainty can also become an escape from responsibility: a system s
 
 At decision-relevant boundaries, distinguish unknown, absent, not-applicable, conflicted, hypothesized, and withheld while retaining source, impact scope, resolution condition, and review time. Unknown is not a failure value. It is a knowledge object that constrains inference and authority while organizing the next inquiry.
 
-* Promotion Criteria
+* Questions That Remain
 
 Show that missing evidence defaults to neither true nor false, conflicts cannot be overwritten by the last writer, withheld cannot degrade into absent, and defaults cannot escape their low-risk scope. Cases should demonstrate how one unknown can appropriately trigger continuation, retrieval, an authority request, increased assurance, or stopping. Only then should this enter the epistemology and uncertainty Charter.
 

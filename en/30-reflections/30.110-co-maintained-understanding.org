@@ -1,0 +1,92 @@
+#+TITLE: Understanding Maintained with the Person: Individuality, Revision, and the Right Not to Be Exhausted by a Profile
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-110-EN
+:SEMANTIC_ID: philosophy.reflection.30.110-co-maintained-understanding
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.110-co-maintained-understanding.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.110-co-maintained-understanding-en
+:END:
+The more AI knows about a person's history, relationships and preferences, the more closely it may fit help to the situation—and the more easily it may turn traces of the past into a fixed nature. What kind of shared understanding can sustain a conversation without reducing a person to a profile controlled by a system and no longer correctable by its subject?
+
+The aim is not a “digital twin.” It is a correctable and withdrawable understanding of life maintained by the person and the helper: retaining only the links needed for the present purpose and always recognizing that a person exceeds every record.
+* Argument
+Understanding remains helpful only while source, time, epistemic standing and purpose stay visible and the person can correct, withdraw and change. The argument below treats material about a life as relations maintained together, not a system's final account of someone.
+** Understanding is provisional work together, not possession of a person
+People forget, change, contradict themselves and sometimes decline to explain. Good help may remember conditions they have already stated, propose a provisional reading of the situation and return uncertainty to them. Accumulating data does not entitle a system to claim that it knows the “real person” better than they do.
+
+In the continuing case of life after job loss, her statement “I want to paint again” may express an aspiration or merely a memory of the past. AI may ask what it means for the present choice. It may not immediately install “artist identity” as a lasting goal, enroll her in a course, or reorder every job suggestion around creative work.
+
+** Five epistemic standings must not merge quietly
+Once the same natural-language sentence enters a system, its kind, speaker, present certainty and authority for action must remain distinct.
+
+#+NAME: understanding-roles-en
+#+EXPLANATION: Using “painting again,” five related standings must not upgrade automatically.
+| Standing | Example | What it permits | What it cannot automatically become |
+|----------+---------+-----------------|-------------------------------------|
+| Person's statement | “I have lately wanted to paint again.” | Preserve the words and their context | A permanent preference or essential identity |
+| AI interpretation hypothesis | “Painting may be connected with recovering a rhythm of life.” | Mark it as a hypothesis and invite correction | A reason the person has endorsed |
+| External fact | The community center lists a Saturday open class | Record source, date and conditions | A judgment that the course fits her |
+| Current endorsement | “This month I want to reserve two evenings for painting.” | Ground a current plan | A permanent commitment or platform training data |
+| Action authorization | “Enroll me in Saturday's trial class, for no more than 100 yuan.” | Perform that bounded act once | Other enrollment, payment or publication of work |
+
+Reading, inference and repetition cannot turn a hypothesis into endorsement. Endorsement cannot turn itself into authority to act. [[file:30.60-action-requires-authority.org][Action and authority]] is therefore a boundary inside understanding, not an appendix after understanding is complete.
+
+** One relational material can support three views without three systems
+POO Flow can express where content came from, how meanings and commitments relate in life, and what constrains the present situation. Calling these the content view, meaning-and-commitment view and context view merely allows different questions over the same material.
+
+#+NAME: understanding-views-en
+#+EXPLANATION: The three views share relations with source, time and standing; they are not three new systems of authority.
+| View | Question | Example |
+|------+----------+---------|
+| Content | Where did this sentence, file or fact come from? | Course time comes from an institution page; the wish from her statement |
+| Meaning and commitment | Which relations, values and commitments make it matter? | Painting links to childhood memory but is not yet a career goal |
+| Context | Which resources, time and shared duties presently matter? | Care is arranged on Saturday and enrollment has a budget limit |
+
+A relationship query can limit itself to “which plans depend on shared cash” or “which proposal used an unconfirmed hypothesis.” It cannot automatically discover the root cause of her unhappiness from a graph. Graphs organize dependencies and hypotheses; people still interpret meaning in life.
+
+** Individuality is not maximum distance from everyone else
+Individuality is neither optimization for difference nor a product label for segmenting users. It is freedom to express, develop, associate, imitate, change and remain silent. Resemblance does not establish conformity, and difference is not automatically admirable. The question is whether shared life permits real disagreement and continued response between people.
+
+The [[file:../40-sources/40.120-analects-harmony-with-difference.org][source note on “harmony without sameness”]] offers one bounded interpretive opening: living together need not require agreement in opinion and style. It is not a technical proof of modern individual rights and cannot replace analysis of power, exclusion and material conditions.
+
+** The past can illuminate today without closing tomorrow
+Recommendations that endlessly deepen old choices turn a life history into a track. Co-maintained understanding should distinguish “once true,” “currently endorsed,” “not yet confirmed” and “withdrawn.” It must let a person try something inconsistent with prior records without first proving why they changed.
+
+Inferred relationships, health, political commitments, financial hardship and household conflict are especially sensitive. Even a useful inference needs a limited purpose, source and expiry, plus the person's ability to see, correct and decline its continued storage. Greater understanding should improve the tact of help, not enlarge authority to influence.
+
+** Co-maintenance progress [4/7] [57%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Preserve the difference among statement, interpretation hypothesis, external fact, current endorsement and action authorization.
+- [X] Treat the three graphs as views of one material rather than three systems.
+- [X] Give people room for contradiction, silence and incomplete explanation.
+- [X] Let past records expire, be withdrawn and be rewritten by new choices.
+- [ ] Test whether people in real conversations can understand and correct relations formed by a system.
+- [ ] Compare whether keeping less information still permits adequate help.
+- [ ] Include correction and refusal rights for people affected in shared life who are not the primary user.
+* Counterexamples
+First, remembering nothing forces people to repeat trauma, accessibility needs and long plans. Respect for individuality must not become an amnesiac service. The questions are what is remembered, for whom, for how long and who may amend it.
+
+Second, self-descriptions can change, conflict or harm others. Co-maintenance does not make every statement unquestionable. It preserves the sources and responsibilities of disagreement instead of letting a system decide silently.
+
+Third, household plans require genuinely shared information. One person's withdrawal cannot erase commitments and facts already borne by others. Personal interpretation, shared records and legally required retention must be distinguished.
+
+Fourth, permission not to explain may reduce personalization. If help works only after deep profiling, the need and proportionality of that intrusion must be shown rather than made a default price of entry.
+* Provisional Conclusion
+A personal understanding graph should be working material maintained by a person and AI, not a substitute for the person. It preserves source, time, epistemic standing and purpose; it can be corrected, withdrawn and carried away; and it leaves room for contradiction, change and silence.
+
+Help that respects individuality does not classify a person more accurately. It lets them express and change within relationships, even toward a path no past record foresaw. More knowledge brings more responsibility; it does not automatically bring more authority.
+* Questions That Remain
+This account still needs participant experience with comprehensibility, correction, withdrawal, portability and purpose limitation, including who may amend which records in families, care and organizations. It must include counterexamples of system misunderstandings hardened by recommendations, leaked sensitive inferences and cases where remembering less helped more. “Harmony without sameness” remains an interpretive resource, not a substitute for modern rights and institutional justification.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.100-after-efficiency-time-and-good-life.org][After efficiency]] · [[file:30.130-when-life-no-longer-hurries.org][When life no longer hurries]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable knowledge]]

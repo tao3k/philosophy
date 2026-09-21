@@ -53,7 +53,7 @@ draft -> proposed -> accepted -> superseded
 | 对象 | 必需证据 | 准入结果 |
 |------+----------+----------|
 | CN/EN 文档 | 唯一 =SEMANTIC_ID=、双向 =COUNTERPART=、精确合约组合 | 成对维护 |
-| Reflection | 论证、反例、暂定结论、升格条件 | 保留争论 |
+| Reflection | 论证、反例、暂定结论、仍需面对的问题 | 保留争论 |
 | Principle | 一等节点、完整生命周期字段、细化关系、反对意见与失效模式 | 可起草、提议或接受 |
 | Engineering Map | 稳定规范要求与可替换当前实现分离 | 可追溯实现 |
 | Source | 来源身份、历史语境、解释状态与主张范围 | 不自动产生规范权威 |
@@ -64,8 +64,8 @@ draft -> proposed -> accepted -> superseded
 
 * 变更策略
 
-- Reflection 只产生论证；建立 Charter 节点时先进入 =draft=。
-- =draft -> proposed= 要求升格条件已经满足，并具备中英文语义配对、反例、边界与工程后果。
+- Reflection 保存论证与仍然开放的问题，不发生 Principle 生命周期变化。Governance 只能准入一个另行撰写、引用来源 Reflection 的 Charter Principle，并让它从 =draft= 开始。
+- Principle 的 =draft -> proposed= 要求它自己的中英文语义配对、反对意见、边界与工程后果完整，也要说明来源 Reflection 中哪些问题已经回应、哪些仍然开放；这是一项维护者判断，不是 checklist 自动触发的状态变化。
 - =proposed -> accepted= 需要维护者明确审查；工具通过不是接受决定。
 - 语义不变的措辞澄清递增 =REVISION= 并记录理由。
 - 规范含义变化不得静默覆盖 accepted 原则；使用 =SUPERSEDES= / =SUPERSEDED_BY=。

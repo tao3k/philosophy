@@ -22,7 +22,7 @@
 # State counterexamples or falsification conditions before admission.
 * Provisional Conclusion
 # State the provisional conclusion and its uncertainty before admission.
-* Promotion Criteria
-# State the evidence, counterexample handling, and review required for Charter promotion.
+* Questions That Remain
+# State unheard voices, unresolved counterexamples, and experience that could still change this account.
 * Navigation
 [[file:../README.org][language index]]

@@ -91,7 +91,7 @@ Excessive disclosure is another danger. Explaining a shared plan by revealing he
 Finally, tables and rules can make unjust divisions of labor appear procedurally complete. Passing a procedure does not settle the grounds of responsibility or the distribution of burdens.
 * Provisional Conclusion
 AI-assisted life judgment cannot take an account as its sole unit or treat households, organizations and societies as internally uniform persons. Benefits, burdens, decision standing and remedy must remain discussable. Recognize relational dependence while preserving space for individuals not to be swallowed by a relationship.
-* Promotion Criteria
+* Questions That Remain
 Test these distinctions across household structures, abilities, languages, organizational settings and unsafe relationships. Participation, authorization, care duties and rights require contextual grounds; this essay does not establish legal conclusions. Include feedback from adopters and nonparticipants.
 * Navigation
 [[file:../README.org][Language entry]] · [[file:30.96-living-with-ai.org][Framing essay]] · [[file:30.92-stewardship-not-sovereignty.org][Stewardship, not sovereignty]]

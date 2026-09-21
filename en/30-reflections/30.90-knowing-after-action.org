@@ -58,7 +58,7 @@ Updating too quickly chases noise, while updating too slowly preserves failure. 
 Action is not the terminus of knowledge but an experimental condition for the next cycle of knowing. A closed loop lets knowledge enter constrained action, action produce observable consequence, consequence undergo reconciliation and causal review, and the result alter revisable knowledge state.
 
 “Success” therefore needs at least two statements: whether execution completed according to protocol and whether the world moved toward the authorized objective. When the latter is unknown, the system should remain unknown or pending rather than borrow the success code of the former.
-* Promotion Criteria
+* Questions That Remain
 Add cases of reasonable purpose change, nonuser feedback, long-term dependence and continued life after leaving. Report learning, actual life changes and what remains unattributed or unobserved separately; satisfaction or retention cannot be sole evidence of value.
 
 Validate the update loop with reversible operations, delayed consequence, partial failure, and unobservable result. Define which differences trigger stopping, remedy, retry, or epistemic downgrade. Show that learning does not turn people who did not consent into experimental subjects. Only then consider deepening the practical-learning Charter rather than adding another abstract slogan.

@@ -1,0 +1,46 @@
+#+TITLE: Harmony without Sameness in the Analects: Shared Life without Erasing Individuality
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-120-EN
+:SEMANTIC_ID: philosophy.source-note.40.120-analects-harmony-with-difference
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.120-analects-harmony-with-difference.org
+:SOURCE_ID: PHIL-SRC-120
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 孔子及其弟子传统
+:SOURCE_WORK: 《论语·子路》
+:SOURCE_EDITION: Chinese Text Project received text, accessed 2026-09-21
+:SOURCE_DATE: received text; accessed 2026-09-21
+:SOURCE_LANGUAGE: zh-Latn-pinyin; lzh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: harmony without sameness as a bounded interpretive resource for individuality in shared life
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.120-analects-harmony-with-difference-en
+:END:
+Analects, Zilu records the contrast commonly rendered “the exemplary person is harmonious without being identical; the petty person is identical without being harmonious.” This note uses the [[https://ctext.org/analects/zi-lu/zh][Chinese Text Project received text]] as an accessible entry and confines interpretation to the relation between shared life and difference.
+* Context
+The passage contrasts he and tong in discussing association and judgment. The ethical, political and social histories of junzi and xiaoren are too complex to recover from one sentence. This note does not carry the ancient classification directly into ranks among modern people.
+
+The retained question is whether coordinated action and sustained relationship require the removal of differences in judgment, style and choice. The passage points away from that demand, but modern protection for difference still requires arguments about rights, institutions and material conditions.
+* Interpretation Boundaries
+“Harmony without sameness” cannot prove that any AI design respects individuality, nor does it solve privacy, profiling, discrimination or exclusion. A community can invoke harmony to silence people with less power, so harmony must be tested against power and the right to refuse.
+
+Difference is not automatically better either. Imitation, common tradition and similar choices may be free. Harm to others and refusal of shared responsibility cannot escape discussion merely by appeal to individuality.
+* Influence
+The repository understands individuality as freedom to express, develop, change and remain silent within relationships, not maximum distance from others. AI may help people see disagreement and common conditions, but it must not rewrite coordination as conformity or package difference as a marketable user label.
+* Interpretation Chain
+The contrast between he and tong in Analects, Zilu → the question of shared life without erasing difference → the modern account of individuality, change and the right not to be exhausted by a profile in [[file:../30-reflections/30.110-co-maintained-understanding.org][Co-maintained Understanding]]. The last step is not a technical equivalence with Confucius's thought.
+* Navigation
+[[file:../README.org][language index]] · [[file:../30-reflections/30.110-co-maintained-understanding.org][Co-maintained understanding]]

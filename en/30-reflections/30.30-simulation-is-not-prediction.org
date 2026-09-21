@@ -57,7 +57,7 @@ Conversely, requiring every simulation to become an accurate prediction would de
 
 Every future-facing claim should retain its epistemic type, model version, initial state, horizon, intervention, assumptions, and invalidation conditions. Simulation supplies a possibility space, prediction answers to real frequencies, and counterfactual reasoning answers to causal comparison. They may be composed, but must not impersonate one another. Downstream systems should use the type when deciding whether a claim may be displayed, ranked, authorized, or executed.
 
-* Promotion Criteria
+* Questions That Remain
 
 Demonstrate rejection of at least four failures: treating simulation frequency as probability, extrapolating short-horizon success into long-term safety, treating input substitution as valid intervention, and treating verification as real-world validation. Also show that model expiry or world drift reduces downstream authority rather than merely changing a timestamp. Only then should this enter the temporality and causality Charter.
 

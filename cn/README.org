@@ -53,12 +53,16 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 |------------+--------------|
 | 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实学与积极帮助]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
 | 借助 AI，人应得到什么、保留什么？ | [[file:30-reflections/30.99-shanjia-yuwu.org][人的价值、勇气与共同成长]] → [[file:30-reflections/30.90-knowing-after-action.org][事情做成、学会判断与仍能作主]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][便利与负担落在谁身上]] |
+| 省下时间以后，生活真的变好了吗？ | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]] → [[file:30-reflections/30.99-shanjia-yuwu.org][休息、创造与共同生活]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][收益与负担的分配]] |
+| AI 怎样理解我，又不把我困在画像里？ | [[file:30-reflections/30.110-co-maintained-understanding.org][共同维护的理解]] → [[file:30-reflections/30.60-action-requires-authority.org][理解不自动产生权限]] → [[file:30-reflections/30.93-intertemporal-agency.org][给未来的改变留位置]] |
+| 信息真假难辨时，怎样保护判断而不把人压垮？ | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] → [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][来源到后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][允许挑战与修正]] |
+| 当生活不再催促，空下来的下午需要什么？ | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][没有预定结尾的真实入口]] → [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][时间怎样回到生活]] → [[file:30-reflections/30.110-co-maintained-understanding.org][理解怎样接受本人改正]] |
 | 能看见多少未来，又怎样面对未被表示的变化？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.98-living-with-the-unpredictable.org][中断、恢复与重议]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
 | AI 和他人应如何参与我的判断？ | [[file:30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][受托帮助]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][共同生活与责任]] |
 | 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
 
-来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性偏差]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]，以及[[file:40-sources/40.99-ai-help-work-learning-creation.org][AI 进入工作、学习与创作之后的证据边界]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]、[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作]]、[[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]、[[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]]、[[file:40-sources/40.120-analects-harmony-with-difference.org][《论语》“和而不同”]]，以及[[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
 
 * 专题索引
 
@@ -72,6 +76,9 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 | 借物、学习与知识平权 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][现代证据边界]] |
+| 时间、幸福与值得投入的生活 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]] |
+| 个性与共同维护的理解 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.110-co-maintained-understanding.org][不被画像穷尽]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][和而不同]] |
+| 来源、记忆与认识保护 | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][证据边界]] |
 
 * 知、行与经验
 
@@ -83,6 +90,10 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
 | 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 | 人怎样借助 AI 更好地理解、行动、创造与享受 | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物：AI 时代人的价值、勇气与共同成长]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与工具]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作的证据]] |
+| 技术省下的时间怎样真正回到生活 | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后：时间、幸福与值得投入的生活]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定的证据边界]] |
+| 怎样理解一个人而不把人穷尽为画像 | [[file:30-reflections/30.110-co-maintained-understanding.org][与人共同维护的理解]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][和而不同]] |
+| 对抗性信息进入记忆后怎样继续判断 | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][来源、记忆与认识的保护]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]] |
+| 没有现成目标的下午怎样不被重新塞满 | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] | [[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]] |
 
 * 模型、价值与判断边界
 
@@ -98,7 +109,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 
 | 方法问题 | 入口 |
 |----------+------|
-| 有启发性的思想何时可以成为跨项目规范 | [[file:30-reflections/30.00-reflection-governance.org][反思如何成为宪章]] |
+| Reflection、Principle 与 Governance 怎样保持不同责任 | [[file:30-reflections/30.00-reflection-governance.org][反思、原则与治理不能互相替代]] |
 | 测量结果如何连同不确定性边界一起报告 | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法：证据、反例与不确定性]] |
 | proof、model checking、test、simulation 与 observation 各能证明什么 | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式化方法：证明、模型检查与反例]] |
 | 经典 protection 原则如何进入 Agent 权限而不冒充全部规范正当性 | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
@@ -113,6 +124,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 创业选择缺什么、怎样准备、如何验证生活改善 | [[file:30-reflections/30.94-financial-life-stress-test.org][治生压力测试：从资源缺口到有界准备]] |
 | 失业之后如何逐步重建选择，并用生态语言说明条件与风险 | [[file:30-reflections/30.95-life-after-job-loss.org][人生不止一条轨迹：从一次失业，到重新获得选择]] |
 | 不可预测的中断发生后，如何先恢复判断条件再重新形成生活方向 | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处：中断、恢复与重新判断]] |
+| 一位母亲的空闲下午如何保持开放，不被场景预写结局 | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促：一个没有预定结尾的下午]] |
 | 外部 grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]；[[file:40-sources/40.92-life-cycle-finance.org][生命周期金融]]；[[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI 金融建议]]；[[file:40-sources/40.94-financial-planning-support-boundaries.org][市场与监管边界]] |
 
 * 关系图

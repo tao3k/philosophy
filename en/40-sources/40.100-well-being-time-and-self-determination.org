@@ -1,0 +1,48 @@
+#+TITLE: Evidence Boundaries for Well-Being, Time, and Self-Determination
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-100-EN
+:SEMANTIC_ID: philosophy.source-note.40.100-well-being-time-and-self-determination
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.100-well-being-time-and-self-determination.org
+:SOURCE_ID: PHIL-SRC-100
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: OECD; Richard M. Ryan and Edward L. Deci; Ashley V. Whillans et al.
+:SOURCE_WORK: OECD Guidelines on Measuring Subjective Well-being (2025 update); Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being; Buying Time Promotes Happiness
+:SOURCE_EDITION: OECD 2025 publication; American Psychologist 55(1), 2000; PNAS 114(32), 2017
+:SOURCE_DATE: 2000; 2017; 2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: OECD 2025 subjective well-being guidelines; Ryan and Deci 2000; Whillans et al. 2017
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: subjective well-being dimensions, time-saving purchases, and autonomy-competence-relatedness as bounded lenses
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.100-well-being-time-and-self-determination-en
+:END:
+This note brings together three sources with different purposes: the [[https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html][OECD Guidelines on Measuring Subjective Well-being, 2025 Update]]; Ryan and Deci's [[https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf][review of self-determination theory]] (2000); and Whillans et al., [[https://doi.org/10.1073/pnas.1706541114][Buying Time Promotes Happiness]] (2017).
+* Context
+The OECD guidance serves statistical and policy measurement. It distinguishes life evaluation, affect and eudaimonic aspects of well-being while attending to question wording, time frame, survey setting and comparability. It supplies measurement discipline rather than one additive “happiness value” for a person.
+
+Self-determination theory uses autonomy, competence and relatedness to study some conditions of motivation and well-being. It is a psychological research tradition, not a life recipe for AI to impose.
+
+Whillans et al. first observe relationships between spending money to save time and life satisfaction across samples totaling 6,271 people, then use a within-person field experiment to compare time-saving and material purchases on the experience of a day. This is bounded support for relief from disliked tasks, not a direct experiment on AI time saving.
+* Interpretation Boundaries
+Subjective well-being measures cannot decide how someone should live or diagnose sadness, anger and difficulty as defects. Average relationships do not establish benefit for every person, income level or household arrangement.
+
+Autonomy, competence and relatedness are not fixed weights in an objective function. The time-purchase study does not show that saved time remains under the person's control, still less that workplace AI efficiency necessarily improves home life.
+* Influence
+The repository therefore listens separately to life evaluation, present affect and meaningful engagement. Between efficiency and life improvement it asks whether burden fell, time became discretionary, energy and relational conditions existed and the person endorsed the change. Rest, nonproduction and deliberately retained effort can all be legitimate outcomes.
+* Interpretation Chain
+OECD measurement distinctions + self-determination theory's bounded lenses + limited evidence from time purchases → the life-conversion account in [[file:../30-reflections/30.100-after-efficiency-time-and-good-life.org][After Efficiency]] → the treatment of rest, relationships and creation in [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillful Use of Things]]. The final two steps are Tao3k's normative interpretation.
+* Navigation
+[[file:../README.org][language index]] · [[file:../30-reflections/30.100-after-efficiency-time-and-good-life.org][After efficiency]]

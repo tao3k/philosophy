@@ -57,9 +57,9 @@ Some human experience cannot be reduced to machine-verifiable observations. Requ
 Mature knowledge carries two forms of traceability: backward to sources, observations, assumptions, and inference; forward to judgment, authority, action, consequence, and new observation. The first disciplines warrant and the second disciplines responsibility. Together they place an output inside a history that can be challenged and revised.
 
 Traceability is not maximized recording. It is the minimum chain sufficient to reconstruct reasons and consequences. Its quality is measured by whether it enables refutation, correction, stopping, and remedy—not by log volume.
-* Promotion Criteria
+* Questions That Remain
 Further tests should cover option exclusion, narrative evidence, minimal disclosure and less powerful participants' actual ability to correct premises. Logs should support reconsideration, not merely institutional self-certification.
 
 Test at least three cases: reliable source with faulty inference, reasonable inference without authority, and successful execution with harmful long-term effects. Establish deletion rules for conflicts between privacy and answerability, and show that “not observed” never silently becomes “no effect.” Until these boundaries mature, this remains a knowledge discipline rather than a new Charter principle.
 * Navigation
-[[file:../README.org][language index]]
+[[file:../README.org][language index]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]]

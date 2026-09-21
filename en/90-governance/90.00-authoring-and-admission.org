@@ -56,7 +56,7 @@ document status never confers normative authority on its contents.
 | Object | Required evidence | Admission result |
 |--------+-------------------+------------------|
 | CN/EN document | Unique =SEMANTIC_ID=, reciprocal =COUNTERPART=, exact contract composition | Maintained pair |
-| Reflection | Argument, counterexample, provisional conclusion, promotion criteria | Open inquiry |
+| Reflection | Argument, counterexample, provisional conclusion, questions that remain | Open inquiry |
 | Principle | First-class node, lifecycle fields, refinement relation, counterarguments, failure modes | Draft, proposed, or accepted norm |
 | Engineering Map | Stable normative requirement separated from replaceable current realization | Traceable implementation |
 | Source | Source identity, historical context, interpretation status, claim scope | No automatic normative authority |
@@ -67,8 +67,8 @@ Orgize itself maintains scale performance and admission regressions through the 
 
 * Change Policy
 
-- Reflection supplies an argument; a newly materialized Charter node begins at =draft=.
-- =draft -> proposed= requires satisfied promotion criteria, bilingual pairing, counterexamples, boundaries, and engineering consequences.
+- A Reflection preserves argument and open questions; it undergoes no Principle lifecycle transition. Governance may admit only a separately authored Charter Principle that cites its source Reflection, beginning at =draft=.
+- A Principle's =draft -> proposed= requires its own bilingual pairing, counterarguments, boundaries and engineering consequences, plus an account of which questions from the source Reflection have been answered and which remain open. This is a maintainer judgment, not a state change automatically triggered by a checklist.
 - =proposed -> accepted= requires an explicit maintainer review; tool success is not acceptance.
 - Meaning-preserving clarification increments =REVISION= and records its rationale.
 - Normative meaning changes never silently overwrite an accepted principle; use =SUPERSEDES= and =SUPERSEDED_BY=.

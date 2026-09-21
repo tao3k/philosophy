@@ -1,0 +1,46 @@
+#+TITLE: Leisure, Interest, and Ordinary Experience: Interpretation Boundaries
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-130-EN
+:SEMANTIC_ID: philosophy.source-note.40.130-leisure-interest-and-ordinary-experience
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.130-leisure-interest-and-ordinary-experience.org
+:SOURCE_ID: PHIL-SRC-130
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: John Maynard Keynes; 庄子文本传统; Bertrand Russell; John Dewey scholarship
+:SOURCE_WORK: Economic Possibilities for our Grandchildren; 《庄子·逍遥游》; The Conquest of Happiness; Dewey’s Aesthetics
+:SOURCE_EDITION: 1930 essay; received text; 1930 book; Stanford Encyclopedia of Philosophy, substantive revision 2025-09-30
+:SOURCE_DATE: 1930; received text; 1930; 2025
+:SOURCE_LANGUAGE: en; lzh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Keynes 1930; Zhuangzi Xiaoyaoyou; Russell 1930; Stanford Encyclopedia of Philosophy on Dewey aesthetics
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: leisure, non-instrumental activity, interest, and ordinary experience as bounded interpretive resources
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.130-leisure-interest-and-ordinary-experience-en
+:END:
+This note places four different traditions together as bounded resources for questions: Keynes, [[https://www.marxists.org/reference/subject/economics/keynes/1930/our-grandchildren.htm][Economic Possibilities for our Grandchildren]] (1930); the story of the “useless” tree at the end of the [[https://ctext.org/zhuangzi/enjoyment-in-untroubled-ease][Zhuangzi, Xiaoyaoyou]]; Russell, [[https://www.gutenberg.org/ebooks/77894][The Conquest of Happiness]] (1930); and the Stanford Encyclopedia of Philosophy entry on [[https://plato.stanford.edu/entries/dewey-aesthetics/][Dewey's Aesthetics]].
+* Context
+Within an economic forecast, Keynes imagines technical and capital development reducing subsistence labor and immediately asks whether people know how to use leisure. The forecast's horizon, distributional premises and historical setting cannot be omitted.
+
+The close of Xiaoyaoyou reverses a narrow standard of usefulness through a tree judged unfit for timber, making room for wandering and rest. Russell discusses zest and interests beyond private anxiety, from a situated and dated view of life. Dewey's aesthetics resists isolating aesthetic experience from ordinary experience and asks how activity gains unity and meaning through participation.
+* Interpretation Boundaries
+These texts do not show that technical progress has universally produced leisure, prescribe the proper use of leisure or diagnose one mother as lacking interest. Zhuangzi's uselessness does not reject every responsibility, Russell's account is not a universal recipe for happiness, and Dewey's theory cannot prove that an AI intervention works.
+
+Classical and twentieth-century texts do not directly answer consent for data, family accounts, platform objectives or rights over personal records. The repository must answer those modern questions separately.
+* Influence
+The sources help preserve three possibilities: after subsistence pressure falls, people may still need time to learn how they wish to inhabit leisure; an activity may be worthwhile without output; and meaning in ordinary activity forms through participation rather than advance system designation. They make “every blank must be filled” and “only novelty counts as improvement” questionable assumptions.
+* Interpretation Chain
+Keynes's question about leisure + Zhuangzi's reversal of narrow utility + Russell's claim about outward interest + Dewey's regard for ordinary experience → the interpretation of an open case, nonproductive activity and correction by experience in [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][When Life No Longer Hurries]]. The latter is Tao3k's modern synthesis and is not attributed to any one source.
+* Navigation
+[[file:../README.org][language index]] · [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][When life no longer hurries]]
