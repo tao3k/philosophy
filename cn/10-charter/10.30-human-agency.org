@@ -41,7 +41,7 @@
 
 人的价值不可由单一 proxy 完整表示；主体性要求保留退出、纠错、申诉和重新定义目标的能力。
 
-[[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.97-transformative-experience-evaluability.org][来源说明]] · [[file:../30-reflections/30.40-optimization-is-not-human-value.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@ dark pattern 使退出不可行；代理目标被当成福利；受影响者没�
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-AGENCY-001 | [[file:../40-sources/40.97-transformative-experience-evaluability.org][来源说明]]；[[file:../30-reflections/30.40-optimization-is-not-human-value.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

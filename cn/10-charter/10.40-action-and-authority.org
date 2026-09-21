@@ -41,7 +41,7 @@ proposal、decision、authority、execution 与 outcome 必须保持可区分、
 
 现实行动会改变资源、权利与风险；显式 authority scope 是把推理与外部效果连接起来的合约边界。
 
-[[file:../30-reflections/30.60-action-requires-authority.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.50-agent-systems-state-authority.org][来源说明]] · [[file:../30-reflections/30.60-action-requires-authority.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@ proposal 被 runtime 直接执行；authority 过期后仍可复用；返回码�
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-AUTH-001 | [[file:../40-sources/40.50-agent-systems-state-authority.org][来源说明]]；[[file:../30-reflections/30.60-action-requires-authority.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

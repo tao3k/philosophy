@@ -41,7 +41,7 @@
 
 可见的未知边界使检索、测量、暂停和比例证成成为可能；隐藏未知会让语言流畅性替代证据。
 
-[[file:../30-reflections/30.50-unknown-as-first-class.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.30-scientific-method-evidence.org][来源说明]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-EPI-001 | [[file:../40-sources/40.30-scientific-method-evidence.org][来源说明]]；[[file:../30-reflections/30.50-unknown-as-first-class.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

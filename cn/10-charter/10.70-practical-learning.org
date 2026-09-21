@@ -41,7 +41,7 @@
 
 经世致用在此被现代化为可追溯的 problem → intervention → outcome → learning，而不是借古代权威为产品背书。
 
-[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@ RFC 说明问题所有者、预期效果、负面外部性和观察计划；运�
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-PRAXIS-001 | [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]]；[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

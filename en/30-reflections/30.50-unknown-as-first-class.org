@@ -63,6 +63,6 @@ At decision-relevant boundaries, distinguish unknown, absent, not-applicable, co
 
 * Questions That Remain
 
-Show that missing evidence defaults to neither true nor false, conflicts cannot be overwritten by the last writer, withheld cannot degrade into absent, and defaults cannot escape their low-risk scope. Cases should demonstrate how one unknown can appropriately trigger continuation, retrieval, an authority request, increased assurance, or stopping. Only then should this enter the epistemology and uncertainty Charter.
+Show that missing evidence defaults to neither true nor false, conflicts cannot be overwritten by the last writer, withheld cannot degrade into absent, and defaults cannot escape their low-risk scope. Cases should demonstrate how one unknown can appropriately trigger continuation, retrieval, an authority request, increased assurance, or stopping. Only then may an author draft a separate epistemology-and-uncertainty Principle citing this retained Reflection for Governance to review for Charter admission.
 
 Add cases of uncategorized change, compound shocks with shared causes, legitimate privacy and pausing some actions while continuing necessary responsibilities. Test appropriate adjustment rather than global paralysis or perpetual data demands.

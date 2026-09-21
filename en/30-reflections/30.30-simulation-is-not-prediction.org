@@ -59,6 +59,6 @@ Every future-facing claim should retain its epistemic type, model version, initi
 
 * Questions That Remain
 
-Demonstrate rejection of at least four failures: treating simulation frequency as probability, extrapolating short-horizon success into long-term safety, treating input substitution as valid intervention, and treating verification as real-world validation. Also show that model expiry or world drift reduces downstream authority rather than merely changing a timestamp. Only then should this enter the temporality and causality Charter.
+Demonstrate rejection of at least four failures: treating simulation frequency as probability, extrapolating short-horizon success into long-term safety, treating input substitution as valid intervention, and treating verification as real-world validation. Also show that model expiry or world drift reduces downstream authority rather than merely changing a timestamp. Only then may an author draft a separate temporality-and-causality Principle citing this retained Reflection for Governance to review for Charter admission.
 
 Further review must cover omitted directions, advice-induced behavioral change and distant numerical precision concealing model boundaries. Permit grounded local forecasts; reflexivity must not excuse predictions from testing.

@@ -65,8 +65,12 @@ testing 与 runtime observation 面向实际实现或运行环境，但只能覆
 
 * 影响
 
-进入 [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation 不是 Prediction]]，并支持比例证成 Charter 对“主张类型—证据类型—后果”的配对。特别禁止把 verifier green、bounded search green 或 command success 写成现实结果已经安全。
+为 [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation 不是 Prediction]] 提供证据边界，也为另行撰写的[[file:../10-charter/10.50-proportional-assurance.org][比例证成 Principle]]提供来源；后者的
+规范地位来自独立论证与 Governance 准入，而不是来源或 Reflection 自动转化。特别禁止把 verifier
+green、bounded search green 或 command success 写成现实结果已经安全。
 
 * 解释链
 
-Hoare 演绎证明与现代 model/simulation credibility 实践 → 各证据方法的 claim boundary → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][对应反思]] → 比例证成原则。Tao3k 的类型化 receipt 与下游 admission 是现代综合，不是这些来源指定的架构。
+Hoare 演绎证明与现代 model/simulation credibility 实践 → 各证据方法的 claim boundary → 被保留的
+[[file:../30-reflections/30.30-simulation-is-not-prediction.org][对应反思]] → 另行撰写、引用来源与反思的[[file:../10-charter/10.50-proportional-assurance.org][比例证成 Principle]] → Governance 审查是否准入
+Charter。Tao3k 的类型化 receipt 与下游 admission 是现代综合，不是这些来源指定的架构。

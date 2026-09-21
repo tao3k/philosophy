@@ -41,7 +41,7 @@ A system must not silently promote missing, conflicted, or hypothetical informat
 
 A visible unknown frontier enables retrieval, measurement, pausing, and proportional assurance; hidden unknown lets fluency replace evidence.
 
-[[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.30-scientific-method-evidence.org][source note]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ Which boundaries deserve explicit modeling? How should unknown propagate without
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-EPI-001 | [[file:../30-reflections/30.50-unknown-as-first-class.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-EPI-001 | [[file:../40-sources/40.30-scientific-method-evidence.org][source note]]; [[file:../30-reflections/30.50-unknown-as-first-class.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

@@ -54,8 +54,14 @@ This note does not require one prover or model checker for every high-consequenc
 
 * Influence
 
-It enters [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]] and supports matching claim type, evidence type, and consequence under the proportional-assurance Charter. In particular, verifier green, bounded-search green, and command success must not be stated as proof that real outcomes are safe.
+It grounds the evidence boundaries in [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]] and also informs the separately authored
+[[file:../10-charter/10.50-proportional-assurance.org][proportional-assurance Principle]]. The latter's normative standing depends on independent argument and
+Governance admission, not automatic conversion of a source or Reflection. In particular, verifier green,
+bounded-search green, and command success must not be stated as proof that real outcomes are safe.
 
 * Interpretation Chain
 
-Hoarean deductive proof and modern model/simulation credibility practice → claim boundaries for evidence methods → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][corresponding reflection]] → proportional assurance. Tao3k typed receipts and downstream admission are a modern synthesis, not an architecture specified by these sources.
+Hoarean deductive proof and modern model/simulation credibility practice → claim boundaries for evidence
+methods → retained [[file:../30-reflections/30.30-simulation-is-not-prediction.org][corresponding Reflection]] → separately authored [[file:../10-charter/10.50-proportional-assurance.org][proportional-assurance Principle]] citing
+the source and Reflection → Governance review for Charter admission. Tao3k typed receipts and downstream
+admission are a modern synthesis, not an architecture specified by these sources.

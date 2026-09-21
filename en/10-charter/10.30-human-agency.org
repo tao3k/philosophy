@@ -41,7 +41,7 @@ A high-impact system identifies who defines the goal, who is affected, and how p
 
 No single proxy fully represents human value; agency requires exit, correction, appeal, and the ability to redefine goals.
 
-[[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.97-transformative-experience-evaluability.org][source note]] · [[file:../30-reflections/30.40-optimization-is-not-human-value.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ Who decides when group goals conflict? When must long-lived delegation be reconf
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-AGENCY-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-AGENCY-001 | [[file:../40-sources/40.97-transformative-experience-evaluability.org][source note]]; [[file:../30-reflections/30.40-optimization-is-not-human-value.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

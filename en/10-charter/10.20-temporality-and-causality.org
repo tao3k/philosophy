@@ -41,7 +41,7 @@ Past, present, future, predicted, simulated, and counterfactual must not collaps
 
 A model output derives authority from its model, assumptions, data, calibration, and horizon; deleting those qualifiers manufactures false causality and certainty.
 
-[[file:../30-reflections/30.30-simulation-is-not-prediction.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ How should model disagreement, model drift, and open-world horizons be represent
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-TEMP-001 | [[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]]; [[file:../30-reflections/30.30-simulation-is-not-prediction.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

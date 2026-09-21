@@ -41,7 +41,7 @@ Proposal, decision, authority, execution, and outcome remain distinguishable, au
 
 Real action changes resources, rights, and risk; explicit authority scope is the contract boundary connecting reasoning to external effects.
 
-[[file:../30-reflections/30.60-action-requires-authority.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.50-agent-systems-state-authority.org][source note]] · [[file:../30-reflections/30.60-action-requires-authority.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ How should distributed delegation compose? How are cross-organizational authorit
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-AUTH-001 | [[file:../30-reflections/30.60-action-requires-authority.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-AUTH-001 | [[file:../40-sources/40.50-agent-systems-state-authority.org][source note]]; [[file:../30-reflections/30.60-action-requires-authority.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

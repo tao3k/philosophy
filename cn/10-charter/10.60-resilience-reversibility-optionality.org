@@ -41,7 +41,7 @@
 
 未知与环境变化不可消除；保留恢复路径、替代方案和退出权能降低错误判断的长期代价。
 
-[[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.97-transformative-experience-evaluability.org][来源说明]] · [[file:../30-reflections/30.40-optimization-is-not-human-value.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@ rollback 只存在文档中；备份从未恢复测试；局部 benchmark 掩盖
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-RESIL-001 | [[file:../40-sources/40.97-transformative-experience-evaluability.org][来源说明]]；[[file:../30-reflections/30.40-optimization-is-not-human-value.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

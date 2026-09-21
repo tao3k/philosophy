@@ -41,7 +41,7 @@ past、present、future、predicted、simulated 与 counterfactual 不得坍缩�
 
 模型输出的权威来自明确模型、假设、数据、校准与 horizon；删除这些限定会制造伪因果和伪确定性。
 
-[[file:../30-reflections/30.30-simulation-is-not-prediction.org][来源 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
 
 * 反对意见
 
@@ -63,4 +63,4 @@ past、present、future、predicted、simulated 与 counterfactual 不得坍缩�
 
 | 原则 | 工程方向 | 下游所有者 | 状态 |
 |---+---+---+---|
-| PHIL-TEMP-001 | [[file:../30-reflections/30.30-simulation-is-not-prediction.org][来源 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |
+| PHIL-TEMP-001 | [[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]]；[[file:../30-reflections/30.30-simulation-is-not-prediction.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

@@ -41,7 +41,7 @@ A technical claim connects to real human problems, benefits, costs, and observab
 
 Practical learning is modernized here as traceable problem → intervention → outcome → learning, not as historical authority endorsing a product.
 
-[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ How should non-quantifiable value be handled? How can stakeholder conflicts rema
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-PRAXIS-001 | [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-PRAXIS-001 | [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]]; [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

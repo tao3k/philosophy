@@ -41,7 +41,7 @@ Decisions treat reversibility, resilience, and future optionality as first-class
 
 Unknowns and environmental change cannot be eliminated; recovery paths, alternatives, and exit rights reduce the long-term cost of mistaken judgment.
 
-[[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+[[file:../40-sources/40.97-transformative-experience-evaluability.org][source note]] · [[file:../30-reflections/30.40-optimization-is-not-human-value.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
 
 * Counterarguments
 
@@ -63,4 +63,4 @@ How should option cost be assessed? When should an irreversible commitment be ac
 
 | Principle | Engineering direction | Downstream owner | Status |
 |---+---+---+---|
-| PHIL-RESIL-001 | [[file:../30-reflections/30.40-optimization-is-not-human-value.org][source Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
+| PHIL-RESIL-001 | [[file:../40-sources/40.97-transformative-experience-evaluability.org][source note]]; [[file:../30-reflections/30.40-optimization-is-not-human-value.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |
