@@ -117,6 +117,21 @@ Preparation consists of six needs interviews with willing participants, recordin
 
 If immediate A remains desired, the zero-revenue + S1 scenario needs at least 324,000 initially, 144,000 more than the existing reserve, just to cover the declared twelve months. This leaves no terminal buffer and says nothing about month 13 onward. Discuss smaller commitments, a smaller venture, or changed timing rather than making one amount everyone's savings target. Waiting also loses opportunities; when its cost becomes unacceptable, revisit goals and tolerable sacrifices instead of extending preparation forever.
 
+** From fixed paths to a strategy conditioned on observations
+A, B and C expose differences; they do not require a whole-path commitment in month 1. Practical help should say what to do now and what observation would justify change, using only evidence available at that time. [[https://www.rand.org/pubs/monograph_reports/MR1626.html][RAND's work on robust decisions]] offers a limited analogy: under deep uncertainty, compare many plausible futures and design near-term adaptive strategies. It cannot decide which life this household should undertake.
+
+#+NAME: zhisheng-adaptive-strategy-en
+| Observation available then | What may be reconsidered | What must not be assumed early |
+|----------------------------+--------------------------+--------------------------------|
+| Actual needs interviews and verifiable intent to pay | Continue C*, narrow it, or stop validation | A particular revenue level after month 7 |
+| Employment or care conflicts with the eight-hour window | Pause new tasks, negotiate support, or change timing | Relatives will automatically supply missing time |
+| The person dislikes operating a business but still values autonomy | Explore other work structures without treating changed purpose as failure | “Wanting a venture” must remain permanently binding |
+| Three months yield no evidence capable of changing the decision | Stop automatic spending and revisit with the cost of waiting visible | Repeating the same activity will become validation |
+
+Future peeking is prohibited. If two scenarios have the same observed history at the current time, the current recommendation cannot differ because a simulator knows that only one has a shock in month 6. Future branches can stress-test a common current action; they cannot impersonate information the person already has. A policy may diverge only after a new observation arrives.
+
+Staging does not require endless reversible micro-actions. After understanding visible risks, impacts and irreversible parts, the person may reasonably choose A or another major commitment. The system can expose gaps, prepare remedies and carry out an explicit delegation. It must not obstruct an appropriately confirmed direction merely because another path retains more cash.
+
 ** How would we know life improved?
 Review at month 3, after actual shocks, when goals or obligations change, and before any change of execution authority. Do not wait for an arbitrary twenty-percent change. Any threatened explicit constraint, newly affected person, or failed key premise withdraws the corresponding recommendation. Month 6 can revisit care and whether preparation remains useful without assuming C* was extended.
 
@@ -130,6 +145,8 @@ Review at month 3, after actual shocks, when goals or obligations change, and be
 | Family and counterparty views, refusal, and exit | Could people participate knowingly rather than be silenced by success metrics? |
 
 Compare actual observations with prior assumptions, preserving unknowns and disagreement without creating a life-improvement score. Income or savings growth alone proves no improvement. Abandoning an unsuitable venture, pursuing meaningful risk, or ending a useless commitment may each succeed when supported by human purposes and actual effects.
+
+Presentation can also create implicit weight. Cash may be exact to the yuan while exhaustion, dignity and relationships remain no less important than table notes. The [[file:../40-sources/40.97-transformative-experience-evaluability.org][source note on evaluability bias]] motivates preserving calculations, personal accounts, affected people's experience and unknowns in their own forms. The remedy is not a score for meaning, but preventing easy-to-display reasons from gaining automatic authority.
 
 ** Principle trace
 The case makes principles challengeable without promoting a draft directly into the charter.
@@ -145,9 +162,13 @@ The case makes principles challengeable without promoting a draft directly into 
 | [[file:../10-charter/10.70-practical-learning.org][PRAXIS]] | Observed outcomes revise assumptions, recommendations, and next actions |
 * Counterexamples
 A branch violating an explicit constraint is infeasible in that branch; not all scenarios must fail first. This does not make enterprise worthless or establish another path as universally superior. With fewer resources than this example, narrow the feasible set honestly and seek verifiable help, rather than deleting essentials or compelling unpaid family work to make a table pass.
+
+Staging can also become indefinite delay or disguise three months without new evidence as continued learning. Conversely, a reasoned irreversible commitment should not be obstructed merely for being less safe. Adjustment rules need stopping conditions, visible waiting costs and the person's explicit commitment.
 * Provisional Conclusion
 A qualified output contains traceable scenarios, current gaps, bounded preparation advice, and an outcome-review method. Neither declare success from year-end cash nor offer only prohibitions without enabling action. Recommendations, simulations, and disclaimers confer neither execution authority nor regulatory exemption.
 * Promotion Criteria
 Replay all declared revenue branches and extensions. Reject terminal recovery as a cure for earlier shortfalls and cash sufficiency as life feasibility. Repeat validation under changed population, resources, goals, and family relationships. Collect actual use and counterexample evidence before promotion; this synthetic case does not establish product effectiveness or implementation closure.
+
+Also verify that identical observation histories produce identical current advice and that future information never leaks into earlier decisions. Strategies should diverge only after new observations and should stop, redirect or support action when purposes change, evidence fails to arrive or a person undertakes a reasoned irreversible commitment.
 * Navigation
 [[file:../README.org][language index]]

@@ -109,8 +109,10 @@ These equations measure neither career meaning, a child's interests, nor care qu
 ** The next shock is unknown; the next commitment can still be constrained
 Some risks have unknown timing or scale; other changes are not yet represented. We cannot guarantee their absence, but can require that invalidated grounds no longer authorize new commitments. Renewed understanding is a condition for continuing action.
 
+The earlier hope to preserve 20,000 is a discussable preference, not a payment prohibition the system may harden on its own. The logical excerpt below adds an explicit teaching assumption: after seeing which payments the threshold would block, how long it applies and when it will be reviewed, someone with decision standing confirms it as a local boundary that AI must not cross without renewed authorization. If the household retains it only as a soft target, =authorized= cannot arise from it; the system may explain consequences and request a decision.
+
 #+NAME: job-loss-risk-en
-#+CAPTION: This 6,000 payment needs a current basis, explicit authorization, and at least 20,000 remaining cash; shocks or pending review withdraw old authorization.
+#+CAPTION: Under the teaching assumption of an explicitly confirmed 20,000 local payment boundary, this 6,000 payment still needs a current basis and authorization; shocks or pending review withdraw the old authorization.
 #+begin_src tla :eval never :exports code
 vars == <<cash, current, review, authorized>>
 Permit == current /\ ~review /\ authorized /\ cash - 6000 >= 20000
@@ -122,6 +124,8 @@ PauseUnknown == /\ current' = FALSE /\ review' = TRUE /\ authorized' = FALSE
                 /\ UNCHANGED cash
 StaleCannotAuthorize == (~current \/ review) => ~authorized
 #+end_src
+
+Passing =Permit= establishes only that this 6,000 payment satisfies the current local admission condition. It does not establish that the 4,000 monthly gap will preserve the buffer, or that training, care and employment form a sustainable path. Intertemporal affordability requires the cash trajectory, grounds for income recovery, exit terms and other obligations. Real recovery also depends on adjusting work, obtaining support and rebuilding conditions. Narrow correctness must not sponsor a broader judgment about living.
 
 When an unquantifiable change is discovered, leaving the recorded amount unchanged does not assign it zero impact: the old figure no longer supports new payments. Resumption needs new facts, affected people's participation, and explicit authorization. Review cannot guarantee eventual employment either.
 
@@ -141,12 +145,25 @@ Nothing below has been completed for a real household in this fictional case. Un
 
 Recompute when jobs appear, tuition changes, a caregiver withdraws, or ends change. Discuss the opportunity cost of waiting too. Language models can help articulate ends, identify missing questions, and explain reasons, but plausible language cannot replace verified facts.
 
+** Three months later: what must the same household understand again?
+Continue the same fictional household without treating the story as observation. Suppose three things occur after three months: temporary work is real but its evening shift conflicts with school pickup; a low-cost trial reveals that the unemployed parent does not want that industry but values control over work time more clearly; and the other parent refuses additional evening care without disclosing private reasons.
+
+#+NAME: job-loss-three-month-review-en
+| New observation | Why prior advice changes | A possible next step now |
+|-----------------+--------------------------+--------------------------|
+| A temporary job exists, but its hours conflict | Existence did not convert into a feasible opportunity for this household | Check other shifts or pickup support, or reject the job; do not book income early |
+| A trial changes the career purpose | The data need not be wrong; experience made the purpose more specific | Stop this course expense, retain what was learned, and explore other autonomous work structures |
+| A relative refuses new care | The assumed relational condition was never authorized | Do not demand irrelevant private reasons; rearrange time without construing refusal as rejection of the family |
+| Cash is better than expected, but everyone is more exhausted | A monetary improvement did not establish a better life | Reduce concurrent tasks and observe rest and care rather than silencing people with the balance |
+
+The review exposes four different issues: actual availability, changed purpose, authority and relationship conditions, and evaluative framing. They should not all become “prediction error.” Conversely, if the person understands the conflicts and still chooses a meaningful commitment that crosses a soft target without crossing an explicit authorization boundary, the system should help define scope, exit or remedy rather than repeatedly impose the lowest-risk path.
+
 ** A child's future is not a household return on investment
 If a child wants music lessons during an income interruption, neither automatically cancel them nor demand unaffordable spending for future returns. Invite age-appropriate expression of interests, check possible equipment loans or staged learning, and distinguish temporary adjustment from a long-term change needing discussion. A budget constrains one means of realization, not automatically the aspiration or right to participate. The other parent's care is not an unlimited free variable.
 
 Preparing before rain means bounded responses; considering disruption means understanding dependencies; aligning commitments with resources means neither fear, extreme austerity, nor blame. [[https://www.consumerfinance.gov/consumer-tools/educator-tools/financial-well-being-resources/explore-findings/][CFPB's discussion]] likewise recognizes factors within and beyond individual control. When resources are insufficient, disclose gaps honestly, verify support, and preserve dignity.
 
-** Argument and evidence status [3/6] [50%]
+** Argument and evidence status [4/7] [57%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
 :END:
@@ -155,6 +172,7 @@ Progress describes the article's argument and evidence, not completion of a life
 - [X] Events within the case, teaching assumptions, deductions, and unknowns are distinguished.
 - [X] Three cash paths and six timings of the one-off shock were recomputed, with a buffer counterexample.
 - [X] Shared resources, child and caregiver agency, conditional advice, and invalidation boundaries are explained.
+- [X] Soft targets and authorization boundaries, local payment admission and intertemporal affordability are distinguished, with a teaching scenario revising advice after three months of new observations.
 - [ ] Actual vacancies, training effectiveness, and available support still need source evidence.
 - [ ] A specific family's wishes, care capacity, and participation remain to be checked.
 - [ ] Improved life requires actual outcome observations, not a model or completed transaction.
@@ -168,9 +186,13 @@ Expression sources: [fn:poo-en], [fn:mrr-en], [fn:ascent-en], [fn:tla-en], [fn:o
 [fn:org-en] [[https://orgmode.org/manual/Checkboxes.html][Org checkbox documentation]]; mathematical syntax follows the [[https://typst.app/docs/reference/math/][Typst reference]].
 * Counterexamples
 Temporary work can crowd out better job opportunities; cheap training can still waste time. A family may reasonably prefer a meaningful career investment. An undiscovered dependency is not an absent one, and no alert does not mean no risk. Formal languages expose inconsistencies but cannot supply missing values, real opportunities, or other people's consent.
+
+Staged review can also demand endless self-explanation, postpone commitment or chase every temporary emotion. Purpose revision requires renewed endorsement by the person, not system cancellation after short-term fluctuation. A relative's specific refusal must not expand automatically into rejection of every shared responsibility.
 * Provisional Conclusion
 An event changes circumstances without determining a whole life. Zhisheng should turn aspirations into conditions that can be built gradually, help people understand requirements, sacrifices, and reasons to change direction, and reduce burdens within authority. Ecosystem tools connect by serving this question, not by turning every logical excerpt into a running system.
 * Promotion Criteria
 Challenge the argument across family structures, care conditions, income levels, and goals beyond employment. Use real feedback to test whether advice increases agency rather than anxiety. Future execution or formal-verification claims need versions, data, complete models, and receipts; Org code blocks do not themselves establish implementation closure.
+
+Also test that converting a soft preference into an execution boundary involves understanding and confirmation, that local admission is never presented as long-term sustainability, and that longitudinal feedback distinguishes factual updates, changed purposes, relational refusal and evaluative bias.
 * Navigation
 [[file:../README.org][language index]] · [[file:30.94-financial-life-stress-test.org][Previous: preparing for enterprise]]

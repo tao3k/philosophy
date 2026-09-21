@@ -28,6 +28,13 @@ Wang Yangming's unity of knowing and acting first addresses a separation: treati
 
 Modernization cannot mean that whatever is known must be executed. A system may know a risk but lack authority to alter the world. It may form a sound proposal but properly await human consent. It may decline to act because the action is irreversible. Non-action does not by itself disprove knowledge, and correct motivation does not legitimize unauthorized execution. The Tao3k revision is that genuine knowledge must be able to enter the action structure correctly while respecting authority, risk, human agency, and refusal.
 
+** Knowing while presently unable to act
+Modern life must recognize another separation. Someone may understand how they wish to live and be willing to bear the relevant responsibility, yet lack money, time, opportunity, rights, accessibility or necessary cooperation. Inability to act may expose missing conditions; it does not automatically establish false knowledge, insincere motivation or insufficient prompting.
+
+AI should therefore do more than push a correct judgment toward a tool call. It should distinguish missing facts, capabilities, authority and real support; identify conditions that can be built gradually; recognize organizational or institutional responsibility; and preserve currently unrealizable aspirations as directions. Improving conditions and respecting present inability can both belong to practice rather than moralizing hardship as individual failure.
+
+This is also a limit on historical interpretation. Wang Yangming addresses moral understanding, motivation and cultivation, not a formula for blaming people under modern deprivation or constraint. Tao3k retains the rejection of verbal assent as completed practice while refusing to infer “not genuine knowledge” directly from “not acted upon.”
+
 Unity therefore names a relation of responsibility and revision, not the disappearance of types:
 
 #+begin_example
@@ -58,5 +65,7 @@ Philosophical unity therefore does not imply implementation collapse. Only by pr
 * Promotion Criteria
 
 Before promotion, test three claims across both low- and high-consequence settings: how sound knowledge remains a proposal when authority is absent; how failure, partial success, and delayed consequence re-enter one update loop; and how people retain informed refusal and withdrawal at different stages. The responsibility chain must also prove that it supports challenge, correction, and stopping rather than merely producing more logs.
+
+Also include cases where someone knows but presently lacks conditions for action. The system should help build conditions, identify institutional constraints or respect delay without rewriting scarce resources as weak will.
 
 See [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable Knowledge]] and [[file:30.90-knowing-after-action.org][Knowing Again After Action]].

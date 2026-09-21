@@ -57,7 +57,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
 
-两条新增来源线索：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+三条新增来源线索：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测：预测参与改变世界]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性偏差]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
 
 * 专题索引
 

@@ -59,7 +59,7 @@ These paths connect reflections still requiring scrutiny, not claims all promote
 | What if purposes change or advice proves wrong? | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][Reasons and consequences]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][Challenging the question]] → [[file:30-reflections/30.90-knowing-after-action.org][Learning again]] |
 | How can I start with a concrete situation? | [[file:30-reflections/30.95-life-after-job-loss.org][Job loss and renewed choice]] → [[file:30-reflections/30.91-financial-life-simulation.org][Zhisheng]] → [[file:30-reflections/30.94-financial-life-stress-test.org][Stress-testing bounded preparation]] |
 
-Two additional source strands: [[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen: resources and substantive opportunities]] and [[file:40-sources/40.96-performative-prediction.org][performative prediction: predictions change the world]]. They ground questions without excusing our modern interpretations from argument.
+Three additional source strands: [[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen: resources and substantive opportunities]], [[file:40-sources/40.96-performative-prediction.org][performative prediction: predictions change the world]], and [[file:40-sources/40.97-transformative-experience-evaluability.org][transformative experience and evaluability bias]]. They ground questions without excusing our modern interpretations from argument.
 
 * Topic Index
 

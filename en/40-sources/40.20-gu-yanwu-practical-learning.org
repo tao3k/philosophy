@@ -42,9 +42,13 @@ Practical learning resists discourse detached from facts, institutions, and real
 
 This returns benchmarks, throughput, and automation ratios to the status of evidence. They may establish a capability change but cannot independently establish increased public value. The object of statecraft is consequence in lived and institutional reality, not the metric itself.
 
+In our modernization, “I did it for your good” likewise cannot establish help. Someone may understand what matters while lacking conditions for action; the benefit-harm inquiry should then examine missing opportunities, support and institutions rather than blame weak will. Knowledge should enter practice, while practice remains answerable to facts and consequences.
+
 * Interpretation Boundaries
 
 It cannot endorse every automation labelled useful or reduce “the public” to aggregate majority utility. Irreversible harm borne by minorities, diminished agency, maintenance debt, and future exit costs all belong to the benefit-harm account. Gu Yanwu did not supply a modern AI scorecard; the present question framework remains this repository's responsibility.
+
+Nor does this note reduce practical learning to deployment, transaction or task completion. Where structural support is absent, identifying and attempting to change conditions can itself be a practical result; absence of immediate execution does not mean absence of a real problem.
 
 * Influence
 
