@@ -92,6 +92,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | AI 如何管理手段而不接管人的目的 | [[file:30-reflections/30.92-stewardship-not-sovereignty.org][托管而非主权]] |
 | 当前选择怎样保护未来自己的主体性 | [[file:30-reflections/30.93-intertemporal-agency.org][跨时间主体性]] |
 | 创业选择缺什么、怎样准备、如何验证生活改善 | [[file:30-reflections/30.94-financial-life-stress-test.org][治生压力测试：从资源缺口到有界准备]] |
+| 失业之后如何逐步重建选择，并用生态语言说明条件与风险 | [[file:30-reflections/30.95-life-after-job-loss.org][人生不止一条轨迹：从一次失业，到重新获得选择]] |
 | 外部 grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]；[[file:40-sources/40.92-life-cycle-finance.org][生命周期金融]]；[[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI 金融建议]]；[[file:40-sources/40.94-financial-planning-support-boundaries.org][市场与监管边界]] |
 
 * 关系图

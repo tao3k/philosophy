@@ -1,0 +1,176 @@
+#+TITLE: 人生不止一条轨迹：从一次失业，到重新获得选择
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: PHIL-REF-95-CN
+:SEMANTIC_ID: philosophy.reflection.life-after-job-loss
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/30-reflections/30.95-life-after-job-loss.org
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.life-after-job-loss-cn
+:END:
+治生要帮助的，不是一个等待算法安排的人，而是一个正在经历变化、承担责任、也仍然拥有愿望的人。一位刚失业的家长问：“孩子还要上学，房租还要交。我该赶快找任何一份工作，还是找合适的？还能转行吗？”
+
+就业、照护、迁居、婚育与退休不是人人必须依次完成的标准人生。AI 应从当事人认可的关系和目的出发，帮助理解生活需要哪些条件、怎样逐步建立条件，以及变化之后还有哪些路。[[file:30.91-financial-life-simulation.org][治生]] 的积极价值包括发现可能性，不只是避免错误。
+* 论证
+失业可以是已经发生的事件；“以后一定找不到工作”“孩子的未来因此被决定”却不能由它直接推出。系统既不列出一串灾难作为命运判决，也不保证一切会好起来，而应分清已发生的变化、尚未验证的担心、必要责任与可调整路径。
+
+** 一个家庭，三条仍可调整的路径
+以下完全是虚构教学案例，不是家庭预算标准。可动用现金 60,000 元，另一位家长税后月收入 6,000 元，必要支出 10,000 元/月，已含住房、生活与既有照护；家庭希望尽量保留 20,000 元缓冲。每月基础缺口 4,000 元。共同压力假设是接下来六个月没有新的长期工作，不是失业时长预测。
+
+#+NAME: job-loss-paths-cn
+| 路径 | 六个月内的额外假设 | 无冲击期末现金 | 加一次 10,000 元支出 | 未解决的问题 |
+|------+--------------------+----------------+---------------------+--------------|
+| A：寻找原领域工作 | 无额外收入或费用 | 36,000 | 26,000 | 岗位机会、求职进展、等待成本 |
+| B：培训后转岗 | 第 1 月课程费 6,000；前 3 月额外照护各 1,000 | 27,000 | 17,000 | 培训与岗位的关联、时间安排 |
+| C：临时工作与求职并行 | 第 1 月起每月净收入另加 3,000，额外照护另支 1,000 | 48,000 | 38,000 | 临时岗位可得性、工时与求职冲突 |
+
+临时工作的“净收入”已扣该工作的直接成本，但没有扣表中另列的照护成本。一次意外支出只计一次，发生于第 1–6 月任一月末。本例各路径每月均净流出，因此期末也是最低余额；不能将这个性质推广到先亏后赚的其他路径。月内偿付顺序、长期就业和剩余照护容量均未证明。
+
+C 的现金较多不等于最好的人生；B 的现金较少也不意味着转行愿望错误。B 在压力情境跌破家庭目标，表明当前实现方式需要调整，可以核实低成本试学、分阶段付费、其他照护安排，而非取消整个职业方向。任何替代方案都仍需确认实际可得性。
+
+** 失业已经发生，培训仍是候选
+已经发生的失业改变了当前处境；考虑培训并不等于已经报名，更不等于未来必然就业。把两者放在同一情境里，才能讨论从现在走向某条路径还缺哪些条件。
+
+#+EXPLANATION: 失业进入当前事件切面；培训保留为未承诺的反事实。位置 0、1 表示逻辑先后，不表示月份。
+#+NAME: job-loss-context-cn
+#+begin_src scheme :eval never :exports code
+(import :poo-flow/src/modules/temporal-causality/interface)
+
+(def job-loss
+  (poo-flow-causal-event
+   "job-loss" "family-demo" 'employment-ended
+   (poo-flow-temporal-observation "t0" 'logical-version 0 "synthetic-case")
+   "salary-stopped" '() 'observed #t))
+
+(def training-option
+  (poo-flow-causal-event
+   "training-option" "family-demo" 'training-considered
+   (poo-flow-temporal-observation "t1" 'logical-version 1 "synthetic-case")
+   "fee-6000-care-3000" '("job-loss") 'counterfactual #f))
+
+(def event-graph
+  (poo-flow-causal-event-graph "family-demo" (list job-loss training-option)))
+(def present (poo-flow-causal-cut event-graph 0))
+(def bounded-view
+  (poo-flow-temporal-causal-classify event-graph present "job-loss" 1))
+#+end_src
+
+** 哪些计划需要重新检查
+住房与培训可能依赖同一笔储备；临时工作又可能占用原本用于求职或照护的时间。收入改变之后，应先找出相关计划，再检查影响如何沿这些关系传递。
+
+#+EXPLANATION: 找出依赖家庭共享现金的计划。
+#+NAME: job-loss-dependencies-cn
+#+begin_src gql :eval never :exports code
+MATCH (plan:Plan)-[:DEPENDS_ON]->(resource:Resource)
+WHERE resource.name = 'shared-cash'
+RETURN plan
+#+end_src
+
+#+EXPLANATION: x 依赖 y；当 y 发生变化或已受影响时，将 x 纳入需要检查的集合。
+#+NAME: job-loss-impact-cn
+#+begin_src ascent :eval never :exports code
+relation depends(&'static str, &'static str);
+relation changed(&'static str);
+relation affected(&'static str);
+
+affected(x) <-- changed(x);
+affected(x) <-- depends(x, y), affected(y);
+#+end_src
+
+若教学事实为“共享现金依赖工资，住房计划和培训计划依赖共享现金”，再给出“工资变化”，可以推出这些计划进入受影响集合。=affected= 仅表示应检查，不表示计划已失败，更不证明因果影响的大小。临时工时变化与照护安排的关联也必须先被声明和核实。
+
+每个判断都应保留理由及其事实版本：哪些变化使它成立，哪些新信息使它失效。不能通过编写“培训导致高收入”的规则，把未经验证的关系变成事实。
+
+事件是发生了什么；Effect 是产生的变化，尚未发生时标为预期或假设；Impact 说明变化涉及哪些资源、目标、责任和人；轨迹是它们随时间展开的过程。“不同宇宙”只是比喻，分支不穷尽所有未来。新工作到来应触发重新观察与推导，而不是在旧结论旁多加一条乐观说明。
+
+** 同一笔钱只能支撑一次承诺
+同一现金池不能同时为几个计划完整兜底，同一个晚上也不能同时用于工作、学习和照护。现金缓冲要检查整个期间，而不仅是末值。
+
+#+EXPLANATION: C 为现金，I 为收入，E 为必要支出，F 为一次性费用，K 为额外照护，S 为冲击；各项不重复计入。
+#+NAME: job-loss-equations-cn
+#+begin_src typst :eval never :exports code
+$ C_(t+1) = C_t + I_t - E_t - F_t - K_t - S_t $
+$ C_6^A = 60000 + 6 (6000 - 10000) = 36000 $
+$ C_6^B = C_6^A - 6000 - 3 times 1000 = 27000 $
+$ C_6^C = C_6^A + 6 (3000 - 1000) = 48000 $
+$ C_6^(B, "shock") = 27000 - 10000 = 17000 < 20000 $
+$ "buffer holds" equiv min_(0 <= t <= 6) C_t >= 20000 $
+#+end_src
+
+这些等式不衡量职业意义、孩子兴趣或照护质量；即使金额都正确，家人的时间和参与仍可能使方案不可接受。
+
+** 不知道下一次冲击，仍可以约束下一次承诺
+有些风险已知，但时点和规模未知；另一些变化尚未进入当前模型。我们不能保证它们不发生，却可以要求：依据失效之后，不再沿用旧授权新增承诺。重新理解处境，是继续行动的条件。
+
+#+EXPLANATION: 这笔 6,000 元付款须有有效依据和明确授权，且付款后现金至少 20,000；冲击或待复核状态撤回旧授权。
+#+NAME: job-loss-risk-cn
+#+begin_src tla :eval never :exports code
+vars == <<cash, current, review, authorized>>
+Permit == current /\ ~review /\ authorized /\ cash - 6000 >= 20000
+Pay == /\ Permit /\ cash' = cash - 6000 /\ authorized' = FALSE
+       /\ UNCHANGED <<current, review>>
+Shock(s) == /\ s >= 0 /\ cash' = cash - s
+            /\ current' = FALSE /\ review' = TRUE /\ authorized' = FALSE
+PauseUnknown == /\ current' = FALSE /\ review' = TRUE /\ authorized' = FALSE
+                /\ UNCHANGED cash
+StaleCannotAuthorize == (~current \/ review) => ~authorized
+#+end_src
+
+发现无法估计的变化时，暂不更改账面金额不等于把影响认定为零：原有数值已不足以支持新付款。恢复行动需要新的事实、受影响者参与和明确授权；复核也不能保证最终找到工作。
+
+环境变化不受 AI 控制，因此“缓冲永不跌破”不是可无条件保证的不变量。反例很简单：在基础月缺口 4,000 之外，若连续三个月各支出 10,000，现金是 60,000 → 46,000 → 32,000 → 18,000，即使没有培训付款也会跌破目标。这是比表中“一次冲击”更强的另一个情境，不能偷偷混成同一假设。
+
+应当追求的是不在失效依据上新增可控承诺，及时揭示缺口并停止未经授权的动作，而不是承诺自然事件不会伤害人。有限的风险模型，不能代替对新处境的持续认识。
+
+** 从看见分支到找到下一步 [0/3] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+在这个虚构案例中，尚未替真实家庭完成以下事项。按维持基本生活、必要照护并保留转岗意愿的假设优先级，可以建议先核实两类事实，再承担付费承诺；建议本身不授权报名、代发消息或接受临时工作。
+
+- [ ] 核实培训与真实岗位需求的关系，包含费用、退出条件与不成功的可能。
+- [ ] 核实临时工作的可得性、实际工时，以及谁愿意承担新增照护。
+- [ ] 与相关家庭成员约定小步准备、投入上限和复核日期，保留拒绝与不继续的选择。
+
+出现新岗位、课程降价、照护者退出或目的变化时重算；等待本身的机会成本也要讨论。大模型可帮助表达目标、发现遗漏问题与解释理由，但语言上的合理不取代事实核实。
+
+** 孩子的未来不是家庭收益项目
+收入中断时，孩子想学音乐既不能被自动取消，也不能以“未来回报”为由强迫家庭超支。应让孩子适龄表达兴趣，核实借用设备、分阶段学习等可能途径，并说明调整是临时安排还是需要重新讨论的长期改变。家庭预算约束一种实现方式，不应自动取消愿望或参与权；另一位家长的照护也不是无限免费的变量。
+
+未雨绸缪是准备有限的应对办法，居安思危是理解稳定所依赖的条件，量入为出是使承诺与资源相称，而不是恐惧、极端节俭或责备弱势。[[https://www.consumerfinance.gov/consumer-tools/educator-tools/financial-well-being-resources/explore-findings/][CFPB 的讨论]] 也指出财务福祉受个人可控与不可控因素共同影响。资源不足时要诚实说明缺口、核实支持并保留尊严。
+
+** 论证与证据状态 [3/6] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+进度统计描述本篇论证与证据，不是人生完成度。命名代码块是案例的逻辑表达，不作为执行或形式证明的回执。
+
+- [X] 已将案例内事件、教学假设、推导与未知分开。
+- [X] 已复算三条金额路径及一次冲击的六种月份，并给出缓冲反例。
+- [X] 已说明共享资源、孩子与照护者主体性、条件建议及失效边界。
+- [ ] 真实岗位、课程效果与可获得支持尚需来源证据。
+- [ ] 具体家庭的意愿、照护容量与参与安排尚待核实。
+- [ ] 事后生活是否改善尚需真实观测，不由模型或交易完成代替。
+
+表达来源：[fn:poo-cn]、[fn:mrr-cn]、[fn:ascent-cn]、[fn:tla-cn]、[fn:org-cn]。
+
+[fn:poo-cn] [[https://github.com/tao3k/poo-flow/blob/9fdab8eea255e3db557280c842676c1a500a20d3/t/temporal-causality-core-test.ss][POO Flow：Temporal Causality 接口用例]]。
+[fn:mrr-cn] [[https://github.com/tao3k/gql-rust/blob/aea0bec21abe42f140b61d7764a88b9e66c7a4dd/crates/mrr-search/src/reasoning.rs][MRR：依赖影响推理]]。
+[fn:ascent-cn] [[https://s-arash.github.io/ascent/][Ascent 关系规则]]。
+[fn:tla-cn] [[https://lamport.azurewebsites.net/tla/tla.html][TLA+]]。
+[fn:org-cn] [[https://orgmode.org/manual/Checkboxes.html][Org checkbox 文档]]；Typst 数学语法参见 [[https://typst.app/docs/reference/math/][官方说明]]。
+* 反例
+临时工作可能占掉求职机会，低价课程也可能浪费时间；家庭可能更愿意承担有理由的职业投入。模型未发现依赖不等于依赖不存在，未触发告警也不等于没有风险。形式化语言能暴露不一致，却不能提供缺失的价值判断、真实机会与他人同意。
+* 暂定结论
+一次事件改变处境，不替人决定余生。治生应把愿望转成可逐步建立的条件，让人理解需要什么、牺牲什么、何时改道，并在权限内减轻负担。生态工具的联系在于共同服务这个问题，不在于把每个逻辑片段都扩写成运行系统。
+* 升格条件
+在不同家庭结构、照护条件、收入与非就业人生目标中审查反例；以真实反馈检验建议是否增加行动能力而非焦虑。若以后声明可执行或形式验证，须另给对应版本、数据、完整模型和回执，不由本文的 Org 代码块推定实现闭合。
+* 导航
+[[file:../README.org][语言入口]] · [[file:30.94-financial-life-stress-test.org][前一篇：创业准备]]

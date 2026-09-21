@@ -1,0 +1,176 @@
+#+TITLE: More Than One Life Trajectory: From Job Loss to Renewed Choice
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-95-EN
+:SEMANTIC_ID: philosophy.reflection.life-after-job-loss
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.95-life-after-job-loss.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.life-after-job-loss-en
+:END:
+Zhisheng supports a person experiencing change, carrying responsibilities, and retaining aspirations, not someone waiting for an algorithm to arrange life. A newly unemployed parent asks: “School and rent still need paying. Should I take any job quickly, seek a suitable one, or try changing careers?”
+
+Employment, care, relocation, marriage, parenthood, and retirement are not a mandatory sequence. Start from the person's relationships and ends: which conditions does their chosen life need, how can those conditions be built, and which paths remain after disruption? [[file:30.91-financial-life-simulation.org][Zhisheng]] should reveal possibilities, not merely prevent mistakes.
+* Argument
+Job loss can be an observed event. Permanent unemployment or a predetermined future for a child does not follow from it. Neither present disasters as destiny nor guarantee recovery. Separate actual changes, untested fears, necessary responsibilities, and adjustable paths.
+
+** One household, three revisable paths
+This is an entirely fictional teaching case, not a household budget standard. Available cash is CNY 60,000; the other parent earns 6,000 net monthly; essentials cost 10,000 monthly, including housing, living costs, and existing care. The household hopes to preserve a 20,000 buffer. The baseline monthly gap is 4,000. The common stress assumption is no new long-term job for six months, not a forecast of unemployment duration.
+
+#+NAME: job-loss-paths-en
+| Path | Additional six-month assumptions | Terminal cash, no shock | With one 10,000 expense | Unresolved question |
+|------+----------------------------------+-------------------------+-------------------------+---------------------|
+| A: seek work in the original field | No extra income or costs | 36,000 | 26,000 | Vacancies, search progress, waiting costs |
+| B: retrain for a career change | 6,000 course fee in month 1; 1,000 extra care in each of the first three months | 27,000 | 17,000 | Course relevance to jobs and available time |
+| C: temporary work alongside searching | 3,000 extra net income and 1,000 extra care monthly from month 1 | 48,000 | 38,000 | Work availability and conflicts with searching or family time |
+
+Temporary net income deducts direct work costs but excludes the care cost listed separately. The unexpected expense happens once, at the end of any month 1–6. Each path has net outflow every month here, making the terminal balance the minimum; this does not generalize to paths that lose money before earning it. Intramonth solvency, long-term employment, and remaining care capacity are unproven.
+
+C's larger cash balance does not make it the best life; B's smaller balance does not invalidate a career aspiration. B breaches the household target under stress, so reconsider the implementation: a lower-cost trial, staged payments, or different care arrangements, subject to their actual availability, rather than abandon the whole career direction.
+
+** Job loss has happened; training remains an option
+Job loss changes present circumstances. Considering training means neither enrollment nor inevitable future employment. Situating both together lets us ask what conditions are still missing between the present and a possible path.
+
+#+EXPLANATION: Job loss belongs to the present event cut; training remains an uncommitted counterfactual. Positions zero and one denote logical order, not months.
+#+NAME: job-loss-context-en
+#+begin_src scheme :eval never :exports code
+(import :poo-flow/src/modules/temporal-causality/interface)
+
+(def job-loss
+  (poo-flow-causal-event
+   "job-loss" "family-demo" 'employment-ended
+   (poo-flow-temporal-observation "t0" 'logical-version 0 "synthetic-case")
+   "salary-stopped" '() 'observed #t))
+
+(def training-option
+  (poo-flow-causal-event
+   "training-option" "family-demo" 'training-considered
+   (poo-flow-temporal-observation "t1" 'logical-version 1 "synthetic-case")
+   "fee-6000-care-3000" '("job-loss") 'counterfactual #f))
+
+(def event-graph
+  (poo-flow-causal-event-graph "family-demo" (list job-loss training-option)))
+(def present (poo-flow-causal-cut event-graph 0))
+(def bounded-view
+  (poo-flow-temporal-causal-classify event-graph present "job-loss" 1))
+#+end_src
+
+** Which plans need another look?
+Housing and training may depend on the same reserve; temporary work may take time previously available for searching or care. After income changes, locate related plans and inspect how effects travel through those relationships.
+
+#+EXPLANATION: Find plans depending on the household's shared cash.
+#+NAME: job-loss-dependencies-en
+#+begin_src gql :eval never :exports code
+MATCH (plan:Plan)-[:DEPENDS_ON]->(resource:Resource)
+WHERE resource.name = 'shared-cash'
+RETURN plan
+#+end_src
+
+#+EXPLANATION: x depends on y; if y changes or is affected, include x among the items requiring inspection.
+#+NAME: job-loss-impact-en
+#+begin_src ascent :eval never :exports code
+relation depends(&'static str, &'static str);
+relation changed(&'static str);
+relation affected(&'static str);
+
+affected(x) <-- changed(x);
+affected(x) <-- depends(x, y), affected(y);
+#+end_src
+
+Given teaching facts that shared cash depends on salary and housing and training plans depend on shared cash, a salary change puts those plans in the affected set. =affected= means inspect, not failed, and establishes no causal magnitude. A relation between temporary-work hours and care must likewise be declared and checked first.
+
+Each judgment should preserve reasons and fact versions: which changes support it, and which new information invalidates it. Writing a rule that training causes higher income cannot turn an untested relationship into fact.
+
+An event is what happened; an Effect is a resulting change, marked expected or hypothetical before occurrence; Impact identifies affected resources, goals, responsibilities, and people; a trajectory unfolds these through time. Alternative universes are only a metaphor: branches do not exhaust the future. A new job requires fresh observation and inference, not an optimistic annotation beside stale conclusions.
+
+** The same money can support a commitment only once
+One reserve cannot fully underwrite several plans simultaneously, and one evening cannot simultaneously provide work, learning, and care. Cash buffers concern the whole path, not just its endpoint.
+
+#+EXPLANATION: C is cash, I income, E essentials, F one-off costs, K extra care, and S shocks; no category is counted twice.
+#+NAME: job-loss-equations-en
+#+begin_src typst :eval never :exports code
+$ C_(t+1) = C_t + I_t - E_t - F_t - K_t - S_t $
+$ C_6^A = 60000 + 6 (6000 - 10000) = 36000 $
+$ C_6^B = C_6^A - 6000 - 3 times 1000 = 27000 $
+$ C_6^C = C_6^A + 6 (3000 - 1000) = 48000 $
+$ C_6^(B, "shock") = 27000 - 10000 = 17000 < 20000 $
+$ "buffer holds" equiv min_(0 <= t <= 6) C_t >= 20000 $
+#+end_src
+
+These equations measure neither career meaning, a child's interests, nor care quality. Correct amounts do not establish acceptable demands on family time or participation.
+
+** The next shock is unknown; the next commitment can still be constrained
+Some risks have unknown timing or scale; other changes are not yet represented. We cannot guarantee their absence, but can require that invalidated grounds no longer authorize new commitments. Renewed understanding is a condition for continuing action.
+
+#+EXPLANATION: This 6,000 payment needs a current basis, explicit authorization, and at least 20,000 remaining cash; shocks or pending review withdraw old authorization.
+#+NAME: job-loss-risk-en
+#+begin_src tla :eval never :exports code
+vars == <<cash, current, review, authorized>>
+Permit == current /\ ~review /\ authorized /\ cash - 6000 >= 20000
+Pay == /\ Permit /\ cash' = cash - 6000 /\ authorized' = FALSE
+       /\ UNCHANGED <<current, review>>
+Shock(s) == /\ s >= 0 /\ cash' = cash - s
+            /\ current' = FALSE /\ review' = TRUE /\ authorized' = FALSE
+PauseUnknown == /\ current' = FALSE /\ review' = TRUE /\ authorized' = FALSE
+                /\ UNCHANGED cash
+StaleCannotAuthorize == (~current \/ review) => ~authorized
+#+end_src
+
+When an unquantifiable change is discovered, leaving the recorded amount unchanged does not assign it zero impact: the old figure no longer supports new payments. Resumption needs new facts, affected people's participation, and explicit authorization. Review cannot guarantee eventual employment either.
+
+Environmental changes are not controlled by AI, so never breaching the buffer is no unconditional invariant. A counterexample adds a 10,000 expense to the baseline 4,000 gap in each of three successive months: cash moves 60,000 → 46,000 → 32,000 → 18,000, even without tuition. This is a separate, stronger scenario than the table's single shock, not a silent change of assumptions.
+
+The aim is to avoid new controllable commitments on an invalid basis, expose gaps, and stop unauthorized actions, not guarantee that nature cannot harm people. A bounded risk model cannot replace continued understanding of changed circumstances.
+
+** From branches to the next step [0/3] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+Nothing below has been completed for a real household in this fictional case. Under the assumed priorities of essentials, necessary care, and preserving a career-change aspiration, recommend checking two facts before paid commitments. Advice does not authorize enrollment, messages, or acceptance of temporary work.
+
+- [ ] Check training against actual job requirements, costs, exit terms, and the possibility of failure.
+- [ ] Check temporary-work availability, actual hours, and who willingly provides additional care.
+- [ ] Agree bounded preparation, spending limits, and a review date with affected family members, preserving refusal and discontinuation.
+
+Recompute when jobs appear, tuition changes, a caregiver withdraws, or ends change. Discuss the opportunity cost of waiting too. Language models can help articulate ends, identify missing questions, and explain reasons, but plausible language cannot replace verified facts.
+
+** A child's future is not a household return on investment
+If a child wants music lessons during an income interruption, neither automatically cancel them nor demand unaffordable spending for future returns. Invite age-appropriate expression of interests, check possible equipment loans or staged learning, and distinguish temporary adjustment from a long-term change needing discussion. A budget constrains one means of realization, not automatically the aspiration or right to participate. The other parent's care is not an unlimited free variable.
+
+Preparing before rain means bounded responses; considering disruption means understanding dependencies; aligning commitments with resources means neither fear, extreme austerity, nor blame. [[https://www.consumerfinance.gov/consumer-tools/educator-tools/financial-well-being-resources/explore-findings/][CFPB's discussion]] likewise recognizes factors within and beyond individual control. When resources are insufficient, disclose gaps honestly, verify support, and preserve dignity.
+
+** Argument and evidence status [3/6] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+Progress describes the article's argument and evidence, not completion of a life. Named blocks express the case's logic; they are not execution or formal-proof receipts.
+
+- [X] Events within the case, teaching assumptions, deductions, and unknowns are distinguished.
+- [X] Three cash paths and six timings of the one-off shock were recomputed, with a buffer counterexample.
+- [X] Shared resources, child and caregiver agency, conditional advice, and invalidation boundaries are explained.
+- [ ] Actual vacancies, training effectiveness, and available support still need source evidence.
+- [ ] A specific family's wishes, care capacity, and participation remain to be checked.
+- [ ] Improved life requires actual outcome observations, not a model or completed transaction.
+
+Expression sources: [fn:poo-en], [fn:mrr-en], [fn:ascent-en], [fn:tla-en], [fn:org-en].
+
+[fn:poo-en] [[https://github.com/tao3k/poo-flow/blob/9fdab8eea255e3db557280c842676c1a500a20d3/t/temporal-causality-core-test.ss][POO Flow Temporal Causality interface examples]].
+[fn:mrr-en] [[https://github.com/tao3k/gql-rust/blob/aea0bec21abe42f140b61d7764a88b9e66c7a4dd/crates/mrr-search/src/reasoning.rs][MRR dependency influence reasoning]].
+[fn:ascent-en] [[https://s-arash.github.io/ascent/][Ascent relational rules]].
+[fn:tla-en] [[https://lamport.azurewebsites.net/tla/tla.html][TLA+]].
+[fn:org-en] [[https://orgmode.org/manual/Checkboxes.html][Org checkbox documentation]]; mathematical syntax follows the [[https://typst.app/docs/reference/math/][Typst reference]].
+* Counterexamples
+Temporary work can crowd out better job opportunities; cheap training can still waste time. A family may reasonably prefer a meaningful career investment. An undiscovered dependency is not an absent one, and no alert does not mean no risk. Formal languages expose inconsistencies but cannot supply missing values, real opportunities, or other people's consent.
+* Provisional Conclusion
+An event changes circumstances without determining a whole life. Zhisheng should turn aspirations into conditions that can be built gradually, help people understand requirements, sacrifices, and reasons to change direction, and reduce burdens within authority. Ecosystem tools connect by serving this question, not by turning every logical excerpt into a running system.
+* Promotion Criteria
+Challenge the argument across family structures, care conditions, income levels, and goals beyond employment. Use real feedback to test whether advice increases agency rather than anxiety. Future execution or formal-verification claims need versions, data, complete models, and receipts; Org code blocks do not themselves establish implementation closure.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.94-financial-life-stress-test.org][Previous: preparing for enterprise]]

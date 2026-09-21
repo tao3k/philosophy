@@ -94,6 +94,7 @@ This directory owns English philosophy documents and their semantic navigation o
 | How can AI manage means without taking ownership of human ends? | [[file:30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship, Not Sovereignty]] |
 | How can present choice preserve the agency of a future self? | [[file:30-reflections/30.93-intertemporal-agency.org][Intertemporal Agency]] |
 | What is missing for enterprise, how can one prepare, and how would life improve? | [[file:30-reflections/30.94-financial-life-stress-test.org][Zhisheng Stress Test: From Resource Gaps to Bounded Preparation]] |
+| How can choices be rebuilt after job loss, with ecosystem languages clarifying conditions and risk? | [[file:30-reflections/30.95-life-after-job-loss.org][More Than One Life Trajectory: From Job Loss to Renewed Choice]] |
 | External grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]; [[file:40-sources/40.92-life-cycle-finance.org][life-cycle finance]]; [[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI financial advice]]; [[file:40-sources/40.94-financial-planning-support-boundaries.org][market and regulatory boundaries]] |
 
 * Relation graph
