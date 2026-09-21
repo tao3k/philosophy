@@ -1,0 +1,51 @@
+#+TITLE: Tao3k Philosophy
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :tao3k:philosophy:topology:
+#+OPTIONS: toc:nil num:nil
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.repository-index.v1
+:DOC_ID: PHIL-ROOT-001
+:SEMANTIC_ID: philosophy.repository
+:DOC_KIND: repository-index
+:DOC_STATUS: accepted
+:LANGUAGE: mul
+:COUNTERPART: none
+:TOPOLOGY_ID: philosophy.repository.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: cn/README.org en/README.org
+:END:
+
+* Language roots
+:PROPERTIES:
+:CUSTOM_ID: philosophy-language-roots
+:END:
+
+| Language | Maintained root | Contracted topology |
+|----------+-----------------+---------------------|
+| 中文 | [[file:cn/README.org][cn/README.org]] | [[file:cn/00-topology/00.00-repository-topology.org][CN topology]] |
+| English | [[file:en/README.org][en/README.org]] | [[file:en/00-topology/00.00-repository-topology.org][EN topology]] |
+
+* Repository flow
+
+#+name: philosophy-repository-flow
+#+begin_src mermaid :exports results :file philosophy-repository-flow.svg
+flowchart TD
+  ROOT[README.org] --> CN[cn/]
+  ROOT --> EN[en/]
+  CN <-->|same SEMANTIC_ID| EN
+  CN --> DOWN[POO Flow · MRR · ASP · Marlin · Aitia]
+  EN --> DOWN
+#+end_src
+
+* Boundary
+
+All maintained prose lives below =cn/= or =en/=. Files with the same
+=SEMANTIC_ID= are semantic counterparts, not generated translations. The root
+index only routes readers and tools; it is not a third language projection.
+
+Repository admission is declared as Org AST in
+[[file:org/workspace/philosophy.workspace.v1.org][philosophy.workspace.v1.org]] and executed by
+=orgize contract workspace=. The shell entry behind =just check= is intentionally only a thin
+argument-forwarding wrapper; it does not implement a second governance language.

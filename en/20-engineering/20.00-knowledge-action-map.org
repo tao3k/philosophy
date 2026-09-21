@@ -1,0 +1,48 @@
+#+TITLE: Know–Discern–Assure–Act–Reconcile Engineering Map
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:engineering:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:DOC_ID: PHIL-MAP-EN-001
+:SEMANTIC_ID: philosophy.engineering.knowledge-action-map
+:DOC_KIND: engineering-map
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/20-engineering/20.00-knowledge-action-map.org
+:PRINCIPLE_REF: PHIL-001 PHIL-002 PHIL-003 PHIL-004 PHIL-005 PHIL-006 PHIL-007
+:END:
+
+* Principle
+:PROPERTIES:
+:CUSTOM_ID: engineering-principle-en
+:END:
+
+The [[file:../10-charter/10.00-tao3k-charter.org][Tao3k Charter]] requires knowledge, judgment, assurance, authority,
+execution, and consequences to remain traceable and non-collapsed.
+
+* Normative Requirements
+
+| Stage | Engineering property | Must not substitute | Typical owner |
+|-------+---------------+---------------------+---------------|
+| Know | source identity, generation, provenance | model confidence | ASP / MRR |
+| Discern | dependency, causality, unknown frontier | plausible completion | MRR |
+| Assure | proof, verification, evidence sufficiency | linguistic fluency | Aitia / POO Flow verifier handoff |
+| Act | decision, policy, authority, intervention | tool availability | ASP / Marlin |
+| Reconcile | receipt, observation, invalidation | invocation return code | POO Flow / MRR |
+
+* Current Realization
+
+| Surface | Current realization | Status | Evidence entry |
+|---------+---------------------+--------+----------------|
+| Contract admission | Orgize linear =CONTRACT_ORG= composition | Implemented | =just check= |
+| Workspace topology | Orgize single-scan closed-world routing | Implemented | =org/workspace/philosophy.workspace.v1.org= |
+| Agent scenario gate | ASP Rust Scenario benchmark macro | Implemented | Orgize workspace scale scenario |
+| Downstream philosophy mapping | POO Flow / MRR / mrr-data / ASP / Marlin / Aitia / Episteme | Requires independent proof | [[file:20.10-cross-repository-realization-map.org][cross-repository realization map]] and per-project receipts |
+
+* Review Questions
+
+A design review asks what is known, what remains unknown, what relations support
+the judgment, what assurance is required, who has authority, how the world will
+change, how the outcome returns as knowledge, and what happens when it is ambiguous.

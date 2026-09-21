@@ -1,0 +1,66 @@
+#+TITLE: 认识与不确定性 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-10
+:SEMANTIC_ID: philosophy.charter.epistemology-uncertainty
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.10-epistemology-and-uncertainty.org
+:PRINCIPLE_SET: PHIL-EPI-001
+:END:
+
+* 原则
+
+** 未知必须保持可见
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-EPI-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-001 PHIL-002
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-epistemology-and-uncertainty-cn
+:END:
+
+系统不得把缺失、冲突或假设性信息静默提升为已知事实。decision-relevant 的 unknown、conflicted 与 hypothesized 必须保留来源、范围和消解条件。
+
+* 理由
+
+可见的未知边界使检索、测量、暂停和比例证成成为可能；隐藏未知会让语言流畅性替代证据。
+
+[[file:../40-sources/40.30-scientific-method-evidence.org][来源说明]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+低风险默认值和明确封闭世界仍可使用，但必须声明适用边界，不能冒充普遍事实。
+
+* 工程后果
+
+公共模型需表达 epistemic status；查询和 receipt 需保留来源；admission 需包含缺证与冲突负例。
+
+* 失效模式
+
+状态标签形式存在但执行层忽略；unknown 被空字符串、零值或模型补全吞掉。
+
+* 开放问题
+
+哪些边界值得显式建模？unknown 如何在不制造认知噪声的情况下传播？
+
+* 可追溯性
+
+| 原则 | 工程方向 | 下游所有者 | 状态 |
+|---+---+---+---|
+| PHIL-EPI-001 | [[file:../40-sources/40.30-scientific-method-evidence.org][来源说明]]；[[file:../30-reflections/30.50-unknown-as-first-class.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

@@ -1,0 +1,66 @@
+#+TITLE: Knowing Again After Action: Outcomes, Error, and Learning
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-90-EN
+:SEMANTIC_ID: philosophy.reflection.knowing-after-action
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.90-knowing-after-action.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.knowing-after-action-en
+:END:
+Why is a successful action return not the end of an epistemic loop? How should outcomes, errors, and unintended consequences re-enter knowledge state so a system genuinely knows again after acting?
+
+[[file:../40-sources/40.80-dewey-action-experience-learning.org][Dewey source note]] · [[file:30.10-knowledge-action-in-agent-age.org][Unity Without Collapse]]
+* Argument
+Action places a judgment into the world and lets the world answer. Dewey's processual and transactional account of experience suggests that experience is not another record inside a subject. It is the relation of organism and environment through doing, undergoing, adjustment, and readjustment. For an agent, invoking a tool is only doing; receiving and interpreting consequence begins the undergoing.
+
+Execution receipt, outcome, and effect must therefore remain distinct. A receipt may establish that a request was accepted, a command exited, or an API returned. An outcome says whether the intended state arose. Effects include externalities, delayed impact, and changes borne by other subjects. Treating the first as the others makes the system declare completion exactly where learning is most needed.
+
+Error is not an edge case outside the loop but an entrance to knowledge revision. It may show that facts changed, a model does not apply, authority was insufficient, execution diverged, observation was distorted, or the value objective was incomplete. Different errors must update different objects. Recording all of them as “failure” discards the structure needed to learn, while retrying all of them can amplify harm.
+
+Learning requires at least four moves: observe the difference between result and expectation; attribute the difference to assumptions that remain contestable; update a claim, scope, policy, or capability; and reassess earlier decisions that depended on it. Reconciliation is not merely eventual database consistency. It lets past action change future reasons.
+** A better life cannot borrow the system's definition of success
+Course enrollment, a completed schedule and higher advice adoption each establish limited things. What was learned? Was necessary care maintained? Did exhaustion increase? Are new paths actually available? Who paid for these changes? Different purposes need different observation windows, not one total score.
+
+The person's assessment matters, but short-term satisfaction can coexist with long-term dependence. External measures can also omit the most valued changes. Bring personal accounts, concrete circumstances and checkable changes together without pretending they replace one another.
+
+** Feedback filters out those who did not remain
+Continuing users, successful executors and willing respondents need not represent everyone affected. People may leave because they are dissatisfied or no longer need help. A missing click may express refusal or lack of time. Silence is not approval, and exit is not necessarily failure.
+
+Advice can also change expectations so that old indicators become easier to satisfy. A [[file:../40-sources/40.96-performative-prediction.org][feedback perspective]] prompts scrutiny of evaluation conditions changed by intervention. Subsequent changes cannot all be attributed to AI without further grounds; obtaining cleaner evidence cannot justify unauthorized human experimentation.
+
+** Learning judgment or learning dependence?
+Long-term help should examine whether people can better explain choices, recognize inapplicable advice, seek other support and continue important activities when the system is unavailable. Usage frequency cannot answer this alone: ongoing supported communication can sustain agency, while repeated confirmations can manufacture dependence.
+
+Discovering through a trial that a path is unwanted can be valuable learning. But if the trial rested on false promises, “at least you know yourself better” cannot erase losses. Address knowledge gained, actual costs and responsibility separately. Feedback in [[file:30.96-living-with-ai.org][facing life with AI]] must return to living, not product retention.
+
+** Getting something done is not the same as learning or remaining able to decide
+AI may settle a matter, accompany someone as they learn, or help them keep a say in important affairs. These benefits can arrive together, but they cannot stand in for one another. Someone entrusting bookkeeping, translation or document organization may simply want less to worry about; every use need not become a lesson. Smooth delivery can conceal that understanding did not grow. In creation with others, a person's judgment, choices and expression should remain in the process rather than appear only as a final signature.
+
+First understand what the person wants, then ask what would count as help. If the wish is to settle a matter, ask whether the result is reliable and mistakes can be corrected. If it is to learn, ask whether the person can judge and explain in another setting. If it is to retain a say, ask whether they can understand important consequences, change direction, refuse or leave. The [[file:../40-sources/40.99-ai-help-work-learning-creation.org][evidence synthesis on work, learning and creation]] cautions that averages across tasks cannot promise how one person will change over time.
+
+Some forms of reliance are part of what supports a life. Glasses, accessible communication, trusted companions and stable tools can make action freer. The questions are whether people understand what they rely on, genuinely choose it, can replace it and will not be abandoned when it fails. A person's experience does not become training material merely because a product could improve from it. Accepting help is not consent to having one's life continually taken away.
+
+* Counterexamples
+Not every action is a legitimate experiment. Irreversible, high-risk, or rights-affecting action cannot lower its authority threshold merely because learning has value. Experimental value never automatically overrides consent, dignity, or safety.
+
+World feedback is not a transparent answer. Noise, selection bias, delay, and simultaneous change may contaminate outcomes. Observing B after action A does not establish that A caused B; the learning loop still needs causal and measurement discipline.
+
+Updating too quickly chases noise, while updating too slowly preserves failure. Systems need confidence, observation windows, and replication conditions rather than treating adaptability as immediate principle revision after every result.
+* Provisional Conclusion
+Action is not the terminus of knowledge but an experimental condition for the next cycle of knowing. A closed loop lets knowledge enter constrained action, action produce observable consequence, consequence undergo reconciliation and causal review, and the result alter revisable knowledge state.
+
+“Success” therefore needs at least two statements: whether execution completed according to protocol and whether the world moved toward the authorized objective. When the latter is unknown, the system should remain unknown or pending rather than borrow the success code of the former.
+* Questions That Remain
+Add cases of reasonable purpose change, nonuser feedback, long-term dependence and continued life after leaving. Report learning, actual life changes and what remains unattributed or unobserved separately; satisfaction or retention cannot be sole evidence of value.
+
+Validate the update loop with reversible operations, delayed consequence, partial failure, and unobservable result. Define which differences trigger stopping, remedy, retry, or epistemic downgrade. Show that learning does not turn people who did not consent into experimental subjects. Only then consider deepening the practical-learning Charter rather than adding another abstract slogan.
+* Navigation
+[[file:../README.org][language index]]

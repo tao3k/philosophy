@@ -1,0 +1,70 @@
+#+TITLE: How Interfaces Converge: Progressive Disclosure, Interruption Control, and User Space
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-170-EN
+:SEMANTIC_ID: philosophy.source-note.40.170-interface-space-and-convergence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.170-interface-space-and-convergence.org
+:SOURCE_ID: PHIL-SRC-170
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Apple; W3C Web Accessibility Initiative
+:SOURCE_WORK: Human Interface Guidelines; Cognitive Accessibility Design Patterns and WCAG interruption guidance
+:SOURCE_EDITION: Apple HIG observed 2026-09-21; W3C WAI guidance observed 2026-09-21
+:SOURCE_DATE: 2026 observation; W3C guidance 2021-2022
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Apple HIG design principles and disclosure controls; W3C WAI limit interruptions and WCAG interruption guidance
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: interface simplification, progressive disclosure, interruption control, and bounded user control; not proof of life outcomes
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.170-interface-space-and-convergence-en
+:END:
+This note synthesizes four groups of web materials: Apple's [[https://developer.apple.com/design/human-interface-guidelines/design-principles][design principles]],
+[[https://developer.apple.com/design/human-interface-guidelines/disclosure-controls][disclosure controls]] and [[https://developer.apple.com/design/human-interface-guidelines/accessibility][accessibility guidance]], together with the W3C WAI pattern for
+[[https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/][limiting interruptions]] and its [[https://www.w3.org/WAI/WCAG20/Understanding/interruptions][explanation of controllable interruptions]]. The pages were observed on
+2026-09-21.
+* Context
+These are interface and accessibility guidelines, not philosophical findings about a good life. Apple places purpose,
+agency, responsibility and simplicity among its design considerations while warning that simplicity is not mere
+minimalism. Disclosure controls show detail when relevant while keeping likely or primary actions visible. W3C's
+materials address attention, memory and cognitive barriers by asking that people be able to postpone, suppress or
+control non-emergency interruptions, reminders and content changes.
+
+Together they face a practical tension. Showing every detail at once creates burden, while hiding information and
+recovery paths needed for a decision weakens agency. Progressive disclosure is therefore not a rule to show less. It
+relates the timing and level of information to its relevance and consequence.
+* Interpretation Boundaries
+These guidelines do not prove that a product improves life, respects refusal or avoids shifting labor. “Agency” in
+design language is not automatically the same as human authorship in this repository. An interface may conform
+visually while defaults, commercial ranking, hidden exit and excessive memory control outcomes.
+
+The emergency exception in W3C guidance must not be stretched until conversion, engagement or ordinary
+recommendation counts as urgent. Apple's progressive disclosure cannot decide which costs, risks and irreversible
+effects must appear first. These living pages may change; this note records the observed wording and scope.
+* Influence
+The materials support a limited engineering judgment: room can take the form of controllable interruption, detail on
+demand, clear primary action, easy recovery and data collection bounded by the present purpose. They also show why
+convergence does not erase complexity. It presents what the current decision needs first and lets a person know what
+else exists, why it is folded away and how to inspect it.
+
+[[file:../30-reflections/30.170-when-less-use-is-good.org][“Using It Less May Be a Good Outcome”]] therefore treats user space as room for attention, time, judgment,
+expression, relation and change rather than blank pixels. [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][“What Must Remain Visible Beyond GUI”]] carries the
+question into agentic AI: a model may spare step-by-step operation while goals, authority, consequences, evidence and
+takeover remain visible.
+* Interpretation Chain
+Apple on purpose, agency, recovery, necessary data and disclosure + W3C on user control of non-emergency interruption
+→ limited contemporary methods for being spare without abandoning responsibility
+→ Tao3k's modern interpretation of room, convergence and user space. The final step is this repository's argument,
+not a conclusion stated by the sources.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.170-when-less-use-is-good.org][Using it less may be a good outcome]] · [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]]

@@ -1,0 +1,66 @@
+#+TITLE: 顾炎武：经世致用与实学
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-20
+:SEMANTIC_ID: philosophy.source.gu-yanwu-practical-learning
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.20-gu-yanwu-practical-learning.org
+:SOURCE_ID: source.gu-yanwu.rizhilu
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
+:SOURCE_WORK: 《日知录》与实学传统 / Record of Daily Knowledge and practical-learning tradition
+:SOURCE_EDITION: edition-pending
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-gu-yanwu-practical-learning-cn
+:END:
+
+本条把经世致用理解为知识必须接受现实利病与公共后果的检验，而不是停在抽象口号。具体版本与篇章仍需
+后续来源审定，因此“利病检验”是 Tao3k 的现代解释，不冒充《日知录》的逐字命题。
+
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]]
+
+* 语境
+
+实学反对脱离事实、制度与现实问题的空疏论说，但不等同于短期功利主义或单一效用最大化。现代技术的
+“有用”必须继续追问：谁得到利益，谁承担成本，什么问题真的改善，什么依赖被制造，长期选择权如何变化。
+
+这使 benchmark、吞吐量或自动化比例回到证据位置。它们可以证明某种能力变化，却不能单独证明公共价值
+增加。经世的对象是现实生活与制度后果，不是指标本身。
+
+在本仓库的现代解释中，“我为了你好”同样不能证明帮助成立。人的理解可能正确而行动条件不足；此时利病检验应追问缺少的机会、支持与制度条件，而不是把不能行动归咎于意志。知要进入实践，实践也必须接受事实与后果的反向检验。
+
+* 解释边界
+
+它不能为任何自称有用的自动化背书，也不能把“公共”抽象成多数人的总效用。少数人承担的不可逆伤害、
+被削弱的 agency、维护负债和未来退出成本都属于利病。顾炎武并未提供现代 AI 评价表；具体问题框架是
+本仓库的责任。
+
+本条也不把实学简化为“能部署、能成交、能完成任务”。结构性支持缺失时，指出并尝试改变条件本身可以是实践成果；暂未形成执行动作不等于没有实际问题。
+
+* 影响
+
+进入 [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]]，把技术评价
+从“性能是否提高”推进到受益、负担、依赖、可逆性与长期 optionality，并约束专题 Charter 不把人的价值
+缩减成指标。
+
+* 解释链
+
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。该链保留来源、解释、反思、规范提案与准入之间的区别，禁止反向声称来源已经证明当前架构。

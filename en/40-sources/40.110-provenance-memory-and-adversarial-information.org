@@ -1,0 +1,46 @@
+#+TITLE: Evidence Boundaries for Provenance, Memory, and Adversarial Information
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-110-EN
+:SEMANTIC_ID: philosophy.source-note.40.110-provenance-memory-and-adversarial-information
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.110-provenance-memory-and-adversarial-information.org
+:SOURCE_ID: PHIL-SRC-110
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: NIST; C2PA; Yihe Wang et al.
+:SOURCE_WORK: Adversarial Machine Learning Taxonomy and Terminology; C2PA Explainer v2.2; Bad Memory: Poisoning Attacks on Agentic AI Memory Systems
+:SOURCE_EDITION: NIST.AI.100-2e2025; C2PA v2.2; arXiv:2607.14611 v1
+:SOURCE_DATE: 2025; 2025; 2026
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: NIST adversarial machine learning taxonomy; C2PA Explainer 2.2; Wang et al. 2026 Bad Memory preprint
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: adversarial-information distinctions, provenance boundaries, and memory-poisoning evidence
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.110-provenance-memory-and-adversarial-information-en
+:END:
+This note combines the [[https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0][NIST.AI.100-2e2025 adversarial machine-learning taxonomy]], the [[https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html][C2PA 2.2 Explainer]], and Wang et al.'s 2026 preprint [[https://arxiv.org/abs/2607.14611][Bad Memory: Poisoning Attacks on Agentic AI Memory Systems]].
+* Context
+The NIST document provides comparable terms for attacks and mitigation across data poisoning, evasion, privacy and generative-AI risks. C2PA explains how Content Credentials record the provenance and editing history of digital content, while stating explicitly that such provenance does not itself decide whether content is true, accurate or factual.
+
+“Bad Memory” plants malicious payloads in agent memory within synthetic sandboxes and observes effects on present and future sessions. Outcomes vary across systems and goals. It is a 2026 preprint, not a universal finding about deployed environments.
+* Interpretation Boundaries
+A security taxonomy cannot perform threat analysis for a particular system. A C2PA credential cannot establish the truth of a claim, while absence of a credential cannot automatically establish falsehood or malice.
+
+Successful sandbox attacks do not show that all long-term memory is unsafe or establish incidence in life. Conversely, failure to observe an attack does not make direct admission of retrieved content to memory safe.
+* Influence
+The repository distinguishes training or knowledge poisoning, retrieval pollution, indirect prompt injection and long-term memory pollution. It requires content to retain source and epistemic standing after reading, citation, derivation and memory. Provenance, truth, evidence support, source independence and contextual applicability are judged separately.
+* Interpretation Chain
+NIST's attack locations and terms + C2PA's explicit boundary around provenance + early mechanism evidence for memory poisoning → the norm against silent epistemic upgrade in [[file:../30-reflections/30.120-judgment-amid-adversarial-information.org][Judgment amid Adversarial Information]] → correctable and withdrawable personal material in [[file:../30-reflections/30.110-co-maintained-understanding.org][Co-maintained Understanding]]. The final two steps are Tao3k's institutional and design interpretation.
+* Navigation
+[[file:../README.org][language index]] · [[file:../30-reflections/30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]]

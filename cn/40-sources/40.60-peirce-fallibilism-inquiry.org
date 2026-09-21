@@ -1,0 +1,42 @@
+#+TITLE: 皮尔士：可错论与持续探究
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-60-CN
+:SEMANTIC_ID: philosophy.source.peirce-fallibilism-inquiry
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.60-peirce-fallibilism-inquiry.org
+:SOURCE_ID: source.sep.peirce
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Robert Burch
+:SOURCE_WORK: Charles Sanders Peirce / Stanford Encyclopedia of Philosophy
+:SOURCE_EDITION: 2021-02-11
+:SOURCE_DATE: 2021-02-11
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.peirce-fallibilism-inquiry
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.peirce-fallibilism-inquiry-cn
+:END:
+本条依据 [[https://plato.stanford.edu/entries/peirce/][Stanford Encyclopedia of Philosophy 的 Peirce 条目]]，聚焦 fallibilism、探究的持续开放，以及 abduction、deduction、induction 的方法关系。它是二手解释入口，不替代 Peirce 原著。
+* 语境
+Peirce 的可错论并不是“任何信念都一样不可靠”。它一方面否认具体历史时刻的 inquiry 已经取得最终不可修正的真理，另一方面反对怀疑主义式停摆。条目把这种态度与“不阻断探究之路”的方法要求联系起来，并说明假设形成、推出后果与经验检验如何构成持续过程。
+* 解释边界
+Fallibilism 不能推出无限延期决定，也不能把没有证据包装成开放性。行动有时必须在不完备知识下发生；关键是保存不确定性、修改条件与后续检验，而不是拒绝承担责任。该来源也不直接证明任何版本、lineage 或 invalidation 实现正确。
+* 影响
+它支撑“admitted 不等于 eternal”与“成熟知识应声明失效条件”，进入 [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]]，并约束 Tao3k 不把当前 proof、benchmark 或 acceptance 当作永久权威。
+* 解释链
+SEP 条目 → Peirce 的 fallibilism 与 inquiry 方法 → Tao3k 的可修正知识纪律 → Reflection 中对版本、失败史和 supersession 的要求。该链保留二手来源与当前规范解释的差异。
+* 导航
+[[file:../README.org][导航]]

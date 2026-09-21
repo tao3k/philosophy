@@ -1,0 +1,48 @@
+#+TITLE: 幸福、时间与自我决定的证据边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-100-CN
+:SEMANTIC_ID: philosophy.source-note.40.100-well-being-time-and-self-determination
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.100-well-being-time-and-self-determination.org
+:SOURCE_ID: PHIL-SRC-100
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: OECD; Richard M. Ryan and Edward L. Deci; Ashley V. Whillans et al.
+:SOURCE_WORK: OECD Guidelines on Measuring Subjective Well-being (2025 update); Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being; Buying Time Promotes Happiness
+:SOURCE_EDITION: OECD 2025 publication; American Psychologist 55(1), 2000; PNAS 114(32), 2017
+:SOURCE_DATE: 2000; 2017; 2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: OECD 2025 subjective well-being guidelines; Ryan and Deci 2000; Whillans et al. 2017
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: subjective well-being dimensions, time-saving purchases, and autonomy-competence-relatedness as bounded lenses
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.100-well-being-time-and-self-determination-cn
+:END:
+本说明综合三组不同用途的来源：[[https://www.oecd.org/en/publications/oecd-guidelines-on-measuring-subjective-well-being-2025-update_9203632a-en.html][OECD 2025 主观幸福感测量指南]]；Ryan 与 Deci 的[[https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf][自我决定理论综述]]（2000）；Whillans 等的 [[https://doi.org/10.1073/pnas.1706541114][Buying Time Promotes Happiness]]（2017）。
+* 语境
+OECD 指南面向统计与政策测量，区分生活评价、情感和 eudaimonic well-being 等方面，并强调题目、时间框架、调查情境与跨群体可比性。它提供测量纪律，不把这些方面相加成一个人的“幸福总值”。
+
+自我决定理论用自主、胜任与关系需要解释动机和幸福的部分条件。它是一套心理学研究传统，不是 AI 可以替每个人设定的生活配方。
+
+Whillans 等先在 6,271 人的多组样本中观察用钱节省时间与生活满意度之间的关系，再用一项被试内现场实验比较时间型与物质型消费对一天感受的影响。这给“减少不喜欢的事务可能有益”提供有限支持，不是 AI 省时的直接实验。
+* 解释边界
+主观幸福感指标不能替一个人决定怎样生活，也不能把悲伤、愤怒或困难都诊断为缺陷。平均关系不能说明每个人、每个收入水平或每种家庭分工都会从购买省时服务中受益。
+
+自主、胜任与关系不能被写成固定权重的目标函数。时间型消费研究也不能证明省下的时间会归本人支配，更不能证明工作场所的 AI 效率一定改善家庭生活。
+* 影响
+本仓库据此分开倾听生活评价、当下感受与意义投入，并在“效率”与“生活改善”之间加入负担是否减少、时间是否可支配、精力与关系条件是否存在、本人是否认可等环节。休息、不生产与有意保留的费力过程都可以是正当结果。
+* 解释链
+OECD 的测量区分 + 自我决定理论的有限观察角度 + 购买时间研究的有界证据 → [[file:../30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]] 对生活转化链的现代解释 → [[file:../30-reflections/30.99-shanjia-yuwu.org][善假于物]] 对休息、关系与创造的讨论。最后两步属于 Tao3k 的规范判断。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]]

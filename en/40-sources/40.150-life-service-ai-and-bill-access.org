@@ -1,0 +1,48 @@
+#+TITLE: Life-Service AI and Bill Access: Capability Claims and Access Boundaries
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-150-EN
+:SEMANTIC_ID: philosophy.source-note.40.150-life-service-ai-and-bill-access
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.150-life-service-ai-and-bill-access.org
+:SOURCE_ID: PHIL-SRC-150
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Ant Group; Tencent Tenpay
+:SOURCE_WORK: Zhixiaobao launch release; WeChat Pay transaction-bill API documentation
+:SOURCE_EDITION: Business Wire release 2024-09-05; WeChat Pay partner documentation observed 2026-09-21
+:SOURCE_DATE: 2024-09-05; 2026-09-21 observation
+:SOURCE_LANGUAGE: en; zh-CN
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Ant Group Zhixiaobao launch release; WeChat Pay partner transaction-bill API documentation
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: public capability claims and merchant-side bill access boundaries, not verified consumer outcomes
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.150-life-service-ai-and-bill-access-en
+:END:
+This note records two time-bound materials: Ant Group's [[https://www.businesswire.com/news/home/20240904932587/en/][2024 Zhixiaobao launch release]] distributed through Business Wire, and the WeChat Pay partner documentation for [[https://pay.wechatpay.cn/doc/v3/partner/4012760532][requesting a transaction bill]], observed on 2026-09-21.
+* Context
+The Zhixiaobao release presents an AI assistant connected to Alipay life services and publicly lists ordering meals, hailing taxis, booking tickets, discovering local food and entertainment, an English learning plan, and personalized fitness advice. It is a vendor capability claim, not an independent outcome study.
+
+The WeChat Pay example calls =/v3/bill/tradebill= and requires merchant configuration, a merchant identifier, API certificate private key, WeChat Pay public key and an optional sub-merchant identifier. The page belongs to partner documentation and its errors concern sub-merchant transaction bills. This establishes the public interface as a merchant-side business API, not a general proof of access to an ordinary consumer's complete purchase history.
+* Interpretation Boundaries
+The Zhixiaobao release does not show that every listed capability is reliable, accepted by users or improves life. It also does not show that Alipay or another existing product never helps people reduce activities, purchases or commitments.
+
+This one public WeChat Pay interface does not show that no personal export, authorized partnership or future interface exists. It prevents only the shortcut from “a person uses WeChat Pay” to “a third party already has continuous authority to read the whole bill.” Access path, field scope, consent, retention and revocation require separate verification. Platform materials can change; this note is not a permanent capability inventory.
+* Influence
+The materials prevent Zhisheng from claiming unexamined difference merely because it can converse, book services, make plans or read bills. They also prevent unresolved access from becoming a reason to rebuild an accounting system. A person's problem comes first; available data and authority bound the judgment supportable now.
+
+Product questions worth testing include whether unnecessary commitments fall, non-purchase remains possible, bounded help works without a complete life dataset, and vendor capability claims remain distinct from consequences after use.
+* Interpretation Chain
+Zhixiaobao public capability claims + WeChat Pay merchant-side bill API and credential requirements → bounded facts about existing ecosystem capability and access premises → the argument about differentiation, data minimization and non-purchase possibilities in [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]]. The last layer is a Tao3k product-philosophy proposal, not either company's self-description.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:40.100-well-being-time-and-self-determination.org][Well-being, time and self-determination]]

@@ -1,0 +1,46 @@
+#+TITLE: 闲暇、兴趣与日常经验：解释边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-130-CN
+:SEMANTIC_ID: philosophy.source-note.40.130-leisure-interest-and-ordinary-experience
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.130-leisure-interest-and-ordinary-experience.org
+:SOURCE_ID: PHIL-SRC-130
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: John Maynard Keynes; 庄子文本传统; Bertrand Russell; John Dewey scholarship
+:SOURCE_WORK: Economic Possibilities for our Grandchildren; 《庄子·逍遥游》; The Conquest of Happiness; Dewey’s Aesthetics
+:SOURCE_EDITION: 1930 essay; received text; 1930 book; Stanford Encyclopedia of Philosophy, substantive revision 2025-09-30
+:SOURCE_DATE: 1930; received text; 1930; 2025
+:SOURCE_LANGUAGE: en; lzh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Keynes 1930; Zhuangzi Xiaoyaoyou; Russell 1930; Stanford Encyclopedia of Philosophy on Dewey aesthetics
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: leisure, non-instrumental activity, interest, and ordinary experience as bounded interpretive resources
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.130-leisure-interest-and-ordinary-experience-cn
+:END:
+本说明把四条不同传统并置为有限的提问资源：Keynes 的 [[https://www.marxists.org/reference/subject/economics/keynes/1930/our-grandchildren.htm][Economic Possibilities for our Grandchildren]]（1930）；《庄子·逍遥游》的[[https://ctext.org/zhuangzi/enjoyment-in-untroubled-ease/zh][大樗段落]]；Russell 的 [[https://www.gutenberg.org/ebooks/77894][The Conquest of Happiness]]（1930）；以及 Stanford Encyclopedia of Philosophy 的 [[https://plato.stanford.edu/entries/dewey-aesthetics/][Dewey's Aesthetics]] 条目。
+* 语境
+Keynes 在经济预测中设想技术与资本积累可能减轻谋生劳动，并随即追问人是否懂得使用闲暇；预测的期限、分配前提和历史处境都不能省略。
+
+《逍遥游》结尾以“不材”大樗反转狭窄的有用尺度，让休息、徘徊和不合既定用途进入视野。Russell 讨论兴致与面向个人烦恼之外世界的兴趣，但带有其时代与个人生活观。Dewey 美学则反对把审美完全隔离于普通经验，关注活动怎样在参与中形成完整而有意味的经验。
+* 解释边界
+这些文本不能证明技术进步已经普遍带来闲暇，不能规定闲暇应怎样度过，也不能诊断一位具体母亲缺少兴趣。庄子的“不用”不是拒绝所有责任，Russell 的兴趣观不是普遍幸福处方，Dewey 的经验理论也不能证明任何 AI 介入有效。
+
+古典与二十世纪文本均不能直接回答数据同意、家庭转述、平台目标和个人记录权；这些是本仓库必须另行承担的现代问题。
+* 影响
+这些来源帮助本仓库保留三种可能：减少谋生催促后，人可能仍需时间学习怎样使用闲暇；一件事情无需产出才值得做；日常活动的意义在参与中形成，不能由系统预先指定。它们让“空白必须被填满”和“新活动才算改善”成为可质疑的假设。
+* 解释链
+Keynes 对闲暇问题的追问 + 《庄子》对狭窄用途的反转 + Russell 对外在兴趣的主张 + Dewey 对普通经验的重视 → [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] 对开放案例、无产出活动和经验纠正的解释。后一层是 Tao3k 的现代综合，不归属于任何单一来源。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][给生活留白]] · [[file:40.140-unfilled-space-and-rest.org][留白与休息]]

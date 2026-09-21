@@ -1,0 +1,46 @@
+#+TITLE: Paul 等：转化性经验与可评价性偏差
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-97-CN
+:SEMANTIC_ID: philosophy.source.transformative-experience-evaluability
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.97-transformative-experience-evaluability.org
+:SOURCE_ID: source.transformative-experience-evaluability
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: L. A. Paul; Joan Danielle K. Ongchoco; Isaac M. Davis; Julian Jara-Ettinger; Yoonseo Zoh; M. J. Crockett
+:SOURCE_WORK: Transformative experience and evaluability bias
+:SOURCE_EDITION: Paul 2015; Ongchoco et al. 2024; Zoh, Paul, and Crockett 2024
+:SOURCE_DATE: 2015-2024
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Paul 2015; Ongchoco et al. 2024; Zoh, Paul, and Crockett 2024
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.transformative-experience-evaluability
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.transformative-experience-evaluability-cn
+:END:
+本说明综合三组相互关联、但结论强度不同的研究：L. A. Paul 的 [[https://lapaul.org/papers/whatCantExpect.pdf][What You Can't Expect When You're Expecting]]（2015）；Ongchoco、Davis、Jara-Ettinger 与 Paul 的 [[https://doi.org/10.1162/opmi_a_00168][When New Experience Leads to New Knowledge]]（2024）；Zoh、Paul 与 Crockett 的 [[https://doi.org/10.1007/s11229-023-04474-y][How the Evaluability Bias Shapes Transformative Decisions]]（2024）。
+* 语境
+Paul 以成为父母等重大选择讨论一种困难：有些体验可能只能在经历后才知道“是什么样”，并可能改变核心偏好，因此选择前的当前自我未必能完整评价未来自我。Ongchoco 等用合成环境与 POMDP 框架区分可由既有知识扩展的学习，以及需要新类型经验的认识变化。Zoh 等则提出并以实验结果支持一种“可评价性偏差”：人可能给容易预先理解的标准更高权重，即使他们也十分在意难以预先评价的体验价值。
+* 解释边界
+这些工作不能推出每次婚育、迁居、转行、能力变化或学习都是转化性经验，也不能证明未来偏好完全不可讨论。2024 年的计算研究使用合成环境，不是人生模拟有效性的验证；可评价性研究也不表示每个人都会系统性忽略体验价值。
+
+本仓库不据此授予 AI 替未来自我作主的权力，也不把“你以后会变”当作推翻当前拒绝的理由。困难在于承认预先评价的边界，而不是取消当前主体的地位。
+* 影响
+它促使人生模拟保留三种可能：目的可以在经验中合理改变；有些重要理由无法像现金一样精确展示；小步尝试可以获得新认识，但并非所有重大承诺都可安全试用。因此建议需要说明哪些评价来自当前经验、哪些依赖尚未经历的生活，并避免让精确数字因易于展示而取得不相称的决定权。
+
+对 AI 的正面要求，是帮助人表达当前理由、安排可承担的探索、记录目的怎样变化，并让改变后的本人重新认可方向；不是用推断出的“真实偏好”覆盖人的判断。
+* 解释链
+转化性经验的哲学难题 → 合成环境中的认识变化模型 → 可评价性偏差的实验研究 → [[file:../30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]]、[[file:../30-reflections/30.93-intertemporal-agency.org][跨时间主体性]] 和 [[file:../30-reflections/30.95-life-after-job-loss.org][分阶段生活判断]]。后面的规范主张属于 Tao3k 的解释，不能反向归给来源作者。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.96-living-with-ai.org][与 AI 共同面对人生]]

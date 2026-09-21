@@ -1,0 +1,32 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:engineering:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.engineering-map.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: engineering-map
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:PRINCIPLE_REF: <PRINCIPLE_REF>
+:END:
+* Principle
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* Normative Requirements
+# Fill at least one requirement with substantive engineering properties, ownership, or evidence before admission.
+| Principle | Engineering property | Owner | Evidence |
+|-----------+----------------------+-------+----------|
+| <PRINCIPLE_REF> | | | |
+* Current Realization
+# Fill at least one locatable realization or evidence entry before admission.
+| Surface | Current realization | Status | Evidence |
+|---------+---------------------+--------+----------|
+| <PRINCIPLE_REF> | | proposed | |
+* Review Questions
+# State the questions reviewers must answer before admission.
+* Navigation
+[[file:../README.org][navigation]]

@@ -1,0 +1,42 @@
+#+TITLE: 伍德沃德：干预主义与因果解释
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-90-CN
+:SEMANTIC_ID: philosophy.source.woodward-interventionism
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.90-woodward-interventionism.org
+:SOURCE_ID: source.sep.causal-explanation
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Lauren Ross and James Woodward
+:SOURCE_WORK: Causal Approaches to Scientific Explanation
+:SOURCE_EDITION: 2023-03-17
+:SOURCE_DATE: 2023-03-17
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.woodward-interventionism
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.woodward-interventionism-cn
+:END:
+本条依据 Lauren Ross 与 James Woodward 的 [[https://plato.stanford.edu/entries/causal-explanation-science/][SEP 因果解释条目]]，并以 Woodward 的 interventionist 与 counterfactual 路线为当前解释入口。
+* 语境
+干预主义关心解释是否揭示在适当变化或干预下，结果依赖哪些变量，而不只是在数据中发现先后或相关。条目还讨论 explanation 的深度、变量粒度、screening-off 与跨层因果，提醒“加入更多细节”不必然产生更好的解释。
+* 解释边界
+并非所有变量都可伦理地操纵，并非所有领域都能进行实际实验；intervention model 也可能错选变量、忽略结构约束或把人当作可随意控制的对象。干预主义不能单独决定何种行动被授权。
+* 影响
+它进入 [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]] 与 [[file:../30-reflections/30.90-knowing-after-action.org][行后再知]]，要求 causal claim 暴露其反事实、干预和混杂假设，并阻止系统把 after 误写成 because of。
+* 解释链
+SEP 因果解释综述 → Woodward 式 intervention/counterfactual dependence → Tao3k 对 causal claim 的检验纪律 → Agent 行动后结果的归因边界。该链不把哲学模型误写成执行权限。
+* 导航
+[[file:../README.org][导航]]

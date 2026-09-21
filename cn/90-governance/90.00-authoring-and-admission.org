@@ -1,0 +1,92 @@
+#+TITLE: 写作、原则生命周期与准入
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:governance:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.governance.cn.v1
+:DOC_ID: PHIL-GOV-CN-001
+:SEMANTIC_ID: philosophy.governance.authoring-admission
+:DOC_KIND: governance
+:DOC_STATUS: accepted
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/90-governance/90.00-authoring-and-admission.org
+:GOVERNANCE_ID: philosophy.governance.v1
+:LIFECYCLE_ID: philosophy.principle-lifecycle.v1
+:END:
+
+* 权威
+:PROPERTIES:
+:CUSTOM_ID: governance-authority-cn
+:END:
+
+写作入口是 [[file:../../justfile][Justfile]]；shell 仅把参数交给 =orgize contract workspace=，
+Org AST 的解析、精确路径索引、线性合约组合、中英文配对和语义断言都由
+=tao3k/orgize= 执行。workspace policy、合约文件与双语文档共同定义准入；任何单一
+实现仓库、作者或引用来源都不能独自产生 Tao3k 规范权威。
+
+=zh-CN= 是规范源语言，=en= 是持续维护的语义投影。workspace gate 证明结构、原则身份和
+规范元数据一致，不声称自动证明两种正文的语义等价。措辞冲突无法通过共同修订消解时，
+以中文规范含义裁决，同时必须修正英文投影并保留变更理由。
+
+* 生命周期
+
+原则状态机为：
+
+#+begin_src text
+draft -> proposed -> accepted -> superseded
+                              \-> withdrawn
+#+end_src
+
+每个原则节点必须声明 =PRINCIPLE_ID=、=PRINCIPLE_STATUS=、=PRINCIPLE_KIND=、=REFINES=、
+=NORMATIVE_LEVEL=、=SCOPE=、=REVISION=、=SUPERSEDES=、=SUPERSEDED_BY= 与
+=CHANGE_RATIONALE=。accepted 原则不是可以
+在永久身份下任意改写的散文：不改变规范含义的澄清递增 =REVISION=；改变义务、范围或
+失效边界时必须建立新的原则身份或显式替代链，并保留旧节点。
+
+=DOC_STATUS= 只描述文档的编辑与仓库生命周期；=PRINCIPLE_STATUS= 描述规范权威生命周期。
+因此一个已维护或已接受的 Charter 文档可以合法包含 draft / proposed principle，文档状态
+绝不向内部原则传播规范权威。
+
+* 准入
+
+| 对象 | 必需证据 | 准入结果 |
+|------+----------+----------|
+| CN/EN 文档 | 唯一 =SEMANTIC_ID=、双向 =COUNTERPART=、精确合约组合 | 成对维护 |
+| Reflection | 论证、反例、暂定结论、仍需面对的问题 | 保留争论 |
+| Principle | 一等节点、完整生命周期字段、细化关系、反对意见与失效模式 | 可起草、提议或接受 |
+| Engineering Map | 稳定规范要求与可替换当前实现分离 | 可追溯实现 |
+| Source | 来源身份、历史语境、解释状态与主张范围 | 不自动产生规范权威 |
+
+=just check= 必须通过 Orgize 的 closed-world topology、配对唯一性、精确线性合约组合、
+逐原则节点完整性以及中英文规范元数据相等断言；Orgize 自身以 ASP Rust Scenario 宏维护
+规模性能与 admission 回归测试。
+
+* 变更策略
+
+- Reflection 保存论证与仍然开放的问题，不发生 Principle 生命周期变化。Governance 只能准入一个另行撰写、引用来源 Reflection 的 Charter Principle，并让它从 =draft= 开始。
+- Principle 的 =draft -> proposed= 要求它自己的中英文语义配对、反对意见、边界与工程后果完整，也要说明来源 Reflection 中哪些问题已经回应、哪些仍然开放；这是一项维护者判断，不是 checklist 自动触发的状态变化。
+- =proposed -> accepted= 需要维护者明确审查；工具通过不是接受决定。
+- 语义不变的措辞澄清递增 =REVISION= 并记录理由。
+- 规范含义变化不得静默覆盖 accepted 原则；使用 =SUPERSEDES= / =SUPERSEDED_BY=。
+- =withdrawn= 表示不再主张；历史身份和证据链仍保留。
+
+* 失败处理
+
+拓扑逃逸、错误合约组合、非双向 counterpart、第三份同语义文档、合约断言失败或解释元数据
+缺失都拒绝准入。自动化不得修补内容来制造通过；失败回执必须指向首个可操作边界。
+
+* 审查与挑战
+
+任何 accepted 原则都可以因新反例、真实工程失败、新科学证据或价值冲突重新进入 Reflection。
+挑战记录至少区分：
+
+| 类型 | 问题 |
+|------+------|
+| Challenge | 哪项规范主张被挑战？ |
+| Counterexample | 哪个明确情形违反或限制主张？ |
+| Observed failure | 哪个现实结果与预期不符？ |
+| Revision proposal | 保留、澄清、替代还是撤回？ |
+
+由此形成 =Charter -> Engineering -> observed counterexample -> Reflection -> revised / retained /
+superseded Charter=，使仓库自身遵守“知 → 行 → 验 → 新知”。

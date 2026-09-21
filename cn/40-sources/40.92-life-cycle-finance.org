@@ -1,0 +1,42 @@
+#+TITLE: 生命周期金融：跨时间与结果转移资源
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-92-CN
+:SEMANTIC_ID: philosophy.source.life-cycle-finance
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.92-life-cycle-finance.org
+:SOURCE_ID: source.boston-fed.life-cycle-finance
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Zvi Bodie; Jonathan Treussard; Paul S. Willen
+:SOURCE_WORK: The Theory of Life-Cycle Saving and Investing
+:SOURCE_EDITION: Public Policy Discussion Paper 07-3
+:SOURCE_DATE: 2007
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.life-cycle-finance
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.life-cycle-finance-cn
+:END:
+依据 Boston Fed 的 [[https://www.bostonfed.org/publications/public-policy-discussion-paper/2007/the-theory-of-life-cycle-saving-and-investing.aspx][The Theory of Life-Cycle Saving and Investing]]。
+* 语境
+论文以非数学方式说明生命周期模型如何讨论退休、教育、保险与资产配置，并把金融资产理解为在不同时间和可能结果之间转移资源的工具。
+* 解释边界
+模型不能决定人的终极目的，也不能让消费平滑、终身财富或标准偏好替代照护、意义与权利。它是分析框架，不是个人行动命令。
+* 影响
+它支撑跨时间资源轨迹，同时由 [[file:../30-reflections/30.93-intertemporal-agency.org][跨时间主体性]] 限制：未来安全与当下生活都不能静默吞并另一方。
+* 解释链
+生命周期金融 → 跨时间/结果配置 → financial trajectories → Tao3k 对 future self、reversibility 与 optionality 的规范扩展。
+* 导航
+[[file:../README.org][导航]]

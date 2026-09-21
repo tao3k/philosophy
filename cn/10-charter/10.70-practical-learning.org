@@ -1,0 +1,66 @@
+#+TITLE: 经世致用 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-70
+:SEMANTIC_ID: philosophy.charter.practical-learning
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.70-practical-learning.org
+:PRINCIPLE_SET: PHIL-PRAXIS-001
+:END:
+
+* 原则
+
+** 技术价值必须回到现实利病
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-PRAXIS-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-007
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-practical-learning-cn
+:END:
+
+技术主张必须连接到真实人的问题、受益、代价与可观察效果；抽象优化、架构优雅或 benchmark 不能单独证明价值。
+
+* 理由
+
+经世致用在此被现代化为可追溯的 problem → intervention → outcome → learning，而不是借古代权威为产品背书。
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+基础研究与平台工程可能暂时没有直接 outcome；长期价值需要允许探索和不可立即量化的贡献。
+
+* 工程后果
+
+RFC 说明问题所有者、预期效果、负面外部性和观察计划；运行后 outcome 回到 Reflection。
+
+* 失效模式
+
+用使用量代替福祉；只报告收益不报告代价；把引用古人当作规范证成。
+
+* 开放问题
+
+如何处理不可量化价值？跨群体利害冲突如何保留而非平均掉？
+
+* 可追溯性
+
+| 原则 | 工程方向 | 下游所有者 | 状态 |
+|---+---+---+---|
+| PHIL-PRAXIS-001 | [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][来源说明]]；[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

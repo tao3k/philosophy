@@ -1,0 +1,42 @@
+#+TITLE: Life-Cycle Finance: Moving Resources Across Time and Outcomes
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-92-EN
+:SEMANTIC_ID: philosophy.source.life-cycle-finance
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.92-life-cycle-finance.org
+:SOURCE_ID: source.boston-fed.life-cycle-finance
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Zvi Bodie; Jonathan Treussard; Paul S. Willen
+:SOURCE_WORK: The Theory of Life-Cycle Saving and Investing
+:SOURCE_EDITION: Public Policy Discussion Paper 07-3
+:SOURCE_DATE: 2007
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.life-cycle-finance
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.life-cycle-finance-en
+:END:
+This note uses the Boston Fed paper [[https://www.bostonfed.org/publications/public-policy-discussion-paper/2007/the-theory-of-life-cycle-saving-and-investing.aspx][The Theory of Life-Cycle Saving and Investing]].
+* Context
+The paper gives a nonmathematical life-cycle treatment of retirement, education, insurance, and allocation, presenting financial assets as vehicles for moving resources across times and possible outcomes.
+* Interpretation Boundaries
+The model cannot choose human ends or let consumption smoothing, lifetime wealth, or standard preferences replace care, meaning, and rights. It is an analytical framework, not a personal instruction.
+* Influence
+It supports resource trajectories across time, bounded by [[file:../30-reflections/30.93-intertemporal-agency.org][Intertemporal Agency]] so future security and present life cannot silently consume one another.
+* Interpretation Chain
+Life-cycle finance → allocation across time/outcomes → financial trajectories → Tao3k's normative extension to future selves, reversibility, and optionality.
+* Navigation
+[[file:../README.org][navigation]]

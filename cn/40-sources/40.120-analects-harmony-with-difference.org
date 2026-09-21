@@ -1,0 +1,46 @@
+#+TITLE: 《论语》中的和而不同：共同生活而不抹平个性
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-120-CN
+:SEMANTIC_ID: philosophy.source-note.40.120-analects-harmony-with-difference
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.120-analects-harmony-with-difference.org
+:SOURCE_ID: PHIL-SRC-120
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 孔子及其弟子传统
+:SOURCE_WORK: 《论语·子路》
+:SOURCE_EDITION: Chinese Text Project received text, accessed 2026-09-21
+:SOURCE_DATE: received text; accessed 2026-09-21
+:SOURCE_LANGUAGE: zh-Latn-pinyin; lzh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: harmony without sameness as a bounded interpretive resource for individuality in shared life
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.120-analects-harmony-with-difference-cn
+:END:
+《论语·子路》载：“君子和而不同，小人同而不和。”本文使用 [[https://ctext.org/analects/zi-lu/zh][Chinese Text Project 收录文本]]作为可访问入口，并把解释限定在共同生活与差异的关系。
+* 语境
+这句话以“和”与“同”的对照讨论人怎样相处与判断。历代“君子／小人”的伦理、政治和社会语境复杂，不能只凭一句话还原完整含义。本来源说明不把古代分类直接搬成现代人的等级。
+
+这里保留的提问是：协调行动和维持关系是否必须消除意见、风格与选择的差异？文本给出的方向是否定的，但现代社会怎样保护差异还需要权利、制度与物质条件的论证。
+* 解释边界
+“和而不同”不能证明任何具体 AI 设计符合个性，也不能自动解决隐私、画像、歧视或少数者排斥。共同体也可能用“和”要求弱势者沉默，因此和谐必须接受权力与拒绝权的检验。
+
+相反，“不同”也不是越多越好。模仿、共同传统和相似选择都可以出于自由；伤害他人或拒绝共同责任不能只以个性为理由免于讨论。
+* 影响
+本仓库把个性理解为在关系中表达、发展、改变与保持沉默的自由，而非与别人距离最大化。AI 可以帮助人看见分歧和共同条件，但不得把协调误写成趋同，也不得把差异包装成可销售的用户标签。
+* 解释链
+《论语·子路》的“和／同”对举 → 共同生活无需抹平差异的问题 → [[file:../30-reflections/30.110-co-maintained-understanding.org][共同维护的理解]] 对个性、变化与不被画像穷尽的现代解释。最后一步不是对孔子思想的技术等同。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.110-co-maintained-understanding.org][共同维护的理解]]

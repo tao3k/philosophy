@@ -1,0 +1,78 @@
+#+TITLE: Intertemporal Agency: Present Choice and the Future Self
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-93-EN
+:SEMANTIC_ID: philosophy.reflection.intertemporal-agency
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.93-intertemporal-agency.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.intertemporal-agency-en
+:END:
+Today's choices constrain future selves. How can preparation protect their agency without letting abstract future security cancel present life?
+
+[[file:../40-sources/40.92-life-cycle-finance.org][Life-cycle finance]] · [[file:../40-sources/40.91-cfpb-financial-well-being.org][Financial well-being]] · [[file:30.91-financial-life-simulation.org][Zhisheng]]
+* Argument
+Present selves, future selves, and family members are neither wholly separate nor identical in their needs. Consumption can expand present freedom while reducing future buffers; extreme saving can increase security while sacrificing present life. Any single discount rate is a modeling choice, not a resolution of this normative conflict.
+
+** Room to maneuver serves a life worth undertaking
+Resilience protects room to act after shocks, reversibility limits lasting harm from mistaken commitments, and optionality preserves feasible paths not yet chosen. They are not a total risk score for maximizing safety; they enable commitment and change. Leaving unsuitable employment, education, care, enterprise, or travel can serve important purposes even when they reduce near-term cash.
+
+Preparedness should turn “not yet possible” into a bounded preparation question: is the gap money, time, skill, consent, or evidence? Which gaps can be closed in stages? A time-limited venture trial may reduce uncertainty, but cannot promise success or occupy rest indefinitely. The [[file:30.94-financial-life-stress-test.org][case]] specifies a three-month window, budget, and renewed decision at expiry.
+
+** Preparation needs stopping conditions
+Each preparation should identify its purpose, sufficiency condition, maximum investment, review date, and the opportunity cost of delay. Sufficient does not mean risk-free. If further preparation costs more than the person is willing to bear, allow action with residual uncertainty, a smaller commitment, or abandonment. Important missing information can also justify explicit deferral.
+
+#+NAME: intertemporal-review-en
+| Checkpoint | Question for the person |
+|------------+-------------------------|
+| Before commitment | Which future resources are already committed, and which values are worth sacrificing? |
+| At preparation expiry | Is preparation sufficient, or has the purpose changed? What does waiting cost? |
+| After a shock | Which premises failed, and which obligations require negotiation rather than unilateral cancellation? |
+| At exit | Which consequences remain irreversible and require remedy or continued responsibility? |
+
+No trade and waiting also need reasons, opportunity costs, and review dates; otherwise they can conceal a system's inability to help. Ending a purposeless commitment can be success without erasing existing responsibilities to others.
+
+** Intertemporal commitments cannot conscript other people
+The same money or time cannot be promised to several goals simultaneously. Housing, parental care, and enterprise must fit shared resources and event order; sufficient cash does not establish sufficient care and sleep. Future selves must not be bound indefinitely by current defaults, nor family members silently assigned unpaid work for an alleged long-term household benefit.
+
+Long-term arrangements need lock-in periods, exit costs, bearers of adverse outcomes, and reviews triggered by income, health, care relationships, or changing values. Participation or consent concerns specific impacts, not total disclosure of everyone's life. Disagreement and refusal are valid inputs. Present consent cannot indefinitely authorize a system to continue a strategy whose purpose has disappeared.
+
+** Preparation should fit available resources
+People with few resources may lack room to save or buy expensive resilience. AI can help identify verifiable support, avoid unnecessary fees and commitments, design smaller trials, or clarify infeasibility. It should not blame insufficient discipline or recommend unaffordable safety products. Low resources do not establish low willingness or weak agency.
+** Commitment makes some lives possible
+Learning a craft, raising children together, caring and sustained creation can acquire meaning through time invested. Keeping every option open forever prevents such lives from forming. Reversibility helps avoid entrapment in error; it does not demand that every relationship be costlessly undoable.
+
+Distinguish understood, willingly undertaken irreversibility from entrapment through misinformation, pressure or missing exit support. The former still permits regret and reconsideration; the latter does not become voluntary merely through a signed consent. Persistence deserves respect without treating departure from an unsuitable path as shameful failure.
+
+** A future self may pursue a different life
+Early career purposes, divisions of family labor and standards of achievement can change. Changes in health or ability may require new understandings of independence and participation. Protecting future agency means preserving explanation, support and renegotiation, not forcing every past preference upon the future.
+
+Retirement, for example, is not only an asset arrangement after income stops; it can involve rebuilding rhythms, relationships and contribution. Losing one ability does not erase every valuable direction. Assistance can seek conditions for adaptation without setting a countdown for grief or demanding past performance as proof of normality.
+
+** Grounded courage
+Agency means neither always selecting the lowest risk nor presenting confidence as fact. Grounded courage acts amid remaining uncertainty while stating what is known, whether the first step is bearable, which signals require pause or redirection, and who will bear responsibility. It lets people knowingly enter learning, relationships, creative work or enterprise that offer no guarantee yet remain worth attempting.
+
+A small trial can reduce some uncertainty, but it is not a compulsory ritual before every action. Some opportunities pass quickly; some commitments reveal their meaning only through participation. AI should neither postpone indefinitely because more validation is possible nor conceal a lack of resources with encouragement. The help described in [[file:30.99-shanjia-yuwu.org][Skillfully Using Things]] makes reasons, needed support and the moments for stopping to think again clearer. It helps people undertake a choice rather than performing courage for them.
+
+** Give noncompensable time standing
+Some opportunities cannot simply be postponed: companionship, present rest and experiences within particular relationships change over time. Discounting them all into future returns can make a better future an excuse for indefinitely deferring the present. Valuing the present likewise cannot cancel obligations to others and the future.
+
+Intertemporal judgment should keep these incompletely compensable conflicts visible. The [[file:30.96-living-with-ai.org][framing essay]] concerns not perpetual option growth but the ability to form and undertake an endorsed life with dignified support through change.
+
+* Counterexamples
+Preserving every future option can prevent housing, education, relationships, or enterprise that require commitment; waiting also closes opportunities. Conversely, appeals to living courageously do not justify ignoring essentials or risks imposed on others. Deliberate, reasoned irreversible commitments can be legitimate when their burdens, boundaries, and remedies are understood, not when consent rests on an illusion of effortless exit.
+* Provisional Conclusion
+Intertemporal agency does not declare either present or future selves the sole winner. It supports understandable, reviewable commitments worth undertaking within limited resources. Preparation should support life, not become a permanent task of postponing it.
+* Questions That Remain
+Add nonfinancial situations involving sustained learning and creation, changing abilities, retirement, grief and care. Test respect for reasoned persistence and redirection, without treating support needs as failed agency or converting all noncompensable present experience into future returns.
+
+Across consumption, saving, debt, housing, enterprise, and care, demonstrate sufficiency and stopping conditions, opportunity costs of delay, meaningful risk and rest, detection of double commitments, and revision under family disagreement, scarcity, or changed goals without shifting burdens onto others.
+* Navigation
+[[file:../README.org][language index]]

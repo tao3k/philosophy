@@ -1,0 +1,172 @@
+#+TITLE: Tao3k Philosophy
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:topology:
+#+OPTIONS: toc:2 num:nil
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
+:DOC_ID: PHIL-EN-ROOT-001
+:SEMANTIC_ID: philosophy.language-root
+:DOC_KIND: topology
+:DOC_STATUS: accepted
+:LANGUAGE: en
+:COUNTERPART: ../cn/README.org
+:TOPOLOGY_ID: philosophy.en.v1
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: 00-topology/00.00-repository-topology.org
+:END:
+
+* Position
+:PROPERTIES:
+:CUSTOM_ID: en-position
+:END:
+
+Tao3k Philosophy maintains the shared thought, concepts, and normative
+principles of the Tao3k ecosystem. It produces no runtime and does not replace
+project RFCs. See the [[file:../cn/README.org][Chinese root]] for its semantic counterpart.
+
+#+begin_quote
+Knowledge must be grounded; reasoning must preserve evidence; decisions must be
+justified; actions must be authorized; consequences must return as knowledge.
+#+end_quote
+
+* Boundaries
+
+This directory owns English philosophy documents and their semantic navigation only; runtime implementations, project-level RFCs, and Chinese prose remain owned by downstream engineering repositories, the relevant projects, and =cn/= respectively.
+
+* Navigation
+
+| Directory | Content | Contract family |
+|-----------+---------+-----------------|
+| [[file:00-topology/00.00-repository-topology.org][00-topology]] | File structure and boundaries | topology |
+| [[file:10-charter/10.00-tao3k-charter.org][10-charter]] | Accepted or proposed principles | charter.en |
+| [[file:20-engineering/20.00-knowledge-action-map.org][20-engineering]] | Principle-to-engineering mappings | engineering-map.en |
+| [[file:30-reflections/30.00-reflection-governance.org][30-reflections]] | Arguments not yet normative | reflection.en |
+| [[file:40-sources/40.00-source-method.org][40-sources]] | Sources and interpretation limits | source-note.en |
+| [[file:90-governance/90.00-authoring-and-admission.org][90-governance]] | Authoring and admission | governance.en |
+
+* Enter Through Questions About Life
+Begin with [[file:30-reflections/30.96-living-with-ai.org][Facing Life with AI: Purposes, Possibilities, and Judgment]]. Life is not a fixed objective function, simulation is not a verdict of destiny, and AI's value extends beyond safer task execution. Zhisheng supplies a practical entry; education, care, changing abilities, relocation, creation, retirement, and unpredictable disruption and recovery also belong here.
+
+These paths connect reflections still requiring scrutiny; they do not claim that separately authored Principles have been admitted to the Charter. Actual improvement needs experience from participants and affected people; complete documents and consistent logic cannot substitute for it.
+
+| Question | Suggested reading path |
+|----------+------------------------|
+| What life matters to me, and what should AI help with? | [[file:30-reflections/30.96-living-with-ai.org][Framing essay]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and positive help]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][Purpose formation and value]] |
+| What should people gain and retain when they use AI? | [[file:30-reflections/30.99-shanjia-yuwu.org][Human worth, courage and shared growth]] → [[file:30-reflections/30.90-knowing-after-action.org][Getting things done, learning judgment and remaining able to decide]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][Who receives convenience and who bears the burden]] |
+| After time is saved, has life actually become better? | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][After efficiency]] → [[file:30-reflections/30.99-shanjia-yuwu.org][Rest, creation and shared life]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][Distribution of benefit and burden]] |
+| How can AI understand me without trapping me in a profile? | [[file:30-reflections/30.110-co-maintained-understanding.org][Co-maintained understanding]] → [[file:30-reflections/30.60-action-requires-authority.org][Understanding does not create authority]] → [[file:30-reflections/30.93-intertemporal-agency.org][Room for a future self to change]] |
+| When information is contested, how can judgment be protected without crushing the person? | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]] → [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][Source to consequence]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][Challenge and revision]] |
+| When life no longer hurries, what does a free afternoon need? | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][A real opening without a predetermined ending]] → [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][How time returns to life]] → [[file:30-reflections/30.110-co-maintained-understanding.org][Understanding corrected by the person]] |
+| When AI becomes good at arranging, how can it avoid occupying the life it saved? | [[file:30-reflections/30.140-leaving-room-for-life.org][Leaving room for life]] → [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][Whether efficiency returns to the person]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][Whether burden moves to someone else]] |
+| Why can a calendar become empty without time returning to life? | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][Continuity, refusal and conditions for participation]] → [[file:30-reflections/30.140-leaving-room-for-life.org][Leaving room for life]] → [[file:30-reflections/30.170-when-less-use-is-good.org][Whether greater capability permits carrying less]] |
+| When one sentence can book travel, reserve a table and arrange a calendar, must a person still operate apps? | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] → [[file:30-reflections/30.170-when-less-use-is-good.org][room and convergence]] → [[file:30-reflections/30.60-action-requires-authority.org][capability does not create authority]] |
+| Which futures can we see, and how should we face unrepresented change? | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation, candidates and reflexivity]] → [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown and model boundaries]] → [[file:30-reflections/30.98-living-with-the-unpredictable.org][Disruption, recovery and reconsideration]] → [[file:30-reflections/30.93-intertemporal-agency.org][Time and commitment]] |
+| How should AI and others participate in my judgment? | [[file:30-reflections/30.60-action-requires-authority.org][Influence and authority]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][Entrusted support]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][Shared life and responsibility]] |
+| What if purposes change or advice proves wrong? | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][Reasons and consequences]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][Challenging the question]] → [[file:30-reflections/30.90-knowing-after-action.org][Learning again]] |
+| How can I start with a concrete situation? | [[file:30-reflections/30.95-life-after-job-loss.org][Job loss and renewed choice]] → [[file:30-reflections/30.91-financial-life-simulation.org][Zhisheng]] → [[file:30-reflections/30.94-financial-life-stress-test.org][Stress-testing bounded preparation]] |
+
+Source strands include [[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen on substantive opportunity]], [[file:40-sources/40.96-performative-prediction.org][performative prediction]], [[file:40-sources/40.97-transformative-experience-evaluability.org][transformative experience]], [[file:40-sources/40.98-xunzi-learning-and-tools.org][Xunzi on learning and tools]], [[file:40-sources/40.99-ai-help-work-learning-creation.org][work, learning and creation]], [[file:40-sources/40.100-well-being-time-and-self-determination.org][well-being, time and self-determination]], [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][provenance, memory and adversarial information]], [[file:40-sources/40.120-analects-harmony-with-difference.org][harmony without sameness in the Analects]], [[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][leisure, interest and ordinary experience]], [[file:40-sources/40.140-unfilled-space-and-rest.org][unfilled space, absence and rest worth enjoying]], [[file:40-sources/40.150-life-service-ai-and-bill-access.org][life-service AI and bill-access boundaries]], [[file:40-sources/40.170-interface-space-and-convergence.org][the applicability boundary of inherited interface guidance]], [[file:40-sources/40.180-ui-intent-and-computer-use.org][intent inference and computer use]], and [[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][rest, boundaries, AI work intensity and conditions for participation]]. They ground questions without excusing our modern interpretations from argument.
+
+* AI Interaction-Object Shift Topic
+
+This topic does not extend traditional GUI guidance directly into the agent era as an answer. It distinguishes three
+objects that are already different: a person directly operating software; a person and AI forming an acting relation;
+and an agent becoming a service's direct caller while people and other affected parties remain at purpose, authority,
+consequence and appeal. Inherited standards are historical baselines, not automatic standards for the new object.
+
+Topic documents compose the ordinary Reflection contract with
+=philosophy.ai-object-reflection.en.v1=. The contract requires each document to state the traditional object and its
+applicability boundary, the object shift, a present judgment, scenes containing both supporting and opposing reasons,
+and the boundary between Principle and Governance. It constrains completeness without prematurely promoting a
+provisional judgment into a principle.
+
+| Topic entrance | Shift that must be faced | Present judgment | Debate scenes |
+|----------------+---------------------------+------------------+---------------|
+| [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] | The app changes from a person's main operating entrance into an agent-callable service; the object becomes human-with-AI, agent and affected-human | Operating burden may disappear; purpose, material effects, authority, failure and takeover must not | One-sentence booking, agent-made restaurant calls, calendar coordination and agent-to-agent transactions |
+| [[file:30-reflections/ai-object-shift/30.190-when-services-face-agents.org][When a service faces an agent]] | A service directly faces an agent while effects land on principals, affected people, workers and institutions | An agent may be the direct object but not the only design subject | Airline interfaces, restaurant calls, calendar negotiation, shopping bargains and public service |
+| [[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][Human, agent and design]] | Language, agent action and visible shared objects recombine instead of being governed by a permanent app | Operating burden should diminish; content needed for judgment, work and shared understanding should become fuller | Booking, coding with Codex, visual design, family calendars and accessibility |
+
+* Topic Index
+
+| Topic | Charter | Reflection | Source / engineering map |
+|-------+---------+------------+--------------------------|
+| Epistemology and uncertainty | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown as a first-class object]] | [[file:40-sources/40.30-scientific-method-evidence.org][Scientific method and evidence]] |
+| Temporality and causality | [[file:10-charter/10.20-temporality-and-causality.org][PHIL-TEMP-001]] | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation is not prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods, proof, and counterexample]] |
+| Human agency | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization is not human value]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Action and authority | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][Action requires authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][State and authority in agent systems]] |
+| Proportional assurance | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][Unity Without Collapse]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Resilience, reversibility, and optionality | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.98-living-with-the-unpredictable.org][Living with the Unpredictable]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][Cross-repository realization map]] |
+| Practical learning | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu and practical learning]] |
+| Using things, learning and equality of knowledge | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.99-shanjia-yuwu.org][Skillfully Using Things]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][Xunzi]]; [[file:40-sources/40.99-ai-help-work-learning-creation.org][modern evidence boundaries]] |
+| Time, well-being and a life worth effort | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][After Efficiency]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][well-being, time and self-determination]] |
+| Room, stopping and time not arranged | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]]; [[file:30-reflections/30.210-why-freed-time-does-not-return.org][Freed Time]] | [[file:40-sources/40.140-unfilled-space-and-rest.org][unfilled space and rest]]; [[file:40-sources/40.150-life-service-ai-and-bill-access.org][platform and access boundaries]]; [[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][boundaries, work intensity and participation]] |
+| AI interaction-object shift | — (still Reflection, not a Charter Principle) | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]]; [[file:30-reflections/ai-object-shift/30.190-when-services-face-agents.org][services facing agents]]; [[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][human, agent and design]] | [[file:40-sources/40.170-interface-space-and-convergence.org][inherited interface baseline]]; [[file:40-sources/40.180-ui-intent-and-computer-use.org][model operation and visible boundaries]] |
+| Individuality and co-maintained understanding | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.110-co-maintained-understanding.org][Not exhausted by a profile]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][harmony without sameness]] |
+| Provenance, memory and protection of knowing | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][evidence boundaries]] |
+
+* Knowledge, Action and Experience
+
+| Core question | Reflection | Primary sources |
+|---------------+------------+-----------------|
+| How can knowledge and action be unified without collapse? | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][Unity Without Collapse]] | [[file:40-sources/40.10-wang-yangming-knowledge-action.org][Wang Yangming: genuine knowledge and action]] |
+| How does knowledge trace from source to consequence? | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][Traceable Knowledge]] | [[file:40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce: fallibilism and inquiry]] |
+| How do different claims bear failure? | [[file:30-reflections/30.80-refutable-challengeable-revisable.org][Refutable, Challengeable, Revisable]] | [[file:40-sources/40.70-popper-falsifiability.org][Popper: falsifiability]]; [[file:40-sources/40.90-woodward-interventionism.org][Woodward: interventionism]] |
+| How does action produce knowledge again? | [[file:30-reflections/30.90-knowing-after-action.org][Knowing Again After Action]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey: action, experience, and learning]] |
+| How should technology undergo a benefit-harm test? | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu: statecraft and practical learning]] |
+| How can people use AI to understand, act, create and enjoy life more fully? | [[file:30-reflections/30.99-shanjia-yuwu.org][Skillfully Using Things: Human Worth, Courage and Shared Growth in the AI Era]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][Xunzi: learning and tools]]; [[file:40-sources/40.99-ai-help-work-learning-creation.org][evidence from work, learning and creation]] |
+| How can time saved by technology genuinely return to life? | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][After Efficiency: Time, Well-Being, and a Life Worth Living]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][evidence boundaries for well-being, time and self-determination]] |
+| How can a person be understood without being exhausted by a profile? | [[file:30-reflections/30.110-co-maintained-understanding.org][Understanding Maintained with the Person]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][harmony without sameness]] |
+| How can judgment continue after adversarial information enters memory? | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][Protecting sources, memory and understanding]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][provenance, memory and adversarial information]] |
+| How can an afternoon without a ready goal remain unfilled? | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][When Life No Longer Hurries]] | [[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][leisure, interest and ordinary experience]] |
+| When a system can keep supplying things to do, how can stopping and not deciding remain possible? | [[file:30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]] | [[file:40-sources/40.140-unfilled-space-and-rest.org][the unpainted, absence and rest]]; [[file:40-sources/40.150-life-service-ai-and-bill-access.org][existing ecosystems and access premises]] |
+| Why may time saved by technology still not belong to the person? | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][Why Did Freed Time Not Return to Life?]] | [[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][Rest, boundaries, AI work intensity and conditions for participation]] |
+| When a service directly faces an agent rather than a person operating GUI, what must be reconsidered? | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] | [[file:40-sources/40.170-interface-space-and-convergence.org][limits of inherited design guidance]]; [[file:40-sources/40.180-ui-intent-and-computer-use.org][intent inference and computer use]] |
+
+* Models, Value and the Limits of Judgment
+
+| Core question | Reflection | Primary sources |
+|---------------+------------+-----------------|
+| When can possibility inside a model become a prediction about reality? | [[file:30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
+| Why can a computable objective not independently create human value? | [[file:30-reflections/30.40-optimization-is-not-human-value.org][Optimization Is Not Human Value]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu: statecraft and practical learning]] |
+| How does unknown constrain inference and organize the next inquiry? | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown Is a First-Class State]] | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method]] |
+| After an unrepresented change, what should recovery protect first? | [[file:30-reflections/30.98-living-with-the-unpredictable.org][Living with the Unpredictable]] | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Limits of formal proof]]; [[file:40-sources/40.97-transformative-experience-evaluability.org][transformative experience and evaluability bias]] |
+| When does technical capability acquire authority to change the world? | [[file:30-reflections/30.60-action-requires-authority.org][Action Requires Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
+
+* How Ideas Undergo Scrutiny
+
+| Method question | Entry point |
+|-----------------+-------------|
+| How do Reflection, Principle and Governance retain distinct responsibilities? | [[file:30-reflections/30.00-reflection-governance.org][Reflection, Principle, and Governance cannot substitute for one another]] |
+| How should a measurement be reported with its uncertainty boundary? | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method: evidence, counterexamples, and uncertainty]] |
+| What can proof, model checking, testing, simulation, and observation each establish? | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
+| How do classical protection principles enter Agent authority without becoming complete normative legitimacy? | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
+
+* Zhisheng: Testing Ideas Against Situated Life
+
+| Real-world stress test | Reflection / Case |
+|------------------------+-------------------|
+| How can life purposes guide preparation and preserve room to choose? | [[file:30-reflections/30.91-financial-life-simulation.org][Zhisheng: Preparedness, Financial Resilience, and Life Choices]] |
+| How can AI manage means without taking ownership of human ends? | [[file:30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship, Not Sovereignty]] |
+| How can present choice preserve the agency of a future self? | [[file:30-reflections/30.93-intertemporal-agency.org][Intertemporal Agency]] |
+| What is missing for enterprise, how can one prepare, and how would life improve? | [[file:30-reflections/30.94-financial-life-stress-test.org][Zhisheng Stress Test: From Resource Gaps to Bounded Preparation]] |
+| How can choices be rebuilt after job loss, with ecosystem languages clarifying conditions and risk? | [[file:30-reflections/30.95-life-after-job-loss.org][More Than One Life Trajectory: From Job Loss to Renewed Choice]] |
+| After unpredictable disruption, how can conditions for judgment be restored before a life direction is reconsidered? | [[file:30-reflections/30.98-living-with-the-unpredictable.org][Living with the Unpredictable: Disruption, Recovery, and Reconsideration]] |
+| How can a mother's free afternoon remain open rather than have its ending written by scenarios? | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][When Life No Longer Hurries: An Afternoon without a Predetermined Ending]] |
+| How can a young person's three thousand yuan open a question about life instead of another category chart and task list? | [[file:30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life: When AI Becomes Good at Arranging]] |
+| How can those unable to stop, those stopped but uncertain, and those who sincerely choose intensity avoid one prescribed answer? | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][Why Did Freed Time Not Return to Life?]] |
+| External grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]; [[file:40-sources/40.92-life-cycle-finance.org][life-cycle finance]]; [[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI financial advice]]; [[file:40-sources/40.94-financial-planning-support-boundaries.org][market and regulatory boundaries]] |
+
+* Relation graph
+
+#+name: philosophy-en-flow
+#+begin_src mermaid :exports results :file philosophy-en-flow.svg
+flowchart TD
+  S[Sources] --> R[Reflections]
+  R -.cited by.-> P[Separately authored Charter Principles]
+  G[Governance] -->|admits and manages lifecycle| P
+  P --> E[Engineering mappings]
+  E --> D[Downstream implementations]
+  D --> R
+#+end_src

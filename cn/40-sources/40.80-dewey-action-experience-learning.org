@@ -1,0 +1,42 @@
+#+TITLE: 杜威：行动、经验与学习
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-80-CN
+:SEMANTIC_ID: philosophy.source.dewey-action-experience-learning
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.80-dewey-action-experience-learning.org
+:SOURCE_ID: source.sep.dewey
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: David Hildebrand
+:SOURCE_WORK: John Dewey / Stanford Encyclopedia of Philosophy
+:SOURCE_EDITION: 2024-03-31
+:SOURCE_DATE: 2024-03-31
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.dewey-action-experience-learning
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.dewey-action-experience-learning-cn
+:END:
+本条依据 [[https://plato.stanford.edu/entries/dewey/][SEP 的 John Dewey 条目]]，聚焦 experience 作为 organism–environment 的 processual、transactional doing/undergoing，以及反思如何重组后续活动。
+* 语境
+Dewey 反对把 experience 缩成主体内部的原子感觉。经验包含有机体在环境中的行动、承受、调整与再调整；“已知经验”从直接经验中有目的地抽取关系。哲学因而不是脱离生活的最终真理特权，而是面对具体世界的 living equipment。
+* 解释边界
+这一来源不能证明任何 feedback loop 自动产生真知，也不能为未经同意的现实实验授权。行动后的结果可能被噪声、延迟与混杂污染；doing 与 undergoing 的联系仍需测量、因果和伦理判断。
+* 影响
+它进入 [[file:../30-reflections/30.90-knowing-after-action.org][行后再知]]，支撑“执行 receipt 不等于 outcome”“行动结果必须重新改变知识状态”，并深化 practical learning 而不新增 Charter。
+* 解释链
+SEP 条目 → Dewey 的 experience 与 inquiry → 行动、承受后果、反思性重组 → Tao3k 的 observe–reconcile–learn 循环。工程术语是现代映射，不是 Dewey 原文中的系统设计。
+* 导航
+[[file:../README.org][导航]]

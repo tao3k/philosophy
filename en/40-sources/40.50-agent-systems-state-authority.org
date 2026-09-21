@@ -1,0 +1,64 @@
+#+TITLE: Agent Systems: State, Authority, and Real-World Action
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-EN-50
+:SEMANTIC_ID: philosophy.source.agent-systems-state-authority
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.50-agent-systems-state-authority.org
+:SOURCE_ID: source.agent-systems
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Tao3k engineering synthesis
+:SOURCE_WORK: ASP、MRR、mrr-data、POO Flow、Marlin、Aitia、Episteme 工程实践综合 / engineering-practice synthesis
+:SOURCE_EDITION: workspace-synthesis-v1
+:SOURCE_DATE: 2026-09-20
+:SOURCE_LANGUAGE: en-and-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Saltzer and Schroeder 1975; agent-semantic-protocols; MRR; mrr-data; POO Flow; Marlin; Aitia; Episteme engineering practice
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* Source
+:PROPERTIES:
+:CUSTOM_ID: source-agent-systems-state-authority-en
+:END:
+
+This note synthesizes the design tendency across several agent-system projects to keep state,
+proposal, decision, authorization, execution, and outcome receipts distinct. It does not claim a
+time-bound engineering observation. Promotion to =ENGINEERING_EVIDENCE= requires a separate record
+with repository, revision, RFC/path, and observation date.
+
+An external design anchor is Saltzer and Schroeder's [[https://web.cs.wpi.edu/~cs557/f14/papers/saltzer1975_alt.html][The Protection of Information in Computer Systems]]. Its principles of least privilege, fail-safe defaults, and complete mediation constrain access capability through minimum scope and repeated checks. This note uses those principles to test Agent authority without equating information protection with all normative authorization.
+
+[[file:../README.org][English navigation]] · [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]]
+
+* Context
+
+Classical protection work primarily prevents unauthorized access and modification. Agent systems additionally connect model-generated proposals to tools that alter financial, clinical, code, and communication state. What privileges a process holds still matters, but so do who the principal is, what purpose was delegated, whether delegation remains valid, and who reconciles real consequences.
+
+Tao3k engineering synthesis repeatedly meets the same boundary: a retrieval result is not admitted knowledge, a candidate plan is not a decision, a tool schema is not authority, and transport success is not outcome. These remain distinct not to maximize layers, but to make every crossing independently rejectable, traceable, and revocable.
+
+Authority also propagates through delegation. Least privilege suggests attenuating scope, fail-safe default denies execution without explicit authority, and complete mediation checks authority when a real change is attempted rather than only when a session begins. These security principles provide strong Agent counterexamples, while purpose, consent, benefit-harm, and compensation require broader philosophical argument.
+
+* Interpretation Boundaries
+
+Current Tao3k implementations are replaceable realizations and cannot define permanent philosophical norms in reverse. Least privilege does not prove that a particular token, capability, or approval interface is correct. Authority representations may differ if they preserve principal, scope, time, purpose, attenuation, and revocation.
+
+Security authorization and normative legitimacy must not collapse. A call may pass every access-control check while violating a person's purpose or causing disproportionate harm; another may be well intended yet lack authority and therefore remain impermissible. Both conditions must hold.
+
+* Influence
+
+It enters [[file:../30-reflections/30.60-action-requires-authority.org][Action Requires Authority]] and provides engineering counterexamples for the thematic Charter: implicit credential inheritance, expired authority, scope amplification, session-only checks, execution after revocation, and invocation receipts mistaken for outcomes.
+
+* Interpretation Chain
+
+Saltzer/Schroeder protection principles and Tao3k engineering practice → capability/authority/outcome boundaries → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → separately authored draft Principle citing that Reflection → possible Governance admission to Charter. The security principles constrain authority mechanisms; purpose, human agency, and outcome reconciliation are extensions of this repository and must not be attributed back to the paper or current implementation.

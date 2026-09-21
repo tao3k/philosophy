@@ -1,0 +1,57 @@
+#+TITLE: Reflection, Principle, and Governance: Three Responsibilities That Cannot Substitute for One Another
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REFL-EN-001
+:SEMANTIC_ID: philosophy.reflection.charter-governance
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.00-reflection-governance.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-question-en
+:END:
+
+What distinct responsibilities belong to Reflection, Principle and Governance, and how can they be linked without turning one into another?
+
+* Argument
+
+Quotation, inherited prestige, and present resonance do not confer normative authority. A source can open a question, but cannot perform modern interpretation, value choice, or responsibility for consequences on behalf of maintainers. An idea must first become a disputable claim that says what it protects, whom it constrains, where it applies, and how it may fail. See the [[file:../10-charter/10.00-tao3k-charter.org][current Charter]] and [[file:../40-sources/40.00-source-method.org][Source and Interpretation Method]].
+
+A Reflection is not defined by vague writing. Its task is to preserve a conflict that has not stabilized: the strongest counterargument, scope boundaries, failure modes, affected people, and alternative principles. A document collecting only support is advocacy rather than reflection; one refusing any provisional conclusion cannot meet engineering counterexamples.
+
+A Principle is a separate first-class normative node, and a Charter carries cross-project defaults. It is not a Reflection with a new directory, status or title. Establishing a Principle with a Reflection among its sources requires more than “this is a good idea.” The Principle should answer what harm follows from violating it, what harm may follow from applying it rigidly, which variables govern conflict with other principles, and what observations require qualification, revision or withdrawal.
+
+Governance does not supply this normative content and does not decide on a Principle's behalf what a good life is. It says who may propose, which material is required, who reviews, how status changes, and how objections and earlier versions remain. Passing governance does not make a Principle correct; a Principle worth accepting cannot bypass governance either.
+
+An engineering trace does not let current implementation vote on truth. It subjects abstraction to counterexamples: can compliant and non-compliant behavior be distinguished, does the principle retain meaning across domains, and does enforcement cost exclude the people it claims to protect? Systems provide evidence and counterexamples; “already implemented” cannot create normative legitimacy in reverse.
+
+Governance also bears version responsibility. Earlier reflections, objections and failures must not disappear beneath a new Principle. The Principle should record its sources, which claims it qualifies and what remains unresolved. Otherwise stability becomes organized forgetting.
+
+* Counterexamples
+
+“More automation is always better” converts easily into an implementation slogan while failing to preserve consent, reversibility, or human agency. Ease of implementation is not normative review.
+
+Conversely, requiring an idea to be proven across every domain and extreme before proposing a Principle would prevent any Charter from forming. Governance should permit bounded principles: declared scope, exceptions and review conditions are more honest than either universality or indefinite delay.
+
+Consensus is also insufficient. A team may unanimously accept a Principle that benefits itself while exporting costs to outsiders. Governance must actively seek people absent from the discussion who will bear consequences. Lack of dissent can indicate missing representation rather than resolved conflict.
+
+Engineering testability is not the only standard. Dignity, agency, and long-term option value do not lose standing because they resist quantification. They should remain challengeable, explainable, and traceable without being forced into a convenient proxy metric.
+
+* Provisional Conclusion
+
+Reflection preserves a live dispute, Source Note constrains interpretation, Principle states a versioned and challengeable norm, Governance decides its procedural standing, and Engineering Map tests consequences. Their responsibilities and authorities differ and cannot be exchanged by a file move, metadata substitution or implementation fait accompli.
+
+A Reflection never graduates into a Principle. Maintainers may only propose a new Principle node with the Reflection among its sources and let Governance review its reasons, counterexamples, scope, impact and revision path. Both remain. Stability of a Principle does not end reflection.
+
+* Questions That Remain
+
+Real reviews must still show that the three responsibilities remain separate: Reflection can keep objections without being covered by a Principle; Principle can state its central claim, included and excluded scope, failure modes, distribution of benefits and burdens and revision conditions; and Governance can preserve a reviewable proposal and decision record without replacing normative judgment. Engineering traces need at least one supporting case and one counterexample showing the Principle may be too broad, too narrow or too costly.
+
+After these content conditions and the Charter Org Contract are satisfied, Governance may admit a newly created =PRINCIPLE_STATUS: draft= node. Maintainers must explicitly advance it to =proposed= or =accepted= while preserving the source Reflection. =DOC_STATUS= describes only editorial state and cannot replace Principle lifecycle. A path change, a copied Reflection or deleted objections cannot create a valid Principle.

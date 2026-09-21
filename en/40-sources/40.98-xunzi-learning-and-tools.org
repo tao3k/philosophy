@@ -1,0 +1,48 @@
+#+TITLE: Xunzi on Learning, External Things, and Human Action
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-98-EN
+:SEMANTIC_ID: philosophy.source-note.40.98-xunzi-learning-and-tools
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.98-xunzi-learning-and-tools.org
+:SOURCE_ID: source.xunzi-encouragement-learning
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Xunzi
+:SOURCE_WORK: Xunzi, Encouragement of Learning
+:SOURCE_EDITION: Chinese Text Project received text; Columbia Asia for Educators selection
+:SOURCE_DATE: Warring States period; received-text edition
+:SOURCE_LANGUAGE: zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.xunzi-learning-and-tools
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.98-xunzi-learning-and-tools-en
+:END:
+Xunzi, /Encouragement of Learning/. The received Chinese text is consulted through the [[https://ctext.org/xunzi/quan-xue][Chinese Text Project]], with the Columbia University Asia for Educators [[https://afe.easia.columbia.edu/main_pop/ps/ps_china-xunzi-encouraging-learning.htm][selection and translation]] used for comparison. This note focuses on the cart, horse, boat and skillful-use passage within the essay's larger argument for continued learning.
+* Context
+The essay does not oppose learning to assistance from external things. Examples of elevation, favorable wind, carts, horses and boats show that position, conditions and tools can extend action. The statement that an exemplary person is skilled in making use of things remains embedded in an argument about learning, accumulation and practice, not a shortcut that dispenses with cultivation.
+
+The “things” in this passage are not modern autonomous software systems. The text does not discuss tools that generate advice, shape attention, collect data or alter organizational power. Moving from boats to AI therefore requires additional argument.
+* Interpretation Boundaries
+This repository does not infer that stronger tools should receive complete delegation. Nor does it equate Xunzi's account of exemplary persons with modern autonomy, knowledge equality or human-computer collaboration. The text cannot answer today's questions about authorization, privacy, platform benefit, job displacement or extraction of experience.
+
+Skillful use also does not prove that tool use produces learning. A modern system can improve task performance while concentrating methods, records and judgment with the provider. Whether people consequently live with more ease, understanding and say over their affairs requires separate observation.
+* Influence
+The source helps Tao3k reject a fragile humanism: people need not outperform a tool at every capability to deserve to use it or retain human standing. A tool can make a previously unreachable place reachable while learning, purpose and participation remain human concerns.
+
+For the present, we ask four further questions: who can go farther, whose burden is relieved, how the choices people can see are changed, and whether they can challenge, replace and leave the help. These are Tao3k's contemporary interpretations, not claims made by the ancient text.
+* Interpretation Chain
+/Encouragement of Learning/ and its vehicle examples → external assistance need not diminish human worth → [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillful Use of Things]] distinguishes delegation, learning and participation → counterexample review through [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][practical learning]] and [[file:../30-reflections/30.96-living-with-ai.org][the life framing essay]].
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillfully Using Things]]

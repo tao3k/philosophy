@@ -1,0 +1,68 @@
+#+TITLE: Why Unknown Must Be a First-Class State
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-50
+:SEMANTIC_ID: philosophy.reflection.unknown-first-class
+:DOC_KIND: reflection
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.50-unknown-as-first-class.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-unknown-as-first-class-en
+:END:
+
+How should a system preserve unknown, conflicted, and hypothesized states rather than fill gaps with plausible completion?
+
+[[file:../40-sources/40.30-scientific-method-evidence.org][source note]] · [[file:../10-charter/10.10-epistemology-and-uncertainty.org][target thematic Charter]]
+
+* Argument
+
+Unknown is not an empty slot awaiting plausible completion. It is a positive statement about an evidence boundary: present material does not support a value or relation. It determines what cannot be inferred, whether the next step is retrieval, measurement, or inquiry, and whether action should continue, degrade, or stop. Erasing unknown turns “not yet known” into “no problem” or “true by default.”
+
+Unknown must also remain distinct from adjacent states. Absent means confirmed not to exist within a declared scope; not-applicable means the question does not apply; conflicted means incompatible evidence awaits adjudication; hypothesized proposes an explanation for testing; withheld means information exists but is not presently authorized for access. If all collapse to null, downstream consumers cannot know whether to stop, retry, request authority, or search for counterevidence.
+
+Generative systems readily hide these distinctions behind fluent language. A sentence can be grammatical and locally plausible without sources sufficient for its conclusion. A confidence score alone does not repair this because it may describe a model distribution rather than the probability of factual correctness. The system must preserve the evidence state of a claim rather than treat confident expression as epistemic authority.
+
+Unknown also schedules inquiry. It should carry why the matter is unknown, which decisions it affects, what observation could resolve it, and when it must be revisited. It then becomes a map for finite attention: investigate high-consequence resolvable unknowns first, proceed under explicit defaults for low-consequence reversible ones, and raise assurance or block action when a high-consequence unknown cannot be resolved.
+
+Preserving unknown also protects dissent. When sources conflict, prematurely selecting one truth deletes minority evidence and a route to later correction. Marking conflicted does not require permanent neutrality; it requires adjudication to retain rejected reasons, time, and conditions for reopening.
+
+** Unknown is more than a missing number
+Sometimes the kind of risk is known but not its timing or size; sometimes outcomes can be imagined without defensible probabilities; some changes have not entered the categories of the question. Assigning “other risks: 5%” does not make the last category known. A bounded model can state its considered scope, not invent coverage of unarticulated futures.
+
+Listed risks may also share causes. Moving can affect income, support networks, travel and care together. Each burden being bearable does not establish that their conjunction is bearable; dependence may itself be unknown. The [[file:30.95-life-after-job-loss.org][job-loss case]] distinguishes a single shock from repeated shocks to avoid presenting a narrow assumption as comprehensive resilience.
+
+** Not knowing does not always justify more collection
+Knowing an entire life is neither realistic nor a prerequisite for legitimate assistance. Privacy, creative openness and unformed purposes are not defects to repair. Ask only what can change the present judgment and is appropriate to ask, while leaving room not to explain.
+
+Discussing attendance at a course may require a timetable, not the family's entire relationship history. When necessary grounds remain unavailable, narrow the advice instead of treating more data access as the only route forward.
+
+** Continue living amid uncertainty
+Respond to uncertainty at the level of particular actions: pause a new payment while continuing existing care; replace an invalid prediction with small exploratory steps instead of declaring that no path remains. Explain what continues, what pauses, who supports review and what waiting itself costs.
+
+Preparation aims not to enumerate every disaster but to reduce single dependencies, preserve proportionate flexibility and recognize when the original question has become inadequate. This is compatible with [[file:30.93-intertemporal-agency.org][meaningful commitment]]: life cannot wait for complete knowledge.
+
+* Counterexamples
+
+Wrapping every field in elaborate epistemic state creates noise, latency, and false precision. Low-risk defaults often suffice, and engineering systems must act with incomplete information. First-class unknown is not infinite doubt. It preserves distinctions only where they can change judgment, authority, or consequence.
+
+Disclosing an unknown may reveal privacy or security boundaries. The content may need to remain hidden, but authorized downstream consumers should still distinguish unavailable from nonexistent and know who may lift the restriction. Security-motivated withheld must not silently become factual absent.
+
+Persistent uncertainty can also become an escape from responsibility: a system says it is unsure while continuing high-consequence action. Unknown must connect to action policy. If it changes neither assurance, authority, nor inquiry priority, it is merely a disclaimer.
+
+* Provisional Conclusion
+
+At decision-relevant boundaries, distinguish unknown, absent, not-applicable, conflicted, hypothesized, and withheld while retaining source, impact scope, resolution condition, and review time. Unknown is not a failure value. It is a knowledge object that constrains inference and authority while organizing the next inquiry.
+
+* Questions That Remain
+
+Show that missing evidence defaults to neither true nor false, conflicts cannot be overwritten by the last writer, withheld cannot degrade into absent, and defaults cannot escape their low-risk scope. Cases should demonstrate how one unknown can appropriately trigger continuation, retrieval, an authority request, increased assurance, or stopping. Only then may an author draft a separate epistemology-and-uncertainty Principle citing this retained Reflection for Governance to review for Charter admission.
+
+Add cases of uncategorized change, compound shocks with shared causes, legitimate privacy and pausing some actions while continuing necessary responsibilities. Test appropriate adjustment rather than global paralysis or perpetual data demands.

@@ -1,0 +1,103 @@
+#+TITLE: Judgment amid Adversarial Information: Protecting Sources, Memory, and Understanding
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-120-EN
+:SEMANTIC_ID: philosophy.reflection.30.120-judgment-amid-adversarial-information
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.120-judgment-amid-adversarial-information.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.120-judgment-amid-adversarial-information-en
+:END:
+When search results, documents, pages and long-term memory can carry error or manipulation, how can people keep judging without becoming full-time security specialists? AI may help verify sources, but it may also process an unverified sentence through summaries, reasoning and memory until it resembles a fact, a preference or even an authorization.
+
+The aim is not to eliminate all false information. It is to protect the process of knowing: after content is read, cited, derived from or remembered, its evidential standing remains visible. Insufficient evidence may block a costly action without rushing to accuse a person or institution.
+* Argument
+Judgment can continue not by forcing every item immediately into true or false, but by preserving source and standing as content moves and matching verification to the consequence of action. The argument below separates attack location, evidential questions and available action.
+** Entry into a system does not change standing
+Content may be retrieved, cited by several agents, used in reasoning and written into long-term memory while remaining only a claim made by its source. Processing count does not produce truth. A fluent summary does not produce the person's endorsement. Storage in memory does not produce authority to act.
+
+#+NAME: no-epistemic-elevation-en
+#+EXPLANATION: Each step may add usability or reach without automatically changing epistemic standing.
+| Event | What may be added | What is not added automatically |
+|-------+-------------------+---------------------------------|
+| Reading | Visible content and time of reading | Truth |
+| Citation | A relation showing who cited what | Independent corroboration |
+| Derivation | A conditional conclusion and reasoning chain | Correct premises or real-world applicability |
+| Memory | A record that can be found again | User preference, current endorsement or action authority |
+| Repetition | Propagation paths and recurrence count | Multiple independent sources |
+
+This continues [[file:30.70-traceable-knowledge-source-to-consequence.org][traceability from source to consequence]] and protects [[file:30.110-co-maintained-understanding.org][co-maintained understanding]] from being silently rewritten by polluted content.
+
+** Risks occur in different places and should not all be called misinformation
+Systematic bias in training material, pollution among retrieved results, instructions in a document that try to direct an agent, and malicious relations stored in long-term memory arise at different stages and require different detection and remedy.
+
+#+NAME: adversarial-information-locations-en
+#+EXPLANATION: Distinguishing location helps find responsibility and remedy; it is not a vocabulary test for ordinary people.
+| Risk | Where it enters | Possible effect | First thing to protect |
+|------+-----------------+-----------------|------------------------|
+| Training or knowledge poisoning | Model or knowledge-base formation | A class of errors persists widely | Data source, version and retraining boundary |
+| Retrieval pollution | Present search candidates | Manipulative pages gain excessive visibility | Source diversity, independence and context |
+| Indirect prompt injection | A page or file being read | Content masquerades as a command to alter agent behavior | Separation of content and instruction, authority and tool bounds |
+| Long-term memory pollution | Records and relations kept across sessions | One malicious item changes later judgment | Write admission, source, expiry and withdrawal |
+
+The [[file:../40-sources/40.110-provenance-memory-and-adversarial-information.org][source note on provenance, memory and adversarial information]] records the bounded evidence of the NIST taxonomy, C2PA and the “Bad Memory” preprint. A taxonomy helps name a problem; it does not replace threat analysis for a particular system.
+
+** Judging truth requires at least five separate questions
+Source identity asks who or which system published something. Provenance asks where content came from and how it changed. Original content asks what was actually said. Evidential support asks what materials sustain the claim. Independence and applicability ask whether sources rely on one another and whether the result fits this person and context.
+
+A signature or C2PA Content Credential can help describe source and edit history. It cannot establish that a depicted account is true, a study sound or advice fitting. Absence of a credential cannot automatically establish falsehood either: old photographs, oral memory and small organizations may lack the infrastructure.
+
+** One household: a placement claim should not become a reason to pay
+The woman rebuilding life after job loss sees a training provider claim a “95% placement rate” and demand same-day payment to reserve a place. The system should first store this as “an unverified claim made by the provider on a named page,” not “the course has a 95% placement rate.” It can then ask for the denominator, period, definition of placement, inclusion of short-term or in-house work, verifier and refund conditions.
+
+#+NAME: training-claim-review-en
+#+EXPLANATION: Insufficient evidence can block payment without outrunning the evidence to allege fraud.
+| Present material | Judgment available | Judgment unavailable | Next step |
+|------------------+--------------------+----------------------|-----------|
+| Provider page says 95% | The provider made this claim | The rate is independently established | Preserve page, date and exact wording |
+| No denominator or definition | Material evidence is missing | The provider necessarily fabricated it | Ask for method, sample and verifier |
+| Payment due today; refund unclear | Cost is high and remedy uncertain | The course necessarily has no value | Pause payment; inspect contract and alternatives |
+| Independent material later appears | Confidence may be revised | The old view can never change | Preserve reason and time of revision |
+
+“Do not pay yet” is a bounded action conclusion. “This is a scam” is a factual judgment about the provider. The first may hold when evidence is insufficient, cost is high and alternatives exist; the second requires stronger evidence.
+
+** Protecting judgment must not become another burden of life
+Ordinary people should not audit every model, signature and attack chain. Help should be proportionate to consequence. Low-risk content can retain its source and remain revisable. Money, health, public identity and irreversible commitments justify more independent checking, waiting and human participation. Systems should turn key disagreements into understandable questions rather than pour security terminology onto people.
+
+Commercial ranking, retention objectives and institutional interests are also part of source context. Even without an attacker, a system may repeatedly amplify content more likely to produce a transaction. Epistemic protection therefore addresses conflict of interest and undisclosed choice architecture as well as malicious attack.
+
+** Judgment-protection progress [5/8] [62%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] State that reading, citation, derivation and memory do not automatically elevate epistemic standing.
+- [X] Distinguish training poisoning, retrieval pollution, indirect prompt injection and long-term memory pollution.
+- [X] Separate source identity, original content, evidential support, independence and applicability.
+- [X] Explain why verifiable provenance is not truth and missing credentials are not falsehood.
+- [X] Use the training-payment case to distinguish stopping action from alleging fraud.
+- [ ] Test whether polluted content can be fully withdrawn from memory and downstream derivations in a real agent flow.
+- [ ] Record opportunity costs and appeals when content is wrongly blocked.
+- [ ] Test whether high-stakes verification transfers new time and expertise burdens to the person.
+* Counterexamples
+First, requiring multiple independent sources for everything can exclude emergency help, local knowledge and testimony from marginalized people. Evidence requirements should vary with consequence and reversibility.
+
+Second, a shared source does not make content false, while several apparently independent pages may copy one release. Independence is a relation to investigate, not a URL count.
+
+Third, pausing carries opportunity cost. Missing a sound course can also harm a life, so a pause needs a time limit, a smaller alternative step and a reconsideration condition. “Safety” must not defer action forever.
+
+Fourth, deleting memory can erase the history of correction and let a system trust the same claim again. Withdrawal should preserve the minimal reason why a claim is no longer used without retaining its former authority.
+* Provisional Conclusion
+Protecting knowledge is not building an infallible judge. It is preventing silent elevation along a processing chain: a source claim remains a source claim, an AI hypothesis remains an AI hypothesis, and user endorsement and action authority must be obtained separately.
+
+When evidence is insufficient and consequences are high, a system can help a person slow down, preserve original wording, check decisive questions and choose a reversible next step. It should distinguish “not enough to pay” from “enough to establish fraud,” and let correction propagate into memory and later judgment.
+* Questions That Remain
+This account still needs end-to-end cases showing that source standing survives retrieval, reasoning, memory and action and can be withdrawn across them. Review must include attack, safety, journalism, education and ordinary-user perspectives, with special attention to false positives, emergencies, minority languages and small sources. NIST, C2PA and early memory-poisoning work offer terms, mechanisms and boundaries; they do not establish that this repository already has generally effective protection.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.100-after-efficiency-time-and-good-life.org][After efficiency]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable knowledge]]

@@ -1,0 +1,31 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:governance:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.governance.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: governance
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:GOVERNANCE_ID: <GOVERNANCE_ID>
+:LIFECYCLE_ID: <LIFECYCLE_ID>
+:END:
+* 权威
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* 生命周期
+# 在提交前定义治理对象的生命周期。
+* 准入
+# 在提交前定义准入证据与拒绝条件。
+* 变更策略
+# 在提交前定义变更、迁移与废弃策略。
+* 失败处理
+# 在提交前定义失败检测、恢复与回滚责任。
+* 审查与挑战
+# 在提交前定义审查、异议与申诉机制。
+* 导航
+[[file:../README.org][导航]] · [[file:../00-topology/00.00-repository-topology.org][仓库拓扑]]

@@ -1,0 +1,44 @@
+#+TITLE: Financial Planning and Support Boundaries: Market Capability and Regulatory Classification
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-94-EN
+:SEMANTIC_ID: philosophy.source.financial-planning-support-boundaries
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.94-financial-planning-support-boundaries.org
+:SOURCE_ID: source.synthesis.financial-planning-support-boundaries
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Envestnet MoneyGuide; UK Financial Conduct Authority
+:SOURCE_WORK: MoneyGuide planning capabilities; FCA PS25/22 targeted support; FCA automated advice rules and guidance
+:SOURCE_EDITION: web-pages-observed-2026-09-21
+:SOURCE_DATE: 2026
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: MoneyGuide FAQ; FCA PS25/22; FCA automated advice rules and guidance
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.financial-planning-support-boundaries
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.financial-planning-support-boundaries-en
+:END:
+This note combines the [[https://www.moneyguidepro.com/ifa/home/faqs][MoneyGuide FAQ]], [[https://www.fca.org.uk/publications/policy-statements/ps25-22-consumer-pensions-investment-decisions-rules-targeted-support][FCA PS25/22]], and [[https://www.fca.org.uk/firms/innovation/innovation-pathways/automated-advice-rules-guidance][FCA automated advice rules and guidance]] to compare market capability, UK targeted support, and automated financial activities. The automated-advice page was updated on 24 July 2026 and observed on 21 September 2026.
+* Context
+MoneyGuide already offers goal-based planning, What If scenarios, stress tests, sensitivity, and Monte Carlo, so multiple-future simulation is not a Tao3k innovation. FCA targeted support went live on 6 April 2026, allowing authorized firms to give suggestions designed for groups sharing characteristics as a regulated activity distinct from full personalized advice.
+* Interpretation Boundaries
+Product documentation does not prove correctness or alignment with Tao3k. UK categories are not global law. Legal boundaries among education, simulation, support, guidance, recommendation, management, and execution require jurisdiction-specific analysis.
+
+The FCA automated-advice page covers pensions, insurance, mortgages, and debt counselling as well as investments; it is neither formal Handbook guidance nor exhaustive. Avoiding stock recommendations or using a Zhisheng simulation label therefore establishes no general regulatory exemption. Examine the actual activity, not its product name.
+* Influence
+The market comparison locates M4's difference in decision legitimacy rather than scenario features. The regulatory comparison requires product and authority models to distinguish support layers rather than hide them in a disclaimer.
+* Interpretation Chain
+Existing market capability plus UK support and automated-activity boundaries → distinguish support content from actual behavior → [[file:../30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship]] permissions composed by object, action, disclosure, and time, not an automatic autonomy ladder. The philosophical case for reasoned recommendations does not itself determine legal permission.
+* Navigation
+[[file:../README.org][navigation]]

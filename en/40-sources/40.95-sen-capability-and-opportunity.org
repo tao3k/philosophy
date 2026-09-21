@@ -1,0 +1,44 @@
+#+TITLE: Sen: From Resources to Substantive Opportunities
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-95-EN
+:SEMANTIC_ID: philosophy.source.sen-capability-and-opportunity
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.95-sen-capability-and-opportunity.org
+:SOURCE_ID: PHIL-SRC-95
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Amartya Sen
+:SOURCE_WORK: Equality of What?
+:SOURCE_EDITION: Tanner Lecture, Stanford University, 22 May 1979; published text pp. 195-220
+:SOURCE_DATE: 1979
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.sen-capability-and-opportunity
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.sen-capability-and-opportunity-en
+:END:
+Amartya Sen, [[https://tannerlectures.org/lectures/equality-of-what/][Equality of What?]], Stanford Tanner Lecture, 22 May 1979. Reference: sections 4–5, printed pages 218–220 of the [[https://tannerlectures.org/wp-content/uploads/2024/07/sen80.pdf][official published text]].
+* Context
+Sen shifts attention from holdings of goods to what people can actually do: the same resources work differently in different circumstances. This perspective is not a sole guide to all moral questions and does not remove difficulties of comparison and weighting.
+* Interpretation Boundaries
+We borrow this question, not an AI life-planning system. Human substantive opportunities differ from software capability permissions; feasible lives are not thereby obligatory lives.
+* Influence
+Our proposed application asks whether an AI suggestion's required time, accessibility, care and social support actually exist, and whether equal resource accounts conceal unequal conditions of realization. These are modern questions for AI advice, not technical claims attributed to Sen.
+
+A further concern of our own is paternalism: “increasing your capabilities” must not license prescribing your life. Evaluation should preserve participation, refusal and revision of purposes.
+* Interpretation Chain
+The source's shift of question → a modern interpretation of conversion conditions → the opportunity distinction in [[file:../30-reflections/30.96-living-with-ai.org][Facing Life with AI]] → counterexample review in [[file:../30-reflections/30.40-optimization-is-not-human-value.org][value judgment]] and [[file:../30-reflections/30.97-shared-lives-and-responsibility.org][shared life]]. This is intellectual influence, not proof of empirical effectiveness.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and human-centered AI]]

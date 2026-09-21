@@ -1,0 +1,165 @@
+#+TITLE: When a Service Faces an Agent: Which People Still Matter to Design
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:ai-object-shift:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:DOC_ID: PHIL-REF-190-EN
+:SEMANTIC_ID: philosophy.reflection.30.190-when-services-face-agents
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../../cn/30-reflections/ai-object-shift/30.190-when-services-face-agents.org
+:AI_OBJECT_TOPIC: interaction-object-shift
+:INTERACTION_OBJECTS: agent principal affected-human service-worker institution
+:LEGACY_REFERENCE_ROLE: historical-baseline
+:NORMATIVE_STATUS: reflection-only
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.190-when-services-face-agents-en
+:END:
+When airlines, restaurants, shops, calendars and public services receive a direct request not from a person operating
+a screen but from an agent searching, negotiating and acting for someone, whom should a design standard treat as its
+object? Is it enough for the service to be fast and reliable for the agent to call?
+* Argument
+When an agent becomes the direct object, the question is neither how to make an interface easier for machines alone
+nor how to return to a traditional frame containing only the person at a screen. One action must be followed through
+its caller, source of entrustment, affected parties, executing labor and public rules.
+** Traditional Object and Applicability Boundary
+Traditional GUI design usually assumes a person in view: the person sees choices, acts, receives feedback and can
+return after error. Traditional API design assumes a relatively stable software caller whose developers understand
+fields, errors and business relations in advance. Both contain valuable experience. Neither fully addresses a caller
+that interprets natural language, composes tools for the occasion, represents different principals and negotiates with
+another agent.
+
+Inherited standards can still ask whether a control is reachable, information clear and an interface consistent. They
+cannot alone answer who stands behind an agent request, how long authority lasts, whether affected parties appear, how
+machine-made commitments return to people, or whether a service silently changes price and choice for a “machine
+customer.”
+** Object Shift
+The direct interaction object may now be an agent. It reads capability descriptions, compares structured results,
+calls tools, handles errors and continues. A service need not draw a human page for it first; the app made for people
+may appear only during exception, review or dispute.
+
+The direct object is not the whole object. Behind the agent is a principal. Beside that person are companions and
+co-bearers. At the other end are people who answer calls, prepare food, change tickets and handle appeals. Around them
+are market rules and public obligations. A design that optimizes only agent completion makes these people “external
+conditions” even when they are where consequences land.
+
+#+NAME: agent-facing-design-objects-en
+#+EXPLANATION: When an agent is the direct caller, design must still distinguish positions rather than compress them into one abstract user.
+| Position | What it has | What it does not automatically have | What a standard needs to see |
+|----------+-------------+-------------------------------------+------------------------------|
+| Agent | Request interpretation, capability calls and process state | All of the principal's rights and value judgments | Identity, task scope, authority evidence, state and failure |
+| Principal | Purpose and power to give or withdraw some entrustment | Standing to decide for every affected party | Actual intent, boundaries, understanding and reachable appeal |
+| Affected person | A voice over their time, property, body and relations | A default seat in the initiator's interface | When consent is needed, how notice and refusal work |
+| Service worker | Situated knowledge, execution and correction | An unlimited duty to absorb agent error | Work transfer, identity disclosure, escalation and remedy |
+| Institution and public rule | Maintenance of exchange, equality, safety and dispute | Power to equate compliance with legitimacy | Auditable rules, differential treatment, responsibility and redress |
+** Judgment
+The present judgment is that a service may treat an agent as its direct interaction object, but not as its only design
+subject. A new standard should constrain both machine-understandable capability boundaries and consequences people can
+bear. It need not imitate GUI for an agent. It must make authority, cost, side effects, reversibility, partial completion
+and completion evidence correctly usable by the agent and translatable back to relevant people.
+
+The center is therefore neither “is the page easy to use?” nor “is the protocol easy to call?” It is how a chain of
+action preserves meaning and responsibility: who states which purpose, under whose identity and authority the agent
+acts, what the service changes, who is affected and how failure returns to someone able to address it.
+
+** What an agent-facing standard needs
+
+First, capability needs clear boundaries. A service states prerequisites, cost, changed state, reversal period and the
+possibility of partial completion rather than offering only a success entrance.
+
+Second, authority cannot be inferred from ability. Knowing how to buy a ticket does not authorize payment. Access to a
+family calendar does not authorize rescheduling every member. A service needs to identify whom an agent represents,
+the scope of this entrustment and rights another party must supply.
+
+Third, results must return to people. A machine-readable receipt can be detailed. The human account need not repeat
+every call, but it does state cost, commitment, effect, unfinished work and next step. If only an agent can interpret
+the log, the person loses a place in dispute.
+
+Fourth, an agent honestly identifies itself. When it calls for a reservation or negotiates, the other side should know
+that it is interacting with an agent, whom the agent represents and how to reach an authorized person. Convenience
+must not depend on impersonation.
+
+Fifth, a service should neither add endless obstacles because a machine does not tire nor use the data behind an agent
+for invisible differential price, ranking or persuasion. Human departure from the page does not end market power.
+
+Sixth, a standard accommodates stopping and the undecided. Two agents finding a feasible result quickly does not mean
+the relevant people made a commitment. Machine coordination needs draft, hold and awaiting-consent states.
+** Argument and Debate Scenarios
+The following scenes test the judgment that an agent may be the direct object without becoming the only subject. They
+also show why the same technical shape needs different standards in different living relations.
+
+#+NAME: services-facing-agents-debate-en
+#+EXPLANATION: The scenes place machine efficiency beside rights, labor and redress that land on people.
+| Scenario | Reason supporting the judgment | Opposing reason | Evidence that would change the judgment |
+|----------+--------------------------------+-----------------+-----------------------------------------|
+| Airline interface faces a travel agent | People no longer repeat search and forms; rules become machine-readable | Airlines may rank by agent profile while hiding companions and change risk | Verifiable complete price and rules, companion agreement, portable receipt and a human dispute route |
+| Restaurant receives an AI call | Booking crosses language and time barriers and avoids waiting | Staff must identify the agent, verify needs and absorb mistakes | The agent identifies itself, limits disclosure and gives both sides one consistent record with a responsible error path |
+| Two calendar agents negotiate | They find overlap among many constraints quickly | They may treat care, travel and power asymmetry as ordinary preferences | Affected people state non-tradeable conditions and drafts do not become commitments automatically |
+| Shopping agent bargains with merchant agent | It can compare actual total cost continuously and enforce a budget | Platforms may infer ability to pay, personalize price and hide alternatives | Ranking and price difference are challengeable, interests visible and exit unpunished |
+| Agent applies for public service | It may help with language, cognition or mobility barriers | A mistaken agent can widen exclusion and automated rejection can resist appeal | Reasons return to the applicant, human redress is reachable and agent use creates no unequal treatment |
+
+An opposing view says that once a principal chooses an agent, the service need only verify credentials and execute
+correctly. This may hold for low-risk private read-only queries. Once an action affects shared property, another
+person's time, eligibility or public opportunity, “recognize only the caller” pushes social consequence outside the
+protocol. Standards should converge by consequence rather than placing the same weight on every request.
+** Principle and Governance Boundary
+This remains a Reflection. It proposes a judgment and candidate contents for standards concerned with multiple objects;
+it does not write them directly into a Charter Principle. A rule requiring agent identity disclosure or specifying
+whose consent is required needs a separately authored Principle with scope, conflicting rights, exceptions and failure
+modes.
+
+Governance owns a different question: who may change a standard, which evidence admits or revises it, how conflicts of
+interest are disclosed, and how appeal and incidents enter its lifecycle. Discussion of “standards” here must not mix
+content judgment with governance authority.
+
+** Tests taking shape [3/8] [37%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish direct caller, principal, affected person, service worker and public rule.
+- [X] Distinguish machine-readable capability from a human account of consequences.
+- [X] Put supporting and opposing reasons into the same agent scenes.
+- [ ] Test whether agent identification remains intelligible without disclosing irrelevant personal data.
+- [ ] Test whether partial completion, retries and remedy return to one entrustment.
+- [ ] Observe whether agent entrances create new price, ranking and service differences.
+- [ ] Record work transferred to the other end together with service workers.
+- [ ] Test whether people without capable agents lose fair access.
+* Counterexamples
+First, stable machine-to-machine interaction has long worked without people understanding every technical step. A
+standard that translates the whole process on every occasion defeats automation. Material effects and exceptions need
+to appear, not protocol noise.
+
+Second, requiring an agent to reveal its principal too broadly may violate privacy and endanger anonymous help,
+sensitive inquiry or people under coercion. Identity should be proportionate to required authority; universal real-name
+disclosure is not an answer.
+
+Third, a service cannot know every relation its caller omitted. A standard must not pretend technical systems can
+exhaust affected parties. It can require stopping, asking or limiting action around known effects and reasonably
+discoverable relations.
+
+Fourth, extra constraints on agents can protect incumbents and exclude small or open agents. Safety and responsibility
+requirements that cannot be publicly verified or are too costly may concentrate the new entrance in a few companies.
+* Provisional Conclusion
+When a service faces an agent directly, the traditional “user” splits into several positions. The agent is a real
+interaction object but not the final source of value and right. The principal supplies purpose but does not own every
+affected person. A new standard must follow the action chain to see both how machines understand capabilities and how
+consequences return to people, labor and institutions.
+
+This is design after an object shift, not automation layered on an old app. It permits services without GUI while
+requiring that understandable commitments, proportionate authority, challengeable differences, explicit failure and
+reachable redress still exist after GUI.
+* Questions That Remain
+Questions remain about how several agents prove they have not duplicated a commitment, how stolen agent identity is
+handled, how public services accept agent help without discriminating against people who lack it, and who keeps the
+minimal sufficient record when model provider, service platform and payment party all participate.
+
+A deeper question is whether people can still understand markets, public rules and possible paths when services
+increasingly optimize for agents rather than people; whether service workers can refuse or limit machine calls; and
+whether the next generation sees only the world selected by a personal agent. The topic must continue to change from
+these places that “call success rate” cannot represent.
+* Navigation
+[[file:../../README.org][language index]] · [[file:30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] · [[file:30.200-human-agent-design-triad.org][Human, agent and design]] · [[file:../30.60-action-requires-authority.org][Action requires authority]] · [[file:../30.97-shared-lives-and-responsibility.org][Shared lives and responsibility]] · [[file:../../40-sources/40.180-ui-intent-and-computer-use.org][intent and computer-use sources]]

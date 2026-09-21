@@ -1,0 +1,262 @@
+#+TITLE: What Must Remain Visible Beyond GUI: User Space When AI Operates Software
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:ai-object-shift:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:DOC_ID: PHIL-REF-180-EN
+:SEMANTIC_ID: philosophy.reflection.30.180-beyond-gui-user-space
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../../cn/30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org
+:AI_OBJECT_TOPIC: interaction-object-shift
+:INTERACTION_OBJECTS: human human-with-ai agent affected-human
+:LEGACY_REFERENCE_ROLE: historical-baseline
+:NORMATIVE_STATUS: reflection-only
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.180-beyond-gui-user-space-en
+:END:
+When one natural-language request can make AI search flights, coordinate a calendar, call for a restaurant reservation
+and complete work across applications, must a person still learn and operate every app page by page? When a model
+absorbs the old operating process, what should interaction remove from view, and what must it leave with the person?
+* Argument
+The change brought by large models is not a chat box added to an existing interface. A person's purpose once had to be
+translated into menus, fields, filters and a sequence of clicks. The person first learned which app to open, then how
+that app classified the world, and finally expressed life in its prescribed order. Now an ordinary sentence can state
+the purpose first, while a model crosses those operating layers. Interaction begins to move from people adapting to
+software toward software understanding an entrustment.
+
+Apps may therefore retreat sharply as people's primary operating entrance. Airlines, restaurants, calendars, payment
+services and maps do not vanish. They may become services and fulfillment capabilities used by a model. What can
+vanish is the burden of repeatedly searching, switching, filling forms, reconciling formats and learning every
+software convention to complete an ordinary matter. This interaction cannot be imagined only by adding to or
+subtracting from traditional GUI.
+
+Yet “done in one sentence” must not mean “say one thing and never see the rest.” A sentence often expresses a wish
+without exhausting budget, companions, timing flexibility, refund risk and unacceptable conditions. A model can help
+complete context, but it must not quietly turn guesses into decisions. The central question is no longer who clicks
+each step, but which difficulties the model may carry and which forks still belong to a person's life.
+
+** Traditional Object and Applicability Boundary
+
+Traditional interface standards mainly address an object in which a person directly operates an interface and
+software responds. Their experience of clarity, consistency, recovery, progressive disclosure and accessibility
+remains important but serves as a historical baseline. It can constrain interfaces people still operate directly; it
+does not by itself answer who authorizes a model acting across systems, who is affected or what proves completion.
+
+Apple or W3C guidance has not become false. Its object is bounded. Extending it without judgment into agentic AI
+mistakes “how to make a control usable” for “why may the model act.” It also keeps looking only at the person before a
+screen and misses other people affected by messages, calls, calendar changes and shared money.
+
+** Object Shift
+
+The object has shifted from a person alone to an acting relation formed by a person and AI. At some service entrances,
+the direct object is even an agent, while the person appears at purpose, boundaries and material forks. There are also
+people who did not initiate the task but bear its effects. Design no longer faces one “user” alone; it faces capabilities,
+entrustment, affected parties and actions that can change the world.
+
+The move from app-first to purpose-first is the most immediate expression of this change.
+
+Old software presents its own structure first: flights, hotels, orders and membership. People divide life and feed
+each part into these entrances. Purpose-first interaction can begin with, “I want to visit my mother next week, return
+Sunday evening and not make the trip exhausting.” The system then relates transport, lodging, work calendar and
+family commitments instead of asking which of four apps should open first.
+
+#+NAME: beyond-gui-interaction-shift-en
+#+EXPLANATION: The change is not fewer pages alone; it rearranges a person's words, software capabilities and the location of decisions.
+| Old starting point | New possible starting point | What the model may carry | Space that remains with the person |
+|--------------------+-----------------------------+--------------------------+------------------------------------|
+| Find an app and feature first | State the matter taking place in life | Find services, translate formats and coordinate systems | Restate the purpose without adopting platform categories |
+| Fill each filter | Describe preferences and concerns in ordinary language | Complete candidate conditions from context and ask about critical gaps | Leave some preferences unfixed or change them for this occasion |
+| Compare across pages | Gather a few genuinely comparable options | Deduplicate, calculate time and cost, mark conflicts | Choose the criteria, choose nothing or decide later |
+| Click every step | Complete a sequence of low-risk operations | Search, query, hold, fill and synchronize | Confirm, revise, stop or take over before serious effects |
+| Find results across orders and notices | Explain progress around one entrustment | Track fulfillment, detect failure and organize evidence | Understand what happened and be able to question or reverse it |
+
+This is not every service folded into a super-app. If the new entrance still asks people to learn one total menu and
+search infinite functions, it magnifies the old structure. Real change lets a concrete purpose appear first, composes
+capabilities behind it as needed and lets the relationship converge when the work is done rather than enlarging one
+booking into permanent life management.
+
+** Judgment
+
+The present judgment is that a model may become the direct operating object of a service, but it must not become the
+sole interpreter and authorizer of consequences in life. Traditional GUI may cease to be a person's daily entrance.
+Human space must move from completing every step to deciding purpose, understanding material forks, revising an
+entrustment and returning when needed.
+
+Room therefore moves from visual blankness into life.
+
+As operating interfaces diminish, room is no longer mainly what is absent from a screen. It first means that a person
+need not spend attention on software's internal organization, complete a permanent personality profile to receive
+help, turn every vague wish into an executable goal at once, or accept the life order a model infers merely because it
+has found an answer.
+
+Natural language is not automatically humane. A model can follow one sentence with endless questions and turn
+conversation into a longer form. It can narrow a new wish too early through old preference, cover uncertainty with
+fluent language, or continually expand authority in the name of convenience. Room is therefore not decided by the
+presence of GUI. It is decided by whether a person can remain ambiguous, pause, change their mind, choose nothing and
+ask a question software did not prepare.
+
+** Hide the operating machinery, not how life will change
+
+A person need not watch every button a model clicks or understand reservation systems, airline interfaces and calendar
+protocols. Spreading the whole process back before the person recreates the burden. What should appear are differences
+in life: total cost, departure time, recipients of messages, arrangements that change, refundability, where the model
+is guessing and who handles failure.
+
+#+NAME: beyond-gui-visibility-en
+#+EXPLANATION: New interaction can absorb meaningless operating burden while keeping changes to life, property and relationships understandable.
+| Complexity that can be quietly absorbed | What should become visible at the right time | Why |
+|------------------------------------------+----------------------------------------------+-----|
+| Page navigation, field mapping and authenticated lookup | The purpose underway and its decisive conditions | Prevent formally correct work that is wrong in life |
+| Multi-platform search, format conversion and deduplication | Price, time, main tradeoffs and reasons options were excluded | A person needs to understand what is being chosen |
+| Reversible holds, drafts and read-only queries | Who is affected and whose agreement is missing | One person's convenience cannot decide for shared life |
+| Underlying tool calls and ordinary retries | Payment, sending, cancellation or publication about to occur | Material external effects need fitting authority |
+| Internal log detail | Completion evidence, failure point, remedy and reversal | “Done” must remain verifiable and answerable |
+
+“Visible” need not always mean a traditional screen. It may be a concise restatement, spoken confirmation, portable
+itinerary, haptic notice, durable receipt or record expanded only when needed. Accessibility and setting call for
+different forms. What matters is not defending GUI but defending a person's understanding of what will happen.
+
+** Intent inference is not authorization
+
+Work such as UI-JEPA shows that a model can infer likely intent from a sequence of interface actions. Models such as
+Muse Spark show that scripts, tools, clicks and cross-application action can be chosen by the model. The [[file:../../40-sources/40.180-ui-intent-and-computer-use.org][source note]]
+records these capabilities and boundaries. They make interaction more natural while introducing a distinction that
+must hold: understanding that someone probably wants to visit Shanghai does not authorize purchasing a particular
+ticket; remembering a past preference for a window seat does not override a companion's need this time.
+
+Understanding is a judgment about meaning. Authorization is an entrustment concerning effects. The two may approach
+each other through durable, explicit and revocable arrangements, but better guessing does not make them identical.
+
+** Interaction should vary with consequence, not ask everywhere
+
+If every step requests confirmation, a person moves from clicking through an app to clicking “approve.” If nothing
+asks, convenience can become loss of control. New interaction has to converge differently for different effects.
+
+#+NAME: beyond-gui-action-boundaries-en
+#+EXPLANATION: Interaction density should follow consequence, reversibility, affected people and existing entrustment, not model capability alone.
+| Action setting | How it may proceed | Boundary to preserve |
+|----------------+--------------------+----------------------|
+| Read-only query, weather or public opening hours | Complete directly and give a brief answer | Source and time remain available on request |
+| Search flights, check availability or coordinate a personal calendar draft | Continue within stated scope | Return conflicts, assumptions and a few candidates |
+| Reversible reservation or a repeated matter already entrusted | Act under the arrangement and report promptly | Easy cancellation; ask again on exceptional conditions |
+| Payment, ticket purchase or external message | State exact object, amount, content and way back | Confirm this instance, or use visible revocable preauthorization |
+| Effects on relatives, colleagues or shared money | Identify each party's rights and missing agreement first | One initiator's sentence cannot replace other voices |
+| Irreversible or high-consequence action | Stop before the decision and explain alternatives and risk | The appropriate person decides and evidence remains |
+
+This is not an eternal risk table. A restaurant reservation may be easy to cancel for an ordinary gathering and
+consequential for a wedding or allergy accommodation. Moving one calendar event may place extra labor on a caregiver.
+The model must understand context, and the product must let people change default boundaries rather than making
+intelligence an excuse for overreach.
+
+** Argument and Debate Scenarios
+
+The topic cannot merely list a set of design requirements. Its judgment must face support and opposition in concrete
+change. These scenes deliberately retain dispute: the same automation may release attention while hiding price,
+transferring labor or crossing another person's boundary.
+
+#+NAME: ai-object-shift-debate-scenes-en
+#+EXPLANATION: Each scene records support and opposition together with lived evidence that would force revision of the present judgment.
+| Scenario | Reason for direct agent action | Opposing reason | Evidence that would change the judgment |
+|----------+--------------------------------+-----------------+-----------------------------------------|
+| One-sentence flight booking | Search, comparison, forms and cross-app coordination stop occupying the person | Hidden ranking, change terms and companion conditions create invisible decisions | People understand the decisive tradeoffs, exceptions stop, results are reversible and cross-person consent holds |
+| AI calls for a restaurant table | Avoids waiting and repetition, and may help with language or hearing barriers | The receiver carries verification, private facts may be overshared and identity confused | Both sides can identify the agent, bound disclosure and receive one consistent record |
+| Agent adjusts a calendar | Finds feasible time among many constraints quickly | One person's efficiency may transfer care and waiting to others | Every affected party's authority and burden enters the judgment, not only the initiator's optimization |
+| Agent transacts with agent | Reduces human formatting and operating cost | Models may form commitments, discriminate in price or mislead each other without human understanding | Commitments return to authorized people, rules are auditable and disputes have a reachable human exit |
+
+*** What one-sentence flight booking actually means
+
+“Book a flight to Chengdu next week” can begin searching, checking the calendar, using preferences already permitted
+and finding a few candidates. If date, budget or companions remain unclear, the model asks only questions that change
+the outcome instead of rebuilding the old form in conversation. Before payment it states flight, time, total price,
+baggage, change terms and companion status. Afterward it gives portable evidence and continues the already agreed work
+needed for delay, failure or cancellation.
+
+Real convenience is neither dozens of app steps compressed into an invisible gamble nor every page replaced by a
+dialogue turn. The model carries the labor of finding and coordinating, while the person returns only where life truly
+forks.
+
+Calling for a table works similarly. A person may state time, party size and important needs while the model handles
+busy lines, accents, repeated confirmation and calendar entry. It must not disclose allergy, birthday or relationship
+information from an old record without cause, or replace no availability with an arrangement that embarrasses the
+party. Natural language makes entrustment resemble human speech and therefore demands respect for what speech leaves
+unsaid.
+
+*** From one transaction to an understandable entrustment
+
+Traditional apps often define completion as a page becoming “successful.” An agentic task may span hours or days:
+waiting for a call back, watching fares, coordinating others and handling a schedule change. A person should not guard
+the process, but neither should they discover at the end that the system made a chain of decisions for them.
+
+A fitting relationship resembles an entrustment. State purpose and boundaries at the beginning; return during work
+only for a real fork, risk or failure; explain what was done, what failed and what responsibility remains at the end.
+Long-lived entrustment must also be inspectable, revisable and withdrawable. One old sentence must not extend forever.
+
+** Principle and Governance Boundary
+
+This document offers a Reflection judgment still exposed to contradiction by scenarios. It does not thereby become a
+normative Principle. A future claim such as “material effects require decision by the appropriate person” must be
+written separately in the Charter with scope, counterargument, failure modes and sources; Governance then decides
+admission and revision. The topic contract only prevents reflection from skipping object shift, judgment and debate.
+It neither supplies principle content nor replaces governance procedure.
+
+*** Tests taking shape [3/8] [37%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish the model's execution entrance from the person's understanding and authority entrance.
+- [X] Distinguish intent inference from authorization to act.
+- [X] Test “done in one sentence” through booking, reservation and calendar coordination.
+- [ ] Test multiple forms of visibility with people who do not use visual GUI.
+- [ ] Let people inspect, revise and withdraw lasting entrustment without learning underlying services.
+- [ ] Check that questions target outcome-changing gaps instead of turning dialogue into a long form.
+- [ ] Verify that low-risk completion and high-consequence stopping avoid both confirmation fatigue and silent overreach.
+- [ ] State cross-application failure, partial completion and remedy in one coherent receipt.
+* Counterexamples
+First, natural language is not always fastest. Professionals may need dense tables, maps, timelines and direct
+manipulation. Some choices require several relations to remain visible at once, while pure dialogue makes comparison
+difficult. A new architecture should bring forth fitting visual and manipulable forms rather than making chat the only
+entrance.
+
+Second, a model can mishear, misremember or follow hostile instructions embedded in a page. The more systems it can
+cross, the farther one error travels. One-sentence completion enlarges invisible risk unless authority, source and
+affected objects have clear boundaries.
+
+Third, constant confirmation trains mechanical approval and formally hands responsibility back to the user. Full
+automation can overreach. Risk tiers that miss lived context can also treat a low-price but emotionally serious matter
+as trivial.
+
+Fourth, not everyone wants to disclose context in natural language, and models do not understand every language,
+accent and expressive habit equally. Direct operation, human service and accessible alternatives must remain.
+
+Fifth, service providers may change price, ranking and visibility for agent entrances. Comparison by a model does not
+automatically make markets fair. A platform's commercial preference may become advice a person mistakes for neutral.
+* Provisional Conclusion
+The interaction change brought by AI does not merely make traditional apps thinner. It can remove the app from its
+necessary position between a person and a purpose in life. A model can take up search, switching, forms, waiting and
+coordination so ordinary speech connects directly to complex capabilities. Often, the person truly need not open an
+app.
+
+The departure of the operating interface must not take the person's living space with it. New room means not learning
+the machine's internal structure or continually watching it. New convergence means returning only the forks that
+genuinely belong to the person. We need not preserve every click. We do need places where purpose can be restated,
+material effects understood, companions speak, entrustment withdrawn and failure questioned.
+
+Good future interaction neither trains people to become more proficient users of AI nor lets AI arrange everything
+out of sight. It moves complex operation farther from the person while keeping the decisions that matter in life near.
+* Questions That Remain
+We still need to hear blind people, people who cannot or prefer not to speak, people with changing cognition, people in
+places with sparse digital services, professionals who depend on dense interfaces, service workers and those receiving
+agent-made calls. Automation convenient to one person may transfer verification, waiting and emotional labor to the
+other end.
+
+We do not yet know how lasting entrustment can learn context without sealing identity; how a model negotiates for a
+person without impersonating them; how human commitments remain real when several agents book, reschedule and bargain;
+how natural-language entrances avoid becoming a new platform monopoly; or how ordinary people discover public rules,
+price differences and appeal paths after traditional apps recede.
+* Navigation
+[[file:../../README.org][language index]] · [[file:30.190-when-services-face-agents.org][When services face agents]] · [[file:30.200-human-agent-design-triad.org][Human, agent and design]] · [[file:../30.170-when-less-use-is-good.org][room and convergence]] · [[file:../30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:../../40-sources/40.180-ui-intent-and-computer-use.org][intent and computer-use sources]]

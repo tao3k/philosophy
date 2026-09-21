@@ -1,0 +1,28 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+# 在提交前写明需要回答的问题；空章节不会通过合约。
+* 论证
+# 在提交前写明当前论证。
+* 反例
+# 在提交前写明反例或可证伪条件。
+* 暂定结论
+# 在提交前写明暂定结论及其不确定性。
+* 仍需面对的问题
+# 在提交前写明尚未听见的声音、未解决的反例与仍需经历的现实检验。
+* 导航
+[[file:../README.org][语言入口]]

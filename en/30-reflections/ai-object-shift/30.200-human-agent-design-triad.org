@@ -1,0 +1,174 @@
+#+TITLE: Human, Agent, and Design: A Triadic Relation Beyond the Old Interface
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:ai-object-shift:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:DOC_ID: PHIL-REF-200-EN
+:SEMANTIC_ID: philosophy.reflection.30.200-human-agent-design-triad
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../../cn/30-reflections/ai-object-shift/30.200-human-agent-design-triad.org
+:AI_OBJECT_TOPIC: interaction-object-shift
+:INTERACTION_OBJECTS: human human-with-ai agent shared-artifact affected-human
+:LEGACY_REFERENCE_ROLE: historical-baseline
+:NORMATIVE_STATUS: reflection-only
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.200-human-agent-design-triad-en
+:END:
+When one sentence can book a ticket while coding and design still need canvases, files, diffs and running results, how
+can we leave both narrow visions behind: that every interface will disappear, and that AI is merely another feature
+inside an interface? How should human, agent and design form a new relation, and where should interaction offer less or
+more?
+* Argument
+Interface and natural language are not two product forms competing to become the only entrance. Together with agent
+action, they carry different needs as a matter is expressed, performed, perceived and changed in common. The question
+is how they compose, not which one is declared the replacement in advance.
+** Traditional Object and Applicability Boundary
+Traditional apps treat interface as a capability catalog. Buttons, menus, windows and pages both tell people what the
+system can do and prescribe the steps. The main design object is the directly operating human; good design makes
+function discoverable, action learnable and state responsive.
+
+This experience does not expire with AI. Human vision perceives position, structure, proportion and difference in
+parallel. A stable canvas can become something several people point to, discuss and change together. The traditional
+limit is binding “a person must see this” to “a person must operate every step,” while treating software's prior feature
+division as the natural starting point.
+** Object Shift
+Purpose can now appear first in natural language, and an agent translates it into search, tool calls and action across
+services. In many errands a person need not browse capability catalogs. State origin, time, budget and what matters;
+the agent can search, compare, contact support and reserve.
+
+Other activities are not execution of an already known purpose. Writing, programming, drawing, architecture and
+research form their questions through action. People need to see several objects at once, change one directly and
+observe how the whole responds. Visualization here is not packaging around an operating burden; it is where thought
+and creation happen. Codex-like work is not a dialogue alone: files, code, diffs, terminals, tests and review let person
+and agent think around the same changing work.
+
+The object does not simply change from human to agent. A triadic relation forms. The person brings purpose, experience,
+judgment and aesthetic sense. The agent interprets context, unfolds possibilities, coordinates capabilities and acts.
+Design organizes a space in which both can see, change and correct together. “Design” is not a third personality but
+the form that makes this relation possible.
+** Judgment
+The present judgment is that future interaction is neither GUI-first nor chat-only. It moves among language, agent
+action and visible shared objects according to cognitive and practical need. Natural language is often the fastest
+entrance for purpose. An agent often carries cross-system execution with least effort. Visualization is often fastest
+for comparing complex relations, shaping directly, reviewing together and retaining long context.
+
+“What should be less” cannot be decided by minimalist taste alone; remove operating burden unrelated to the person's
+purpose. “What should be more” cannot be decided by feature accumulation; fully show what helps people form judgment,
+notice difference, feel a work, understand consequence and work with others. Room and richness are not enemies. Room
+keeps the irrelevant from occupying life. Richness keeps what deserves attention from being flattened.
+
+#+NAME: human-agent-design-roles-en
+#+EXPLANATION: The three do not have fixed jobs; they recombine according to how a task forms purpose, changes reality and receives judgment.
+| Position in the relation | Better suited to carry | Must not be forced to carry | What it needs from the other two |
+|--------------------------+------------------------+-----------------------------+----------------------------------|
+| Human | Form and revise purposes; feel tradeoffs; make aesthetic and ethical judgments | Remember every entrance, repeat forms and monitor all execution detail | Agent carries tedium; design makes decisive relations visible and changeable |
+| Agent | Interpret speech, search, translate, coordinate, propose candidates and fulfill entrustment | Pretend to exhaust human purpose or monopolize interpretation and authority | Person supplies revocable direction; design supplies clear state and shared objects |
+| Design | Organize attention, juxtapose difference, form manipulable common things, connect action to effect | Fix every path or use visual polish to hide power | Human experience corrects form; agent capability enters when needed without occupying all |
+
+** What becomes less and what becomes more
+
+What may diminish is navigation that exists for software's internal structure: switching apps, repeated sign-in, feature
+hunting, entering the same facts in different forms, waiting on support and tracking scattered notices. An agent can
+handle these quietly and return only on exception or a genuine fork.
+
+What should remain or become fuller are relations people grasp faster through perception and experience: distance on
+a map, conflict on a timeline, exact change in a code diff, proportion on a canvas, the character of alternatives seen
+together, linkage between budget and schedule, and the trace of several people's edits. An agent may generate and
+explain these visible objects but should not compress them all into linear text.
+
+#+NAME: interaction-form-by-work-en
+#+EXPLANATION: Form follows the work; “fastest” means different media handing off across cognitive acts, not one medium always winning.
+| Kind of work | Value of natural language | Value of agent action | Value of visible and direct manipulation |
+|--------------+---------------------------+-----------------------+------------------------------------------|
+| Clear-purpose errand such as booking | State constraints and concerns quickly | Search, compare, communicate, fill and prepare payment | Show a few candidates and effects at a decisive tradeoff or exception |
+| Calendar and multi-person coordination | State relations, priorities and non-tradeable commitments | Find overlap, contact, wait for replies and maintain a draft | Timeline shows conflict, open time and who carries a change together |
+| Coding | Describe problem, intent and acceptance | Search code, edit, run tests and explain failure | Files, diff, terminal and review form an inspectable work |
+| Visual design | Describe mood, purpose, references and unformed ideas | Generate variants, arrange material and perform repeated edits | Canvas, proportion, color and space require juxtaposition and direct shaping |
+| Long reflection on life | Tell stories, hesitation and value conflict | Organize clues, find real entrances and remember agreed relations | Show paths and comparison only when they aid understanding; do not turn life into a dashboard |
+
+** A new interaction rhythm
+
+New design should not begin by choosing either a chat interface or a visual workbench. It watches how the matter
+unfolds. A sentence may begin; the agent acts quietly; a real comparative fork produces a temporary visible object;
+the person edits or annotates it directly; the agent continues with that change; the end leaves only a portable work,
+decision and receipt. Interface may appear for the matter and fold away when it ends.
+
+This rhythm follows work more closely than a permanent app. It neither keeps every capability visible nor hides every
+process forever. Design brings forth the fitting form at the fitting time and converges when the form no longer helps.
+** Argument and Debate Scenarios
+The two camps need concrete work, or both “natural language can do everything” and “visualization is always fastest”
+become slogans. Visualization is often fastest for parallel relations and common work, language for purpose and
+exception, and agents for repeated execution. Each kind of speed has places where it does not fit.
+
+#+NAME: triadic-interaction-debate-en
+#+EXPLANATION: The scenes presume no winning camp; they test how the three reduce burden while preserving thought.
+| Scenario | Reason supporting the judgment | Opposing reason | Evidence that would change the judgment |
+|----------+--------------------------------+-----------------+-----------------------------------------|
+| One-sentence flight purchase | The purpose is clear and the agent can absorb most operation | Total invisibility hides time, price and change tradeoffs | Most ordinary trips need no app browsing, while one decisive comparison lets people understand exceptions |
+| Coding with Codex | Dialogue directs, agent acts, and diffs and tests make the work inspectable | Expert developers sometimes edit faster and dialogue can break flow | People move freely among code, results and dialogue, with errors found earlier |
+| AI-assisted visual design | Agent produces alternatives quickly; canvas supports feeling and shaping | Too many candidates crowd out aesthetic formation and model styles converge | People leave their own trace, reduce candidates and reshape structure rather than choose finished outputs |
+| Family calendar | Language expresses relations, agent coordinates and a visual timeline reveals burden | A timeline may flatten emotional commitments into colored blocks | Participants can both tell reasons and see temporal effects together before changing the arrangement |
+| Accessibility | Speech and agents can bypass unusable GUI | “Visualization is fastest” excludes people who cannot see or do not primarily use vision | The same shared object is equivalently available through visual, speech, touch and structured control |
+
+If pure dialogue eventually provides stable parallel perception, precise manipulation and shared reference in creative
+and complex judgment without extra memory burden, this account should change. Conversely, a visual workbench that
+keeps people managing tools without improving understanding should not survive merely because it looks professional.
+** Principle and Governance Boundary
+This document proposes only the Reflection judgment that interaction forms should compose around cognitive and
+practical need. It prescribes neither an amount of visualization for every product nor a Charter Principle called “the
+triad.” A future principle needs a separate scope, accessibility obligations, counterexamples and failure modes.
+
+Governance decides who may revise standards with which evidence from life and work, how visual designers or model
+providers are prevented from monopolizing definition, and how commercial pressure to make interaction needlessly
+larger or smaller is handled. Content judgment and admission governance remain separate.
+
+** Tests taking shape [3/8] [37%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish expression of purpose, agent execution and visible thinking.
+- [X] Test the relation through booking, code, design, calendar and accessibility scenes.
+- [X] Distinguish reduced operating burden from reduced meaningful content.
+- [ ] Observe whether interface appears for a matter and converges after completion rather than becoming permanent.
+- [ ] Define alternatives to “visualization” with people using different sensory and cognitive paths.
+- [ ] Test whether agent-generated candidates enlarge understanding rather than merely choice count.
+- [ ] Test whether a shared work lets person and agent point to the same state and correct one another.
+- [ ] Record how commercial metrics induce interaction to become needlessly larger or smaller.
+* Counterexamples
+First, “visualization is always fastest” is too absolute. Vision overloads and excludes blind people; linear language
+can be more natural for story, motive and ambiguity. What remains is a shared object that can be perceived and directly
+manipulated in several ways, not visual supremacy.
+
+Second, natural language alone can be lighter than generating a temporary interface. Drawing a complex panel for one
+simple confirmation rebuilds the old app.
+
+Third, the triadic relation can become an excuse to make every product more complex. If an action is clearly authorized,
+reversible and has no material fork, quiet agent completion and a short receipt are enough.
+
+Fourth, a person may want direct immersion in a tool without agent intervention. The new system must let people bypass
+the agent; otherwise “collaboration” becomes another mandatory intermediary.
+* Provisional Conclusion
+AI does not simply end interface. It ends the premise that every capability must first become a page operated by a
+person. Clear-purpose errands such as booking can be carried mainly through language and agents. Code, design and
+complex collaboration still need a work space that can be perceived, changed and jointly referenced.
+
+The relation among human, agent and design organizes interaction around how a matter is understood, completed and
+reconsidered rather than around an app. What should diminish is obedience to software structure. What should grow is
+perception of real relations, differences in the work and consequences in life. A fitting aesthetic is neither always
+empty nor always dense: let what matters appear fully and let what does not matter converge naturally.
+* Questions That Remain
+Games, music, architecture, medical imaging, data analysis, repair and care still need to test this account. Which
+shared objects cannot be replaced by language? Which visual conventions are merely occupational habit? Will generated
+interfaces create instability and learning difficulty? How can temporary interfaces retain accessibility, consistency
+and trustworthy state?
+
+Aesthetic power also remains: who decides what deserves fuller view, who names their own minimal style “room,” and who
+names density “professional”? If an agent generates a different interface for everyone, will people retain public
+forms they can discuss and contest together?
+* Navigation
+[[file:../../README.org][language index]] · [[file:30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] · [[file:30.190-when-services-face-agents.org][When services face agents]] · [[file:../30.160-beauty-in-everyday-life.org][Beauty in everyday life]] · [[file:../30.170-when-less-use-is-good.org][room and convergence]]

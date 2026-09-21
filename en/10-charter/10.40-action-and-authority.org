@@ -1,0 +1,66 @@
+#+TITLE: Action and Authority Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-40
+:SEMANTIC_ID: philosophy.charter.action-authority
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.40-action-and-authority.org
+:PRINCIPLE_SET: PHIL-AUTH-001
+:END:
+
+* Principles
+
+** Executable does not mean authorized
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-AUTH-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-005
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-action-and-authority-en
+:END:
+
+Proposal, decision, authority, execution, and outcome remain distinguishable, auditable, and independently rejectable. Tool availability or invocation success does not create authority.
+
+* Rationale
+
+Real action changes resources, rights, and risk; explicit authority scope is the contract boundary connecting reasoning to external effects.
+
+[[file:../40-sources/40.50-agent-systems-state-authority.org][source note]] · [[file:../30-reflections/30.60-action-requires-authority.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Pre-authorized policy, capability tokens, and emergency stops can authorize action without a human click each time.
+
+* Engineering Consequences
+
+Execution entry points verify subject, resource, action, time, and environment; emit distinct execution and outcome receipts; support revocation or compensation.
+
+* Failure Modes
+
+A proposal executes directly; expired authority remains reusable; a return code is treated as the business outcome.
+
+* Open Questions
+
+How should distributed delegation compose? How are cross-organizational authority conflicts resolved?
+
+* Traceability
+
+| Principle | Engineering direction | Downstream owner | Status |
+|---+---+---+---|
+| PHIL-AUTH-001 | [[file:../40-sources/40.50-agent-systems-state-authority.org][source note]]; [[file:../30-reflections/30.60-action-requires-authority.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

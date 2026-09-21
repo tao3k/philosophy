@@ -1,0 +1,44 @@
+#+TITLE: Performative Prediction: Models Participate in Changing the World
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-96-EN
+:SEMANTIC_ID: philosophy.source.performative-prediction
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.96-performative-prediction.org
+:SOURCE_ID: PHIL-SRC-96
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Juan Perdomo; Tijana Zrnic; Celestine Mendler-Dünner; Moritz Hardt
+:SOURCE_WORK: Performative Prediction
+:SOURCE_EDITION: ICML 2020, PMLR 119:7599-7609
+:SOURCE_DATE: 2020
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.performative-prediction
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.performative-prediction-en
+:END:
+Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner and Moritz Hardt, [[https://proceedings.mlr.press/v119/perdomo20a.html][Performative Prediction]], ICML 2020, PMLR 119:7599–7609. Grounding: the abstract and definitions of performative risk and stability in the [[https://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf][paper]].
+* Context
+Predictions used in decisions can change the outcomes and distributions they predict. The paper formalizes this feedback and studies repeated training's convergence under specified conditions.
+* Interpretation Boundaries
+This does not imply all prediction is impossible, all advice manipulates, or every life situation satisfies the assumptions. Statistical stability does not establish a worthwhile life.
+* Influence
+Our proposed application asks whether displaying a life trajectory changes attention, investment and self-understanding. If advice makes alternatives less visible, subsequent predictive accuracy may be insufficient to assess its value.
+
+This is our inquiry into simulation displays and judgment, not a claimed measurement result. We particularly ask who can refuse such shaping and how unchosen paths remain discussable.
+* Interpretation Chain
+Prediction changes distributions → a modern interpretation of advice feedback → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][simulation's reflexivity]] → [[file:../30-reflections/30.60-action-requires-authority.org][influence and authority]] → [[file:../30-reflections/30.90-knowing-after-action.org][feedback bias in learning]]. The latter steps are philosophical extensions requiring their own scrutiny.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.96-living-with-ai.org][Framing essay]]

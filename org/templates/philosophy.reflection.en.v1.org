@@ -1,0 +1,28 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+# State the question before admission; an empty section fails the contract.
+* Argument
+# State the current argument before admission.
+* Counterexamples
+# State counterexamples or falsification conditions before admission.
+* Provisional Conclusion
+# State the provisional conclusion and its uncertainty before admission.
+* Questions That Remain
+# State unheard voices, unresolved counterexamples, and experience that could still change this account.
+* Navigation
+[[file:../README.org][language index]]

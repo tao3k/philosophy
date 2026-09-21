@@ -1,0 +1,31 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:governance:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.governance.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: governance
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:GOVERNANCE_ID: <GOVERNANCE_ID>
+:LIFECYCLE_ID: <LIFECYCLE_ID>
+:END:
+* Authority
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* Lifecycle
+# Define the governed lifecycle before admission.
+* Admission
+# Define admission evidence and rejection conditions before admission.
+* Change Policy
+# Define change, migration, and retirement policy before admission.
+* Failure Handling
+# Define failure detection, recovery, and rollback responsibility before admission.
+* Review and Challenge
+# Define review, challenge, and appeal mechanisms before admission.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../00-topology/00.00-repository-topology.org][repository topology]]

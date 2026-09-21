@@ -1,0 +1,46 @@
+#+TITLE: Paul et al.: Transformative Experience and Evaluability Bias
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-97-EN
+:SEMANTIC_ID: philosophy.source.transformative-experience-evaluability
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.97-transformative-experience-evaluability.org
+:SOURCE_ID: source.transformative-experience-evaluability
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: L. A. Paul; Joan Danielle K. Ongchoco; Isaac M. Davis; Julian Jara-Ettinger; Yoonseo Zoh; M. J. Crockett
+:SOURCE_WORK: Transformative experience and evaluability bias
+:SOURCE_EDITION: Paul 2015; Ongchoco et al. 2024; Zoh, Paul, and Crockett 2024
+:SOURCE_DATE: 2015-2024
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Paul 2015; Ongchoco et al. 2024; Zoh, Paul, and Crockett 2024
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.transformative-experience-evaluability
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.transformative-experience-evaluability-en
+:END:
+This note synthesizes three related bodies of work with different evidential force: L. A. Paul's [[https://lapaul.org/papers/whatCantExpect.pdf][What You Can't Expect When You're Expecting]] (2015); Ongchoco, Davis, Jara-Ettinger and Paul's [[https://doi.org/10.1162/opmi_a_00168][When New Experience Leads to New Knowledge]] (2024); and Zoh, Paul and Crockett's [[https://doi.org/10.1007/s11229-023-04474-y][How the Evaluability Bias Shapes Transformative Decisions]] (2024).
+* Context
+Paul uses life choices such as becoming a parent to develop a difficulty: some experiences may be knowable only after undergoing them and may alter core preferences, limiting how completely a present self can evaluate a future self. Ongchoco et al. use a synthetic environment and POMDP framework to distinguish learning that extends an existing representation from epistemic change requiring a new kind of experience. Zoh et al. propose and experimentally support an evaluability bias: people may give more weight to criteria they can understand in advance even when they also care deeply about experiential value that is difficult to evaluate beforehand.
+* Interpretation Boundaries
+These works do not establish that every choice involving parenthood, relocation, career change, changed ability or learning is transformative, or that future preferences are wholly unavailable to deliberation. The 2024 computational work uses a synthetic environment; it does not validate life simulation. The evaluability results do not imply that every person systematically neglects experiential value.
+
+They do not authorize AI to decide for a future self or use “you will change” to override a present refusal. The issue is a limit on prior evaluation, not removal of the present person's standing.
+* Influence
+The synthesis prompts life simulation to preserve three possibilities: purposes can reasonably change through experience; important reasons may resist cash-like precision; and bounded trials can produce knowledge without making every major commitment safely testable. Advice should distinguish evaluations grounded in present experience from those concerning unexperienced life and prevent precise numbers from gaining disproportionate authority merely through display.
+
+The positive demand on AI is to support articulation of current reasons, bearable exploration, records of changing purposes, and renewed endorsement by the person after change—not overwrite judgment with inferred true preferences.
+* Interpretation Chain
+The philosophical problem of transformative experience → a model of epistemic change in synthetic environments → experimental research on evaluability bias → [[file:../30-reflections/30.40-optimization-is-not-human-value.org][purpose formation and value]], [[file:../30-reflections/30.93-intertemporal-agency.org][intertemporal agency]], and [[file:../30-reflections/30.95-life-after-job-loss.org][staged life judgment]]. The normative steps are Tao3k interpretations, not claims attributed back to the authors.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.96-living-with-ai.org][Facing life with AI]]

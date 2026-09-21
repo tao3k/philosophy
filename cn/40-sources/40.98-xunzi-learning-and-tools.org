@@ -1,0 +1,48 @@
+#+TITLE: 荀子《劝学》：学习、外物与人的行动
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-98-CN
+:SEMANTIC_ID: philosophy.source-note.40.98-xunzi-learning-and-tools
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.98-xunzi-learning-and-tools.org
+:SOURCE_ID: source.xunzi-encouragement-learning
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Xunzi
+:SOURCE_WORK: Xunzi, Encouragement of Learning
+:SOURCE_EDITION: Chinese Text Project received text; Columbia Asia for Educators selection
+:SOURCE_DATE: Warring States period; received-text edition
+:SOURCE_LANGUAGE: zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.xunzi-learning-and-tools
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.98-xunzi-learning-and-tools-cn
+:END:
+荀子《劝学》。底本文字参照 [[https://ctext.org/xunzi/quan-xue][Chinese Text Project《劝学》]]；英译对读参照 Columbia University Asia for Educators 的 [[https://afe.easia.columbia.edu/main_pop/ps/ps_china-xunzi-encouraging-learning.htm][Selection from the Xunzi: Encouraging Learning]]。本说明聚焦车马、舟楫与“善假于物”的段落，并把它放回全篇持续学习的论旨中。
+* 语境
+《劝学》并不把人的学习与外物帮助对立起来。登高、顺风、车马和舟楫的例子说明，行动范围可以通过位置、条件与工具扩展；“君子生非异也，善假于物也”仍处在学习、积累与实践的整体论述中，不是无需修养即可取得任何目的的捷径。
+
+这里的“物”也不是现代意义上的自主软件系统。原文没有讨论会生成建议、塑造注意力、收集数据或改变组织权力的工具。因此，从舟楫走向 AI 必须经过额外论证。
+* 解释边界
+本仓库不从《劝学》推出“工具越强越应全部委托”，也不把荀子的君子论直接等同于现代个人自主、知识平权或人机协作。文本不能替今天回答授权、隐私、平台收益、工作替代与经验抽取。
+
+“善假”也不能证明使用工具必然促进学习。现代系统可能让任务完成得更快，却使方法、记录与判断集中在供应者一侧。人是否因此过得更从容、更明白、更能作主，需要另行观察。
+* 影响
+它帮助 Tao3k 拒绝一种脆弱的人本主义：人不必在每项能力上胜过工具，才有资格借助工具或保有人的地位。工具可以让原本到不了的地方变得可达，也可以与人的学习、目的和参与同时存在。
+
+面向今天，我们还要追问四件事：外物让谁走得更远，减轻了谁的负担，怎样改变人能看见的选择，以及使用者能否质疑、更换和退出。这四问属于 Tao3k 的现代解释，不是原文主张。
+* 解释链
+《劝学》的学习论与车马舟楫例证 → 借助外物并不降低人的价值 → [[file:../30-reflections/30.99-shanjia-yuwu.org][善假于物：AI 时代人的价值、勇气与共同成长]] 对代劳、学习与参与的区分 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习]] 与 [[file:../30-reflections/30.96-living-with-ai.org][人生总论]] 的反例审查。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.99-shanjia-yuwu.org][善假于物]]

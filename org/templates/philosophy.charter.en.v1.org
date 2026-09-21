@@ -1,0 +1,49 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:charter:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:PRINCIPLE_SET: <PRINCIPLE_REF>
+:END:
+* Principles
+** <PRINCIPLE_REF>
+:PROPERTIES:
+:PRINCIPLE_ID: <PRINCIPLE_REF>
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: <PRINCIPLE_KIND>
+:REFINES: <REFINES>
+:NORMATIVE_LEVEL: must
+:SCOPE: <SEMANTIC_ID>
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial proposal
+:END:
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+# State the normative claim before admission; an empty section fails the contract.
+* Rationale
+# State why the claim should hold before admission.
+* Counterarguments
+# State the strongest counterargument and its boundary before admission.
+* Engineering Consequences
+# State the constraints on engineering design and verification before admission.
+* Failure Modes
+# State how the principle can be followed formally but violated in substance.
+* Open Questions
+# State the unresolved questions before admission.
+* Traceability
+| Principle | Engineering direction | Downstream owner |
+|-----------+---------------------+----------|
+| <PRINCIPLE_REF> | | |
+* Navigation
+[[file:../README.org][navigation]]

@@ -1,0 +1,68 @@
+#+TITLE: Why Optimization Is Not Human Value
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-40
+:SEMANTIC_ID: philosophy.reflection.optimization-not-human-value
+:DOC_KIND: reflection
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.40-optimization-is-not-human-value.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-optimization-is-not-human-value-en
+:END:
+
+Why can improvement of an objective function not be directly interpreted as human welfare, consent, or realized value?
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]] · [[file:../10-charter/10.30-human-agency.org][target thematic Charter]]
+
+* Argument
+
+An objective function compresses a complex world into comparable scores. Compression is necessary for computation, but it also makes normative choices: what counts, whose loss remains invisible, how benefits across people are combined, and whether short-term improvement may purchase long-term dependence. Even perfect computation proves only that a proxy improved under its rule—not that human lives improved.
+
+Once a proxy becomes a strong incentive, it changes the system being measured. Organizations move costs outside visible metrics, models discover shortcuts their designers did not anticipate, and people adapt to scoring. The problem is not merely a misspecified objective. The measurement-incentive-adaptation loop continuously changes what the objective was meant to represent.
+
+Human value is also not one hidden function awaiting discovery. It includes conflicts, commitments, identities, non-fungible rights, and preferences that change through experience. Different people bear different consequences. Aggregate welfare cannot automatically override individual consent, an average gain cannot erase concentrated harm, and one expression of preference cannot authorize indefinite optimization on a person's behalf.
+
+Agency requires at least four practical powers: participation in defining a goal, refusal to enter an optimization, override of a running policy, and challenge to its rule or outcome. These powers must exist before and after a decision. A preference screen paired with prohibitive exit costs is not substantive consent.
+
+Optimization therefore belongs to the means layer. It may rank candidate actions inside a legitimate purpose, authority, and constraint set, but “this action scores highest” does not entail “the system may do it.” Normative authority comes from answerable delegation, rights, and the standing of affected people—not from solver optimality.
+
+** Purposes also form through living
+Preferences need not exist fully before action. Trying music, taking on care, experiencing changed abilities or joining a shared undertaking may change what someone cherishes. Change need not be defective goal drift, nor is it necessarily manipulation merely because it follows AI use.
+
+[[file:../40-sources/40.97-transformative-experience-evaluability.org][Transformative experience and evaluability bias]] provides an entry into the philosophical dispute and empirical research. Some future experiences may resist complete evaluation from present experience, while easier-to-understand criteria may receive excess weight. This is not a law of every life change; it marks limits on purpose formation and prior evaluation.
+
+Distinguish open exploration from shaping that serves an operator: are different directions visible, can someone pause or refuse, are reasons and interests understandable, and will the system still help after purposes change? Before-and-after satisfaction alone cannot settle these questions.
+
+** Incommensurability does not prohibit comparison
+Finite time requires tradeoffs without making all goods convertible into one unit. Creation, care, health support and income may admit local comparisons and priorities endorsed by the person without an objective total ranking. Exclude unacceptable harms, compare feasible paths and preserve unresolved disagreements.
+
+For example, a learner may bound affordable time and fees before comparing courses. This does not price joy or identity exploration. An [[file:../40-sources/40.95-sen-capability-and-opportunity.org][opportunity perspective]] asks whether paths are genuinely available without deciding which life ought to be chosen.
+
+** Adaptation to deprivation is not necessarily adequate choice
+“This is fine” may express endorsement or diminished expectations after prolonged lack of support. A system should neither automatically declare preferences inauthentic nor impose a better life. It can make previously unseen conditions explorable, distinguishing not wanting something from never having a chance to try it.
+
+Clarifying purposes must also not become endless reflective labor. For bounded, clearly expressed wishes, sensible defaults and revocable delegation can reduce burden. [[file:30.96-living-with-ai.org][Facing life with AI]] supports situated people, not an ideal of perfect decision-makers.
+
+* Counterexamples
+
+Some closed control problems can safely optimize one measure, such as energy use under explicit physical constraints. People may delegate bounded preferences, and requiring a new choice at every step creates fatigue that can reduce control. What matters is whether delegation is specific, revocable, reviewable, and contained within acceptable failure boundaries.
+
+Not every value can be articulated before action. Emergencies and collective allocation sometimes require decisions amid conflicting preferences. Agency cannot mean an absolute veto for each person; it requires an account of who is affected, how conflict is handled, who may contest the decision, and how harm can be remedied.
+
+* Provisional Conclusion
+
+Optimization ranks candidate actions only within a declared representation, constraint set, and delegation. It cannot independently create normative authority, consent, or realized value. A human-centered system does not stop at guessing what a user wants. It preserves the person's power to define, refuse, override, contest, and leave while observing how benefits, burdens, dependence, and future options are distributed.
+
+* Questions That Remain
+
+Show through cases that average benefit cannot hide severe minority harm, historical preference cannot impersonate present consent, revoked delegation actually stops future action, contestation can alter an objective or constraint, and impact receipts record costs outside the metric. Also specify where low-risk defaults remain stable and when consent must be renewed. Only then may an author draft a separate human-agency Principle citing this retained Reflection for Governance to review for Charter admission.
+
+Also review purposes reasonably changed by experience, preferences expressed under deprivation and operator-induced preference shaping. Restoring supposed true preferences must not bypass the person's interpretation, and one consent must not freeze future purposes.

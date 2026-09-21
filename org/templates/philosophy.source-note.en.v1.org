@@ -1,0 +1,41 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:SOURCE_ID: <SOURCE_ID>
+:SOURCE_KIND: <SOURCE_KIND>
+:SOURCE_AUTHOR: <SOURCE_AUTHOR>
+:SOURCE_WORK: <SOURCE_WORK>
+:SOURCE_EDITION: <SOURCE_EDITION>
+:SOURCE_DATE: <SOURCE_DATE>
+:SOURCE_LANGUAGE: <SOURCE_LANGUAGE>
+:SOURCE_REPOSITORIES: <SOURCE_REPOSITORIES>
+:SOURCE_REVISIONS: <SOURCE_REVISIONS>
+:SOURCE_PATHS: <SOURCE_PATHS>
+:OBSERVATION_DATE: <OBSERVATION_DATE>
+:CONSTITUENT_SOURCES: <CONSTITUENT_SOURCES>
+:INTERPRETATION_STATUS: <INTERPRETATION_STATUS>
+:CLAIM_SCOPE: <CLAIM_SCOPE>
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+* Context
+# State the source's historical and conceptual context before admission.
+* Interpretation Boundaries
+# State what cannot be concluded from the source before admission.
+* Influence
+# State how the source influences this repository's principles before admission.
+* Interpretation Chain
+# State the traceable chain from the source to the current interpretation before admission.
+* Navigation
+[[file:../README.org][navigation]]

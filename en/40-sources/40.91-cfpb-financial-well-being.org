@@ -1,0 +1,42 @@
+#+TITLE: CFPB: Financial Well-Being, Security, and Freedom of Choice
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-91-EN
+:SEMANTIC_ID: philosophy.source.cfpb-financial-well-being
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.91-cfpb-financial-well-being.org
+:SOURCE_ID: source.cfpb.financial-well-being
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Consumer Financial Protection Bureau
+:SOURCE_WORK: Why financial well-being?
+:SOURCE_EDITION: web-page-observed-2026-09-21
+:SOURCE_DATE: undated
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.cfpb-financial-well-being
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.cfpb-financial-well-being-en
+:END:
+This note uses the CFPB page [[https://www.consumerfinance.gov/consumer-tools/financial-well-being/about/][Why financial well-being?]].
+* Context
+CFPB frames financial well-being as security and freedom of choice: day-to-day control, capacity to absorb shock, progress toward goals, and freedom to enjoy life. It explicitly says income, net worth, and credit score alone cannot describe individual well-being.
+* Interpretation Boundaries
+The framework is not investment advice, a utility function, or a universal life ranking, and it does not make the CFPB questionnaire an Agent objective. Regulatory implications remain jurisdiction-specific.
+* Influence
+It grounds [[file:../30-reflections/30.91-financial-life-simulation.org][Financial Life Simulation]]: security and choice coexist, and financial outcome cannot collapse into net worth.
+* Interpretation Chain
+CFPB consumer research → financial security and freedom → Tao3k resilience, goal trajectory, and optionality. The choice frontier is a further synthesis here.
+* Navigation
+[[file:../README.org][navigation]]

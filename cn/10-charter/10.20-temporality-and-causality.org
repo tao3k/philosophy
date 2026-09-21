@@ -1,0 +1,66 @@
+#+TITLE: 时态与因果 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-20
+:SEMANTIC_ID: philosophy.charter.temporality-causality
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.20-temporality-and-causality.org
+:PRINCIPLE_SET: PHIL-TEMP-001
+:END:
+
+* 原则
+
+** 模拟不得冒充预测
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-TEMP-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-003
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-temporality-and-causality-cn
+:END:
+
+past、present、future、predicted、simulated 与 counterfactual 不得坍缩。Future candidate 不是 observed fact，反事实轨迹不是预测，有限 horizon 内未见失败不是全局不存在。
+
+* 理由
+
+模型输出的权威来自明确模型、假设、数据、校准与 horizon；删除这些限定会制造伪因果和伪确定性。
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+经校准的预测和封闭模型证明仍然有效，但必须使用其正确的语义类型和证据范围。
+
+* 工程后果
+
+时间事实、预测、模拟与反事实使用不同类型；UI 与 API 必须显示假设和 horizon；负例拒绝语义降格。
+
+* 失效模式
+
+把 simulated probability 展示成现实概率；把模型内因果边解释成现实因果事实。
+
+* 开放问题
+
+如何表示多模型分歧、模型漂移和开放世界 horizon？
+
+* 可追溯性
+
+| 原则 | 工程方向 | 下游所有者 | 状态 |
+|---+---+---+---|
+| PHIL-TEMP-001 | [[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]]；[[file:../30-reflections/30.30-simulation-is-not-prediction.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

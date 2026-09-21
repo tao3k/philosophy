@@ -1,0 +1,44 @@
+#+TITLE: 施为性预测：模型参与改变世界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-96-CN
+:SEMANTIC_ID: philosophy.source.performative-prediction
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.96-performative-prediction.org
+:SOURCE_ID: PHIL-SRC-96
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Juan Perdomo; Tijana Zrnic; Celestine Mendler-Dünner; Moritz Hardt
+:SOURCE_WORK: Performative Prediction
+:SOURCE_EDITION: ICML 2020, PMLR 119:7599-7609
+:SOURCE_DATE: 2020
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.performative-prediction
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.performative-prediction-cn
+:END:
+Juan Perdomo、Tijana Zrnic、Celestine Mendler-Dünner、Moritz Hardt，[[https://proceedings.mlr.press/v119/perdomo20a.html][Performative Prediction]]，ICML 2020，PMLR 119:7599–7609。依据论文摘要及 [[https://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf][正文]] 对施为性风险与稳定性的定义。
+* 语境
+用于决策的预测可以改变它所预测的结果与分布。论文把这种反馈纳入形式分析，并在特定条件下讨论反复训练的收敛。
+* 解释边界
+不能由此推出所有预测都不可能、所有建议都操纵人，或任何人生情境都符合论文假设。统计稳定性不直接回答某种生活是否值得追求。
+* 影响
+本仓库提出自己的应用问题：向人展示一条人生轨迹，是否改变了其注意、投入和对自己的解释？如果建议使某些选项更难被看见，事后“预测准确”可能不足以评价建议的价值。
+
+这是对模拟展示与人的判断关系的讨论，不声称本文已有测量结果。我们尤其关心：谁能拒绝被这种反馈塑造，以及没有被选择的路径如何保持可讨论。
+* 解释链
+预测参与改变分布 → 对建议反馈的现代解释 → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][模拟的反身性]] → [[file:../30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:../30-reflections/30.90-knowing-after-action.org][行后学习的反馈偏差]]。后三步是本仓库的哲学延伸，需各自接受检验。
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.96-living-with-ai.org][总论]]

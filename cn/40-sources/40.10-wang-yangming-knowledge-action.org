@@ -1,0 +1,65 @@
+#+TITLE: 王阳明：知行合一的历史语境
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-CN-10
+:SEMANTIC_ID: philosophy.source.wang-yangming-knowledge-action
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.10-wang-yangming-knowledge-action.org
+:SOURCE_ID: source.wang-yangming.chuanxilu
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 王阳明 / Wang Yangming
+:SOURCE_WORK: 《传习录》 / Instructions for Practical Living
+:SOURCE_EDITION: Sources of Chinese Tradition, 2nd ed., vol. 1, pp. 849-850; Columbia Asia for Educators excerpt
+:SOURCE_DATE: historical-source
+:SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: Tao3k philosophy research
+:END:
+
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: source-wang-yangming-knowledge-action-cn
+:END:
+
+本条把“知行合一”放回明代心学、道德实践与反空疏论说的语境。现固定 [[https://afe.easia.columbia.edu/ps/cup/wang_yangming_knowing_acting.pdf][Columbia Asia for Educators 节选]] 所注明的 de Bary 与 Bloom 编《Sources of Chinese Tradition》第二版第一卷 849–850 页为当前英译入口；SEP 的 [[https://plato.stanford.edu/entries/wang-yangming/][Wang Yangming 条目]]用于二手校核。仍未固定中文校勘本，因此不以本说明提供中文逐字引文权威。
+
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][对应反思]]
+
+* 语境
+
+原语境关注道德认识、动机、修养与实践不可被方便地割裂。王阳明批评把知与行安排成“先完成知道、以后
+再决定是否行动”的两个任务，也承认在纠正不同偏失时可以分别谈知或谈行。重点不是取消概念差异，而是
+反对口头赞同在实践上毫无约束却仍自称真知。
+
+对现代 AI，最重要的问题因此不是“模型是否能复述”，而是一个判断能否正确进入 proposal、decision、
+authority 与 action 的结构，并在没有 authority 时停留为知情建议。现代系统中“知道但没有权限”完全
+合理；这正是 Tao3k 对历史思想的必要修正。
+
+同样需要现代修正的是“知而未能行”。原讨论把未行与私欲、伦理修养联系起来；现代人还可能因为资源、机会、权利或支持不足而无法实践已经理解并认可的方向。来源不能被用来把这种处境直接道德化为不知或不诚。
+
+* 解释边界
+
+它可以启发 knowledge–action closure，却不能推出“没执行就没知识”，更不能为越权行动辩护。伦理实践
+中的知行关系与分布式系统状态机不是同一对象；任何协议、runtime 或权限模型仍须由独立工程证据评价。
+
+它也不能证明缺乏行动条件只是个人意志问题。帮助知识进入生活，可能要求改善支持和制度条件，而不只是增加提醒或调用工具。
+
+* 影响
+
+进入 [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]]，形成“哲学上同属一条责任链、
+工程上保持状态差异”的核心命题。它特别要求知识能够影响实践，却不跳过人的授权、风险比例与拒绝权。
+
+* 解释链
+
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。该链保留来源、解释、反思、规范提案与准入之间的区别，禁止反向声称来源已经证明当前架构。

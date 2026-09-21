@@ -1,0 +1,1879 @@
+#+TITLE: Tao3k Philosophy Org Contracts v1
+#+PROPERTY: CONTRACT_SET philosophy.v1
+
+* Repository index v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.repository-index.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "repository-index")))
+#+end_src
+** Topology id
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-topology-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "TOPOLOGY_ID")) (not (= (summary value) ""))))
+#+end_src
+** Path policy
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-path-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "PATH_POLICY") :summary (value "closed-world")))
+#+end_src
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "cn/README.org en/README.org")))
+#+end_src
+** CN language index link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-cn-index-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:cn/README.org")))
+#+end_src
+** CN topology link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-cn-topology-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:cn/00-topology/00.00-repository-topology.org")))
+#+end_src
+** EN language index link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-en-index-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:en/README.org")))
+#+end_src
+** EN topology link
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-en-topology-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (link)
+    (= (summary "path") "file:en/00-topology/00.00-repository-topology.org")))
+#+end_src
+** Topology table
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+** Topology diagram
+:PROPERTIES:
+:ASSERT_ID: repository-index.has-mermaid
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (src-block :language "mermaid"))
+#+end_src
+
+* Chinese engineering map v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.engineering-map.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "engineering-map")))
+#+end_src
+** Principle reference
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-principle-ref
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
+#+end_src
+** Principle section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "原则")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Normative requirements
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-normative-requirements
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "规范要求")))
+      (body (section :child-of "$section")))
+  (assert exists
+    (table-cell :within "$body" :column "工程性质" :header false :nonempty true)))
+#+end_src
+** Current realization
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-current-realization
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "当前实现")))
+      (body (section :child-of "$section")))
+  (assert exists
+    (table-cell :within "$body" :column "当前实现" :header false :nonempty true)))
+#+end_src
+** Review section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-review
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "审查问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Requirement and realization tables
+:PROPERTIES:
+:ASSERT_ID: engineering-map.cn.has-two-tables
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 2 (table))
+#+end_src
+
+* English engineering map v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.engineering-map.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "engineering-map")))
+#+end_src
+** Principle reference
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-principle-ref
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "PRINCIPLE_REF")) (not (= (summary value) ""))))
+#+end_src
+** Principle section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Principle")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Normative requirements
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-normative-requirements
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Normative Requirements")))
+      (body (section :child-of "$section")))
+  (assert exists
+    (table-cell :within "$body" :column "Engineering property" :header false :nonempty true)))
+#+end_src
+** Current realization
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-current-realization
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Current Realization")))
+      (body (section :child-of "$section")))
+  (assert exists
+    (table-cell :within "$body" :column "Current realization" :header false :nonempty true)))
+#+end_src
+** Review section
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-review
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Review Questions")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Requirement and realization tables
+:PROPERTIES:
+:ASSERT_ID: engineering-map.en.has-two-tables
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 2 (table))
+#+end_src
+
+* Chinese reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.reflection.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "reflection")))
+#+end_src
+** Question
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-question
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-argument
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "论证")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Counterexamples
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-counterexamples
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "反例")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Provisional conclusion
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-conclusion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "暂定结论")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Questions that remain
+:PROPERTIES:
+:ASSERT_ID: reflection.cn.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "仍需面对的问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* English reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.reflection.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "reflection")))
+#+end_src
+** Question
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-question
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Question")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-argument
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Argument")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Counterexamples
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-counterexamples
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Counterexamples")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Provisional conclusion
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-conclusion
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Provisional Conclusion")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Questions that remain
+:PROPERTIES:
+:ASSERT_ID: reflection.en.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Questions That Remain")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* Chinese AI interaction-object shift reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.ai-object-reflection.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Topic identity
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-topic-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "AI_OBJECT_TOPIC") :summary (value "interaction-object-shift")))
+#+end_src
+** Interaction objects
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-interaction-objects
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "INTERACTION_OBJECTS")) (not (= (summary value) ""))))
+#+end_src
+** Traditional reference role
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.bounds-traditional-reference
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "LEGACY_REFERENCE_ROLE") :summary (value "historical-baseline")))
+#+end_src
+** Reflection-only status
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.stays-reflection
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NORMATIVE_STATUS") :summary (value "reflection-only")))
+#+end_src
+** Traditional object and applicability boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-traditional-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "传统对象与适用边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Object shift
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-object-shift
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "对象变革")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Judgment
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-judgment
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "判断")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument and debate scenarios
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-debate-scenarios
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "论证与辩论场景")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true))
+  (assert exists (table :within "$body")))
+#+end_src
+** Principle and governance boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-principle-governance-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "原则与治理边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* English AI interaction-object shift reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.ai-object-reflection.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Topic identity
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-topic-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "AI_OBJECT_TOPIC") :summary (value "interaction-object-shift")))
+#+end_src
+** Interaction objects
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-interaction-objects
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "INTERACTION_OBJECTS")) (not (= (summary value) ""))))
+#+end_src
+** Traditional reference role
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.bounds-traditional-reference
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "LEGACY_REFERENCE_ROLE") :summary (value "historical-baseline")))
+#+end_src
+** Reflection-only status
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.stays-reflection
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NORMATIVE_STATUS") :summary (value "reflection-only")))
+#+end_src
+** Traditional object and applicability boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-traditional-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Traditional Object and Applicability Boundary")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Object shift
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-object-shift
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Object Shift")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Judgment
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-judgment
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Judgment")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument and debate scenarios
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-debate-scenarios
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Argument and Debate Scenarios")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true))
+  (assert exists (table :within "$body")))
+#+end_src
+** Principle and governance boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-principle-governance-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Principle and Governance Boundary")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* Chinese source note v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.source-note.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "source-note")))
+#+end_src
+** Source id
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Source kind
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
+#+end_src
+** Engineering repositories
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-repositories
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering revisions
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering paths
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-paths
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering observation date
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-engineering-observation-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Synthesis constituent sources
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-synthesis-constituent-sources
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+      (and
+        (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Source author
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-author
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
+#+end_src
+** Source work
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-work
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
+#+end_src
+** Source edition
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
+#+end_src
+** Accepted source edition grounding
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.accepted-has-grounded-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :outline-depth 0 :summary (key "SOURCE_EDITION"))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "edition-pending"))
+      (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Source date
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
+#+end_src
+** Source language
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
+#+end_src
+** Interpretation status
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-interpretation-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
+#+end_src
+** Claim scope
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-claim-scope
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
+#+end_src
+** Source
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-source
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "来源")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Context
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-context
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "语境")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Interpretation boundaries
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-boundaries
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "解释边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Influence
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-influence
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "影响")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Interpretation chain
+:PROPERTIES:
+:ASSERT_ID: source-note.cn.has-interpretation-chain
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "解释链")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* English source note v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.source-note.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "source-note")))
+#+end_src
+** Source id
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Source kind
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))))
+#+end_src
+** Engineering repositories
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-repositories
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REPOSITORIES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering revisions
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-revisions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_REVISIONS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering paths
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-paths
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "SOURCE_PATHS"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Engineering observation date
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-engineering-observation-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+      (and
+        (node-property :outline-depth 0 :summary (key "OBSERVATION_DATE"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Synthesis constituent sources
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-synthesis-constituent-sources
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+  (assert exists
+    (or
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "PRIMARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SECONDARY"))
+      (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+      (and
+        (node-property :outline-depth 0 :summary (key "CONSTITUENT_SOURCES"))
+        (not (= (summary value) ""))
+        (not (= (summary value) "not-applicable"))
+        (not (= (summary value) "edition-pending"))
+        (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Source author
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-author
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_AUTHOR")) (not (= (summary value) ""))))
+#+end_src
+** Source work
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-work
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_WORK")) (not (= (summary value) ""))))
+#+end_src
+** Source edition
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_EDITION")) (not (= (summary value) ""))))
+#+end_src
+** Accepted source edition grounding
+:PROPERTIES:
+:ASSERT_ID: source-note.en.accepted-has-grounded-edition
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "SYNTHESIS"))
+    (node-property :outline-depth 0 :summary (key "SOURCE_KIND") :summary (value "ENGINEERING_EVIDENCE"))
+    (and
+      (node-property :outline-depth 0 :summary (key "SOURCE_EDITION"))
+      (not (= (summary value) "not-applicable"))
+      (not (= (summary value) "edition-pending"))
+      (not (= (summary value) "evidence-pending")))))
+#+end_src
+** Source date
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-date
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_DATE")) (not (= (summary value) ""))))
+#+end_src
+** Source language
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SOURCE_LANGUAGE")) (not (= (summary value) ""))))
+#+end_src
+** Interpretation status
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-interpretation-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "DIRECT"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "ANALOGICAL"))
+    (node-property :outline-depth 0 :summary (key "INTERPRETATION_STATUS") :summary (value "MODERNIZED"))))
+#+end_src
+** Claim scope
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-claim-scope
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "CLAIM_SCOPE")) (not (= (summary value) ""))))
+#+end_src
+** Source
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-source
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Source")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Context
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-context
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Context")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Interpretation boundaries
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-boundaries
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Interpretation Boundaries")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Influence
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-influence
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Influence")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Interpretation chain
+:PROPERTIES:
+:ASSERT_ID: source-note.en.has-interpretation-chain
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Interpretation Chain")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+* Maintained philosophy document v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.document.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Title
+:PROPERTIES:
+:ASSERT_ID: document.has-title
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (keyword :context "metadata")
+    (= (summary key) "TITLE")
+    (not (= (summary value) ""))))
+#+end_src
+** Contract list
+:PROPERTIES:
+:ASSERT_ID: document.has-contract-list
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "CONTRACT_ORG")) (not (= (summary value) ""))))
+#+end_src
+** Document id
+:PROPERTIES:
+:ASSERT_ID: document.has-doc-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "DOC_ID")) (not (= (summary value) ""))))
+#+end_src
+** Semantic id
+:PROPERTIES:
+:ASSERT_ID: document.has-semantic-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "SEMANTIC_ID")) (not (= (summary value) ""))))
+#+end_src
+** Counterpart
+:PROPERTIES:
+:ASSERT_ID: document.has-counterpart
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "COUNTERPART")) (not (= (summary value) ""))))
+#+end_src
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: document.has-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "DOC_KIND")) (not (= (summary value) ""))))
+#+end_src
+** Document status
+:PROPERTIES:
+:ASSERT_ID: document.has-doc-status
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "draft"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "proposed"))
+    (node-property :outline-depth 0 :summary (key "DOC_STATUS") :summary (value "accepted"))))
+#+end_src
+** Language
+:PROPERTIES:
+:ASSERT_ID: document.has-language
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (or
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "zh-CN"))
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "en"))
+    (node-property :outline-depth 0 :summary (key "LANGUAGE") :summary (value "mul"))))
+#+end_src
+** Stable anchor
+:PROPERTIES:
+:ASSERT_ID: document.has-custom-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :summary (key "CUSTOM_ID")) (not (= (summary value) ""))))
+#+end_src
+** Knowledge graph link
+:PROPERTIES:
+:ASSERT_ID: document.has-link
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (link))
+#+end_src
+
+* Topology v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.topology.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: topology.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "topology")))
+#+end_src
+** Topology id
+:PROPERTIES:
+:ASSERT_ID: topology.has-id
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "TOPOLOGY_ID")) (not (= (summary value) ""))))
+#+end_src
+** Path policy
+:PROPERTIES:
+:ASSERT_ID: topology.has-path-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "PATH_POLICY") :summary (value "closed-world")))
+#+end_src
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: topology.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT")) (not (= (summary value) ""))))
+#+end_src
+** Path table
+:PROPERTIES:
+:ASSERT_ID: topology.has-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (table))
+#+end_src
+** Executable graph
+:PROPERTIES:
+:ASSERT_ID: topology.has-mermaid
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (src-block :language "mermaid"))
+#+end_src
+** Substantive boundary
+:PROPERTIES:
+:ASSERT_ID: topology.has-substantive-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section
+        (or
+          (headline :summary (title "边界"))
+          (headline :summary (title "Boundaries"))))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* Language index topology role v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.language-index.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: language-index.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "00-topology/00.00-repository-topology.org")))
+#+end_src
+
+* Repository topology role v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.repository-topology.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Navigation root
+:PROPERTIES:
+:ASSERT_ID: repository-topology.has-navigation-root
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NAVIGATION_ROOT") :summary (value "../README.org")))
+#+end_src
+
+* Chinese charter v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.charter.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "charter")))
+#+end_src
+** Claim
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-claim
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "主张")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** First-class principles
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-nodes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "原则")))
+#+end_src
+** At least one principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1
+  (headline :property-contains ("PRINCIPLE_ID" "")))
+#+end_src
+** Complete metadata on every principle node
+:PROPERTIES:
+:ASSERT_ID: charter.cn.every-principle-has-complete-metadata
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" ""))))
+  (assert count == $principles
+    (and
+      (headline
+        :property-contains ("PRINCIPLE_ID" "")
+        :property-contains ("PRINCIPLE_STATUS" "")
+        :property-contains ("PRINCIPLE_KIND" "")
+        :property-contains ("NORMATIVE_LEVEL" "")
+        :property-contains ("SCOPE" "")
+        :property-contains ("REVISION" "")
+        :property-contains ("REFINES" "")
+        :property-contains ("SUPERSEDES" "")
+        :property-contains ("SUPERSEDED_BY" "")
+        :property-contains ("CHANGE_RATIONALE" ""))
+      (not (= (property "PRINCIPLE_ID") ""))
+      (not (= (property "PRINCIPLE_STATUS") ""))
+      (not (= (property "PRINCIPLE_KIND") ""))
+      (or
+        (= (property "PRINCIPLE_STATUS") "draft")
+        (= (property "PRINCIPLE_STATUS") "proposed")
+        (= (property "PRINCIPLE_STATUS") "accepted")
+        (= (property "PRINCIPLE_STATUS") "superseded")
+        (= (property "PRINCIPLE_STATUS") "withdrawn"))
+      (or
+        (= (property "PRINCIPLE_KIND") "foundational")
+        (= (property "PRINCIPLE_KIND") "refinement"))
+      (or
+        (and
+          (= (property "PRINCIPLE_KIND") "foundational")
+          (= (property "REFINES") "none"))
+        (and
+          (= (property "PRINCIPLE_KIND") "refinement")
+          (not (= (property "REFINES") "none"))))
+      (not (= (property "NORMATIVE_LEVEL") ""))
+      (not (= (property "SCOPE") ""))
+      (not (= (property "REVISION") ""))
+      (positive-integer (property "REVISION"))
+      (not (= (property "REFINES") ""))
+      (not (= (property "SUPERSEDES") ""))
+      (not (= (property "SUPERSEDED_BY") ""))
+      (or
+        (not (= (property "PRINCIPLE_STATUS") "superseded"))
+        (not (= (property "SUPERSEDED_BY") "none")))
+      (or
+        (= (property "SUPERSEDED_BY") "none")
+        (= (property "PRINCIPLE_STATUS") "superseded"))
+      (not (= (property "CHANGE_RATIONALE") "")))))
+#+end_src
+** Rationale
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-rationale
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "理由")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Counterarguments
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-counterarguments
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "反对意见")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Engineering consequences
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-engineering-consequences
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "工程后果")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Failure modes
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-failure-modes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "失效模式")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Open questions
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "开放问题")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Traceability
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-traceability
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "可追溯性")))
+#+end_src
+** Trace table
+:PROPERTIES:
+:ASSERT_ID: charter.cn.has-trace-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
+#+end_src
+** Trace every principle
+:PROPERTIES:
+:ASSERT_ID: charter.cn.trace-covers-every-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :within "$body" :column "原则" :header false :nonempty true)
+      (summary "text"))))
+#+end_src
+** Trace engineering data for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.cn.trace-engineering-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section"))
+      (complete-rows
+       (table-row
+         :within "$body"
+         :header false
+         :column-nonempty "原则"
+         :column-nonempty "工程方向"
+         :column-nonempty "下游所有者")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :child-of "$complete-rows" :column "原则" :header false :nonempty true)
+      (summary "text"))))
+#+end_src
+** Trace owner or evidence for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.cn.trace-owner-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "可追溯性")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "下游所有者" :header false :nonempty true)))
+#+end_src
+
+* English charter v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.charter.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "charter")))
+#+end_src
+** Claim
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-claim
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Claim")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** First-class principles
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-nodes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Principles")))
+#+end_src
+** At least one principle identity
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-principle-identities
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert count >= 1
+  (headline :property-contains ("PRINCIPLE_ID" "")))
+#+end_src
+** Complete metadata on every principle node
+:PROPERTIES:
+:ASSERT_ID: charter.en.every-principle-has-complete-metadata
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" ""))))
+  (assert count == $principles
+    (and
+      (headline
+        :property-contains ("PRINCIPLE_ID" "")
+        :property-contains ("PRINCIPLE_STATUS" "")
+        :property-contains ("PRINCIPLE_KIND" "")
+        :property-contains ("NORMATIVE_LEVEL" "")
+        :property-contains ("SCOPE" "")
+        :property-contains ("REVISION" "")
+        :property-contains ("REFINES" "")
+        :property-contains ("SUPERSEDES" "")
+        :property-contains ("SUPERSEDED_BY" "")
+        :property-contains ("CHANGE_RATIONALE" ""))
+      (not (= (property "PRINCIPLE_ID") ""))
+      (not (= (property "PRINCIPLE_STATUS") ""))
+      (not (= (property "PRINCIPLE_KIND") ""))
+      (or
+        (= (property "PRINCIPLE_STATUS") "draft")
+        (= (property "PRINCIPLE_STATUS") "proposed")
+        (= (property "PRINCIPLE_STATUS") "accepted")
+        (= (property "PRINCIPLE_STATUS") "superseded")
+        (= (property "PRINCIPLE_STATUS") "withdrawn"))
+      (or
+        (= (property "PRINCIPLE_KIND") "foundational")
+        (= (property "PRINCIPLE_KIND") "refinement"))
+      (or
+        (and
+          (= (property "PRINCIPLE_KIND") "foundational")
+          (= (property "REFINES") "none"))
+        (and
+          (= (property "PRINCIPLE_KIND") "refinement")
+          (not (= (property "REFINES") "none"))))
+      (not (= (property "NORMATIVE_LEVEL") ""))
+      (not (= (property "SCOPE") ""))
+      (not (= (property "REVISION") ""))
+      (positive-integer (property "REVISION"))
+      (not (= (property "REFINES") ""))
+      (not (= (property "SUPERSEDES") ""))
+      (not (= (property "SUPERSEDED_BY") ""))
+      (or
+        (not (= (property "PRINCIPLE_STATUS") "superseded"))
+        (not (= (property "SUPERSEDED_BY") "none")))
+      (or
+        (= (property "SUPERSEDED_BY") "none")
+        (= (property "PRINCIPLE_STATUS") "superseded"))
+      (not (= (property "CHANGE_RATIONALE") "")))))
+#+end_src
+** Rationale
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-rationale
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Rationale")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Counterarguments
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-counterarguments
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Counterarguments")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Engineering consequences
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-engineering-consequences
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Engineering Consequences")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Failure modes
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-failure-modes
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Failure Modes")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Open questions
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-open-questions
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Open Questions")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Traceability
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-traceability
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (headline :summary (title "Traceability")))
+#+end_src
+** Trace table
+:PROPERTIES:
+:ASSERT_ID: charter.en.has-trace-table
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert count >= 3
+    (table-cell :within "$body" :header false :nonempty true)))
+#+end_src
+** Trace every principle
+:PROPERTIES:
+:ASSERT_ID: charter.en.trace-covers-every-principle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :within "$body" :column "Principle" :header false :nonempty true)
+      (summary "text"))))
+#+end_src
+** Trace engineering data for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.en.trace-engineering-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section"))
+      (complete-rows
+       (table-row
+         :within "$body"
+         :header false
+         :column-nonempty "Principle"
+         :column-nonempty "Engineering direction"
+         :column-nonempty "Downstream owner")))
+  (assert value-set ==
+    (source $principles (property "PRINCIPLE_ID"))
+    (target
+      (table-cell :child-of "$complete-rows" :column "Principle" :header false :nonempty true)
+      (summary "text"))))
+#+end_src
+** Trace owner or evidence for every principle
+:PROPERTIES:
+:ASSERT_ID: charter.en.trace-owner-complete
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((principles
+       (headline :property-contains ("PRINCIPLE_ID" "")))
+      (section (headline :summary (title "Traceability")))
+      (body (section :child-of "$section")))
+  (assert count == $principles
+    (table-cell :within "$body" :column "Downstream owner" :header false :nonempty true)))
+#+end_src
+
+* Chinese governance v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.governance.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "governance")))
+#+end_src
+** Governance identity
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Lifecycle identity
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-lifecycle-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Authority
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-authority
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "权威")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Lifecycle
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-lifecycle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "生命周期")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Admission
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-admission
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "准入")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Change policy
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-change-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "变更策略")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Failure handling
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-failure-handling
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "失败处理")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Review and challenge
+:PROPERTIES:
+:ASSERT_ID: governance.cn.has-review-and-challenge
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "审查与挑战")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* English governance v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.governance.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Document kind
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-document-kind
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "DOC_KIND") :summary (value "governance")))
+#+end_src
+** Governance identity
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "GOVERNANCE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Lifecycle identity
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-lifecycle-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "LIFECYCLE_ID")) (not (= (summary value) ""))))
+#+end_src
+** Authority
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-authority
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Authority")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Lifecycle
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-lifecycle
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Lifecycle")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Admission
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-admission
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Admission")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Change policy
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-change-policy
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Change Policy")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Failure handling
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-failure-handling
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Failure Handling")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Review and challenge
+:PROPERTIES:
+:ASSERT_ID: governance.en.has-review-and-challenge
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Review and Challenge")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src

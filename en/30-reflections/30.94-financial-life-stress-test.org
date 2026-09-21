@@ -1,0 +1,174 @@
+#+TITLE: Zhisheng Stress Test: From Resource Gaps to Bounded Preparation
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-94-EN
+:SEMANTIC_ID: philosophy.reflection.financial-life-stress-test
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.94-financial-life-stress-test.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.financial-life-stress-test-en
+:END:
+For leaving employment to start a venture within twelve months, can Zhisheng answer three questions: what is missing now, what preparation could enable action, and how would we know life improved? This case allows reasoned recommendations without turning calculations into authority to resign or trade.
+
+[[file:30.91-financial-life-simulation.org][Zhisheng's purpose]] · [[file:30.92-stewardship-not-sovereignty.org][Delegation boundaries]] · [[file:30.93-intertemporal-agency.org][Limits of preparation]]
+* Argument
+Everything below is a synthetic state and deterministic scenario, not actual user observations, probability forecasts, or personal financial advice. Amounts are CNY. Check cash, time, goals, obligations, and consent separately; passing the cash check does not establish a feasible life path.
+
+** Initial state, priorities, and calculation boundary
+Assume the person explicitly wants to try enterprise while maintaining essentials and parental support, taking no new debt, and preserving at least ten hours of discretionary rest weekly. The housing target date is negotiable, not automatically abandoned by the system. Family participation and actual care capacity remain to be confirmed.
+
+#+NAME: zhisheng-inputs-en
+| Input | Declared value and meaning |
+|-------+----------------------------|
+| Month 0 liquid reserve | 180,000; no other available assets or authorized borrowing |
+| Employed monthly after-tax income | 20,000 |
+| Essentials | 14,000/month, already including 3,000 parental support; do not add it again |
+| Full-time venture operating cost | 8,000/month, continuing after revenue begins |
+| Original part-time validation | 3,000/month and 15 hours/week |
+| Housing target | 600,000 down payment within 36 months, not a payment already incurred |
+| S1 | Additional net out-of-pocket family medical expense of 60,000 in month 6 |
+| U1 | From full-time venture month 7, monthly receipts r = 0, 10,000, or 30,000, after tax but before operating cost |
+| Unknowns | Likelihood of revenue branches, actual care needs, validation effectiveness, future housing terms |
+
+A resigns and launches in month 1. B keeps employment for twelve months and revisits launch in month 13, without automatic resignation then. C stays employed and validates at the original scale. U1 activates only for A's full-time venture in this horizon. B/C earn no venture revenue during this period; future launch receipts are not booked early.
+
+Use month-end steps: receive income, pay essentials and operating/validation costs, then deduct that month's shock or special commitment. Assume no investment returns, extra financing, insurance reimbursements, or asset sales. Intramonth payment timing is unverified, so this is not a promise of day-by-day solvency.
+
+#+begin_example
+L[0] = 180000
+L[m] = L[m-1] + salary[m] + venture_receipts[m]
+       - 14000 - venture_cost[m] - validation_cost[m]
+       - shock[m] - housing_commitment[m]
+A: salary = 0; venture_cost = 8000; receipts = 0 before month 7, then r
+B: salary = 20000; venture_cost = validation_cost = receipts = 0
+C: salary = 20000; validation_cost = 3000; venture_cost = receipts = 0
+#+end_example
+
+** Every revenue branch: terminal recovery cannot repair an earlier shortfall
+Minimum balances include month 0. Negative balances extend the diagnostic funding gap, not an authorized overdraft or completed subsequent payments. The first negative month is where the original plan cannot fulfill its obligations in that scenario. “Pass” means only this twelve-month cash check under the declared timing.
+
+#+NAME: zhisheng-revenue-branches-en
+| Path | r/month | S1 | Month 12 diagnostic balance | Minimum balance | First shortfall / cash result |
+|------+---------+----+-----------------------------+-----------------+-------------------------------|
+| A | 0 | No | -84,000 | -84,000 | Month 9, fail |
+| A | 0 | Yes | -144,000 | -144,000 | Month 6, fail |
+| A | 10,000 | No | -24,000 | -24,000 | Month 11, fail |
+| A | 10,000 | Yes | -84,000 | -84,000 | Month 6, fail |
+| A | 30,000 | No | 96,000 | 48,000 | None, pass |
+| A | 30,000 | Yes | 36,000 | -12,000 | Month 6, fail |
+| B | 0 (inactive this horizon) | No | 252,000 | 180,000 | None, pass |
+| B | 0 (inactive this horizon) | Yes | 192,000 | 156,000 | None, pass |
+| B | 10,000 (inactive this horizon) | No | 252,000 | 180,000 | None, pass |
+| B | 10,000 (inactive this horizon) | Yes | 192,000 | 156,000 | None, pass |
+| B | 30,000 (inactive this horizon) | No | 252,000 | 180,000 | None, pass |
+| B | 30,000 (inactive this horizon) | Yes | 192,000 | 156,000 | None, pass |
+| C | 0 (inactive this horizon) | No | 216,000 | 180,000 | None, pass |
+| C | 0 (inactive this horizon) | Yes | 156,000 | 138,000 | None, pass |
+| C | 10,000 (inactive this horizon) | No | 216,000 | 180,000 | None, pass |
+| C | 10,000 (inactive this horizon) | Yes | 156,000 | 138,000 | None, pass |
+| C | 30,000 (inactive this horizon) | No | 216,000 | 180,000 | None, pass |
+| C | 30,000 (inactive this horizon) | Yes | 156,000 | 138,000 | None, pass |
+
+With S1, A lacks 12,000 in month 6. Later monthly receipts of 30,000 and a positive diagnostic year-end balance cannot backfill this gap. Repeated B/C rows explicitly show inactive revenue branches, not empirical proof of zero validation revenue. Passing twelve months also does not establish attainment of the 36-month housing target.
+
+** Composed state exposes double commitments
+Assigning the initial 180,000 simultaneously to A's first six months at 132,000, S1 at 60,000, and a proposed locked housing payment of 90,000 commits 282,000: a gap of 102,000. This housing payment is a separate optional commitment used to test composition, absent from the table above. Account labels cannot multiply a shared reserve.
+
+Time also cannot be double-booked. An explicit 168-hour week allocates 56 hours to sleep, 50 to employment and commuting, 28 to ordinary domestic and personal activities, and 12 to parental care: 146 total. Preserve another ten hours of discretionary rest, leaving twelve available. Categories do not overlap; rest excludes sleep. Original C needs fifteen hours, totaling 171 and exceeding capacity by three. Its cash pass therefore does not establish a feasible experiment. Family members cannot silently absorb those hours. A's venture workload and compatibility with care remain unknown; releasing employment time alone does not establish life feasibility.
+
+** Order and shocks: equal terminal balances, different resilience
+The following are separately run extensions, not a claim to cover the full Cartesian product of all shocks.
+
+For B + S1, assume the same 90,000 housing payment can occur in month 4 or month 12 and remains locked throughout observation. Actual availability and terms are unconfirmed. For this comparison, suppose the person chooses 84,000, six months of essentials, as a cash buffer they do not want to breach. It is not a universal standard.
+
+#+NAME: zhisheng-event-order-en
+| Housing payment timing | Month 12 balance | Minimum balance | 84,000 buffer |
+|------------------------+------------------+-----------------+---------------|
+| Month 4 | 102,000 | 66,000 (month 6) | Breached |
+| Month 12 | 102,000 | 102,000 (month 12) | Preserved |
+
+Later payment changes interim resilience but does not guarantee the same housing opportunity remains or authorize payment. Opportunity costs and changed terms still require human judgment.
+
+Separately, S2 removes B/C salary during months 4–9, with salary returning to 20,000 in other months and no replacement income during the interruption. It excludes housing payments and does not automatically reduce essentials or C's validation costs.
+
+#+NAME: zhisheng-income-interruption-en
+| Path | Scenario | Month 12 balance | Minimum balance | Cash result |
+|------+----------+------------------+-----------------+-------------|
+| B | S2 | 132,000 | 114,000 | Pass |
+| B | S2 + S1 | 72,000 | 54,000 | Pass, diminished buffer |
+| C | S2 | 96,000 | 87,000 | Pass |
+| C | S2 + S1 | 36,000 | 27,000 | Pass, diminished buffer |
+
+A already has no salary, so do not subtract six months of nonexistent wages. S2's recovery is an assumption, not a fact; longer unemployment or revised validation costs require recalculation. Cash-only S1 also omits additional care time: eight extra care hours in a week reduce the original twelve available hours to four. Paying the medical bill does not solve the care problem.
+
+** From gaps to reasoned preparation
+The missing elements are not a total score but A's funding coverage, C's time capacity, revenue evidence, and affected people's participation in specific arrangements. Given the stated priorities of essentials, no new debt, rest, and trying enterprise, recommend deferring the combination of immediate resignation and locked housing funds. Propose shrinking C into a three-month preparation window, C*, rather than declaring B the best life.
+
+C* permits at most eight hours weekly and still budgets 3,000 monthly, capped at 9,000 total; fewer hours do not establish proportionately lower costs. Weekly allocation becomes 164 hours, leaving four. With no additional shocks in the first three months, cash reaches 189,000 at month 3. This checks cash and time only within the window, not success. Eight additional care hours exceed total capacity by four, requiring a pause or rearrangement agreed by affected people.
+
+Preparation consists of six needs interviews with willing participants, recording actual hours, costs, evidence obtained and missing, and checking employment constraints and family impacts. Interview count does not itself establish demand or revenue. At three months, stop new validation spending commitments unless continuation is reauthorized. Existing external obligations remain, so select only arrangements that can be settled within the window at inception. This is a proposal, not permission for AI to buy, send messages, or change employment.
+
+If immediate A remains desired, the zero-revenue + S1 scenario needs at least 324,000 initially, 144,000 more than the existing reserve, just to cover the declared twelve months. This leaves no terminal buffer and says nothing about month 13 onward. Discuss smaller commitments, a smaller venture, or changed timing rather than making one amount everyone's savings target. Waiting also loses opportunities; when its cost becomes unacceptable, revisit goals and tolerable sacrifices instead of extending preparation forever.
+
+** From fixed paths to a strategy conditioned on observations
+A, B and C expose differences; they do not require a whole-path commitment in month 1. Practical help should say what to do now and what observation would justify change, using only evidence available at that time. [[https://www.rand.org/pubs/monograph_reports/MR1626.html][RAND's work on robust decisions]] offers a limited analogy: under deep uncertainty, compare many plausible futures and design near-term adaptive strategies. It cannot decide which life this household should undertake.
+
+#+NAME: zhisheng-adaptive-strategy-en
+| Observation available then | What may be reconsidered | What must not be assumed early |
+|----------------------------+--------------------------+--------------------------------|
+| Actual needs interviews and verifiable intent to pay | Continue C*, narrow it, or stop validation | A particular revenue level after month 7 |
+| Employment or care conflicts with the eight-hour window | Pause new tasks, negotiate support, or change timing | Relatives will automatically supply missing time |
+| The person dislikes operating a business but still values autonomy | Explore other work structures without treating changed purpose as failure | “Wanting a venture” must remain permanently binding |
+| Three months yield no evidence capable of changing the decision | Stop automatic spending and revisit with the cost of waiting visible | Repeating the same activity will become validation |
+
+Future peeking is prohibited. If two scenarios have the same observed history at the current time, the current recommendation cannot differ because a simulator knows that only one has a shock in month 6. Future branches can stress-test a common current action; they cannot impersonate information the person already has. A policy may diverge only after a new observation arrives.
+
+Staging does not require endless reversible micro-actions. After understanding visible risks, impacts and irreversible parts, the person may reasonably choose A or another major commitment. The system can expose gaps, prepare remedies and carry out an explicit delegation. It must not obstruct an appropriately confirmed direction merely because another path retains more cash.
+
+** How would we know life improved?
+Review at month 3, after actual shocks, when goals or obligations change, and before any change of execution authority. Do not wait for an arbitrary twenty-percent change. Any threatened explicit constraint, newly affected person, or failed key premise withdraws the corresponding recommendation. Month 6 can revisit care and whether preparation remains useful without assuming C* was extended.
+
+#+NAME: zhisheng-outcome-review-en
+| Observations to collect, not results already obtained | Improvement question and possible refutation |
+|-----------------------------------------------------+---------------------------------------------|
+| Actual essentials, parental support, and cash timing | Were commitments covered without hidden arrears or burdens shifted to family? |
+| Actual work, rest, and care arrangements | Was promised rest preserved, and who performed unrecorded work? |
+| Interview findings, capabilities, and next options | Was enough learned to change a decision, beyond completing task counts? |
+| Voluntarily reported stress, meaning, and satisfaction | Did preparation reduce burdens, or generate anxiety and postpone important life? |
+| Family and counterparty views, refusal, and exit | Could people participate knowingly rather than be silenced by success metrics? |
+
+Compare actual observations with prior assumptions, preserving unknowns and disagreement without creating a life-improvement score. Income or savings growth alone proves no improvement. Abandoning an unsuitable venture, pursuing meaningful risk, or ending a useless commitment may each succeed when supported by human purposes and actual effects.
+
+Presentation can also create implicit weight. Cash may be exact to the yuan while exhaustion, dignity and relationships remain no less important than table notes. The [[file:../40-sources/40.97-transformative-experience-evaluability.org][source note on evaluability bias]] motivates preserving calculations, personal accounts, affected people's experience and unknowns in their own forms. The remedy is not a score for meaning, but preventing easy-to-display reasons from gaining automatic authority.
+
+** Principle trace
+The case makes principles challengeable without promoting a draft directly into the charter.
+
+| Principle | Check in this case |
+|-----------+--------------------|
+| [[file:../10-charter/10.10-epistemology-and-uncertainty.org][EPI]] | Separate scenarios from facts; retain unknown revenue probabilities and withheld information |
+| [[file:../10-charter/10.20-temporality-and-causality.org][TEMP]] | Preserve interim shortfalls, event order, and causal assumptions |
+| [[file:../10-charter/10.30-human-agency.org][AGENCY]] | People supply ends; counterparties and families retain refusal |
+| [[file:../10-charter/10.40-action-and-authority.org][AUTH]] | Advice does not smuggle in signing, resignation, or spending authority |
+| [[file:../10-charter/10.50-proportional-assurance.org][ASSURE]] | Match analysis to impact; cash checks do not replace time and consent |
+| [[file:../10-charter/10.60-resilience-reversibility-optionality.org][RESIL]] | Prepare room to recover while recognizing the costs of waiting |
+| [[file:../10-charter/10.70-practical-learning.org][PRAXIS]] | Observed outcomes revise assumptions, recommendations, and next actions |
+* Counterexamples
+A branch violating an explicit constraint is infeasible in that branch; not all scenarios must fail first. This does not make enterprise worthless or establish another path as universally superior. With fewer resources than this example, narrow the feasible set honestly and seek verifiable help, rather than deleting essentials or compelling unpaid family work to make a table pass.
+
+Staging can also become indefinite delay or disguise three months without new evidence as continued learning. Conversely, a reasoned irreversible commitment should not be obstructed merely for being less safe. Adjustment rules need stopping conditions, visible waiting costs and the person's explicit commitment.
+* Provisional Conclusion
+A qualified output contains traceable scenarios, current gaps, bounded preparation advice, and an outcome-review method. Neither declare success from year-end cash nor offer only prohibitions without enabling action. Recommendations, simulations, and disclaimers confer neither execution authority nor regulatory exemption.
+* Questions That Remain
+Replay all declared revenue branches and extensions. Reject terminal recovery as a cure for earlier shortfalls and cash sufficiency as life feasibility. Repeat validation under changed population, resources, goals, and family relationships. Collect actual use and counterexample evidence before treating it as a shared principle; this synthetic case does not establish product effectiveness or implementation closure.
+
+Also verify that identical observation histories produce identical current advice and that future information never leaks into earlier decisions. Strategies should diverge only after new observations and should stop, redirect or support action when purposes change, evidence fails to arrive or a person undertakes a reasoned irreversible commitment.
+* Navigation
+[[file:../README.org][language index]]

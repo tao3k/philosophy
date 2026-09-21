@@ -1,0 +1,100 @@
+#+TITLE: After Efficiency: Time, Well-Being, and a Life Worth Living
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-100-EN
+:SEMANTIC_ID: philosophy.reflection.30.100-after-efficiency-time-and-good-life
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.100-after-efficiency-time-and-good-life.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.100-after-efficiency-time-and-good-life-en
+:END:
+When AI completes reports, comparisons, bookings and writing faster, does the saved time actually return to a person's life? If two fewer hours of administration merely produce a higher quota, a more fragmented evening and another system to watch, greater efficiency has not yet become well-being.
+
+This essay continues the second axis of [[file:30.99-shanjia-yuwu.org][Skillful Use of Things]]. It asks what conditions let technical gains become rest, relationships, care, curiosity and creation. Well-being here is experience to be heard, not a score everyone must keep positive.
+* Argument
+Efficiency can become life improvement only through reduced burden, returned time and energy, usable conditions and the person's continuing endorsement. The argument below keeps several voices of well-being distinct while protecting freedom to spend time on rest, relationships and activities without return.
+** Well-being is not one permanently positive feeling
+A person can be tired from caring for family while still endorsing that commitment. Another can have an easy day while feeling that life has lost direction. Life evaluation, present affect, and meaning or fulfilment matter together but cannot be added into one total. Sadness, anger, hesitation and difficulty sometimes answer real loss, injustice and commitment; they are not errors awaiting deletion.
+
+#+NAME: well-being-voices-en
+#+EXPLANATION: The same life must be heard through at least three voices that cannot replace one another.
+| What to hear | A possible question | A likely misreading |
+|--------------+---------------------+---------------------|
+| Life evaluation | Is this, on the whole, a life you wish to continue? | One satisfaction rating is a settled verdict |
+| Present affect | When have you lately felt at ease, anxious, angry or interested? | Every negative feeling should be removed quickly |
+| Meaning and engagement | Which relationships, duties and activities are worth effort to you? | Meaning means one should never tire or regret |
+
+The [[file:../40-sources/40.100-well-being-time-and-self-determination.org][source note on well-being, time and self-determination]] supplies measurement and evidence boundaries. It helps separate questions; it does not give AI standing to define anyone's happiness.
+
+** Every link from efficiency to a better life can break
+Efficiency establishes a change in inputs and outputs. It must pass through a life chain that is not automatic before it can become an endorsed improvement.
+
+#+NAME: efficiency-to-life-en
+#+EXPLANATION: This table records conditions that need separate confirmation between technical and life outcomes.
+| Link | Fact to establish | Common break |
+|------+-------------------+--------------|
+| Administrative burden falls | Did repetition, waiting and repair actually decrease? | The person now watches the system and cleans up errors |
+| Time and energy return to the person | Who decides how the saving is used? | An employer raises quotas or a household assigns more care |
+| Usable conditions exist | Is time continuous, is energy left, are space and companions available? | Only scattered minutes remain, or the person is exhausted |
+| The person enters an endorsed activity | Do they choose rest, company, learning, creation or something else? | The system prescribes a “more valuable” use |
+| Life actually improves | After time has passed, does the person still endorse the change? | Short excitement or platform retention stands in for well-being |
+
+“AI saved two hours” and “AI made life better” are therefore different claims. The second must hear the person, ask whether burdens moved to colleagues, family or a future self, and avoid crediting every improvement to AI.
+
+** Saved time need not prove its productivity again
+Technology should first reduce burdens a person does not wish to bear, not remove all effort. Searching repeatedly for a sound on a piano, walking slowly with a child or cooking for a friend may take time and still constitute life itself. A person may also use a free evening to sleep, wander or do nothing without submitting a growth receipt.
+
+Self-determination research on autonomy, competence and relatedness can remind us to ask whether someone has a say, can increasingly do what matters and remains connected to others. It is not a set of mandatory weights and cannot require every part of life to reach a maximum.
+
+** One household: a saved evening may still not belong to its members
+The case in [[file:30.95-life-after-job-loss.org][Life after job loss]] continues. She has found transitional work. AI helps organize reimbursements, compare courses and schedule interviews, saving the household some administrative time each week. She hoped to paint again, but the minutes are scattered between commuting and care. The system keeps recommending “monetizable work,” while relatives assume any spare time should go to further applications.
+
+The next helpful act is not another efficient schedule. It is to clarify what no longer needs attention, which stretch of time will not be claimed again, whether she has energy to pick up a brush, whether painting may remain only for herself, and how the household can protect that time. If she chooses sleep, that too may be a life improvement rather than a failed plan.
+
+** Observing life must not impose permanent self-surveillance
+One follow-up conversation, a story and a withdrawable record can be more fitting than continuous mood scoring. Inquiry should attend to actual burden, the person's endorsement, lived experience, and the ability to understand and correct a system's account. It should neither collapse well-being into one score nor make constant self-reporting the price of help.
+
+** Life conversions still to observe [0/4] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [ ] After work is removed, check whether monitoring, repair and explanation moved to relatives or colleagues.
+- [ ] Observe whether saved time is continuous and discretionary, with physical and emotional energy left to use it.
+- [ ] Let rest, relationships and creation without market return count as legitimate outcomes.
+- [ ] Ask separately whether life improved and how much of that change can reasonably be attributed to AI.
+
+** Argument progress [5/8] [62%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish life evaluation, present affect and meaningful engagement.
+- [X] Explain why painful feelings and difficulty need not be treated as errors.
+- [X] Unfold the conditions between efficiency and life improvement.
+- [X] Recognize rest and nonproduction as possible technical benefits.
+- [X] Let the continuing case show fragmented time and household negotiation.
+- [ ] Test whether time is genuinely returned across income, care and accessibility conditions.
+- [ ] Gather contrary experiences in which refusing or leaving AI made life better or worse.
+- [ ] Clarify how organizations and public institutions share efficiency gains instead of merely asking individuals to plan better.
+* Counterexamples
+First, some people genuinely want to put saved time into more work. A philosophy of rest must not disqualify that choice. The question is whether it remains a revisable choice, not which use is noble in advance.
+
+Second, subjective reports are shaped by adaptation, expectation and habits of expression. Present endorsement cannot be ignored, but neither does it settle coercion, missing information or costs borne by others.
+
+Third, some necessary activities are difficult. Reducing pain cannot mean abandoning care, public duty or long commitments; calling something meaningful cannot justify limitless endurance either.
+
+Fourth, research on time saving offers bounded average evidence. It does not establish that purchasing services or using AI will make every person happier. Income, labor conditions, culture and household arrangements change the result.
+* Provisional Conclusion
+After efficiency, the real questions are whether burden fell, whether time and energy returned to the person, whether conditions let them enter a life they endorse, and whether they can still say after living it for a while, “this is better for me.” No link can be replaced by model speed.
+
+Well-being can guide listening without becoming a score that rules life. AI can at most help reveal conditions, reduce unwanted burden and protect choice. What is worth effort, when to rest and which difficulties to accept must still form within human life.
+* Questions That Remain
+This account still needs longer experience across income, caring roles, age and ability, especially from people whose efficiency gains were taken by organizations, whose households absorbed monitoring work, or who declined continuous measurement. It must also separate personal choice from responsibility for labor institutions, public service and time poverty. OECD guidance, self-determination theory and time-purchase research provide bounded distinctions and evidence; none alone proves that Tao3k improves life.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.99-shanjia-yuwu.org][Skillful use of things]] · [[file:30.130-when-life-no-longer-hurries.org][When life no longer hurries]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]]

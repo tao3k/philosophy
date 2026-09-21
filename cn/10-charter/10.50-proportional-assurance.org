@@ -1,0 +1,66 @@
+#+TITLE: 比例证成 Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-CHARTER-CN-50
+:SEMANTIC_ID: philosophy.charter.proportional-assurance
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.50-proportional-assurance.org
+:PRINCIPLE_SET: PHIL-ASSURE-001
+:END:
+
+* 原则
+
+** 影响越大，所需证成越强
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-ASSURE-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-004 PHIL-005
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-proportional-assurance-cn
+:END:
+
+Required Assurance 随 irreversibility、impact radius、uncertainty 与 authority scope 增长。它是规范关系，不是假装精确的数学乘法。
+
+* 理由
+
+读取网页、编辑草稿、部署生产、转账、交易和医疗干预不应共享同一置信阈值与执行路径。
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]] · [[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][保留的 Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]]
+
+* 反对意见
+
+证成成本本身会造成延迟和伤害；紧急情形需要受控降级；低风险动作不应被高风险流程拖垮。
+
+* 工程后果
+
+Profile 根据风险选择 evidence、verification、approval、rollback 和 observation；降级必须留下理由与 receipt。
+
+* 失效模式
+
+用统一 LLM confidence 触发所有行动；只提高阈值却不增加独立证据；风险升级后仍沿用旧 profile。
+
+* 开放问题
+
+四个因素如何组合且避免表面量化？谁批准 emergency degradation？
+
+* 可追溯性
+
+| 原则 | 工程方向 | 下游所有者 | 状态 |
+|---+---+---+---|
+| PHIL-ASSURE-001 | [[file:../40-sources/40.40-formal-methods-proof-counterexample.org][来源说明]]；[[file:../30-reflections/30.10-knowledge-action-in-agent-age.org][保留的 Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] | draft |

@@ -1,0 +1,64 @@
+#+TITLE: Why Simulation Is Not Prediction
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:reflection:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-EN-30
+:SEMANTIC_ID: philosophy.reflection.simulation-not-prediction
+:DOC_KIND: reflection
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.30-simulation-is-not-prediction.org
+:END:
+
+* Question
+:PROPERTIES:
+:CUSTOM_ID: reflection-simulation-is-not-prediction-en
+:END:
+
+What claims can simulations, counterfactual trajectories, and bounded-horizon searches support, and what claims remain unsupported?
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]] · [[file:../10-charter/10.20-temporality-and-causality.org][target thematic Charter]]
+
+* Argument
+
+A simulation output is a candidate trajectory under an explicit model, initial state, parameters, intervention, and horizon. It first answers what the model permits and which paths fail if those commitments are accepted. It does not directly answer what the world will most probably do next, much less prove that entities outside the model obey the same mechanism.
+
+A prediction bears probability and calibration obligations. It identifies the forecast time, target population, time window, distributional conditions, and error, and its confidence must fall when outcomes repeatedly diverge. Even when a simulation repeatedly produces one path, run frequency is not real-world probability without observational grounding and calibration.
+
+A counterfactual makes a third kind of claim: what would have happened under another action. It depends on causal structure and comparability between possible worlds. Changing an input and rerunning a program is insufficient when the change breaks structural relations, omits common causes, or creates an unreachable initial state.
+
+Future-facing statements therefore need at least five epistemic states. Observed records what happened; predicted accepts calibration against what has not yet happened; simulated exposes trajectories inside a model; counterfactual compares hypothetical interventions; unknown marks what is not supported. These are authority constraints, not display labels. Simulation may explore, stress-test, and discover counterexamples, but cannot silently become a forecast, causal claim, or fact.
+
+Model evaluation also has two directions. Verification asks whether an implementation executes its declared model correctly; validation asks whether that model adequately represents the world for the present use. Passing the first does not imply the second, and historical calibration does not remove the need to inspect drift, institutional change, and human adaptation.
+
+** A candidate space is not a whole life
+In life simulation, the first hidden assumption may concern not probabilities but which futures deserve generation. Continuing a career, changing careers and starting a business omit care, rest, public participation and mixed ways of living. Even a large comparison set does not establish coverage of what matters to the person.
+
+Keep candidate origins and omissions discussable: which arise from expressed aspirations, which from available data, and which from familiar model patterns? People may propose unmodeled directions or reject the demand for one optimal trajectory. Cheap generation does not remove the need to check actual feasibility.
+
+** Displaying a future enters that future
+A student repeatedly described as unsuited to a field may try less; someone shown only a success story may underestimate exploration costs. These are mechanisms to investigate, not universal effects established here. [[file:../40-sources/40.96-performative-prediction.org][Performative prediction]] draws attention to conditions changing when a model is used.
+
+Distinguish inference about a world without the displayed advice from the situation after advice is displayed and adopted. A subsequent outcome is not independent proof that the original prediction was correct. Nor does feedback make prediction worthless. Explanation needs to account for display, understanding, action and changed conditions.
+
+** The horizon changes the question
+Next week's travel arrangements, a year of learning and a decade of changing identity should not share one precision promise. Nearby constraints can be checked concretely; distant futures call for directions, dependencies, branching conditions and occasions for reconsideration. Long-horizon exploration can inspire action without assigning a predetermined destination.
+
+* Counterexamples
+
+A rigorously calibrated model that remains answerable to outcomes may serve as both simulation and prediction. A digital twin can guide control inside a sensor-linked scope with known error, and model checking can prove properties of a closed transition system. The distinction lies in the evidence obligation carried by the conclusion, not in the tool's name.
+
+Conversely, requiring every simulation to become an accurate prediction would destroy its exploratory value. Extreme risks, unprecedented failures, and policy alternatives often must first be studied in models. The discipline is not to forbid them, but to prevent a possibility worth considering from being stated as a fact that will occur.
+
+* Provisional Conclusion
+
+Every future-facing claim should retain its epistemic type, model version, initial state, horizon, intervention, assumptions, and invalidation conditions. Simulation supplies a possibility space, prediction answers to real frequencies, and counterfactual reasoning answers to causal comparison. They may be composed, but must not impersonate one another. Downstream systems should use the type when deciding whether a claim may be displayed, ranked, authorized, or executed.
+
+* Questions That Remain
+
+Demonstrate rejection of at least four failures: treating simulation frequency as probability, extrapolating short-horizon success into long-term safety, treating input substitution as valid intervention, and treating verification as real-world validation. Also show that model expiry or world drift reduces downstream authority rather than merely changing a timestamp. Only then may an author draft a separate temporality-and-causality Principle citing this retained Reflection for Governance to review for Charter admission.
+
+Further review must cover omitted directions, advice-induced behavioral change and distant numerical precision concealing model boundaries. Permit grounded local forecasts; reflexivity must not excuse predictions from testing.

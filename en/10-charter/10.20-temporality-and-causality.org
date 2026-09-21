@@ -1,0 +1,66 @@
+#+TITLE: Temporality and Causality Charter
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:charter:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.en.v1
+:DOC_ID: PHIL-CHARTER-EN-20
+:SEMANTIC_ID: philosophy.charter.temporality-causality
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/10-charter/10.20-temporality-and-causality.org
+:PRINCIPLE_SET: PHIL-TEMP-001
+:END:
+
+* Principles
+
+** Simulation must not masquerade as prediction
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-TEMP-001
+:PRINCIPLE_STATUS: draft
+:PRINCIPLE_KIND: refinement
+:REFINES: PHIL-003
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: initial thematic proposal
+:END:
+
+* Claim
+:PROPERTIES:
+:CUSTOM_ID: charter-temporality-and-causality-en
+:END:
+
+Past, present, future, predicted, simulated, and counterfactual must not collapse. A future candidate is not an observed fact, a counterfactual trajectory is not a forecast, and no failure in a bounded horizon is not global absence.
+
+* Rationale
+
+A model output derives authority from its model, assumptions, data, calibration, and horizon; deleting those qualifiers manufactures false causality and certainty.
+
+[[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][retained Reflection]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]]
+
+* Counterarguments
+
+Calibrated forecasts and closed-model proofs remain valid when represented with their correct semantic type and evidence scope.
+
+* Engineering Consequences
+
+Temporal facts, forecasts, simulations, and counterfactuals use distinct types; APIs and UIs expose assumptions and horizon; negatives reject semantic downgrading.
+
+* Failure Modes
+
+A simulated probability is displayed as a real-world probability; a model edge is presented as an observed causal fact.
+
+* Open Questions
+
+How should model disagreement, model drift, and open-world horizons be represented?
+
+* Traceability
+
+| Principle | Engineering direction | Downstream owner | Status |
+|---+---+---+---|
+| PHIL-TEMP-001 | [[file:../40-sources/40.40-formal-methods-proof-counterexample.org][source note]]; [[file:../30-reflections/30.30-simulation-is-not-prediction.org][retained Reflection]] | [[file:../20-engineering/20.10-cross-repository-realization-map.org][cross-repository engineering map]] | draft |

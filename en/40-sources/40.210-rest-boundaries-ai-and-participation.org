@@ -1,0 +1,111 @@
+#+TITLE: Rest, Boundaries, AI Work Intensity, and Conditions for Participation
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-210-EN
+:SEMANTIC_ID: philosophy.source-note.40.210-rest-boundaries-ai-and-participation
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.210-rest-boundaries-ai-and-participation.org
+:SOURCE_ID: PHIL-SRC-210
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Tiaoxiejian; Liu Lu and Du Shizhong; Tonietto et al.; Tonietto and Malkoc; Dillon et al.; Ye and Ranganathan; China Youth Daily Social Survey Center; Hartmut Rosa; Pritzker Architecture Prize; Shanghai Municipal Government; The Paper
+:SOURCE_WORK: The Annual Keyword Rest; rest shame among doctoral students; Viewing leisure as wasteful undermines enjoyment; The Calendar Mindset; Shifting Work Patterns with Generative AI; Does AI Actually Free up Workers Time; work-life boundary survey; resonance interview; Liu Jiakun laureate citation; Changshou Park renewal; the sea at Ditan Park
+:SOURCE_EDITION: linked publications and institutional summaries
+:SOURCE_DATE: 2016; 2021; 2025; 2026
+:SOURCE_LANGUAGE: zh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Huxiu 2026 rest narratives; CCNU 2025 rest shame; JESP 2021 leisure belief; JMR 2016 scheduling; NBER 2025 generative AI field experiment; UC Berkeley 2026 ethnography; CYOL 2026 boundary survey; Hartmut Rosa 2016 interview; Pritzker 2025 Liu Jiakun citation; Shanghai 2025 Changshou Park report; The Paper 2024 Ditan report
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: rest, temporal authority, AI work intensity, public space, and conditions for participation
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.210-rest-boundaries-ai-and-participation-en
+:END:
+This is a cross-method synthesis. It does not treat personal narrative, survey, experiment,
+ethnography, working paper, interview, and design case as equivalent evidence. Each source bears only a
+bounded part of the account.
+
+#+NAME: rest-time-participation-sources-en
+#+EXPLANATION: The table records both what each source can illuminate and what it cannot establish, preventing a situated observation from becoming a universal causal law.
+| Material | Type and scope | Use in this account | It does not establish |
+|----------+----------------+---------------------+-----------------------|
+| [[https://www.huxiu.com/article/4822815.html][“The Annual Keyword: Rest”]] | Ten personal accounts from an offline Tiaoxiejian gathering, republished by Huxiu | People may stop working yet still need to prove time useful | That these accounts represent all young people |
+| [[https://ime.ccnu.edu.cn/info/1026/6488.htm][Liu Lu and Du Shizhong on rest shame]] | Conceptual and institutional analysis situated among doctoral students | Moralized effort, time, and success can make rest shameful | That all difficulty resting comes from self-discipline or universities |
+| [[https://doi.org/10.1016/j.jesp.2021.104198][Viewing leisure as wasteful undermines enjoyment]] | Four studies, total =n=1310 | Viewing leisure as wasteful is associated with lower enjoyment, especially for leisure pursued as an end | That belief change alone removes material constraints |
+| [[https://doi.org/10.1509/jmr.14.0591][The Calendar Mindset]] | Thirteen studies of scheduling leisure | Precise scheduling can make leisure more work-like; rough scheduling can preserve fluidity | That appointments, routine, and calendars are generally harmful |
+| [[https://doi.org/10.3386/w33795][Shifting Work Patterns with Generative AI]] | Six-month randomized experiment across 66 firms and 7,137 knowledge workers; a 2025 working paper | Email time and after-hours work can fall for active tool users | That AI shortens work in every organization or that the paper is peer-reviewed |
+| [[https://vcresearch.berkeley.edu/news/does-ai-actually-free-workers-time][Does AI Actually Free up Workers’ Time?]] | Eight-month ethnography in an approximately 200-person technology firm; research in progress | AI can accompany faster pace, wider task scope, and parallel supervision | That AI alone caused every change or that the result applies to all occupations |
+| [[https://news.cyol.com/gb/articles/2026-03/26/content_99qlzPUa3x.html][Work-life boundary survey]] | Media survey of 1,335 respondents | Boundary loss takes concrete forms such as after-hours replies, unexpected work, and cancelled weekends | Population representativeness or that personal time management is a sufficient explanation |
+| [[https://ageofartists.org/en/aoa-erkenntnisse/its-impossible-to-create-resonance-at-a-certain-time/][Interview with Hartmut Rosa]] | Theoretical interview on art, work, and resonance | Conditions may be cultivated, but meaningful response cannot be booked for an hour | That resonance is a product KPI or can be certified for someone from outside |
+| [[https://www.pritzkerprize.com/laureates/liu-jiakun][Liu Jiakun laureate citation]] | A prize jury’s interpretation of works and practice | Density, openness, and the life brought by publics can form one design problem | That one awarded project proves equal participation by all users |
+| [[https://www.shanghai.gov.cn/nw4411/20250114/bd306736f656473883f69692c5c30dcd.html][Changshou Park renewal report]] | Shanghai municipal report on one project | Around-the-clock opening and 49 added seats are verifiable spatial conditions | That hours and seat counts prove safety, accessibility, and belonging |
+| [[https://www.thepaper.cn/newsDetail_forward_27515696][The “sea” on a Ditan Park wall]] | Media report on a public practice of seeing and photographing | Meaning in an ordinary place can be produced by attention and shared narration | That a popular photo location necessarily means aesthetic autonomy or public value |
+* Context
+The sources occupy three contexts that cannot substitute for one another.
+
+The first concerns how rest is understood. Personal accounts provide experiential openings; the analysis
+of doctoral students’ rest shame places experience within self, technical, and institutional discipline;
+consumer and social psychology studies test how waste beliefs and precise scheduling relate to experience.
+Together they resist reducing rest to recovery for work, but do not prove one ideal form of rest.
+
+The second concerns time after AI enters work. Random assignment in the NBER working paper supports a
+specific average-effect claim in participating firms, including the important non-result that task
+composition did not measurably change. The Berkeley ethnography can see pace, concurrent work, and
+self-expansion of responsibility, but it is not randomized and remains in progress. One shows that relief
+can occur; the other shows how capability can be converted by people and organizations into more work.
+The divergence is itself a result requiring explanation.
+
+The third returns time to social and material surroundings. The boundary survey shows that apparent
+leisure may remain on call. Rosa argues that meaningful response cannot be produced to order. Park and
+architecture materials show that without accessible places to remain without constant consumption, time
+does not readily become participation. The Ditan “sea” adds that beauty is not merely delivered by a
+designer or recommender; ordinary attention can make it.
+* Interpretation Boundaries
+This synthesis does not prove that more rest is always better, that less planning is always better, or
+that quiet, solitude, and slow life are universal answers. It must not romanticize gaps created by job
+loss, poverty, illness, or exclusion as “room.” Continuous time, rough scheduling, and public seating mean
+different things under different care obligations, bodily conditions, cultures, and relationships.
+
+Nor may the two AI studies be collapsed into a net-effect number. Their tools, organizations, methods,
+adoption, and measures differ. Two fewer weekly email hours do not equal two net hours of free life; denser
+work does not prove that every participant rejects the effort. The sources support branching hypotheses
+and tests, not a verdict that AI necessarily liberates or accelerates.
+
+Vendor, media, government, and prize materials select and frame what they present. A link verifies a public
+claim; it is not independent acceptance of real-world effect. Any product or governance claim still needs
+participant experience, counterexamples, revocable consent, and observation of displaced burdens.
+* Influence
+These sources do not directly add a Charter Principle. They make Reflection questions more precise: from
+“how much time was saved?” to duration, continuity, on-call boundaries, refusal, burden distribution, and
+authority over use; from “what activity should be recommended?” to conditions in which experience may
+occur; and from “AI can do more” to whether capability expansion permits a person to carry less.
+
+They also constrain [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]], [[file:../30-reflections/30.150-beyond-the-bill.org][Beyond the Bill]], [[file:../30-reflections/30.160-beauty-in-everyday-life.org][Beauty in Everyday Life]], and
+[[file:../30-reflections/30.170-when-less-use-is-good.org][When Less Use Is Good]]: a bill cannot decide what matters, a plan cannot exhaust an experience, beauty
+cannot be standardized by a platform, and reduced use cannot be declared successful without the person’s
+account.
+* Interpretation Chain
+Personal rest narratives + analysis of rest shame + studies of leisure belief and scheduling
+→ free time can remain governed by the scale of production; rest need not be justified by future output.
+
+Boundary survey + randomized AI experiment + AI ethnography
+→ calendar blankness, automation savings, and disposable time are different quantities; AI’s consequences
+depend on how organizations allocate added capability.
+
+Rosa interview + Changshou Park + Liu Jiakun citation + the Ditan practice of seeing
+→ experiences cannot be booked, but they require approachable places and conditions in which people may
+remain, participate, and alter a shared world.
+
+All three chains enter [[file:../30-reflections/30.210-why-freed-time-does-not-return.org][Why Did Freed Time Not Return to Life?]]. The move from sources to protected
+continuous time, refusal of further demands, and freedom from proving meaning is Tao3k’s modern synthesis.
+It belongs to no single source and has not been admitted by Governance as a Principle.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.210-why-freed-time-does-not-return.org][Freed time]] · [[file:40.140-unfilled-space-and-rest.org][Room and rest]] · [[file:40.130-leisure-interest-and-ordinary-experience.org][Leisure and ordinary experience]]

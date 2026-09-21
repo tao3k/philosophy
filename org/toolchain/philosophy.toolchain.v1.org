@@ -1,0 +1,14 @@
+#+TITLE: Philosophy Toolchain Contract
+
+:PROPERTIES:
+:TOOLCHAIN_CONTRACT_ID: philosophy.toolchain.v1
+:ORGIZE_REPOSITORY: https://github.com/tao3k/orgize
+:ORGIZE_REVISION: 52d315155ebbba917f0694068444d3bbde5f9920
+:ORGIZE_CAPABILITY: contract-workspace-summary-receipt.v1
+:END:
+
+* Admission
+
+The repository gate MUST use the exact clean Orgize source revision above. The expected capability is
+the parser-owned workspace contract evaluator and its stable summary receipt; no second Org parser or
+shell-owned semantic validation is permitted.

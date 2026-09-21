@@ -1,0 +1,42 @@
+#+TITLE: 波普尔：可证伪性与经验主张
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-70-CN
+:SEMANTIC_ID: philosophy.source.popper-falsifiability
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.70-popper-falsifiability.org
+:SOURCE_ID: source.sep.pseudo-science
+:SOURCE_KIND: SECONDARY
+:SOURCE_AUTHOR: Sven Ove Hansson
+:SOURCE_WORK: Science and Pseudo-Science / Stanford Encyclopedia of Philosophy
+:SOURCE_EDITION: 2025-07-28
+:SOURCE_DATE: 2025-07-28
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source.popper-falsifiability
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source.popper-falsifiability-cn
+:END:
+本条依据 [[https://plato.stanford.edu/entries/pseudo-science/][SEP 的 Science and Pseudo-Science 条目]]，记录 Popper falsifiability 在 demarcation 问题中的位置及其后续批评。它不是对 Popper 全部科学哲学的概括。
+* 语境
+Popper 反对用可验证性作为经验科学的边界，要求科学陈述能够与某些可能观察发生逻辑冲突。条目同时说明，falsifiability 并不是科学实践的完整定义，单一划界标准可能排除合法科学或错误纳入伪科学；接受反驳的方法规则也与句子形式同样重要。
+* 解释边界
+可证伪性主要约束经验性陈述，不能直接套到 dignity、agency 或 proportional assurance 等规范原则。一次异常也未必单独推翻理论，因为测量、背景假设与替代解释仍需审查。Tao3k 因此不采用“所有内容都必须可证伪”的口号。
+* 影响
+它支撑经验 claim 必须预先暴露可能失败的观察条件，并进入 [[file:../30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]] 中对 empirical、causal、normative 三类权威的区分。
+* 解释链
+SEP 条目 → Popper 的 demarcation 与 falsifiability → 对该标准边界的批评 → Tao3k 的经验主张失败条件。规范性 challenge 路径是本仓库的进一步综合，不反向归于 Popper。
+* 导航
+[[file:../README.org][导航]]

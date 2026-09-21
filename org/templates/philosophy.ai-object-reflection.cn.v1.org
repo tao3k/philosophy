@@ -1,0 +1,44 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:cn:reflection:ai-object-shift:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.cn.v1 philosophy.ai-object-reflection.cn.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: <COUNTERPART>
+:AI_OBJECT_TOPIC: interaction-object-shift
+:INTERACTION_OBJECTS: <INTERACTION_OBJECTS>
+:LEGACY_REFERENCE_ROLE: historical-baseline
+:NORMATIVE_STATUS: reflection-only
+:END:
+* 问题
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+# 在提交前写明对象变化带来的问题；空章节不会通过合约。
+* 论证
+** 传统对象与适用边界
+# 说明传统标准面对的人、界面与软件关系，以及它到哪里为止。
+** 对象变革
+# 说明对象怎样变成人与 AI、受 AI 中介的人，或直接行动的 Agent。
+** 判断
+# 写出当前可争辩、可修正的判断，而不是能力口号。
+** 论证与辩论场景
+# 用具体场景让支持理由和反方理由同时面对后果。
+| 场景 | 支持当前判断的理由 | 反方理由 | 会改变判断的证据 |
+|------+--------------------+----------+------------------|
+| 待写 | 待写 | 待写 | 待写 |
+** 原则与治理边界
+# 说明本文仍是 Reflection；哪些内容只能另写 Principle，哪些问题属于 Governance。
+* 反例
+# 在提交前写明反例或可证伪条件。
+* 暂定结论
+# 在提交前写明暂定结论及其不确定性。
+* 仍需面对的问题
+# 在提交前写明尚未听见的声音、未解决的反例与仍需经历的现实检验。
+* 导航
+[[file:../../README.org][语言入口]]

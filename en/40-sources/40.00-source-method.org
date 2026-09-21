@@ -1,0 +1,75 @@
+#+TITLE: Source and Interpretation Method
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:en:source:
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-EN-001
+:SEMANTIC_ID: philosophy.source.interpretation-method
+:DOC_KIND: source-note
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.00-source-method.org
+:SOURCE_ID: philosophy.source-method.v1
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Tao3k
+:SOURCE_WORK: 来源与解释方法 / Source and Interpretation Method
+:SOURCE_EDITION: 1
+:SOURCE_DATE: 2026-09-20
+:SOURCE_LANGUAGE: en-and-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Tao3k philosophy source corpus and governance practice
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: repository-method
+:END:
+
+* Source
+:PROPERTIES:
+:CUSTOM_ID: source-method-en
+:END:
+
+The source layer admits classical Chinese thought, modern philosophy of
+science, formal methods, and computer-systems thought into shared inquiry. See
+the [[file:../README.org][English root]] for repository navigation.
+
+| SOURCE_KIND | Meaning | Minimum locator |
+|-------------+---------+-----------------|
+| PRIMARY | First-hand material from an author, institution, or system | Edition, passage, or stable locator |
+| SECONDARY | Scholarly interpretation of primary material | Author, publication, edition, and argumentative scope |
+| SYNTHESIS | Explicit Tao3k synthesis across sources | Constituent sources, interpretive distance, and counterexample boundary |
+| ENGINEERING_EVIDENCE | Time-bound observation of current engineering state | Repository, revision, RFC/path, and observation date |
+
+* Context
+
+Concepts from Wang Yangming, Gu Yanwu, or modern thinkers retain their
+historical context. They are not a vocabulary to map directly onto protocol fields.
+
+* Interpretation Boundaries
+
+The unity of knowledge and action can inspire a closed knowledge-action loop,
+but does not prove one agent architecture correct. Practical learning can
+constrain purpose without reducing human value to utility maximization.
+
+* Influence
+
+A source may inform a Reflection. If the argument supports a normative proposal,
+an author must write a separate Principle that cites both the source and the
+retained Reflection. Governance requires its counterexamples, boundaries, and
+engineering consequences to be reviewed before deciding admission; it does not
+supply the Principle's normative content. Neither citation nor Reflection confers
+normative authority.
+
+* Interpretation Chain
+
+Source identity and historical context are recorded first; the interpretation
+declares whether it is direct, analogical, or modernized; Reflection tests its
+counterexamples and boundaries; a separately authored draft Principle may cite
+that retained Reflection; Governance alone decides whether to admit the Principle
+to Charter, after which an Engineering Map separates requirements from realization.
+
+=edition-pending= and =evidence-pending= are disclosed gaps; they must not be presented as completed
+source grounding.

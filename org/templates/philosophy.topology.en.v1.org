@@ -1,0 +1,32 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:topology:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: topology
+:DOC_STATUS: proposed
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:TOPOLOGY_ID: <TOPOLOGY_ID>
+:PATH_POLICY: closed-world
+:NAVIGATION_ROOT: ../README.org
+:END:
+* Path ownership
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+| Path | Document kind | Authority |
+|------+---------------+-----------|
+| =00-topology/= | topology | repository structure |
+* Topology
+#+begin_src mermaid :exports results :file topology.svg
+flowchart LR
+  ROOT[Language index] --> CONTENT[Maintained content]
+#+end_src
+* Boundaries
+# Before submission, state the owned paths, exclusions, and migration boundary.
+* Navigation
+Return to the [[file:../README.org][language index]].

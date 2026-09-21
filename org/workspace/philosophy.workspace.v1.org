@@ -1,0 +1,392 @@
+#+TITLE: Philosophy Workspace Contract
+
+:PROPERTIES:
+:WORKSPACE_CONTRACT_ID: philosophy.workspace.v1
+:IGNORE_DIRS: .git .data .devenv target
+:END:
+
+* Root index
+:PROPERTIES:
+:PATH: README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.repository-index.v1
+:END:
+
+* CN language index
+:PROPERTIES:
+:PATH: cn/README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN language index
+:PROPERTIES:
+:PATH: en/README.org
+:PATH_KIND: file
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.language-index.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN topology
+:PROPERTIES:
+:PATH: cn/00-topology
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN topology
+:PROPERTIES:
+:PATH: en/00-topology
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.topology.v1 philosophy.repository-topology.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN charter
+:PROPERTIES:
+:PATH: cn/10-charter
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.charter.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-node-properties-equal
+  (identity "PRINCIPLE_ID")
+  (properties
+    "PRINCIPLE_STATUS"
+    "PRINCIPLE_KIND"
+    "NORMATIVE_LEVEL"
+    "SCOPE"
+    "REVISION"
+    "REFINES"
+    "SUPERSEDES"
+    "SUPERSEDED_BY"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "REFINES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "SUPERSEDES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true)
+  (reciprocal "SUPERSEDED_BY"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "SUPERSEDED_BY")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true)
+  (reciprocal "SUPERSEDES")
+  (target-property "PRINCIPLE_STATUS" (allow "accepted" "superseded")))
+#+end_src
+
+* EN charter
+:PROPERTIES:
+:PATH: en/10-charter
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.charter.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-node-properties-equal
+  (identity "PRINCIPLE_ID")
+  (properties
+    "PRINCIPLE_STATUS"
+    "PRINCIPLE_KIND"
+    "NORMATIVE_LEVEL"
+    "SCOPE"
+    "REVISION"
+    "REFINES"
+    "SUPERSEDES"
+    "SUPERSEDED_BY"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "REFINES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "SUPERSEDES")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true)
+  (reciprocal "SUPERSEDED_BY"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source node-property "SUPERSEDED_BY")
+  (target node-identity "PRINCIPLE_ID")
+  (allow "none")
+  (exclude-self true)
+  (acyclic true)
+  (reciprocal "SUPERSEDES")
+  (target-property "PRINCIPLE_STATUS" (allow "accepted" "superseded")))
+#+end_src
+
+* CN engineering map
+:PROPERTIES:
+:PATH: cn/20-engineering
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.engineering-map.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "PRINCIPLE_REF"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source document-property "PRINCIPLE_REF")
+  (target node-identity "PRINCIPLE_ID"))
+#+end_src
+
+* EN engineering map
+:PROPERTIES:
+:PATH: en/20-engineering
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.engineering-map.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "PRINCIPLE_REF"))
+#+end_src
+#+begin_src org-contract
+(assert workspace-reference
+  (source document-property "PRINCIPLE_REF")
+  (target node-identity "PRINCIPLE_ID"))
+#+end_src
+
+* CN AI object-shift reflection topic
+:PROPERTIES:
+:PATH: cn/30-reflections/ai-object-shift
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.cn.v1 philosophy.ai-object-reflection.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "AI_OBJECT_TOPIC"
+    "INTERACTION_OBJECTS"
+    "LEGACY_REFERENCE_ROLE"
+    "NORMATIVE_STATUS"))
+#+end_src
+
+* EN AI object-shift reflection topic
+:PROPERTIES:
+:PATH: en/30-reflections/ai-object-shift
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "AI_OBJECT_TOPIC"
+    "INTERACTION_OBJECTS"
+    "LEGACY_REFERENCE_ROLE"
+    "NORMATIVE_STATUS"))
+#+end_src
+
+* CN reflection
+:PROPERTIES:
+:PATH: cn/30-reflections
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+
+* EN reflection
+:PROPERTIES:
+:PATH: en/30-reflections
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+
+* CN source note
+:PROPERTIES:
+:PATH: cn/40-sources
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.source-note.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "SOURCE_ID"
+    "SOURCE_KIND"
+    "SOURCE_AUTHOR"
+    "SOURCE_WORK"
+    "SOURCE_EDITION"
+    "SOURCE_DATE"
+    "SOURCE_LANGUAGE"
+    "SOURCE_REPOSITORIES"
+    "SOURCE_REVISIONS"
+    "SOURCE_PATHS"
+    "OBSERVATION_DATE"
+    "CONSTITUENT_SOURCES"
+    "INTERPRETATION_STATUS"
+    "CLAIM_SCOPE"))
+#+end_src
+
+* EN source note
+:PROPERTIES:
+:PATH: en/40-sources
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.source-note.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "SOURCE_ID"
+    "SOURCE_KIND"
+    "SOURCE_AUTHOR"
+    "SOURCE_WORK"
+    "SOURCE_EDITION"
+    "SOURCE_DATE"
+    "SOURCE_LANGUAGE"
+    "SOURCE_REPOSITORIES"
+    "SOURCE_REVISIONS"
+    "SOURCE_PATHS"
+    "OBSERVATION_DATE"
+    "CONSTITUENT_SOURCES"
+    "INTERPRETATION_STATUS"
+    "CLAIM_SCOPE"))
+#+end_src
+
+* CN governance
+:PROPERTIES:
+:PATH: cn/90-governance
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.governance.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "GOVERNANCE_ID" "LIFECYCLE_ID"))
+#+end_src
+
+* EN governance
+:PROPERTIES:
+:PATH: en/90-governance
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.governance.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties "GOVERNANCE_ID" "LIFECYCLE_ID"))
+#+end_src
+
+* Contract registries
+:PROPERTIES:
+:PATH: org/contracts
+:PATH_KIND: directory
+:ROLE: support
+:END:
+
+* Authoring templates
+:PROPERTIES:
+:PATH: org/templates
+:PATH_KIND: directory
+:ROLE: support
+:END:
+
+* Workspace policies
+:PROPERTIES:
+:PATH: org/workspace
+:PATH_KIND: directory
+:ROLE: support
+:END:
+
+* Toolchain contracts and receipts
+:PROPERTIES:
+:PATH: org/toolchain
+:PATH_KIND: directory
+:ROLE: support
+:END:

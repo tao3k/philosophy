@@ -1,0 +1,178 @@
+#+TITLE: Tao3k 宪章：知—辨—证—行—验
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-20
+#+FILETAGS: :philosophy:cn:charter:
+#+OPTIONS: toc:2 num:nil
+
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.charter.cn.v1
+:DOC_ID: PHIL-001-CN
+:SEMANTIC_ID: philosophy.charter.knowledge-action-loop
+:DOC_KIND: charter
+:DOC_STATUS: proposed
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/10-charter/10.00-tao3k-charter.org
+:PRINCIPLE_SET: PHIL-001..PHIL-007
+:END:
+
+* 主张
+:PROPERTIES:
+:CUSTOM_ID: charter-claim-cn
+:END:
+
+AI 系统中的知与行必须形成受证据、证成和权限约束的闭环：
+=知 → 辨 → 证 → 行 → 验 → 知=。
+
+* 原则
+
+** 知须有据
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-001
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：使知识主张可追溯。
+:END:
+
+知识主张必须携带来源、身份、代际与 provenance。
+
+** 未知不可伪造
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-002
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：保存未知与覆盖边界。
+:END:
+
+未知不等于假，不完整覆盖不得被合理化补全。
+
+** 关系不得坍缩
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-003
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：保存推理关系的语义。
+:END:
+
+关系推理必须保留依赖、因果、时间、支持与冲突。
+
+** 判断与证明分离
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-004
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：区分判断、证成与证据充分性。
+:END:
+
+判断必须与证明、验证和证据充分性区分。
+
+** 提议、决策、授权与执行分离
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-005
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：防止行动权限坍缩。
+:END:
+
+提议、决策、授权和执行不得坍缩。
+
+** 人的主体性
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-006
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：使优化从属于人的意义与后果。
+:END:
+
+人的 agency 是不变量；优化从属于意义、约束和后果。
+
+** 结果重新进入知识
+:PROPERTIES:
+:PRINCIPLE_ID: PHIL-007
+:PRINCIPLE_STATUS: proposed
+:PRINCIPLE_KIND: foundational
+:REFINES: none
+:NORMATIVE_LEVEL: must
+:SCOPE: tao3k
+:REVISION: 1
+:SUPERSEDES: none
+:SUPERSEDED_BY: none
+:CHANGE_RATIONALE: 初始提案：闭合行动、观察与知识修订。
+:END:
+
+行动结果必须重新成为观察，使旧知可复用或失效。
+
+* 理由
+
+参数记忆不是可审计的知，可信度不是事实，工具成功也不是任务完成。真实世界有
+历史、因果和不可逆后果；Agent 不能被简化为 =prompt → response=。
+
+* 反对意见
+
+这个框架可能增加低风险任务的成本；形式化证成无法覆盖价值判断的全部语境；
+人的授权也可能错误。它们要求分级证据与可撤销权限，而不是取消边界。
+
+* 工程后果
+
+- =proposal != decision != authority != execution=。
+- 越不可逆的行动，需要越强证据与越窄权限。
+- Receipt 是复验与知识更新的输入，不是日志装饰。
+
+* 失效模式
+
+把 confidence 当 truth、把缺失值静默变成 false、从目标函数直接推出人的应当、
+只记录调用成功而不观察世界变化，均违反此宪章。
+
+* 开放问题
+
+不同风险域的证成如何分级？紧急自动化如何保留可撤销的人类 agency？观察冲突时
+旧知何时仍可使用？
+
+* 可追溯性
+
+| 原则 | 工程方向 | 下游所有者 |
+|------+----------+------------|
+| PHIL-001 | semantic identity、GenerationId、SourceBinding；物理 snapshot 分层 | MRR；mrr-data（仅物理层） |
+| PHIL-002 | unknown frontier、coverage、blocked | MRR / Aitia |
+| PHIL-003 | typed relation、WHY、WHY-NOT、IMPACT、Temporal Causality | MRR / POO Flow |
+| PHIL-004 | obligation、verifier evidence、generic verifier handoff | Aitia / POO Flow |
+| PHIL-005 | ExecutionAuthority、policy boundary | ASP / Marlin |
+| PHIL-006 | consent、reversibility、optionality、vertical policy meaning | 产品与 Profile 所有者 / Episteme |
+| PHIL-007 | receipt、observation、invalidation | POO Flow / MRR |
+
+细化见 [[file:../20-engineering/20.00-knowledge-action-map.org][工程映射]]。

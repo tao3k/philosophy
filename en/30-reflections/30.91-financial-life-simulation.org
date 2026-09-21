@@ -1,0 +1,73 @@
+#+TITLE: Zhisheng: Preparedness, Financial Resilience, and Life Choices
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-91-EN
+:SEMANTIC_ID: philosophy.reflection.financial-life-simulation
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.91-financial-life-simulation.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.financial-life-simulation-en
+:END:
+When AI participates in life and financial choices, what kind of life does it help people sustain, beyond completing transactions? Zhisheng places market exchange inside this broader question.
+
+[[file:../40-sources/40.91-cfpb-financial-well-being.org][Financial well-being source]] · [[file:../40-sources/40.92-life-cycle-finance.org][Life-cycle finance source]] · [[file:30.94-financial-life-stress-test.org][Reproducible Zhisheng case]]
+* Argument
+Zhisheng is a life and financial decision-support system for ordinary people. Through composable life states, temporal causality, counterfactual simulation, and explainable reasoning, it helps people understand how consequential choices affect long-term financial resilience and agency, rather than telling them what to trade. This is a proposed orientation to test, not a claim of an implemented product.
+
+#+begin_quote
+Life is the purpose; wealth is a means. Prepare ahead and preserve room to maneuver so people can choose the lives they are willing to undertake.
+#+end_quote
+
+** From transactions to conditions for living
+Wealth matters through sustainable conditions for living: meeting essentials and care obligations, recovering from disruption, and having room to rest, learn, work, and take meaningful risks. High net worth does not automatically mean a good life; people with fewer resources are not failed optimizers. Support should identify feasible help, dispensable commitments, and missing information without blaming structural hardship on insufficient thrift.
+
+Success may be a suitable purchase, no transaction, repairing an existing item, ending an unwanted commitment, learning enough, or choosing a worthwhile risky project. Transaction volume, savings rate, minimum risk, and time spent using the model cannot independently define success. Stress scenarios need response options and stopping conditions, not anxiety-driven sales of insurance, loans, or extra services.
+
+** Three interpretations of preparedness
+These are contemporary interpretations of familiar Chinese sayings, not claims that their historical users anticipated modern financial models.
+
+#+NAME: zhisheng-preparedness-en
+| Idea | Positive capability | Necessary boundary |
+|------+---------------------+--------------------|
+| 未雨绸缪: prepare before the rain | Identify gaps and prepare bounded alternatives before committing | Neither prophesy disaster nor collect information forever |
+| 居安思危: consider disruption in security | Understand dependencies on income, health, and support, and plan recovery | Resilience should also enable enterprise, relocation, and learning |
+| 量入为出: align commitments with resources | Make intertemporal obligations sustainable and expose double commitments | Not extreme frugality; education, debt, or temporarily lower income may be justified |
+
+Preparation costs money, time, opportunities, and vigilance. Agree what preparation is sufficient and when to continue, change, or stop, rather than indefinitely postponing life. [[file:30.93-intertemporal-agency.org][Intertemporal Agency]] explores this limit.
+
+** Life states can compose; people cannot be exhausted by a model
+LifeState is a bounded decision view containing money, time, space, attention, obligations, risk, and options, with sources, dates, assumptions, unknowns, and affected people. Composition reveals that the same reserve cannot fully fund enterprise, care, and housing simultaneously, and that one evening cannot simultaneously provide paid work, care, and recovery. It does not reduce these dimensions to one utility.
+
+Resigning before a housing commitment and validating income before deciding on housing can produce different interim failures, exit costs, and options even with identical year-end net worth. Simulation must preserve event order and constraints along the path. People may withhold private information; undisclosed obligations are not absent. State which conclusions this prevents and permit coarser range analysis rather than demanding total surveillance.
+
+** Price is evidence; value belongs to a particular life
+Market price is not personal value. AskPrice, AcceptedOffer, CompletedSale, NetProceeds after costs, and DaysToSale are distinct evidence. Preserve condition, timing, shipping, fees, and bias from missing unsold items. Without completed-sale evidence, asking prices do not establish attainable net proceeds or sale probabilities.
+
+Consider a camera seller who is not in urgent need of cash, requires net proceeds of at least 250, and hopes for more than 290. Quick sale, ordinary waiting, and longer waiting are discussable options, not known payoff curves. Where fees, shipping, or willingness to wait are unknown, ask or present conditional ranges; do not silently prefer speed. A net-proceeds floor is not an asking-price floor.
+
+For a laptop buyer with a 1,500 budget and travel savings to preserve, first ask which capability the current laptop lacks. Compare repair, with price and effectiveness still unknown, a new 1,200 device, a new 1,600 device, and no purchase yet. The 1,600 option exceeds the current authorized budget; possible longevity does not authorize it. The 1,200 option is not necessarily better than repair or travel. Counterparties also need informed choice: concealed defects, invented scarcity, and pressure tactics are not legitimate ways to advantage the user.
+
+** From analysis to challengeable recommendations
+Retain alternatives and their incommensurable tradeoffs in a choice frontier. Exclude paths violating explicit constraints and offer reasoned conditional recommendations under priorities people have stated. Unknown preferences stay unknown: the system cannot silently decide how much two extra weeks are worth. Recommendations need reasons, alternatives, sacrifices, invalidation conditions, and a way to refuse. Analysis should be proportionate to impact; a small reversible purchase does not require a complete life model.
+
+Simulation describes possible processes under assumptions, not inevitable success. Unsupported scenario probabilities must not masquerade as a Monte Carlo success rate. Decision support can be comprehensive while decision authority remains limited; [[file:30.92-stewardship-not-sovereignty.org][Stewardship, Not Sovereignty]] defines the delegation boundary.
+** Zhisheng is an entry, not all of life
+Financial conditions affect many choices without turning every question into wealth management. Learning need not aim at income; caring for a relative does not require an emotional return calculation; participation after retirement need not establish productivity. Zhisheng should clarify how material conditions support these purposes while recognizing that it cannot define their value.
+
+This essay is therefore a practical entry into [[file:30.96-living-with-ai.org][life and AI]], not a total model. Education, changed abilities, relocation, creation and public life require their own facts and interpretations. Resource scarcity also calls for discussion of [[file:30.97-shared-lives-and-responsibility.org][relationships and responsibility]], not an assumption that reallocation within a budget can absorb every difficulty.
+
+* Counterexamples
+Rejecting every summary can leave people unable to act; meaningful local money totals, time budgets, and conditional rankings are necessary. Conversely, elaborate models can omit care, shame, dignity, and relationships while manufacturing certainty. More preparation can lose opportunities; more options can increase burden. Zhisheng must not universalize comfortable middle-class resources or treat a family as an automatically consenting shared objective function.
+* Provisional Conclusion
+Zhisheng starts from life purposes to ask whether exchange is needed, what preparation helps, and when analysis should stop. AI contributes positively by making gaps visible, paths comparable, and commitments understandable so people can act. It does not own the definition of a successful life.
+* Questions That Remain
+Test resource scarcity, withheld information, family disagreement, and deliberately chosen risk. Demonstrate actionable conditional recommendations with refusal and no-trade options; detection of double-booked cash and time; sufficient-preparation conditions; observations indicating improved life; and withdrawal of conclusions when goals change. Financial regulatory boundaries require jurisdiction-specific analysis; a Zhisheng label does not confer exemption.
+* Navigation
+[[file:../README.org][language index]]
