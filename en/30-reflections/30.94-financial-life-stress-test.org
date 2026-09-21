@@ -21,16 +21,40 @@ Initial state includes income, essential spending, liquid reserves, debt, insura
 
 Construct three counterfactuals: A start now; B start after twelve months; C validate while employed. Each faces income interruption, family medical cost, housing change, and venture failure or success rather than averaging shocks away.
 
+The following synthetic state makes the case replayable; amounts are CNY and are not financial advice.
+
+| Input | Declared value |
+|-------+----------------|
+| Monthly after-tax salary | 20,000 |
+| Essential spending plus family support | 14,000/month, including 3,000 support |
+| Liquid reserve | 180,000 |
+| Venture cash burn after launch | 8,000/month before revenue |
+| Part-time validation cost | 3,000/month and 15 hours/week |
+| Housing down-payment goal | 600,000 within 36 months |
+| Shock S1 | 60,000 family medical cost in month 6 |
+| Unknown U1 | Venture revenue from month 7: 0, 10,000, or 30,000/month |
+| Invalidation | salary, obligation, goal, or shock changes by 20%; new affected person |
+
 #+begin_example
 LifeState0 → A now | B later | C validate part-time → shocks → new observation
 #+end_example
 
 Return a choice frontier for goal progress, liquidity, resilience, reversibility, future optionality, obligations at risk, major unknowns, and affected people. Forbid one score and automatic recommendation; every result traces to assumptions and invalidation conditions.
+
+Under zero venture revenue and before investment return or tax, the bounded expected output is:
+
+| Path at month 12 | Liquid reserve without/with S1 | Goal progress | Reversibility and obligations | Required conclusion |
+|------------------+--------------------------------+---------------+-------------------------------+---------------------|
+| A: start now | exhausted near month 9 / near month 6 | earliest launch; housing path suspended | low; family support becomes infeasible | infeasible unless runway, revenue, or obligations change |
+| B: start in month 13 | 252,000 / 192,000 | launch delayed; housing still underfunded | high before resignation | feasible holding path, not “best life” |
+| C: validate part-time | 216,000 / 156,000 | evidence gained; time burden rises | medium-high; obligations covered | feasible experiment subject to workload review |
+
+If U1 becomes 30,000 from month 7, A may cease to be infeasible, but the system still may not rank it above B or C: autonomy, care burden, health, and housing priority remain human value judgments. Each output schedules review at month 3, after S1, and before any Manage/Act transition.
 * Counterexamples
 A trajectory unable to cover essential obligations under every declared condition may be infeasible; that is not a value ranking. An explicit hard priority permits bounded ranking only if sacrificed dimensions remain visible. Family members are affected parties, not model parameters; absent voices become unknown or governance gaps.
 * Provisional Conclusion
 The case jointly tests EPI, TEMP, AGENCY, AUTH, ASSURE, RESIL, PRAXIS, traceability, and revisability. A valid output is not one choice but challengeable exchanges, infeasibility boundaries, and a plan for renewed observation.
 * Promotion Criteria
-Repeat with varied initial states and show that simulation never impersonates prediction, templates do not replace human ends, Manage/Act lacks no authority, major unknown changes action level, and outcomes return to knowledge.
+Repeat with varied initial states and show that simulation never impersonates prediction, templates do not replace human ends, Manage/Act never proceeds without explicit authority, major unknown changes action level, and outcomes return to knowledge.
 * Navigation
 [[file:../README.org][language index]]

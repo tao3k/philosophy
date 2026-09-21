@@ -12,8 +12,8 @@
 :COUNTERPART: ../../cn/40-sources/40.60-peirce-fallibilism-inquiry.org
 :SOURCE_ID: source.sep.peirce
 :SOURCE_KIND: SECONDARY
-:SOURCE_AUTHOR: Stanford Encyclopedia of Philosophy
-:SOURCE_WORK: Charles Sanders Peirce
+:SOURCE_AUTHOR: Robert Burch
+:SOURCE_WORK: Charles Sanders Peirce / Stanford Encyclopedia of Philosophy
 :SOURCE_EDITION: 2021-02-11
 :SOURCE_DATE: 2021-02-11
 :SOURCE_LANGUAGE: en

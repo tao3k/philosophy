@@ -12,8 +12,8 @@
 :COUNTERPART: ../../cn/40-sources/40.80-dewey-action-experience-learning.org
 :SOURCE_ID: source.sep.dewey
 :SOURCE_KIND: SECONDARY
-:SOURCE_AUTHOR: Stanford Encyclopedia of Philosophy
-:SOURCE_WORK: John Dewey
+:SOURCE_AUTHOR: David Hildebrand
+:SOURCE_WORK: John Dewey / Stanford Encyclopedia of Philosophy
 :SOURCE_EDITION: 2024-03-31
 :SOURCE_DATE: 2024-03-31
 :SOURCE_LANGUAGE: en

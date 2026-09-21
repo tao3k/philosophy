@@ -12,8 +12,8 @@
 :COUNTERPART: ../../en/40-sources/40.70-popper-falsifiability.org
 :SOURCE_ID: source.sep.pseudo-science
 :SOURCE_KIND: SECONDARY
-:SOURCE_AUTHOR: Stanford Encyclopedia of Philosophy
-:SOURCE_WORK: Science and Pseudo-Science
+:SOURCE_AUTHOR: Sven Ove Hansson
+:SOURCE_WORK: Science and Pseudo-Science / Stanford Encyclopedia of Philosophy
 :SOURCE_EDITION: 2025-07-28
 :SOURCE_DATE: 2025-07-28
 :SOURCE_LANGUAGE: en
