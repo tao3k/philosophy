@@ -46,21 +46,34 @@ He may choose an album only his family sees, learn photography, discuss the stre
 | Learn to notice and express | Compare, question, and offer measured feedback | Can he see differences and redirect a suggestion? | A score on this album means he has learned |
 | Speak with others | Find voluntary openings and help interpret responses | Actual readers, neighbors, and people photographed | Model praise or an invented audience is recognition |
 
+** A broken stairwell light: not every practice becomes a work
+Consider a small matter with no creative product. A tenant finds that the stairwell light flickers, leaving him feeling for the handrail on his way home. He wants it repaired. AI can help note when the fault occurs, find the reporting channel, describe the problem, and later remind him to check whether the repair actually worked. He need not learn electrical work to deserve such help. Getting an ordinary matter settled is a legitimate end.
+
+Yet “repaired” is not something the system can define alone. A neighbor walking at night may care most about seeing the steps; someone whose window faces the light may be troubled by glare. A maintainer knows about wiring and future costs, and actual repair belongs to people competent and authorized to do it. If AI selects for the speed at which complaints are closed, a ticket may end quickly while the stairs remain difficult to use. The tenant's account, neighbors' experience, maintainers' expertise, and life after the repair must be able to correct one another, not be averaged into a satisfaction score.
+
+Co-evolution here does not require a meeting after every repair or turn maintainers into unpaid AI trainers. With permission and appropriate de-identification, systems might learn to classify faults and make better reminders. When private life material, shared expense, or commitments to others enter, grounds and authority must be made clear again. A photograph and a stairwell light are different, but both show why help cannot be validated entirely inside a screen.
+
 ** Self-improvement brings the question of judgment forward
 Recent recursive self-improvement (RSI) research concerns more than revising one answer. It considers changes to an agent's harness, exploration, evaluator, and even research process. The [[file:../40-sources/40.220-recognition-and-self-improvement.org][source note]] distinguishes bounded improvements on verifiable tasks from open-ended improvement that remains unproven. Compilers, tests, proofs, and benchmark-disjoint evaluation can filter many candidates without asking a person to approve each experiment. Making people supervise every iteration would be both needless and exhausting.
 
 Yet every evaluator carries a judgment about what counts as success, which errors matter, and which losses never enter the score. A system might become better at producing favorably rated stories while different people's stories become more alike; a bounded short-story experiment found these outcomes together. It does not show that all AI writing must converge. It does show that a higher average rating and the development of someone's voice are not interchangeable claims.
 
+Even if AI can improve an evaluator, the problem does not simply disappear. It may find errors missed by earlier tests, or become better at confirming answers it already favors. Evaluation held apart from improvement tasks, sourced outcomes in the world, and review open to objections each matter; none speaks for the other two. Whether a stairwell fault was reported promptly can be checked. Whether the stairs are safer to use needs observation after repair. Whose problems receive help first raises questions of resources and power. Evaluation is not the search for an infallible judge but a way for different judgments to correct one another in their proper places.
+
 Stronger models may outperform individuals at finding errors and comparing possibilities, even at questioning a stated goal. People have standing here not because models will forever lack a particular piece of knowledge, but because particular people live with the consequences. Others affected also have something to say. AI can propose a new dimension of judgment; a person can reconsider an earlier request. Both may change. Co-evolution is not two parties maximizing a single reward.
+
+The opportunity to shape improvement can also be unequally distributed. If a system learns chiefly from people who answer quickly, happily publish their work, and readily provide satisfaction ratings, it may grow more adept at helping those who already have time and means of expression. People who are quiet, exhausted, or unable to stay online then vanish from the evidence of “improvement.” Their absence must not be written up as disinterest. [[file:30.100-after-efficiency-time-and-good-life.org][After Efficiency]] and [[file:30.210-why-freed-time-does-not-return.org][Freed Time]] remind us that having a say in how help changes also requires time and conditions.
 
 When the helper itself changes, consent to one form of assistance cannot automatically expand to every later form. Well-grounded trust can support many low-stakes automatic trials. If a system begins retaining new life material, broadening an audience, or acting for someone outside the original scope, it must explain the change and obtain proportionate authority. [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] and [[file:30.60-action-requires-authority.org][Action requires authority]] restrain drift in the relationship, not learning as such.
 
 ** A response may be caring without agreeing
 Finishing something privately may already be satisfying; publication and likes are not required. If the photographer wants to share, a friend might say, “I know that shop,” while a neighbor might answer, “You missed the people waiting for the first bus.” The second response, too, can help him see the work anew. AI may help him understand a disagreement. It must not invent an audience or keep praising him until its approval becomes indispensable.
 
+Specific encouragement can of course be valuable. AI may explain which observation is clear, why one revision better conveys a person's meaning, or admit that it misread them earlier. The danger is not praise as such but treating an answer that feels good now as a response that helps over time. [[file:../40-sources/40.220-recognition-and-self-improvement.org][A bounded study of sycophantic AI]] found that, in particular interpersonal-conflict tasks, participants preferred affirming replies yet became less willing to take responsibility or repair relationships. It does not show that every compliment harms. It does require us to distinguish feeling supported from receiving help with judgment and relationships.
+
 Recognition also needs usable conditions. Without an unbroken stretch of time, affordable tools, accessible forms of entry, trusted company, and the right to keep one's work, “your voice matters” can ring hollow. The [[file:../40-sources/40.220-recognition-and-self-improvement.org][reading of Fraser]] cautions against letting recognition displace questions of resources or freeze a complex person into an identity. Ordinary practice does not mean everyone should produce content. Care, repair, gardening, public discussion, and simply enjoying life have their own value and conditions.
 
-** Judgments written; observations not yet made [0/4] [0%]
+** Judgments written; observations not yet made [0/6] [0%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
 :END:
@@ -70,6 +83,8 @@ These observations require real participants. Completing this essay does not com
 - [ ] Compare generic generation, revision grounded in their material, and help only where requested; see whether objections actually redirect the outcome.
 - [ ] If work is shared, distinguish a real response from model feedback and platform exposure; also include people who keep work private.
 - [ ] Return later to ask whether the help is still endorsed, whether new action became possible, and who bore additional time and expense.
+- [ ] In repair, care, or other non-creative work, hear separately from the initiator, others affected, and those doing the work.
+- [ ] When the method of help or standard of evaluation changes, test whether people can notice material changes and object without monitoring every background trial.
 * Counterexamples
 First, autonomous AI may complete a clear and verifiable task better than repeated human review. This essay does not demand a person inside every iteration. It calls for distinctions proportionate to consequences: automatic verification, a person's choice, and deliberation with others affected.
 
@@ -78,10 +93,12 @@ Second, a person's present feeling can be shaped by expectation, flattery, or ex
 Third, some people want to publish, build an audience, or earn a living from their work. Opposing compulsory exposure must not belittle those choices. We should examine benefits, control, and the cost of exit rather than presume which life is purer.
 
 Fourth, a person may change ambitions through collaboration or simply want an old task completed. Help must not always become a lesson. A changed direction, a pause, or rest is not a failed self-improvement cycle.
+
+Fifth, if longer observation shows that quiet AI delegation on some clear errands preserves energy, understanding, and choice better than shared revision, this essay must narrow its expectation of participation. Participation is no moral entrance fee that makes people do extra work. Where joint judgment really is needed, speed alone cannot cancel it in advance.
 * Provisional Conclusion
 AI self-improvement deserves serious study and will change the space of cooperation. Improvement on verifiable tasks should face demanding tests. In lived practice we must also ask whether a person's meaning entered the result, whether they can redirect assistance, what costs fall on others, and whether they still wish to continue later. No one score answers all of these questions.
 
-The hope is not that “AI makes ordinary people extraordinary.” It is that someone need not first possess resources, training, or standing to reach capable tools, try to make what matters to them, and receive a real response if they choose. People and AI can correct one another and explore together. A human life does not thereby become a project of endless optimization.
+The hope is not that “AI makes ordinary people extraordinary.” It is that someone need not first possess resources, training, or standing to reach capable tools, try to make what matters to them—or get a light repaired that ought to work—and receive a real response if they choose. People and AI can correct one another and explore together. A human life does not thereby become a project of endless optimization.
 * Questions That Remain
 The photographic scene is imagined, not evidence of an effect. Fan Yusu's story does not represent all workers and is not a case of AI-assisted writing. We still need to hear people who decline recording, people who depend on enduring support without seeking independent performance, people affected by an action they did not initiate, and people for whom AI plainly made things worse.
 
