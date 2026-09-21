@@ -15,20 +15,42 @@
 :PROPERTIES:
 :CUSTOM_ID: philosophy.reflection.intertemporal-agency-en
 :END:
-Present choices constrain a future self. How can intertemporal agency be protected without treating future-wealth maximization as the only good?
+Today's choices constrain future selves. How can preparation protect their agency without letting abstract future security cancel present life?
 
-[[file:../40-sources/40.92-life-cycle-finance.org][life-cycle finance]] · [[file:../40-sources/40.91-cfpb-financial-well-being.org][financial well-being]]
+[[file:../40-sources/40.92-life-cycle-finance.org][Life-cycle finance]] · [[file:../40-sources/40.91-cfpb-financial-well-being.org][Financial well-being]] · [[file:30.91-financial-life-simulation.org][Zhisheng]]
 * Argument
-The present self, future self, and family are neither strangers nor identical interests. Consumption may increase present freedom while reducing future buffers; extreme saving may increase security while sacrificing life now. A discount rate is a modeling choice, not a resolution of this normative conflict.
+Present selves, future selves, and family members are neither wholly separate nor identical in their needs. Consumption can expand present freedom while reducing future buffers; extreme saving can increase security while sacrificing present life. Any single discount rate is a modeling choice, not a resolution of this normative conflict.
 
-Intertemporal agency preserves a future capacity to decide again. Resilience protects action space after shock, reversibility limits persistent harm from error, and optionality keeps unchosen paths feasible. They are conditions of future agency, not merely risk scores.
+** Room to maneuver serves a life worth undertaking
+Resilience protects room to act after shocks, reversibility limits lasting harm from mistaken commitments, and optionality preserves feasible paths not yet chosen. They are not a total risk score for maximizing safety; they enable commitment and change. Leaving unsuitable employment, education, care, enterprise, or travel can serve important purposes even when they reduce near-term cash.
 
-Long commitments should state lock-in, exit cost, bearers of tail risk, and changes that trigger review. Present consent cannot indefinitely authorize a system to execute a strategy that has lost its purpose.
+Preparedness should turn “not yet possible” into a bounded preparation question: is the gap money, time, skill, consent, or evidence? Which gaps can be closed in stages? A time-limited venture trial may reduce uncertainty, but cannot promise success or occupy rest indefinitely. The [[file:30.94-financial-life-stress-test.org][case]] specifies a three-month window, budget, and renewed decision at expiry.
+
+** Preparation needs stopping conditions
+Each preparation should identify its purpose, sufficiency condition, maximum investment, review date, and the opportunity cost of delay. Sufficient does not mean risk-free. If further preparation costs more than the person is willing to bear, allow action with residual uncertainty, a smaller commitment, or abandonment. Important missing information can also justify explicit deferral.
+
+#+NAME: intertemporal-review-en
+| Checkpoint | Question for the person |
+|------------+-------------------------|
+| Before commitment | Which future resources are already committed, and which values are worth sacrificing? |
+| At preparation expiry | Is preparation sufficient, or has the purpose changed? What does waiting cost? |
+| After a shock | Which premises failed, and which obligations require negotiation rather than unilateral cancellation? |
+| At exit | Which consequences remain irreversible and require remedy or continued responsibility? |
+
+No trade and waiting also need reasons, opportunity costs, and review dates; otherwise they can conceal a system's inability to help. Ending a purposeless commitment can be success without erasing existing responsibilities to others.
+
+** Intertemporal commitments cannot conscript other people
+The same money or time cannot be promised to several goals simultaneously. Housing, parental care, and enterprise must fit shared resources and event order; sufficient cash does not establish sufficient care and sleep. Future selves must not be bound indefinitely by current defaults, nor family members silently assigned unpaid work for an alleged long-term household benefit.
+
+Long-term arrangements need lock-in periods, exit costs, bearers of adverse outcomes, and reviews triggered by income, health, care relationships, or changing values. Participation or consent concerns specific impacts, not total disclosure of everyone's life. Disagreement and refusal are valid inputs. Present consent cannot indefinitely authorize a system to continue a strategy whose purpose has disappeared.
+
+** Preparation should fit available resources
+People with few resources may lack room to save or buy expensive resilience. AI can help identify verifiable support, avoid unnecessary fees and commitments, design smaller trials, or clarify infeasibility. It should not blame insufficient discipline or recommend unaffordable safety products. Low resources do not establish low willingness or weak agency.
 * Counterexamples
-Overprotecting future options can block housing, education, entrepreneurship, and care that require commitment. Inaction also closes opportunities. The aim is not maximum revocability, but proportional reasons, duration, and review for irreversibility.
+Preserving every future option can prevent housing, education, relationships, or enterprise that require commitment; waiting also closes opportunities. Conversely, appeals to living courageously do not justify ignoring essentials or risks imposed on others. Deliberate, reasoned irreversible commitments can be legitimate when their burdens, boundaries, and remedies are understood, not when consent rests on an illusion of effortless exit.
 * Provisional Conclusion
-Agency extends through time: present impulse may not freely consume the future, and abstract future wealth may not erase present life. AI exposes intertemporal burdens and closed options rather than declaring one temporal self the winner.
+Intertemporal agency does not declare either present or future selves the sole winner. It supports understandable, reviewable commitments worth undertaking within limited resources. Preparation should support life, not become a permanent task of postponing it.
 * Promotion Criteria
-Cover consumption and saving, debt, housing, entrepreneurship, insurance, and care. Show review triggered by family, health, income, and goal changes while respecting deliberate and legitimate irreversible commitments.
+Across consumption, saving, debt, housing, enterprise, and care, demonstrate sufficiency and stopping conditions, opportunity costs of delay, meaningful risk and rest, detection of double commitments, and revision under family disagreement, scarcity, or changed goals without shifting burdens onto others.
 * Navigation
 [[file:../README.org][language index]]

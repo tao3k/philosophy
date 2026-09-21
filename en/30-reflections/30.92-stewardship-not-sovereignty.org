@@ -15,20 +15,43 @@
 :PROPERTIES:
 :CUSTOM_ID: philosophy.reflection.stewardship-not-sovereignty-en
 :END:
-When AI is authorized to manage a person's means continuously, how can it avoid gradually taking ownership of the person's ends?
+How can AI actively help people prepare, understand, and act without treating computational ability as authority over their ends?
 
-[[file:30.60-action-requires-authority.org][Action and Authority]] · [[file:../40-sources/40.94-financial-planning-support-boundaries.org][planning and support boundary]]
+[[file:30.60-action-requires-authority.org][Action and Authority]] · [[file:../40-sources/40.94-financial-planning-support-boundaries.org][Planning and support boundaries]] · [[file:30.91-financial-life-simulation.org][Zhisheng's positive purpose]]
 * Argument
-Stewardship is entrusted care; sovereignty is final power over ends and exceptions. AI may observe, explain, simulate, propose, and manage within explicit delegation, such as moving a bounded amount into a named reserve. Managing means does not silently reprioritize housing, entrepreneurship, care, or present quality of life.
+Stewardship is entrusted care; sovereignty is final authority over ends and exceptions. A steward needs more than prohibitions: it can identify gaps, explain tradeoffs, propose preparation, and reduce execution burden within explicit authority. Faithfulness to people's ends does not confer authority to rewrite them.
 
-“Delegated Means, Human Ends” requires principal, purpose, resource, action, amount, duration, risk, review, and revocation. Higher return does not authorize a new asset class, longer commitment, or sacrificed liquidity.
+** Comprehensive support, bounded permissions
+Observe, Explain, Simulate, Propose, Manage, and Act describe activities, not an automatically ascending autonomy ladder. Ongoing management may repeatedly include real-world actions; a single message may disclose private information. Permissions compose around particular objects and impacts: reading a family budget does not authorize sharing it; drafting an offer does not authorize sending it; publishing a listing does not authorize accepting a deal.
 
-Observe, Explain, Simulate, Propose, Manage, and Act are distinct authority layers. Movement toward irreversible change requires more specific authority and assurance. Crossing a layer is explicit, not natural product drift.
+#+NAME: stewardship-scope-en
+| Delegation dimension | Required question |
+|----------------------+-------------------|
+| Principal and affected people | Who may authorize which resources, and who must separately participate or consent? |
+| Purpose and action | Explanation, drafting, publication, negotiation, transfer, or acceptance of a commitment? |
+| Resources and limits | Which item or account, and what gross/net amounts, fees, time, and risk limits? |
+| Recipients and disclosure | To whom may the system act, what may it disclose, and what may it not say for someone? |
+| Expiry and review | When does permission expire, and which changes invalidate advice or execution authority? |
+| Revocation and remedy | How do future actions stop, and who addresses consequences already incurred? |
+
+“Delegated Means, Human Ends” allows bounded default strategies, not silent scope expansion. Higher returns do not authorize additional asset classes, longer terms, or sacrificed liquidity. Revocation stops unexecuted actions but cannot promise to erase sent information or existing external obligations.
+
+** Recommendations without covert decisions
+A reasoned recommendation should expose the person's explicit priorities, traceable facts, important unknowns, alternatives, reasons, sacrifices, invalidation conditions, and ways to reject or amend it. If priorities do not determine a choice, present conditional advice and ask for the missing judgment. Neither permanent deferral to “consult a professional” nor converting inferred preferences into authority is adequate.
+
+For example, “not urgent, at least 250 net, preferably above 290” leaves the waiting horizon unspecified. AI can check fees and completed-sale evidence and propose a time-bounded listing trial for human confirmation. It cannot publish before price and duration are settled, nor silently lower an authorized listing below the net floor. Changed cash urgency requires clarification, not an assumption that the floor has expired.
+
+In the Zhisheng case, it can recommend three months of bounded validation before deciding on resignation and housing. The [[file:30.94-financial-life-stress-test.org][stress test]] supplies budget, time, family impacts, and review conditions. A clear recommendation does not also authorize opening accounts, purchasing services, signing agreements, or resigning. Decision support can be comprehensive while decision authority remains limited.
+
+** Impact before intervention; agency beyond the principal
+Before intervention, identify whose money, time, space, privacy, commitments, or safety may change, then provide proportionate explanation and assurance. An existing mandate can reduce repeated confirmation for small, reversible actions with known boundaries. Irreversible commitments, shared resources, or significant unknowns require renewed review. Simpler interaction does not remove impact assessment.
+
+A seller cannot authorize deception about defects, and an account holder may not represent every affected family member. Counterparties are not obstacles to optimize away. Respect informed choice, refusal, and exit; do not manufacture scarcity, pressure people, or exploit vulnerability for the principal's benefit. Preserve disagreement and identify what can proceed independently instead of inventing family consensus.
 * Counterexamples
-People may sincerely delegate broad goals and want less repeated decision-making. Stewardship permits bounded policies and defaults when people can understand and exit and silence cannot expand scope. AI may clarify unstable ends but cannot convert inferred preference into authority.
+People may genuinely want broad automation; repeatedly asking identical questions can also weaken agency. Bounded delegation should permit ongoing execution with understandable records, expiry, and exit. But emergencies, incapacity, joint accounts, and proxy authority cannot be resolved by “the user consented.” Labeling an activity education or simulation also does not establish a financial regulatory exemption.
 * Provisional Conclusion
-AI's legitimate role is revocable stewardship: remain faithful to human ends, manage means inside authority, expose conflict, and return changes of purpose to the person. Computational advantage does not create sovereignty over a life.
+Legitimate AI stewardship is active, reasoned, revocable, and authority-limited: turn gaps into actionable preparation, manage means within scope, and return conflicts of ends or scope to those entitled to decide. Computational advantage does not create sovereignty over a life.
 * Promotion Criteria
-Show that opportunity cannot expand scope, inferred preference cannot become authority, revocation stops future action, and conflicts of purpose return to a person. Cover emergencies, incapacity, joint accounts, and multiple beneficiaries.
+Show that reasoned recommendations enable action without smuggling in execution authority; permissions compose by object, fees, disclosure, time, and action; revocation stops future actions while honestly describing existing consequences; and counterparty or family dissent is not overridden by user benefit. Specific financial activities also need legal and professional-responsibility review.
 * Navigation
 [[file:../README.org][language index]]

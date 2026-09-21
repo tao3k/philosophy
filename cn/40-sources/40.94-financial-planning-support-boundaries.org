@@ -13,7 +13,7 @@
 :SOURCE_ID: source.synthesis.financial-planning-support-boundaries
 :SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: Envestnet MoneyGuide; UK Financial Conduct Authority
-:SOURCE_WORK: MoneyGuide planning capabilities and FCA PS25/22 targeted support
+:SOURCE_WORK: MoneyGuide planning capabilities; FCA PS25/22 targeted support; FCA automated advice rules and guidance
 :SOURCE_EDITION: web-pages-observed-2026-09-21
 :SOURCE_DATE: 2026
 :SOURCE_LANGUAGE: en
@@ -21,7 +21,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: MoneyGuide FAQ; FCA PS25/22
+:CONSTITUENT_SOURCES: MoneyGuide FAQ; FCA PS25/22; FCA automated advice rules and guidance
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: philosophy.source.financial-planning-support-boundaries
 :END:
@@ -29,14 +29,16 @@
 :PROPERTIES:
 :CUSTOM_ID: philosophy.source.financial-planning-support-boundaries-cn
 :END:
-本条综合 [[https://www.moneyguidepro.com/ifa/home/faqs][MoneyGuide FAQ]] 与 [[https://www.fca.org.uk/publications/policy-statements/ps25-22-consumer-pensions-investment-decisions-rules-targeted-support][FCA PS25/22]]，前者是市场能力对照，后者是英国特定监管制度。
+本条综合 [[https://www.moneyguidepro.com/ifa/home/faqs][MoneyGuide FAQ]]、[[https://www.fca.org.uk/publications/policy-statements/ps25-22-consumer-pensions-investment-decisions-rules-targeted-support][FCA PS25/22]] 与 [[https://www.fca.org.uk/firms/innovation/innovation-pathways/automated-advice-rules-guidance][FCA 自动化建议规则与指引]]，分别用于市场能力、英国 targeted support 制度与自动化金融活动边界的对照。自动化建议页面标注更新于 2026-07-24，本条观察于 2026-09-21。
 * 语境
 MoneyGuide 已提供 goal-based planning、What If、stress testing、sensitivity 与 Monte Carlo，说明“模拟多个未来”本身并非 Tao3k 创新。FCA targeted support 于 2026-04-06 生效，允许获授权机构面向具有共同特征的消费者群体提供 suggestions，并形成区别于完整个性化建议的受监管活动。
 * 解释边界
 产品说明不证明其结果正确或符合 Tao3k 原则；英国分类不能写成全球法律。education、simulation、support、guidance、recommendation、management 与 execution 的具体法律边界必须逐司法辖区确认。
+
+FCA 自动化建议页面的范围不止投资，还包括养老金、保险、按揭及债务咨询等活动；页面本身也不是正式 Handbook guidance 或穷尽规则。由此不能把“不推荐股票”或“只做治生模拟”当成普遍监管豁免；需检查实际提供的活动，而非产品名称。
 * 影响
 市场对照迫使 M4 把差异放在 decision legitimacy 而非 scenario 功能；监管对照要求产品与 authority model 不把不同支持层级混成一句免责声明。
 * 解释链
-市场已有能力 + 英国 targeted-support 分类 → 支持层级必须可见 → [[file:../30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship]] 的 Observe-to-Act authority 梯度。
+市场已有能力 + 英国支持与自动化活动边界 → 区分支持内容和实际行为 → [[file:../30-reflections/30.92-stewardship-not-sovereignty.org][Stewardship]] 中按对象、动作、披露与期限组合的权限，而非自动升级的自治等级。哲学主张允许有理由的建议，不自行决定其法律许可。
 * 导航
 [[file:../README.org][导航]]
