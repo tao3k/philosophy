@@ -22,7 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: Hoare logic; model checking; theorem-proving practice
+:CONSTITUENT_SOURCES: C. A. R. Hoare 1969; NASA-STD-7009B; model checking; theorem-proving practice
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -32,22 +32,41 @@
 :CUSTOM_ID: source-formal-methods-proof-counterexample-cn
 :END:
 
-本条区分数学证明、有限模型检查、测试、模拟和运行时观察各自能证明什么。
+本条区分数学证明、有限模型检查、测试、模拟和运行时观察各自能证明什么。来源锚点包括 Hoare 的
+[[https://sites.cs.ucsb.edu/~kemm/courses/cs266/acmhoare69.pdf][An Axiomatic Basis for Computer Programming]]，它以公理和推理规则论证程序性质；以及
+[[https://standards.nasa.gov/node/263][NASA-STD-7009B]]，它把 verification、validation、uncertainty quantification、sensitivity 与使用目的共同纳入 model/simulation credibility。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][对应反思]]
 
 * 语境
 
-每种方法都有明确的模型、假设、边界与反例语义。结论只能在这些边界内携带权威。
+Hoare-style proof 从前置条件、程序语义与后置条件推出性质。证明的力量来自演绎闭合，边界也同样明确：若
+specification、语义模型或前置条件没有代表现实需求，正确证明仍可能保护错误对象。
+
+model checking 在给定状态空间与性质上系统搜索，反例通常是一条违反性质的模型轨迹。bounded checking
+未找到反例，只说明限定深度内没有找到；完整模型检查的“完整”也只相对于被建模状态、转移与性质。
+
+testing 与 runtime observation 面向实际实现或运行环境，但只能覆盖发生过或采样到的路径。simulation 则
+研究模型允许的轨迹。NASA-STD-7009B 将可信度与 intended use 联系起来，提醒 validation 不是一次性的
+“模型为真”，而是模型对特定用途是否足够。
+
+因此不同方法提供互补证据：proof 对形式关系负责，model checking 对模型状态空间负责，test 对选择的实现
+执行负责，simulation 对模型内可能性负责，observation 对现实中已发生的结果负责。它们可以组成 assurance，
+但任何一项都不能窃取另一项的结论类型。
 
 * 解释边界
 
-模型内证明不等于现实世界正确；有限 horizon 未发现失败不等于全局不存在失败。
+模型内证明不等于现实世界正确；有限 horizon 未发现失败不等于全局不存在失败；测试通过不证明未执行路径；
+现实观察也不能单独区分偶然相关与因果机制。形式化还可能把模糊的价值冲突过早冻结进 specification，使
+“可证明”掩盖“是否值得证明”。
+
+本条不主张所有高后果系统都必须采用同一种 prover 或 model checker。证成方法应随风险、可逆性、系统
+边界与可获得反例变化；形式化深度不是目的，能够排除何种失败才是。
 
 * 影响
 
-进入“simulation 不是 prediction”Reflection，并支持比例证成 Charter。
+进入 [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation 不是 Prediction]]，并支持比例证成 Charter 对“主张类型—证据类型—后果”的配对。特别禁止把 verifier green、bounded search green 或 command success 写成现实结果已经安全。
 
 * 解释链
 
-历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。
+Hoare 演绎证明与现代 model/simulation credibility 实践 → 各证据方法的 claim boundary → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][对应反思]] → 比例证成原则。Tao3k 的类型化 receipt 与下游 admission 是现代综合，不是这些来源指定的架构。

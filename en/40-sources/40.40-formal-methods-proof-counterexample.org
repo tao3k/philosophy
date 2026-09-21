@@ -22,7 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: Hoare logic; model checking; theorem-proving practice
+:CONSTITUENT_SOURCES: C. A. R. Hoare 1969; NASA-STD-7009B; model checking; theorem-proving practice
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -32,22 +32,30 @@
 :CUSTOM_ID: source-formal-methods-proof-counterexample-en
 :END:
 
-This note distinguishes what mathematical proof, bounded model checking, testing, simulation, and runtime observation can each establish.
+This note distinguishes what mathematical proof, bounded model checking, testing, simulation, and runtime observation can each establish. Source anchors include Hoare's [[https://sites.cs.ucsb.edu/~kemm/courses/cs266/acmhoare69.pdf][An Axiomatic Basis for Computer Programming]], which reasons about program properties through axioms and inference rules, and [[https://standards.nasa.gov/node/263][NASA-STD-7009B]], which places verification, validation, uncertainty quantification, sensitivity, and intended use inside model and simulation credibility.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.30-simulation-is-not-prediction.org][corresponding reflection]]
 
 * Context
 
-Each method has explicit models, assumptions, bounds, and counterexample semantics. Conclusions carry authority only within those boundaries.
+Hoare-style proof derives properties from preconditions, program semantics, and postconditions. Its force comes from deductive closure, but so does its boundary: if the specification, semantic model, or precondition misses the real requirement, a valid proof may protect the wrong object.
+
+Model checking systematically searches a declared state space and property, often returning a model trace as a counterexample. Failure to find one in bounded checking concerns only that bound; even complete model checking is complete only relative to modeled states, transitions, and properties.
+
+Testing and runtime observation reach an implementation or operating environment, but cover only paths executed or sampled. Simulation examines trajectories admitted by a model. NASA-STD-7009B ties credibility to intended use, reminding us that validation is not a timeless declaration that a model is true, but an assessment of adequacy for a purpose.
+
+The methods therefore provide complementary evidence. Proof answers for formal relations, model checking for a model state space, testing for selected implementation executions, simulation for model possibilities, and observation for outcomes that occurred. They may compose into assurance, but none may appropriate the conclusion type of another.
 
 * Interpretation Boundaries
 
-Proof within a model is not real-world correctness; no failure within a bounded horizon is not global absence of failure.
+Proof within a model is not real-world correctness; no failure within a bounded horizon is not global absence of failure; passing tests say nothing exhaustive about unexecuted paths; and observation alone cannot separate accidental association from causal mechanism. Formalization may also freeze an unresolved value conflict into a specification, letting “provable” hide “worth proving.”
+
+This note does not require one prover or model checker for every high-consequence system. Assurance methods should vary with risk, reversibility, system boundary, and available counterexamples. Formal depth is not the end; the failures it excludes are.
 
 * Influence
 
-It enters the simulation-is-not-prediction reflection and supports the proportional-assurance Charter.
+It enters [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]] and supports matching claim type, evidence type, and consequence under the proportional-assurance Charter. In particular, verifier green, bounded-search green, and command success must not be stated as proof that real outcomes are safe.
 
 * Interpretation Chain
 
-Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between source, interpretation, and norm; it must not be reversed into a claim that the source proved the current architecture.
+Hoarean deductive proof and modern model/simulation credibility practice → claim boundaries for evidence methods → [[file:../30-reflections/30.30-simulation-is-not-prediction.org][corresponding reflection]] → proportional assurance. Tao3k typed receipts and downstream admission are a modern synthesis, not an architecture specified by these sources.

@@ -22,7 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: Karl Popper; Bayesian epistemology; scientific measurement theory
+:CONSTITUENT_SOURCES: NIST Technical Note 1297; Karl Popper; Bayesian epistemology; scientific measurement theory
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -32,22 +32,26 @@
 :CUSTOM_ID: source-scientific-method-evidence-en
 :END:
 
-This note synthesizes shared constraints from modern scientific method concerning observable evidence, counterexamples, measurement error, reproducibility, and uncertainty.
+This note synthesizes constraints from modern scientific methods concerning observable evidence, counterexamples, measurement error, reproducibility, and uncertainty. Concrete anchors include [[https://www.nist.gov/pml/nist-technical-note-1297][NIST Technical Note 1297]], which requires measurement results to be reported with uncertainty and the method used to evaluate it. Popperian empirical risk is handled in a [[file:40.70-popper-falsifiability.org][separate source note]]. The synthesis does not collapse them into one school.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]]
 
 * Context
 
-Schools of philosophy of science disagree. This is a Tao3k methodological synthesis, not a claim that one school is the sole authority.
+Scientific method is not one algorithm. Measurement traditions address the measurand, calibration, systematic effects, and uncertainty budgets; statistical inference addresses sampling, models, and updating; falsifiability asks whether an empirical claim risks failure; replication and reproduction examine dependence on operators, instruments, and environments. These traditions complement but do not substitute for one another.
+
+NIST TN 1297 emphasizes that the usefulness of a measurement depends on a quality statement of uncertainty and asks reports to expose components and evaluation methods. This is a discipline for measurement reporting, not a complete taxonomy of epistemic unknown. Tao3k's extension from “report a result with its boundary” to Agent knowledge objects is an explicit modernization.
 
 * Interpretation Boundaries
 
-Probabilities, confidence intervals, and model fit do not automatically create causal facts; absence of a counterexample is not a global proof.
+Probabilities, confidence intervals, and model fit do not automatically create causal facts. Absence of a counterexample is not global proof, and reproducibility does not ensure transfer to a new population. Measurement uncertainty concerns knowledge of a quantity under a declared method; it does not automatically include model error, conceptual choice, value conflict, or unknown common causes.
+
+Bayesian updating likewise depends on a likelihood, prior, and model space. A high posterior does not prove that the correct explanation was available, nor can data replace normative judgment. Tao3k does not compress every dispute into one confidence score under the name of scientific method.
 
 * Influence
 
-It informs reflections on unknown as a first-class state and on the simulation/prediction boundary.
+It informs [[file:../30-reflections/30.50-unknown-as-first-class.org][Unknown as a First-Class State]] and [[file:../30-reflections/30.30-simulation-is-not-prediction.org][Simulation Is Not Prediction]]. A result should carry evidence type, measurement conditions, uncertainty sources, scope, and resolution path rather than one number alone.
 
 * Interpretation Chain
 
-Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]] → possible thematic Charter. The direction preserves the distinction between source, interpretation, and norm; it must not be reversed into a claim that the source proved the current architecture.
+NIST measurement discipline, Popper, and other philosophy-of-science traditions → Tao3k synthesis of evidence boundaries → [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]] → possible thematic Charter. The sources support explaining how a result is known and with what uncertainty. The taxonomy of unknown states and downstream authority semantics are further work of this repository and must not be attributed back to those sources.

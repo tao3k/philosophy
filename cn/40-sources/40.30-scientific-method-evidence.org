@@ -22,7 +22,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: Karl Popper; Bayesian epistemology; scientific measurement theory
+:CONSTITUENT_SOURCES: NIST Technical Note 1297; Karl Popper; Bayesian epistemology; scientific measurement theory
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: Tao3k philosophy research
 :END:
@@ -32,22 +32,35 @@
 :CUSTOM_ID: source-scientific-method-evidence-cn
 :END:
 
-本条综合现代科学方法中关于可观察证据、反例、测量误差、可重复性和不确定性的共同约束。
+本条综合现代科学方法中关于可观察证据、反例、测量误差、可重复性和不确定性的共同约束。具体锚点包括
+[[https://www.nist.gov/pml/nist-technical-note-1297][NIST Technical Note 1297]] 对测量结果连同不确定性及其评估方法一并报告的要求；Popper 的经验风险另由
+[[file:40.70-popper-falsifiability.org][独立来源说明]]处理。本条不是把两者合并成单一学派。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]]
 
 * 语境
 
-不同科学哲学传统并不完全一致；这里记录的是 Tao3k 的方法论综合，而不是把某一学派声明成唯一权威。
+科学方法不是单一算法。测量传统关心 measurand、校准、系统效应与 uncertainty budget；统计推断关心样本、
+模型和更新；可证伪性关心经验主张是否冒失败风险；重复与复现则检查结果对操作者、仪器和环境的依赖。
+这些传统互补但不可互换。
+
+NIST TN 1297 特别说明，测量结果的可用性依赖随结果提供有质量的不确定性陈述，并要求公开各不确定性分量
+及其估计方法。它提供的是测量报告纪律，不是对所有认识论 unknown 的完整分类。Tao3k 将这种“结果连同其
+边界一起报告”的方法推广到 Agent 知识对象，属于明确的现代化解释。
 
 * 解释边界
 
-概率、置信区间和模型拟合不自动产生因果事实；缺少反例也不等于全局证明。
+概率、置信区间和模型拟合不自动产生因果事实；缺少反例不等于全局证明；可重复也不等于结论对新总体仍然
+适用。测量 uncertainty 描述在已声明方法内对量值的认识，不自动覆盖模型错误、概念选择、价值冲突或未知
+的共同原因。
+
+贝叶斯更新同样依赖 likelihood、prior 与模型空间。后验概率很高不能证明模型空间包含正确解释，也不能
+让数据替代规范判断。本仓库不以“科学方法”之名把所有争议压成一个 confidence score。
 
 * 影响
 
-进入 unknown 一等状态与 simulation/prediction 边界的 Reflection。
+进入 [[file:../30-reflections/30.50-unknown-as-first-class.org][unknown 一等状态]] 与 [[file:../30-reflections/30.30-simulation-is-not-prediction.org][simulation/prediction 边界]]：结果应携带证据类型、测量条件、不确定性来源、适用范围和消解路径，而不是只携带一个数值。
 
 * 解释链
 
-历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。
+NIST 测量纪律、Popper 及其他科学哲学传统 → Tao3k 关于证据边界的综合 → [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]] → 可能的专题 Charter。来源支持“说明如何知道及其不确定性”；unknown 状态枚举和下游权限语义是本仓库的进一步工作，不得反向归于这些来源。

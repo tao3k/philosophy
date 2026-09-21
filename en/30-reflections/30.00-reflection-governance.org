@@ -22,23 +22,34 @@ Under what conditions may an illuminating idea become a cross-project constraint
 
 * Argument
 
-Quotation and resonance do not confer normative authority. An idea must become
-an explicit claim with counterarguments, failure modes, auditable engineering
-consequences, and bounded scope. See the [[file:../10-charter/10.00-tao3k-charter.org][current Charter]].
+Quotation, inherited prestige, and present resonance do not confer normative authority. A source can open a question, but cannot perform modern interpretation, value choice, or responsibility for consequences on behalf of maintainers. An idea must first become a disputable claim that says what it protects, whom it constrains, where it applies, and how it may fail. See the [[file:../10-charter/10.00-tao3k-charter.org][current Charter]] and [[file:../40-sources/40.00-source-method.org][Source and Interpretation Method]].
+
+A Reflection is not defined by vague writing. Its task is to preserve a conflict that has not stabilized: the strongest counterargument, scope boundaries, failure modes, affected people, and alternative principles. A document collecting only support is advocacy rather than reflection; one refusing any provisional conclusion cannot meet engineering counterexamples.
+
+A Charter bears a cross-project default. Promotion means later projects may rely on a principle without reopening the entire philosophical dispute, so the threshold is higher than “this is a good idea.” The principle should answer what harm follows from violating it, what harm may follow from applying it rigidly, which variables govern conflict with other principles, and what observations require qualification, revision, or withdrawal.
+
+An engineering trace does not let current implementation vote on truth. It subjects abstraction to counterexamples: can compliant and non-compliant behavior be distinguished, does the principle retain meaning across domains, and does enforcement cost exclude the people it claims to protect? Systems provide evidence and counterexamples; “already implemented” cannot create normative legitimacy in reverse.
+
+Promotion also bears version responsibility. Earlier reflections, objections, and failures must not disappear beneath a Charter. The principle should record its origin, which claims it qualifies, and what remains unresolved. Otherwise stability becomes organized forgetting.
 
 * Counterexamples
 
-“More automation is always better” converts easily into an implementation
-slogan while failing to preserve consent, reversibility, or human agency.
+“More automation is always better” converts easily into an implementation slogan while failing to preserve consent, reversibility, or human agency. Ease of implementation is not normative review.
+
+Conversely, requiring an idea to be proven across every domain and extreme before promotion would prevent any Charter from forming. Governance should permit bounded principles: declared scope, exceptions, and review conditions are more honest than either universality or indefinite delay.
+
+Consensus is also insufficient. A team may unanimously accept a principle that benefits itself while exporting costs to outsiders. Promotion must actively seek people absent from the discussion who will bear consequences. Lack of dissent can indicate missing representation rather than resolved conflict.
+
+Engineering testability is not the only standard. Dignity, agency, and long-term option value do not lose standing because they resist quantification. They should remain challengeable, explainable, and traceable without being forced into a convenient proxy metric.
 
 * Provisional Conclusion
 
-Reflection preserves dispute; Charter bears stable normative force. A file move
-cannot transform one into the other.
+Reflection preserves a live dispute, Source Note constrains interpretation, Charter bears versioned and challengeable normative stability, and Engineering Map tests consequences. Their authorities differ and cannot be exchanged by a file move, metadata substitution, or implementation fait accompli.
+
+Promotion is not an idea's graduation. It changes responsibility: an exploratory claim becomes a default on which other projects may rely. It therefore needs reasons, counterexamples, scope, impact, and a revision path. Stability is not immutability.
 
 * Promotion Criteria
 
-Align the CN and EN semantics, state counterexamples and boundaries, establish
-engineering traces, satisfy the Charter Org Contract, and explicitly change
-Once promotion criteria are met, create a =PRINCIPLE_STATUS: draft= node and let maintainers explicitly
-advance it to =proposed= or =accepted=. =DOC_STATUS= describes only this document's editorial state.
+Before promotion, align CN and EN semantics and state the central claim, strongest counterargument, included and excluded scope, failure modes, distribution of benefits and burdens, cross-domain cases, conflict with existing principles, and explicit revision conditions. Engineering traces need at least one supporting case and one counterexample showing the principle may be too broad, too narrow, or too costly.
+
+After these content conditions and the Charter Org Contract are satisfied, create a =PRINCIPLE_STATUS: draft= node. Maintainers must explicitly advance it to =proposed= or =accepted= while preserving the source Reflection. =DOC_STATUS= describes only editorial state and cannot replace principle lifecycle. Promotion by path change, copied conclusion, or deleted objection should fail.

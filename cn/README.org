@@ -75,6 +75,15 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 未知如何约束推理并组织下一步探究 | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown 是一等状态]] | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法]] |
 | 技术能力何时获得改变世界的权限 | [[file:30-reflections/30.60-action-requires-authority.org][Action 必须经过 Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
 
+* Modern AI Philosophy — Content M3
+
+| 方法问题 | 入口 |
+|----------+------|
+| 有启发性的思想何时可以成为跨项目规范 | [[file:30-reflections/30.00-reflection-governance.org][反思如何成为宪章]] |
+| 测量结果如何连同不确定性边界一起报告 | [[file:40-sources/40.30-scientific-method-evidence.org][现代科学方法：证据、反例与不确定性]] |
+| proof、model checking、test、simulation 与 observation 各能证明什么 | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][形式化方法：证明、模型检查与反例]] |
+| 经典 protection 原则如何进入 Agent 权限而不冒充全部规范正当性 | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统：状态、权限与现实行动]] |
+
 * 关系图
 
 #+name: philosophy-cn-flow

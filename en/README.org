@@ -77,6 +77,15 @@ This directory owns English philosophy documents and their semantic navigation o
 | How does unknown constrain inference and organize the next inquiry? | [[file:30-reflections/30.50-unknown-as-first-class.org][Unknown Is a First-Class State]] | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method]] |
 | When does technical capability acquire authority to change the world? | [[file:30-reflections/30.60-action-requires-authority.org][Action Requires Authority]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
 
+* Modern AI Philosophy — Content M3
+
+| Method question | Entry point |
+|-----------------+-------------|
+| When may an illuminating idea become a cross-project norm? | [[file:30-reflections/30.00-reflection-governance.org][How a Reflection Becomes Charter]] |
+| How should a measurement be reported with its uncertainty boundary? | [[file:40-sources/40.30-scientific-method-evidence.org][Modern scientific method: evidence, counterexamples, and uncertainty]] |
+| What can proof, model checking, testing, simulation, and observation each establish? | [[file:40-sources/40.40-formal-methods-proof-counterexample.org][Formal methods: proof, model checking, and counterexamples]] |
+| How do classical protection principles enter Agent authority without becoming complete normative legitimacy? | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent systems: state, authority, and real-world action]] |
+
 * Relation graph
 
 #+name: philosophy-en-flow
