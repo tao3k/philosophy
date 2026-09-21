@@ -15,7 +15,7 @@ concurrency:
 env:
   ORG_ZHIXING_REPOSITORY: tao3k/org-zhixing-themes
   # No release exists yet, so keep the builder reproducible with a tested commit.
-  ORG_ZHIXING_REF: 4f5f8fc448a3f957188faa810cbf8a8ec2d0954a
+  ORG_ZHIXING_REF: b11a7f97b1ee14c148992e15d788b5c6b37db3d6
 
 jobs:
   build:
