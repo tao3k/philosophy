@@ -26,6 +26,7 @@
 | =10-charter/= | charter | Normative principle |
 | =20-engineering/= | engineering-map | Normative mapping |
 | =30-reflections/= | reflection | Exploratory |
+| =30-reflections/ai-object-shift/= | ai-object-reflection | AI interaction-object shift topic; exploratory |
 | =40-sources/= | source-note | Interpretive evidence |
 | =90-governance/= | governance | Repository governance |
 
@@ -35,6 +36,7 @@
 #+begin_src mermaid :exports results :file en-content-topology.svg
 flowchart LR
   SRC[40 Sources] --> REF[30 Reflections]
+  REF --> AIOBJ[AI interaction-object shift topic]
   REF -.cited by.-> PRI[10 Charter Principles]
   GOV[90 Governance] -->|admits and manages lifecycle| PRI
   PRI --> MAP[20 Engineering]

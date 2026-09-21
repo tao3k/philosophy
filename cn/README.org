@@ -57,12 +57,31 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | AI 怎样理解我，又不把我困在画像里？ | [[file:30-reflections/30.110-co-maintained-understanding.org][共同维护的理解]] → [[file:30-reflections/30.60-action-requires-authority.org][理解不自动产生权限]] → [[file:30-reflections/30.93-intertemporal-agency.org][给未来的改变留位置]] |
 | 信息真假难辨时，怎样保护判断而不把人压垮？ | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] → [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][来源到后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][允许挑战与修正]] |
 | 当生活不再催促，空下来的下午需要什么？ | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][没有预定结尾的真实入口]] → [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][时间怎样回到生活]] → [[file:30-reflections/30.110-co-maintained-understanding.org][理解怎样接受本人改正]] |
+| 当 AI 很会安排时，怎样不把省下来的生活重新占满？ | [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白]] → [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率收益是否回到人]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][负担是否转给别人]] |
+| 为什么日历空了，时间却没有回到生活？ | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][连续时间、拒绝权与可参与的生活条件]] → [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白]] → [[file:30-reflections/30.170-when-less-use-is-good.org][能力增加后能否少承担]] |
+| 当一句话能订票、订位和安排日程时，人还需要操作 APP 吗？ | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]] → [[file:30-reflections/30.170-when-less-use-is-good.org][留白与收敛]] → [[file:30-reflections/30.60-action-requires-authority.org][能力不自动产生权限]] |
 | 能看见多少未来，又怎样面对未被表示的变化？ | [[file:30-reflections/30.30-simulation-is-not-prediction.org][模拟、候选与反身性]] → [[file:30-reflections/30.50-unknown-as-first-class.org][未知与模型边界]] → [[file:30-reflections/30.98-living-with-the-unpredictable.org][中断、恢复与重议]] → [[file:30-reflections/30.93-intertemporal-agency.org][时间与承诺]] |
 | AI 和他人应如何参与我的判断？ | [[file:30-reflections/30.60-action-requires-authority.org][影响与权限]] → [[file:30-reflections/30.92-stewardship-not-sovereignty.org][受托帮助]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][共同生活与责任]] |
 | 如果目的变了、建议错了，怎么办？ | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][理由与后果]] → [[file:30-reflections/30.80-refutable-challengeable-revisable.org][挑战问题本身]] → [[file:30-reflections/30.90-knowing-after-action.org][重新学习]] |
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
 
-来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]、[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作]]、[[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]、[[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]]、[[file:40-sources/40.120-analects-harmony-with-difference.org][《论语》“和而不同”]]，以及[[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]、[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作]]、[[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]、[[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]]、[[file:40-sources/40.120-analects-harmony-with-difference.org][《论语》“和而不同”]]、[[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]、[[file:40-sources/40.140-unfilled-space-and-rest.org][留白、无之用与足以享用的休息]]、[[file:40-sources/40.150-life-service-ai-and-bill-access.org][生活服务 AI 与账单接入边界]]、[[file:40-sources/40.170-interface-space-and-convergence.org][传统界面规范的适用边界]]、[[file:40-sources/40.180-ui-intent-and-computer-use.org][意图推断与计算机操作]]，以及[[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][休息、边界、AI 工作密度与可参与的生活条件]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+
+* AI 交互对象变革专题
+
+这个专题不把传统 GUI 规范直接延长成 Agent 时代的答案。它分别审视三种已经不同的对象：人直接
+操作软件；人与 AI 共同形成行动关系；Agent 成为服务的直接调用者，而人和其他受影响者处在目的、
+授权、后果与申诉的位置。传统标准只作为历史基线，不能自动成为新对象的标准。
+
+专题文档同时组合普通 Reflection 合约与 =philosophy.ai-object-reflection.cn.v1=。合约要求每篇写出
+传统对象及适用边界、对象变革、当前判断、支持与反方共同出现的场景，以及 Principle 与 Governance
+的边界。它约束反思的完整性，却不把暂定判断提前升成原则。
+
+| 专题入口 | 要面对的变革 | 当前判断 | 辩论场景 |
+|----------+--------------+----------+----------|
+| [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]] | APP 从人的主要操作入口变成 Agent 可调用的服务；对象从 human 变成 human-with-AI、agent 与 affected-human | 可以隐去操作负担，不能隐去目的、重要后果、授权、失败和接管 | 一句话订票、代理订餐、日程协调、Agent-to-Agent 交易 |
+| [[file:30-reflections/ai-object-shift/30.190-when-services-face-agents.org][当服务面对的是 Agent]] | 服务直接面对 Agent，但后果落在委托人、受影响者、劳动者与制度 | Agent 可以是直接对象，不能是唯一设计主体 | 航司接口、餐厅来电、日历协商、购物议价、公共服务 |
+| [[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计]] | 语言、代理行动与可视共同对象重新组合，不再由永久 APP 统领 | 该少的是操作负担，该多的是形成判断、作品和共同理解所需的内容 | 订票、Codex 写代码、视觉设计、家庭日程与无障碍 |
 
 * 专题索引
 
@@ -77,6 +96,8 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 | 借物、学习与知识平权 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][现代证据边界]] |
 | 时间、幸福与值得投入的生活 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]] |
+| 留白、停止与不被安排的时间 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白]]；[[file:30-reflections/30.210-why-freed-time-does-not-return.org][空下来的时间]] | [[file:40-sources/40.140-unfilled-space-and-rest.org][留白与休息]]；[[file:40-sources/40.150-life-service-ai-and-bill-access.org][平台与接入边界]]；[[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][边界、工作密度与参与条件]] |
+| AI 交互对象变革 | —（仍是 Reflection，不冒充 Charter Principle） | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]]；[[file:30-reflections/ai-object-shift/30.190-when-services-face-agents.org][服务面对 Agent]]；[[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计]] | [[file:40-sources/40.170-interface-space-and-convergence.org][传统界面基线]]；[[file:40-sources/40.180-ui-intent-and-computer-use.org][模型操作与可见边界]] |
 | 个性与共同维护的理解 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.110-co-maintained-understanding.org][不被画像穷尽]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][和而不同]] |
 | 来源、记忆与认识保护 | [[file:10-charter/10.10-epistemology-and-uncertainty.org][PHIL-EPI-001]] | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][证据边界]] |
 
@@ -94,6 +115,9 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 怎样理解一个人而不把人穷尽为画像 | [[file:30-reflections/30.110-co-maintained-understanding.org][与人共同维护的理解]] | [[file:40-sources/40.120-analects-harmony-with-difference.org][和而不同]] |
 | 对抗性信息进入记忆后怎样继续判断 | [[file:30-reflections/30.120-judgment-amid-adversarial-information.org][来源、记忆与认识的保护]] | [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]] |
 | 没有现成目标的下午怎样不被重新塞满 | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] | [[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]] |
+| 当系统能不断提供事情做时，怎样保留停止与不决定 | [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白]] | [[file:40-sources/40.140-unfilled-space-and-rest.org][无画处、无之用与休息]]；[[file:40-sources/40.150-life-service-ai-and-bill-access.org][现有生态与访问前提]] |
+| 技术省下的时间为何仍可能不属于人 | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][空下来的时间，为什么没有回到生活？]] | [[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][休息、边界、AI 工作密度与可参与的生活条件]] |
+| 当服务直接面对 Agent 而非操作 GUI 的人，什么必须重新判断 | [[file:30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]] | [[file:40-sources/40.170-interface-space-and-convergence.org][传统设计参照的边界]]；[[file:40-sources/40.180-ui-intent-and-computer-use.org][意图推断与计算机操作]] |
 
 * 模型、价值与判断边界
 
@@ -125,6 +149,8 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 失业之后如何逐步重建选择，并用生态语言说明条件与风险 | [[file:30-reflections/30.95-life-after-job-loss.org][人生不止一条轨迹：从一次失业，到重新获得选择]] |
 | 不可预测的中断发生后，如何先恢复判断条件再重新形成生活方向 | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处：中断、恢复与重新判断]] |
 | 一位母亲的空闲下午如何保持开放，不被场景预写结局 | [[file:30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促：一个没有预定结尾的下午]] |
+| 一个年轻人的三千元如何进入生活问题，而不再变成分类图和新任务 | [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白：当 AI 很会安排之后]] |
+| 想停却不能停、停下却不知道想要什么、真心愿意忙碌的人，怎样不被同一个答案覆盖 | [[file:30-reflections/30.210-why-freed-time-does-not-return.org][空下来的时间，为什么没有回到生活？]] |
 | 外部 grounding | [[file:40-sources/40.91-cfpb-financial-well-being.org][CFPB]]；[[file:40-sources/40.92-life-cycle-finance.org][生命周期金融]]；[[file:40-sources/40.93-ai-financial-advice-life-cycle.org][AI 金融建议]]；[[file:40-sources/40.94-financial-planning-support-boundaries.org][市场与监管边界]] |
 
 * 关系图

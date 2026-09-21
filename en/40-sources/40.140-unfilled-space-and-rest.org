@@ -1,0 +1,50 @@
+#+TITLE: Unfilled Space, the Use of Absence, and Rest Worth Enjoying: Interpretation Boundaries
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-140-EN
+:SEMANTIC_ID: philosophy.source-note.40.140-unfilled-space-and-rest
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.140-unfilled-space-and-rest.org
+:SOURCE_ID: PHIL-SRC-140
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: 笪重光; 老子文本传统; William Morris
+:SOURCE_WORK: 《画筌》; 《道德经》王弼本第十一章; Useful Work versus Useless Toil
+:SOURCE_EDITION: received texts; Commonweal 1884 essay
+:SOURCE_DATE: Qing dynasty; received text; 1884
+:SOURCE_LANGUAGE: lzh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Dai Chongguang Huaxuan; Laozi chapter 11 Wang Bi recension; William Morris 1884
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: unfilled space, non-instrumental time, and rest as bounded interpretive resources
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.140-unfilled-space-and-rest-en
+:END:
+This note brings together three materials from different settings: Dai Chongguang's [[https://zh.wikisource.org/wiki/%E7%95%AB%E7%AD%8C][/Huaxuan/]]; chapter 11 of the Wang Bi recension of the [[https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)][/Laozi/]]; and William Morris's 1884 /Commonweal/ essay [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]].
+* Context
+/Huaxuan/ discusses composition, the relations of empty and solid, density and openness, and the whole in landscape painting. Its statement that painted and unpainted give rise to one another occurs in a criticism of painted places becoming excrescences. The empty is not an arbitrary omission; it composes with what is painted.
+
+Chapter 11 of the /Laozi/ uses the hub, vessel and room to present the joint operation of presence and absence. It does not praise every vacancy and is not a modern theory of time management.
+
+Within a critique of labor under industrial capitalism, Morris distinguishes hopeful work from hopeless toil. His hopes include rest, a product worth having and pleasure in work itself. Rest should last long enough to enjoy, not merely restore spent strength, and should not be broken by anxiety. His class analysis, historical setting and socialist argument cannot be removed from these sentences.
+* Interpretation Boundaries
+None of the texts directly demonstrates that an AI product works or independently specifies reminder frequency, recommendation algorithms or data permissions. Pictorial unpainted space cannot simply be equated with calendar openings; the /Laozi/'s absence cannot excuse neglected responsibility; and Morris's demand for rest does not show that everyone wishes to inhabit leisure in one way.
+
+Relating these sources to a life not filled by systems is a Tao3k modernization. It must still encounter care, poverty, disability, household labor and commercial platform objectives rather than using classical language to hide material conditions.
+* Influence
+The sources help pose three questions: whether unoccupied time participates in the whole meaning of a life; whether time saved by technology is actually ample enough to enjoy; and what makes “stop here” legitimate when a system can keep adding goals.
+
+They create no Charter Principle. They give traceable questions and counter-pressure to [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]].
+* Interpretation Chain
+/Huaxuan/ on the painted and unpainted + chapter 11 of the /Laozi/ on presence and absence in use + Morris's labor critique and rest worth enjoying → doubt toward “every blank is capacity awaiting use” → the modern reflection on non-instrumental time, the right to stop and product evaluation in [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]]. The last layer is not attributed to any one source.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:40.130-leisure-interest-and-ordinary-experience.org][Leisure, interest and ordinary experience]]

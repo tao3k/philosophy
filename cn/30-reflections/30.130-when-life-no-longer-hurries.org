@@ -95,4 +95,4 @@ Org 可以成为一本可回看的共同笔记：连接一次谈话、一个待�
 
 即使以后得到自愿参与，一次家庭案例也不能代表相似年龄、性别或照护经历的人。仍需面对：家人的关心何时变成期待，空闲是否真正由她支配，拒绝记录会不会失去帮助，以及产品能否接受“没有新目标、没有更高活跃度、但生活很好”这一结果。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.90-knowing-after-action.org][行后再知]]
+[[file:../README.org][语言入口]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.90-knowing-after-action.org][行后再知]]

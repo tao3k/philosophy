@@ -1,0 +1,98 @@
+#+TITLE: 休息、边界、AI 工作密度与可参与的生活条件
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-210-CN
+:SEMANTIC_ID: philosophy.source-note.40.210-rest-boundaries-ai-and-participation
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.210-rest-boundaries-ai-and-participation.org
+:SOURCE_ID: PHIL-SRC-210
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Tiaoxiejian; Liu Lu and Du Shizhong; Tonietto et al.; Tonietto and Malkoc; Dillon et al.; Ye and Ranganathan; China Youth Daily Social Survey Center; Hartmut Rosa; Pritzker Architecture Prize; Shanghai Municipal Government; The Paper
+:SOURCE_WORK: The Annual Keyword Rest; rest shame among doctoral students; Viewing leisure as wasteful undermines enjoyment; The Calendar Mindset; Shifting Work Patterns with Generative AI; Does AI Actually Free up Workers Time; work-life boundary survey; resonance interview; Liu Jiakun laureate citation; Changshou Park renewal; the sea at Ditan Park
+:SOURCE_EDITION: linked publications and institutional summaries
+:SOURCE_DATE: 2016; 2021; 2025; 2026
+:SOURCE_LANGUAGE: zh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Huxiu 2026 rest narratives; CCNU 2025 rest shame; JESP 2021 leisure belief; JMR 2016 scheduling; NBER 2025 generative AI field experiment; UC Berkeley 2026 ethnography; CYOL 2026 boundary survey; Hartmut Rosa 2016 interview; Pritzker 2025 Liu Jiakun citation; Shanghai 2025 Changshou Park report; The Paper 2024 Ditan report
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: rest, temporal authority, AI work intensity, public space, and conditions for participation
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.210-rest-boundaries-ai-and-participation-cn
+:END:
+这是一份跨方法综合，不把新闻叙事、问卷、实验、民族志、工作论文、访谈与设计案例当成同等级
+证据。各材料只承担其能够支持的局部判断。
+
+#+NAME: rest-time-participation-sources-cn
+#+EXPLANATION: 这张表同时标出材料能说明什么和不能说明什么，避免把一个具体观察提升成普遍因果律。
+| 材料 | 类型与范围 | 本文使用它说明 | 不能据此推出 |
+|------+------------+----------------+----------------|
+| [[https://www.huxiu.com/article/4822815.html][《年度关键词：休息》]] | 跳歇间线下交流的 10 份个人讲述，经媒体转载 | 停下劳动以后仍可能继续要求自己证明时间有用 | 这些讲述代表所有年轻人 |
+| [[https://ime.ccnu.edu.cn/info/1026/6488.htm][刘潞、杜时忠：在读博士生“休息羞耻”]] | 针对博士生处境的概念与制度分析 | 努力、时间、成功被道德化时，休息会成为羞耻 | 所有休息困难都源于个人自律或高校制度 |
+| [[https://doi.org/10.1016/j.jesp.2021.104198][Viewing leisure as wasteful undermines enjoyment]] | 四项研究，合计 =n=1310 | 视闲暇为浪费与较低享受相关，纯粹以自身为目的的闲暇尤其受影响 | 单靠改变信念就能解除物质限制 |
+| [[https://doi.org/10.1509/jmr.14.0591][The Calendar Mindset]] | 13 项关于闲暇安排的实验 | 精确排程可能使闲暇更像工作；粗略安排可能保留流动性 | 预约、规律和日历普遍有害 |
+| [[https://doi.org/10.3386/w33795][Shifting Work Patterns with Generative AI]] | 66 家企业、7137 名知识工作者的六个月随机实验；2025 年工作论文 | 工具实际使用者的邮件时间与非工作时段劳动可以下降 | AI 在所有组织都缩短工作，或论文已经完成同行评议 |
+| [[https://vcresearch.berkeley.edu/news/does-ai-actually-free-workers-time][Does AI Actually Free up Workers’ Time?]] | 一家约 200 人技术公司的八个月民族志，研究仍在进行 | AI 也可能伴随节奏加快、范围扩大和并行监督 | 观察到的变化只由 AI 引起，或适用于所有职业 |
+| [[https://news.cyol.com/gb/articles/2026-03/26/content_99qlzPUa3x.html][工作与生活边界调查]] | 1335 名受访者的媒体调查 | 边界模糊可具体表现为下班回应、临时事务与周末取消 | 样本代表全体劳动者，或个人时间管理是充分解释 |
+| [[https://ageofartists.org/en/aoa-erkenntnisse/its-impossible-to-create-resonance-at-a-certain-time/][Hartmut Rosa 访谈]] | 关于艺术、工作与“共鸣”的理论访谈 | 可以创造条件，却不能把有意义的回应预订在某一时刻 | “共鸣”可以作为产品 KPI 或从外部替当事人认证 |
+| [[https://www.pritzkerprize.com/laureates/liu-jiakun][刘家琨获奖说明]] | 建筑奖评审对作品和实践的解释 | 密度、开放空间与公众带入的生活可以共同构成设计问题 | 一个获奖项目已证明所有使用者都平等参与 |
+| [[https://www.shanghai.gov.cn/nw4411/20250114/bd306736f656473883f69692c5c30dcd.html][长寿公园改造报道]] | 上海市政府对一次改造的项目报道 | 24 小时开放与 49 把新增座椅是可核实的空间条件 | 开放时长和座椅数足以证明安全、无障碍与归属感 |
+| [[https://www.thepaper.cn/newsDetail_forward_27515696][地坛红墙的“海”]] | 媒体对公众观看与拍摄现象的报道 | 日常地点的意义可以由人的目光和共同叙述生成 | 流行打卡天然等于审美自主或公共价值 |
+* 语境
+这些材料分布在三个不能相互替代的语境中。
+
+第一组讨论休息怎样被理解。个人讲述提供的是经验入口；博士生“休息羞耻”的文章把经验放到
+自我、技术和制度规训中；两组消费与社会心理学研究则检验“闲暇是浪费”与精确排程如何关联到
+体验。它们共同反对把休息只写成恢复劳动能力，却没有共同证明一个普遍的理想休息方式。
+
+第二组讨论 AI 进入工作后时间怎样变化。NBER 工作论文的随机分配有利于判断特定工具在特定企业
+中的平均变化，且其重要结果包含“未检测到任务构成变化”。伯克利报道介绍的民族志能够看见节奏、
+并行工作和员工自发扩张职责，却不是随机实验，研究也仍在进行。一个说明减负可能发生，另一个说明
+能力扩张可以被组织和个人重新转化为更多劳动；差异本身就是需要解释的结果。
+
+第三组把时间放回社会和物质环境。边界调查提醒“空闲”可能仍处于待命；罗萨的访谈强调有意义的
+回应不能被制造；建筑与公园材料则说明，没有可达、可停留、无需持续消费的地方，时间很难转成
+参与。地坛的“海”进一步提示，美不只由设计者或推荐系统交付，也由普通人的观看生成。
+* 解释边界
+本综合不证明休息越多越好、计划越少越好，也不把安静、独处、慢生活规定为普遍答案。它尤其不能
+把因失业、贫困、疾病或排斥形成的空档浪漫化成“留白”。连续时间、粗略安排和公共座椅对不同人
+的意义，需要在照护责任、身体条件、文化习惯和关系后果中重新理解。
+
+两份 AI 研究也不能被合并成一个净效应数字。工具、组织、研究方法、采用程度与观察指标不同；
+“每周少两小时邮件”不等于净增两小时自由生活，“工作变密”也不证明每位参与者主观上拒绝这种
+投入。本文据此提出分支和检验问题，而不是宣判 AI 必然解放或必然加速。
+
+来源中的厂商、媒体、政府和奖项材料都带有选择与呈现立场。链接可证实公开陈述，不等于独立验收
+真实效果。任何产品或治理主张仍需参与者经验、反例、可撤回同意与对负担转移的观察。
+* 影响
+这些来源没有直接新增 Charter Principle。它们改变的是 Reflection 的提问精度：从“省了多少
+时间”转为追踪时长、连续性、待命边界、拒绝权、负担分配和用途决定权；从“推荐什么活动”转为
+保护经验发生的条件；从“AI 能做更多”转为追问能力扩张后人能否不再承担更多。
+
+它们也为 [[file:../30-reflections/30.140-leaving-room-for-life.org][《给生活留白》]]、[[file:../30-reflections/30.150-beyond-the-bill.org][《账单之外》]]、[[file:../30-reflections/30.160-beauty-in-everyday-life.org][《日常生活中的美》]]与
+[[file:../30-reflections/30.170-when-less-use-is-good.org][《少打开也可能是好结果》]]提供反向约束：账单不能决定什么值得，计划不能耗尽体验，美不能被平台
+统一，少使用不能脱离当事人的解释被宣布为成功。
+* 解释链
+个人休息叙事 + 休息羞耻分析 + 闲暇信念与排程实验
+→ 空闲可以继续受生产尺度支配，休息不必以未来产出证成。
+
+工作边界调查 + AI 随机实验 + AI 民族志
+→ 日历空白、自动化节省与实际可支配时间不是同一个量；AI 后果取决于组织怎样分配新增能力。
+
+罗萨访谈 + 长寿公园 + 刘家琨作品说明 + 地坛观看实践
+→ 生活经验不能预订，却需要可接近、可停留、可共同改变的条件。
+
+以上三条链共同进入 [[file:../30-reflections/30.210-why-freed-time-does-not-return.org][《空下来的时间，为什么没有回到生活？》]]。从材料到“受保护的连续时间、
+拒绝继续加码和不必证明意义”是 Tao3k 的现代综合，不属于任何单一来源，也尚未由 Governance
+准入为 Principle。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.210-why-freed-time-does-not-return.org][空下来的时间]] · [[file:40.140-unfilled-space-and-rest.org][留白与休息]] · [[file:40.130-leisure-interest-and-ordinary-experience.org][闲暇与日常经验]]

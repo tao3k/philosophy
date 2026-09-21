@@ -9,6 +9,7 @@
 | Charter | [[file:philosophy.charter.cn.v1.org][CN]] | [[file:philosophy.charter.en.v1.org][EN]] |
 | Engineering map | [[file:philosophy.engineering-map.cn.v1.org][CN]] | [[file:philosophy.engineering-map.en.v1.org][EN]] |
 | Reflection | [[file:philosophy.reflection.cn.v1.org][CN]] | [[file:philosophy.reflection.en.v1.org][EN]] |
+| AI object-shift reflection | [[file:philosophy.ai-object-reflection.cn.v1.org][CN]] | [[file:philosophy.ai-object-reflection.en.v1.org][EN]] |
 | Source note | [[file:philosophy.source-note.cn.v1.org][CN]] | [[file:philosophy.source-note.en.v1.org][EN]] |
 | Governance | [[file:philosophy.governance.cn.v1.org][CN]] | [[file:philosophy.governance.en.v1.org][EN]] |
 

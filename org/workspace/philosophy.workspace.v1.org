@@ -207,6 +207,46 @@
   (target node-identity "PRINCIPLE_ID"))
 #+end_src
 
+* CN AI object-shift reflection topic
+:PROPERTIES:
+:PATH: cn/30-reflections/ai-object-shift
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.cn.v1 philosophy.ai-object-reflection.cn.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: cn
+:COUNTERPART_ROOT: en
+:LANGUAGE_VALUE: zh-CN
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "AI_OBJECT_TOPIC"
+    "INTERACTION_OBJECTS"
+    "LEGACY_REFERENCE_ROLE"
+    "NORMATIVE_STATUS"))
+#+end_src
+
+* EN AI object-shift reflection topic
+:PROPERTIES:
+:PATH: en/30-reflections/ai-object-shift
+:PATH_KIND: directory
+:ROLE: maintained
+:CONTRACT_ORG_EXACT: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:PAIR_GROUP: philosophy.cn-en
+:LANGUAGE_ROOT: en
+:COUNTERPART_ROOT: cn
+:LANGUAGE_VALUE: en
+:END:
+#+begin_src org-contract
+(assert pair-document-properties-equal
+  (properties
+    "AI_OBJECT_TOPIC"
+    "INTERACTION_OBJECTS"
+    "LEGACY_REFERENCE_ROLE"
+    "NORMATIVE_STATUS"))
+#+end_src
+
 * CN reflection
 :PROPERTIES:
 :PATH: cn/30-reflections

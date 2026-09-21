@@ -26,6 +26,7 @@
 | =10-charter/= | charter | 规范性原则 |
 | =20-engineering/= | engineering-map | 规范性映射 |
 | =30-reflections/= | reflection | 探索性 |
+| =30-reflections/ai-object-shift/= | ai-object-reflection | AI 交互对象变革专题；探索性 |
 | =40-sources/= | source-note | 解释性证据 |
 | =90-governance/= | governance | 仓库治理 |
 
@@ -35,6 +36,7 @@
 #+begin_src mermaid :exports results :file cn-content-topology.svg
 flowchart LR
   SRC[40 来源] --> REF[30 反思]
+  REF --> AIOBJ[AI 交互对象变革专题]
   REF -.由另行撰写的原则引用.-> PRI[10 宪章原则]
   GOV[90 治理] -->|准入并管理生命周期| PRI
   PRI --> MAP[20 工程映射]

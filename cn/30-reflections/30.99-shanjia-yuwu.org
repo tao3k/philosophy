@@ -137,4 +137,4 @@ Tao3k 不以证明机器永远不如人为使命，也不把人写成一台必�
 * 仍需面对的问题
 本篇仍是第二主轴的中心草稿。这个判断仍需要在三种生活情境中继续观察一段时间，听见信错了的人、选择离开的人、没有得到好处的人，以及虽未使用却承受影响的人；还要分清离开帮助后学会了什么、哪些依赖本来合理、何时又被一家供应者困住，并追问效率、数据和经验最终归谁。荀子、Licklider 与 Engelbart 提供问题和概念，工作、教育、协作与创作研究提供有限证据，均不能单独证明 Tao3k 已经帮助人过得更好。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.96-living-with-ai.org][与 AI 共同面对人生]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]]
+[[file:../README.org][语言入口]] · [[file:30.96-living-with-ai.org][与 AI 共同面对人生]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]]

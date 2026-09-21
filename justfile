@@ -9,11 +9,9 @@ check:
     ./scripts/check-orgize-toolchain.sh
     ./scripts/check-workspace-receipt.sh
 
-# Full behavioral regression suite; CI runs this target.
+# Repository acceptance is the pinned Orgize workspace receipt. Orgize owns
+# contract-engine fixtures and negative scenarios; this repository owns policy.
 test: check
-    ./scripts/test-new-philosophy-document.sh
-    ./scripts/test-org-contract-negative.sh
-    ./scripts/test-trace-org-contract.sh
 
 # Print the parser-owned workspace evaluation for human inspection.
 contract:
@@ -43,6 +41,7 @@ new-help:
       'topology: optional TOPOLOGY_ID (defaults from DOC_ID)' \
       'charter: PRINCIPLE_REF PRINCIPLE_KIND (refinement also requires REFINES)' \
       'engineering-map: PRINCIPLE_REF' \
+      'ai-object-reflection: INTERACTION_OBJECTS' \
       'source-note: SOURCE_AUTHOR SOURCE_WORK SOURCE_LANGUAGE SOURCE_EDITION SOURCE_DATE' \
       'engineering evidence: SOURCE_REPOSITORIES SOURCE_REVISIONS SOURCE_PATHS OBSERVATION_DATE' \
       'synthesis: CONSTITUENT_SOURCES' \

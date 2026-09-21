@@ -1,0 +1,44 @@
+#+TITLE: <TITLE>
+#+AUTHOR: <AUTHOR>
+#+DATE: <DATE>
+#+FILETAGS: :philosophy:en:reflection:ai-object-shift:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1 philosophy.ai-object-reflection.en.v1
+:DOC_ID: <DOC_ID>
+:SEMANTIC_ID: <SEMANTIC_ID>
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: <COUNTERPART>
+:AI_OBJECT_TOPIC: interaction-object-shift
+:INTERACTION_OBJECTS: <INTERACTION_OBJECTS>
+:LEGACY_REFERENCE_ROLE: historical-baseline
+:NORMATIVE_STATUS: reflection-only
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: <CUSTOM_ID>
+:END:
+# State the problem created by the object shift before admission; an empty section fails the contract.
+* Argument
+** Traditional Object and Applicability Boundary
+# State the human-interface-software relation addressed by inherited standards and where it ends.
+** Object Shift
+# State how the object becomes human-with-AI, a person mediated by AI, or an acting agent.
+** Judgment
+# State a contestable and revisable judgment rather than a capability slogan.
+** Argument and Debate Scenarios
+# Use concrete scenarios to confront both supporting and opposing reasons with consequences.
+| Scenario | Reason supporting the judgment | Opposing reason | Evidence that would change the judgment |
+|----------+--------------------------------+-----------------+-----------------------------------------|
+| Pending | Pending | Pending | Pending |
+** Principle and Governance Boundary
+# State why this remains a Reflection, what requires a separate Principle, and what belongs to Governance.
+* Counterexamples
+# State counterexamples or falsification conditions before admission.
+* Provisional Conclusion
+# State the provisional conclusion and its uncertainty before admission.
+* Questions That Remain
+# State unheard voices, unresolved counterexamples, and experience that could still change this account.
+* Navigation
+[[file:../../README.org][language index]]

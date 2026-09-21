@@ -43,4 +43,4 @@ Keynes 在经济预测中设想技术与资本积累可能减轻谋生劳动，�
 * 解释链
 Keynes 对闲暇问题的追问 + 《庄子》对狭窄用途的反转 + Russell 对外在兴趣的主张 + Dewey 对普通经验的重视 → [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] 对开放案例、无产出活动和经验纠正的解释。后一层是 Tao3k 的现代综合，不归属于任何单一来源。
 * 导航
-[[file:../README.org][语言入口]] · [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]]
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][给生活留白]] · [[file:40.140-unfilled-space-and-rest.org][留白与休息]]

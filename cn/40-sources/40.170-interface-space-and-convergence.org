@@ -1,0 +1,64 @@
+#+TITLE: 界面如何收敛：渐进披露、控制中断与用户空间
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-170-CN
+:SEMANTIC_ID: philosophy.source-note.40.170-interface-space-and-convergence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.170-interface-space-and-convergence.org
+:SOURCE_ID: PHIL-SRC-170
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Apple; W3C Web Accessibility Initiative
+:SOURCE_WORK: Human Interface Guidelines; Cognitive Accessibility Design Patterns and WCAG interruption guidance
+:SOURCE_EDITION: Apple HIG observed 2026-09-21; W3C WAI guidance observed 2026-09-21
+:SOURCE_DATE: 2026 observation; W3C guidance 2021-2022
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Apple HIG design principles and disclosure controls; W3C WAI limit interruptions and WCAG interruption guidance
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: interface simplification, progressive disclosure, interruption control, and bounded user control; not proof of life outcomes
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.170-interface-space-and-convergence-cn
+:END:
+本说明综合四组网页材料：Apple [[https://developer.apple.com/design/human-interface-guidelines/design-principles][设计原则]]、[[https://developer.apple.com/design/human-interface-guidelines/disclosure-controls][披露控件]]与
+[[https://developer.apple.com/design/human-interface-guidelines/accessibility][无障碍指南]]，以及 W3C WAI 的[[https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/][减少中断模式]]和
+[[https://www.w3.org/WAI/WCAG20/Understanding/interruptions][中断可控说明]]。网页于 2026-09-21 查阅。
+* 语境
+这些材料属于界面与可访问性规范，不是关于“好生活”的哲学结论。Apple 把目的、行动自由、责任与
+简洁列为设计考虑，也提醒简洁不等于把所有东西做成最少；披露控件用于在相关时呈现细节，同时把
+高频或主要动作保持可见。W3C 的材料针对注意、记忆与认知障碍，要求除紧急情形外，人可以推迟、
+抑制或控制中断、提醒和内容变化。
+
+它们共同面对一个实际矛盾：所有细节都同时出现会形成负担，但把决定所需的信息和恢复路径藏起来，
+也会削弱人的行动。渐进披露因此不是越少越好，而是让信息出现的时机、层次和后果相称。
+* 解释边界
+这些规范不能证明一项产品真的改善了生活、尊重了拒绝或没有转嫁劳动。设计语言中的 “agency” 也不
+自动等同于本仓库所说的人的主体性。一个界面可以符合视觉规范，却通过默认项、商业排序、隐蔽退出
+和过度记忆控制结果。
+
+W3C 对中断的例外不能被宽泛地解释成产品可以把转化、活跃或普通推荐称作“紧急”。Apple 的渐进
+披露也不能替开发者决定哪些成本、风险和不可逆后果必须先可见。来源在未来还可能更新，本说明只
+记录查阅时可见的表述。
+* 影响
+这些材料支持一个有限的工程判断：留白可以表现为可控制的中断、按需展开、明确的主要动作、容易
+恢复，以及只收集当前目的所需的数据。它们也提醒我们，收敛不是删去复杂性，而是先呈现当前决定
+真正需要的内容，并让人知道还有什么、为什么没有展开、如何继续查看。
+
+因此，[[file:../30-reflections/30.170-when-less-use-is-good.org][《少打开也可能是好结果》]]把用户空间理解为注意、时间、判断、表达、关系与改变的余地，
+不把它缩成屏幕上的空白。[[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][《GUI 之后仍需看见什么》]]再把问题推进到代理式 AI：模型可以少让人
+逐步操作，却仍要让目标、权限、后果、证据和接管路径可见。
+* 解释链
+Apple 的目的、行动自由、恢复、必要数据与渐进披露 + W3C 对非紧急中断的用户控制
+→ 当代界面中“少而不失责”的有限方法
+→ Tao3k 对留白、收敛与用户空间的现代解释。最后一步是本仓库的论证，不是来源原文的结论。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.170-when-less-use-is-good.org][少打开也可能是好结果]] · [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]]

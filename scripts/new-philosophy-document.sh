@@ -4,7 +4,7 @@ set -euo pipefail
 repository_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [ "${1:-}" = "--list" ]; then
-  printf '%s\n' repository-index topology charter engineering-map reflection source-note governance
+  printf '%s\n' repository-index topology charter engineering-map reflection ai-object-reflection source-note governance
   exit 0
 fi
 
@@ -39,6 +39,8 @@ case "${filename}" in
     ;;
 esac
 
+semantic_namespace="${kind}"
+counterpart_prefix="../../"
 case "${kind}" in
   repository-index)
     subdir=""
@@ -51,6 +53,11 @@ case "${kind}" in
   charter) subdir="10-charter" ;;
   engineering-map) subdir="20-engineering" ;;
   reflection) subdir="30-reflections" ;;
+  ai-object-reflection)
+    subdir="30-reflections/ai-object-shift"
+    semantic_namespace="reflection"
+    counterpart_prefix="../../../"
+    ;;
   source-note) subdir="40-sources" ;;
   governance) subdir="90-governance" ;;
   *) echo "philosophy: unsupported kind '${kind}'; run 'just kinds'" >&2; exit 2 ;;
@@ -63,7 +70,7 @@ else
   en_destination="${repository_root}/en/${subdir}/${filename}"
 fi
 
-semantic_id="${SEMANTIC_ID:-philosophy.${kind}.${filename%.org}}"
+semantic_id="${SEMANTIC_ID:-philosophy.${semantic_namespace}.${filename%.org}}"
 topology_id="${TOPOLOGY_ID:-${base_doc_id}}"
 principle_ref="${PRINCIPLE_REF:-}"
 principle_kind="${PRINCIPLE_KIND:-refinement}"
@@ -81,6 +88,7 @@ source_revisions="${SOURCE_REVISIONS:-not-applicable}"
 source_paths="${SOURCE_PATHS:-not-applicable}"
 observation_date="${OBSERVATION_DATE:-not-applicable}"
 constituent_sources="${CONSTITUENT_SOURCES:-not-applicable}"
+interaction_objects="${INTERACTION_OBJECTS:-}"
 today="$(date -u +%Y-%m-%d)"
 
 require_input() {
@@ -104,6 +112,9 @@ reject_contract_sentinel() {
 }
 
 case "${kind}" in
+  ai-object-reflection)
+    require_input INTERACTION_OBJECTS "${interaction_objects}"
+    ;;
   charter)
     require_input PRINCIPLE_REF "${principle_ref}"
     case "${principle_kind}" in
@@ -226,6 +237,7 @@ render_template() {
     -e "s|<CONSTITUENT_SOURCES>|$(escape_sed_replacement "${constituent_sources}")|g" \
     -e "s|<INTERPRETATION_STATUS>|$(escape_sed_replacement "${interpretation_status}")|g" \
     -e "s|<CLAIM_SCOPE>|$(escape_sed_replacement "${CLAIM_SCOPE:-${semantic_id}}")|g" \
+    -e "s|<INTERACTION_OBJECTS>|$(escape_sed_replacement "${interaction_objects}")|g" \
     -e "s|<GOVERNANCE_ID>|$(escape_sed_replacement "${GOVERNANCE_ID:-${base_doc_id}}")|g" \
     -e "s|<LIFECYCLE_ID>|$(escape_sed_replacement "${LIFECYCLE_ID:-${base_doc_id}.lifecycle}")|g" \
     -e "s|<CUSTOM_ID>|$(escape_sed_replacement "${semantic_id}-${locale}")|g" \
@@ -280,8 +292,8 @@ fi
 cn_temporary="$(mktemp "${cn_destination}.tmp.XXXXXX")"
 en_temporary="$(mktemp "${en_destination}.tmp.XXXXXX")"
 
-render_template cn "${title_zh}" "${base_doc_id}-CN" "../../en/${subdir}/${filename}" "${cn_temporary}"
-render_template en "${title_en}" "${base_doc_id}-EN" "../../cn/${subdir}/${filename}" "${en_temporary}"
+render_template cn "${title_zh}" "${base_doc_id}-CN" "${counterpart_prefix}en/${subdir}/${filename}" "${cn_temporary}"
+render_template en "${title_en}" "${base_doc_id}-EN" "${counterpart_prefix}cn/${subdir}/${filename}" "${en_temporary}"
 chmod 0644 "${cn_temporary}" "${en_temporary}"
 
 if ! mv -n "${cn_temporary}" "${cn_destination}" || [ -e "${cn_temporary}" ]; then

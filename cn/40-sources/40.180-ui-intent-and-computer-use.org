@@ -1,0 +1,71 @@
+#+TITLE: 从 UI-JEPA 到 Muse Spark：用户意图、计算机操作与可见边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-180-CN
+:SEMANTIC_ID: philosophy.source-note.40.180-ui-intent-and-computer-use
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.180-ui-intent-and-computer-use.org
+:SOURCE_ID: PHIL-SRC-180
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: UI-JEPA authors; Meta AI Research
+:SOURCE_WORK: UI-JEPA; Introducing Muse Spark 1.1; Meta Model API computer-use documentation; How We Built Safety Into Muse
+:SOURCE_EDITION: ACM UMAP 2025; Meta materials observed 2026-09-21
+:SOURCE_DATE: 2025; 2026
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: UI-JEPA paper; Meta Muse Spark 1.1 announcement; Meta Model API computer-use documentation; Meta Muse safety and product materials
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: intent inference, computer-use execution, approval, observability, and takeover boundaries; not independent proof of user outcomes
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.180-ui-intent-and-computer-use-cn
+:END:
+本说明综合四组材料：UI-JEPA 的 [[https://doi.org/10.1145/3699682.3728327][ACM UMAP 2025 论文记录]]与[[https://arxiv.org/abs/2409.04081][预印本]]；Meta AI Research 的
+[[https://research.meta.ai/blog/introducing-muse-spark-meta-model-api][Muse Spark 1.1 介绍]]；Meta Model API 的[[https://dev.meta.ai/docs/computer-use][计算机操作文档]]；以及 Meta 关于
+[[https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse][Muse 安全设计]]和[[https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/][产品形态]]的发布材料。论文发表于 2025 年，Meta 页面于
+2026-09-21 查阅。
+* 语境
+UI-JEPA 研究的是从一段用户界面操作序列概括用户意图：视频编码器观察动作过程，语言模型生成对
+意图的文字描述。它所处理的是“这些动作看起来要完成什么”的推断问题，不是“系统现在获准替此人
+做到什么程度”的授权问题。
+
+Muse Spark 1.1 的官方介绍把模型放进跨应用、工具使用和计算机操作任务中，并描述模型会在脚本、
+点击与批处理之间选择。Meta 的计算机操作文档则把运行过程写成观察—行动循环：模型依据截图提出
+动作，应用执行动作，再提供新截图；承载应用负责环境、动作执行、验证、日志与恢复。
+
+Muse 的产品与安全材料还描述了发送邮件、购买等动作前的确认、浏览过程可见、用户接管、连接应用
+控制和审计轨迹。这些是厂商公开的设计与能力声明，为讨论提供现实对象，但不是独立的效果证明。
+* 解释边界
+UI-JEPA 的意图描述可能有误，也可能只概括一段过去行为。它不能证明一个人的长期目的、同意、法律
+权限或当下仍然愿意继续。准确率或小模型效率也不能把“推断意图”转化成“获得授权”。
+
+Muse 材料不能证明每个场景都可靠、安全或让人更自由；发布者对自身系统的说明也不能替代外部评估。
+“可以用脚本而非点击”不意味着 GUI 已经不再需要，更不意味着运行状态、后果与错误可以不可见。
+截图只能证明屏幕当时可见的状态，不能单独证明后台数据、外部收件人、共享权利或任务真实完成。
+
+材料还会随产品更新而变化。本说明记录观察时的公开边界，不把产品路线写成必然未来。
+* 影响
+这些材料把交互问题从“屏幕怎样排版”推向“谁执行、谁理解、谁授权、谁能停止”。当模型可以跨应用
+行动，给模型的执行入口可以是工具、脚本或界面；给人的入口则必须保留目标、重要假设、权限范围、
+将要改变的对象、失败、证据、撤销与接管。两类入口不必相同，也不能互相取代。
+
+它们还支持一个关键区分：意图推断可以帮助减少重复说明，但不能代替授权；操作轨迹可以帮助追责，
+但不能代替行动前对重大后果的决定；确认可以保护人，却必须按风险收敛，避免让频繁弹窗把责任重新
+甩给人。
+* 解释链
+UI-JEPA 从操作序列推断意图 + Muse Spark 在脚本、工具与界面之间执行 + Meta 文档把验证、日志、恢复
+和安全检查留给承载应用 + 产品材料主张确认、可见过程、接管与审计
+→ 模型执行界面与人的理解／授权界面开始分离
+→ [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][《GUI 之后仍需看见什么》]]提出“操作可以隐去，责任边界不能隐去”。最后一层是 Tao3k 的
+哲学论证，不是这些论文与厂商材料共同认可的结论。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][GUI 之后仍需看见什么]] · [[file:40.170-interface-space-and-convergence.org][界面留白与收敛]]

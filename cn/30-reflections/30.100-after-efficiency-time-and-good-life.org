@@ -97,4 +97,4 @@
 * 仍需面对的问题
 这个判断仍需要来自不同收入、照护处境、年龄与能力条件下的长期经验，尤其包括效率收益被组织收走、监督劳动被家庭吸收、以及拒绝持续测量的人。还需明确个人选择与劳动制度、公共服务、时间贫困之间的责任边界。OECD、自我决定理论与购买时间研究只提供有限的区分和证据，不能单独证明 Tao3k 改善了生活。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]]
+[[file:../README.org][语言入口]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]]

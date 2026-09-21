@@ -376,6 +376,186 @@
   (assert exists (paragraph :within "$body" :nonempty true)))
 #+end_src
 
+* Chinese AI interaction-object shift reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.ai-object-reflection.cn.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Topic identity
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-topic-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "AI_OBJECT_TOPIC") :summary (value "interaction-object-shift")))
+#+end_src
+** Interaction objects
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-interaction-objects
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "INTERACTION_OBJECTS")) (not (= (summary value) ""))))
+#+end_src
+** Traditional reference role
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.bounds-traditional-reference
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "LEGACY_REFERENCE_ROLE") :summary (value "historical-baseline")))
+#+end_src
+** Reflection-only status
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.stays-reflection
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NORMATIVE_STATUS") :summary (value "reflection-only")))
+#+end_src
+** Traditional object and applicability boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-traditional-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "传统对象与适用边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Object shift
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-object-shift
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "对象变革")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Judgment
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-judgment
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "判断")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument and debate scenarios
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-debate-scenarios
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "论证与辩论场景")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true))
+  (assert exists (table :within "$body")))
+#+end_src
+** Principle and governance boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.cn.has-principle-governance-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "原则与治理边界")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
+* English AI interaction-object shift reflection v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.ai-object-reflection.en.v1
+:CONTRACT_SCOPE: document
+:CONTRACT_KIND: org-elements
+:END:
+** Topic identity
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-topic-identity
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "AI_OBJECT_TOPIC") :summary (value "interaction-object-shift")))
+#+end_src
+** Interaction objects
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-interaction-objects
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (and (node-property :outline-depth 0 :summary (key "INTERACTION_OBJECTS")) (not (= (summary value) ""))))
+#+end_src
+** Traditional reference role
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.bounds-traditional-reference
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "LEGACY_REFERENCE_ROLE") :summary (value "historical-baseline")))
+#+end_src
+** Reflection-only status
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.stays-reflection
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (node-property :outline-depth 0 :summary (key "NORMATIVE_STATUS") :summary (value "reflection-only")))
+#+end_src
+** Traditional object and applicability boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-traditional-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Traditional Object and Applicability Boundary")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Object shift
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-object-shift
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Object Shift")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Judgment
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-judgment
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Judgment")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+** Argument and debate scenarios
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-debate-scenarios
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Argument and Debate Scenarios")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true))
+  (assert exists (table :within "$body")))
+#+end_src
+** Principle and governance boundary
+:PROPERTIES:
+:ASSERT_ID: ai-object-reflection.en.has-principle-governance-boundary
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(let ((section (headline :summary (title "Principle and Governance Boundary")))
+      (body (section :child-of "$section")))
+  (assert exists (paragraph :within "$body" :nonempty true)))
+#+end_src
+
 * Chinese source note v1
 :PROPERTIES:
 :CONTRACT_ID: philosophy.source-note.cn.v1

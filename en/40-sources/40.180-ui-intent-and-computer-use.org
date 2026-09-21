@@ -1,0 +1,78 @@
+#+TITLE: From UI-JEPA to Muse Spark: User Intent, Computer Use, and Visible Boundaries
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-180-EN
+:SEMANTIC_ID: philosophy.source-note.40.180-ui-intent-and-computer-use
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.180-ui-intent-and-computer-use.org
+:SOURCE_ID: PHIL-SRC-180
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: UI-JEPA authors; Meta AI Research
+:SOURCE_WORK: UI-JEPA; Introducing Muse Spark 1.1; Meta Model API computer-use documentation; How We Built Safety Into Muse
+:SOURCE_EDITION: ACM UMAP 2025; Meta materials observed 2026-09-21
+:SOURCE_DATE: 2025; 2026
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: UI-JEPA paper; Meta Muse Spark 1.1 announcement; Meta Model API computer-use documentation; Meta Muse safety and product materials
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: intent inference, computer-use execution, approval, observability, and takeover boundaries; not independent proof of user outcomes
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.180-ui-intent-and-computer-use-en
+:END:
+This note synthesizes four groups of materials: the UI-JEPA [[https://doi.org/10.1145/3699682.3728327][ACM UMAP 2025 record]] and
+[[https://arxiv.org/abs/2409.04081][preprint]]; Meta AI Research's [[https://research.meta.ai/blog/introducing-muse-spark-meta-model-api][Muse Spark 1.1 introduction]]; the Meta Model API
+[[https://dev.meta.ai/docs/computer-use][computer-use documentation]]; and Meta's publications on [[https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse][Muse safety design]] and its
+[[https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/][product form]]. The paper appeared in 2025; the Meta pages were observed on 2026-09-21.
+* Context
+UI-JEPA studies how to summarize user intent from a sequence of interface actions. A video encoder observes the
+process and a language model produces a textual account of likely intent. This is a problem of inferring what an
+action sequence appears to pursue, not of deciding how far a system is authorized to act for the person now.
+
+The official Muse Spark 1.1 introduction places the model in cross-application, tool-use and computer-use tasks and
+describes choices among scripts, clicks and batched actions. Meta's computer-use documentation describes an
+observe-act loop: the model proposes an action from a screenshot, the host application executes it and returns a new
+screenshot. The host owns the environment, execution, validation, logging and recovery.
+
+Muse product and safety materials also describe confirmation before sending email or purchasing, visible browser
+activity, user takeover, connected-app control and an audit trail. These vendor descriptions offer a concrete object
+for discussion. They are not independent evidence of outcomes.
+* Interpretation Boundaries
+An UI-JEPA intent description may be wrong and may summarize only a past sequence. It cannot establish a person's
+durable purpose, consent, legal authority or continuing willingness. Accuracy or small-model efficiency does not turn
+intent inference into authorization.
+
+The Muse materials do not prove reliability, safety or greater freedom in every setting. A publisher's account of its
+system cannot replace external evaluation. The ability to use a script instead of clicks does not make GUI unnecessary,
+nor does it make runtime state, effects or errors safe to hide. A screenshot supports only the visible state at that
+moment; it cannot alone prove background data, external recipients, shared rights or actual completion.
+
+These materials may also change with the products. This note records public boundaries at observation time rather
+than treating one roadmap as an inevitable future.
+* Influence
+The materials move interaction beyond screen arrangement toward who executes, who understands, who authorizes and
+who can stop. A model's execution entrance may be a tool, script or interface. A person's entrance must preserve the
+goal, material assumptions, authority scope, objects about to change, failure, evidence, reversal and takeover. The two
+entrances need not look alike, but neither can replace the other.
+
+They also support a crucial distinction. Intent inference can reduce repeated explanation but cannot grant authority.
+An action trace can support accountability but cannot replace a person's decision before serious effects. Confirmation
+can protect a person, but it must converge by risk so repeated dialogs do not hand responsibility back to the person.
+* Interpretation Chain
+UI-JEPA infers intent from action sequences + Muse Spark executes through scripts, tools and interfaces + Meta's host
+contract leaves validation, logging, recovery and safety checks to the application + product materials claim approval,
+visible activity, takeover and audit
+→ the model's execution interface begins to separate from the person's understanding and authority interface
+→ [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][“What Must Remain Visible Beyond GUI”]] argues that operation may disappear while boundaries of responsibility
+must not. The last step is Tao3k's philosophical argument, not a conclusion jointly endorsed by the sources.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/ai-object-shift/30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] · [[file:40.170-interface-space-and-convergence.org][interface room and convergence]]

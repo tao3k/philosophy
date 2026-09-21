@@ -1,0 +1,59 @@
+#+TITLE: 生活服务 AI 与账单接入：能力声明和访问边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-150-CN
+:SEMANTIC_ID: philosophy.source-note.40.150-life-service-ai-and-bill-access
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.150-life-service-ai-and-bill-access.org
+:SOURCE_ID: PHIL-SRC-150
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Ant Group; Tencent Tenpay
+:SOURCE_WORK: Zhixiaobao launch release; WeChat Pay transaction-bill API documentation
+:SOURCE_EDITION: Business Wire release 2024-09-05; WeChat Pay partner documentation observed 2026-09-21
+:SOURCE_DATE: 2024-09-05; 2026-09-21 observation
+:SOURCE_LANGUAGE: en; zh-CN
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Ant Group Zhixiaobao launch release; WeChat Pay partner transaction-bill API documentation
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: public capability claims and merchant-side bill access boundaries, not verified consumer outcomes
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.150-life-service-ai-and-bill-access-cn
+:END:
+本说明记录两个时点材料。第一，Ant Group 通过 Business Wire 发布的 [[https://www.businesswire.com/news/home/20240904932587/en/][2024 年支小宝发布材料]]；
+第二，2026-09-21 查阅的微信支付合作伙伴文档 [[https://pay.wechatpay.cn/doc/v3/partner/4012760532][“申请交易账单”]]。
+* 语境
+支小宝材料把产品定位为连接支付宝生活服务的 AI 助手，公开列举点餐、叫车、订票、发现本地
+餐饮娱乐，以及英语学习计划和个性化健身建议。它是厂商发布的能力声明，不是独立效果研究。
+
+微信支付文档的代码示例访问 =/v3/bill/tradebill=，要求商户配置、商户号、API 证书私钥、
+微信支付公钥，并允许传入子商户号。页面属于合作伙伴文档，错误码也围绕子商户交易账单。
+这足以说明该公开接口是商户侧业务接口，而不是普通消费者完整消费历史的通用读取证明。
+* 解释边界
+支小宝发布材料不能证明列出的能力在所有情境下可靠、被用户接受或改善生活，也不能证明支付宝
+或其他现有产品不会帮助人减少活动、购买和承诺。
+
+微信支付这一个公开接口不能证明不存在任何面向个人的导出、授权合作或未来接口；它只禁止我们
+把“用户使用微信支付”直接画成“第三方已经有权连续读取全部账单”。接入路径、字段范围、同意、
+留存与撤销仍需逐项核实。平台材料会变化，本说明不是永久能力清单。
+* 影响
+这些材料约束治生不以“会聊天、会订服务、会做计划或会读账单”作为未经比较的差异，也不因为
+数据接入尚未解决就重建一套账单系统。现实问题先行；可用数据与权限决定当前能支持多大的判断。
+
+真正需要检验的产品方向包括：是否减少不必要的承诺，是否保护不消费的选择，是否在没有完整
+生活数据时仍能提供有边界的帮助，以及是否把厂商能力声明与真实使用后果分开。
+* 解释链
+支小宝公开能力声明 + 微信支付商户侧账单接口与凭据要求 → 现有生态能力和接入前提的有界事实
+→ [[file:../30-reflections/30.140-leaving-room-for-life.org][《给生活留白》]]关于差异化、数据最小化与非消费生活可能的论证。最后一层是 Tao3k 的产品
+哲学提案，不是两家公司的自我描述。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][给生活留白]] · [[file:40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]

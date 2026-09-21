@@ -1,0 +1,61 @@
+#+TITLE: 留白、无之用与足以享用的休息：解释边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-140-CN
+:SEMANTIC_ID: philosophy.source-note.40.140-unfilled-space-and-rest
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.140-unfilled-space-and-rest.org
+:SOURCE_ID: PHIL-SRC-140
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: 笪重光; 老子文本传统; William Morris
+:SOURCE_WORK: 《画筌》; 《道德经》王弼本第十一章; Useful Work versus Useless Toil
+:SOURCE_EDITION: received texts; Commonweal 1884 essay
+:SOURCE_DATE: Qing dynasty; received text; 1884
+:SOURCE_LANGUAGE: lzh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Dai Chongguang Huaxuan; Laozi chapter 11 Wang Bi recension; William Morris 1884
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: unfilled space, non-instrumental time, and rest as bounded interpretive resources
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.140-unfilled-space-and-rest-cn
+:END:
+本说明并置三份不同语境的材料：笪重光《[[https://zh.wikisource.org/wiki/%E7%95%AB%E7%AD%8C][画筌]]》；《[[https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)][道德经]]》王弼本
+第十一章；William Morris 1884 年发表于 /Commonweal/ 的 [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]]。
+* 语境
+《画筌》讨论山水画的章法、虚实、疏密与全局关系。“虚实相生，无画处皆成妙境”位于对
+“有画处”可能成为赘疣的批评中；这里的空不是随意遗漏，而是与所画之物共同组织画面。
+
+《道德经》第十一章以车毂、器皿和房室说明“有之以为利，无之以为用”。其问题是“有”与
+“无”如何共同成用，不是赞美一切空缺，也不是现代时间管理理论。
+
+Morris 在工业资本主义劳动批判中区分有希望的工作和无望的苦役。他所说的希望包括休息、
+值得拥有的产物与工作本身的乐趣；休息应长到足以享用，而不只是恢复已消耗的力气，并且不被
+焦虑破坏。其阶级分析、历史处境和社会主义论证不能从这几句话中删去。
+* 解释边界
+三份文本都不能直接证明某种 AI 产品有效，也不能单独给出提醒频率、推荐算法或数据权限规则。
+画面留白不能被简单等同于日历空档；《老子》的“无”不能被包装成拒绝责任；Morris 对休息的
+要求也不能证明所有人都想以同一种方式度过闲暇。
+
+把这些材料联系到“不把生活填满”，是 Tao3k 的现代综合。它必须同时面对照护、贫困、残障、
+家庭分工与商业平台目标，而不能借古典语言遮盖现实条件。
+* 影响
+这些来源帮助提出三个问题：没有被占用的时间是否也参与一段生活的整体意义；技术节省的时间
+是否真正足以被人享用；当系统能够继续增加目标时，什么使“停在这里”仍然正当。
+
+它们不新增 Charter Principle，而是为 [[file:../30-reflections/30.140-leaving-room-for-life.org][《给生活留白》]]提供可追溯的提问来源和反向限制。
+* 解释链
+《画筌》的画面虚实 + 《道德经》第十一章的有无相成 + Morris 对足以享用之休息的劳动批判
+→ 对“所有空白都是待利用容量”的质疑 → [[file:../30-reflections/30.140-leaving-room-for-life.org][《给生活留白》]]关于非工具性时间、停止权与
+产品评价的现代反思。最后一层不归属于任何单一来源。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][给生活留白]] · [[file:40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]
