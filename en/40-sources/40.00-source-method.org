@@ -56,16 +56,20 @@ constrain purpose without reducing human value to utility maximization.
 
 * Influence
 
-A source enters Reflection first. It may reach Charter only after review of
-counterexamples, boundaries, and engineering consequences. Citation alone does
-not confer normative authority.
+A source may inform a Reflection. If the argument supports a normative proposal,
+an author must write a separate Principle that cites both the source and the
+retained Reflection. Governance requires its counterexamples, boundaries, and
+engineering consequences to be reviewed before deciding admission; it does not
+supply the Principle's normative content. Neither citation nor Reflection confers
+normative authority.
 
 * Interpretation Chain
 
 Source identity and historical context are recorded first; the interpretation
 declares whether it is direct, analogical, or modernized; Reflection tests its
-counterexamples and boundaries; only a governance-reviewed conclusion may enter
-Charter, after which an Engineering Map separates requirements from realization.
+counterexamples and boundaries; a separately authored draft Principle may cite
+that retained Reflection; Governance alone decides whether to admit the Principle
+to Charter, after which an Engineering Map separates requirements from realization.
 
 =edition-pending= and =evidence-pending= are disclosed gaps; they must not be presented as completed
 source grounding.

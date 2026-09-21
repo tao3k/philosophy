@@ -61,5 +61,6 @@
 
 审查者必须逐项回答：引用了哪个 Principle ID；该实现保存了什么语义；哪些内容只是候选；
 证据在哪里；反例或失败会如何使声明失效；实现替换是否保持规范含义；若改变规范含义，
-是否已经通过 challenge / Reflection 证据回到 Charter，并形成 retained、revised、superseded
-或 withdrawn 的明确决定；challenge 是事件与证据，不是 Principle status。
+Governance 是否已经依据 challenge / Reflection 证据重新审议对应的现有 Charter Principle，
+并形成 retained、revised、superseded 或 withdrawn 的明确决定；challenge 是事件与证据，
+不是 Principle status。

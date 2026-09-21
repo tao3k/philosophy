@@ -35,16 +35,18 @@
 #+begin_src mermaid :exports results :file en-content-topology.svg
 flowchart LR
   SRC[40 Sources] --> REF[30 Reflections]
-  REF --> CHA[10 Charter]
-  CHA --> MAP[20 Engineering]
-  GOV[90 Governance] -.constrains.-> SRC
+  REF -.cited by.-> PRI[10 Charter Principles]
+  GOV[90 Governance] -->|admits and manages lifecycle| PRI
+  PRI --> MAP[20 Engineering]
+  GOV -.constrains.-> SRC
   GOV -.constrains.-> REF
-  GOV -.constrains.-> CHA
   GOV -.constrains.-> MAP
 #+end_src
 
 * Boundaries
 
-Promotion from Reflection to Charter is a contract rewrite and review, not a
-file move. CN and EN are paired by identical =SEMANTIC_ID= values and reciprocal
-=COUNTERPART= paths. Return to the [[file:../README.org][English root]].
+A Reflection does not become a Principle. When its argument supports a normative
+proposal, an author writes a separate Principle that cites the retained Reflection;
+Governance then decides whether to admit that Principle and manages its lifecycle.
+CN and EN are paired by identical =SEMANTIC_ID= values and reciprocal =COUNTERPART=
+paths. Return to the [[file:../README.org][English root]].

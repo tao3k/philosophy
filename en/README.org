@@ -49,7 +49,7 @@ This directory owns English philosophy documents and their semantic navigation o
 * Enter Through Questions About Life
 Begin with [[file:30-reflections/30.96-living-with-ai.org][Facing Life with AI: Purposes, Possibilities, and Judgment]]. Life is not a fixed objective function, simulation is not a verdict of destiny, and AI's value extends beyond safer task execution. Zhisheng supplies a practical entry; education, care, changing abilities, relocation, creation, retirement, and unpredictable disruption and recovery also belong here.
 
-These paths connect reflections still requiring scrutiny, not claims all promoted to Charter. Actual improvement needs experience from participants and affected people; complete documents and consistent logic cannot substitute for it.
+These paths connect reflections still requiring scrutiny; they do not claim that separately authored Principles have been admitted to the Charter. Actual improvement needs experience from participants and affected people; complete documents and consistent logic cannot substitute for it.
 
 | Question | Suggested reading path |
 |----------+------------------------|
@@ -135,8 +135,9 @@ Source strands include [[file:40-sources/40.95-sen-capability-and-opportunity.or
 #+begin_src mermaid :exports results :file philosophy-en-flow.svg
 flowchart TD
   S[Sources] --> R[Reflections]
-  R --> C[Charter]
-  C --> E[Engineering mappings]
+  R -.cited by.-> P[Separately authored Charter Principles]
+  G[Governance] -->|admits and manages lifecycle| P
+  P --> E[Engineering mappings]
   E --> D[Downstream implementations]
   D --> R
 #+end_src

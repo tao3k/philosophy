@@ -63,4 +63,4 @@
 
 * 解释链
 
-历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]] → 可能的专题 Charter。该链保留来源、解释和规范之间的方向，禁止反向声称来源已经证明当前架构。
+历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。该链保留来源、解释、反思、规范提案与准入之间的区别，禁止反向声称来源已经证明当前架构。

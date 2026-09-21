@@ -63,4 +63,4 @@ NIST TN 1297 特别说明，测量结果的可用性依赖随结果提供有质�
 
 * 解释链
 
-NIST 测量纪律、Popper 及其他科学哲学传统 → Tao3k 关于证据边界的综合 → [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]] → 可能的专题 Charter。来源支持“说明如何知道及其不确定性”；unknown 状态枚举和下游权限语义是本仓库的进一步工作，不得反向归于这些来源。
+NIST 测量纪律、Popper 及其他科学哲学传统 → Tao3k 关于证据边界的综合 → [[file:../30-reflections/30.50-unknown-as-first-class.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。来源支持“说明如何知道及其不确定性”；unknown 状态枚举和下游权限语义是本仓库的进一步工作，不得反向归于这些来源。

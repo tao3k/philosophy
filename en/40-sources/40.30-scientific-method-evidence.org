@@ -54,4 +54,4 @@ It informs [[file:../30-reflections/30.50-unknown-as-first-class.org][Unknown as
 
 * Interpretation Chain
 
-NIST measurement discipline, Popper, and other philosophy-of-science traditions → Tao3k synthesis of evidence boundaries → [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]] → possible thematic Charter. The sources support explaining how a result is known and with what uncertainty. The taxonomy of unknown states and downstream authority semantics are further work of this repository and must not be attributed back to those sources.
+NIST measurement discipline, Popper, and other philosophy-of-science traditions → Tao3k synthesis of evidence boundaries → [[file:../30-reflections/30.50-unknown-as-first-class.org][corresponding reflection]] → separately authored draft Principle citing that Reflection → possible Governance admission to Charter. The sources support explaining how a result is known and with what uncertainty. The taxonomy of unknown states and downstream authority semantics are further work of this repository and must not be attributed back to those sources.

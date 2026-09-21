@@ -35,15 +35,17 @@
 #+begin_src mermaid :exports results :file cn-content-topology.svg
 flowchart LR
   SRC[40 来源] --> REF[30 反思]
-  REF --> CHA[10 宪章]
-  CHA --> MAP[20 工程映射]
-  GOV[90 治理] -.约束.-> SRC
+  REF -.由另行撰写的原则引用.-> PRI[10 宪章原则]
+  GOV[90 治理] -->|准入并管理生命周期| PRI
+  PRI --> MAP[20 工程映射]
+  GOV -.约束.-> SRC
   GOV -.约束.-> REF
-  GOV -.约束.-> CHA
   GOV -.约束.-> MAP
 #+end_src
 
 * 边界
 
-从 Reflection 升格为 Charter 是合约重写与审查，不是移动文件。中英文通过相同
-=SEMANTIC_ID= 和互指 =COUNTERPART= 成对维护。返回 [[file:../README.org][中文入口]]。
+Reflection 不会变成 Principle。若其中的论证足以支持规范提案，作者应另行撰写一项
+引用原 Reflection 的 Principle；Governance 再决定是否准入，并管理其生命周期。
+中英文通过相同 =SEMANTIC_ID= 和互指 =COUNTERPART= 成对维护。返回
+[[file:../README.org][中文入口]]。

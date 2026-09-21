@@ -61,4 +61,4 @@ It enters [[file:../30-reflections/30.60-action-requires-authority.org][Action R
 
 * Interpretation Chain
 
-Saltzer/Schroeder protection principles and Tao3k engineering practice → capability/authority/outcome boundaries → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → possible thematic Charter. The security principles constrain authority mechanisms; purpose, human agency, and outcome reconciliation are extensions of this repository and must not be attributed back to the paper or current implementation.
+Saltzer/Schroeder protection principles and Tao3k engineering practice → capability/authority/outcome boundaries → [[file:../30-reflections/30.60-action-requires-authority.org][corresponding reflection]] → separately authored draft Principle citing that Reflection → possible Governance admission to Charter. The security principles constrain authority mechanisms; purpose, human agency, and outcome reconciliation are extensions of this repository and must not be attributed back to the paper or current implementation.

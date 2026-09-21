@@ -54,13 +54,16 @@
 
 * 影响
 
-来源先进入 Reflection。只有经反例、边界和工程后果审查后，才可能进入 Charter；
-引用本身不产生规范权威。
+来源可以进入 Reflection 的讨论。若论证足以提出规范主张，作者必须另行撰写一项同时
+引用来源与原 Reflection 的 Principle。Governance 要求该 Principle 的反例、边界与
+工程后果经过审查，再决定是否准入；它不替 Principle 提供规范内容。引用和 Reflection
+本身都不产生规范权威。
 
 * 解释链
 
 来源身份与历史语境先被记录；解释声明其直接、类比或现代化状态；Reflection 对其提出
-反例和边界；只有通过治理审查的结论才可进入 Charter，随后由 Engineering Map 区分
-规范要求与当前实现。
+反例和边界；一项另行撰写的 draft Principle 可以引用这份被保留的 Reflection；只有
+Governance 能决定是否将该 Principle 准入 Charter，随后由 Engineering Map 区分规范
+要求与当前实现。
 
 =edition-pending= 或 =evidence-pending= 是公开缺口，不得被展示为完成的来源扎实度。

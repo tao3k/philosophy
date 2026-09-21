@@ -33,7 +33,7 @@
 :END:
 
 本条综合多个 Agent 工程项目中关于状态、提议、决策、授权、执行与结果回执应保持区分的
-设计取向；它不声称已经提供时点工程证据。若要升格为 =ENGINEERING_EVIDENCE=，必须另行记录
+设计取向；它不声称已经提供时点工程证据。若要作为 =ENGINEERING_EVIDENCE= 被接受，必须另行记录
 repository、revision、RFC/path 与 observation date。
 
 外部设计锚点是 Saltzer 与 Schroeder 的
@@ -69,4 +69,4 @@ token、capability 或 approval UI 正确；权限形式可以不同，只要能
 
 * 解释链
 
-Saltzer/Schroeder protection principles 与 Tao3k 工程实践 → capability/authority/outcome 边界 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 可能的专题 Charter。安全原则约束权限机制；purpose、human agency 与 outcome reconciliation 是本仓库的扩展，不能反向归于原论文或当前实现。
+Saltzer/Schroeder protection principles 与 Tao3k 工程实践 → capability/authority/outcome 边界 → [[file:../30-reflections/30.60-action-requires-authority.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。安全原则约束权限机制；purpose、human agency 与 outcome reconciliation 是本仓库的扩展，不能反向归于原论文或当前实现。
