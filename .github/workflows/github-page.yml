@@ -15,7 +15,7 @@ concurrency:
 env:
   ORG_ZHIXING_REPOSITORY: tao3k/org-zhixing-themes
   # No release exists yet, so keep the builder reproducible with a tested commit.
-  ORG_ZHIXING_REF: 2b906f7647a40057d23a7a55fa49dda842156440
+  ORG_ZHIXING_REF: 4f5f8fc448a3f957188faa810cbf8a8ec2d0954a
 
 jobs:
   build:
@@ -69,7 +69,7 @@ jobs:
           (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         uses: actions/configure-pages@v6
 
-      - name: Build philosophy site
+      - name: Build and verify rendered philosophy site
         working-directory: ${{ env.ORG_ZHIXING_ROOT }}
         run: |
           npm run pages:build -- \
