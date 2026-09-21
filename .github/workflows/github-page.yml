@@ -1,0 +1,104 @@
+name: GitHub Pages
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ORG_ZHIXING_REPOSITORY: tao3k/org-zhixing-themes
+  # No release exists yet, so keep the builder reproducible with a reviewed commit.
+  ORG_ZHIXING_REF: 32464173c42948d657118532afabbddf918eb8d6
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      ORG_ZHIXING_ROOT: ${{ runner.temp }}/org-zhixing
+      PAGES_CONTENT: ${{ runner.temp }}/philosophy
+      PAGES_OUTPUT: ${{ runner.temp }}/philosophy-pages
+    steps:
+      - name: Checkout philosophy content
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Prepare maintained reader documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$PAGES_CONTENT"
+          cp "$GITHUB_WORKSPACE/README.org" "$PAGES_CONTENT/README.org"
+          cp -R "$GITHUB_WORKSPACE/cn" "$GITHUB_WORKSPACE/en" "$PAGES_CONTENT/"
+
+      - name: Fetch Org Zhixing site builder
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init "$ORG_ZHIXING_ROOT"
+          git -C "$ORG_ZHIXING_ROOT" remote add origin \
+            "https://github.com/${ORG_ZHIXING_REPOSITORY}.git"
+          git -C "$ORG_ZHIXING_ROOT" fetch --depth=1 origin "$ORG_ZHIXING_REF"
+          git -C "$ORG_ZHIXING_ROOT" checkout --detach FETCH_HEAD
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install Org Zhixing
+        working-directory: ${{ env.ORG_ZHIXING_ROOT }}
+        run: npm ci
+
+      - name: Install static rendering browser
+        working-directory: ${{ env.ORG_ZHIXING_ROOT }}
+        run: npx playwright install --with-deps chromium
+
+      - name: Configure GitHub Pages
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+        uses: actions/configure-pages@v6
+
+      - name: Build philosophy site
+        working-directory: ${{ env.ORG_ZHIXING_ROOT }}
+        run: |
+          npm run pages:build -- \
+            --config "$GITHUB_WORKSPACE/org-zhixing.toml" \
+            --content "$PAGES_CONTENT" \
+            --base /philosophy/ \
+            --out "$PAGES_OUTPUT"
+
+      - name: Upload GitHub Pages artifact
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ${{ env.PAGES_OUTPUT }}
+
+  deploy:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
