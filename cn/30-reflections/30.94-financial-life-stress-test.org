@@ -41,15 +41,17 @@ A 为第 1 月离职创业；B 为保留工作十二个月，第 13 月重新决
 
 以月末为步长，先收到该月收入，再支付必要与经营/验证支出，最后扣除该月冲击或特别承诺；不计投资收益，不假定额外融资、保险赔付或资产变现。月内到款时序尚未验证，不能据此承诺逐日偿付。
 
-#+begin_example
-L[0] = 180000
-L[m] = L[m-1] + salary[m] + venture_receipts[m]
-       - 14000 - venture_cost[m] - validation_cost[m]
-       - shock[m] - housing_commitment[m]
-A: salary = 0; venture_cost = 8000; receipts = 0 before month 7, then r
-B: salary = 20000; venture_cost = validation_cost = receipts = 0
-C: salary = 20000; validation_cost = 3000; venture_cost = receipts = 0
-#+end_example
+#+NAME: zhisheng-cash-equations-cn
+#+CAPTION: 月末流动储备 L；S 为工资，R 为创业实收，V 为经营支出，Q 为验证支出，X 为冲击，H 为住房承诺；下标 m 表示月份。
+#+begin_src typst :eval never :exports code
+$ L_0 = 180000 $
+$ L_m &= L_(m-1) + S_m + R_m - 14000 \
+      &- V_m - Q_m - X_m - H_m $
+$ A: S_m = 0, V_m = 8000, Q_m = 0 $
+$ R_m^A = cases(0 & m < 7, r & m >= 7) $
+$ B: S_m = 20000, V_m = Q_m = R_m = 0 $
+$ C: S_m = 20000, Q_m = 3000, V_m = R_m = 0 $
+#+end_src
 
 ** 完整收入分支：终值不能修复途中断裂
 表中最小值包含月 0。负数为诊断性的资金缺口延展，不代表已经获得透支或实际完成后续支付；首次负值即为该情境下原计划不能继续履行的月份。“通过”仅指这十二个月声明时序下的现金检验。
