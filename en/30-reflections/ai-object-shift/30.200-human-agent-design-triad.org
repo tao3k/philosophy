@@ -78,6 +78,10 @@ A self-improving agent may also change how it searches, arranges work, or judges
 
 ** What becomes less and what becomes more
 
+In a public service, “show less interface” raises another question: less for whom? Imagine a library booking agent sparing frequent bookers a series of screens while making someone without an account, who simply wants to come in and sit, less visible. The design object is not only the person directing the agent or the agent itself; it also includes people outside the system. A quiet walk-in path that demands no private explanation may matter more than a more beautiful booking screen. [[file:../30.250-who-asks-what-should-improve.org][Who Gets to Ask What Should Improve?]] asks why that path should count as part of “better.”
+
+The shared object need not be one screen seen by everyone. A visitor needs to understand booking conditions or available space; a librarian needs to see exceptions and referrals; a manager needs to understand resource allocation. None should lose a way to object simply because the agent works smoothly. What becomes more or less must be judged with direct users, affected people, and nonusers in view, not by “no app required” alone.
+
 What may diminish is navigation that exists for software's internal structure: switching apps, repeated sign-in, feature
 hunting, entering the same facts in different forms, waiting on support and tracking scattered notices. An agent can
 handle these quietly and return only on exception or a genuine fork.

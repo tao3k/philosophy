@@ -1,0 +1,65 @@
+#+TITLE: Who Gets to Ask What Should Improve?
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-250-EN
+:SEMANTIC_ID: philosophy.reflection.30.250-who-asks-what-should-improve
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.250-who-asks-what-should-improve.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.250-who-asks-what-should-improve-en
+:END:
+Imagine a public library asking an agent to help people find books, book rooms, and ask questions. The system learns to shorten waiting times and can even revise its recommendation strategy and tests. But an earlier question remains: why did faster booking become the first thing to improve? Might someone who never books a room, but comes in simply to sit, vanish from the library's account of its future?
+
+This is an imagined public-service setting, not a study of a library that deployed such a system. [[file:30.240-when-ai-says-it-improved.org][The preceding essay]] distinguishes a technical change, its causal influence, and its value in a life. Here we ask who gets to pose the questions worth improving, and how the way we ask might erase people in advance.
+* Argument
+A system that improves answers may also improve the tests by which it is judged. That capacity alone cannot decide whom a public service is for. Human judgment is not an unchanging goal input; AI might help people notice a need they had not yet named. What matters is whether those affected can recognize, contest, and revise the new question, rather than letting one system pose it, answer it, and score itself.
+
+** A report card that keeps getting better
+Suppose the library once measured waiting time and successful reservations. With the agent, replies become faster, more bookings complete, and repetitive inquiries fall. Perhaps it notices that some visitors prefer browsing on arrival without registering on a phone, and suggests quiet hours that require no booking. That could be a genuine widening of the question, not mere obedience to an inherited metric.
+
+Another development is equally possible. Booking becomes so convenient that managers reallocate rooms according to the system's records. Visitors without digital accounts, or those who come to sit for a while, become “non-users.” Time spent by librarians on difficult requests may be squeezed by faster average replies. Neither path has been observed here. We would need to learn who is present, who is absent from the record, who handles exceptions, and whether one can use the library without entering the data stream.
+
+#+NAME: library-question-shift-en
+#+EXPLANATION: These are distinct questions in the imagined case; no one column alone measures the quality of a public service.
+| Easy initial question | What it might miss | Who has experience of the gap | How to revise the question |
+|-----------------------+--------------------+-------------------------------+----------------------------|
+| How long does a booking take? | Is there still room for someone who does not book? | Visitors, people outside digital services, librarians | Examine walk-in access alongside bookings |
+| Are replies faster? | Are difficult requests rushed to closure? | People seeking help, frontline and specialist librarians | Preserve time for explanation, referral, and follow-up |
+| Are patrons satisfied? | Why have some stopped coming? | Departing patrons and community partners, if willing | Do not read absent feedback as satisfaction or irrelevance |
+| Did the agent improve itself? | Did improvement consume public space or human labor? | Librarians, managers, different visitors | Separate technical scores, resource allocation, and judgments about lives |
+
+** Asking is not a permanent job title
+“Humans set goals; AI supplies means” is too fixed a division. Librarians may be accustomed to older workflows; visitors may struggle to name a service they have never received. By comparing recurring requests with unresolved exceptions, an agent could ask whether someone who wants a conversation has been misclassified as someone who wants a quick answer. Such a question matters precisely when people concerned can say either “Yes, that is my situation” or “No, you have placed me in the wrong category again.”
+
+Nor should everyone be placed in one undifferentiated vote. Librarians know working conditions; visitors know usability; nonusers know barriers to entry; managers carry responsibility for public resources. Someone unable to attend an interview need not disappear. One objection does not automatically give its speaker a veto over the whole service. Final decision and appeal belong to [[file:../10-charter/10.40-action-and-authority.org][authority]] and Governance; this Reflection first asks what must be heard.
+
+** Papers and scores meet a public life
+[[file:../40-sources/40.220-recognition-and-self-improvement.org][The source note on self-improvement and recognition]] distinguishes changes in behavior, evaluator, and research loop. If a system can change its evaluator, technical validation needs an independent boundary. Even independent validation does not let a test set choose the purposes of public life. In a short-story experiment discussed there, access to generative-AI ideas improved individual story evaluations while stories became more similar to one another. That is a finding in a particular creative-writing study, not evidence about library outcomes. It shows why “each measured result improved” and “our shared range of possibilities widened” are different questions.
+
+Real-world material also has limits. [[https://www.oclc.org/en/learn/perspectives/insider-insights-what-698-library-leaders-are-telling-us-about-ai.html][OCLC's survey of 698 US public and academic library leaders]] can describe leaders' uses and expectations of AI; it cannot stand in for visitors, nonusers, or librarians. [[https://www.ala.org/tools/standards-and-guidelines/guidance-use-artificial-intelligence-libraries][The American Library Association's guidance on AI in libraries]] calls attention to service purpose, affected workers and communities, human assistance, and a nonpersonalized discovery route. It is guidance, not proof that the imagined service was deployed. Both sources sharpen the question without filling the observational gap in our invented library.
+
+** Let improvement itself be revisable
+A more honest design would express “what improved” in discussable sentences rather than one rising number. Booking got faster; can people still walk in? Where did librarians' saved time go? Who confirmed the agent's newly proposed question, with what material, and who might correct it? Where voices remain unheard, the account should say “unknown,” not fill the silence with prediction.
+
+This does not require a public meeting for every parameter change. A reversible technical fix with clear task boundaries and no change to service purpose can be tested rigorously. Once a change reallocates public space, labor, attention, or a chance to speak, it is no longer only about speed. Making that change contestable is one condition for a public service to remain public while its technology improves.
+* Counterexamples
+First, broad participation for every small adjustment would make consultation another source of unpaid work and might preserve a difficult old system through delay. Participation should grow with the effect; it cannot replace technical tests or librarians' professional judgment.
+
+Second, data can reveal overlooked questions: repeated referrals, unclaimed reservations, failed searches in a particular language. A question is not invalid because a model found it, but neither do records make people outside them nonexistent.
+
+Third, “let everyone speak” often favors those with the time and confidence to speak. If only digitally fluent visitors participate, this proposal will reproduce the very exclusion it names. Anonymous, in-person, and trusted-intermediary routes may help, while some people will still remain unheard.
+* Provisional Conclusion
+Automation can speed answers; it must not let easily answered questions monopolize the future. AI can suggest new questions, and people may revise what they care about with its help. But “better” in a public life must remain open to correction from people in different circumstances. Technical performance needs strict tests of its own; service purpose and the distribution of burdens need continuing public judgment. Neither can sign on behalf of the other.
+* Questions That Remain
+The library and its visitors are imagined. This essay includes no interviews with librarians, visitors, or nonusers, no deployment, and no longitudinal outcomes. A next step with a publicly verifiable service case would separately ask about people who enter and refuse the service, librarians' exception-handling work, access without an account, and whether feedback actually changes the goal. A leaders' survey or guidance cannot substitute for those experiences.
+
+This remains a Reflection. Making “affected people must be able to question improvement goals” a Principle would require a separate account of scope, conflicts, failure modes, and exceptions. Who hears objections and how goals are revised belong to Governance, not to a principle smuggled into this essay.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.240-when-ai-says-it-improved.org][How can we know AI improved?]] · [[file:ai-object-shift/30.200-human-agent-design-triad.org][Human, agent, and design]] · [[file:30.97-shared-lives-and-responsibility.org][Shared lives and responsibility]] · [[file:../40-sources/40.220-recognition-and-self-improvement.org][Evidence boundaries for self-improvement and recognition]]
