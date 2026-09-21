@@ -1,0 +1,57 @@
+#+TITLE: How a Person Enters the Work: Ownership, Co-Creation, and Timing
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-260-EN
+:SEMANTIC_ID: philosophy.source-note.40.260-participation-ownership-and-timing
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.260-participation-ownership-and-timing.org
+:SOURCE_ID: PHIL-SRC-260
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Fiona Draxler et al.; Jack McGuire et al.; Peinuan Qin et al.; Maurice Jakesch et al.
+:SOURCE_WORK: The AI Ghostwriter Effect; Establishing the importance of co-creation and self-efficacy in creative collaboration with artificial intelligence; Timing Matters; Co-Writing with Opinionated Language Models Affects Users' Views
+:SOURCE_EDITION: original articles and arXiv versions accessed 2026-09-21
+:SOURCE_DATE: 2023; 2024; 2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: arXiv 2303.03283v2; Scientific Reports 2024 article 18525; arXiv 2502.06197v1; arXiv 2302.00560v1
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.260-participation-ownership-and-timing
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.260-participation-ownership-and-timing-en
+:END:
+These four studies examine ownership of text, ways of co-creating a poem, when help enters ideation, and opinionated writing assistance. They make “could the person's judgment change the work?” a more useful question than “does the generated text sound like them?” Tasks, samples, and measures differ; they do not add up to one product-effect estimate.
+
+#+NAME: participation-studies-en
+#+EXPLANATION: These are research participants, not Tao3k users; an unmeasured outcome is not an outcome shown absent.
+| Source and task | What was observed | What does not follow |
+|-----------------+-------------------+----------------------|
+| [[https://arxiv.org/abs/2303.03283v2][Draxler et al., AI Ghostwriter Effect]], two text studies, n=30 and n=96 | Publicly claiming authorship can diverge from feeling ownership; personalization did not remove the gap, while greater influence over text was associated with greater ownership | Psychological ownership settles copyright; a human must perform most edits in all writing |
+| [[https://www.nature.com/articles/s41598-024-69423-2][McGuire et al., poetry studies]], two experiments with a particular poetry system | Editing a completed AI poem received lower creativity ratings from professional poets than writing unaided; in an iterative co-creation condition the earlier gap was not statistically significant, and creative self-efficacy also differed | Strict equivalence has been proved, or co-creation always beats delegation |
+| [[https://arxiv.org/abs/2502.06197v1][Qin et al., writing ideation]], 60 people | LLM use from the start, compared with ideation before LLM use, was associated with fewer original ideas and lower creative self-efficacy and self-credit in the task | Everyone must think unaided first, or later AI use improves life over time |
+| [[https://arxiv.org/abs/2302.00560v1][Jakesch et al., opinion writing]], 1,506 people | An assistant favoring one side of a question about social media affected the written views and a subsequent attitude survey | Personality changed permanently, or every persuasive influence is manipulation |
+* Context
+The first two studies concern people's roles and experiences in particular text and poetry tasks. Claimed authorship, psychological ownership, and legal authorship are different. The poetry experiments used a purpose-built system, not every contemporary language model. Qin and colleagues compared timings in one ideation task. Jakesch and colleagues studied a writing assistant's directional bias, not a participant's “true desire.”
+* Interpretation Boundaries
+A nonsignificant difference does not prove strict equivalence. Expert ratings of poems and creative self-efficacy are distinct outcomes; ownership and self-credit are not long-term capability. None of these studies establishes “more edits means more agency.” Two decisive choices may set a work's direction. Someone may need extensive accessible assistance, or simply want quiet delegation. The experiments cannot judge those ways of living illegitimate.
+
+None studied the imagined photographer in [[file:../30-reflections/30.220-making-what-matters-possible.org][the early-street scene]] or followed a work into family, community, or private life. The studies sharpen questions for observation rather than replacing it.
+* Influence
+[[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][When a Work Leaves the Screen]] distinguishes use of personal material, endorsement of a result, changed capability or opportunity, and real response. [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][When Help Changes What We Want]] uses the opinion-writing experiment to ask how help can carry a direction. These are evidence routes for Reflections, not a new Principle or a Tao3k scenario receipt.
+* Interpretation Chain
+Personalization did not remove an ownership gap + editing a finished work differed from iterative co-creation
+→ Familiar-sounding text and an editable interface do not, by themselves, show that a person's meaning influenced the result.
+
+Timing affected one ideation task + an opinionated assistant affected immediate views
+→ The moment help arrives and the direction it suggests must be discoverable and contestable. This is not a conclusion that AI must never influence people.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][When help changes a wish]] · [[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][When a work leaves the screen]]

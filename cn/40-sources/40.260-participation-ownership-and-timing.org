@@ -1,0 +1,57 @@
+#+TITLE: 人怎样进入作品：归属、共创与介入时点
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-260-CN
+:SEMANTIC_ID: philosophy.source-note.40.260-participation-ownership-and-timing
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.260-participation-ownership-and-timing.org
+:SOURCE_ID: PHIL-SRC-260
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Fiona Draxler et al.; Jack McGuire et al.; Peinuan Qin et al.; Maurice Jakesch et al.
+:SOURCE_WORK: The AI Ghostwriter Effect; Establishing the importance of co-creation and self-efficacy in creative collaboration with artificial intelligence; Timing Matters; Co-Writing with Opinionated Language Models Affects Users' Views
+:SOURCE_EDITION: original articles and arXiv versions accessed 2026-09-21
+:SOURCE_DATE: 2023; 2024; 2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: arXiv 2303.03283v2; Scientific Reports 2024 article 18525; arXiv 2502.06197v1; arXiv 2302.00560v1
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.260-participation-ownership-and-timing
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.260-participation-ownership-and-timing-cn
+:END:
+这四项研究分别观察文本归属感、诗歌共创方式、构思时点与带有倾向的写作建议。它们使“人的判断能否进入作品”成为比“生成文本有多像他”更可追问的问题；任务、样本与测量都不同，不能合并成一种产品效果。
+
+#+NAME: participation-studies-cn
+#+EXPLANATION: 表中的数字是研究参与者，不是 Tao3k 用户；“未测到”也不能读作没有发生。
+| 来源与任务 | 实际观察 | 不应推出 |
+|------------+----------+----------|
+| [[https://arxiv.org/abs/2303.03283v2][Draxler 等，AI Ghostwriter Effect]]，两项文本实验，n=30 与 n=96 | 自称作者与感到拥有文本可分离；个性化没有消除这种差别，较大的文本影响力与较强的归属感相关 | 心理归属即版权归属；所有写作都应由人完成多数修改 |
+| [[https://www.nature.com/articles/s41598-024-69423-2][McGuire 等，诗歌实验]]，两项使用特定诗歌系统的研究 | 先交付完整诗供修改时，专业诗人给出的创造性评价低于独立写作；逐行共创条件下，原先的差距未呈现统计显著，参与者的创造自我效能感也有差异 | 已证明严格等效，或逐步共创必然优于代劳 |
+| [[https://arxiv.org/abs/2502.06197v1][Qin 等，写作构思实验]]，60 人 | 从开始便使用 LLM 的条件，相比先独立构思，原创想法更少，创造自我效能与自我归功更低 | 所有人都必须先独立思考，或晚用 AI 在长期生活中更好 |
+| [[https://arxiv.org/abs/2302.00560v1][Jakesch 等，立场写作实验]]，1,506 人 | 倾向支持或反对社交媒体的助手，影响成文观点与随后态度问卷 | 人格已长期改变；所有说服都是操纵 |
+* 语境
+前两项研究问的是人在具体文本或诗歌任务中的作用与感受。Ghostwriter 的作者自称、心理归属与法律作者身份不同；诗歌研究用的是研究者设计的特定系统，不能等同于任意大模型。Qin 等只比较一次构思任务中的使用时点。Jakesch 等关心写作助手的立场偏向，不是在诊断每位参与者的“真实愿望”。
+* 解释边界
+“差异不显著”不等于统计上证明两条件严格等效。诗歌评分和自我效能是不同结果；归属感和自我归功也不是长期能力。没有一项研究证明“编辑次数越多越有主体性”。有人只作两次关键选择，仍可能决定作品方向；有人需要大量无障碍辅助，或只希望 AI 安静代劳。所引实验不能裁判这些生活方式的正当性。
+
+四项研究都未检验 [[file:../30-reflections/30.220-making-what-matters-possible.org][清晨照片]]中的设想人物，也未记录一件作品后来怎样进入家庭、社区或私人生活。它们只使下一步的真实观察有了更清楚的问题，不是现实实践的代替品。
+* 影响
+[[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][作品走出屏幕]]据此区分材料被使用、结果被本人认可、能力或机会变化、现实回应四件事。[[file:../30-reflections/30.230-when-help-changes-what-we-want.org][愿望变化]]则借写作立场实验追问帮助怎样带有方向。当前只是 Reflection 的证据线索，未构成新 Principle，更没有 Tao3k 场景回执。
+* 解释链
+个性化未消除归属裂缝 + 完整成品后的编辑与逐步共创结果不同
+→ 相似的语气和可编辑的界面，都不能单独证明人的意思发挥了作用。
+
+介入时点影响一次构思 + 写作助手的倾向影响即时观点
+→ 帮助出现的时机、呈现的方向，也要成为可以发现与反对的部分；这不是“AI 不得影响人”的结论。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][把在意的事做出来]] · [[file:../30-reflections/30.230-when-help-changes-what-we-want.org][当帮助改变愿望]] · [[file:../30-reflections/30.260-when-the-work-leaves-the-screen.org][作品走出屏幕]]
