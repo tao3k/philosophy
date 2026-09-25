@@ -57,6 +57,22 @@
 | Aitia | causal assurance：claim、assumption、evidence、obligation、invalidation、verification planning 与 SDLC / ADR / GitOps assurance | 候选；需项目 receipt | obligation、verifier evidence 与 invalidation receipt |
 | Episteme | 垂直领域 meaning、ontology、relation、policy、source、Scenario / Profile / Case 与 qualification metadata | 候选；需项目 receipt | 领域语义与 qualification receipt |
 
+* 自改进进入生活时的证据边界
+
+[[file:../30-reflections/30.240-when-ai-says-it-improved.org][当 AI 说自己变好了]]延续一个设想案例：系统在隔离任务中更少漏掉开店支出，夜班职员随后决定暂时留下。下面是论文、架构与生活之间应经过的审查位置，不是已实现的跨仓库流水线，也不要求为这篇 Reflection 新造一套记录 DSL。
+
+#+NAME: self-improvement-evidence-route-cn
+#+EXPLANATION: 每层只证明它负责的部分；缺少后一层的证据时，前一层的成功不得代签。
+| 位置及所有者 | 可核验的有限主张 | 不得越级写成 |
+|--------------+------------------+--------------|
+| [[file:../40-sources/40.220-recognition-and-self-improvement.org][论文与来源说明]] | 哪一版方法在什么任务和独立评估上改进 | 对所有人的建议与生活有益 |
+| ASP／ASP Rust | 哪个 Agent 版本、Scenario、权限范围和性能门参与执行 | 测试通过即取得更广的行动权限或人的认可 |
+| MRR | 来源、语义代际、关系与推导在指定范围内被准入或仍为未知、过期、不完整 | 建议先于选择即构成因果，或未观察的后果为假 |
+| POO Flow Temporal Causality | 给定 Case、cut、关系和 horizon 的结构影响、轨迹及 unknown frontier | 图上路径即为生活中的因果，反事实即为事实 |
+| 当事人及受影响者 | 在自愿、相称的了解中说明实际经历、负担与异议 | 一次满意度成为普遍的善或全部人的同意 |
+
+可用于检验边界的负例包括：新版 Agent 以仅允许比较选项的旧授权向雇主作出承诺；关于岗位的来源已过期却被表述为当前事实；有限 horizon 内没有发现后果却发布“没有影响”；基准成绩提高就把一位职员后来的决定归因于 AI。前几项可以由各所有者设计拒绝与反例；最后一项还需要现实中的因果研究和人的解释，不能由技术回执单独闭合。当前没有这条跨层生活场景的端到端 receipt。
+
 * 审查问题
 
 审查者必须逐项回答：引用了哪个 Principle ID；该实现保存了什么语义；哪些内容只是候选；

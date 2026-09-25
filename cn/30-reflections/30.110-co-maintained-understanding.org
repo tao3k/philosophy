@@ -63,6 +63,11 @@ POO Flow 可以用关系表达内容从哪里来、生活中的意义和承诺�
 
 推断出的亲密关系、健康、政治倾向、经济困境与家庭冲突尤其敏感。即使推断有用，也应限制用途、保留来源和有效期，让当事人能够看到、纠正、拒绝继续保存。理解得更多，应提高帮助的分寸，不应扩大影响人的权限。
 
+** 共同理解还要能陪人把一件事试出来
+“想重新画画”不必立刻成为画像里的长期身份，也不能只作为一个需要保护的句子停在那里。她若愿意，可以请 AI 找一段可支配时间、比较手边材料，或者陪她看两张自己画过的画。画了几次以后，她可能说自己更喜欢为家人做一本图册，也可能发现眼下最需要睡觉。理解应随这些尝试改变，却不把任何一次变化宣布为“真正的她”。
+
+值得留下的不是她修改了多少字或生成了几幅图，而是她愿意保留的线索：什么是她提出的、什么是系统猜的、哪个建议被她否定、否定之后事情怎样走向别处。这样一份材料可以帮助下一次接续，也允许她不留下、不解释，或换一个帮助者。[[file:30.220-making-what-matters-possible.org][《当 AI 也在改变》]]进一步追问：当系统自己的帮助方式也在学习，人的这次修正如何真正改变合作，而不被吸收成更黏人的推荐。
+
 ** 共同维护进度 [4/7] [57%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
@@ -89,4 +94,4 @@ POO Flow 可以用关系表达内容从哪里来、生活中的意义和承诺�
 * 仍需面对的问题
 这个判断仍需要真实参与者对可理解性、修正、撤回、迁移与用途限制的经验，也要检验家庭、照护与组织关系中谁有权改哪一类记录。必须收录系统误解却长期加深推荐、敏感推断泄露、以及少记反而帮助得更好的反例。“和而不同”只作为解释资源，不能替代现代权利与制度证成。
 * 导航
-[[file:../README.org][语言入口]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][可追溯的知]]
+[[file:../README.org][语言入口]] · [[file:30.100-after-efficiency-time-and-good-life.org][效率之后]] · [[file:30.220-making-what-matters-possible.org][把在意的事做出来]] · [[file:30.130-when-life-no-longer-hurries.org][当生活不再催促]] · [[file:30.120-judgment-amid-adversarial-information.org][对抗性信息中的判断]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][可追溯的知]]

@@ -70,7 +70,17 @@ keeps the irrelevant from occupying life. Richness keeps what deserves attention
 | Agent | Interpret speech, search, translate, coordinate, propose candidates and fulfill entrustment | Pretend to exhaust human purpose or monopolize interpretation and authority | Person supplies revocable direction; design supplies clear state and shared objects |
 | Design | Organize attention, juxtapose difference, form manipulable common things, connect action to effect | Fix every path or use visual polish to hide power | Human experience corrects form; agent capability enters when needed without occupying all |
 
+** When an agent can change the way it helps
+
+A shared work is more than a picture against which a person checks the result. It should give the objection “This is beautiful, but it isn't what I meant” somewhere to land. A person can point to what was recast; the agent can explain what it drew on; together they can try another direction. Not every inference must become an audit log. What matters is whether disagreement changes the next step rather than being reduced to a minor style preference.
+
+A self-improving agent may also change how it searches, arranges work, or judges an outcome. Design cannot assume that “the same assistant” always helps in the same way. Low-stakes verifiable trials may run quietly. If a new method begins reaching further into private material, publishing work, or acting in ways that affect others, the change should be intelligible and refusable. [[file:../30.220-making-what-matters-possible.org][When AI Changes Too]] asks how a work and a life retain a particular owner while both collaborators may change.
+
 ** What becomes less and what becomes more
+
+In a public service, “show less interface” raises another question: less for whom? Imagine a library booking agent sparing frequent bookers a series of screens while making someone without an account, who simply wants to come in and sit, less visible. The design object is not only the person directing the agent or the agent itself; it also includes people outside the system. A quiet walk-in path that demands no private explanation may matter more than a more beautiful booking screen. [[file:../30.250-who-asks-what-should-improve.org][Who Gets to Ask What Should Improve?]] asks why that path should count as part of “better.”
+
+The shared object need not be one screen seen by everyone. A visitor needs to understand booking conditions or available space; a librarian needs to see exceptions and referrals; a manager needs to understand resource allocation. None should lose a way to object simply because the agent works smoothly. What becomes more or less must be judged with direct users, affected people, and nonusers in view, not by “no app required” alone.
 
 What may diminish is navigation that exists for software's internal structure: switching apps, repeated sign-in, feature
 hunting, entering the same facts in different forms, waiting on support and tracking scattered notices. An agent can
@@ -171,4 +181,4 @@ Aesthetic power also remains: who decides what deserves fuller view, who names t
 names density “professional”? If an agent generates a different interface for everyone, will people retain public
 forms they can discuss and contest together?
 * Navigation
-[[file:../../README.org][language index]] · [[file:30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] · [[file:30.190-when-services-face-agents.org][When services face agents]] · [[file:../30.160-beauty-in-everyday-life.org][Beauty in everyday life]] · [[file:../30.170-when-less-use-is-good.org][room and convergence]]
+[[file:../../README.org][language index]] · [[file:30.180-beyond-gui-user-space.org][What must remain visible beyond GUI]] · [[file:30.190-when-services-face-agents.org][When services face agents]] · [[file:../30.160-beauty-in-everyday-life.org][Beauty in everyday life]] · [[file:../30.220-making-what-matters-possible.org][When AI changes too]] · [[file:../30.170-when-less-use-is-good.org][room and convergence]]

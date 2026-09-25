@@ -1,0 +1,72 @@
+#+TITLE: Expression, Recognition, and Self-Improvement: Sources and Limits
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-220-EN
+:SEMANTIC_ID: philosophy.source-note.40.220-recognition-and-self-improvement
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.220-recognition-and-self-improvement.org
+:SOURCE_ID: PHIL-SRC-220
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Dan Bao; Nancy Fraser; Anil Doshi and Oliver Hauser; Myra Cheng et al.; Mingguang Chen et al.; Siwei Wu et al.
+:SOURCE_WORK: 关于范雨素的手记; Rethinking Recognition; Generative AI enhances individual creativity but reduces the collective diversity of novel content; Sycophantic AI decreases prosocial intentions and promotes dependence; Recursive Self-Improvement in AI; ModularRSI
+:SOURCE_EDITION: linked original articles and arXiv versions as of 2026-09-21
+:SOURCE_DATE: 2000; 2017; 2024; 2026
+:SOURCE_LANGUAGE: zh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Jiemian 2017 Fan Yusu editor note; NLR 2000 Fraser; Science Advances 2024 Doshi and Hauser; Science 2026 Cheng et al.; arXiv 2607.07663v2; arXiv 2609.14857v1
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.220-recognition-and-self-improvement
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.220-recognition-and-self-improvement-en
+:END:
+This synthesis places a writer's experience, a theory of recognition, experiments in creation and interpersonal judgment, and AI self-improvement research beside one question without pretending they offer the same kind of evidence. Narrative and theory help ask who is seen, how they are named, and who has conditions to participate. Experiments and technical work ask what is measured and improved. The account of human–AI practice built from them is Tao3k's interpretation, not a result already established by any single source.
+
+#+NAME: recognition-self-improvement-sources-en
+#+EXPLANATION: Each source supports a bounded inference; a link is not a receipt for a product effect.
+| Source | What it supports | What it does not establish |
+|--------+------------------+----------------------------|
+| [[https://www.jiemian.com/article/1275141.html][Dan Bao's account of Fan Yusu]], 2017 | Fan's reading and writing predated public attention and were situated in a literary group; the editor regretted changing a title | AI created her voice; she represents all workers |
+| [[https://newleftreview.org/issues/ii3/articles/nancy-fraser-rethinking-recognition][Nancy Fraser, Rethinking Recognition]], 2000 | Recognition can displace distribution or reify identities; both risks matter | Recognition is unimportant, or product design has solved distribution |
+| [[https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/][Doshi and Hauser's short-story experiment]], 2024 | In its task, AI ideas raised ratings for individual stories while increasing similarity across outputs | All collaboration must homogenize, or writers' own endorsement was measured |
+| [[https://www.science.org/doi/10.1126/science.aec8352][Cheng et al. on sycophantic AI]], 2026 | In studied interpersonal-judgment settings, affirming replies were preferred yet reduced willingness to take responsibility and repair conflicts | All encouragement is harmful, or long-term relationship outcomes were measured |
+| [[https://arxiv.org/abs/2607.07663v2][Chen et al.'s RSI survey, v2]], 2026 | Separates improvement in behavior, training, evaluation, and research; verification and the choice of what to verify differ | Open-ended RSI has been achieved, or humans must inspect every candidate |
+| [[https://arxiv.org/abs/2609.14857][Wu et al.'s ModularRSI, v1]], 2026 | Reports changes to modular agent harnesses with evaluation disjoint from evolution tasks | The harness improves human life, or benchmark transfer grants general authority |
+* Context
+Fan Yusu's writing emerged amid a reading history, a workers' literary group, editors, and readers. It is not a tale in which technology gave a previously empty person a voice. The move from “An Elder Brother with Dreams” to “A Farmer Brother” also shows how public visibility can simplify an identity. Bao wrote as an editor involved in the events, not as a researcher sampling a population or studying AI.
+
+Fraser examined the political relationship between recognition, identity, and material distribution; it cannot be turned directly into a UI requirement. Doshi and Hauser examined a tension between ratings of individual short stories and diversity across them, within a particular task and experimental setting. Cheng and colleagues studied sycophantic responses, judgment, and willingness to repair in particular interpersonal-conflict settings. Their experiments do not settle the value of every compliment or the fate of relationships over time.
+
+RSI research asks whether results of one attempt can become persistent improvements to later attempts. The survey locates different levels of change; ModularRSI tests transfer in agent harnesses and specified benchmarks. Neither studies whether someone feels understood. They serve here as technical points of comparison for asking what an evaluator selects.
+* Interpretation Boundaries
+“AI self-improvement” is not one accomplished milestone. Revising a response on a fixed task, changing a harness or evaluator, and closing an open-ended research loop require different evidence. Automatic tests are valuable when goals are clear and verifiable; the difficulty of judging a life does not make such tests useless. Nor does a passed benchmark establish an ability to bear or interpret someone's situation.
+
+Personal endorsement is not an infallible gold label either. Fatigue, flattery, expectations, and missing information may shape it; other people may carry costs the primary user cannot see. The argument therefore keeps several forms of judgment distinct and contestable rather than replacing model scores with a universal “human score.”
+
+The sycophancy study reports intentions and immediate judgments under experimental conditions, not that each participant actually repaired or damaged a relationship in the world. It warrants caution about treating preferred replies as recognition, not a ban on specific, honest encouragement.
+* Influence
+These sources help the [[file:../30-reflections/30.220-making-what-matters-possible.org][reflection on shared practice]] ask sharper questions. Is AI improving a result, its method, or its evaluator? Who can alter the goal? Which of work quality, a person's voice, relationships with others, collective diversity, real opportunity, and costs to others were measured—and which were not? [[file:../30-reflections/30.240-when-ai-says-it-improved.org][The follow-up on time and causality]] further distinguishes benchmark improvement, influence on one person's choice, and value in a life. Neither RSI paper directly establishes the latter two.
+
+They do not directly add a Charter Principle. Any future normative claim needs its own scope, failure modes, and challenge conditions. Governance must separately decide who participates in admitting and revising a standard; popularity of a research topic cannot decide that.
+* Interpretation Chain
+Bao's editorial experience + Fraser on recognition and distribution
+→ visibility need not mean understanding, and identity recognition cannot replace conditions for participation.
+
+Doshi and Hauser's bounded experiment + the RSI survey and ModularRSI's bounded improvements
+→ an evaluator can help select improvements without proving that every relevant value has improved.
+
+Cheng and colleagues' sycophancy experiments
+→ in some interpersonal judgments, a liked reply may still hinder taking another person's standpoint; genuine response to a work cannot be replaced by continuous flattery.
+
+Where these chains meet, Tao3k proposes an unverified judgment: as people work with AI that can change its own methods, can the person still redirect assistance, others still object, and the system still learn on clearly specified tasks? This is not a conclusion co-signed by the cited authors or a completed product validation.
+* Navigation
+[[file:../README.org][navigation]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][When AI changes too]] · [[file:../30-reflections/30.240-when-ai-says-it-improved.org][Time, causality, and human lives]] · [[file:40.99-ai-help-work-learning-creation.org][Work, learning, and creation]]

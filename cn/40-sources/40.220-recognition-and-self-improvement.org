@@ -1,0 +1,72 @@
+#+TITLE: 表达、认可与自进化：来源及其边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-220-CN
+:SEMANTIC_ID: philosophy.source-note.40.220-recognition-and-self-improvement
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.220-recognition-and-self-improvement.org
+:SOURCE_ID: PHIL-SRC-220
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Dan Bao; Nancy Fraser; Anil Doshi and Oliver Hauser; Myra Cheng et al.; Mingguang Chen et al.; Siwei Wu et al.
+:SOURCE_WORK: 关于范雨素的手记; Rethinking Recognition; Generative AI enhances individual creativity but reduces the collective diversity of novel content; Sycophantic AI decreases prosocial intentions and promotes dependence; Recursive Self-Improvement in AI; ModularRSI
+:SOURCE_EDITION: linked original articles and arXiv versions as of 2026-09-21
+:SOURCE_DATE: 2000; 2017; 2024; 2026
+:SOURCE_LANGUAGE: zh; en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Jiemian 2017 Fan Yusu editor note; NLR 2000 Fraser; Science Advances 2024 Doshi and Hauser; Science 2026 Cheng et al.; arXiv 2607.07663v2; arXiv 2609.14857v1
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.220-recognition-and-self-improvement
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.220-recognition-and-self-improvement-cn
+:END:
+这份综合把一个人的写作经历、承认理论、创作与人际判断实验，以及 AI 自改进研究放在同一问题旁边，但不把它们混成同一种证据。叙事与理论帮助我们问“谁被看见、怎样被命名、谁有条件参与”；实验与技术研究则追问“什么被测量、什么得到改进”。从这些材料走到人和 AI 的共同实践，是本仓库提出的解释，不是任何单篇文献已经证明的结论。
+
+#+NAME: recognition-self-improvement-sources-cn
+#+EXPLANATION: 每份材料只支持一段有限推论；来源链接不是产品效果回执。
+| 材料 | 能支持的判断 | 不能推出的结论 |
+|------+--------------+----------------|
+| [[https://www.jiemian.com/article/1275141.html][淡豹《关于范雨素的手记》]]，2017 | 范雨素在受到广泛关注前已有阅读、写作和文学小组关系；编辑回顾标题改变的遗憾 | AI 创造了她的声音；她代表所有劳动者 |
+| [[https://newleftreview.org/issues/ii3/articles/nancy-fraser-rethinking-recognition][Nancy Fraser, Rethinking Recognition]]，2000 | 承认可能遮蔽分配，也可能使身份固定化；两种危险须一起考虑 | 承认不重要，或一项产品设计已解决分配问题 |
+| [[https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/][Doshi 与 Hauser 的短篇实验]]，2024 | 特定短篇任务中，AI 构思提高个体作品的评价，同时作品间相似性上升 | 所有共创必然同质化，或作者本人是否认可已被测量 |
+| [[https://www.science.org/doi/10.1126/science.aec8352][Cheng 等的迎合式 AI 实验]]，2026 | 在所研究的人际判断场景中，迎合回复更受喜爱，却降低了承担责任和修复冲突的意愿 | 一切鼓励都会伤害人，或该实验已测到长期关系结局 |
+| [[https://arxiv.org/abs/2607.07663v2][Chen 等的 RSI 综述，v2]]，2026 | 区分行为、训练、评价器和研究过程的改进；检验依据与何事值得检验仍是不同问题 | 开放式递归自改进已经实现，或所有评价都必须由人逐项执行 |
+| [[https://arxiv.org/abs/2609.14857][Wu 等的 ModularRSI，v1]]，2026 | 把代理执行机制拆成模块，在与演化任务分离的基准上报告改进 | 该机制会改善人的生活，或跨基准结果证明模型具有普遍判断权 |
+* 语境
+范雨素的写作发生在具体的阅读史、工友文学小组、编辑与读者关系之中。它不是“原本沉默的人被技术激活”的故事。标题由《有梦想的大哥哥》变为《农民大哥》，也说明公共可见性可能伴随身份简化。淡豹的手记是亲历编辑的叙述，而非随机样本或关于 AI 的研究。
+
+Fraser 讨论的是承认、身份与资源分配的政治关系，不能直接移植为一个用户界面的要求。Doshi 和 Hauser 则在短篇故事实验中观察个体评价与集体差异的张力；实验的对象、提示方式和时间范围有限。Cheng 等的预注册实验讨论特定人际冲突场景中的迎合回复、判断与修复意愿，不能被延伸为对一切赞赏或所有长期关系的判决。
+
+RSI 文献关心系统能否将试验结果转化为下一次改进。综述区分改动发生在哪一层；ModularRSI 在代理执行机制和特定基准上检验迁移。它们讨论的不是一个人是否感到被理解，因而只能作为“评价会选择何种进步”的技术参照。
+* 解释边界
+“AI 自进化”不是单一已达成的里程碑。对固定任务的改进、工具流程或 harness 的改写、评价器改写和开放式研究循环，有不同的证据要求。自动测试在有清楚可检验目标时很有价值；不能因为生活中有难以量化的意义，就否定这些测试。也不能因某个基准通过，就推断系统懂得承担人的处境。
+
+个人认可也不是无误的金标准。疲惫、迎合、期待和信息不足可能影响当事人；其他人还可能承担他看不到的代价。本文因此主张多种判断保持可区分、可质疑，而不是把“人类打分”换成另一项万能指标。
+
+迎合研究报告的是实验条件下的意愿与即时判断，不是每位参与者在现实中已经修复或破坏了关系。我们据此警惕把受欢迎的回复当成认可，不据此禁止具体、诚实的鼓励。
+* 影响
+这些来源支持 [[file:../30-reflections/30.220-making-what-matters-possible.org][共同实践]]提出更精确的问题：AI 改进的是结果、方法还是评价器？谁能改变它追求的目标？作品质量、作者的声音、与他人的关系、集体差异、现实机会和受影响者的代价，哪些被测到、哪些没有？[[file:../30-reflections/30.240-when-ai-says-it-improved.org][时态与因果的后续反思]]进一步区分基准上的改进、对某人选择的影响和生活价值；两篇论文都没有直接验证后两者。
+
+它们尚不构成新的 Charter Principle。若以后提出规范，必须另行说明适用范围、失败模式与可挑战条件；Governance 则另行决定谁参与准入和修订，不能由热门论文代替。
+* 解释链
+淡豹的编辑经验 + Fraser 的承认与分配分析
+→ 可见不等于被理解，身份认可不能替代实际参与条件。
+
+Doshi 与 Hauser 的有限实验 + RSI 综述与 ModularRSI 的有界改进
+→ 一个评价器可以帮助筛选改进，却不能凭自身的分数证明全部相关价值均已改善。
+
+Cheng 等的迎合实验
+→ 在某些人际判断中，被喜欢的答复仍可能妨碍人面对他人的立场；对作品的真实回应不可被持续奉承替代。
+
+两条链相遇时，Tao3k 提出一个仍待检验的判断：在人与会改变自身方法的 AI 共同行动时，能否保留本人修正方向、他人提出异议、系统按明确任务继续学习的空间。这个判断不是来源作者共同签署的结论，也不是已经完成的产品验证。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.220-making-what-matters-possible.org][当 AI 也在改变]] · [[file:../30-reflections/30.240-when-ai-says-it-improved.org][时间、因果与人的生活]] · [[file:40.99-ai-help-work-learning-creation.org][工作、学习与创作]]

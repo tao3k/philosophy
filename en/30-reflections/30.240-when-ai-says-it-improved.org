@@ -1,0 +1,88 @@
+#+TITLE: When AI Says It Has Improved: Time, Causality, and Human Lives
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-240-EN
+:SEMANTIC_ID: philosophy.reflection.30.240-when-ai-says-it-improved
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.240-when-ai-says-it-improved.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.240-when-ai-says-it-improved-en
+:END:
+An AI system changes how it works and performs better in tests. Later, it gives someone different advice. That person makes a different choice and goes on living. Can we say the system improved? Can we say it caused the person's change of mind? Can we say the change was good for them? The three questions belong together, but neither one score nor one timeline answers them all.
+
+[[file:30.220-making-what-matters-possible.org][Shared practice]] asks how an improvement enters a life. [[file:30.230-when-help-changes-what-we-want.org][Changing wishes]] asks how help can shape a choice. This essay asks what follows when the helper also changes: how can technical evidence, temporal facts, causal hypotheses, and human judgment be connected without losing the boundaries between them?
+* Argument
+A paper may give us reason to consider an architecture. An architecture may make certain mistakes visible and refuse certain actions. Neither can, by itself, establish that someone lives better. We need a path that does not skip steps: identify the change and its test conditions, separate what happened from what might have happened, then listen to the people who bear the consequences.
+
+** She stayed, but we do not yet know why
+This extends the imagined night-shift worker from the previous essay; it is not a completed experiment. A team lets an AI system improve how it finds overlooked options and explains financial risks. In isolated task tests, the new version misses fewer necessary expenses. After deployment, the worker asks whether she could leave night shifts and earn a living repairing bicycles. The system points out the cost of opening a shop, and she decides to stay for now. Months later she may have saved some money; she may also still be sleeping badly.
+
+“Missed fewer expenses in these tests” is a bounded task result. “She decided to stay” records a choice. “AI caused her to stay” and “staying made her life better” are two further claims. She may also have spoken to other repair workers; responsibilities at home may have changed; jobs may have become harder to find; her health may have shifted. We cannot place one person in exactly the same circumstances and have her live both the staying and leaving paths, then subtract one life from the other. Replaying the same words through an older model afterward is not replaying the life she had then.
+
+#+NAME: improvement-times-en
+#+EXPLANATION: This locates evidence in an imagined case, not in existing user logs; the last row is never a second life we actually observed.
+| Position | What can be recorded honestly | What does not follow directly |
+|----------+-------------------------------+-------------------------------|
+| A change is proposed | Which part of which model or harness may change, and why | The candidate has already helped anyone |
+| Isolated tests finish | The tasks, versions, and limits within which fewer expenses were missed | Better judgment everywhere, or a better human life |
+| The conversation occurs | Advice actually shown, its grounds, options raised and omitted | The advice alone caused the person's decision |
+| A decision and its aftermath | Reasons the person wishes to share, work and life consequences actually borne | One consent or moment of satisfaction is lasting endorsement |
+| The path not taken | Bounded possibilities under explicit assumptions | Another life that has been observed |
+
+Temporal position is not causal standing. Advice may precede a decision without driving it; an event may be recorded late after it has already mattered. [[file:../10-charter/10.20-temporality-and-causality.org][The draft on temporality and causality]] distinguishes events, observations, predictions, simulations, and counterfactuals. In a person's life this is not classification for its own sake. It keeps “this happened afterward” from becoming “this happened because of it.”
+
+** How far self-improvement papers can take us
+[[file:../40-sources/40.220-recognition-and-self-improvement.org][The source note]] describes an RSI survey that separates improvements to deployed behavior, trained policy, the evaluator, and the research process. It also separates choosing what deserves evaluation from verifying an improvement. ModularRSI constrains changes to harness modules and tests transfer on benchmarks kept apart from the evolution tasks. This is a reason to take local automatic improvement seriously: people need not approve every candidate in a verifiable task.
+
+But moving from a benchmark to a life requires at least three transitions that cannot be smuggled in: whether task performance transfers to advice of this kind; whether the advice had an identifiable effect on this person's choice; and whether that effect is one the person and others affected have reason to welcome. The first can be tested with new tasks and failures. The second must consider other causes changing at the same time. The third is not settled by a technical metric. If the system helps rewrite its own evaluator, a rising score may even mean that it has learned to fit the measurement more closely.
+
+None of this dismisses automatic tests. Compilers, proof checkers, and isolated evaluations can be more reliable than asking tired people to watch every iteration when the goal is clear. The difficulty arises when a system carries a bounded success into a less settled question about a life and continues to call both simply “improvement.”
+
+** How the existing architecture can keep claims apart
+[[file:../20-engineering/20.10-cross-repository-realization-map.org][The cross-repository map]] names candidate owners, not a completed product pipeline. ASP and ASP Rust are suited to identifying the Agent version, authority, and Scenario involved, and retaining technical and performance evidence; passing such a test does not mean this worker benefited. MRR can anchor statements, sources, semantic generations, and derivations. If information about available jobs is stale, it should remain stale; if coverage is insufficient, unknown must not silently become true or false. MRR should not create a conclusion about a life from the fact that a decision followed some advice.
+
+POO Flow Temporal Causality already has a general event graph, bounded causal cut, trajectories, counterfactuals, and an unknown frontier. To use them here, a concrete Scenario must still say what counts as a real event rather than a plan, what supports a relation, and which observations are missing. A dependency path or structural impact in a graph is not automatically the real-world claim “AI made her stay,” much less “she is better off.” Placing a person in a graph does not replace hearing from her. What she chooses not to share must remain unknown rather than be silently filled in. No layer may fabricate a receipt owned by another.
+
+What can be designed and checked are narrower but important boundaries: a counterfactual must not become an observed fact; permission tied to an old version must not authorize a newly widened action; a retry after cancellation must not silently restore an external commitment; a result stopped by an evidence or resource limit must retain its incompleteness. TLA+ can find finite-state counterexamples to such cross-layer properties. It cannot prove the meaning of work, relationships, or rest. Architecture should make overclaiming difficult, not announce that it has evaluated a life on people's behalf.
+
+** Human responses are not a new universal score
+Months later, “I'm glad I didn't quit” deserves attention. So does “staying cost me my sleep.” Neither statement can be torn away from the work she could actually find, what her family carried, and how the system presented the choice. Later endorsement is not the only truth; later regret does not prove that the initial choice was necessarily wrong. Family members, colleagues, and customers may also be affected. Their voices belong in the discussion without becoming an automatic veto over her life.
+
+If these experiences are collected only to feed the next model a satisfaction label, technology flattens the disagreement again. A person can correct the system and can decline long-term tracking. People who cannot afford the time to respond should not disappear from the evidence used to claim improvement. Co-evolution does not mean turning humans into perpetual model graders. It means that both sides may encounter new facts and objections and change their arrangements, while institutions preserve the ability to leave, appeal, and remain accountable to others.
+
+** Real-world checks not yet completed [0/5] [0%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+These are possible observations to negotiate with participants, not evidence this essay has obtained or a demand for everyone's life logs.
+
+- [ ] Bound each system change to an exact scope; retain failures and unsuccessful candidates on tasks independent of the improvement set, not just the winning score.
+- [ ] Where permission and need justify it, distinguish reasons held before advice, new facts, words actually shown, and options still not tried.
+- [ ] Compare task results, the person's later view, and burdens borne by others; preserve disagreement rather than compressing it into a total score.
+- [ ] Check whether old permissions, revisions, revocation, retries, and external actions can interleave so that an unauthorized effect occurs.
+- [ ] Record who lacks time, means, or willingness for follow-up, and how that absence limits a claim that the system improved lives.
+* Counterexamples
+First, when a task has a clear, stable, independent verifier, automatic improvement can be fast and safer than review by a person at every step. If this essay asks every affected person to approve each local change, it treats their time as a free resource. The degree of scrutiny should vary with impact and reversibility; speaking about life does not invalidate rigorous technical evaluation.
+
+Second, people can misremember, rationalize, or change what they say under pressure. Taking a person's account seriously does not mean replacing facts, others' experience, or suitable comparative research with self-report. Nor may a researcher use a model score to erase an objection that was never heard.
+
+Third, strong causal identification is often impossible, and a life cannot wait for perfect research. If uncertainty becomes a reason never to act, this essay defeats the practice it seeks to protect. One may act while naming what is unknown and what costs can be borne; courage required for action is not proof of a causal claim.
+
+Fourth, technical improvement may reveal a danger the person does not want to see, perhaps sooner than those around them notice it. Human judgment should not be used as a reason to forbid AI from making a forceful objection. The question is whether that objection's grounds, scope, and possible interests can be scrutinized, and whether others' rights and the person's room to change course remain intact.
+* Provisional Conclusion
+A system can genuinely improve at a task without our knowing whether it changed one person's decision. Even if it did, we still do not know whether that was good. This does not reject self-improvement. It gives each achievement an accurate name. As AI and people change together, we need both the strength of rigorous automatic testing and a way for people to say what the test did not ask, with objections capable of changing the next design.
+
+A paper's finding may justify an architectural candidate; Scenarios and formal counterexamples may eliminate some dangers; versions and receipts may make responsibility traceable. Only in actual lives can the value of help be discussed further. Success at one layer cannot sign on behalf of the next.
+* Questions That Remain
+The worker remains imagined. There is no longitudinal observation or causal study of her case. Even a future comparative study would not turn every reason of a particular person into an average effect. We still need proportionate ways to learn what happens later while respecting privacy and refusal, and to hear people without stable work, family support, or the means to express themselves readily.
+
+The existing mechanisms have separate owners and local evidence; this essay has not delivered a cross-ASP, MRR, and POO Flow receipt showing that self-improvement improved a life. Which boundaries deserve a Principle must be argued separately, including scope, conflict, and failure. Who reviews, challenges, and revises a standard belongs to Governance, not to a fashionable paper or to this essay.
+* Navigation
+[[file:../README.org][language index]] · [[file:30.220-making-what-matters-possible.org][Shared practice and self-improvement]] · [[file:30.230-when-help-changes-what-we-want.org][When help changes a wish]] · [[file:../10-charter/10.20-temporality-and-causality.org][Draft on time and causality]] · [[file:../20-engineering/20.10-cross-repository-realization-map.org][Cross-repository engineering map]] · [[file:../40-sources/40.220-recognition-and-self-improvement.org][RSI sources and limits]]

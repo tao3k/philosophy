@@ -1,0 +1,76 @@
+#+TITLE: When a Work Leaves the Screen: Response, Recognition, and Reasons to Continue
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-21
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-260-EN
+:SEMANTIC_ID: philosophy.reflection.30.260-when-the-work-leaves-the-screen
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.260-when-the-work-leaves-the-screen.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.260-when-the-work-leaves-the-screen-en
+:END:
+[[file:30.220-making-what-matters-possible.org][The preceding essay]] imagines someone photographing an early-morning street: the shops have not opened, but a light is already on. With AI he makes a small album. What happens next? Can he recognize his own observation in it? If he shows it to family, can he hear a particular response? If no one responds, or if an image of “the working-class morning” begins to define him, can he still continue, change direction, or stop showing the work?
+
+“Leaving the screen” need not mean public publication. Printing a copy, showing one friend, bringing it into a conversation, or deciding to keep it private all place a work within an actual life. The three continuations below are imagined branches, not a follow-up study of this photographer.
+* Argument
+Giving material to a system and receiving a polished product does not by itself give someone's expression a place. The question is not how many operations he performed by hand. It is whether what he noticed can change the work, whether he gained room for another attempt, and whether he can make sense of its reception without surrendering control of it. Being seen can be good, but is not a required score.
+
+** Polished, yet not his
+AI sequences the photographs and calls each page a fragment of “lonely city life.” His family finds it beautiful; he says, “That isn't what I was looking at. The light was on because someone had already begun preparing for the day.” If this only produces ten more lyrical titles, an edit box has not given him the power to change direction.
+
+They can return to what he pointed out. Which order of two pictures erased the wait before opening? Who inferred loneliness? Could the writing recede and leave the time, doorway, and light? The agent may offer another interpretation or notice that someone pictured may not wish to appear. But his objection must be able to change sequence, wording, and intended audience. Nor must the finished work reproduce his first-minute intention. After comparing alternatives he may prefer a direction he had not imagined. What matters is a chance to think through change, not enshrining an original self.
+
+[[file:../40-sources/40.260-participation-ownership-and-timing.org][Research on text ownership and co-creation]] offers a bounded reminder: personalization did not guarantee psychological ownership, and editing a completed poem differed from iterative co-creation in a particular poetry task. Those studies cannot judge this photographer's experience. They do require us to distinguish “the words sound more like me” from “I can express more of what I mean.”
+
+** He likes it, but few people respond
+He revises the album, likes it, and shows two friends. One says only, “Nice.” AI might help him ask a more exact question: which photograph made the street recognizable? It could check whether there is a photography gathering he would actually like, with clear costs, timing, and exposure. When he does not wish to share further, help can stop. Few likes do not make the album a failure, much less the person.
+
+Yet “I like it myself, and that is enough” must not become an excuse for a product to stop helping people enter real relationships. A friend might point out a cleaner missing from the scene and change what he sees next morning. A serious disagreement may be worth more than constant model praise. Response can nourish practice without needing to keep increasing. If the system answers quiet reception by optimizing titles, extending reach, and heightening emotion, it may turn an album for family into a traffic project.
+
+[[https://zh.wikisource.org/zh-hans/%E5%9B%9B%E6%9B%B8%E7%AB%A0%E5%8F%A5%E9%9B%86%E8%A8%BB/%E8%AB%96%E8%AA%9E%E9%9B%86%E6%B3%A8%E5%8D%B7%E4%B8%80][The Analects' question of not resenting being unknown, and Zhu Xi's citation that learning is one's own while being known rests with others]], invites a question: when recognition has not arrived, can a person still have reason to practice? Its setting is learning and cultivation, not a psychological prescription for someone excluded by a modern platform. [[file:../40-sources/40.220-recognition-and-self-improvement.org][Fraser's discussion of recognition and distribution]] supplies a challenge from another direction: an institution cannot tell people to stop caring about recognition while withholding the conditions for entry, participation, and a serious hearing. These views remain in tension; we need not pretend they say the same thing.
+
+** Welcomed, then held inside one image
+Imagine the album unexpectedly draws attention. People repeatedly ask him for “ordinary workers' mornings.” Later he wants to photograph empty afternoons, but a recommendation system says this is no longer his most distinctive work. AI amplified one expression; audiences may turn that expression into his entire identity.
+
+The answer is neither to instruct him to change subject nor to keep him with what once worked. He could compare continuing, trying a small new series, sharing with fewer people, or pausing, with the real costs of each. He can keep the old album while editing, fading, or carrying away a personal profile that treats the old style as destiny. He is free to keep photographing mornings and free to no longer fit the label. A platform may prefer a stable persona; that convenience is not his long-term wish.
+
+** The next time he reaches the street
+Making one album does not reset life to the first question. A week later he passes the light again. He may take more photographs, attend to something for his family, or simply walk on. If the system treats “last time's morning series” as a standing project and keeps urging him to shoot, sequence, and publish, one assisted practice becomes an identity he must maintain. If it forgets everything, he must explain all over again why the light mattered.
+
+What he can carry forward is the work he endorsed, the objections he made, and agreements he can amend—not an unanswerable claim that this is the kind of creator he is. This time he may delegate sorting; next time he may select pictures himself; after that he may do nothing. Doing less is not a regression. Delegating more need not mean losing capacity. The terms of help must be open to change with circumstance, not signed for the future by a usage record.
+
+[[file:../40-sources/40.260-participation-ownership-and-timing.org][A recent five-year interview preprint]] describes divergent experiences among 17 Chinese digital painters, 13 with all five interview waves. Some bounded AI's role to backgrounds or drafts; some kept portions of the work for their own hand; some found boundaries harder to maintain amid peers, clients, fatigue, and work pressure. These are not the photographer's experiences, nor a rule that every creator first refuses and later accepts AI. They prevent us from looking only at satisfaction when one work ends: a later change in collaboration may involve capabilities, income, peers, and what work a person still wants to do.
+
+The next practice therefore need not start with “what more can the system generate for him?” It can start with whether he wants to look, make, or entrust anything today. AI may ask once and allow silence thereafter. It may preserve an agreed path into the past without letting that past dictate the next direction. Such room does not deliberately make a system less capable; it leaves space for new attention and new refusal.
+
+** Four things often mistaken for one
+#+NAME: work-and-recognition-distinctions-en
+#+EXPLANATION: This is not a ladder that necessarily rises left to right; each can be true while the next is false.
+| Question | What may have happened | What still needs asking |
+|----------+-----------------------+------------------------|
+| Was personal material used? | AI saw photos, drafts, and stylistic preferences | Did his observation change the result? |
+| Does he endorse the work? | He can point to and correct what is wrong, and wishes to keep it | Can he express, judge, or delegate more reliably next time? |
+| Did capacity or opportunity change? | He found an affordable way to practice, meet others, or finish a task | Did he enter that relation, and who bore its cost? |
+| Was there a real response? | Someone understood, challenged, used, or cherished the work | Does he want to continue; can he keep it without response? |
+
+AI may arrange voice notes and photographs without cleaning away meaningful local speech; demonstrate, compare, or practice when wanted without making every task a lesson; verify an event or conversation opening without calling a suggestion an opportunity already gained; and help distinguish criticism, different taste, factual correction, and silence without flattening them into one score. POO Flow, MRR, GQL, Ascent, and ASP have candidate roles within their own boundaries, but no graph, query, or execution receipt proves ownership, growth, or recognition. [[file:../20-engineering/20.10-cross-repository-realization-map.org][The cross-repository map]] remains a map of possible owners.
+* Counterexamples
+Someone may want only a neatly assembled album, not lessons or dialogue. Forcing iterative co-creation would make agency into extra labor. A person using extensive accessibility support need not establish ownership by counting edits. Conversely, someone may genuinely welcome an unexpected AI interpretation; an initial account must not forbid learning.
+
+Someone else may ask AI to remind them regularly to keep photographing, or to offer a starting point when things are difficult. Turning room into a rule that “the system may ask only once” would take away this chosen companionship. Timing, intensity, purpose, and how reminders stop are open to discussion. A system should not silently intensify them based on past engagement, but neither is every continuing form of help a dependency.
+
+Real responses can also be harsh, discriminatory, or mistaken. They do not outrank personal judgment merely because they come from “the world.” Nor should a model filter away all discomfort and lose worthwhile criticism. For someone earning a living from public work, reach and feedback are material resources. Rejecting compelled exposure is not contempt for the legitimate choice to cultivate an audience.
+* Provisional Conclusion
+What AI might amplify is not a feeling of being special but a person's practical room to bring what matters into life. Their concrete judgment can alter a result; they can receive help and response when wanted, and can also keep a work private, stop, or change course. A work that is polished, sounds like them, becomes popular, and gives them reason to continue presents four distinct facts. We should not string them into a necessary causal chain to produce a success story.
+* Questions That Remain
+None of the three continuations, nor the later return to the street, has occurred. If someone voluntarily brings a matter of their own, ask first whether they want delegation, experiment, practice, privacy, or sharing. Observe whether a consequential objection actually changes the help, not the count of edits. Learn about later response and changes in the terms of collaboration only if the person wishes; the account must also have room for people who decline further study. Refusing research must not mean losing basic help.
+
+This essay establishes no product effect on ownership, capability, or social recognition. A proposed Principle would need its own scope and failure modes; participation, refusal, and records belong to Governance. Real-world observations in 30.220, 30.230, and 30.240 remain [0/6], [0/4], and [0/5]. Writing this essay completes none of them.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.220-making-what-matters-possible.org][Early street and practice]] · [[file:30.230-when-help-changes-what-we-want.org][When help changes a wish]] · [[file:30.250-who-asks-what-should-improve.org][Who asks what improves]] · [[file:../40-sources/40.260-participation-ownership-and-timing.org][Evidence limits on ownership, co-creation, and timing]]

@@ -65,6 +65,8 @@ If one generative system makes rooms, essays, shops and streets increasingly ali
 
 Deeper help lets a person say why a kind of light, material touch or street scale matters, which tastes arise from familiarity, which are changing, and why others may differ. AI supplies vocabulary and comparison without owning the judgment. A person may ultimately need no style name at all.
 
+There is also a failure a rendering rarely reveals: the design has become exquisite, yet its inhabitant says, “This is not what I wanted to keep.” The answer is not merely to soften the style or force a choice from more alternatives. Return to the movements and relationships they first cared about. Let them remove what the model added; let “not yet” change the proposal as a whole. [[file:30.220-making-what-matters-possible.org][Making What Matters Possible]] takes this power to redirect a work into a relationship where AI's own methods may change too.
+
 ** Room lets a place continue to be lived
 
 The unpainted places in /Huaxuan/ remind us that completeness need not fill every position with design intent. The useful absence of a room in the /Laozi/ also brings capacity for inhabitation into view. The [[file:../40-sources/40.140-unfilled-space-and-rest.org][source note]] does not turn landscape technique and classical thought directly into urban rules. It helps this essay ask whether a place allows activities not scheduled in advance.
@@ -112,4 +114,4 @@ This essay still lacks different experiences of participation from architects, b
 
 Questions remain about final authority in shared places; conflicts among aesthetics, accessibility, safety and livelihood; participation that becomes unpaid labor saving institutional cost; and whether “I do not want a renovation; I want a stable life” can receive equal respect.
 * Navigation
-[[file:../README.org][language index]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:30.99-shanjia-yuwu.org][Skillfully using things]] · [[file:30.97-shared-lives-and-responsibility.org][Shared lives and responsibility]] · [[file:../40-sources/40.140-unfilled-space-and-rest.org][unfilled space and rest]] · [[file:../40-sources/40.130-leisure-interest-and-ordinary-experience.org][ordinary experience]]
+[[file:../README.org][language index]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:30.99-shanjia-yuwu.org][Skillfully using things]] · [[file:30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:30.97-shared-lives-and-responsibility.org][Shared lives and responsibility]] · [[file:../40-sources/40.140-unfilled-space-and-rest.org][unfilled space and rest]] · [[file:../40-sources/40.130-leisure-interest-and-ordinary-experience.org][ordinary experience]]

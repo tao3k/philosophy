@@ -63,6 +63,11 @@ Recommendations that endlessly deepen old choices turn a life history into a tra
 
 Inferred relationships, health, political commitments, financial hardship and household conflict are especially sensitive. Even a useful inference needs a limited purpose, source and expiry, plus the person's ability to see, correct and decline its continued storage. Greater understanding should improve the tact of help, not enlarge authority to influence.
 
+** Shared understanding should help someone try something
+“I want to paint again” need not become a permanent artist identity in a profile. Nor should it remain only a sentence to protect. If she wants help, AI can find a stretch of time she controls, compare materials already at hand, or look with her at two paintings she made. After several attempts she may prefer making a family album, or discover that she needs sleep most of all. Understanding should change with those attempts without declaring any turn to be her “true self.”
+
+What may be worth keeping is not a count of revisions or generated images but the clues she chooses to retain: what came from her, what the system guessed, which suggestion she rejected, and what happened after that rejection. Such material can carry a conversation forward while leaving her free not to record, not to explain, or to change helpers. [[file:30.220-making-what-matters-possible.org][When AI Changes Too]] asks whether her correction actually changes cooperation as the system learns, rather than being absorbed into more adhesive recommendations.
+
 ** Co-maintenance progress [4/7] [57%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
@@ -89,4 +94,4 @@ Help that respects individuality does not classify a person more accurately. It 
 * Questions That Remain
 This account still needs participant experience with comprehensibility, correction, withdrawal, portability and purpose limitation, including who may amend which records in families, care and organizations. It must include counterexamples of system misunderstandings hardened by recommendations, leaked sensitive inferences and cases where remembering less helped more. “Harmony without sameness” remains an interpretive resource, not a substitute for modern rights and institutional justification.
 * Navigation
-[[file:../README.org][language index]] · [[file:30.100-after-efficiency-time-and-good-life.org][After efficiency]] · [[file:30.130-when-life-no-longer-hurries.org][When life no longer hurries]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable knowledge]]
+[[file:../README.org][language index]] · [[file:30.100-after-efficiency-time-and-good-life.org][After efficiency]] · [[file:30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:30.130-when-life-no-longer-hurries.org][When life no longer hurries]] · [[file:30.120-judgment-amid-adversarial-information.org][Judgment amid adversarial information]] · [[file:30.70-traceable-knowledge-source-to-consequence.org][Traceable knowledge]]
