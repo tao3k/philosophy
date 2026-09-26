@@ -148,4 +148,6 @@ A proposed Principle needs its own scope and counterexamples. Who arranges obser
 - [ ] Observe reasons, disagreements, and burdens as purposes and circumstances change, including whether help opens or narrows appropriately.
 - [ ] Examine completed work, ways of collaborating, and later judgment separately, without treating recitation or one success as proof of growth.
 * Navigation
+Continue with [[file:30.280-relying-before-full-understanding.org][Can I Rely on You Before I Fully Understand?]], which takes the question into an unfamiliar journey and examines conditions, trust, and action with incomplete understanding.
+
 [[file:../README.org][Language entry]] · [[file:30.220-making-what-matters-possible.org][Where the photographs began]] · [[file:30.260-when-the-work-leaves-the-screen.org][Work entering shared life]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Research limits on understanding and reliance]]

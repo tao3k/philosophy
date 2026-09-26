@@ -1,12 +1,12 @@
 {
-  "assertionCount": 3758,
-  "documentCount": 163,
-  "evaluationCount": 336,
+  "assertionCount": 3790,
+  "documentCount": 165,
+  "evaluationCount": 340,
   "findings": [],
   "orgizeRevision": "52d315155ebbba917f0694068444d3bbde5f9920",
   "orgizeSourceDirty": false,
   "schemaVersion": 1,
   "status": "passed",
   "workspaceContractId": "philosophy.workspace.v1",
-  "workspaceDigest": "blake3:a6d49b7c0abcee784eb338de87c77b584e0b7880c2f8e2f55476a0d9d190cc25"
+  "workspaceDigest": "blake3:7399db1708297d5d520d086e886837bb7c793713d4d5659858590d9504c7d8ab"
 }

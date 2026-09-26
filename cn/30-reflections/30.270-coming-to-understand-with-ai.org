@@ -149,4 +149,6 @@ AI 可以说清打样显示了什么，再一起比较小幅保留、搭配另�
 - [ ] 观察目的与情境变化时的理由、分歧和负担，了解帮助能否适时展开或收住。
 - [ ] 分别了解事情完成、协作方式与后来判断的变化，不以复述或单次成功证明成长。
 * 导航
+后续讨论：[[file:30.280-relying-before-full-understanding.org][还没有完全明白，能不能先依靠你？]]把问题带到陌生旅程，讨论理解尚不充分时的条件、信任与行动。
+
 [[file:../README.org][语言入口]] · [[file:30.220-making-what-matters-possible.org][清晨照片的起点]] · [[file:30.260-when-the-work-leaves-the-screen.org][作品进入共同生活]] · [[file:30.110-co-maintained-understanding.org][共同维护的理解]] · [[file:../40-sources/40.270-understanding-and-reliance.org][理解与依赖的研究边界]]

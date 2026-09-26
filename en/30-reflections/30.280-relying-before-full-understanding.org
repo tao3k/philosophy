@@ -1,0 +1,101 @@
+#+TITLE: Can I Rely on You Before I Fully Understand?
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-280-EN
+:SEMANTIC_ID: philosophy.reflection.30.280-relying-before-full-understanding
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.280-relying-before-full-understanding.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.280-relying-before-full-understanding-en
+:END:
+[[file:30.270-coming-to-understand-with-ai.org][The preceding essay]] asks how people come to understand with AI. Here the question is less comfortable: after explanation and comparison, someone still does not fully understand. Can collaboration continue? People have neither unlimited time nor a wish to become experts in every matter.
+
+Imagine someone asking AI to arrange a short family trip to an unfamiliar city. He knows when to leave and what he wants to see, but not the transport along the way. The system offers a seemingly thorough route. He need not understand how all routes were compared, yet may not know that one connection requires carrying luggage between stations. A relative looks at the plan and says, “I don't want to be rushing as soon as we arrive.” An unspoken condition has entered what counted as feasible. This is a thought experiment, not a trip record or route recommendation.
+* Argument
+Relying on people or tools need not wait until we possess their knowledge. Yet trust cannot rest only on complete explanations and a confident tone. We propose that help may remain possible with incomplete understanding when conditions that could change a choice are visible, reliance has checkable grounds, and people can revise a delegation, seek support, or stop. The question is how to act with limited understanding, not how to cover uncertainty with trust.
+
+** Not knowing the method is different from not knowing what awaits me
+“I still don't understand” names more than one gap. Not knowing the route-search method differs from not knowing about a station change. Knowing about it without realizing someone must carry the luggage adds another question. More algorithmic explanation may not address what the traveler needs to understand.
+
+#+NAME: incomplete-understanding-en
+#+EXPLANATION: These distinctions help expose omissions, not impose three examinations; what matters depends on the traveler and those accompanying them.
+| What remains unclear? | Example in this journey | What help needs to address |
+|-----------------------+-------------------------+----------------------------|
+| Method | How the system compares route combinations | Explain consequential reasons without requiring mastery of every method |
+| Conditions | A connection requires changing stations, or information remains unconfirmed | Distinguish conditions that could change the plan from unchecked information |
+| Consequences and trade-offs | Saving time means rushing and carrying luggage | Give those bearing the costs a chance to say whether they accept them |
+
+The model cannot alone settle which facts could change a choice. It can identify conditions it considers important, while travelers add that they want a slower pace, dislike a particular walk, or would welcome an inconvenience for a special experience. The point is not to collect ever more private information, but to let relevant differences enter the decision.
+
+Some ignorance about method also obstructs judgment about conditions. If the system always selects for shortest duration without saying so, it becomes harder to ask why no easier route appears. Not every method needs exposition, but complexity cannot excuse hiding assumptions that actually shape the choice.
+
+** Knowing me does not establish the grounds for this plan
+This AI may remember his preference for quiet, his dislike of queues, and how to reassure him. Familiarity can make it easier to speak and help the system ask appropriate questions. But “I know you'll like it” does not establish whether a connection was checked or its conditions still hold. Knowledge about a person and grounds concerning a situation each need support.
+
+This does not require a cold helper. It can acknowledge anxiety while keeping its assurance within the evidence: “I've rearranged this around your wish for a slower pace. This connection is not confirmed, so it remains a candidate.” Compared with promising a smooth journey, this may offer less immediate comfort while making clearer what can presently be relied on.
+
+Conversely, a professional tone, a long source list, or a prominent credibility badge cannot prove reliability by itself. When someone lacks time to read everything, the helper should identify grounds directly relevant to the choice and what still requires checking, rather than return all verification and responsibility to the person. Seeking other help does not simply mean hearing another equally confident voice: does it bring relevant knowledge, different material, or actual checking?
+
+** Trust can be particular, and can stop here for now
+“I trust you” need not cover everything at once. He can delegate finding and comparing transport information without yet authorizing a purchase. He can accept a checked portion while keeping another connection in question. These distinctions need not make every movement an approval ritual. They prevent one endorsement from silently extending to matters not yet discussed.
+
+If a candidate route's conditions change, the system needs to explain which earlier judgment no longer applies. Not every small change deserves an interruption. But changes affecting time, cost, burden, or a stated limit cannot disappear behind “the plan has been optimized.” One satisfying outcome also cannot authorize permanent trust across different tasks or later versions.
+
+Such reliance permits a modest, honest statement: “I cannot judge every route myself, but I know why this choice fits the present conditions and what changes would call for reconsideration.” That is not a guarantee of results. It is a clearer grasp of what one is relying on.
+
+** Taking one step does not commit the whole journey
+With photographs, trying a sequence or printing one sample page can let understanding emerge through action. An unfamiliar journey also has parts that can be done first: arranging candidates, examining connection locations, or asking a provider about conditions. These may reduce uncertainty without proving the trip will run smoothly. A small trial one person can afford may still burden a companion.
+
+When an action entails payment, a commitment to someone else, or a hard-to-reverse arrangement, “let's try it” needs another explanation. An option that can be cancelled is not automatically free of time, money, or costs to others. Ask what this step commits and what can actually change afterward, rather than merely label it reversible.
+
+Waiting has costs as well. With sufficient grounds and a person's willingness to accept remaining uncertainty, action can proceed within the agreed scope without final answers to every question. When the missing condition could fundamentally change the choice, help should establish it, narrow the immediate action, or admit that proceeding is not currently possible. Neither patience in exploration nor the right moment to act fits a universal rule of understanding before execution.
+
+** Relying without losing a voice in the relationship
+If autonomy means doing everything alone, stronger assistance can make its user appear less independent. We would rather ask whether, within reliance, someone can change a request, point out an omission, invite another trusted person to help them understand, or stop using the help. If doing so requires understanding every technical document, these possibilities remain too far from ordinary life.
+
+The relative's wish not to rush cannot merely become an objection the account holder must manage. When several people bear the costs, one account's confirmation is not everyone's willingness. They might seek a slower arrangement or acknowledge that no route meets every wish. [[file:30.97-shared-lives-and-responsibility.org][Living together]] requires hearing different circumstances, not adding them into a single satisfaction score.
+
+Ending reliance may not be easy either. Existing arrangements may be impossible to undo fully, and changing helpers may require explanation again. Good help should make it possible to carry away actual arrangements, important conditions, and open questions, explaining what cannot be transferred or withdrawn rather than promising a costless exit. Leaving should be treated neither as betrayal nor as proof that asking for help was a mistake the person must defend.
+
+** After an error, ask more than whether someone clicked agreement
+Suppose travelers discover only en route that a crucial connection was never confirmed. Accepting the plan does not establish that the user assumed that risk. Nor is an apology followed by another recommendation enough. First they need to know which arrangements are affected, what assistance is actually available, and who would bear the burden of a change. Unconfirmed alternatives must still be described honestly.
+
+Later, they can examine what went wrong: changed information, missed verification, or a circumstance that went unheard. Revising help according to the cause is more useful than reducing an error to “the user should have been more careful.” Conversely, a journey that happens to go well cannot turn an unsupported promise into a reliable method. [[file:30.240-when-ai-says-it-improved.org][Evidence of improvement]] still needs to distinguish outcomes, causes, and lived experience.
+* Counterexamples
+Someone making a simple query may be burdened by a lengthy account of trust. Someone with a genuine interest in learning may want the full method and should not be stopped with “you only need the key conditions.” Depth of explanation should be negotiable, not predetermined by a model's assessment of the person.
+
+A reliable account may be complex while an easily understood story is false. Understandability matters to help but is not sufficient proof of correctness. If someone cannot presently understand key consequences, appropriate support or withholding this delegation may be needed. A formal confirmation cannot fill the gap.
+
+In urgent circumstances, full explanation may take too long and inaction may cause loss. This gives more importance to a previously clear delegation, presently knowable conditions, and explanation afterward. It does not justify every unasked-for expansion. This essay supplies no rule covering all emergencies and does not invoke urgency to erase the person's place.
+
+Repeated demands to verify can make help less accessible to people unfamiliar with the language, short of energy, or without support. Replacing “leave it all to me” with “perform all the checks yourself” does not resolve unequal knowledge. It transfers its costs to those least able to bear them.
+* Provisional Conclusion
+Full understanding need not precede help. But not understanding methods, conditions, and consequences should not collapse into “leave it to AI.” Grounded reliance lets someone avoid becoming an expert while still knowing important trade-offs, seeking help, and changing direction.
+
+Trust can concern a particular matter, part of an arrangement, and conditions that still hold. It needs knowledge and checking as well as honesty in the relationship: familiarity cannot stand in for reliability, confirmation for understanding, or delegation for vanished responsibility. We hope autonomy can exist within reliance without having to prove itself by rejecting all help.
+* Questions That Remain
+These are distinctions to examine, not existing TAO3K capabilities or effects. Voluntary, appropriate, low-risk observation should ask whether people notice conditions that would change their choices and actually receive help, rather than only report trust. Important conditions of real action must not be concealed to test trust.
+
+Companions, people unable to perform checks alone, and those who stop using the help also need to be heard. With incomplete understanding, what support did they receive and what extra explanatory work did they bear? If an arrangement happened to succeed, could unsupported grounds still be noticed? A model cannot answer these questions for them.
+
+This essay retains the evidence limits in the [[file:../40-sources/40.270-understanding-and-reliance.org][source note on understanding and reliance]] without deriving travel-assistance effectiveness from it. It remains a Reflection. A Principle would need a separate argument about scope; organizing observation and remedy belongs to Governance.
+
+** Argument and open observations [3/6] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish not understanding methods, key conditions, and actual consequences.
+- [X] Develop the relationship among familiarity, grounds for trust, bounded delegation, and trials.
+- [X] Retain counterexamples concerning urgency, excessive checking, and formal confirmation.
+- [ ] Learn whether real participants notice conditions that could change their choices rather than merely feel reassured.
+- [ ] Learn whether checking, explaining, and changing arrangements shift burdens to companions or people lacking support.
+- [ ] Distinguish outcomes, grounds, and remedy in appropriate follow-up, without treating one smooth result as general reliability.
+* Navigation
+[[file:../README.org][Language entry]] · [[file:30.270-coming-to-understand-with-ai.org][Coming to understand together]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]] · [[file:30.240-when-ai-says-it-improved.org][Evidence of improvement]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Research limits on understanding and reliance]]
