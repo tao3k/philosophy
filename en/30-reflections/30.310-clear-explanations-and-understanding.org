@@ -97,12 +97,24 @@ The evening has not produced a neat definition of understanding. It has separate
 Socratic questioning, Plato's difficulty with writing, and Xunzi's account of learning with external help do not jointly point to an answer we prepared for them. They make us a little more wary of fluency and let reliance be something other than shame. Present life asks something back of them: learning deserves seriousness, but a person's evening does not belong to learning alone.
 
 Perhaps a good explanation should make it easier to return to the thing itself, rather than leave one only able to continue within explanations. If Ning can hear more, or more readily say “that isn't what I hear,” something in the conversation is worth valuing. What happens afterward remains for him to tell.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.reflection.30.310-clear-explanations-and-understanding-en-dialogue
+:END:
+Can understanding that is hard to articulate still be taken seriously? Imagine Ning replaying the passage for a friend a few days later. He still cannot explain harmony, but lifts a hand just before the sound changes: “Wait—there.” Has he understood a little more? If only complete verbal explanations count, we may overlook what has happened.
+
+Yet the gesture cannot establish a deep understanding on his behalf. He may remember the position or know this performance well without recognising the difference in another. We need not rush to choose between “understands” and “doesn't really understand.” A smaller thing can be acknowledged: he can now bring us to the place that matters to him.
+
+The [[file:../40-sources/40.310-plato-knowing-and-dialogue.org][question of whether explanation must withstand inquiry]] encounters a tension here. Asking for grounds can prevent lovely language from excusing error. Requiring everyone to supply those grounds in the same verbal form can mistake eloquence for understanding. Pointing, trying, distinguishing, and correcting can also answer. What each establishes depends on what is at issue.
+
+A gesture would not support a claim about the composer's intentions. But inviting a friend to hear a particular moment need not incur a debt of theory. The question is not only whether grounds exist, but what we are asking someone to justify. Distinguishing these lets care and seriousness coexist: we need neither accept everything nor leave the inarticulate outside.
 * Questions That Remain
 We have not yet heard actual participants. A question may help someone voice a concern for the first time, or make them more adept at supplying the expected answer. A well-written scene cannot distinguish these.
 
 If people wish to bring their listening experiences, they might point, hum, describe, leave something unclear, or decline to record a private memory. Whether the recording can be checked, whether an explanation is accurate, what the evening felt like, and what changed later need separate attention. Research questions themselves affect experience. Present approval cannot simply count as AI's lasting contribution.
 
-This is Reflection, not a validated teaching method. Normative claims need a separate Principle; consent, record use, and dispute handling belong to Governance. The next essay follows the [[file:30.300-dialogues-across-time.org][conversation outline]]: discuss before drafting.
+This is Reflection, not a validated teaching method. Normative claims need a separate Principle; consent, record use, and dispute handling belong to Governance. For how questions from books return to ordinary life, see [[file:30.300-dialogues-across-time.org][Reading On, Thinking Further]].
 
 ** Beyond the page, still to be heard [3/6] [50%]
 :PROPERTIES:
@@ -119,4 +131,4 @@ This is Reflection, not a validated teaching method. Normative claims need a sep
 
 [fn:xunzi] The [[file:../40-sources/40.98-xunzi-learning-and-tools.org][source and context of Encouraging Learning]] retain the relation between external help, learning, and cultivation. A passage cannot establish that automation necessarily brings human progress.
 * Navigation
-[[file:../README.org][Language index]] · [[file:30.300-dialogues-across-time.org][Conversations across time]] · [[file:30.290-beginning-something-unfamiliar.org][Beginning something unfamiliar]] · [[file:30.270-coming-to-understand-with-ai.org][Coming to understand]] · [[file:../40-sources/40.310-plato-knowing-and-dialogue.org][Classical source note]]
+[[file:../README.org][Language index]] · [[file:30.300-dialogues-across-time.org][Reading on, thinking further]] · [[file:30.290-beginning-something-unfamiliar.org][Beginning something unfamiliar]] · [[file:30.270-coming-to-understand-with-ai.org][Coming to understand]] · [[file:../40-sources/40.310-plato-knowing-and-dialogue.org][Classical source note]]

@@ -41,8 +41,20 @@ AI can produce a new response and is not the static writing described in the pas
 
 Our questions concern whether grounds can be questioned, expertise overextended, and a conversational partner given room to correct. These are modern interpretations, not one-to-one translations of ancient terms into product requirements.
 * Influence
-The [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][first conversation]] uses these questions to examine the distance between clear explanation and understanding. Scrutiny returns to the model and author, not only the listener. No accepted Principle is added here.
+The [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][reflection on explanation and understanding]] uses these questions to examine the distance between clear explanation and understanding. Scrutiny returns to the model and author, not only the listener. No accepted Principle is added here.
 * Interpretation Chain
 Works and passages → scope of knowledge, writing, and response → differences introduced by responsive AI → imagined listening situations and objections. This repository is responsible for the final two moves. Effects on actual learning and life require separate observation.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue-en-dialogue
+:END:
+Does an answer become more trustworthy because it can keep responding? After reading about writing's inability to defend itself, responsive AI makes it tempting to think that exchange has solved the problem. Yet questions may produce ever smoother conversation while its first unsupported step remains untouched.
+
+Conversely, an old letter or a paper unable to answer immediately may leave clear material that later readers can check. Ease of response and strength of grounds do not always travel together. What we need is the ability to pursue a question, not merely an object that keeps speaking. Returning to original material may do more than generating ten further explanations.
+
+But pursuing the question cannot depend entirely on inexhaustible users. If they must check every claim to the bottom, someone seeking help becomes the conversation's full-time editor. The [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][discussion of understanding that is hard to articulate]] approaches another limit: grounds should be open to inquiry without requiring a single form of expression. Explainers also owe an account of their grounds and limits.
+
+The design question may therefore concern not longer answers but accessible grounds, visible uncertainty, and somewhere for an objection to go. These are our contemporary inferences. Plato's name cannot make them correct; they still face whether an actual person can bear and use them.
 * Navigation
-[[file:../README.org][Navigation]] · [[file:../30-reflections/30.300-dialogues-across-time.org][Conversations across time]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][First essay]] · [[file:40.98-xunzi-learning-and-tools.org][Xunzi on learning]]
+[[file:../README.org][Navigation]] · [[file:../30-reflections/30.300-dialogues-across-time.org][Reading on, thinking further]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][Explanation and understanding]] · [[file:40.98-xunzi-learning-and-tools.org][Xunzi on learning]]

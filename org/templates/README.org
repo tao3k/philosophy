@@ -16,3 +16,27 @@
 Templates are paired scaffolds and are excluded from the maintained-content
 validation target. Their contracts live in
 [[file:../contracts/philosophy.v1.org][philosophy.v1.org]]. Use =just new= so CN and EN are created together.
+
+* Further conversation within a document
+
+Reflection, AI object-shift reflection and source-note templates include a local
+=论道= / =Further Conversation= section. Its property drawer binds the subtree
+contract =philosophy.dialogue-extension.v1= and gives it a stable =CUSTOM_ID=.
+The document-level contract composition is unchanged. The section is not an
+invitation to copy a central essay: develop the particular tension encountered
+here, distinguish source and interpretation, and link to a relevant reading.
+
+The contract requires prose, a reading link and an anchor within that subtree.
+It cannot judge whether an objection is serious or the writing feels alive.
+Keep the section at one level; adding child headings inherits subtree contracts
+and therefore requires each child to satisfy the same checks.
+
+New scaffolds require this extension. Existing documents acquire it when their
+content is substantively revised; absence in an older document is not presented
+as completed work, and no empty sections are added to manufacture coverage.
+
+The currently pinned Pages builder (b11a7f97) does not route Org file search
+suffixes such as =::#CUSTOM_ID=. Keep stable section anchors, but use ordinary
+file links for the published reading paths until upstream supports that syntax.
+Do not substitute generated, position-dependent HTML section IDs or claim
+document-level links land directly on the extension.

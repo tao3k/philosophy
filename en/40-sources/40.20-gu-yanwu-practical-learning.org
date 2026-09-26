@@ -54,10 +54,26 @@ Nor does this note reduce practical learning to deployment, transaction or task 
 
 * Influence
 
-Within [[file:../30-reflections/30.300-dialogues-across-time.org][Conversations across time]], this entry also questions our own writing: do additional essays develop a problem or repeat a position? It must not become a demand that all rest, appreciation, and private writing prove a public output.
+Within [[file:../30-reflections/30.300-dialogues-across-time.org][Reading On, Thinking Further]], this entry also questions our own writing: do additional essays develop a problem or repeat a position? It must not become a demand that all rest, appreciation, and private writing prove a public output.
 
 It enters [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]], moving evaluation from performance increase to benefit, burden, dependency, reversibility, and long-term optionality while preventing a Charter from reducing human value to a metric.
 
 * Interpretation Chain
 
 Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]] → separately authored draft Principle citing that Reflection → possible Governance admission to Charter. The direction preserves the distinction between source, interpretation, reflection, normative proposal, and admission; it must not be reversed into a claim that the source proved the current architecture.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: source-gu-yanwu-practical-learning-en-dialogue
+:END:
+If writing should benefit the world, must every piece of writing prove its use? Reading the entry against valuing quantity readily brings today's easily generated long texts to mind. But turning the reminder into “do not write anything useless” could also erase unfinished notes, unsent letters, and a few lines intended for nobody else.
+
+Such words may change nothing immediately. Yet someone hesitating over a sentence may discover what they cannot let go of. We should not invent a public benefit for those lines, as though tonight's writing needed a promise of future usefulness. This continues an argument with Gu's view of writing; it does not assign our account of private life to him.
+
+Conversely, valuing private writing does not excuse floods of unchecked public output that consume other people's attention. Words kept in a drawer and the same words distributed by a system enter different relationships. Who spends time reading and who may be misled remain questions that freedom of expression alone does not settle.
+
+An inquiry into benefit needs its own limits. Writing offered as public help can be asked what help it provides. Words someone keeps for themselves need not immediately produce a result. The [[file:../30-reflections/30.290-beginning-something-unfamiliar.org][question of why liking must lead to learning]] faces a related difficulty: how does a worthwhile demand avoid becoming an instruction for every part of life?
+
+* Navigation
+[[file:../README.org][Language index]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and present-day help]]

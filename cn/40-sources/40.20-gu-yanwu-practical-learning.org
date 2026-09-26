@@ -58,7 +58,7 @@
 
 * 影响
 
-在[[file:../30-reflections/30.300-dialogues-across-time.org][论道专题]]中，这一入口也反问我们自己：文章增加以后，问题是否真的展开，还是只增加了重复表态？它不能被反用为要求所有休息、欣赏和私人书写证明公共产出的理由。
+在[[file:../30-reflections/30.300-dialogues-across-time.org][关于读书与交谈的反思]]中，这一入口也反问我们自己：文章增加以后，问题是否真的展开，还是只增加了重复表态？它不能被反用为要求所有休息、欣赏和私人书写证明公共产出的理由。
 
 进入 [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]]，把技术评价
 从“性能是否提高”推进到受益、负担、依赖、可逆性与长期 optionality，并约束专题 Charter 不把人的价值
@@ -67,3 +67,19 @@
 * 解释链
 
 历史来源 → Tao3k 现代解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]] → 另行撰写并引用该 Reflection 的 draft Principle → 可能由 Governance 准入 Charter。该链保留来源、解释、反思、规范提案与准入之间的区别，禁止反向声称来源已经证明当前架构。
+
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: source-gu-yanwu-practical-learning-cn-dialogue
+:END:
+文章应当有益，是否意味着一切书写都得证明用途？读过“文不贵多”，很容易想到今天轻易便能生成的长篇文字。可若把这一提醒变成“无用的话不要写”，也可能一并删掉一个人尚未想明白的笔记、未寄出的信，和不准备给谁看的几行字。
+
+这些文字未必立即改变什么。写的人却可能在迟迟落不下的一句里，才发现自己究竟舍不得什么。我们不应为它们硬编一个公共收益，仿佛只有证明日后有用，才能准许今晚存在。这里是在与顾炎武的文章观继续商量，不把我们的私人生活观反写成他的原意。
+
+另一方面，不能因为珍惜私人书写，就替大量未经核实、挤占别人注意的公共输出免除责任。同样一段文字，留在抽屉里，与被系统推送给许多人，已经处在不同关系中。谁要花时间读，谁可能被误导，不能靠“表达自由”四个字就不再过问。
+
+于是，“有益”的追问也要有分寸：对自称帮助公众的文章，可以问它究竟帮助了什么；对一个人留给自己的话，未必应该立刻索要成效。[[file:../30-reflections/30.290-beginning-something-unfamiliar.org][喜欢为何总要走向学会]]也面对相近的困难：一种值得珍惜的要求，怎样不变成对所有生活的催促？
+
+* 导航
+[[file:../README.org][语言入口]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][实学与今天的帮助]]

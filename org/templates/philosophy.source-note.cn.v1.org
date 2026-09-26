@@ -37,5 +37,12 @@
 # 在提交前写明该来源如何影响本仓库的原则。
 * 解释链
 # 在提交前写明从来源到当前解释的可追溯链。
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: <CUSTOM_ID>-dialogue
+:END:
+# 接着本文没有说尽的地方展开一段论辩，不重复结论或只列问题。
+# 把原文与现代解释分开，链接到具体来源或相关讨论；不必安排人物轮流发言。
 * 导航
 [[file:../README.org][导航]]

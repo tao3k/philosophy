@@ -75,11 +75,17 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 
 来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]、[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作]]、[[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]、[[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]]、[[file:40-sources/40.120-analects-harmony-with-difference.org][《论语》“和而不同”]]、[[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]、[[file:40-sources/40.140-unfilled-space-and-rest.org][留白、无之用与足以享用的休息]]、[[file:40-sources/40.150-life-service-ai-and-bill-access.org][生活服务 AI 与账单接入边界]]、[[file:40-sources/40.170-interface-space-and-convergence.org][传统界面规范的适用边界]]、[[file:40-sources/40.180-ui-intent-and-computer-use.org][意图推断与计算机操作]]，以及[[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][休息、边界、AI 工作密度与可参与的生活条件]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
 
-* 论道：与古人一起追问
+* 在各篇的论道中接着读
 
-读古人，不只为今天的想法找一句赞同的话。顾炎武、老子、荀子、苏格拉底、柏拉图与毕达哥拉斯传统，可以让我们重新问懂得、学习、依靠与生活的分寸；今天的经验也可以反过来质疑书里的答案。
+“论道”就在相关来源与反思中，接着正文没有说尽的地方展开，不需要先进入一个总专题。可以从眼前的问题往返：
 
-从[[file:30-reflections/30.300-dialogues-across-time.org][论道专题与阅读线索]]进入。第一篇[[file:30-reflections/30.310-clear-explanations-and-understanding.org][《解释得越来越清楚，我却不知道自己是否明白》]]从一个人重听旧曲的夜晚写起：AI 说是悲伤，他想到的却是小时候厨房的灯。[[file:40-sources/40.310-plato-knowing-and-dialogue.org][原典说明]]另行保留出处和解释边界；后续论题仍待讨论，不是已经写成的结论。
+- [[file:30-reflections/30.290-beginning-something-unfamiliar.org][喜欢一件事，为什么总要走向学会它？]]
+- [[file:30-reflections/30.310-clear-explanations-and-understanding.org][说不清的懂得，能不能被认真对待？]]
+- [[file:40-sources/40.20-gu-yanwu-practical-learning.org][文章应当有益，私人书写怎么办？]]
+- [[file:40-sources/40.98-xunzi-learning-and-tools.org][外物也开始替人指路时，怎样善假于物？]]
+- [[file:40-sources/40.310-plato-knowing-and-dialogue.org][能继续答话，就更值得相信吗？]]
+
+[[file:30-reflections/30.300-dialogues-across-time.org][《书读到这里，话还可以怎样接下去》]]另谈读书与生活怎样相互发问，不统领这些讨论。以上是已展开的几处；其他旧篇尚待逐篇重读，不以目录或空章节冒充完成。
 
 * AI 交互对象变革专题
 

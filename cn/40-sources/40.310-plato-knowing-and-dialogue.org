@@ -41,8 +41,20 @@ AI 可以作出新的回应，因此不是原文所描述的静止文字；这�
 
 我们从这些段落提出的问题是：说明的根据是否能被追问，知识的范围是否被夸大，交谈是否给对方留下纠正的空间。这些是现代解释，不是古典术语到产品要求的一一翻译。
 * 影响
-进入[[file:../30-reflections/30.310-clear-explanations-and-understanding.org][论道第一篇]]，使“解释得清楚”与“形成理解”之间出现需要讨论的距离。也让怀疑返回模型和作者，而不只落在听者身上。本文不新增已接受的 Principle。
+进入[[file:../30-reflections/30.310-clear-explanations-and-understanding.org][关于解释与懂得的反思]]，使“解释得清楚”与“形成理解”之间出现需要讨论的距离。也让怀疑返回模型和作者，而不只落在听者身上。本文不新增已接受的 Principle。
 * 解释链
 作品与段落 → 知道的范围、书写与回应的问题 → 可回应 AI 带来的新差异 → 音乐聆听中的设想与反例。最后两步由本仓库负责；对实际学习与生活的影响仍需另外观察。
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue-cn-dialogue
+:END:
+一个回答能够继续接受追问，就更值得相信吗？读过文字不能自行答辩的困难，再面对能接着说的 AI，我们很容易把“有来有往”看成问题已经解决。可是，一段交谈也可能越问越顺，最初没有根据的那一步却始终没有被碰到。
+
+反过来，一封旧信、一篇不能当场回应的论文，也可能留下清楚的材料，使后来的人有办法核实。回应的便利与理由的分量，看来并不总在一起。我们需要的是能继续追究，而不只是对象能继续说话；有时回到原始材料，比再生成十种解释更接近这件事。
+
+但“继续追究”也不能只靠要求使用者不厌其烦。若每一个说法都要由他独自查到底，原本来求帮助的人便成了整段交谈的审校者。[[file:../30-reflections/30.310-clear-explanations-and-understanding.org][说不清的懂得]]从另一边提出限制：理由应当可问，表达却不必只有一种样子；解释者也应说明自己的根据与限度。
+
+由此回到眼前的设计问题，未必是让回答更长，而是让人找得到关键根据，看得见哪里尚不确定，也能把异议放进去。这样的要求是我们的现代推论。它不能借柏拉图的名字自动获得正确性，还要面对一个人实际上能否承受、能否使用。
 * 导航
-[[file:../README.org][导航]] · [[file:../30-reflections/30.300-dialogues-across-time.org][论道专题]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][第一篇]] · [[file:40.98-xunzi-learning-and-tools.org][荀子《劝学》]]
+[[file:../README.org][导航]] · [[file:../30-reflections/30.300-dialogues-across-time.org][书与生活之间]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][解释与懂得]] · [[file:40.98-xunzi-learning-and-tools.org][荀子《劝学》]]

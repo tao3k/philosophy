@@ -77,11 +77,17 @@ These paths connect reflections still requiring scrutiny; they do not claim that
 
 Source strands include [[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen on substantive opportunity]], [[file:40-sources/40.96-performative-prediction.org][performative prediction]], [[file:40-sources/40.97-transformative-experience-evaluability.org][transformative experience]], [[file:40-sources/40.98-xunzi-learning-and-tools.org][Xunzi on learning and tools]], [[file:40-sources/40.99-ai-help-work-learning-creation.org][work, learning and creation]], [[file:40-sources/40.100-well-being-time-and-self-determination.org][well-being, time and self-determination]], [[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][provenance, memory and adversarial information]], [[file:40-sources/40.120-analects-harmony-with-difference.org][harmony without sameness in the Analects]], [[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][leisure, interest and ordinary experience]], [[file:40-sources/40.140-unfilled-space-and-rest.org][unfilled space, absence and rest worth enjoying]], [[file:40-sources/40.150-life-service-ai-and-bill-access.org][life-service AI and bill-access boundaries]], [[file:40-sources/40.170-interface-space-and-convergence.org][the applicability boundary of inherited interface guidance]], [[file:40-sources/40.180-ui-intent-and-computer-use.org][intent inference and computer use]], and [[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][rest, boundaries, AI work intensity and conditions for participation]]. They ground questions without excusing our modern interpretations from argument.
 
-* Conversations across Time
+* Continue within Each Essay
 
-Reading ancient thinkers need not mean finding a sentence that agrees with us. Gu Yanwu, Laozi, Xunzi, Socrates, Plato, and the Pythagorean tradition can reopen questions of understanding, learning, reliance, and the measure of a life. Present experience can also question the books in return.
+Further Conversation develops what a source note or reflection has not finished saying, within that piece rather than behind a central topic entrance. Follow a particular question:
 
-Begin with the [[file:30-reflections/30.300-dialogues-across-time.org][series and reading paths]]. The first essay, [[file:30-reflections/30.310-clear-explanations-and-understanding.org][The Explanation Gets Clearer, but Do I Understand?]], follows an imagined evening with an old piece of music: AI describes sadness; the listener remembers the light in his childhood kitchen. The [[file:40-sources/40.310-plato-knowing-and-dialogue.org][classical source note]] keeps locations and interpretive limits separately. Later questions await discussion, not predetermined conclusions.
+- [[file:30-reflections/30.290-beginning-something-unfamiliar.org][Why must liking something lead to learning it?]]
+- [[file:30-reflections/30.310-clear-explanations-and-understanding.org][Can understanding that is hard to articulate be taken seriously?]]
+- [[file:40-sources/40.20-gu-yanwu-practical-learning.org][If writing must be useful, what becomes of private writing?]]
+- [[file:40-sources/40.98-xunzi-learning-and-tools.org][What if external help also suggests the destination?]]
+- [[file:40-sources/40.310-plato-knowing-and-dialogue.org][Does answering back make an account more trustworthy?]]
+
+[[file:30-reflections/30.300-dialogues-across-time.org][Reading On, Thinking Further]] separately considers how books and life question each other; it does not govern these discussions. These are the extensions developed so far. Other older pieces await individual rereading, not empty headings or a contents list presented as completion.
 
 * AI Interaction-Object Shift Topic
 
