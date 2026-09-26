@@ -52,6 +52,15 @@ If he then asks why changing the order changes the story, knowledge about narrat
 
 Nor must help always start small. An unexpected finished work or a complex diagram may first show someone what they want to ask. The question is whether they can find a way into it, not whether small always precedes large. Difficulty now may reflect fatigue, language, or missing explanation; it should not become a permanent assessment of someone's intellectual limits.
 
+** We are still finding out what we want to do
+Imagine AI selecting for sharpness and suggesting that a blurred photograph be removed. He says, “Keep that one for now. That was the first day he waved to me.” If the system merely records an exception, keeps the photograph, and resumes its original selection criteria, it may comply while missing the important change in the conversation. They began by asking which photographs were good; now they are asking what the album should preserve.
+
+AI can make this change tangible. It can place that photograph beside a clear street view, try leaving space for a short note, or show a version without explanation. He may discover that he wants to preserve the encounter without telling it publicly, or decide after seeing the versions that he need not keep this photograph. A new purpose need not be a correct answer hidden inside him for a model to retrieve. It may gradually take shape through these attempts.
+
+This leaves a positive role for help. AI need not wait for a complete statement of intent before suggesting something: a version the person did not know could be made may help him recognize what matters. But “what you really seek is human connection” could close the question just opened. That sentence may be offered as an interpretation; its apparent depth cannot replace his continued looking and choosing.
+
+A changing purpose does not automatically cancel earlier limits. Moving from selecting photographs to telling an encounter does not also establish permission to publish the shopkeeper's experience, or willingness to spend more money or time. Help can change the question together with the person while making that change apparent. [[file:30.230-when-help-changes-what-we-want.org][When help changes a wish]] becomes a particular practice here, not only a warning about influence.
+
 ** Making possibilities usable
 AI can compare more directions in the background without displaying every intermediate attempt at once. But organizing possibilities brings responsibility: why were these paths retained? Showing only what the model considers most suitable may settle a person's choices before they see them.
 
@@ -75,6 +84,15 @@ Verification cannot circulate only among a model's explanation, its chosen mater
 
 When new experience does not fit an explanation, revision must be possible instead of adding stories to protect it. Sometimes a reasonable result is “this explains part of it; I still don't know about the rest.” Greater clarity about what cannot be asserted can itself be progress. Repeatable execution, traceable sources, and personal endorsement each matter, but none alone guarantees truth.
 
+** We can disagree and still do the work well
+The blurred photograph brings another disagreement. He thinks it deserves enlargement. Suppose a test print shows that the gesture he values is no longer discernible at that size. “It matters to me” does not answer that particular problem. Yet the print does not establish that the photograph is not worth keeping. Discernible detail, the meaning of a memory, and a picture's place in the album call for different reasons; one judgment of poor quality cannot settle them all.
+
+AI can explain what the test print shows and help compare keeping the picture small, pairing it with another, or accepting the blur on a full page. He may still choose the full page because he wants a trace of that encounter, not a gesture others can identify. Provided lost detail is not presented as restored and the trade-off is not hidden, disagreement can remain within the final choice.
+
+The model's technical judgment may itself be wrong and need checking against material or with someone experienced. Shared understanding requires neither human submission to technical vocabulary nor AI withdrawal of a well-grounded caution to sound considerate. Both statements can stand: “this condition remains” and “I am willing to accept it for another reason.” Being reasonable here means having grounds for a trade-off that can be explained, not everyone liking the same result.
+
+Some requests will also be impossible under the available conditions. If no version satisfies a requirement that the gesture be clear, explain that it cannot currently be achieved and discuss changing the requirement or stopping. Generating more confident promises is no solution. Preserving disagreement does not mean every wish admits a compromise.
+
 ** I can rely on you without first becoming you
 Understanding key reasons should not become an examination required before receiving help. The photographer may want to learn sequencing or simply have the album printed. Reliable completion with a tool is valuable in itself. If we additionally claim that his judgment has grown, that change needs separate inquiry; the finished work's quality cannot supply the evidence.
 
@@ -82,12 +100,25 @@ A helper should do the checking and explaining it can, rather than hand the user
 
 Continual doubt can exhaust people, too. [[file:../40-sources/40.270-understanding-and-reliance.org][The related research]] gives reason to question whether more thinking burden necessarily means better help. What deserves pursuit is grounded, revisable trust: neither starting from suspicion on every occasion nor never asking again after one satisfying result.
 
+** What can I draw on when the next matter is different?
+After the album is made, at least three different things may remain: an album he wants to keep; a way of working together he can use again, such as asking AI to compare versions and explain trade-offs; and a changed understanding, such as distinguishing sharpness, narrative role, and personal memory. Each can matter in its own right. They are not three steps everyone ought to climb.
+
+When sorting old family photographs later, he might ask, “Before selecting for me, show me what you would remove.” Or he may still need an AI reminder to consider checking what was left out. Judgment supported by a reminder is not thereby worthless. The question is whether he can change the help according to his circumstances, not whether he can dispense with help altogether. Conversely, repeating last time's words on a similar task does not establish that he can handle a different problem.
+
+If we want to learn about change, we can, when invited, hear about a later and different matter: what remained useful, what led him astray, and where he sought help again. Someone may retain a usable way of collaborating without learning independent layout design. Someone else may simply save time for another thing they care about. These outcomes deserve accurate descriptions, not new names that make them fit a growth story.
+
+Understanding need not reside entirely in individual memory. Work, versions available for comparison, reasons retained by agreement, and people one can consult may all support later judgment. If leaving a system means losing all of these, its convenience is difficult to carry elsewhere. Asking [[file:30.90-knowing-after-action.org][what remains after something is done]] therefore concerns both what someone has learned and whether their work and the conditions for continuing remain available to them.
+
 ** Understanding can remain without defining a person forever
 If this conversation is worth retaining, [[file:30.110-co-maintained-understanding.org][co-maintained understanding]] needs to distinguish what he said, what AI proposed, what was actually compared, and what remains unknown. It might remember that he kept the waiting scene in this sequence, rather than infer that he essentially prefers waiting and solitude. Changed circumstances must leave old interpretations open to revision, reduced importance, or disuse.
+
+For the blurred photograph, what may be worth retaining is this occasion's reason for keeping it, the test print considered, and the trade-off finally accepted, not a preference for blurred photographs. An unresolved disagreement need not become a record of consensus. Whether and how much to keep should follow the person's needs: an experience worth understanding is not automatically data worth retaining forever. Someone can take their work without keeping the conversation, or ask that an old interpretation no longer be invoked.
 
 This is a semantic requirement proposed for TAO3K's personal knowledge graph, not a claim of an implemented feature: statements of different origins must not collapse into one kind of fact, nor conjectures become knowledge merely through long storage. Concrete responsibilities for POO Flow, MRR, and ASP require separate scrutiny through the [[file:../20-engineering/20.10-cross-repository-realization-map.org][engineering map]]. This essay introduces no new representation language and treats no receipt as proof that a person understands.
 * Counterexamples
 Someone may want to spend substantial time exploring an unfamiliar field; narrowing too soon would limit curiosity. Someone else needs a small task completed and should not be made to learn because a model can teach more deeply. The same person may choose differently on another day. No single conversational pace should become a universal rule.
+
+Purpose does not always need reopening. Someone may have clearly asked to print in the original order; repeated questions about the photographs' meaning in life would obstruct help. Someone may cherish a picture without wishing to explain why and owes the system no complete account. At an agreed deadline, a sufficiently grounded decision can be carried out without waiting for every disagreement to disappear. Forming a purpose together should be possible, not a ritual required on every use.
 
 “Explain at the person's level” can become paternalism: a system decides they will not understand and withholds complex but important reasons. Conversely, displaying everything may offer openness only in form. We need to learn whether someone can actually go deeper when needed, not merely whether a “learn more” option exists.
 
@@ -98,9 +129,12 @@ People may also understand reasons and still judge wrongly. Participation does n
 A model's expansive reach becomes help within a situation: opening possibilities in exploration, making important differences visible in understanding, and reliably carrying out what has been decided in execution. These can alternate but cannot stand in for one another. Many ideas do not prove more choice; a complete explanation does not prove deep understanding; completed execution does not prove learning.
 
 Provisionally, we seek a relationship in which someone can draw on broad knowledge without pretending to possess the same breadth, gradually knowing why to trust, how far, and when to reconsider. Good help has room for the unfamiliar and for “that's enough for today.”
+
+This collaboration is not only choosing answers for a given purpose. Through comparison, someone may discover what to preserve; through disagreement, the different places of facts and meaning; and through practice, a way to approach another occasion. Yet a clearer purpose, completed work, continued collaboration, and changed understanding still need separate accounts. Shared practice cannot be written in advance as inevitable growth.
 * Questions That Remain
 Real observation should begin with matters participants choose to bring, without requiring a learning goal. Across languages, experience, energy, and available support, which explanations make differences visible, and which merely make it embarrassing to admit confusion? People must be able to decline follow-up without losing basic help.
 
+If someone says their purpose changed, learn which comparison, reason, or practical limit contributed rather than recording only the final option. Where disagreement remains, hear whether they understood the trade-off or ended the conversation from fatigue. Nor can later ability be attributed to AI from one success: new experiences, other people's help, and circumstances may also contribute. These questions await actual experience.
 A proposed Principle needs its own scope and counterexamples. Who arranges observation, what is retained, and how people leave are Governance questions. This remains a Reflection: completing it does not complete verification of human understanding.
 
 ** Argument and real-world observation [3/6] [50%]
@@ -108,10 +142,10 @@ A proposed Principle needs its own scope and counterexamples. Who arranges obser
 :COOKIE_DATA: checkbox
 :END:
 - [X] Distinguish exploration, understanding, execution, and movement between them without ranking people.
-- [X] Develop the relation between unequal knowledge, concrete comparison, delegation, and revisable understanding.
+- [X] Develop the relation between unequal knowledge, purpose formation, disagreement, delegation, and revisable understanding.
 - [X] Check the tasks and limits of two studies and retain what they cannot establish.
 - [ ] Learn whether real participants can explain or demonstrate differences that matter to them rather than repeat terminology.
-- [ ] Observe whether help can open or narrow as circumstances change while allowing revised requests.
-- [ ] Examine task completion, changes in judgment, and explanatory burden separately rather than as one success score.
+- [ ] Observe reasons, disagreements, and burdens as purposes and circumstances change, including whether help opens or narrows appropriately.
+- [ ] Examine completed work, ways of collaborating, and later judgment separately, without treating recitation or one success as proof of growth.
 * Navigation
 [[file:../README.org][Language entry]] · [[file:30.220-making-what-matters-possible.org][Where the photographs began]] · [[file:30.260-when-the-work-leaves-the-screen.org][Work entering shared life]] · [[file:30.110-co-maintained-understanding.org][Co-maintained understanding]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Research limits on understanding and reliance]]
