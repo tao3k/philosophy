@@ -14,8 +14,8 @@
 :SOURCE_ID: source.gu-yanwu.rizhilu
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
-:SOURCE_WORK: 日知录卷十九：文须有益于天下；文不贵多；著书之难；直言；立言不为一时 / Record of Daily Knowledge, volume 19
-:SOURCE_EDITION: Siku Quanshu recension, volume 19; Wikisource transcription accessed 2026-09-26
+:SOURCE_WORK: 日知录卷十九五条；天下郡国利病书序；郡县论一至三 / Record of Daily Knowledge, volume 19; Preface to Benefits and Ills of the Regions; Essays on Prefectures and Counties, 1–3
+:SOURCE_EDITION: Rizhilu: Siku Quanshu recension, volume 19; additional texts: Gu Tinglin Wenji, volumes 6 and 1, edition unspecified on transcription; Wikisource accessed 2026-09-26
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
 :SOURCE_REPOSITORIES: not-applicable
@@ -35,6 +35,8 @@
 This note reads five entries in [[https://zh.wikisource.org/wiki/日知錄_(四庫全書本)/卷19][volume 19 of the Siku Quanshu recension of Gu Yanwu's Record of Daily Knowledge]]: “Writing Must Benefit the World,” “Writing Is Not Valued for Its Quantity,” “The Difficulty of Writing a Book,” “Speaking Frankly,” and “Writing Beyond One's Own Time.” These English titles are working translations. The text checked was the Wikisource transcription, not a collation of page images and editions. The questions about AI below are our extensions, not ancient predictions.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Seeing the Difficulty First]]
+
+The reading continues with the [[https://zh.wikisource.org/wiki/顧亭林文集#天下郡國利病書序][preface to Benefits and Ills of the Regions]] and [[https://zh.wikisource.org/wiki/顧亭林文集#郡縣論一][Essays on Prefectures and Counties, 1–3]], moving from authorship to local circumstances and arrangements for doing things. These working English titles refer to transcriptions listed in the supplements of volume 6 and in volume 1 of Gu Tinglin Wenji. The page does not identify their transcription's underlying edition; they must not inherit the Siku edition label of the Rizhilu material. This is a limited reading of these pieces, not a claim to have examined the entire regional compilation.
 
 * Context
 
@@ -80,6 +82,24 @@ For contemporary AI, we propose a further requirement: concern cannot remove the
 
 This calls for continuing argument, neither abolishing the author's judgment nor giving concern final interpretive authority. The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][reflection on ordinary people practising with AI]] asks experience and general explanation to remain open to each other's questions, granting neither automatic priority to a model nor exemption from scrutiny to an experienced practitioner.
 
+** The regional preface: keeping material, including where it no longer fits
+
+The preface describes reading histories, local gazetteers, collected writings and official submissions, recording what Gu found. It also acknowledges that many accounts concern earlier times and that terrain and local customs may no longer correspond to the present. He leaves a draft for later readers to judge and select from. Its significance lies not only in collection, but in not treating collected material as work already completed on later people's behalf.
+
+Our continuing question is whether the conditions on which an account depended still hold when it is used. This need not overturn general knowledge in every new place. It distinguishes a claim's earlier grounds from its present applicability: connected judgments, but not interchangeable ones. AI-assisted arrangement of older material should leave visible which dates, places and circumstances need checking. Removing their origins may make the prose smoother while making judgment harder.
+
+This reading does not certify Gu's materials or turn his account of collecting them into a comprehensive description of actual places. In present-day practice, even proximity does not establish shared circumstances. One person can visit the same community room on a weekday afternoon; another has only a brief interval after a night shift. Considering suitability means hearing such differences, not generating an increasingly detailed schedule for everyone.
+
+** The county essays: willingness needs arrangements that make action possible
+
+The first essay criticizes pervasive control, layers of supervision and elaborate paperwork that leave local officials intent on avoiding fault rather than improving conditions. The second proposes long tenure, local appointments and hereditary office, among other arrangements. The third considers competence through fields, waterways, schools and related matters, ultimately asking whether people can pursue their livelihoods contentedly. Gu asks not only for dedication but how office and authority shape conduct.
+
+We cannot accept all his answers along with that question. Hereditary office and family succession, severe punishments and a ruler's view of the governed stand apart from present commitments to equal participation and protection of rights. The third essay's comparison of caring for people with raising livestock is particularly revealing: concern for livelihood does not itself grant people equal standing to question their arrangements. Gu's reputation cannot dispose of these disagreements.
+
+What we bring into the present is a question needing its own argument. When someone repeatedly struggles to accomplish something, we should ask not only whether they care, but whether they have time, resources and room to decide. AI that helps workers complete repetitive paperwork faster may offer immediate relief without answering why the same information is continually demanded. Conversely, fewer procedures are not inherently better. Some records allow someone harmed later to establish what happened; convenience for the person acting now cannot justify erasing them indiscriminately.
+
+The proposal is therefore not for AI to decide institutional change. It can help people articulate the difficulty: what a step serves, whose time it consumes, who a change would affect and whether a less burdensome approach could preserve responsibility. Between organizing material and changing arrangements lie discussion among people and decisions made by those entitled to undertake them. A fluent recommendation cannot silently cross that distance.
+
 * Interpretation Boundaries
 
 “Practical learning” is a reading direction here, not a modern evaluative vocabulary jointly set out by these five entries. Tao3k's “benefit-harm inquiry” is likewise a modernization. Gu offers no AI scorecard. Who benefits, who maintains the service, who cannot leave, and who may disagree still require specific arguments and arrangements.
@@ -96,7 +116,7 @@ Practical learning does not mean merely deploying, transacting or completing tas
 
 * Interpretation Chain
 
-Five entries in volume 19 → this interpretation with its context and limits → modern claims in the [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]]. A shared principle would still require a separately written Principle explaining counterexamples and conditions, followed by a Governance decision about admission. Historical evidence, philosophical argument, normative content and admission have different responsibilities. The chain cannot be reversed to claim that Gu proved the current architecture.
+Five entries in volume 19, the regional preface and the first three county essays → this interpretation with its context and limits → modern claims in [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Seeing the Difficulty First]] and [[file:../30-reflections/30.320-learning-in-ordinary-life.org][Bringing Learning into Life]]. A shared principle would still require a separately written Principle explaining counterexamples and conditions, followed by a Governance decision about admission. Historical evidence, philosophical argument, normative content and admission have different responsibilities. The chain cannot be reversed to claim that Gu proved the current architecture.
 
 * Further Conversation
 :PROPERTIES:
@@ -122,6 +142,10 @@ An account survives; later readers avoid some earlier labor by using it, then en
 AI's capacity to organize can help this continuation: bringing scattered questions back to relevant passages so that a discovery does not remain confined to a private conversation. But an account arranged as consensus has not thereby settled what is true. If a hesitant speaker's question disappears, or an old error returns in fluent wording, abundance of expression may still conceal a gap in understanding. This is our question to our own writing, not Gu's judgment of AI.
 
 The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][imagined notes reaching another community room]] also gives benefit to later people a concrete demand: who noticed an omission, explained a difference or undertook to send a correction to known users? Their work may never appear on a cover, yet participates in making knowledge usable. Valuing transmission while praising only the original author and overlooking later care has not fully attended to the people involved.
+
+The community-room story admits another question. A worker helps a resident complete a form, and the request can finally proceed. Has the worker done well? Certainly that help should not be dismissed because it leaves the whole arrangement unchanged. But if the difficulty returns daily, we can also ask why people must repeatedly seek a favor to pass through this door. Respect for workers need not require preserving every old procedure. Concern for residents cannot be fulfilled by blaming a worker without authority to change it either.
+
+Gu makes arrangements visible, yet his own arrangements need not be ones we would adopt. This is precisely where conversation matters. We can agree that difficulty should not all be assigned to individuals while opposing a family's lasting control of local affairs. We can value nearby experience while insisting that strangers to local relationships should also receive fair treatment. Reading an old book is not finding someone who always agrees with us. Particular disagreements can help us state more clearly the claims we ourselves will undertake.
 
 * Navigation
 [[file:../README.org][Language index]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and present-day help]]

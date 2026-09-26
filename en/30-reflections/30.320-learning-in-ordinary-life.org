@@ -140,6 +140,28 @@ The explanation might serve only a few dozen households. Charging for it may be 
 
 Like the woodworking notes, this scene has not been tested in this essay. It gives expanding value another meaning: not continually turning individuals into business owners, but making suitable care possible for parts of shared life that people have long muddled through. The undertaking can remain small. Having a tool need not enlarge it into a plan that never ends.
 
+** The explanation is clear, but someone still cannot come
+
+Continue the imagined community-room scene. The notice is finally clear. A resident working nights reads it and discovers that booking requests must be delivered in person on weekday afternoons. They understand the words and can fill in the form; they simply cannot come on those days. If AI now offers time-management advice or lessons in approaching life more positively, an increasingly considerate explanation may only reveal that it has not heard the difficulty.
+
+We need to distinguish where things have become difficult. An unclear explanation calls for another way of explaining. Missing equipment or guidance calls for appropriate support. If opening hours exclude some people, a better notice may merely explain their exclusion more clearly. These difficulties can coexist. One complaint does not establish that arrangements alone are at fault, nor should every difficulty become something an individual has not yet learned.
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu's reservation about older material in the regional preface]] gives us a way to keep asking: whom did the earlier approach assume to be free and able to attend, and do those conditions still hold? Bringing that question here does not ask an old text to determine opening hours. The resident's inability to come is already reason to let discussion move beyond the instructions.
+
+AI can help bring together current requirements, difficulties residents choose to describe and possible approaches for discussion. It need not know this person's entire work and family history to acknowledge a conflict in time. Nor should it invent other people with the same experience to strengthen the case. A limited account that the person can revise may make speaking up easier than a comprehensive portrait of their life.
+
+** Neither leaving all the trouble to one person nor casually removing responsibility
+
+Different collection hours, submission by another person or a way to apply without attending may all deserve discussion. But the worker collecting requests may also have family to care for, and someone must open and attend the room. If the solution simply makes an enthusiastic worker wait every evening, one person's inconvenience has merely found another person to bear it.
+
+Discussion therefore cannot ask only what is easiest for an applicant. What did attending in person originally serve? Some steps may persist by habit; others may support identity checks, safe use of the room or fair allocation. AI can help locate grounds, compare repeated information and examine alternatives. Those involved need to judge whether the reasons still hold and whether a less burdensome approach could serve them. Numerous forms are not automatically useless, and a written rule is not beyond questioning.
+
+Gu's county essays belong to another era's dispute over elaborate control and room to act. His institutional proposals cannot simply be adopted, but the dispute keeps us from merely urging every worker to become more diligent. Our contemporary question must go further: could greater discretion make matters harder for someone without local connections? Nearby participation need not mean decisions by insiders. Fewer journeys should not remove necessary explanations or opportunities to challenge a decision.
+
+Immediate help and slower change can proceed together. If existing arrangements permit submission by another person, someone could first help this resident proceed, while recurring conflicts in time are brought to those authorized to alter the arrangement. The resident need not give up an available opportunity to demonstrate the problem. Nor does one accommodation establish that nothing needs changing. AI could help both reduce this occasion's travel and make the recurring need to ask a favor easier to explain.
+
+There may still be no approach everyone can undertake, or a need to await funding, staffing and further discussion. Leaving a question unresolved does not make the conversation a failure, but preparing a proposal cannot be described as an improved arrangement. The first person to speak up does not automatically owe continuing advocacy. A shared matter should not become their second job merely because they raised it.
+
 ** Later readers need not begin with the same mistake
 
 If Zhou changes the original picture without telling Yun, she may still have the old page. If AI later turns the earlier material into a more polished explanation, the misunderstanding they identified may reappear. There is another piece of information, but the work already done has not truly carried forward.
@@ -184,6 +206,8 @@ Shared revision also consumes attention and may not suit every small set of note
 
 Finally, some people want a task completed rather than a lesson, and some most need rest. This essay's positive claim cannot become another assignment. AI's possibilities deserve opening, but entering them is not work everyone owes.
 
+Fewer procedures may also make some difficulties harder to see. Informal accommodations can favor those with connections while leaving newcomers without a consistent approach. Removing records may make it harder for someone harmed to establish what happened. This essay does not propose eliminating all inconvenience; it asks what it protects, who bears it and whether something more suitable is possible. Conversely, calling every difficulty institutional can postpone help that could be offered now.
+
 * Provisional Conclusion
 
 Ordinary experience can become clearer when it meets broad knowledge; broad knowledge needs correction through materials, circumstances and other people's responses. If AI helps this exchange, it may do more than produce pages. It may help learning become something a person can practise, teach and continue to change.
@@ -193,6 +217,8 @@ This is the practical learning we wish to explore: knowledge finding its way int
 Such ability need not belong to an isolated person. If experience can be drawn on by others, questions can return to an account, and necessary corrections can reach users, people may not need to begin separately from scratch. We hope AI can help that continuation without treating numbers of answers or participants as proof of shared progress.
 
 What deserves a careful next attempt is a small undertaking genuinely wanted but held back by preparation and coordination: can AI make it affordable without transferring the work saved to someone less able to object? That judgment needs the previous approach, the whole effort of an attempt, the care people will willingly undertake afterward and what each actually receives. It neither asks everyone to start a business nor promises that richer information naturally makes life better.
+
+When an approach fails in life, people may need further learning, missing conditions may need supplying, or shared arrangements may need changing. Distinguishing these is part of bringing knowledge into life. AI could help people ask more accurately about the difficulty, neither attributing everything to an individual nor setting someone aside while awaiting wholesale change. Such help may reach further.
 
 * Further Conversation
 :PROPERTIES:
@@ -230,7 +256,7 @@ Further work should compare total preparation, checking and revision time, not m
 
 For something previously unaffordable, we must first ask whether participants genuinely wanted to do it, what prevented them and what they would do without AI. An attempt should account for fees and each person's preparation, checking, communication and subsequent time, while allowing participants to explain whether the gain was worth the effort. One comparison can illuminate that occasion. It cannot establish that a category of public service or teaching has become economically feasible in general.
 
-** Writing and encounters still ahead [5/12] [41%]
+** Writing and encounters still ahead [6/14] [42%]
 :PROPERTIES:
 :COOKIE_DATA: checkbox
 :END:
@@ -239,6 +265,7 @@ For something previously unaffordable, we must first ask whether participants ge
 - [X] Check relevant Gu Yanwu and Laozi passages, distinguishing text, commentary and modern interpretation.
 - [X] Continue the imagined use of notes elsewhere and develop the argument about shared revision, contribution and maintenance.
 - [X] Distinguish worthwhile from affordable undertakings through scenes of preparation, noncommercial use and who receives the gains.
+- [X] Develop applicability and working arrangements through Gu's regional preface and county essays, retaining historical disagreements and counterexamples involving necessary procedures.
 - [ ] Ask willing participants what time, cost, access and guidance conditions the scene overlooks.
 - [ ] Observe judgment under a changed condition, not only one completion following instructions.
 - [ ] Record who contributes, checks, maintains and receives the gains.
@@ -246,6 +273,7 @@ For something previously unaffordable, we must first ask whether participants ge
 - [ ] With participants' agreement, observe which conditions need rechecking elsewhere and which corrections actually reach users.
 - [ ] Hear less vocal participants and check whether a summary of consensus erases unanswered doubts.
 - [ ] With willing participants, compare feasible approaches without AI, the whole effort of an attempt and actual gains, retaining cases with no benefit or no reason to continue.
+- [ ] In a real voluntary encounter, distinguish difficulties of understanding, resources and arrangements; hear people left without access and those taking on new work, without treating a proposal as completed change.
 
 * Navigation
 [[file:../README.org][English navigation]] · [[file:30.99-shanjia-yuwu.org][Making good use of things]] · [[file:30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:30.290-beginning-something-unfamiliar.org][Beginning with curiosity]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu]] · [[file:../40-sources/40.320-laozi-action-and-room.org][Laozi and Wang Bi]]
