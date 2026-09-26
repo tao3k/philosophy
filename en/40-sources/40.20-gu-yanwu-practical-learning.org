@@ -14,8 +14,8 @@
 :SOURCE_ID: source.gu-yanwu.rizhilu
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
-:SOURCE_WORK: 《日知录》与实学传统 / Record of Daily Knowledge and practical-learning tradition
-:SOURCE_EDITION: edition-pending
+:SOURCE_WORK: 日知录卷十九：文须有益于天下；文不贵多 / Record of Daily Knowledge, volume 19
+:SOURCE_EDITION: Siku Quanshu recension, volume 19; Wikisource transcription accessed 2026-09-26
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
 :SOURCE_REPOSITORIES: not-applicable
@@ -32,11 +32,13 @@
 :CUSTOM_ID: source-gu-yanwu-practical-learning-en
 :END:
 
-This note interprets practical learning as requiring knowledge to undergo a real-world test of benefit, harm, and public consequence rather than remain a slogan. Edition- and passage-level sourcing is still pending, so the “benefit-harm test” is a Tao3k modernization rather than a verbatim thesis attributed to the Record of Daily Knowledge.
+The concrete entry points are the opening entries “Writing Must Benefit the World” and “Writing Is Not Valued for Its Quantity” in [[https://zh.wikisource.org/wiki/日知錄_(四庫全書本)/卷19][volume 19 of the Siku Quanshu recension of the Record of Daily Knowledge]]. This round checked the Wikisource transcription, not a full collation against page images and other editions. The “benefit-harm test” remains a Tao3k modernization, not a verbatim thesis of the original.
 
 [[file:../README.org][English navigation]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]]
 
 * Context
+
+These entries discuss the purpose, substance, and quantity of writing: more writing does not itself guarantee value. Their moral and political commitments are not a neutral modern utility formula. The following AI questions begin here without treating two short entries as a complete account of Gu Yanwu's thought.
 
 Practical learning resists discourse detached from facts, institutions, and real problems, but it is not short-term utilitarianism or single-objective optimization. Modern technical usefulness must keep asking who benefits, who bears cost, which problem actually improved, which dependencies were created, and how long-term options changed.
 
@@ -51,6 +53,8 @@ It cannot endorse every automation labelled useful or reduce “the public” to
 Nor does this note reduce practical learning to deployment, transaction or task completion. Where structural support is absent, identifying and attempting to change conditions can itself be a practical result; absence of immediate execution does not mean absence of a real problem.
 
 * Influence
+
+Within [[file:../30-reflections/30.300-dialogues-across-time.org][Conversations across time]], this entry also questions our own writing: do additional essays develop a problem or repeat a position? It must not become a demand that all rest, appreciation, and private writing prove a public output.
 
 It enters [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]], moving evaluation from performance increase to benefit, burden, dependency, reversibility, and long-term optionality while preventing a Charter from reducing human value to a metric.
 

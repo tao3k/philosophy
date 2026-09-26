@@ -98,5 +98,6 @@ This is a Reflection, not a validated service design. A Principle concerning exp
 - [ ] Learn whether real participants form questions of their own or prefer an experience without explanation.
 - [ ] Learn whether time, cost, space, and others' labor make suggested opportunities practically usable.
 - [ ] Hear different accounts of stopping, trying once, and sustained commitment without judging value by retention.
+The evening leaves another question: an explanation can become clearer without someone knowing what they actually heard. The [[file:30.310-clear-explanations-and-understanding.org][first conversation across time]] follows that hesitation, bringing classical questions into contemporary listening.
 * Navigation
 [[file:../README.org][Language entry]] · [[file:30.270-coming-to-understand-with-ai.org][Coming to understand together]] · [[file:30.100-after-efficiency-time-and-good-life.org][Time returning to life]] · [[file:30.140-leaving-room-for-life.org][Leaving room]] · [[file:../40-sources/40.290-music-and-cultural-participation.org][Sources on music and cultural participation]]

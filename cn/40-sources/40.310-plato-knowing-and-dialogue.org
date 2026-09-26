@@ -1,0 +1,48 @@
+#+TITLE: 柏拉图笔下的苏格拉底：自知、文字与交谈
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-310-CN
+:SEMANTIC_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.310-plato-knowing-and-dialogue.org
+:SOURCE_ID: PHIL-SRC-310
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Plato
+:SOURCE_WORK: Apology 21b-23b; Phaedrus 274c-277a
+:SOURCE_EDITION: Benjamin Jowett translation, MIT Internet Classics Archive
+:SOURCE_DATE: fourth century BCE; digital translation accessed 2026-09-26
+:SOURCE_LANGUAGE: grc; en translation
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Plato Apology; Plato Phaedrus
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.310-plato-knowing-and-dialogue
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue-cn
+:END:
+本轮对读柏拉图《[[https://classics.mit.edu/Plato/apology.html][申辩]]》21b—23b 与《[[https://classics.mit.edu/Plato/phaedrus.html][斐德若篇]]》274c—277a，使用 MIT Internet Classics Archive 收录的 Benjamin Jowett 英译。篇章定位采用通行的 Stephanus 编号；网页不逐段显示这些编号，可分别由神谕后的访谈叙述，以及 Theuth、Thamus 与文字的讨论定位。中文说明为本仓库释义，不是假称已有的中文译本。
+
+这里的一手身份是“柏拉图作品”，不是“苏格拉底留下的文字”。本文不把作品中的发言者、历史苏格拉底与柏拉图本人当作可以互换的署名，也未完成希腊原文、各译本和苏格拉底问题的全面校勘。
+* 语境
+《申辩》的所选段落处在对指控的回应与德尔斐神谕的解释中。不同人的知识与自以为知道之间出现落差；工匠的具体所长也没有被简单抹掉。抽出“承认不知道”，不能删去法庭、宗教与公民生活的语境，把它变成一条通用聊天技巧。
+
+《斐德若篇》的所选段落通过文字起源的叙述，讨论记忆、智慧的表象及书面言说受到追问时的局限，并把讨论带向交谈与教导。作品本身又以书写的对话呈现这些问题，不能粗略归结为“柏拉图反对文字”。
+* 解释边界
+AI 可以作出新的回应，因此不是原文所描述的静止文字；这一差异必须进入比较。但原典也不能证明会回应的系统已经理解，或一个人经追问后一定学得更好。作品不是关于当代大模型的实验，也不授予提问者持续检查他人的权利。
+
+我们从这些段落提出的问题是：说明的根据是否能被追问，知识的范围是否被夸大，交谈是否给对方留下纠正的空间。这些是现代解释，不是古典术语到产品要求的一一翻译。
+* 影响
+进入[[file:../30-reflections/30.310-clear-explanations-and-understanding.org][论道第一篇]]，使“解释得清楚”与“形成理解”之间出现需要讨论的距离。也让怀疑返回模型和作者，而不只落在听者身上。本文不新增已接受的 Principle。
+* 解释链
+作品与段落 → 知道的范围、书写与回应的问题 → 可回应 AI 带来的新差异 → 音乐聆听中的设想与反例。最后两步由本仓库负责；对实际学习与生活的影响仍需另外观察。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.300-dialogues-across-time.org][论道专题]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][第一篇]] · [[file:40.98-xunzi-learning-and-tools.org][荀子《劝学》]]

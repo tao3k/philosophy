@@ -14,8 +14,8 @@
 :SOURCE_ID: source.gu-yanwu.rizhilu
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
-:SOURCE_WORK: 《日知录》与实学传统 / Record of Daily Knowledge and practical-learning tradition
-:SOURCE_EDITION: edition-pending
+:SOURCE_WORK: 日知录卷十九：文须有益于天下；文不贵多 / Record of Daily Knowledge, volume 19
+:SOURCE_EDITION: Siku Quanshu recension, volume 19; Wikisource transcription accessed 2026-09-26
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
 :SOURCE_REPOSITORIES: not-applicable
@@ -32,12 +32,13 @@
 :CUSTOM_ID: source-gu-yanwu-practical-learning-cn
 :END:
 
-本条把经世致用理解为知识必须接受现实利病与公共后果的检验，而不是停在抽象口号。具体版本与篇章仍需
-后续来源审定，因此“利病检验”是 Tao3k 的现代解释，不冒充《日知录》的逐字命题。
+本轮以[[https://zh.wikisource.org/wiki/日知錄_(四庫全書本)/卷19][《日知录》四库全书本卷十九]]开篇“文须有益于天下”和紧接的“文不贵多”为具体入口。核对的是维基文库转录文字，尚未完成底本影像与异本校勘。“利病检验”仍是 Tao3k 的现代解释，不冒充原文的逐字命题。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][对应反思]]
 
 * 语境
+
+这两条直接讨论文章的用途、内容与数量：写得更多本身不是价值的保证。它们包含特定的道德与政治取向，不是中立的现代效用公式。下面关于 AI 的提问从这里展开，但不声称两条短文足以代表顾炎武的全部思想。
 
 实学反对脱离事实、制度与现实问题的空疏论说，但不等同于短期功利主义或单一效用最大化。现代技术的
 “有用”必须继续追问：谁得到利益，谁承担成本，什么问题真的改善，什么依赖被制造，长期选择权如何变化。
@@ -56,6 +57,8 @@
 本条也不把实学简化为“能部署、能成交、能完成任务”。结构性支持缺失时，指出并尝试改变条件本身可以是实践成果；暂未形成执行动作不等于没有实际问题。
 
 * 影响
+
+在[[file:../30-reflections/30.300-dialogues-across-time.org][论道专题]]中，这一入口也反问我们自己：文章增加以后，问题是否真的展开，还是只增加了重复表态？它不能被反用为要求所有休息、欣赏和私人书写证明公共产出的理由。
 
 进入 [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]]，把技术评价
 从“性能是否提高”推进到受益、负担、依赖、可逆性与长期 optionality，并约束专题 Charter 不把人的价值

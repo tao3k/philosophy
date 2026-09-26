@@ -98,5 +98,6 @@ AI 的广博可以成为进入陌生经验的帮助：让一个未成形的问�
 - [ ] 了解真实参与者是否形成自己的问题，或更愿意保留不被解释的体验。
 - [ ] 了解时间、费用、空间和他人劳动是否使建议成为实际可用的机会。
 - [ ] 听见停止、单次尝试和持续投入的不同经历，不以留存判断价值。
+这一晚还留下一个问题：解释越来越清楚，人却未必知道自己究竟听见了什么。[[file:30.310-clear-explanations-and-understanding.org][论道第一篇]]沿着这个迟疑继续，让古典的追问与今天的聆听相遇。
 * 导航
 [[file:../README.org][语言入口]] · [[file:30.270-coming-to-understand-with-ai.org][一起形成理解]] · [[file:30.100-after-efficiency-time-and-good-life.org][时间怎样回到生活]] · [[file:30.140-leaving-room-for-life.org][留白]] · [[file:../40-sources/40.290-music-and-cultural-participation.org][音乐与文化参与的来源说明]]
