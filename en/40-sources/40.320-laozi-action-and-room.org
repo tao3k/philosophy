@@ -13,7 +13,7 @@
 :SOURCE_ID: PHIL-SRC-320
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: Laozi textual tradition; Wang Bi commentary
-:SOURCE_WORK: Laozi, chapters 11, 17 and 48, with Wang Bi commentary
+:SOURCE_WORK: Laozi, chapters 10, 11, 17, 48 and 64, with Wang Bi commentary
 :SOURCE_EDITION: Wang Bi recension and commentary; Wikisource transcription accessed 2026-09-26
 :SOURCE_DATE: received text; Wang Bi commentary, third century CE
 :SOURCE_LANGUAGE: classical-zh
@@ -21,7 +21,7 @@
 :SOURCE_REVISIONS: not-applicable
 :SOURCE_PATHS: not-applicable
 :OBSERVATION_DATE: not-applicable
-:CONSTITUENT_SOURCES: Laozi chapters 11, 17, 48; Wang Bi commentary on these chapters
+:CONSTITUENT_SOURCES: Laozi chapters 10, 11, 17, 48, 64; Wang Bi commentary on these chapters
 :INTERPRETATION_STATUS: MODERNIZED
 :CLAIM_SCOPE: philosophy.source-note.40.320-laozi-action-and-room
 :END:
@@ -30,13 +30,23 @@
 :CUSTOM_ID: philosophy.source-note.40.320-laozi-action-and-room-en
 :END:
 
-This note reads chapters 11, 17 and 48 of the [[https://zh.wikisource.org/wiki/道德經_(王弼本)][Wang Bi recension of the Laozi]], together with Wang Bi's commentary. The source checked is a Wikisource transcription, not a collation against page images, excavated texts or other received editions. Text and commentary appear on the same page but are not the same layer. We distinguish the received text, Wang Bi's reading and our contemporary questions.
+This note reads chapters 10, 11, 17, 48 and 64 of the [[https://zh.wikisource.org/wiki/道德經_(王弼本)][Wang Bi recension of the Laozi]], together with Wang Bi's commentary. The source checked is a Wikisource transcription, not a collation against page images, excavated texts or other received editions. Text and commentary appear on the same page but are not the same layer. We distinguish the received text, Wang Bi's reading and our contemporary questions.
 
 “Laozi” here names this received textual tradition without settling questions of authorship, dating or formation. Wang Bi belongs to a later interpretive tradition and cannot silently replace the text. English renderings in this note are our own, not quotations from an established translation.
 
 * Context
 
-Reading Laozi for the question of leaving room can too readily turn difficult thought into convenient advice: less is better. Yet chapter 11 concerns wheels, vessels and rooms already made; chapter 17 speaks of accomplishment; chapter 48 brings non-action together with nothing left undone. Read together, they ask about presence and absence, action and accomplishment, not simply a reduction in activity. These are three entrances, not a substitute for the whole work.
+Reading Laozi for the question of leaving room can too readily turn difficult thought into convenient advice: less is better. Yet chapter 11 concerns wheels, vessels and rooms already made; chapter 17 speaks of accomplishment; chapter 48 brings non-action together with nothing left undone. Read alongside chapter 10 on nurture and chapter 64 on care through completion, they ask about presence and absence, action and accomplishment, not simply a reduction in activity. These are five entrances, not a substitute for the whole work.
+
+** Chapter 10: nurturing does not make one the owner
+
+Chapter 10 brings together questions about embodied life, governing and clear understanding, ending with bringing forth without possessing, acting without presuming on it and nurturing without ruling, described as profound virtue. It does not specifically discuss teachers and learners. Wang Bi explains generation and nurture through not obstructing a source or inhibiting a nature, and describes things reaching maturity without one's control bringing them to completion. This reading shifts attention away from a solitary acting self as the source of accomplishment, within his account of profound virtue.
+
+Discussing a helper's refusal to own the recipient's future is our contemporary extension. Teaching, helping someone express themselves or opening an opportunity does not automatically grant authority over later choices. Nor can the passage be translated directly into a copyright arrangement or a universal surrender of attribution. Recognizing contribution differs from governing another person's life.
+
+For an AI learning service, the question can become specific: may a learner later pursue a different use or stop learning? Can encouragement avoid making each stop feel like disappointing a teacher waiting faithfully for their return? This concerns service design and people's experience, not a claim that a model has emotions requiring reassurance.
+
+Not owning the outcome does not remove responsibility. Errors in teaching material still need correction and agreed work still needs doing. Text and commentary can prompt reflection on possession without supplying all the obligations of contemporary collaboration.
 
 ** Chapter 11: an empty place is not useful on its own
 
@@ -62,9 +72,19 @@ For AI, it can prompt a question about a habit: does knowing more and reasoning 
 
 Checking facts, repairing mistakes and caring for matters already entrusted cannot disappear for the sake of apparent lightness. A service may carry complexity so that its user performs fewer operations. Complexity has not vanished, nor has the service thereby acquired authority to decide for the person. We need to distinguish necessary work from additional arrangements, not simply count the buttons removed.
 
+** Chapter 64: caring for an undertaking does not determine what it will become
+
+Chapter 64 speaks of acting before something arises, attending before disorder and being as careful at the end as at the beginning. It also speaks of the failures of acting and holding fast, ending with assisting the natural course of things without daring to impose action. Wang Bi emphasizes care for beginnings and endings while discussing how imposed action and fixed determinations can themselves generate trouble. These thoughts occur together; neither advance control nor blanket withdrawal can simply be selected alone.
+
+Reading this alongside the earlier discussion of diminution in pursuing the Way is worthwhile, but does not settle action and non-action throughout the work. This chapter also speaks of learning not to learn. Wang Bi's explanation concerns natural capacity without learning, not a contemporary educational study recommending a learning method. Valuing learning's positive contribution requires admitting this historical difference, not turning every passage into support for lifelong study.
+
+In contemporary practice we propose a distinction: preparing and caring for an attempt differs from requiring it to reach a predetermined result. Looking after a venue, costs and participants' safety does not mean a gathering must become a lasting organization. Leaving reliable material for a beginner does not make mastery or continued learning necessary to prove the help worthwhile.
+
+This is our proposed reading, not ancient proof that every attempt is worth making. Unsettled outcomes cannot demand unlimited company, nor can permission to fail justify imposing losses on people who never agreed. The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][reflection on bringing knowledge into life]] retains both demands: worthwhile undertakings require actual commitment, and what follows that commitment may still differ from what was first imagined.
+
 * Interpretation Boundaries
 
-This note translates non-action neither as doing nothing nor wholly as reduced intervention. The three chapters concern different matters: the use of things, governance and pursuing the Way cannot be overlaid as a product principle. Ancient governance in particular is not the present relationship among a person, an Agent and a service provider.
+This note translates non-action neither as doing nothing nor wholly as reduced intervention. The five chapters concern different matters: nurture, the use of things, governance, pursuing the Way and care through completion cannot be overlaid as a product principle. Ancient governance in particular is not the present relationship among a person, an Agent and a service provider.
 
 “Leaving room” organizes our modern inquiry; these chapters are not claimed to present an already unified theory under that name. The [[file:40.140-unfilled-space-and-rest.org][joint reading of Dai Chongguang, Laozi and Morris]] retains their different contexts. Unpainted landscape, the hollow of a vessel and rest beyond labor are not three names for one concept.
 
@@ -78,7 +98,7 @@ Nor does this note establish fewer reminders, low engagement, hidden interfaces 
 
 * Interpretation Chain
 
-Three chapters of the Wang Bi recension → Wang Bi's commentary, distinguished from the text → this limited interpretation → [[file:../30-reflections/30.140-leaving-room-for-life.org][modern reflection]]. Further claims about how a service must act need a separately argued, challengeable Principle. Governance must then consider admission as a shared norm. A source can support reasoning without replacing normative content or the admission process.
+Five chapters of the Wang Bi recension → Wang Bi's commentary, distinguished from the text → this limited interpretation → [[file:../30-reflections/30.140-leaving-room-for-life.org][modern reflection]]. Further claims about how a service must act need a separately argued, challengeable Principle. Governance must then consider admission as a shared norm. A source can support reasoning without replacing normative content or the admission process.
 
 * Further Conversation
 :PROPERTIES:

@@ -64,6 +64,22 @@ The final entry considers how words and proposals may matter to later generation
 
 Yet endurance or eventual adoption does not establish goodness. The historical proposals in this entry have distinct institutional settings and consequences; lasting influence must not automatically become a benefit to all. Applied to AI, future gains cannot excuse present harm. A long view needs patience, but also room for later people to judge differently.
 
+** Leaving knowledge to later people: contribution need not be invention alone
+
+The entry on the difficulty of authorship asks both whether a work reaches something predecessors missed and whether later readers need it. Gu makes distinct judgments about books compiled from other thinkers. His discussion cannot simply become approval of all contemporary compilation, teaching and reformulation. Using it to consider AI-assisted sharing of ordinary experience requires acknowledging our own judgment of a changed situation.
+
+Today, an explanation may propose no new theory yet make scattered, difficult or narrowly held knowledge usable. That can still contribute. Its contribution needs an account of the difficulty it addresses, not the word “original” alone and not view counts alone. Fidelity to sources, omitted conditions and recognition of others' work remain part of the question.
+
+Benefit and harm therefore need not end at restraint. Helping people who struggle to write articulate experience, helping beginners find an intelligible entrance, and enabling later readers to correct an earlier account are positive possibilities worth pursuing. Gu did not describe how generative AI might accomplish them. That direction is our contemporary claim, with its effects still to be examined.
+
+** After attending to hardship, who may say what counts as benefit?
+
+The opening entry names illuminating the Way and recording affairs of government as well as attending to hardship. Benefit is not a conclusion that automatically emerges after collecting individual preferences. It involves an author's judgment about what deserves transmission and opposition. Turning Gu into a designer awaiting user feedback would omit something substantial, and contestable, in the text.
+
+For contemporary AI, we propose a further requirement: concern cannot remove the standing of those described to correct the account. Making a request compelling by portraying someone's life only through deprivation may conflict with their understanding of themselves. Yet this cannot mean that only those with direct experience may speak or that every personal account settles a shared question. Facts, shared consequences and absent people still belong in the discussion.
+
+This calls for continuing argument, neither abolishing the author's judgment nor giving concern final interpretive authority. The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][reflection on ordinary people practising with AI]] asks experience and general explanation to remain open to each other's questions, granting neither automatic priority to a model nor exemption from scrutiny to an experienced practitioner.
+
 * Interpretation Boundaries
 
 “Practical learning” is a reading direction here, not a modern evaluative vocabulary jointly set out by these five entries. Tao3k's “benefit-harm inquiry” is likewise a modernization. Gu offers no AI scorecard. Who benefits, who maintains the service, who cannot leave, and who may disagree still require specific arguments and arrangements.
@@ -94,6 +110,10 @@ Such words may change nothing immediately. Yet someone hesitating over a sentenc
 Conversely, valuing private writing does not excuse floods of unchecked public output that consume other people's attention. Words kept in a drawer and the same words distributed by a system enter different relationships. Who spends time reading and who may be misled remain questions that freedom of expression alone does not settle.
 
 An inquiry into benefit needs its own limits. Writing offered as public help can be asked what help it provides. Words someone keeps for themselves need not immediately produce a result. The [[file:../30-reflections/30.290-beginning-something-unfamiliar.org][question of why liking must lead to learning]] faces a related difficulty: how does a worthwhile demand avoid becoming an instruction for every part of life?
+
+There is another question: if someone offers no new theory, only ways of doing things acquired over years, is their account worth keeping? Gu's demands on authorship were not written for every present-day teaching note. We cannot claim that proximity to life satisfies all his criteria. But some retelling and organizing deserve an argument of their own: they may let particular people understand, use and correct knowledge for the first time. The absence of a new term does not make that work negligible.
+
+Private writing need not establish a public return, while publicly teaching material carries responsibility for accuracy and conditions of use. The two need not conflict. The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][imagined encounter between Zhou and a beginner]] asks how experience can deserve careful transmission without making beneficial sharing a demand that everyone turn life into distributable content.
 
 * Navigation
 [[file:../README.org][Language index]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and present-day help]]
