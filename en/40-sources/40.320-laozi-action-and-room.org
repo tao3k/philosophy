@@ -1,0 +1,100 @@
+#+TITLE: Laozi and Wang Bi: Use, Non-action, and Accomplishment
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-320-EN
+:SEMANTIC_ID: philosophy.source-note.40.320-laozi-action-and-room
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.320-laozi-action-and-room.org
+:SOURCE_ID: PHIL-SRC-320
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Laozi textual tradition; Wang Bi commentary
+:SOURCE_WORK: Laozi, chapters 11, 17 and 48, with Wang Bi commentary
+:SOURCE_EDITION: Wang Bi recension and commentary; Wikisource transcription accessed 2026-09-26
+:SOURCE_DATE: received text; Wang Bi commentary, third century CE
+:SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Laozi chapters 11, 17, 48; Wang Bi commentary on these chapters
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.320-laozi-action-and-room
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.320-laozi-action-and-room-en
+:END:
+
+This note reads chapters 11, 17 and 48 of the [[https://zh.wikisource.org/wiki/道德經_(王弼本)][Wang Bi recension of the Laozi]], together with Wang Bi's commentary. The source checked is a Wikisource transcription, not a collation against page images, excavated texts or other received editions. Text and commentary appear on the same page but are not the same layer. We distinguish the received text, Wang Bi's reading and our contemporary questions.
+
+“Laozi” here names this received textual tradition without settling questions of authorship, dating or formation. Wang Bi belongs to a later interpretive tradition and cannot silently replace the text. English renderings in this note are our own, not quotations from an established translation.
+
+* Context
+
+Reading Laozi for the question of leaving room can too readily turn difficult thought into convenient advice: less is better. Yet chapter 11 concerns wheels, vessels and rooms already made; chapter 17 speaks of accomplishment; chapter 48 brings non-action together with nothing left undone. Read together, they ask about presence and absence, action and accomplishment, not simply a reduction in activity. These are three entrances, not a substitute for the whole work.
+
+** Chapter 11: an empty place is not useful on its own
+
+The text considers a hub, a vessel and a room, concluding with the relation between what is present as benefit and what is absent as use. A room is neither only its walls nor merely a place where nothing exists. Wang Bi emphasizes the capacity of absence to receive things and the dependence of the benefit of presence upon absence. The examples and their interpretation belong together, but attribution still matters.
+
+Seeing here a place that can accommodate life not yet determined is our modern reading. It does not require a room to remain empty. It suggests that making something available for use need not prescribe every use in advance. A table may support reading or a bowl of food set down for a moment. An unanticipated use is not thereby illegitimate.
+
+An empty house, however, may leak; a blank calendar may mean nowhere to go after losing work. The text does not establish that every absence brings freedom. Whether a place is usable, who can enter and who must care for it remain concrete questions. Missing materials, support and opportunity cannot receive the same praise merely because they too are absences.
+
+** Chapter 17: not claiming credit differs from keeping people uninformed
+
+Within a relationship of governance, the text describes different situations and ends with accomplishments completed and people saying that they are so of themselves. “Ziran” here should not be casually read as outdoor nature or equated with modern personal autonomy. We may find an accomplishment that need not constantly announce its own credit, but that already takes interpretation. The ancient words do not automatically yield a contemporary standard.
+
+Wang Bi's commentary deserves particular attention. He explains the passage through non-action and wordless teaching, adding that people do not know how it came about. This is commentary, not a sentence of the received text. It brings us to a place where agreement is not enough: today we may want AI to spare someone operational complexity without wanting them unable to know why something happened or who decided.
+
+Not having to attend to everything differs from having no way to find out. An authorized booking may bypass layers of interface, while a changed date, an incurred charge or a commitment made on someone's behalf may still require their knowledge. Questionability and visible responsibility are our contemporary commitments, not positions we claim Wang Bi already held. Reading across time sometimes means discovering disagreement.
+
+** Chapter 48: feature counts cannot decide what should diminish
+
+The text contrasts daily increase in learning with daily diminution in pursuing the Way, then considers non-action with nothing left undone and the taking of the realm. Wang Bi comments on increasing what one can do and has practiced, on returning to emptiness, and on the contrast between acting responsively and initiating from oneself. This has philosophical and political contexts. It is not a list of instructions to stop learning, remove features or abolish interfaces.
+
+For AI, it can prompt a question about a habit: does knowing more and reasoning further necessarily mean arranging more of someone's life? A model's ability to complete a weekend does not mean the weekend owes anyone a plan. What we try to restrain is the impulse continually to prescribe and add obligations. This contemporary reading neither exhausts non-action nor claims to be its sole correct meaning.
+
+Checking facts, repairing mistakes and caring for matters already entrusted cannot disappear for the sake of apparent lightness. A service may carry complexity so that its user performs fewer operations. Complexity has not vanished, nor has the service thereby acquired authority to decide for the person. We need to distinguish necessary work from additional arrangements, not simply count the buttons removed.
+
+* Interpretation Boundaries
+
+This note translates non-action neither as doing nothing nor wholly as reduced intervention. The three chapters concern different matters: the use of things, governance and pursuing the Way cannot be overlaid as a product principle. Ancient governance in particular is not the present relationship among a person, an Agent and a service provider.
+
+“Leaving room” organizes our modern inquiry; these chapters are not claimed to present an already unified theory under that name. The [[file:40.140-unfilled-space-and-rest.org][joint reading of Dai Chongguang, Laozi and Morris]] retains their different contexts. Unpainted landscape, the hollow of a vessel and rest beyond labor are not three names for one concept.
+
+Nor does this note establish fewer reminders, low engagement, hidden interfaces or automatic execution as better design. Each can lighten work or cause omissions, exclusion or unobtrusive control. Evidence and people's experiences must test the outcome. An ancient text cannot certify a product choice.
+
+* Influence
+
+[[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]] continues the distinction between refraining from imposed arrangements and abandoning responsibility. Chapter 11 prompts attention to conditions in which life may unfold; chapter 17 opens tension between unclaimed credit and visible responsibility; chapter 48 questions the impulse to keep adding things.
+
+[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Seeing the Difficulty First]] returns these questions to an imagined courtyard. Seats and shade can make unplanned company possible, but maintenance and access cannot vanish into an assurance that things happen naturally. Reading alongside Gu Yanwu does not use one ancient author to correct another. It brings our own claims under questions from more than one direction.
+
+* Interpretation Chain
+
+Three chapters of the Wang Bi recension → Wang Bi's commentary, distinguished from the text → this limited interpretation → [[file:../30-reflections/30.140-leaving-room-for-life.org][modern reflection]]. Further claims about how a service must act need a separately argued, challengeable Principle. Governance must then consider admission as a shared norm. A source can support reasoning without replacing normative content or the admission process.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.320-laozi-action-and-room-en-dialogue
+:END:
+
+There is something inviting about the people saying that things are so of themselves. A matter has finally come right without someone demanding gratitude or repeatedly insisting that it could never have happened without them. For AI today, help that does not turn into dependence is indeed a wish worth taking seriously.
+
+Yet Wang Bi's account of people not knowing how it came about opens a fissure in that wish. If everything is silently arranged for me, I may feel relieved; I may also never learn that I could have chosen otherwise. Being undisturbed does not mean being unaffected. An arrangement feeling natural does not mean its author lacks power.
+
+We therefore hesitate to turn unclaimed credit into invisibility. Operations need not be continuously displayed, but a clear answer should be available when I ask, and someone responsible should be identifiable when things go wrong. This is a contemporary position reached in conversation with the text, not an extra sentence put into Laozi's mouth.
+
+Conversely, requiring a person to confirm the entire history of every small action returns work to the person seeking help. The [[file:../30-reflections/30.140-leaving-room-for-life.org][discussion of leaving room]] cannot stop at a demand for transparency. What needs telling at the time, what may unfold on request and what change needs renewed consent must be distinguished by consequences, commitments and the people who share them.
+
+Our provisional wish is not that someone never need know again, but that they need not watch continually without losing the possibility of knowing or changing their mind. Help that need not announce itself at every moment must still be answerable when someone turns back to ask.
+
+* Navigation
+[[file:../README.org][English navigation]] · [[file:40.20-gu-yanwu-practical-learning.org][Gu Yanwu]] · [[file:40.140-unfilled-space-and-rest.org][Three sources on unfilled space and rest]] · [[file:../30-reflections/30.140-leaving-room-for-life.org][Leaving Room for Life]]

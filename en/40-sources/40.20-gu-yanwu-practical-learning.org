@@ -14,7 +14,7 @@
 :SOURCE_ID: source.gu-yanwu.rizhilu
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
-:SOURCE_WORK: 日知录卷十九：文须有益于天下；文不贵多 / Record of Daily Knowledge, volume 19
+:SOURCE_WORK: 日知录卷十九：文须有益于天下；文不贵多；著书之难；直言；立言不为一时 / Record of Daily Knowledge, volume 19
 :SOURCE_EDITION: Siku Quanshu recension, volume 19; Wikisource transcription accessed 2026-09-26
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
@@ -32,35 +32,55 @@
 :CUSTOM_ID: source-gu-yanwu-practical-learning-en
 :END:
 
-The concrete entry points are the opening entries “Writing Must Benefit the World” and “Writing Is Not Valued for Its Quantity” in [[https://zh.wikisource.org/wiki/日知錄_(四庫全書本)/卷19][volume 19 of the Siku Quanshu recension of the Record of Daily Knowledge]]. This round checked the Wikisource transcription, not a full collation against page images and other editions. The “benefit-harm test” remains a Tao3k modernization, not a verbatim thesis of the original.
+This note reads five entries in [[https://zh.wikisource.org/wiki/日知錄_(四庫全書本)/卷19][volume 19 of the Siku Quanshu recension of Gu Yanwu's Record of Daily Knowledge]]: “Writing Must Benefit the World,” “Writing Is Not Valued for Its Quantity,” “The Difficulty of Writing a Book,” “Speaking Frankly,” and “Writing Beyond One's Own Time.” These English titles are working translations. The text checked was the Wikisource transcription, not a collation of page images and editions. The questions about AI below are our extensions, not ancient predictions.
 
-[[file:../README.org][English navigation]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]]
+[[file:../README.org][English navigation]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Seeing the Difficulty First]]
 
 * Context
 
-These entries discuss the purpose, substance, and quantity of writing: more writing does not itself guarantee value. Their moral and political commitments are not a neutral modern utility formula. The following AI questions begin here without treating two short entries as a complete account of Gu Yanwu's thought.
+Approaching Gu through usefulness alone can make him sound as though every piece of writing needs an account of its return. Read together, these entries ask more: what world does writing address, whose hardship has its author noticed, where do its claims come from, and can they bear rereading? This is a morally and politically committed view of writing, not a neutral formula for efficiency. Nor can volume 19 stand for the whole of Gu's learning.
 
-Practical learning resists discourse detached from facts, institutions, and real problems, but it is not short-term utilitarianism or single-objective optimization. Modern technical usefulness must keep asking who benefits, who bears cost, which problem actually improved, which dependencies were created, and how long-term options changed.
+** Attending to hardship: what has not yet found its way into words
 
-This returns benchmarks, throughput, and automation ratios to the status of evidence. They may establish a capability change but cannot independently establish increased public value. The object of statecraft is consequence in lived and institutional reality, not the metric itself.
+Among the purposes named in the opening entry are illuminating the Way, recording affairs of government, attending to people's hardship, and speaking well of their good deeds. The concern with hardship draws writing toward lives that may not appear in an imposing argument. Learning takes place not only between an author and books, but also in an encounter with people who write no books.
 
-In our modernization, “I did it for your good” likewise cannot establish help. Someone may understand what matters while lacking conditions for action; the benefit-harm inquiry should then examine missing opportunities, support and institutions rather than blame weak will. Knowledge should enter practice, while practice remains answerable to facts and consequences.
+That encounter does not make representation reliable by itself. Gu's political and ethical setting is not a modern institution of participatory design. Asking whether AI hears difficulties absent from a form is our extension; requiring people to be able to correct a system's account of them is not a rule we can attribute to him. Above all, attending does not mean acquiring ever more private information. Caring about someone unheard differs from building a comprehensive profile of them.
+
+** Quantity and the difficulty of authorship: care is neither length nor elapsed time
+
+The entry on quantity refuses to let abundance establish substance. The entry on authorship places the problem within the time taken to write: even major works prepared with sustained effort may omit something; haste in pursuit of a book or a reputation can leave unreliable claims to later readers. Gu discusses revision and reluctance to publish. The difficulty is not merely getting words onto a page, but answering for them.
+
+This offers a conversation with generative systems, not a verdict that fast writing must be ignorant. AI may help people find, compare and arrange material; it may also help someone unable to write fluently express experience otherwise unheard. What cannot be omitted is checking, discrimination and the possibility of challenge, not a performance of labor. A slowly written book, conversely, is not thereby free of error.
+
+** Speaking frankly: help must allow the thought that something should not be done
+
+The entry on frank speech first quotes Zhang Zai, then discusses allowing ordinary people to speak about shortcomings in government, education and custom. The quoted words must therefore not be presented as Gu's own aphorism. Nor is the entry a complete modern argument for rights of expression.
+
+It nevertheless leaves a sharp question for us. If a system excels at making suggestions agreeable and disagreements acceptable, can it still accommodate “this should not happen”? In a modern service relationship, translating every protest into an experience to optimize may evade the very question of power and responsibility that prompted it. Rights of refusal and arrangements for appeal require our own arguments; citing an old book does not establish them.
+
+** Writing beyond one's time: patience without immunity from later judgment
+
+The final entry considers how words and proposals may matter to later generations, resisting judgment solely by immediate adoption. It allows us to take seriously research without an immediate use, painstaking work, and opinions long left unanswered.
+
+Yet endurance or eventual adoption does not establish goodness. The historical proposals in this entry have distinct institutional settings and consequences; lasting influence must not automatically become a benefit to all. Applied to AI, future gains cannot excuse present harm. A long view needs patience, but also room for later people to judge differently.
 
 * Interpretation Boundaries
 
-It cannot endorse every automation labelled useful or reduce “the public” to aggregate majority utility. Irreversible harm borne by minorities, diminished agency, maintenance debt, and future exit costs all belong to the benefit-harm account. Gu Yanwu did not supply a modern AI scorecard; the present question framework remains this repository's responsibility.
+“Practical learning” is a reading direction here, not a modern evaluative vocabulary jointly set out by these five entries. Tao3k's “benefit-harm inquiry” is likewise a modernization. Gu offers no AI scorecard. Who benefits, who maintains the service, who cannot leave, and who may disagree still require specific arguments and arrangements.
 
-Nor does this note reduce practical learning to deployment, transaction or task completion. Where structural support is absent, identifying and attempting to change conditions can itself be a practical result; absence of immediate execution does not mean absence of a real problem.
+A view of public writing cannot cover all life without distinction. Private notes, idle reading, rest and words never meant for publication need not account for public benefit. Modern commitments to equal participation, privacy and exit also cannot simply be deduced from this text. We draw questions from it while retaining the possibility of disagreement.
+
+Practical learning does not mean merely deploying, transacting or completing tasks. Naming missing conditions, acknowledging that a proposal cannot work, or giving good reasons to stop may be more practical than generating another plan. But claiming to exercise restraint cannot excuse abandoning work already accepted.
 
 * Influence
 
-Within [[file:../30-reflections/30.300-dialogues-across-time.org][Reading On, Thinking Further]], this entry also questions our own writing: do additional essays develop a problem or repeat a position? It must not become a demand that all rest, appreciation, and private writing prove a public output.
+[[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Seeing the Difficulty First]] follows these questions through an imagined courtyard discussion: a comprehensive activity proposal encounters a place without afternoon shade. It retains AI's help with expression and comparison while bringing absent residents, continuing care and disagreement into view.
 
-It enters [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical Learning and Human-Centered AI]], moving evaluation from performance increase to benefit, burden, dependency, reversibility, and long-term optionality while preventing a Charter from reducing human value to a metric.
+[[file:../30-reflections/30.300-dialogues-across-time.org][Reading On, Thinking Further]] must face the same question: do additional essays open the difficulty further, or repeat a position? Reading Gu alongside [[file:40.320-laozi-action-and-room.org][Laozi and Wang Bi]] is not a matter of balancing one advocate of action against another of inaction. The continuing question is how doing something can attend to reality without occupying the whole of life.
 
 * Interpretation Chain
 
-Historical source → Tao3k modern interpretation → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]] → separately authored draft Principle citing that Reflection → possible Governance admission to Charter. The direction preserves the distinction between source, interpretation, reflection, normative proposal, and admission; it must not be reversed into a claim that the source proved the current architecture.
+Five entries in volume 19 → this interpretation with its context and limits → modern claims in the [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][corresponding reflection]]. A shared principle would still require a separately written Principle explaining counterexamples and conditions, followed by a Governance decision about admission. Historical evidence, philosophical argument, normative content and admission have different responsibilities. The chain cannot be reversed to claim that Gu proved the current architecture.
 
 * Further Conversation
 :PROPERTIES:
