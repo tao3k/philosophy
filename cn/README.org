@@ -59,6 +59,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 还没有完全明白时，能不能先依靠 AI？ | [[file:30-reflections/30.280-relying-before-full-understanding.org][方法、条件、后果与有根据的依赖]] → [[file:30-reflections/30.270-coming-to-understand-with-ai.org][形成理解]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][谁承担安排的代价]] |
 | 一点好奇怎样进入生活，又不成为新的负担？ | [[file:30-reflections/30.290-beginning-something-unfamiliar.org][开始一件陌生的事]] → [[file:30-reflections/30.140-leaving-room-for-life.org][让喜欢不必变成任务]] → [[file:40-sources/40.290-music-and-cultural-participation.org][聆听理由与参与条件]] |
 | 在信息很多、时间有限的日子里，怎样让所学真正用得上？ | [[file:30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活]] → [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：传述与后来者]] → [[file:40-sources/40.320-laozi-action-and-room.org][老子：认真投入而不据有后来]] |
+| AI 帮我做出了东西，我怎样继续学会判断、探索与维护？ | [[file:30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路，走向自己想去的地方]] → [[file:40-sources/40.330-ai-public-problems.org][公开问题与研究依据]] → [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：广师与论门人书]] |
 | AI 的建议改变了我的愿望，这是理解还是被带往别处？ | [[file:30-reflections/30.230-when-help-changes-what-we-want.org][当帮助改变了愿望]] → [[file:30-reflections/30.93-intertemporal-agency.org][今天与未来的自己]] → [[file:40-sources/40.97-transformative-experience-evaluability.org][改变与预先评价的边界]] |
 | AI 说自己变好了，怎样知道它改变了什么、是否帮到了人？ | [[file:30-reflections/30.240-when-ai-says-it-improved.org][时间、因果与人的生活]] → [[file:10-charter/10.20-temporality-and-causality.org][时态与因果草案]] → [[file:20-engineering/20.10-cross-repository-realization-map.org][分层的工程证据]] |
 | 谁提出值得改进的问题，谁可能在“更好”的成绩单里消失？ | [[file:30-reflections/30.250-who-asks-what-should-improve.org][公共图书馆的设想与目标形成]] → [[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计对象]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][反馈劳动与共同责任]] |
@@ -85,6 +86,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 - [[file:40-sources/40.20-gu-yanwu-practical-learning.org][文章应当有益，私人书写怎么办？]]
 - [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处：事情办好以后，是否还要替人安排？]]
 - [[file:30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活：接受帮助，是否就欠下一份配合？]]
+- [[file:30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路：创造的愿望怎样遇见理解与共同维护？]]
 - [[file:40-sources/40.320-laozi-action-and-room.org][老子与王弼：不居功，是否也意味着不让人知道？]]
 - [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白，怎样不放下已经承担的照料？]]
 - [[file:40-sources/40.98-xunzi-learning-and-tools.org][外物也开始替人指路时，怎样善假于物？]]

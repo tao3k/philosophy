@@ -14,8 +14,8 @@
 :SOURCE_ID: source.gu-yanwu.rizhilu
 :SOURCE_KIND: PRIMARY
 :SOURCE_AUTHOR: 顾炎武 / Gu Yanwu
-:SOURCE_WORK: 日知录卷十九五条；天下郡国利病书序；郡县论一至三、五、九；钱粮论上下 / Record of Daily Knowledge, volume 19; regional preface; county essays 1–3, 5, 9; essays on money and grain, both parts
-:SOURCE_EDITION: Rizhilu: Siku Quanshu recension, volume 19; additional texts: Gu Tinglin Wenji, volumes 6 and 1, edition unspecified on transcription; Wikisource accessed 2026-09-26
+:SOURCE_WORK: 日知录卷十九五条；天下郡国利病书序；郡县论一至三、五、九；钱粮论上下；广师；与友人论门人书 / Record of Daily Knowledge, volume 19; regional preface; county essays 1–3, 5, 9; essays on money and grain, both parts; Guangshi; Letter to a Friend on Disciples
+:SOURCE_EDITION: Rizhilu: Siku Quanshu recension, volume 19; additional texts: Gu Tinglin Wenji, volumes 1, 3 and 6 (supplements), edition unspecified on transcriptions; Wikisource accessed 2026-09-26
 :SOURCE_DATE: historical-source
 :SOURCE_LANGUAGE: classical-zh
 :SOURCE_REPOSITORIES: not-applicable
@@ -37,6 +37,8 @@
 续读[[https://zh.wikisource.org/wiki/顧亭林文集#天下郡國利病書序][《天下郡国利病书序》]]与[[https://zh.wikisource.org/wiki/顧亭林文集#郡縣論一][《郡县论》一至三]]，把问题从著述推向地方情形与做事的安排。这里采用《顾亭林文集》页面所收转录，分别列于卷六补遗、卷一；页面未明确转录底本，不能把它们也标成《日知录》的四库本。本文只据这些篇章作有限解释，不声称已审读《天下郡国利病书》全书。
 
 再读同页卷一所收[[https://zh.wikisource.org/wiki/顧亭林文集#錢糧論上][《钱粮论》上]]、[[https://zh.wikisource.org/wiki/顧亭林文集#錢糧論下][下]]及[[https://zh.wikisource.org/wiki/顧亭林文集#郡縣論五][《郡县论》五]]、[[https://zh.wikisource.org/wiki/顧亭林文集#郡縣論九][九]]，考察所获与所需、附加负担、个人关切和不同去向。这里辨认的是顾炎武的观察与论证，尚未以其他史料独立核实其中的数量、货币判断与政策效果。
+
+本轮另读卷六补遗[[https://zh.wikisource.org/wiki/顧亭林文集#廣師][《广师》]]与标明收于卷三的[[https://zh.wikisource.org/wiki/與友人論門人書][《与友人论门人书》]]，讨论向谁学习与如何看待教学中的要求。两篇仍据网页转录，未完成影像校勘；后篇援引的“大匠”与“羿”之喻来自《孟子》，不能当作顾炎武自创的格言。英文篇名为本文的说明性译名。
 
 [[file:../README.org][中文导航]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]]
 
@@ -130,6 +132,18 @@ AI 可以帮助经验变得可理解，使原来难以开口的人有材料可�
 
 但它让我们有理由不急着把更多能力导向同一个终点。我们关心 AI 能否帮助人找到适合自己的参与方式：愿意扩大事业的人可以寻求支持，只愿认真做一份有限工作的人也不必被视为尚未成长。规模小不是天生高尚，规模大也不是天然成功；需要看人愿意怎样生活，相关的人能否共同承担。
 
+** 广师：可学习之处，不只在一人身上
+
+《广师》回应汪苕文对师道的议论与对自己的推举，继而列出多位同辈的长处。他分别谈经学、读书、博闻、为人与历经艰难的应变，不以一人的声名包揽所长。这里是顾炎武对特定士人的评价，并非现代平等教育或分布式智能的理论。
+
+我们由此提出自己的问题：当不同知识经同一个 AI 窗口而来，怎样仍能认出它们需要不同的根据与请教对象？综合表达不等于一位全能者已经担保全部内容。借助别人也不必与独立判断对立；分辨该向谁学、哪里仍需核对，本身可以成为本领。这是现代延伸，不把受推举者的历史评价当成已核实的能力清单。
+
+** 与友人论门人书：认真不能靠讨好维持，也不必靠排斥维持
+
+友人担忧他的学问无传，顾炎武却不愿以招收门徒求取声名，反对迎合时好而降低自己的学问要求。他批评科举习作、借用语录而不通经典等现象，最后寄望著述留待同好与后来者。这番论证有特定的经学立场，也有对当时学习者颇为严厉的判断，不能直接变成今天对一切求职学习、通俗讲解或广泛教育的否定。
+
+我们愿意借它区分使人容易接近知识与把学会说得轻而易举。好的讲解可以降低不必要的难处，不必降低事实的准确；必要的练习也不能因要留住使用者就被说成已经完成。但谁能提出问题、谁的愿望值得听，不应取决于是否已经符合老师欣赏的学习者样子。保留学问的认真，并不要求复制古文中的疏离。
+
 * 解释边界
 
 “经世致用”在本仓库里是一条阅读线索，不是上述五条共同列出的现代评价术语。“利病检验”也是 Tao3k 的现代解释。顾炎武没有提供 AI 指标表；谁获益、谁承担维护、谁无法退出、谁有权不同意，都还需要具体的论证和安排。
@@ -146,7 +160,7 @@ AI 可以帮助经验变得可理解，使原来难以开口的人有材料可�
 
 * 解释链
 
-卷十九五条、《天下郡国利病书序》、《郡县论》一至三、五、九及《钱粮论》上下 → 本文保留语境与限度的解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]]及[[file:../30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活]]中的现代主张。若要把主张变成共同原则，仍须另写 Principle，说明反例与适用条件，再由 Governance 决定是否接纳。历史来源、哲学论证、规范内容和准入过程各有责任，不能反向声称顾炎武已经证明当前架构。
+卷十九五条、《天下郡国利病书序》、《郡县论》一至三、五、九、《钱粮论》上下、《广师》与《与友人论门人书》 → 本文保留语境与限度的解释 → [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]]、[[file:../30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活]]及[[file:../30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路，走向自己想去的地方]]中的现代主张。若要把主张变成共同原则，仍须另写 Principle，说明反例与适用条件，再由 Governance 决定是否接纳。历史来源、哲学论证、规范内容和准入过程各有责任，不能反向声称顾炎武已经证明当前架构。
 
 * 论道
 :PROPERTIES:
@@ -180,6 +194,8 @@ AI 的整理能力可以帮助这种接续：把分散的疑问带回有关段�
 周师傅若在教过一次以后提出收费，先前的热心是否就变了味？若他一直不提，却渐渐不再有空，旁人又会不会觉得他不够坚持？沿着第五篇承认人的切身关切，我们愿意把这份难以开口放到桌上；但也要与古文分开，报酬应由具体劳动与共同约定来说明，不是把公共事务变成某个人可以世代占有的家业。
 
 也许谈过以后，大家只够承担偶尔一次的教学，也许有人另找更合适的资源。这不必写成一场感人的圆满。重要的是，不再让师傅靠隐瞒辛苦维持热心，也不让想学的人为付不起而难堪。AI 可以帮忙算清与说明，怎样相待却还需要他们自己开口。论道来到这里，已经不只是问文章有无用处，也在问有用的人能否不被用尽。
+
+读过《广师》，承认别人有可学之处，不等于把自己的全部去向都交给他。《与友人论门人书》又使这句主张不至于滑向凡事顺从学生：老师确有责任不把未学会说成已经学会。两边放在一起，我们还要问，能否认真指出一个办法的不足，同时不把提出这个办法的人连同他的愿望一起否定？[[file:../30-reflections/30.330-finding-a-way-of-our-own.org][关于 AI 学习、创造与共同维护的反思]]把这个问题带回公开讨论，而不是请古人替我们写一份关于自主性的现成答案。
 
 * 导航
 [[file:../README.org][语言入口]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][实学与今天的帮助]]

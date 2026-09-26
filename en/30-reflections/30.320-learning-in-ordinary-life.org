@@ -319,5 +319,7 @@ For something previously unaffordable, we must first ask whether participants ge
 - [ ] In a real voluntary encounter, distinguish difficulties of understanding, resources and arrangements; hear people left without access and those taking on new work, without treating a proposal as completed change.
 - [ ] With agreement, follow one undertaking from seeking help to an attempt or stopping; examine actual gains and new burdens, and which feedback changed subsequent help, without requiring a comprehensive life record.
 
+The woodworking story is an everyday hypothetical, not a representation of AI's main value in learning, knowledge work or public affairs. [[file:30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]] turns to actual developer discussions, learning research and maintenance accounts: how can help become one's own questions and work continued in a shared world?
+
 * Navigation
 [[file:../README.org][English navigation]] · [[file:30.99-shanjia-yuwu.org][Making good use of things]] · [[file:30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:30.290-beginning-something-unfamiliar.org][Beginning with curiosity]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu]] · [[file:../40-sources/40.320-laozi-action-and-room.org][Laozi and Wang Bi]]

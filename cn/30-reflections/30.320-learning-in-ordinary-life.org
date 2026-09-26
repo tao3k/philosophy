@@ -319,5 +319,7 @@ AI 服务同样可能让人觉得欠下一点配合。持续的鼓励、反复�
 - [ ] 在自愿参与的真实场景中区分理解、资源与安排上的困难，听取未获便利者和新增劳动承担者的回应，不把建议形成当作改变完成。
 - [ ] 经当事人同意，跟随一件具体事情从求助到尝试或停止，核对实际所得及新增负担，记录哪些反馈确实改变了后续帮助而不要求完整生活档案。
 
+本文的木工故事是一种日常设想，不能代表 AI 在学习、知识工作或公共事务中的主要价值。[[file:30.330-finding-a-way-of-our-own.org][《借前人的路，走向自己想去的地方》]]转向实际的开发者讨论、学习研究与维护者记录，继续追问：得到帮助以后，人怎样形成自己的问题，又怎样把工作接续到共同世界。
+
 * 导航
 [[file:../README.org][中文导航]] · [[file:30.99-shanjia-yuwu.org][善假于物]] · [[file:30.220-making-what-matters-possible.org][把在意的事做出来]] · [[file:30.290-beginning-something-unfamiliar.org][从好奇开始]] · [[file:30.140-leaving-room-for-life.org][给生活留白]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武]] · [[file:../40-sources/40.320-laozi-action-and-room.org][老子与王弼注]]
