@@ -1,0 +1,55 @@
+#+TITLE: Feeling That We Understand, and Having Grounds to Judge
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-270-EN
+:SEMANTIC_ID: philosophy.source-note.40.270-understanding-and-reliance
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.270-understanding-and-reliance.org
+:SOURCE_ID: PHIL-SRC-270
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Leonid Rozenblit and Frank Keil; Zana Buçinca, Maja Barbara Malaya and Krzysztof Z. Gajos
+:SOURCE_WORK: The misunderstood limits of folk science; To Trust or to Think
+:SOURCE_EDITION: Cognitive Science 26 (2002), 521–562; PACM HCI 5 CSCW1 (2021), Article 188; author PDFs accessed 2026-09-26
+:SOURCE_DATE: 2002; 2021
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: doi:10.1207/s15516709cog2605_1; doi:10.1145/3449287
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.270-understanding-and-reliance
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.270-understanding-and-reliance-en
+:END:
+Two studies offer bounded empirical prompts for [[file:../30-reflections/30.270-coming-to-understand-with-ai.org][coming to understand with AI]], not an established teaching method.
+
+#+NAME: understanding-reliance-sources-en
+#+EXPLANATION: Different tasks and periods cannot jointly establish that contemporary language models improve human understanding.
+| Source | Scope of task and finding |
+|--------+---------------------------|
+| [[https://doi.org/10.1207/s15516709cog2605_1][Rozenblit and Keil, 2002]]; [[https://cogdevlab.yale.edu/sites/default/files/files/rozenblit%20%26%20keil%20%202002.pdf][author PDF]] | Attempts to explain mechanisms exposed gaps between rated understanding and explanations people could produce; no language models were involved. |
+| [[https://doi.org/10.1145/3449287][Buçinca, Malaya, and Gajos, 2021]]; [[https://www.eecs.harvard.edu/~kgajos/papers/2021/bucinca21trust.pdf][author PDF]] | Ingredient-substitution task, 199 retained participants, simulated AI. Designs encouraging active thought reduced but did not eliminate overreliance; effectiveness, subjective ratings, and benefits across participants differed. |
+* Context
+The former concerns estimates of mechanistic understanding; the latter compares particular decision interfaces. Experimentally controlled errors of simulated AI are not the performance of an open-ended contemporary chatbot. Neither follows the photographer's life.
+* Interpretation Boundaries
+These studies establish neither that more explanation is better nor that people must always think independently first. They do not demonstrate long-term judgment gains from an interaction design. Disliking effortful interfaces is not treated here as a personal defect.
+
+The distinction among exploration, understanding, and execution is this repository's argument, not a classification supplied or validated by these papers. Interpretation of experience and value also exceeds what these tasks measure.
+* Influence
+The Reflection asks separately what someone feels they understand, what they can actually judge, and what it costs them. These are questions for observation, not claims that TAO3K has produced equivalent results or grounds to amend Principle or Governance directly.
+* Interpretation Chain
+Research on rated understanding → attend to the difference between feeling clear and having grounds to judge → invite comparison and correction within a work, rather than require a recitation test.
+
+Research on assisted decisions → attend to both mistaken reliance and thinking burden → discuss help in context rather than treat greater effort as universally good.
+
+Both moves are bounded interpretive extensions. The essay's photographs, sequencing trials, and subsequent understanding remain imagined and need voluntary participants' actual experience to support or challenge them.
+* Navigation
+[[file:../README.org][Navigation]] · [[file:../30-reflections/30.270-coming-to-understand-with-ai.org][Exploration, understanding, and action]] · [[file:40.260-participation-ownership-and-timing.org][Ownership, co-creation, and time]]

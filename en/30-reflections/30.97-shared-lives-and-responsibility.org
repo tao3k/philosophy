@@ -1,6 +1,6 @@
 #+TITLE: Living Together: Relationships, Responsibilities, and Burdens That Cannot Be Shifted
 #+AUTHOR: Tao3k
-#+DATE: 2026-09-21
+#+DATE: 2026-09-26
 #+FILETAGS: :philosophy:en:reflection:
 :PROPERTIES:
 :CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
@@ -70,6 +70,8 @@ Time saved when an organization adopts AI does not automatically become workers'
 Human experience can help everyone do better, but contribution should not be the default price of receiving help. People should choose which experiences may improve the service, how long they remain and how to take them back. They should also be able to take their work and records with them, so leaving one system does not erase knowledge they formed. If only the platform accumulates while the person can neither take nor challenge what was learned, that is not shared growth. [[file:30.99-shanjia-yuwu.org][Skillfully Using Things]] therefore asks whether what technology brings ultimately remains with people.
 
 ** Disagreement may remain
+[[file:30.260-when-the-work-leaves-the-screen.org][When a Work Leaves the Screen]] brings the same question to a private photography album: the photographer likes his account, while the shop owner pictured does not want to be described as always waiting for customers. This is not a joint household decision, nor does it give the owner control over everything the photographer expresses. It asks how creative freedom and another person's wish not to be spoken for can be understood through a particular disagreement. AI can help with revision and explanation while leaving room for an outcome in which agreement has not been reached.
+
 When an agent also changes its service through feedback, a burden can hide in the invitation to “help us get better.” Imagine a public library's booking system: frequent bookers leave many ratings, librarians explain misleading replies, and walk-in visitors without accounts never even receive a request for feedback. If the system improves only against the responses it receives, it may treat silence as absence of need and librarians' repair work as free training material. [[file:30.250-who-asks-what-should-improve.org][Who Gets to Ask What Should Improve?]] is therefore also a question about living together: not only who receives improvement, but who spends time on it and who can decline to share experience yet still enter a public space.
 
 Living together does not require identical purposes. One person wants to move; another values local relationships. There may be no option that improves everyone's situation. Show actual conflicts, parts that can be tried in stages, losses that cannot be compensated and judgments still required, rather than pretending an aggregate score resolves them.

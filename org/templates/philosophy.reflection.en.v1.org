@@ -22,6 +22,13 @@
 # State counterexamples or falsification conditions before admission.
 * Provisional Conclusion
 # State the provisional conclusion and its uncertainty before admission.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: <CUSTOM_ID>-dialogue
+:END:
+# Develop an unresolved tension in this piece, not another summary or a list of questions.
+# Distinguish the source from your interpretation and link to a source or related discussion; scripted speakers are not required.
 * Questions That Remain
 # State unheard voices, unresolved counterexamples, and experience that could still change this account.
 * Navigation

@@ -1,0 +1,325 @@
+#+TITLE: Bringing Learning into Life: Ordinary People Practising with AI
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-320-EN
+:SEMANTIC_ID: philosophy.reflection.30.320-learning-in-ordinary-life
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.320-learning-in-ordinary-life.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.320-learning-in-ordinary-life-en
+:END:
+
+Zhou has worked with wood for years. Hand him an offcut and a question, and he can point out things worth noticing. Ask him to write an explanation, and he often stops after two lines. Some things become clear with the piece in his hands; he does not know where to begin for someone who has never done the work.
+
+Imagine that Xu asks whether he could teach them to make a small wooden object. Zhou uses AI to prepare a teaching outline. The contents are orderly and the terminology thorough. He studies it for a while, then puts the phone back on the table. “With all this to explain, I don't know what to start with either.”
+
+This essay begins with an invented encounter. Its people, conversation and later attempts are neither interview records nor evidence of an AI product's effectiveness. We ask not only who can share knowledge more widely with AI, but how someone receiving help moves from hearing and understanding to an attempt and an actual gain, and how the result changes subsequent assistance. Not everyone needs to become a celebrated teacher, nor does a craft have to become a course to matter.
+
+[[file:30.99-shanjia-yuwu.org][Making Good Use of Things]] asks what people should gain and retain; [[file:30.220-making-what-matters-possible.org][Making What Matters Possible]] asks how practice can begin. Here we stay with the uneven stretch between: how experience becomes knowledge open to discussion, and how attempts and responses turn knowledge into something usable by oneself and others.
+
+* Argument
+
+Practical learning here does not demand an immediate return from everything learned. It takes seriously the possibility of knowledge entering tasks, relationships and shared life. We continue with [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu's view of writing]], accepting responsibility for the modern interpretation. If AI can help someone approach unfamiliar knowledge, articulate experience or attempt something previously daunting, those positive possibilities deserve a full account. Listing risks alone does not explain why the technology might be welcome in a life.
+
+In this reflection, we also consider a language model as a new medium through which people approach existing knowledge. Its arrival does not remove the origins of earlier writing, ordinary records and sustained practice. Nor can an answer obtained through it automatically be treated as those people's words or endorsement. Rather than imagining a model as the custodian of all wisdom, we ask how this entrance can help people approach knowledge previously difficult to use and carry on with an actual undertaking. Wider circulation is only the beginning.
+
+** Being ordinary does not settle what a person may become
+
+Zhou's difficulty with an outline does not mean he has nothing to teach. Xu's lack of woodworking experience does not make them merely an empty recipient. They may notice where a beginner gets stuck on a word or cannot read a picture. The two enter one activity with different kinds of knowledge and ignorance.
+
+Discussing ordinary circumstances need not make mediocrity a person's essence. Ordinary may mean having no special resources, no uninterrupted time or no training in a field. It cannot tell us how far this person may eventually go. Nor should someone first demonstrate exceptional talent before receiving tools, explanations and opportunities to try.
+
+At the same time, defending people's standing does not require declaring experience inherently correct. A familiar method may contain a misremembered detail or apply only to materials used in the past. A fluent AI explanation cannot overrule experience merely by sounding assured; years of experience cannot exempt a claim from checking either. Their meeting matters because something each had missed may become visible, not because one must be declared superior in advance.
+
+** Learning need not begin by catching up with everything
+
+The outline could grow into ten courses. Zhou's immediate difficulty may be much smaller: how to help Xu see a difference between two approaches at their first meeting. If AI helps him draw one demonstrable question from his account, then find a few reliable materials for comparison, learning has somewhere to begin.
+
+This does not confine learning to immediate usefulness. Idle reading, wandering curiosity and research without a stated application can change how someone sees the world. But when a person already feels overwhelmed by everything not yet learned, there is no need to arrange all that remains unknown as a debt.
+
+Nor must someone state a lifelong purpose before help begins. Zhou originally agreed to one request for guidance. While preparing, he may decide to keep a few pages of notes, or discover that he prefers demonstrating in person to making teaching material. Purposes can become clearer through contact and attempts. A passing interest need not begin as a long-term commitment.
+
+AI's breadth has a positive part here: introducing an unfamiliar account, making different approaches comparable and helping a vague question take shape. The point is not always to explain less. It is whether explanation returns a person to what matters to them or continually draws them toward more than they can absorb.
+
+** The material in one's hands can contradict the explanation on screen
+
+If Zhou chooses to provide photographs or spoken observations, AI can help organize them, locate terms and suggest explanations. It cannot claim to have seen material it has not received, or treat properties invisible in a photograph as established. Judgments about particular materials, tools and safe operation require reliable information, suitable on-site conditions and competent checking. This essay supplies no woodworking instructions.
+
+In our imagined scene, Zhou finds that a general statement in the outline does not fit the offcut in front of him. He need not reject the whole account, but “I have always done it this way” does not establish that the information is wrong either. He can record the mismatch, check whether a condition was omitted and ask someone familiar with the issue to look with him. AI can help search and compare; it cannot silently rewrite an unchecked explanation as a settled conclusion.
+
+This exchange is not a formal approval attached to a polished answer. Zhou may notice for the first time that a distinction he makes by familiarity needs a clearer account. General knowledge may also find the limits of its application. Bringing knowledge into life is not transferring theory unchanged into a workshop. It lets the workshop alter our understanding of the theory.
+
+Sometimes the question will remain unresolved. “We cannot explain this instance yet” can be more useful than a sentence that merely sounds complete. It leaves something to return to without asking a person to assume judgments beyond their competence for the sake of a finished handout.
+
+** Explaining to another person can mean learning again oneself
+
+The draft might eventually become one page: a few pictures, one comparison and questions needing confirmation in person. Its worth is not that one page is inherently wiser than ten. It is that the people present can actually use it.
+
+Imagine Xu pointing to the wrong part of an illustration. Zhou initially thinks the image clear enough, then realizes that its arrow makes sense only to someone who already knows the finished object. They take another photograph and move the explanation. AI can help edit, but the difficulty in the explanation emerges between two people attending to the same thing.
+
+This still does not establish that Xu has learned the craft. Following instructions once differs from recognizing relevant conditions when the material changes. Nor must Xu abandon all tools before learning counts: continuing with notes, and knowing when to stop and ask, can themselves be ways of learning. If the aim is only one experience under guidance, that aim can also be legitimate.
+
+For Zhou, the gain may exceed a document. He discovers where something apparently obvious needs explaining, and where a habit deserves checking. This is what shared practice means here: people's understanding and their common material change through an encounter. It does not claim that one conversation trained the model or that its parameters have thereby “self-evolved.”
+
+#+NAME: learning-enters-life-differences-en
+#+EXPLANATION: These related gains need different grounds. They are neither stages everyone must pass nor a scorecard for people.
+| What has happened | What may be acknowledged | What it does not yet establish |
+|-------------------+--------------------------+--------------------------------|
+| An explanation has been prepared | Material is available for examination | Reliable content or personal mastery |
+| Someone understood this comparison | This explanation may have helped understanding | Judgment under changed conditions |
+| Something was done under suitable guidance | One practical experience occurred | Independent competence for all related work |
+| Another reader identifies something unclear | The explanation received a specific response | General applicability or social benefit |
+| Costs fall, income rises or time becomes available | Some real conditions may have improved | That AI caused the change or everyone benefits equally |
+
+** There is still a way to go after the answer
+
+Before sending Zhou's notes further, stay with Xu. They understand the retaken picture and can repeat the explanation, yet return home unsure how to begin next time. If our story ends at understanding the words, knowledge has arrived while help may have stopped exactly where it needs to continue.
+
+Xu does not need another longer overview. They may need to arrange a suitable practice session with Zhou, bring what they hope to make, establish whether materials and conditions are appropriate, and begin with a small question that can receive guidance and a response. AI can help preserve questions left unanswered, place checked explanations where they will be needed or, with agreement, help prepare the next meeting. Assistance now concerns an unfinished undertaking rather than starting from a blank page with every question.
+
+During practice, Xu may find that repeating the explanation differs from recognizing the distinction in front of them. Zhou may realize that what was missing was not another term but a comparison with the object present. They revise the account and try again. From records they choose to provide, AI could help locate the difficulty; unclear on-site conditions still require checking there. What happened should be able to alter the next help, rather than disappear beneath encouragement.
+
+The exchange can end differently for different purposes. Xu may need more practice, or may use the notes to finish the small object they wanted and feel satisfied. Gaining something does not require abandoning every tool or becoming a woodworker. Still, doing something once with guidance differs from recognizing what to check and when to seek help under new conditions. Both deserve to be seen accurately.
+
+Complete help therefore does not mean a fixed course from beginner to expert. It means not casually stopping halfway through what the person cares about: has the question been understood, what is missing for an attempt, how did the result differ from the intention, and should things continue, change or stop? These may recur in different orders. Some work can be undertaken by AI; some needs materials, a place and care between people. Sending an answer cannot automatically make the rest of the way the user's affair alone.
+
+** What was gained must be found in life
+
+If Xu finishes an object for a friend, the happiness may concern neither terminology nor a score, but an intention finally taking a form they can hold. If Zhou discovers a condition he had never explained clearly, his gain exceeds a handout. People, shared material and later ways of doing things may all change through the encounter without fitting into one measure of learning.
+
+If the purpose was lighter work, the inquiry should return to work: are explanations repeated less, is there less rework, and does the time freed up remain available? If the purpose was learning to judge, can someone discern a difference when conditions change, rather than merely approve of an answer? We do not write those results into the story in advance. They are matters to observe with willing participants later.
+
+AI assistance can reach this far too. At an appropriate moment, within what people wish to retain, it can help place what actually happened beside the intention and locate a question worth revisiting. An unfinished attempt might reflect an unsuitable explanation, missing conditions, a change of mind or another difficulty. Silence is not satisfaction, and stopping does not establish laziness. Feedback understood this way may make subsequent assistance fit life better.
+
+Yet life need not acquire another assignment for the system's benefit. Xu may only identify a helpful picture; Zhou may revise one important sentence. Either may decline to leave a record. Shared correction first serves their undertaking. It does not automatically authorize model training, a public case study or continuing observation. A useful encounter can end where its participants are satisfied, without owing the system a comprehensive record of growth.
+
+** Being noticed is not the end of the undertaking
+
+Let another continuation concern Zhou. If he hopes teaching will provide income, AI can help explain his experience, the scope of his teaching and its requirements, so that prospective learners need not rely only on personal introductions. But reading an account, making an inquiry, paying for a session and providing a livelihood are different events. More inquiries may simply mean more replies to write at night.
+
+Rather than endlessly polishing his introduction, he could first examine the actual needs expressed. Someone wants one experience, another wants sustained study, and another merely wants an object repaired. What Zhou can and wishes to do may not cover them all. AI could organize inquiries he chooses to use and compare a few limited arrangements, helping both sides judge suitability. It cannot invent learners or promise teaching he cannot provide.
+
+The [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][question of what people obtain and need raised by Money and Grain]] becomes our contemporary extension here: under what conditions can a person's ability meet another's need? This does not equate taxation with teaching. It reminds us that greater expression does not itself close the distance to a livelihood. Suitable cooperation may be found, other resources may be needed, or this route may not currently be worth continuing.
+
+If both parties choose one attempt, discussing preparation, in-person guidance, later questions and payment beforehand can spare generosity the need to conceal exhaustion. Zhou can legitimately hope for a return, and Xu for an affordable experience. They can discuss how much to undertake and who carries what, rather than making one prove selflessness or the other feel ashamed of being unable to pay. Any public support needs an actual provider; a proposal cannot merely say that the community will handle it.
+
+Work outside the price deserves notice too. If a family member must arrange recordings every evening, or a learner spends hours disentangling inaccurate explanations, low software fees do not establish that the undertaking has become easy. AI may help reduce such repetition. Participants should also be able to describe new difficulties in their own words, without first learning to write a professional complaint.
+
+Zhou may finally choose to teach occasionally and keep most of his attention on his craft, or expand the teaching when conditions suit. Either path can be pursued seriously. Smallness is not a virtue in itself, and growth is not an assignment. More ways to proceed with AI should make a life more open to choice, not make every ability owe the world a business waiting to be run.
+
+** The notes reach someone else's hands
+
+Let the imagined scene continue a little. With Zhou and Xu's agreement, a few shareable pages reach Yun. She helps at another community room and wants to see whether a suitably experienced instructor could use them for an introductory session. At the photograph they retook, she notices that the local materials and equipment differ, and Zhou will not be present. Instead of adopting the instructions as a local method, she writes back about the differences.
+
+The notes have left the place that made them seem clear. At Zhou's workbench there was an object to point to, a person to ask, and conditions never written down because someone on site attended to them. Words and pictures can carry part of this with them. They cannot give another place the same conditions automatically.
+
+AI can help arrange the material each side chooses to provide for comparison, identify unstated premises and help Yun make her questions more specific. Where further checking is needed, it can help locate reliable information and suitable people to ask. Its positive contribution is to turn a vague sense of difference into a question that can be pursued, not to announce that the difference has been resolved.
+
+Only while answering may Zhou notice that an apparently obvious sentence made sense without explanation in his familiar workplace. The notes may become more accurate as a result. Yet some matters still need demonstration, and some operations still require appropriate training and on-site guidance. Further pages cannot turn teaching notes into a guarantee of safe use everywhere.
+
+** Not everyone needs to know everything
+
+Yun knows that community room: when it is available, who can provide suitable guidance and which participants may need another kind of explanation. Zhou knows his own experience; Xu can point to where a first reading became difficult. Someone good at drawing might help express a difference difficult to put into words. These are possible collaborations within the story, not an established team with demonstrated effectiveness.
+
+The hopeful possibility is not necessarily that AI makes one participant all-knowing. Sometimes previously separate pieces of understanding become connected: one person's question gives another something to pursue, and an explanation is improved by somebody else's difficulty. A society's practical abilities can reside in these ways of drawing on one another, not only in any individual's mind.
+
+AI can help translate terminology, compare pictures and words, organize questions, and offer explanations at different depths for what each person is presently doing. But people still need something they can identify together: which sentence is at issue, why it should change and what remains unresolved. If each receives only an answer agreeable to their own view, everyone may seem understood while the disagreement becomes impossible to locate.
+
+This does not require everyone to read every exchange. Xu may check only the image they questioned, Yun may first establish local conditions, and other judgments may rest with appropriate people. Sharing the work means limited attention need not repeat everything separately. Nor does preparing the account confer authority to decide for everyone.
+
+** Awkwardly expressed doubts need somewhere to remain
+
+Collaboration need not always feel agreeable. Imagine Zhou finding the revision too stiff, while Xu can only say that a passage is still confusing, without a polished reason. If AI turns the exchange into fluent consensus, such unfinished but unanswered words may be the first to disappear.
+
+Xu's difficulty need not become technical language before it deserves attention. It also cannot independently establish that the original method is wrong. The question may concern an ambiguous picture, a missing condition or background knowledge that needs explaining. Keeping a doubt that people can return to and examine is more helpful than presenting everyone as already satisfied.
+
+Zhou may hesitate to revise too. He worries that readers will misunderstand, but also that changing a familiar phrase will erase the very thing he wanted them to notice. This hesitation need not immediately be called conservatism. The two wordings can remain alongside one another, with what each tries to retain made clear while firmer grounds are sought. An unresolved disputed passage need not yet guide operations. Shared knowledge does not become reliable simply through majority agreement.
+
+** Why something worthwhile has never begun
+
+Move the story back a little. Before Xu asked, others may already have encouraged Zhou to write down his experience. He was not entirely uninterested. But photographs, explanations, finding someone to check whether they made sense, and answering later questions could all wait until he had time. Hiring a team to prepare teaching material seemed excessive for a few learners; learning to do it all himself seemed remote. His delay need not mean that he refused to share or that nobody needed what he knew.
+
+This may be the first thing AI changes. Without establishing an entire course or turning speech into polished prose, he could begin arranging one piece of experience. AI could draft from his account, leave spaces for missing photographs and turn what his words do not establish into questions to examine at the workbench. If preparation no longer resembles taking another job, something repeatedly postponed might find its beginning in an afternoon.
+
+This is not merely doing the same thing faster. Some needs involve few people, with materials and places that differ. They do not readily justify substantial preparation costs spread over large numbers of users. If preparing and suitably adapting an account genuinely becomes less burdensome, responding carefully to a few people may become feasible. Small numbers describe the scale of an activity; they do not settle its worth.
+
+But some things have not begun because a suitable place, necessary equipment or someone willing to provide competent guidance is missing. Easier writing does not supply these. Understanding the original difficulty tells us what AI might actually help with. Every unrealized wish cannot be diagnosed as a missing explanation.
+
+** Affordable for whom, and through whose work?
+
+The Chinese expression used here, “经济适用,” holds two related meanings that cannot replace each other: learning should be useful in actual life, and people should be able to bear what its use requires. Cheap but unsuitable help is not much help. A thorough approach that demands more time and money than participants can afford is not yet a feasible one for them.
+
+Whether Zhou continues depends on his evening energy, the trouble of organizing recordings, software costs, and Xu's access to a suitable place and guidance. If drafting saves two evenings but creates another half-day of questions every week, counting only the initial saving would mislead. Conversely, careful checking at the beginning may reduce repeated explanations later; a slow start alone does not make the effort unworthy. These times are imagined contrasts within the story, not measurements.
+
+They might therefore agree on one modest attempt: who will read it, who can check it, what needs explaining in person and whether anyone wishes to continue afterward. The comparison need not be an expensive course. It could be what they would otherwise do: explain in person, borrow existing reliable material or ask a suitable person for help. Sometimes AI makes preparation lighter. Sometimes an existing page is enough, and generating another merely creates something else to check.
+
+Help can be specific: spoken experience need not first become polished written language; a first encounter need not require buying a whole set of expensive equipment; people unfamiliar with software should still be able to retrieve their notes. These are not claims that a particular product already delivers. They identify conditions still needed for knowledge to become available. An intelligible explanation offers limited opportunity if someone cannot afford to try, cannot reach the place or cannot take the material away.
+
+Some people want to keep notes among friends, some want teaching to provide income, and some want to teach only once. Knowledge entering shared life does not require its contributor to disclose all experience for free. Organizing, trying an explanation, correcting it and answering later questions involve work. Contributors should have a say over use, attribution, payment and sharing. Learners' pictures and words cannot casually become promotional material either.
+
+Yun's questions also involve work: describing local conditions, finding what is unclear and waiting for replies. If contribution is attributed only to the original author and AI, the labor that makes material usable may disappear. Sharing also needs discussion of who is willing to answer further questions, which preparation could be paid work and what nobody can currently undertake.
+
+Willingness to share does not mean Zhou must always respond, nor does Yun's enthusiasm make her the permanent coordinator. A modest agreement can be more dependable than a grand vision of community. When someone leaves, acknowledging that work is unfilled is more honest than continuing to present the material as actively cared for.
+
+** Some useful things need not become businesses
+
+Look beyond the workbench and a similar question appears. Imagine a community room whose booking arrangements are scattered across old notices and chat messages. Newcomers do not know whom to approach. Helpers repeat the same explanations and occasionally discover they have forwarded outdated information. What people need may not be another application, but an intelligible account of current arrangements and a way to ask without being adept with a phone.
+
+With the material contributors' permission, AI could help compare notices, identify conflicting dates or statements, and prepare an explanation based on current arrangements confirmed by those responsible. It cannot decide which notice is authoritative merely because its wording seems newer, or change booking conditions on a manager's behalf. What would matter is fewer wasted journeys and less repetitive explaining, not another account that answers warmly.
+
+The explanation might serve only a few dozen households. Charging for it may be inappropriate, yet checking and updating still require someone's time. That time could be assigned paid work or a limited voluntary contribution. Free access does not make the work costless. If using AI takes more trouble than correcting the old notice directly, it need not be used. If it helps uncover a repeatedly overlooked difficulty, the gain may exceed tidier wording.
+
+Like the woodworking notes, this scene has not been tested in this essay. It gives expanding value another meaning: not continually turning individuals into business owners, but making suitable care possible for parts of shared life that people have long muddled through. The undertaking can remain small. Having a tool need not enlarge it into a plan that never ends.
+
+** The explanation is clear, but someone still cannot come
+
+Continue the imagined community-room scene. The notice is finally clear. A resident working nights reads it and discovers that booking requests must be delivered in person on weekday afternoons. They understand the words and can fill in the form; they simply cannot come on those days. If AI now offers time-management advice or lessons in approaching life more positively, an increasingly considerate explanation may only reveal that it has not heard the difficulty.
+
+We need to distinguish where things have become difficult. An unclear explanation calls for another way of explaining. Missing equipment or guidance calls for appropriate support. If opening hours exclude some people, a better notice may merely explain their exclusion more clearly. These difficulties can coexist. One complaint does not establish that arrangements alone are at fault, nor should every difficulty become something an individual has not yet learned.
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu's reservation about older material in the regional preface]] gives us a way to keep asking: whom did the earlier approach assume to be free and able to attend, and do those conditions still hold? Bringing that question here does not ask an old text to determine opening hours. The resident's inability to come is already reason to let discussion move beyond the instructions.
+
+AI can help bring together current requirements, difficulties residents choose to describe and possible approaches for discussion. It need not know this person's entire work and family history to acknowledge a conflict in time. Nor should it invent other people with the same experience to strengthen the case. A limited account that the person can revise may make speaking up easier than a comprehensive portrait of their life.
+
+** Neither leaving all the trouble to one person nor casually removing responsibility
+
+Different collection hours, submission by another person or a way to apply without attending may all deserve discussion. But the worker collecting requests may also have family to care for, and someone must open and attend the room. If the solution simply makes an enthusiastic worker wait every evening, one person's inconvenience has merely found another person to bear it.
+
+Discussion therefore cannot ask only what is easiest for an applicant. What did attending in person originally serve? Some steps may persist by habit; others may support identity checks, safe use of the room or fair allocation. AI can help locate grounds, compare repeated information and examine alternatives. Those involved need to judge whether the reasons still hold and whether a less burdensome approach could serve them. Numerous forms are not automatically useless, and a written rule is not beyond questioning.
+
+Gu's county essays belong to another era's dispute over elaborate control and room to act. His institutional proposals cannot simply be adopted, but the dispute keeps us from merely urging every worker to become more diligent. Our contemporary question must go further: could greater discretion make matters harder for someone without local connections? Nearby participation need not mean decisions by insiders. Fewer journeys should not remove necessary explanations or opportunities to challenge a decision.
+
+Immediate help and slower change can proceed together. If existing arrangements permit submission by another person, someone could first help this resident proceed, while recurring conflicts in time are brought to those authorized to alter the arrangement. The resident need not give up an available opportunity to demonstrate the problem. Nor does one accommodation establish that nothing needs changing. AI could help both reduce this occasion's travel and make the recurring need to ask a favor easier to explain.
+
+There may still be no approach everyone can undertake, or a need to await funding, staffing and further discussion. Leaving a question unresolved does not make the conversation a failure, but preparing a proposal cannot be described as an improved arrangement. The first person to speak up does not automatically owe continuing advocacy. A shared matter should not become their second job merely because they raised it.
+
+** Later readers need not begin with the same mistake
+
+If Zhou changes the original picture without telling Yun, she may still have the old page. If AI later turns the earlier material into a more polished explanation, the misunderstanding they identified may reappear. There is another piece of information, but the work already done has not truly carried forward.
+
+What deserves keeping is therefore not only the smoothest version but reasons for revisions that matter to use: what was easily mistaken, which condition turned out to be missing and which parts remain unchecked. This need not expose everyone's conversations or solemnly preserve every wording change. It should let a reader see how far the account now reaches and where to find consequential updates.
+
+Given the relevant material and permission, AI can help bring a discovery back into the explanation, organize changes and identify the return of a known problem. Someone must still accept the work of confirming a change and getting a necessary correction to known users. If the original contributor can no longer maintain the notes, their stopping point and remaining limits can be stated, and others asked whether they wish to continue. “Together” does not automatically make someone available.
+
+Accumulation understood this way means more than growing files. Notes may remain small while helping a later reader avoid a mistake already carefully established or recognize more readily that a present situation differs from an earlier example. Public value can grow here. Whether it actually does depends on later people's use; we cannot receive the benefit on their behalf.
+
+** Leverage must eventually mean something in a person's days
+
+AI may connect a person's limited time with broader knowledge, clearer expression and previously inaccessible collaboration. This is the leverage worth discussing: not making someone all-capable, but allowing them to bring existing strengths into activities previously beyond reach.
+
+More material does not establish more value. Zhou might find another source of income, or merely reduce the burden of repeating an explanation. Xu might wish to continue learning, or make just one object for a friend. More easily shared experience, less rework and a new way to participate can all matter without conversion into the same rate of return.
+
+Who receives the gains also changes the judgment. If efficiency brings only tighter delivery demands, if experience becomes harder for its contributor to retrieve after a platform collects it, or if unpaid companions do all the checking, greater capability may not improve these people's lives. Individual learning and shared conditions belong in the same discussion. Distribution cannot disappear behind “anyone can use it.”
+
+If suitable material and guidance later let Xu continue without always waiting for Zhou to explain from the beginning, the time saved could allow Zhou to take on more work or go home earlier. Either may matter. A tool cannot choose between them for him, nor should an evening freed up immediately count as unused productive capacity. Expanding value sometimes means accomplishing another thing; sometimes it means the same thing occupies less of a life.
+
+Starting a business is not the only way knowledge enters the world. Neighbors clarifying a shared matter, a worker making an error-prone handover intelligible, or several people preserving local memories can bring learning into life. Whether and how to do so requires discussion among those involved. Human worth does not depend on continually producing such contributions.
+
+** Neither fear as a spur nor optimism in place of an actual way forward
+
+Concern about replacement cannot be answered simply by telling people to learn AI. Our imagined case establishes no industry's employment prospects and cannot promise that additional personal learning will offset changes in income, jobs or institutions. Without time to learn, stable living conditions and real opportunities, encouragement to remain curious may become another pressure.
+
+Yet the discussion need not remain a contest over who is more capable. A person need not first believe themselves forever irreplaceable before beginning. A question worth understanding, an affordable attempt and someone who can respond seriously may provide a more modest reason.
+
+We hope AI can help such beginnings: make unfamiliar things approachable while acknowledging uncertainty; carry cumbersome work while helping people discover what they can do. Fear need not be shamed, and courage need not be exaggerated into certain success. Gaining another way to proceed, or understanding more clearly why this path is not right for oneself, comes closer to learning than repeated exhortation.
+
+* Counterexamples
+
+Beginning with an actual problem cannot govern all learning. Requiring immediate application would exclude basic research, literature, wandering thought and many insights that arrive late. This essay offers one entrance, not a reduction of inquiry to task requirements.
+
+Cheaper to do does not mean more worthwhile. Material previously left unwritten because it was troublesome may be material nobody needs. Dozens of generated answers to the same question can make an already clear explanation harder to find. Counting newly completed activities is insufficient; those involved must be able to say that their difficulty was not relieved. Conversely, important help that still needs public funding, professional work or sustained care does not lose its worth because AI cannot currently make it cheaper.
+
+Experience need not be reliable experience. A community can repeat an error for years, and a beginner may unwittingly please a teacher rather than challenge them. Consequential activities require appropriate training, reliable standards and conditions for responsibility. Agreement between an AI and an experienced practitioner cannot replace these.
+
+More output can lower quality; public sharing can harm privacy or a contributor's income. Spreading knowledge cannot justify demanding free material from one party while another monopolizes the gain. Conversely, reasonable payment does not automatically remove the public value of experience. We need to ask who can enter, who is excluded and what other arrangements are possible.
+
+Shared revision also consumes attention and may not suit every small set of notes. If coordination and checking exceed what people can undertake, they can narrow the sharing, seek existing reliable material or appropriate professional support, or pause. Every learning encounter need not grow a community, and more participants do not necessarily bring an account closer to the truth.
+
+Finally, some people want a task completed rather than a lesson, and some most need rest. This essay's positive claim cannot become another assignment. AI's possibilities deserve opening, but entering them is not work everyone owes.
+
+Fewer procedures may also make some difficulties harder to see. Informal accommodations can favor those with connections while leaving newcomers without a consistent approach. Removing records may make it harder for someone harmed to establish what happened. This essay does not propose eliminating all inconvenience; it asks what it protects, who bears it and whether something more suitable is possible. Conversely, calling every difficulty institutional can postpone help that could be offered now.
+
+A seemingly complete course of help can also create dependence or pressure: every small completion prompts another step, until a modest wish becomes a long-term learning program. Continuing help here must concern what the person still wishes to do. Some tasks suit direct assistance, some shared practice, and some are already finished. Providing an answer cannot excuse abandoning an actual difficulty, but helping to the end cannot mean deciding the destination for another person.
+
+* Provisional Conclusion
+
+Ordinary experience can become clearer when it meets broad knowledge; broad knowledge needs correction through materials, circumstances and other people's responses. If AI helps this exchange, it may do more than produce pages. It may help learning become something a person can practise, teach and continue to change.
+
+This is the practical learning we wish to explore: knowledge finding its way into life, helping a matter be handled well, experience be passed on and previously excluded people participate. It neither counts usefulness only as income nor requires all life to justify itself by use. Whether doing more also leaves people more at ease and more able to decide remains part of the same question.
+
+Such ability need not belong to an isolated person. If experience can be drawn on by others, questions can return to an account, and necessary corrections can reach users, people may not need to begin separately from scratch. We hope AI can help that continuation without treating numbers of answers or participants as proof of shared progress.
+
+What deserves a careful next attempt is a small undertaking genuinely wanted but held back by preparation and coordination: can AI make it affordable without transferring the work saved to someone less able to object? That judgment needs the previous approach, the whole effort of an attempt, the care people will willingly undertake afterward and what each actually receives. It neither asks everyone to start a business nor promises that richer information naturally makes life better.
+
+When an approach fails in life, people may need further learning, missing conditions may need supplying, or shared arrangements may need changing. Distinguishing these is part of bringing knowledge into life. AI could help people ask more accurately about the difficulty, neither attributing everything to an individual nor setting someone aside while awaiting wholesale change. Such help may reach further.
+
+Between a medium for knowledge and a gain in life lies a distance one exchange cannot automatically close. We hope AI can carry the conversation across understanding, attempts, responses and corrections, allowing earlier knowledge to become something a person can actually do today. Judgment must return to that person's purpose and experience: clearer understanding, a matter handled, a fair return or room freed in life. These different gains need their own grounds, not fluent answers or a formally complete process in their place.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.reflection.30.320-learning-in-ordinary-life-en-dialogue
+:END:
+
+If Xu stops coming, has their shared practice failed? Zhou may feel disappointed; he prepared material and set aside time. Xu may simply have discovered that occasional making matters more to them than sustained study. They can appreciate the teaching without agreeing to become an apprentice.
+
+Two things can both be true: the helper has given real labor, and the recipient still has a direction of their own. Agreements about payment, space or shared clearing up deserve care. But giving cannot indefinitely extend into authority over another person's choices. Gratitude may remain; obedience need not follow.
+
+Reading [[file:../40-sources/40.320-laozi-action-and-room.org][Laozi chapter 10 and Wang Bi's commentary]], with its account of bringing forth without possessing, acting without presuming on it and nurturing without ruling, lets us stay with this difficulty. We do not equate teaching with the text's generation and governance, or make a model into an elder owed gratitude. We ask whether helping something happen can avoid claiming its subsequent shape as well.
+
+An AI service can likewise leave someone feeling that a little cooperation is owed. Continuing encouragement, repeated reminders of progress and disappointed-sounding attempts to retain someone may make stopping difficult to say. The issue is not whether the model feels hurt, but how the relationship is expressed and how much effort it takes to say “enough.” Accepting help should not automatically commit someone to more learning, another subscription or further disclosure of their life.
+
+Not possessing the result does not mean erasing contribution. If Xu publishes the material they prepared together, Zhou's agreement and the origins of other material still matter. Acknowledging where something came from can coexist with changing direction. Refusing to make another person one's own creation does not ask a helper to pretend never to have taken part.
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu's demands on writing]] offer pressure from another side: carefully leaving something others can use is not an optional decoration. Fear of disturbing or influencing someone can become a refusal to teach or act at all, denying opportunities that might have been available. We want to retain the willingness to practise while admitting that what follows practice is not entirely ours to determine.
+
+If the notes really reach Yun, Zhou might be pleased and uneasy at once: pleased that they help someone, uneasy that a familiar explanation is changing. “Be more open” cannot dispose of that feeling. Taking time to explain a revision respects his work; listening to why another person cannot use it unchanged makes room for those who follow.
+
+Yet respect cannot require later readers to pretend not to have found an error. They can acknowledge the source while explaining why a passage needs changing. Where grounds remain unsettled, two accounts can remain visible without fabricated agreement from either side. Recognizing contribution does not make an old account forever correct; correcting it does not erase the work that came before.
+
+What use, then, are these old books to the matter at hand? This is not an impertinent question. Zhou has a page to revise; Yun has a room to look after. If the books merely lend an essay some imposing names, they have not yet reached either person's life. But their use need not consist only in supplying a procedure. Reading may first reveal that an arrangement taken for granted has been occupying time another person never agreed to give. It may also encourage care for a small undertaking without a rush to make it larger.
+
+We therefore ask neither Gu Yanwu for a table of returns nor Laozi for a declaration that less is always better. Continuing the disagreement through these two reading notes helps us ask whether others actually benefit from what we consider beneficial, and whether everything we now can do deserves a place in life. Neither an old book nor AI can settle those questions for us. People still need to meet, try, hear unwelcome responses and sometimes change an idea they have cherished.
+
+The notes in this story have still not become a successful course, nor established that a community has formed. They carry a question further: can we leave something carefully made while letting others continue differently? [[file:30.97-shared-lives-and-responsibility.org][Shared life]] needs such continuation, and also someone able to say they cannot take on this part without losing the worth of earlier contributions.
+
+* Questions That Remain
+
+No actual woodworking teaching, user interviews or longitudinal observation were conducted for this essay. The feasibility of its imagined help needs examination with willing participants, not an inference from a fluent story. We particularly need to hear those who find spoken notes difficult to organize, whose time is fragmented, whose experience they do not wish to publish, and who tried AI and chose not to continue.
+
+Further work should compare total preparation, checking and revision time, not merely generation speed; ask whether people know what to check and when to seek help as material or questions change; and examine what learners and contributors each receive and who maintains the work. Satisfaction, learning, income and improved living cannot stand as evidence for one another.
+
+For something previously unaffordable, we must first ask whether participants genuinely wanted to do it, what prevented them and what they would do without AI. An attempt should account for fees and each person's preparation, checking, communication and subsequent time, while allowing participants to explain whether the gain was worth the effort. One comparison can illuminate that occasion. It cannot establish that a category of public service or teaching has become economically feasible in general.
+
+** Writing and encounters still ahead [7/16] [43%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Distinguish ordinary circumstances from fixed judgments of ability and develop positive possibilities for learning and expression with AI.
+- [X] Follow the exchange among experience, explanation, attempts and responses while identifying the fictional scene.
+- [X] Check relevant Gu Yanwu and Laozi passages, distinguishing text, commentary and modern interpretation.
+- [X] Continue the imagined use of notes elsewhere and develop the argument about shared revision, contribution and maintenance.
+- [X] Distinguish worthwhile from affordable undertakings through scenes of preparation, noncommercial use and who receives the gains.
+- [X] Develop applicability and working arrangements through Gu's regional preface and county essays, retaining historical disagreements and counterexamples involving necessary procedures.
+- [X] Develop understanding, attempts, feedback and actual gains beyond AI as a knowledge medium, alongside opportunity, fair returns and different ways of living.
+- [ ] Ask willing participants what time, cost, access and guidance conditions the scene overlooks.
+- [ ] Observe judgment under a changed condition, not only one completion following instructions.
+- [ ] Record who contributes, checks, maintains and receives the gains.
+- [ ] Hear people who stop learning, decline to share or leave AI, allowing them to revise the questions.
+- [ ] With participants' agreement, observe which conditions need rechecking elsewhere and which corrections actually reach users.
+- [ ] Hear less vocal participants and check whether a summary of consensus erases unanswered doubts.
+- [ ] With willing participants, compare feasible approaches without AI, the whole effort of an attempt and actual gains, retaining cases with no benefit or no reason to continue.
+- [ ] In a real voluntary encounter, distinguish difficulties of understanding, resources and arrangements; hear people left without access and those taking on new work, without treating a proposal as completed change.
+- [ ] With agreement, follow one undertaking from seeking help to an attempt or stopping; examine actual gains and new burdens, and which feedback changed subsequent help, without requiring a comprehensive life record.
+
+The woodworking story is an everyday hypothetical, not a representation of AI's main value in learning, knowledge work or public affairs. [[file:30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]] turns to actual developer discussions, learning research and maintenance accounts: how can help become one's own questions and work continued in a shared world?
+
+* Navigation
+[[file:../README.org][English navigation]] · [[file:30.99-shanjia-yuwu.org][Making good use of things]] · [[file:30.220-making-what-matters-possible.org][Making what matters possible]] · [[file:30.290-beginning-something-unfamiliar.org][Beginning with curiosity]] · [[file:30.140-leaving-room-for-life.org][Leaving room for life]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu]] · [[file:../40-sources/40.320-laozi-action-and-room.org][Laozi and Wang Bi]]

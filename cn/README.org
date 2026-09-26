@@ -51,10 +51,15 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 
 | 想追问什么 | 建议阅读路径 |
 |------------+--------------|
-| 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实学与积极帮助]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
+| 我想过怎样的生活，AI 应帮助什么？ | [[file:30-reflections/30.96-living-with-ai.org][总论]] → [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]] → [[file:30-reflections/30.40-optimization-is-not-human-value.org][目的形成与价值]] |
 | 借助 AI，人应得到什么、保留什么？ | [[file:30-reflections/30.99-shanjia-yuwu.org][人的价值、勇气与共同成长]] → [[file:30-reflections/30.90-knowing-after-action.org][事情做成、学会判断与仍能作主]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][便利与负担落在谁身上]] |
 | 当 AI 也会改进自己，人怎样把在意的事做出来？ | [[file:30-reflections/30.220-making-what-matters-possible.org][共同实践与真实回应]] → [[file:30-reflections/30.99-shanjia-yuwu.org][人和工具不共用一条增长曲线]] → [[file:40-sources/40.220-recognition-and-self-improvement.org][认可与自进化的证据边界]] |
 | 一件作品做成之后，人怎样认出自己的意思、理解回应并自由改道？ | [[file:30-reflections/30.260-when-the-work-leaves-the-screen.org][清晨照片走出屏幕的三种后续]] → [[file:30-reflections/30.220-making-what-matters-possible.org][照片如何开始]] → [[file:40-sources/40.260-participation-ownership-and-timing.org][归属、共创与介入时点的有限研究]] |
+| 当 AI 能想得很远，哪些可能真正成为我的选择？ | [[file:30-reflections/30.270-coming-to-understand-with-ai.org][探索、理解与行动]] → [[file:30-reflections/30.110-co-maintained-understanding.org][理解可以留下，也可以改写]] → [[file:40-sources/40.270-understanding-and-reliance.org][理解的感觉与判断的根据]] |
+| 还没有完全明白时，能不能先依靠 AI？ | [[file:30-reflections/30.280-relying-before-full-understanding.org][方法、条件、后果与有根据的依赖]] → [[file:30-reflections/30.270-coming-to-understand-with-ai.org][形成理解]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][谁承担安排的代价]] |
+| 一点好奇怎样进入生活，又不成为新的负担？ | [[file:30-reflections/30.290-beginning-something-unfamiliar.org][开始一件陌生的事]] → [[file:30-reflections/30.140-leaving-room-for-life.org][让喜欢不必变成任务]] → [[file:40-sources/40.290-music-and-cultural-participation.org][聆听理由与参与条件]] |
+| 在信息很多、时间有限的日子里，怎样让所学真正用得上？ | [[file:30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活]] → [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：传述与后来者]] → [[file:40-sources/40.320-laozi-action-and-room.org][老子：认真投入而不据有后来]] |
+| AI 帮我做出了东西，我怎样继续学会判断、探索与维护？ | [[file:30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路，走向自己想去的地方]] → [[file:40-sources/40.330-ai-public-problems.org][公开问题与研究依据]] → [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：广师与论门人书]] |
 | AI 的建议改变了我的愿望，这是理解还是被带往别处？ | [[file:30-reflections/30.230-when-help-changes-what-we-want.org][当帮助改变了愿望]] → [[file:30-reflections/30.93-intertemporal-agency.org][今天与未来的自己]] → [[file:40-sources/40.97-transformative-experience-evaluability.org][改变与预先评价的边界]] |
 | AI 说自己变好了，怎样知道它改变了什么、是否帮到了人？ | [[file:30-reflections/30.240-when-ai-says-it-improved.org][时间、因果与人的生活]] → [[file:10-charter/10.20-temporality-and-causality.org][时态与因果草案]] → [[file:20-engineering/20.10-cross-repository-realization-map.org][分层的工程证据]] |
 | 谁提出值得改进的问题，谁可能在“更好”的成绩单里消失？ | [[file:30-reflections/30.250-who-asks-what-should-improve.org][公共图书馆的设想与目标形成]] → [[file:30-reflections/ai-object-shift/30.200-human-agent-design-triad.org][人、Agent 与设计对象]] → [[file:30-reflections/30.97-shared-lives-and-responsibility.org][反馈劳动与共同责任]] |
@@ -71,6 +76,23 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 从一个具体处境开始怎么读？ | [[file:30-reflections/30.95-life-after-job-loss.org][失业与重建选择]] → [[file:30-reflections/30.91-financial-life-simulation.org][治生]] → [[file:30-reflections/30.94-financial-life-stress-test.org][有界准备的压力测试]] |
 
 来源线索包括：[[file:40-sources/40.95-sen-capability-and-opportunity.org][Sen：资源与实质机会]]、[[file:40-sources/40.96-performative-prediction.org][施为性预测]]、[[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验]]、[[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与善假于物]]、[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作]]、[[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]]、[[file:40-sources/40.110-provenance-memory-and-adversarial-information.org][来源、记忆与对抗性信息]]、[[file:40-sources/40.120-analects-harmony-with-difference.org][《论语》“和而不同”]]、[[file:40-sources/40.130-leisure-interest-and-ordinary-experience.org][闲暇、兴趣与日常经验]]、[[file:40-sources/40.140-unfilled-space-and-rest.org][留白、无之用与足以享用的休息]]、[[file:40-sources/40.150-life-service-ai-and-bill-access.org][生活服务 AI 与账单接入边界]]、[[file:40-sources/40.170-interface-space-and-convergence.org][传统界面规范的适用边界]]、[[file:40-sources/40.180-ui-intent-and-computer-use.org][意图推断与计算机操作]]，以及[[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][休息、边界、AI 工作密度与可参与的生活条件]]。它们为问题提供依据，不替本仓库的现代解释免除论证责任。
+
+* 在各篇的论道中接着读
+
+“论道”就在相关来源与反思中，接着正文没有说尽的地方展开，不需要先进入一个总专题。可以从眼前的问题往返：
+
+- [[file:30-reflections/30.290-beginning-something-unfamiliar.org][喜欢一件事，为什么总要走向学会它？]]
+- [[file:30-reflections/30.310-clear-explanations-and-understanding.org][说不清的懂得，能不能被认真对待？]]
+- [[file:40-sources/40.20-gu-yanwu-practical-learning.org][文章应当有益，私人书写怎么办？]]
+- [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处：事情办好以后，是否还要替人安排？]]
+- [[file:30-reflections/30.320-learning-in-ordinary-life.org][所学怎样进入生活：接受帮助，是否就欠下一份配合？]]
+- [[file:30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路：创造的愿望怎样遇见理解与共同维护？]]
+- [[file:40-sources/40.320-laozi-action-and-room.org][老子与王弼：不居功，是否也意味着不让人知道？]]
+- [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白，怎样不放下已经承担的照料？]]
+- [[file:40-sources/40.98-xunzi-learning-and-tools.org][外物也开始替人指路时，怎样善假于物？]]
+- [[file:40-sources/40.310-plato-knowing-and-dialogue.org][能继续答话，就更值得相信吗？]]
+
+[[file:30-reflections/30.300-dialogues-across-time.org][《书读到这里，话还可以怎样接下去》]]另谈读书与生活怎样相互发问，不统领这些讨论。以上是已展开的几处；其他旧篇尚待逐篇重读，不以目录或空章节冒充完成。
 
 * AI 交互对象变革专题
 
@@ -98,7 +120,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 行动与权限 | [[file:10-charter/10.40-action-and-authority.org][PHIL-AUTH-001]] | [[file:30-reflections/30.60-action-requires-authority.org][行动需要权限]] | [[file:40-sources/40.50-agent-systems-state-authority.org][Agent 系统的状态与权限]] |
 | 比例证成 | [[file:10-charter/10.50-proportional-assurance.org][PHIL-ASSURE-001]] | [[file:30-reflections/30.10-knowledge-action-in-agent-age.org][合一而不坍缩]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
 | 韧性、可逆性与选择权 | [[file:10-charter/10.60-resilience-reversibility-optionality.org][PHIL-RESIL-001]] | [[file:30-reflections/30.98-living-with-the-unpredictable.org][与不可预测共处]] | [[file:20-engineering/20.10-cross-repository-realization-map.org][跨仓库工程映射]] |
-| 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][实践学习与以人为本的 AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
+| 实践学习 | [[file:10-charter/10.70-practical-learning.org][PHIL-PRAXIS-001]] | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武与经世致用]] |
 | 借物、学习与知识平权 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][现代证据边界]] |
 | 时间、幸福与值得投入的生活 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.100-after-efficiency-time-and-good-life.org][效率之后]] | [[file:40-sources/40.100-well-being-time-and-self-determination.org][幸福、时间与自我决定]] |
 | 留白、停止与不被安排的时间 | [[file:10-charter/10.30-human-agency.org][PHIL-AGENCY-001]] | [[file:30-reflections/30.140-leaving-room-for-life.org][给生活留白]]；[[file:30-reflections/30.210-why-freed-time-does-not-return.org][空下来的时间]] | [[file:40-sources/40.140-unfilled-space-and-rest.org][留白与休息]]；[[file:40-sources/40.150-life-service-ai-and-bill-access.org][平台与接入边界]]；[[file:40-sources/40.210-rest-boundaries-ai-and-participation.org][边界、工作密度与参与条件]] |
@@ -114,7 +136,7 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 | 知如何从来源追到后果 | [[file:30-reflections/30.70-traceable-knowledge-source-to-consequence.org][可追溯的知]] | [[file:40-sources/40.60-peirce-fallibilism-inquiry.org][Peirce：可错论与探究]] |
 | 不同主张如何承担失败 | [[file:30-reflections/30.80-refutable-challengeable-revisable.org][可反驳、可挑战、可修正]] | [[file:40-sources/40.70-popper-falsifiability.org][Popper：可证伪性]]；[[file:40-sources/40.90-woodward-interventionism.org][Woodward：干预主义]] |
 | 行动后如何重新形成知 | [[file:30-reflections/30.90-knowing-after-action.org][行后再知]] | [[file:40-sources/40.80-dewey-action-experience-learning.org][Dewey：行动、经验与学习]] |
-| 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][经世致用与 Human-Centered AI]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
+| 技术价值如何接受利病检验 | [[file:30-reflections/30.20-practical-learning-human-centered-ai.org][先看见人的难处]] | [[file:40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武：经世与实学]] |
 | 人怎样借助 AI 更好地理解、行动、创造与享受 | [[file:30-reflections/30.99-shanjia-yuwu.org][善假于物：AI 时代人的价值、勇气与共同成长]] | [[file:40-sources/40.98-xunzi-learning-and-tools.org][荀子：学习与工具]]；[[file:40-sources/40.99-ai-help-work-learning-creation.org][工作、学习与创作的证据]] |
 | 当帮助者也会改变，人怎样实践、修正并获得真实回应 | [[file:30-reflections/30.220-making-what-matters-possible.org][当 AI 也在改变：把在意的事做出来]] | [[file:40-sources/40.220-recognition-and-self-improvement.org][表达、认可与自进化的来源边界]] |
 | 当帮助改变了愿望，怎样分辨理解、劝说与代替判断 | [[file:30-reflections/30.230-when-help-changes-what-we-want.org][当帮助改变了愿望]] | [[file:40-sources/40.97-transformative-experience-evaluability.org][转化性经验与可评价性的解释边界]] |

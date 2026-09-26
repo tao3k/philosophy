@@ -1,0 +1,55 @@
+#+TITLE: 为什么愿意听，为什么未能参与：音乐与文化生活的研究边界
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-290-CN
+:SEMANTIC_ID: philosophy.source-note.40.290-music-and-cultural-participation
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.290-music-and-cultural-participation.org
+:SOURCE_ID: PHIL-SRC-290
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Thomas Schäfer, Peter Sedlmeier, Christine Städtler and David Huron; National Endowment for the Arts
+:SOURCE_WORK: The psychological functions of music listening; When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance
+:SOURCE_EDITION: Frontiers in Psychology 4:511 (2013); NEA report (January 2015), based on 2012 GSS; accessed 2026-09-26
+:SOURCE_DATE: 2013; 2015 (2012 survey)
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: doi:10.3389/fpsyg.2013.00511; NEA When Going Gets Tough (2015)
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.290-music-and-cultural-participation
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.290-music-and-cultural-participation-cn
+:END:
+本文并读音乐聆听问卷与文化活动参与报告，为[[file:../30-reflections/30.290-beginning-something-unfamiliar.org][开始一件陌生的事]]提供背景，不把它们当作 AI 助手的实验。
+
+#+NAME: music-participation-evidence-cn
+#+EXPLANATION: 两份材料研究不同活动，不能把样本、原因或效果合并；报告年份与调查年份分别保留。
+| 材料 | 可据以提出的问题 |
+|------+------------------|
+| [[https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full][Schäfer 等，2013，The psychological functions of music listening]] | 834 人评价 129 项聆听理由；主成分分析提出情绪与唤醒调节、自我觉察、社会联系三个维度。聆听有不同的自述理由，不宜只按学习理解。 |
+| [[https://www.arts.gov/sites/default/files/when-going-gets-tough-revised2.pdf][NEA，2015，When Going Gets Tough]]；[[https://www.arts.gov/impact/research/publications/when-going-gets-tough-barriers-and-motivations-affecting-arts-attendance][出版页]] | 分析美国 2012 年 GSS 文化模块；有兴趣却未参加者报告时间、费用、到达场所和同伴等障碍。兴趣不等于已有参与条件。 |
+* 语境
+音乐问卷使用德语条目，经电子商店、德国高校等渠道招募，不是全球听者的随机样本；依赖回忆与自我报告。NEA 报告由 Margaret E. Blume-Kohout、Sara R. Leonard 与 Jennifer L. Novak-Leonard 编写，讨论视觉和表演艺术的现场参与。
+* 解释边界
+三维概括不是普遍人格分类，也不证明某种听法改善幸福。美国历史调查不能直接描述今天中国的参与状况；自述障碍也不是移除障碍后的干预结果。
+
+两项材料均未检验本篇的 AI 陪听、推荐或帮助赴约情境。“体验可以有自身价值”是本仓库提出的哲学判断，不是从问卷相关关系推出的结论。
+* 影响
+主文据此分别询问人为何愿意参与、有哪些实际条件、经验是否值得保留；不以课程完成、停留时长或推荐点击替本人回答。这里影响的是 Reflection 的问题设置，并未据此修改 Principle 或 Governance。
+* 解释链
+聆听理由具有差异 → 在主文中保留学习、享受和关系等不同进入方式，而非指定一种终点。
+
+愿意参与者也报告现实障碍 → 把建议是否实际可用另作问题，不将未参与归结为个人不主动。
+
+上述迁移只是论证线索。设想听者没有参加这些研究，TAO3K 也没有因此取得生活改善的效果证据。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.290-beginning-something-unfamiliar.org][开始一件陌生的事]] · [[file:40.100-well-being-time-and-self-determination.org][幸福与时间的证据边界]]
