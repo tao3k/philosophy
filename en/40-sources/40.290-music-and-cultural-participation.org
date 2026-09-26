@@ -1,0 +1,55 @@
+#+TITLE: Why Listen, and What Prevents Participation: Evidence on Music and Cultural Life
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-290-EN
+:SEMANTIC_ID: philosophy.source-note.40.290-music-and-cultural-participation
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.290-music-and-cultural-participation.org
+:SOURCE_ID: PHIL-SRC-290
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Thomas Schäfer, Peter Sedlmeier, Christine Städtler and David Huron; National Endowment for the Arts
+:SOURCE_WORK: The psychological functions of music listening; When Going Gets Tough: Barriers and Motivations Affecting Arts Attendance
+:SOURCE_EDITION: Frontiers in Psychology 4:511 (2013); NEA report (January 2015), based on 2012 GSS; accessed 2026-09-26
+:SOURCE_DATE: 2013; 2015 (2012 survey)
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: doi:10.3389/fpsyg.2013.00511; NEA When Going Gets Tough (2015)
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.290-music-and-cultural-participation
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.290-music-and-cultural-participation-en
+:END:
+A listening survey and an arts-attendance report provide context for [[file:../30-reflections/30.290-beginning-something-unfamiliar.org][beginning something unfamiliar]], not experiments on AI assistants.
+
+#+NAME: music-participation-evidence-en
+#+EXPLANATION: These concern different activities; samples, reasons, and effects cannot be pooled. Publication and survey years remain distinct.
+| Material | Questions it supports asking |
+|----------+------------------------------|
+| [[https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full][Schäfer et al., 2013, The psychological functions of music listening]] | 834 respondents rated 129 listening reasons. Principal component analysis proposed arousal/mood regulation, self-awareness, and social relatedness. Different reported reasons caution against treating listening only as learning. |
+| [[https://www.arts.gov/sites/default/files/when-going-gets-tough-revised2.pdf][NEA, 2015, When Going Gets Tough]]; [[https://www.arts.gov/impact/research/publications/when-going-gets-tough-barriers-and-motivations-affecting-arts-attendance][publication page]] | Analysis of the US 2012 GSS arts module. Interested non-attendees reported time, cost, access to venues, and companionship barriers. Interest does not establish available conditions for participation. |
+* Context
+The music survey used German items and recruitment through an electronics store, German universities, and other channels, not a global random sample; it relied on recall and self-report. The NEA report, prepared by Margaret E. Blume-Kohout, Sara R. Leonard, and Jennifer L. Novak-Leonard, concerns live visual and performing arts attendance.
+* Interpretation Boundaries
+The three dimensions neither classify universal personalities nor establish well-being gains from a listening approach. Historical US data cannot describe present-day China directly; reported barriers are not intervention results after removing them.
+
+Neither source tests the essay's AI-supported listening, recommendations, or attendance scenarios. The claim that experience can matter in itself is this repository's philosophical argument, not a conclusion derived from survey associations.
+* Influence
+The essay asks separately why someone wants to participate, which conditions exist, and whether an experience is worth keeping. Course completion, dwell time, and recommendation clicks cannot answer for the person. This shapes a Reflection's questions rather than amending Principle or Governance.
+* Interpretation Chain
+Different reasons for listening → retain different ways in, including learning, enjoyment, and relationships, instead of prescribing an endpoint.
+
+Interested people also report practical barriers → ask separately whether a suggestion is usable, rather than attribute nonparticipation to insufficient initiative.
+
+These extensions guide an argument only. The imagined listener took part in neither study, and TAO3K acquires no evidence of improved lives from their existence.
+* Navigation
+[[file:../README.org][Navigation]] · [[file:../30-reflections/30.290-beginning-something-unfamiliar.org][Beginning something unfamiliar]] · [[file:40.100-well-being-time-and-self-determination.org][Evidence limits on well-being and time]]

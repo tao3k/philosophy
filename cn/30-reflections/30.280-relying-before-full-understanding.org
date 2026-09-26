@@ -98,4 +98,6 @@
 - [ ] 了解核查、说明和更改安排的负担是否被转给同行者或缺乏支持的人。
 - [ ] 在合适的后续观察中分清结果、依据与补救，不把一次顺利当作普遍可靠。
 * 导航
+后续讨论：[[file:30.290-beginning-something-unfamiliar.org][开始一件陌生的事]]追问有了帮助以后，人怎样获得感受、尝试和享受的机会，而不必把好奇都变成任务。
+
 [[file:../README.org][语言入口]] · [[file:30.270-coming-to-understand-with-ai.org][一起形成理解]] · [[file:30.97-shared-lives-and-responsibility.org][共同生活]] · [[file:30.240-when-ai-says-it-improved.org][改进需要什么证据]] · [[file:../40-sources/40.270-understanding-and-reliance.org][理解与依赖的研究边界]]

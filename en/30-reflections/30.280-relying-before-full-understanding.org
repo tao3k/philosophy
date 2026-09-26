@@ -98,4 +98,6 @@ This essay retains the evidence limits in the [[file:../40-sources/40.270-unders
 - [ ] Learn whether checking, explaining, and changing arrangements shift burdens to companions or people lacking support.
 - [ ] Distinguish outcomes, grounds, and remedy in appropriate follow-up, without treating one smooth result as general reliability.
 * Navigation
+Continue with [[file:30.290-beginning-something-unfamiliar.org][Beginning Something Unfamiliar]], which asks how help opens opportunities to feel, try, and enjoy without turning every curiosity into a task.
+
 [[file:../README.org][Language entry]] · [[file:30.270-coming-to-understand-with-ai.org][Coming to understand together]] · [[file:30.97-shared-lives-and-responsibility.org][Living together]] · [[file:30.240-when-ai-says-it-improved.org][Evidence of improvement]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Research limits on understanding and reliance]]
