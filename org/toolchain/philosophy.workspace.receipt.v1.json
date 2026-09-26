@@ -8,5 +8,5 @@
   "schemaVersion": 1,
   "status": "passed",
   "workspaceContractId": "philosophy.workspace.v1",
-  "workspaceDigest": "blake3:8c64be0a424cfdfcf98d5562e15adf1806f4ff35bb6650fd0a17265cdbb9b569"
+  "workspaceDigest": "blake3:ac1c2f7dd2ea6e67e71e238610e2a17b421ecf6092c83d799975f0567e4a928c"
 }
