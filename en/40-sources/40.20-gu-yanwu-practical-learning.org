@@ -115,5 +115,13 @@ There is another question: if someone offers no new theory, only ways of doing t
 
 Private writing need not establish a public return, while publicly teaching material carries responsibility for accuracy and conditions of use. The two need not conflict. The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][imagined encounter between Zhou and a beginner]] asks how experience can deserve careful transmission without making beneficial sharing a demand that everyone turn life into distributable content.
 
+Reading the difficulty of authorship again, even works prepared through a lifetime can contain errors. We cannot casually equate later readers' need for a work with a prohibition on their changing it. Gu does not propose a contemporary institution of collaborative revision here. The following is our judgment: taking earlier labor seriously may include carefully identifying where it remains insufficient.
+
+An account survives; later readers avoid some earlier labor by using it, then encounter conditions its author never faced. Addition and correction need not be betrayal. Conversely, erasing its origin as though all understanding began with the latest editor obscures how knowledge came about. Knowledge worth transmitting needs both a history and a future; an unalterable version need not be what holds them together.
+
+AI's capacity to organize can help this continuation: bringing scattered questions back to relevant passages so that a discovery does not remain confined to a private conversation. But an account arranged as consensus has not thereby settled what is true. If a hesitant speaker's question disappears, or an old error returns in fluent wording, abundance of expression may still conceal a gap in understanding. This is our question to our own writing, not Gu's judgment of AI.
+
+The [[file:../30-reflections/30.320-learning-in-ordinary-life.org][imagined notes reaching another community room]] also gives benefit to later people a concrete demand: who noticed an omission, explained a difference or undertook to send a correction to known users? Their work may never appear on a cover, yet participates in making knowledge usable. Valuing transmission while praising only the original author and overlooking later care has not fully attended to the people involved.
+
 * Navigation
 [[file:../README.org][Language index]] · [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][Practical learning and present-day help]]
