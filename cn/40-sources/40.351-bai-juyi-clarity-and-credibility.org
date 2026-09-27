@@ -1,0 +1,66 @@
+#+TITLE: 白居易：易懂与可信，不能只取一边
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-351-CN
+:SEMANTIC_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.351-bai-juyi-clarity-and-credibility.org
+:SOURCE_ID: source.bai-juyi.clarity-and-credibility
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 白居易 / Bai Juyi; 惠洪 / Huihong (later anecdote)
+:SOURCE_WORK: 新乐府序；冷斋夜话卷一所记白居易轶事 / Preface to New Music Bureau Poems; anecdote in Lengzhai Yehua, volume 1
+:SOURCE_EDITION: Wikisource transcriptions; Lengzhai Yehua labelled Siku Quanshu edition; no image collation; accessed 2026-09-27
+:SOURCE_DATE: Tang preface; Song anecdote
+:SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility-cn
+:END:
+主要依据白居易[[https://zh.wikisource.org/zh-hant/新樂府][《新乐府序》]]的网页转录；另核[[https://zh.wikisource.org/zh-hant/冷齋夜話_(四庫全書本)/卷01][《冷斋夜话》四库全书本卷一转录]]所载“老妪能解”故事。前者是作者自己的诗学陈述；后者由宋代惠洪记述，只作为后世接受与评价的材料，不当作白居易日常行为的直接见证。未作影像、异本或最早出处校勘。
+
+中文引文转为简体；英文为本篇译述。转录中的“每作诗”属于轶事的表述，不能因其写得确定便确认每次如此；其中也没有据以确定“邻家”的信息。
+* 语境
+
+《新乐府序》说“其辞质而径，欲见之者易谕也”，又说“其事核而实，使采之者传信也”。这使语言与根据同时进入写作的要求：不以艰涩阻挡理解，也不以好懂代替事情的可信。
+
+但序言不只是中性的沟通指南。它以讽谕、劝诫和政教关怀安排诗歌的方向，不能被直接读成今天的平等参与或用户自主原则。本篇只读序言，不据此概括白居易全部诗作的风格与价值。
+
+《冷斋夜话》的相关记述还接着批评唐末诗近于鄙俚，并非今日常见的单纯赞美。我们保留这种评价语境，不照搬它的审美判断，也不把轶事包装成古代已经验证的读者实验。
+* 解释边界
+
+“易谕”不等于所有人不经准备便能完全理解，也不意味着年龄、学历或专业背景能够代表一个人的全部见识。把某一位读者当作所有普通人的替身，会抹去实际差别。
+
+语言的可信、诗歌的感染力和现代任务中的理解正确率，属于不同的问题。读者能复述，不证明他已认同；能够照办，也不证明得到了公平对待。这些区别是我们的现代论证，不能归给白居易。
+* 影响
+
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]]据此讨论解释者如何分担理解的辛苦，以及怎样兼顾可接近与有根据。本轮仅扩展 Reflection，不将历史解释直接写成 Principle 或 Governance。
+* 解释链
+
+《新乐府序》的易谕与核实 → 我们对表达及根据的共同关注 → 主文追问 AI 改写有没有让读者更容易理解、核对与提出异议。
+
+后世轶事 → 听见实际读者的启发，而非史实或效果证明 → [[file:40.352-reading-understanding-evidence.org][现代研究笔记]]分别查验感受、理解和核对任务。古籍与实验不是相互证明的证据。
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility-cn-dialogue
+:END:
+
+若一篇文字经不起普通人的追问，问题可能在作者；但若一个读者暂时不懂，也不能立刻宣布作品没有价值。我们需要抵抗的不是深度，而是把不愿解释说成高深，把不愿听人说话说成坚持。[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][主文]]因而不把通俗设为一把裁断所有文学和知识的尺子。
+
+还有一个不能交给古人回答的问题：当知识用于公共事务，解释是否只帮助权威传达意图？我们希望清楚的表达也能让读者看见例外、追问根据和提出反对。它不只是言说到达的能力，也是别人能够回应的余地。
+* 导航
+[[file:../README.org][导航]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]] · [[file:40.350-feynman-explanation-and-teaching.org][费曼：解释与教学]] · [[file:40.352-reading-understanding-evidence.org][现代研究]]

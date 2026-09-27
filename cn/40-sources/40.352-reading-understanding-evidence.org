@@ -1,0 +1,73 @@
+#+TITLE: 读得顺，是否真的读明白：简化与解释的研究
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-352-CN
+:SEMANTIC_ID: philosophy.source-note.40.352-reading-understanding-evidence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.352-reading-understanding-evidence.org
+:SOURCE_ID: source.reading-understanding-evidence
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Theo Guidroz et al.; Yue Guo et al.; Nadine Beks van Raaij, Daan Kolkman and Ksenia Podoynitsyna; Helena Vasconcelos et al.
+:SOURCE_WORK: Text simplification and comprehension; plain-language summaries; governmental communication; explanations and overreliance
+:SOURCE_EDITION: arXiv 2505.01980v1 and 2505.10409v1; DeTermIt 2024; CSCW 2023 author PDF; accessed 2026-09-27
+:SOURCE_DATE: 2023–2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: arxiv:2505.01980v1 arxiv:2505.10409v1 acl:2024.determit-1.15 arxiv:2212.06823v2
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.352-reading-understanding-evidence
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.352-reading-understanding-evidence-cn
+:END:
+本篇为[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]]整理四项原始研究。核读论文的研究设计、主要结果及相关局限，没有复现数据分析，也未逐项审核补充材料。两篇 2025 年材料按所读 arXiv v1 预印本标注；另外两篇为 2024 年 DeTermIt 工作坊论文与 2023 年 CSCW 论文。模型名称指实验当时的版本，不代表当前所有模型。
+
+#+NAME: reading-evidence-comparisons-cn
+#+EXPLANATION: 对照对象和测量任务不同，不能将这些结果合成“AI 总是更好懂”或“AI 总是更难懂”。
+| 研究 | 实际比较与结果 | 尚不能推出什么 |
+|------+----------------+----------------|
+| [[https://arxiv.org/abs/2505.01980v1][Guidroz 等：LLM-based Text Simplification and its Effect on User Comprehension and Cognitive Load，2025]] | 4,563 人、31 篇材料、6 类领域；原文对比特定 Gemini 简化方法。理解选择题总体增加 3.9 个百分点。 | 不是一般聊天改写的效果；存在信息失真可能，选择题不能穷尽理解，也没有证明长期学习。 |
+| [[https://arxiv.org/html/2505.10409v1][Guo 等：Are LLM-generated plain language summaries truly understandable?，2025]] | 150 名众包参与者；50 组材料的人写通俗摘要与 GPT-4 摘要。主观评价多项相近，人工版理解题表现更好。 | 不是与原始专业摘要的同一对照；英语美国样本及筛选影响外推。研究使用模型辅助出题，不等于完整测量实际决策。 |
+| [[https://aclanthology.org/2024.determit-1.15/][Beks van Raaij 等：Clearer Governmental Communication，2024]] | 专家评估之后，72 人比较三封荷兰政府信件的原版与 ChatGPT 简化版；理解及行动问题回答改善。 | 便利样本、有限信件；回答行动问题不是已经完成真实办事，也没有直接测量申诉能力。 |
+| [[https://hci.stanford.edu/publications/2023/xai-cscw-2023.pdf][Vasconcelos 等：Explanations Can Reduce Overreliance on AI Systems During Decision-Making，2023]] | 5 项研究、731 人，在模拟 AI 迷宫任务中考察解释难度等因素与错误依赖的关系。 | 不是开放式 LLM 教学或真实代码审查；“核对成本”的迁移需另行检验。 |
+* 语境
+
+前两项分别问“简化是否优于原文”和“某种生成摘要是否及得上人工通俗摘要”，不能因结论方向不同便互相抵消。第三项把问题带到公共信息，第四项则考察解释与核对的关系。它们共同帮助我们提出问题，但不是同一干预在不同地方的重复试验。
+
+本篇保留三种差别：对文字的主观评价、在规定任务中的理解表现、进入现实之后的行动后果。前三项对文本阅读的证据，也不能无条件迁移到代码维护、科研合作或中文古籍阅读。
+* 解释边界
+
+可读性分数不是对实际理解的直接测量；读者喜欢或自信也不应被取消，只是不宜代替其他证据。我们没有据此把更费力的界面认作更好的界面，也没有要求每次使用 AI 都必须考试。
+
+本篇不是系统综述，不声称文献穷尽、研究没有偏差或某种解释方法普遍有效。当前材料更适合支持有限的比较问题；推广到不同语言、阅读需要和真实后果仍需独立观察。
+
+“让人看懂自己的选择与申诉途径”是我们的规范性追问，不是政府信件论文已经证实的结果。研究结论、现代解释和共同原则必须分开。
+* 影响
+
+主文由此把“输出更像人”转向“读者多看清了什么”，同时保留简化带来的积极可能。它不把理解的全部责任推给读者，也不允许输出者自己评分便宣布帮助成立。本轮不改 Principle、Governance 或工程验收规则。
+* 解释链
+
+不同的对照与阅读任务 → 区分好读、理解和核对 → 主文提出按真实目的比较讲法，并追踪是否遗漏重要条件。
+
+这一迁移与[[file:40.351-bai-juyi-clarity-and-credibility.org][白居易的诗学陈述]]、[[file:40.350-feynman-explanation-and-teaching.org][费曼的讲解与自省]]构成讨论，不构成跨时代的实验证明。合约通过只能确认文档满足规定结构，不能替读者回答是否已经讲明白。
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.352-reading-understanding-evidence-cn-dialogue
+:END:
+
+若简化使人更快照着通知去做，我们还要问，他有没有看见自己可以不这样做的条件？一份表达可能帮助发布者而没有同等帮助读者。[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][主文]]因此把“理解”与“同意”分开，并保留询问、拒绝和暂停的地位。
+
+同时，读者的时间也是真实代价。为了证明解释可靠而让每个人承担漫长测试，会重新制造排斥。我们希望观察真正关系到当前事情的少量差别，也允许人选择可信的委托。怎样在这两边取得合适的分寸，不能只由平均分决定。
+* 导航
+[[file:../README.org][导航]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]] · [[file:40.270-understanding-and-reliance.org][理解的感觉与判断的根据]] · [[file:40.351-bai-juyi-clarity-and-credibility.org][白居易]]

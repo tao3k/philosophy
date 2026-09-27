@@ -1,0 +1,66 @@
+#+TITLE: Bai Juyi: Clarity and Credibility Belong Together
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-351-EN
+:SEMANTIC_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.351-bai-juyi-clarity-and-credibility.org
+:SOURCE_ID: source.bai-juyi.clarity-and-credibility
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: 白居易 / Bai Juyi; 惠洪 / Huihong (later anecdote)
+:SOURCE_WORK: 新乐府序；冷斋夜话卷一所记白居易轶事 / Preface to New Music Bureau Poems; anecdote in Lengzhai Yehua, volume 1
+:SOURCE_EDITION: Wikisource transcriptions; Lengzhai Yehua labelled Siku Quanshu edition; no image collation; accessed 2026-09-27
+:SOURCE_DATE: Tang preface; Song anecdote
+:SOURCE_LANGUAGE: classical-zh
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility-en
+:END:
+The principal reading is the web transcription of Bai Juyi's [[https://zh.wikisource.org/zh-hant/新樂府][Preface to New Music Bureau Poems]]. We also check the older-woman anecdote in the [[https://zh.wikisource.org/zh-hant/冷齋夜話_(四庫全書本)/卷01][Siku Quanshu transcription of Lengzhai Yehua, volume one]]. The former states the poet's own purposes; the latter is Huihong's Song-period account, used as evidence of later reception, not a direct witness to Bai's routine. Page images, variant editions and the earliest attestation have not been collated.
+
+Chinese quotations use simplified characters; English renderings are ours. The anecdote's assertion that this happened whenever he wrote is not independent verification of that frequency. It also supplies no basis for identifying the woman as a neighbour.
+* Context
+
+The preface asks for direct, plain language so readers can understand and for matters checked and grounded so they can be credibly transmitted. Expression and grounds belong together: difficulty should not obstruct access, nor accessibility replace credibility.
+
+Yet this is not a neutral communication manual. Admonition and political-ethical concerns give the poems direction; contemporary equality of participation and personal autonomy cannot simply be read into it. We read the preface, not the entire poetic corpus.
+
+The Lengzhai Yehua passage goes on to criticise late-Tang poetry as vulgar, rather than offering the uncomplicated praise common in today's retelling. We retain that evaluative context without adopting its aesthetic judgment or presenting the anecdote as a validated reader experiment.
+* Interpretation Boundaries
+
+Intelligibility need not mean complete understanding without preparation. Age, education and professional training do not exhaust someone's insight. Making one reader stand for all ordinary people erases real differences.
+
+Credibility, poetic force and correct comprehension-task responses ask different questions. Restatement does not establish agreement; compliance does not establish fair treatment. These distinctions are our contemporary argument, not Bai's.
+* Influence
+
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] draws on this reading to ask how explainers can share the work of understanding while preserving grounds. This round extends a Reflection, not a Principle or Governance requirement.
+* Interpretation Chain
+
+Intelligibility and grounded matters in the preface → our joint attention to expression and evidence → the essay's questions about understanding, checking and disagreement after AI rewriting.
+
+The later anecdote → an invitation to hear readers, not proof of biography or effectiveness → the [[file:40.352-reading-understanding-evidence.org][research note]] distinguishes experience, comprehension and verification tasks. Ancient texts and experiments do not prove one another.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.351-bai-juyi-clarity-and-credibility-en-dialogue
+:END:
+
+If writing cannot withstand ordinary people's questions, the writer may need to reconsider. Yet a reader's temporary difficulty does not make a work worthless. The objection is not to depth, but to calling unwillingness to explain profundity, or unwillingness to listen conviction. The [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][essay]] therefore does not make plainness the measure of all literature and knowledge.
+
+Another question cannot be settled by an ancient author: in public affairs, does explanation only help authority communicate its intention? We want clarity also to expose exceptions, grounds and room for objection. Communication concerns both reaching another person and allowing them to respond.
+* Navigation
+[[file:../README.org][navigation]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] · [[file:40.350-feynman-explanation-and-teaching.org][Feynman: Explanation and Teaching]] · [[file:40.352-reading-understanding-evidence.org][Contemporary Research]]

@@ -66,5 +66,6 @@
 
 [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][主文]]还留下另一种不安：帮助读者节省力气，与替他决定什么值得想，可能只隔一步。不能因为解释者比较懂，就默认读者的问题可以被省略。照顾理解，应当包括让对方改变解释的方向，而不是只调节同一份讲稿的难度。
 * 导航
+[[file:40.351-bai-juyi-clarity-and-credibility.org][白居易：易懂与可信]] · [[file:40.352-reading-understanding-evidence.org][现代简化与解释研究]]
 [[file:../README.org][导航]]
 [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]] · [[file:40.20-gu-yanwu-practical-learning.org][顾炎武：经世致用与实学]]

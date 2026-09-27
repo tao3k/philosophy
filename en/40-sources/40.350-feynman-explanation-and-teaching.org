@@ -66,5 +66,6 @@ An intuitive account may deserve keeping because it invites further inquiry. Yet
 
 The [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][essay]] leaves another concern open: saving readers effort can come close to deciding what deserves their thought. Knowing more does not entitle an explainer to discard the reader's question. Care for understanding should include the reader's ability to change the direction, not merely the difficulty, of the explanation.
 * Navigation
+[[file:40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi: Clarity and Credibility]] · [[file:40.352-reading-understanding-evidence.org][Contemporary Simplification and Explanation Research]]
 [[file:../README.org][navigation]]
 [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] · [[file:40.20-gu-yanwu-practical-learning.org][Gu Yanwu: Practical Learning and Statecraft]]

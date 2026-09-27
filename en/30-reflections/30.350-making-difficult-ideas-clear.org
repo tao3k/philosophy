@@ -24,6 +24,14 @@ Writing that feels human therefore deserves another look. Removing mechanical ph
 
 This essay moves from reading assistance to the responsibilities of explanation: making difficult ideas approachable without hiding the conditions that matter. We read a specific explanation and preface by Feynman for possibilities and doubts, not as a method validated by fame. The [[file:../40-sources/40.350-feynman-explanation-and-teaching.org][source note]] identifies the reading and its limits.
 
+** The writer's clarity still needs to meet a reader
+
+The story of Bai Juyi testing his poems with an older woman takes writing beyond the author's desk. We treat it as a later anecdote, not a verified record of every act of composition. His own Preface to New Music Bureau Poems provides firmer ground: he asks for direct language that readers can understand, alongside matters checked and grounded enough to be credibly transmitted. Accessibility and factual grounds are not presented as mutually exclusive. ([[file:../40-sources/40.351-bai-juyi-clarity-and-credibility.org][Texts, anecdote and interpretive scope]])
+
+Our extension is not to find one approving reader and declare an explanation clear for everyone. When someone does not understand, the explainer should also reconsider: was their question skipped, background assumed, or an unfamiliar meaning carried by a familiar word? Failed understanding cannot always be assigned to the reader.
+
+Age and lack of professional training do not imply lack of insight. Someone unfamiliar with a report's terminology may know its subject's circumstances intimately. Their difficulty may indicate not only missing knowledge but something unclear or wrong in the account. Readers are not merely a test of style; they may bring facts the writer has yet to recognise.
+
 ** Accessibility means supplying a missing step, not thinning the subject
 
 Some explanations are difficult because their words are unfamiliar. Others contain no unfamiliar words yet give us no way in. They introduce a concept without showing the problem that makes it worth introducing. A step available to the writer is silently assumed available to the reader.
@@ -41,6 +49,12 @@ Restating a conclusion three ways and repeating it in a summary can increase len
 Yet repetition can be considerate. An abstract account, a suitable example and a limit on its use each do different work. Reviewing a point may help someone listening, learning for the first time or returning after an interval. Reducing everything to keywords may merely transfer the explanatory work to them.
 
 We propose asking whether a passage adds necessary grounds, distinctions or connections. What would the reader lose if it disappeared? If nothing, completeness need not keep it there. If what disappears is a condition determining whether the conclusion applies, concision cannot justify the cut.
+
+** Who does the work of understanding?
+
+Understanding involves work that is easy to overlook. When an explainer omits a term's context or buries a condition, readers must search, supply and guess. An insider might lose a moment; a newcomer might be unable to continue. Unnecessary complexity concerns not only style but who can use the knowledge.
+
+Reducing that work does not mean settling every judgment on the reader's behalf. AI can organise materials, explain differences and bring important grounds into view. Which costs are acceptable and which purposes worth pursuing still belong in discussion among those concerned. We want less unnecessary obscurity, not less room for disagreement.
 
 ** Articles, data and code call for different kinds of reading
 
@@ -64,9 +78,23 @@ The moment something makes sense is valuable. It may begin learning. It does not
 
 In his preface, Feynman expresses reservations, even pessimism, about the course's results and identifies the difficulty of missing student feedback. Admiring his explanations and taking learning outcomes seriously can therefore coexist. ([[https://www.feynmanlectures.caltech.edu/I_91.html][Feynman's preface]])
 
+Recent research makes the distinction concrete. One 2025 preprint reports better comprehension-question performance with a particular simplification method. Another finds better comprehension from human-written plain-language summaries despite generally similar subjective ratings. The first compares original and simplified texts; the second compares different sources of plain-language summaries. They are not opposing verdicts on the same comparison. ([[https://arxiv.org/abs/2505.01980][Simplification experiment]]; [[https://arxiv.org/html/2505.10409v1][Summary study]])
+
+Clarity cannot therefore be judged only by who wrote a text or how many people liked it. What changed, for whom, and towards what kind of understanding? Samples, methods and limits are gathered in the [[file:../40-sources/40.352-reading-understanding-evidence.org][research note]], rather than repeated beneath every paragraph.
+
 We need not turn every reading into an examination. Someone trying to learn a judgment might be invited to compare two accounts, locate a remaining difficulty or consider a changed condition. When they struggle, the response should help locate the difficulty rather than insist that it has already been explained. Someone seeking reliable completion, however, has not thereby agreed to take a course.
 
 Further investigation should distinguish experience from performance: willingness to read, grasp of important relationships, recognition of errors and time required. These may support one another or diverge. They should not disappear into one score for being more human. Such comparisons are proposals to investigate, not learning outcomes established by this essay.
+
+** Clear public information should do more than make compliance easier
+
+A Dutch government-letter study found that expert-assessed ChatGPT simplifications improved answers to comprehension and action-related questions. This does not establish better real-world outcomes, but places explanation beyond style: can people understand how a document concerns them? ([[https://aclanthology.org/2024.determit-1.15/][Government communication study]])
+
+We should also ask questions the study does not answer for us. Does a notice make choices visible, explain when conditions do not apply, and show where questions or objections can be raised? Clarifying instructions while removing exceptions or routes of appeal may make compliance easier without improving people's understanding of their situation.
+
+Likewise, research limitations and untested conditions in a code change should not disappear for the sake of flow. Clarity can support cooperation while permitting refusal, pause and reconsideration. Helping people act need not mean securing the publisher's desired response.
+
+Checking should also become practicable. A CSCW 2023 study using a maze and simulated AI finds that factors including explanation difficulty affect overreliance. Our extension is to help readers locate checkable relationships rather than add another generic account of why an answer is correct. This transfer still needs investigation in actual reading. ([[https://hci.stanford.edu/publications/2023/xai-cscw-2023.pdf][Research article]])
 
 ** Respect includes letting readers depart from our explanation
 
@@ -101,17 +129,22 @@ This remains a Reflection. It changes no Principle or Governance requirement and
 Approachability does not require every idea to be immediately intelligible to everyone. Readers may need preparation; writers may explore subjects for which no mature explanation yet exists. Our objection is not to difficulty, but to using difficulty to protect authority unwilling to explain; not to accessible language, but to using it to erase what deserves attention.
 
 Another tension remains: choosing what to explain first influences how a reader sees. We cannot pretend otherwise, yet abandoning guidance does not solve the problem. A more honest relationship might make its selections discussable, offer another route and allow a reader to reach a different judgment. Helping someone understand is not the same as securing agreement.
+
+Bai Juyi's preface has an explicit admonitory purpose, not merely a wish for effortless prose. Borrowing his concern for intelligibility should not silently become making a publisher's intentions easier to accept. The [[file:../40-sources/40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi note]] retains this distance: reaching someone through words and enabling them to question those words are connected but different demands. The latter requires our own argument, not an ancient author's endorsement.
 * Questions That Remain
 
 The comparison worth making concerns not only which version is preferred, but whether readers can better distinguish grounds, conditions and disagreements. Inquiry must respect the purpose of the occasion: learning, reference and delegation call for different help. Performance without tools cannot be the universal measure.
 
-** Reading and Writing Progress [3/6] [50%]
+** Reading and Writing Progress [5/8] [62%]
 - [X] Read Feynman's explanation and preface, retaining limits of analogy and claims about teaching.
 - [X] Extend the discussion to articles, data and code, distinguishing explanation from inspection.
 - [X] Complete the bilingual essay, counterexamples and further conversation without a universal humanization score.
+- [X] Distinguish Bai Juyi's own account from the later anecdote, bringing clarity and credibility together.
+- [X] Compare tasks, controls and limits across four studies without calling reader tests real-world service outcomes.
 - [ ] Select a public technical explanation with documented reader difficulties and preserve the relationship between its original and proposed rewrite.
 - [ ] With voluntary participants' agreement, compare understanding, error recognition and time required by different accounts.
 - [ ] Include different backgrounds and assistive reading needs, recording absent benefits and misleading effects.
 * Navigation
 [[file:../README.org][language index]]
 [[file:30.340-learning-to-change-our-minds.org][Knowing More, Learning to Change Our Minds]] · [[file:../40-sources/40.350-feynman-explanation-and-teaching.org][Feynman source note]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Feeling Clear and Having Grounds to Judge]]
+[[file:../40-sources/40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi: Clarity and Credibility]] · [[file:../40-sources/40.352-reading-understanding-evidence.org][Research on Simplification, Understanding and Checking]]

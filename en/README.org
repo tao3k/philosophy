@@ -82,6 +82,7 @@ Source strands include [[file:40-sources/40.95-sen-capability-and-opportunity.or
 * Continue within Each Essay
 
 - [[file:30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear: care goes beyond conversational prose, and understanding beyond following an explanation.]]
+  - Source readings: [[file:40-sources/40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi: Clarity and Credibility]] · [[file:40-sources/40.352-reading-understanding-evidence.org][Readable, but Understood?]]
 
 - [[file:30-reflections/30.340-learning-to-change-our-minds.org][Knowing More: how do other views change us, and how do corrections reach others?]]
 
