@@ -44,5 +44,17 @@ The source helps Tao3k reject a fragile humanism: people need not outperform a t
 For the present, we ask four further questions: who can go farther, whose burden is relieved, how the choices people can see are changed, and whether they can challenge, replace and leave the help. These are Tao3k's contemporary interpretations, not claims made by the ancient text.
 * Interpretation Chain
 /Encouragement of Learning/ and its vehicle examples → external assistance need not diminish human worth → [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillful Use of Things]] distinguishes delegation, learning and participation → counterexample review through [[file:../30-reflections/30.20-practical-learning-human-centered-ai.org][practical learning]] and [[file:../30-reflections/30.96-living-with-ai.org][the life framing essay]].
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.98-xunzi-learning-and-tools-en-dialogue
+:END:
+What does drawing well on external things mean when those things also suggest the destination? The easy move from this ancient essay to AI is to say that better tools let people travel farther. Yet the distant place may not be where someone wanted to go. Sometimes being led there teaches us to describe it as desirable.
+
+That cannot justify refusing all guidance. A teacher's remark or a friend's book can change an interest. If a wish had to be untouched by others, many valued encounters could never matter. The difficulty is less whether a wish has an origin than whether, after being inspired, someone can find it unsuitable or later say, “I thought I wanted that; now I don't.”
+
+When AI arranges different paths as steps toward ever better outcomes, turning back can look like failure. Yet learning sometimes changes what someone seeks. A person who learns photography might come to prefer making pictures for their family over public recognition. A tool cannot decide whether that change counts as success.
+
+[[file:../30-reflections/30.310-clear-explanations-and-understanding.org][Ning's evening with an old piece of music]] brings this down to a smaller moment. A new word may help him recognise a feeling or cover over the kitchen he originally mentioned. Whether borrowed language can be rewritten by the person matters more than whether advice was adopted. The modern question begins from Xunzi but still requires our answer to present relationships.
 * Navigation
 [[file:../README.org][Language entry]] · [[file:../30-reflections/30.99-shanjia-yuwu.org][Skillfully Using Things]]

@@ -1,0 +1,103 @@
+#+TITLE: 从公开问题出发：AI 学习、创造与共同维护的证据
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-330-CN
+:SEMANTIC_ID: philosophy.source-note.40.330-ai-public-problems
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.330-ai-public-problems.org
+:SOURCE_ID: source.ai-public-problems
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Public contributors; Stack Overflow; Bastani et al.; Kestin et al.; Gottweis et al.; Daniel Stenberg
+:SOURCE_WORK: Forum accounts, issue 35358, Developer Survey 2025, tutoring studies, Co-Scientist, curl maintainer account
+:SOURCE_EDITION: Linked web originals and research articles; accessed 2026-09-26; author-hosted Bastani PDF identified separately
+:SOURCE_DATE: 2025-2026 materials; exact forum dates not independently verified
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: reddit:1iuw85i reddit:1nz4tgj stackoverflow:survey-2025-ai github:anthropics/claude-code/35358 daniel.haxx.se:2026-01-26 doi:10.1073/pnas.2422633122 doi:10.1038/s41598-025-97652-6 doi:10.1038/s41586-026-10644-y
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.330-ai-public-problems
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.330-ai-public-problems-cn
+:END:
+
+本笔记为[[file:../30-reflections/30.330-finding-a-way-of-our-own.org][《借前人的路，走向自己想去的地方》]]保留公开问题的来处。材料包括亲述、调查、缺陷报告、维护者文章与实验研究，均于 2026-09-26 阅读。网页会改变；这里记录所读版本与范围，不以链接存在代替核实，也没有开展用户访谈或复现实验。
+
+#+NAME: public-problem-evidence-cn
+#+EXPLANATION: 各条材料承担不同的论证责任，不能把它们累加成一项已经验证的普遍结论。
+| 材料 | 原始入口 | 本次用途 |
+|------+----------+----------|
+| 应用开发亲述 | [[https://www.reddit.com/r/ChatGPTCoding/comments/1iuw85i/i_thought_ai_would_build_my_app_for_me_heres_what/][I thought AI would build my app for me]] | 进入原先做不到的事，以及理解如何改变求助 |
+| 学习者提问 | [[https://www.reddit.com/r/learnprogramming/comments/1nz4tgj/how_do_you_balance_learning_vs_using_too_much_ai/][How do you balance learning vs using too much AI]] | 产出与学习感受之间的张力 |
+| 开发者调查 | [[https://survey.stackoverflow.co/2025/ai][Stack Overflow 2025 AI]] | 问题不只见于一则亲述的有限佐证 |
+| 会话恢复报告 | [[https://github.com/anthropics/claude-code/issues/35358][Issue 35358]] | 长期协作中的上下文接续问题 |
+| 维护者记录 | [[https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/][The end of the curl bug-bounty]] | 贡献数量与维护负担的区别 |
+| 高中数学试验 | [[https://doi.org/10.1073/pnas.2422633122][Bastani 等，PNAS 2025]]；[[https://hamsabastani.github.io/education_llm.pdf][作者网站全文]] | 有帮助时的表现与撤去帮助后的学习 |
+| 大学物理试验 | [[https://www.nature.com/articles/s41598-025-97652-6][Kestin 等，Scientific Reports 2025]] | 特定结构化 AI 辅导的积极证据 |
+| 科研系统研究 | [[https://www.nature.com/articles/s41586-026-10644-y][Gottweis 等，Nature 2026]] | 假设生成、筛选与实验的不同作用 |
+
+* 语境
+
+选例先看实际问题与证据，再安排哲学讨论。开发者材料较容易公开取得，不意味着其他人的问题较不重要；本笔记不是互联网议题的系统抽样，也没有建立跨领域的热度排名。
+
+** 两份亲述，不是一条预写的成长路线
+
+动态设计师记述借 AI 开发应用、经历反复修错，以及后来开始读错误与资料；另一位学习者描述依赖生成推进项目，却觉得深学减少。两者分别代表作者的自我叙述，不确认其技能、作品质量或长期变化。没有将评论区的建议当成有效教学法，也不从赞同或反对声推断多数人的情况。页面提供的相对时间不足以在这里精确确认发帖日期，因此只记录链接和读取日。
+
+** 调查与 Issue：规模信号和具体报告不能互换
+
+Stack Overflow 的 AI 困扰题有 31,476 份回答；66% 与 45% 分别选择几乎正确的方案和调试更费时。这说明这些困扰在该题受访者中被广泛报告，不是实际错误率、耗时测量或总体随机估计。
+
+Issue 35358 于 2026-03-17 报告 SDK 0.2.76 恢复会话后上下文减少。读取时为 closed as not planned，带 stale 标签。作者称只观察过一次；本文未复现，也未取得维护者对其根因解释的确认。关闭状态不证明问题修好，日志中的 token 数变化本身也不足以独立确认语义丢失比例。
+
+** curl：不能把特定项目的压力写成所有贡献的命运
+
+Stenberg 于 2026-01-26 说明结束赏金及低质量报告带来的压力，同时保留私密漏洞报告渠道。他强调 curl 相比所比较的其他项目更受影响，原因尚不确定。这里采用维护者对本项目的记录，不独立审计报告分类，也不将该文误写成 curl 关闭仓库、停止安全维护或所有开源项目同样受损的证据。
+
+** 两项教学研究：工具怎样介入，不能从名称推断
+
+Bastani 等的研究在土耳其一所高中、约千名学生的数学复习中比较两种 GPT-4 辅助与对照；普通帮助组的练习表现改善，随后无辅助考试表现较差，专门辅导组未显示同样显著的负面差异，也未显示显著的正面提升。核读作者网站 PDF 与期刊条目，未确认该 PDF 与出版终稿逐字相同。不能把这里的结果推广到所有学科、成年人或今天的模型。
+
+Kestin 等发表于 2025 年的论文研究 2023 年秋季哈佛入门物理课程，采用两次课的交叉设计，报告结构化 AI 辅导较好的课后表现。研究没有由此证明长期保持、开放式研究能力或所有学校的效果。本笔记不把两个试验当成同一场景的正反复现。
+
+** Co-Scientist：有实验入口，不等于已经闭合科学发现
+
+Gottweis 等 2026 年论文把科学家给出的研究目标与多代理假设生成、评议相接，报告药物再利用、新靶点与抗菌药耐药相关问题的验证。作者同时讨论文献可得性、错误、负面结果缺失及验证仍属初步等限制。本文核读主文的方法、验证与局限，没有复现系统或穷尽补充材料；体外结果不等于临床有效，内部排序不等于独立实验。
+
+* 解释边界
+
+公开材料能让问题有来处，不能取消选择材料的责任。论坛经历用于辨认当事人的疑问，调查用于限定样本内的分布，Issue 用于定位所报版本与现象，论文用于支持特定研究结论。它们都不能直接证明 TAO3K 已解决学习、创造或维护问题。
+
+本轮没有实地研究城市运行，也不把一般 AI 优化系统与大模型代理混称。城市或公共服务应另选有部署资料、实际结果和受影响者声音的问题。一个话题重要，不等于已有足够材料写出结论。
+
+* 影响
+
+主文不再以木盒细节或假想设备故障为主线，而从实际讨论追问：借助 AI 得到能力入口以后，人能否逐渐有自己的问题与判断，并把工作接续到真实使用和共同维护。这是内容优先级与论证方式的修正，不是新增工程能力。
+
+* 解释链
+
+具名原始材料与版本范围 → 本笔记区分证据性质与限度 → [[file:../30-reflections/30.330-finding-a-way-of-our-own.org][主文的哲学解释]] → 仍待进一步观察和争论。若以后形成 Principle，应另行说明规范理由；Governance 的接纳程序不能由一项调查或论坛意见代替。
+
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.330-ai-public-problems-cn-dialogue
+:END:
+
+读公开讨论容易被两种声音拉住：一边终于做出了想做的东西，一边担心自己只是在接受答案。若急着选一边，就会错过两种愿望可能同时存在。人可以庆幸得到帮助，也希望多学会一些；想把事情做完与想理解，并不总要二选一。
+
+[[file:40.20-gu-yanwu-practical-learning.org][顾炎武的相关阅读]]使“所学到底有何用处”继续成为问题。但在今天，用处也不能只看谁更快交出结果。那份结果由谁核查，出错以后谁能改，帮助结束后还能留下什么，都参与了它是否真正有益的判断。
+
+维护者的辛苦也不能自动变成拒绝所有新来者的理由。更值得讨论的是怎样让入门机会与可靠贡献一同变得可能：提供可学的材料，帮助辨认重复问题，让提出者有办法回应修改，而不是只提高提交量。这里提出的是值得检验的方向，尚非本笔记已经观察到的效果。
+
+* 导航
+[[file:../README.org][中文导航]] · [[file:../30-reflections/30.330-finding-a-way-of-our-own.org][借前人的路，走向自己想去的地方]]

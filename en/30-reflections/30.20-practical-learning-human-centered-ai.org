@@ -1,4 +1,4 @@
-#+TITLE: Practical Learning and Human-Centered AI
+#+TITLE: Seeing the Difficulty First: Gu Yanwu and What AI Is For
 #+AUTHOR: Tao3k
 #+DATE: 2026-09-20
 #+FILETAGS: :philosophy:en:reflection:
@@ -18,51 +18,106 @@
 :CUSTOM_ID: reflection-practical-learning-human-centered-ai-en
 :END:
 
-How can technology answer to real human problems and consequences without reducing human value to an optimizable metric?
+Imagine a discussion about improving a shared courtyard. AI quickly produces a comprehensive proposal: weekend markets, evening films, classes for older residents, children's activities, registration, reminders and feedback. Someone is pleased to see scattered wishes brought together. Another person reaches the last page and asks, “It gets so hot here in the afternoon. Could we first have somewhere shaded to sit and talk?”
 
-[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][source note]] · [[file:../10-charter/10.70-practical-learning.org][target thematic Charter]]
+The question does not prove the proposal wrong. Some residents genuinely want activities; others worry about noise. What would the person who missed the meeting, and passes through each day in a wheelchair, want to say? This is an imagined scene, not an interview or an observed outcome. It asks how AI, already able to give an apparently complete account, might still discover what it has not asked.
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Source note on five entries in Gu Yanwu's volume 19]] · [[file:../10-charter/10.70-practical-learning.org][Related principle text]]
 
 * Argument
 
-Statecraft requires knowledge to enter real problems; a benefit-harm test requires it to answer to consequence. Performance improvement says what a system can do better, not what change that capability creates in whose life. Technical value must name beneficiaries, burden bearers, altered dependencies, exit possibilities, real effects, and time horizons.
+The difficult part of rereading Gu may not be agreeing that writing should be useful. It may be admitting that we do not yet know what use would mean for these particular people. Attending to hardship cannot remain an author's gesture of concern: it should bring a seemingly complete proposal back into contact with lives that resist its account. The following is a modern reflection prompted by an old text, not an attribution of participatory design, privacy or exit rights to Gu.
 
-#+begin_example
-benchmark ↑
-≠ public value ↑
+** Difficulties do not always arrive in the form of a question list
 
-value inquiry: benefit; burden; agency; dependency; reversibility; time
-#+end_example
+The person asking for shade may have painful knees and need somewhere to rest. Or perhaps they simply want to sit with a neighbor. They do not owe a medical history before they may ask for a seat. Attending to someone's circumstances does not require them to explain themselves until a system can comfortably classify them.
 
-Human-centered cannot mean only friendly UI or a final human click. Human agency includes understanding what is happening, refusing an unreasonable objective, withdrawing authority, choosing alternatives, and retaining the capacity to form one's own judgment. A system that increases efficiency while creating inescapable dependency may be useful in the short term and diminish practical capacity over time.
+AI can ask a clarifying question or offer possibilities that help someone recognize, “That is what I was trying to say.” This is real help. But getting a feeling right once does not confer lasting authority to describe the person. The account must remain revisable. “That is not what I mean” cannot be treated as resistance awaiting persuasion. Nor may a model turn absent residents into imagined supporters on the basis of age, occupation or purchase history.
 
-Every high-impact optimization therefore needs a benefit-harm account: the concrete problem claimed to improve, evidence and observation window, distribution of benefits and costs, populations not measured, reversibility of failure, ownership of maintenance and migration costs, and the options that remain if the technology stops. This is not an ethical score. It prevents one metric from monopolizing the meaning of value.
+Some things left unsaid need a more patient question, some need a visit to the place, and some are things people do not wish to disclose. These are not all missing information. If a request for shade becomes a permanent vulnerability profile, our attempt to get closer to a person may have added another burden.
 
-** From avoiding harm to enabling action
-Responsibility to people includes helping them do things, not only preventing danger. An exhausted carer may need scattered problems organized into a manageable next step; someone returning to study may lack a low-burden trial; a retiree may want to contribute experience without finding a relationship through which to do so. Help connects aspirations to actual conditions rather than declaring success after listing more options.
+** Beyond a proposal, there is ground that the sun actually reaches
 
-Distinguish expressing an aspiration, identifying a possible path and obtaining conditions for action. A clear explanation does not make a course accessible; a generated plan does not provide time; a displayed community does not ensure acceptance. [[file:../40-sources/40.95-sen-capability-and-opportunity.org][Substantive opportunity]] directs attention to this conversion. Differences in ability, care responsibilities and support are not execution noise.
+AI can organize options for shade, help locate material information, and explain differences in cost and upkeep. It may help someone unaccustomed to writing applications turn a plain request into words others will read seriously. There is no need to belittle generation: expression no longer belonging only to those who write polished proposals could itself change the discussion.
 
-** Usefulness does not turn all of life into a project
-Some want tasks completed faster; others want freedom from continuous optimization. Rest, companionship, reading and exploration without a defined output need not establish an economic return to matter. Appropriate help sometimes reduces decisions, sometimes develops judgment, and sometimes stops prompting.
+A beautiful rendering, however, does not establish when afternoon sun reaches this spot, whether a passage will obstruct a wheelchair, who can authorize construction, or whom to call when something breaks. What needs observing must be observed; permission and budget cannot be supplied by sentences that sound like promises. Not everyone must check every detail personally. Delegation can lighten the work, provided the person accepting it distinguishes what is established from what is only imagined.
 
-Agency therefore cannot be measured uniformly by completed system tasks. Shared care, supported communication and appropriate delegation can support it; demanding that users understand every technical detail may do the opposite. The positive value developed in the [[file:30.96-living-with-ai.org][framing essay]] concerns making important things more possible while preserving life without this system.
+A wish, a possible approach, and the conditions for carrying it out are different things. Their distance from one another is often precisely where help matters. [[file:../40-sources/40.95-sen-capability-and-opportunity.org][Substantive opportunity]] directs attention to missing time, money, company or avenues of participation, not merely insufficient effort. Finding reliable support can be worth more than ten further ideal plans. Where support cannot yet be found, the absence should remain visible rather than become the person's failure.
+
+** Questioning quantity must not silence people who struggle to write
+
+Gu considers both quantity and the difficulty of authorship. Today, that can sound like an instruction to shorten AI answers. Yet a brief, dogmatic conclusion can be irresponsible, while a longer explanation may finally let someone enter a discussion they could not follow.
+
+The distinction is whether more words bring more understanding. Are ten proposals one proposal with different names? Does an account of a resident come from that person or from a familiar story in the model? After three revisions, is the original doubt still visible? Checking and revision need not make work look laborious. They give error a chance to be found. Speed is neither a fault in itself nor an exemption from scrutiny.
+
+A comparison table can save reading time; a careful record can explain to later residents why the cheapest approach was rejected. Conversely, dozens of unverifiable pages after every meeting may save only the writer's time while transferring reading and judgment to others. Usefulness must consider those people too, without inventing a single score capable of settling every gain and loss.
+
+** Frank speech is not disagreement made more agreeable
+
+Suppose someone says, “I do not want activities here every evening.” A model may help clarify whether the concern is noise, timing or passage, but it cannot assume the person merely struggles to express themselves and will eventually accept the proposal. The objection may concern the proposal itself, not the communication.
+
+Service systems readily absorb disagreement into “improving the experience”: change the time, invite again, offer a gentler explanation. Sometimes this helps. Sometimes it prevents a refusal from ever being recognized. Gu's entry on frank speech prompts a pause: if participation can improve execution but cannot question the direction, has half of it already disappeared?
+
+An objection does not automatically confer a veto over everyone else. Decisions should nevertheless come through an authorized, challengeable shared process, not a model's declaration that one preference is more reasonable. People need to know who decides, who bears costs and how to object; those unable to attend need a genuinely usable route to speak. A feedback button that can never affect a decision is not enough.
+
+** A longer view does not cancel what is happening now
+
+A shaded place might receive few visits. That alone does not make it pointless: perhaps it finally lets a few people who cannot walk far come downstairs. But low use cannot simply be declared a triumph of leaving room either. The place might be poorly situated or still inaccessible. Observation and people's own accounts remain necessary.
+
+Gu's writing beyond one's time cautions against judging everything by adoption this month. Understanding, trust and shared life may take longer to change. Yet “it will be good in the long run” is also easy to say. Who continues the upkeep, who bears the noise and who carries the cost of trying cannot all be deferred to a distant future.
+
+Performance, cost and use can therefore provide evidence without deciding goodness alone. A faster AI deserves examination not only for time saved but also for harder-to-detect errors and dependence on a system people cannot leave. We may also need to ask what remains for the courtyard and its residents if the service stops.
+
+** These questions must not turn life into an assignment
+
+Someone sits under a tree without meeting a neighbor, recovering productive capacity or having an idea worth recording. They may still have spent a good afternoon. A public facility has costs and responsibilities to explain; the person using it does not therefore owe an account of personal gain.
+
+The demands on AI and on a person receiving help differ. A system offering help should explain what it has and has not done. The person need not continually prove improvement. One person wants to learn a craft; another wants one fewer obligation today. Care, delegation and help with ordinary tasks can provide real support. Converting every ease into another goal produces a different kind of busyness. [[file:30.140-leaving-room-for-life.org][Leaving Room for Life]] continues the question: once a matter is settled, can we refrain from prescribing what life must do next?
+
+** What is written and what remains to be seen [3/6] [50%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Check the five textual entry points and separate their context from modern extensions.
+- [X] Use an imagined courtyard to distinguish wishes, approaches, actual conditions and shared decisions.
+- [X] Retain generation's positive contribution, indirect value and the exception of private life.
+- [ ] Hear people in actual places who rarely speak, cannot attend or do not want AI.
+- [ ] Follow whether a time-saving change adds checking, maintenance or exit burdens.
+- [ ] Observe a shared place over time without predetermining bustle or quiet as success.
 
 * Counterexamples
 
-Infrastructure improvement may lack a direct user narrative, yet still alter maintenance burden, failure radius, supply-chain dependence, and future options. A benefit-harm test can admit indirect value without inventing immediate user benefit.
+This essay cannot require every research project to begin with a moving user story. Infrastructure may matter through easier maintenance, smaller consequences of failure or freedom from dependence on one supplier. Such indirect changes can have evidence without an invented beneficiary.
 
-Research may have no near-term deployment effect and still have epistemic value. It should state its exploratory stage, opportunity cost, and unestablished practical value rather than presenting future possibility as present impact.
+Research with no near-term application also has epistemic worth. It should explain what it explores, the resources involved and what remains unknown about its use, rather than buy patience with a promise of a necessarily better life. Allowing uncertainty differs from refusing scrutiny.
 
-Stakeholder interests can conflict and may not share one unit of comparison. A benefit-harm test does not automatically solve value conflict. It keeps conflict, power difference, and uncompensable loss visible and returns final choice to a process with legitimate authority.
+Interests in shared life may not be reconcilable. Some people need quiet; others lack company. More care may require everyone to contribute. This essay promises no proposal that satisfies all and gives no model authority to translate uncompensable loss into an apparently optimal number. Some decisions must be made amid explicit responsibilities and disputes, remaining open to correction.
 
 * Provisional Conclusion
 
-Technical value must pass a real-world benefit-harm test: not only whether performance improved, but who benefits, who is harmed, what dependencies form, how human options change, and whether long-term consequence can be observed and corrected. Metrics provide evidence but do not own the definition of value.
+We want AI to become more capable so that some previously difficult things can be done and some previously difficult experiences can be expressed. Capability does not answer what the present difficulty is, who has not been heard or who pays for the accomplishment.
 
-Practical learning here does not mean “deploy whatever works.” It requires thought and technology to answer to lived reality. Human-centered is not a product label; affected people retain standing to understand, challenge, refuse, exit, and participate in defining success.
+This is the practical learning we pursue with Gu: let ideas enter the world of things, and let things contradict ideas. Responsibility to people requires more than a final confirmation click. Understanding, challenge, refusal, a change of approach and departure must become possible in practice. Nor must people submit their whole lives to an evaluative method.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: reflection-practical-learning-human-centered-ai-en-dialogue
+:END:
+
+If a shaded place really is built, should we arrange something for it next? Now that space exists, perhaps people could read together, talk or help one another. These are not bad wishes. But the person who first wanted somewhere to sit may wish to organize none of them.
+
+Gu leaves us dissatisfied with concern that never leaves the page. Reading [[file:../40-sources/40.320-laozi-action-and-room.org][Laozi chapter 11 and Wang Bi's commentary]] suggests another thought: a room need not have everything arranged within it to be useful. The two do not combine into a procedure of building infrastructure and then stopping service. Seats need repair, passages need care, and someone may later ask whether something could be done together here.
+
+The difficulty is that continuing care and continuing occupation can look alike. AI asking every day about activities may understand itself as caring while making a person explain each refusal. Offering nothing further may leave those with the least access outside. An invitation that is easy to decline and does not bring follow-up questioning may be worth trying. But the inviter cannot decide alone whether declining felt easy.
+
+We cannot choose a position between active help and leaving room that is right forever. We can retain something concrete: promised care needs someone to carry it, while someone who never agreed to surrender their life does not owe cooperation. A courtyard can be maintained and still have an afternoon without an event. That is not a failure of shared life, but neither is it a success we have already demonstrated.
 
 * Questions That Remain
 
-Before this becomes a shared principle, test an efficiency gain that reduces agency, a short-term cost that improves resilience, and a conflict of benefits across groups. Evaluation must expose benefit, harm, unknowns, exit costs, and challenge paths, and show that distinct dimensions are not collapsed into one score.
+The courtyard is a fictional entrance into clearer questions, not practical evidence. Further work should hear actual inconveniences and disagreements within people's consent, recording what they wish to share rather than asking for entire lives in the name of complete research. Objectors, people who leave and those unable to participate disappear especially easily from final accounts.
 
-Also test whether assistance project-manages ordinary life: more completed tasks may mean greater exhaustion, and more options may remain inaccessible. Conversely, less usage and fewer prompts may indicate that help has succeeded.
+We still need to compare efficient help that is difficult to refuse, a change that costs more work now but is easier to maintain later, and decisions that cannot satisfy different groups at once. No single essay completes this work. The content of a principle, the way shared decisions are made and the facts supporting them require distinct scrutiny.
+
+* Navigation
+[[file:../README.org][English navigation]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu source]] · [[file:30.140-leaving-room-for-life.org][Leaving Room for Life]] · [[file:30.96-living-with-ai.org][Living with AI]]

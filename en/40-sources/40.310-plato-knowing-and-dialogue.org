@@ -1,0 +1,60 @@
+#+TITLE: Socrates in Plato: Knowing, Writing, and Conversation
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-310-EN
+:SEMANTIC_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.310-plato-knowing-and-dialogue.org
+:SOURCE_ID: PHIL-SRC-310
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Plato
+:SOURCE_WORK: Apology 21b-23b; Phaedrus 274c-277a
+:SOURCE_EDITION: Benjamin Jowett translation, MIT Internet Classics Archive
+:SOURCE_DATE: fourth century BCE; digital translation accessed 2026-09-26
+:SOURCE_LANGUAGE: grc; en translation
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: Plato Apology; Plato Phaedrus
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.310-plato-knowing-and-dialogue
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue-en
+:END:
+This reading pairs Plato's [[https://classics.mit.edu/Plato/apology.html][Apology]], 21b–23b, with [[https://classics.mit.edu/Plato/phaedrus.html][Phaedrus]], 274c–277a, in Benjamin Jowett's translation hosted by the MIT Internet Classics Archive. Locations use conventional Stephanus numbering, which these pages do not display paragraph by paragraph. Locate the account of examinations following the oracle, and the discussion of Theuth, Thamus, and writing respectively. The Chinese counterpart offers our paraphrase, not a purported published Chinese translation.
+
+“Primary” identifies works by Plato, not writings left by Socrates. Speakers within the works, the historical Socrates, and Plato are not interchangeable attributions. This note is not a comprehensive collation of Greek, translations, or the Socratic problem.
+* Context
+The Apology passage belongs to a response to accusations and an interpretation of the Delphic oracle. Particular knowledge and presumed wisdom come apart; artisans' actual expertise is not simply erased. Extracting acknowledgement of ignorance must not remove the legal, religious, and civic setting and turn it into a generic conversational technique.
+
+The Phaedrus passage uses an account of writing's origin to discuss memory, apparent wisdom, and the limits of written speech under questioning, turning toward conversation and teaching. A written dialogue presents these very difficulties; “Plato opposed writing” would be too crude a conclusion.
+* Interpretation Boundaries
+AI can produce a new response and is not the static writing described in the passage. That difference must enter the comparison. Yet these works cannot establish that a responsive system understands or that questioning necessarily improves a learner's understanding. They are not experiments with contemporary models and do not authorize ongoing examination of another person.
+
+Our questions concern whether grounds can be questioned, expertise overextended, and a conversational partner given room to correct. These are modern interpretations, not one-to-one translations of ancient terms into product requirements.
+* Influence
+The [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][reflection on explanation and understanding]] uses these questions to examine the distance between clear explanation and understanding. Scrutiny returns to the model and author, not only the listener. No accepted Principle is added here.
+* Interpretation Chain
+Works and passages → scope of knowledge, writing, and response → differences introduced by responsive AI → imagined listening situations and objections. This repository is responsible for the final two moves. Effects on actual learning and life require separate observation.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.310-plato-knowing-and-dialogue-en-dialogue
+:END:
+Does an answer become more trustworthy because it can keep responding? After reading about writing's inability to defend itself, responsive AI makes it tempting to think that exchange has solved the problem. Yet questions may produce ever smoother conversation while its first unsupported step remains untouched.
+
+Conversely, an old letter or a paper unable to answer immediately may leave clear material that later readers can check. Ease of response and strength of grounds do not always travel together. What we need is the ability to pursue a question, not merely an object that keeps speaking. Returning to original material may do more than generating ten further explanations.
+
+But pursuing the question cannot depend entirely on inexhaustible users. If they must check every claim to the bottom, someone seeking help becomes the conversation's full-time editor. The [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][discussion of understanding that is hard to articulate]] approaches another limit: grounds should be open to inquiry without requiring a single form of expression. Explainers also owe an account of their grounds and limits.
+
+The design question may therefore concern not longer answers but accessible grounds, visible uncertainty, and somewhere for an objection to go. These are our contemporary inferences. Plato's name cannot make them correct; they still face whether an actual person can bear and use them.
+* Navigation
+[[file:../README.org][Navigation]] · [[file:../30-reflections/30.300-dialogues-across-time.org][Reading on, thinking further]] · [[file:../30-reflections/30.310-clear-explanations-and-understanding.org][Explanation and understanding]] · [[file:40.98-xunzi-learning-and-tools.org][Xunzi on learning]]

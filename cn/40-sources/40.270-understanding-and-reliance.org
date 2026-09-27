@@ -1,0 +1,55 @@
+#+TITLE: 理解的感觉与判断的根据
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-270-CN
+:SEMANTIC_ID: philosophy.source-note.40.270-understanding-and-reliance
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.270-understanding-and-reliance.org
+:SOURCE_ID: PHIL-SRC-270
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Leonid Rozenblit and Frank Keil; Zana Buçinca, Maja Barbara Malaya and Krzysztof Z. Gajos
+:SOURCE_WORK: The misunderstood limits of folk science; To Trust or to Think
+:SOURCE_EDITION: Cognitive Science 26 (2002), 521–562; PACM HCI 5 CSCW1 (2021), Article 188; author PDFs accessed 2026-09-26
+:SOURCE_DATE: 2002; 2021
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: doi:10.1207/s15516709cog2605_1; doi:10.1145/3449287
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.270-understanding-and-reliance
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.270-understanding-and-reliance-cn
+:END:
+本文并读两项研究，为[[file:../30-reflections/30.270-coming-to-understand-with-ai.org][与 AI 一起形成理解]]提供有限的经验提醒，而非一套已经证实的教学方法。
+
+#+NAME: understanding-reliance-sources-cn
+#+EXPLANATION: 两项研究的任务与年代不同，不能合成当代大模型帮助人形成理解的效果证明。
+| 来源 | 任务与结果的范围 |
+|------+----------------|
+| [[https://doi.org/10.1207/s15516709cog2605_1][Rozenblit 与 Keil，2002]]；[[https://cogdevlab.yale.edu/sites/default/files/files/rozenblit%20%26%20keil%20%202002.pdf][作者 PDF]] | 解释机制的尝试揭示自评理解与能够给出的解释之间的差距；研究不涉及大模型。 |
+| [[https://doi.org/10.1145/3449287][Buçinca、Malaya 与 Gajos，2021]]；[[https://www.eecs.harvard.edu/~kgajos/papers/2021/bucinca21trust.pdf][作者 PDF]] | 食材替换任务，分析保留 199 人，使用模拟 AI。促使主动思考的设计减少了过度依赖，但未消除；有效性、主观评价和不同参与者的受益存在差异。 |
+* 语境
+前者讨论人怎样估计自己对机制的理解；后者比较特定决策界面。模拟 AI 的错误由实验安排控制，不是当代开放式聊天助手的表现。两项材料都不追踪摄影者的生活。
+* 解释边界
+这些研究不能确立“解释越多越好”“必须先独立思考”，也不能证明某种交互会长期增进判断。本文没有把不喜欢费力界面解释成人的缺陷。
+
+“探索、理解、执行”的情境区分是本仓库提出的论述，不是两篇论文提供或验证的分类。关于经验和价值如何被理解的讨论，也超出这些任务的测量范围。
+* 影响
+它们使 Reflection 有理由分别追问：人感觉懂了什么，实际上能判断什么，以及为此付出了什么。我们据此提出观察问题，不宣布 TAO3K 已经产生相同结果，不直接改写 Principle 或 Governance。
+* 解释链
+关于理解自评的研究 → 注意“感觉清楚”与“有根据地判断”的区别 → 在具体作品中邀请比较与纠正，而非规定复述考试。
+
+关于辅助决策的研究 → 同时关注错误依赖与思考负担 → 按处境讨论帮助的方式，而非把更费力当作普遍善。
+
+这两步都是有边界的解释迁移。主文中的照片、排序尝试和后续理解仍属设想，尚须自愿参与者的真实经验来支持或反驳。
+* 导航
+[[file:../README.org][导航]] · [[file:../30-reflections/30.270-coming-to-understand-with-ai.org][探索、理解与行动]] · [[file:40.260-participation-ownership-and-timing.org][归属、共创与时间]]

@@ -1,6 +1,43 @@
 #+TITLE: Tao3k Philosophy Org Contracts v1
 #+PROPERTY: CONTRACT_SET philosophy.v1
 
+* Dialogue extension subtree v1
+:PROPERTIES:
+:CONTRACT_ID: philosophy.dialogue-extension.v1
+:CONTRACT_SCOPE: subtree
+:CONTRACT_KIND: org-elements
+:END:
+This language-neutral contract belongs to a local dialogue section, not a new
+document kind or a central topic. It checks structural footholds for reading;
+historical fidelity, meaningful disagreement and prose quality require review.
+** Prose
+:PROPERTIES:
+:ASSERT_ID: dialogue-extension.has-prose
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (paragraph :nonempty true))
+#+end_src
+** Related reading
+:PROPERTIES:
+:ASSERT_ID: dialogue-extension.has-related-reading
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists (link))
+#+end_src
+** Addressable section
+:PROPERTIES:
+:ASSERT_ID: dialogue-extension.has-anchor
+:SEVERITY: error
+:END:
+#+begin_src org-contract
+(assert exists
+  (and
+    (node-property :summary (key "CUSTOM_ID"))
+    (not (= (summary value) ""))))
+#+end_src
+
 * Repository index v1
 :PROPERTIES:
 :CONTRACT_ID: philosophy.repository-index.v1

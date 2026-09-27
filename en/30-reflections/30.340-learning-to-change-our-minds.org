@@ -1,0 +1,112 @@
+#+TITLE: Knowing More, Learning to Change Our Minds
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-340-EN
+:SEMANTIC_ID: philosophy.reflection.30.340-learning-to-change-our-minds
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.340-learning-to-change-our-minds.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.340-learning-to-change-our-minds-en
+:END:
+An explanation can seem clear from beginning to end. But if someone asks the question differently, or brings evidence that does not fit, can we still say why we believe it? After AI helps us enter an unfamiliar field, this is no small concern. Information and explanations may be easier to obtain, while the difficulty moves elsewhere: noticing what an account leaves out, recognising what we have not understood, and correcting something after it has already been used.
+
+The [[file:30.330-finding-a-way-of-our-own.org][previous essay]] considered learning, making and maintenance through public problems. Here we take another step: having a view of our own need not mean keeping it unchanged. Reading two letters and a preface by Gu Yanwu, we ask whether learning with AI can give people better ways to discover and correct mistakes, rather than only better ways to express existing opinions.
+* Argument
+
+We distinguish historical interpretation from present questions. Gu was writing about study, friendship, moral cultivation and authorship, not model training. His commitment to learning can illuminate our concerns while also conflicting with the rest, equality and different ambitions we value. The [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu source note]] identifies the texts, transcription limits and quotation attributions. Contemporary evidence comes from the [[file:../40-sources/40.330-ai-public-problems.org][public-problems source note]]; separate studies do not form a proven path of personal growth.
+
+** More information may leave familiar assumptions untouched
+
+In Letter to a Person, No. 1, Gu warns that remaining in one place can leave us unaware of the habits we acquire. The difficulty is not simply admitting that something is unknown. It is failing to notice that a familiar belief might need questioning at all. When the people and materials around us repeat it, their account can begin to look like the world itself. ([[https://zh.wikisource.org/wiki/與人書一][Original text]])
+
+Our comparison is with an intellectual place rather than necessarily a geographical one. A person may visit many websites while looking for answers through the same assumptions. AI can cross language and disciplinary barriers, uncover unfamiliar materials and make difficult arguments approachable. This matters especially to people short of teachers, colleagues or time. Yet when one conversation mediates those materials, we should ask which disagreements survive and which awkward conditions disappear. Numerous sources do not guarantee a genuine encounter between views; switching models does not automatically provide independent grounds.
+
+Actual educational difficulties are more instructive than being for or against AI in general. A randomised university physics study reported short-term learning benefits from structured AI tutoring. A separate high-school mathematics experiment distinguished general chat assistance from tutoring with instructional safeguards, showing that assisted practice and performance after assistance was removed could diverge. These findings neither cancel one another out nor combine into a prescription for everyone. They invite questions about the course, task and form of help, rather than treating AI use as one uniform experience. ([[https://www.nature.com/articles/s41598-025-97652-6][Physics study]]; [[https://doi.org/10.1073/pnas.2422633122][Mathematics study]])
+
+A good explanation might therefore help someone recognise what remains unclear. We could try asking learners to locate the difference between two solutions or consider whether a conclusion survives a changed condition, then offer help where they struggle. This is a teaching proposal to investigate, not a universal method established by those studies. Nor should it become an entrance examination before every request: someone may need a result now or want to learn slowly. Both purposes deserve consideration.
+
+** Other people are not merely material awaiting a summary
+
+Gu's concern about studying without friends need not be reduced to counting how much more a group knows than an individual. Our further question is whether other people can change what we understand the problem to be.
+
+Explaining the end of curl's bug bounty, its maintainer described the burden of low-quality reports. The promise of more people being able to contribute meets another experience here: recipients may spend considerable time establishing whether submissions have any basis. This account reveals a difference in circumstances; it does not establish what happens in all open-source projects or show that all AI-assisted contributions lack value. ([[https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/][Maintainer's account]])
+
+Summarising both sides as a need for higher-quality submissions may still miss difficult questions. Who has time to help newcomers? Who checks rapidly generated material? How can someone still learning get a fair opportunity to participate? Asking a useful question, helping reproduce a problem or improving an explanation may each be a beginning. Participation need not begin with a remarkable discovery.
+
+AI might help newcomers understand earlier discussions and describe reproduction conditions, while helping maintainers notice missing information. Whether this helps depends on work becoming manageable for both parties, not only on time saved by the sender. We should not supply a harmonious ending in advance. Disagreement may reveal arrangements that still need to change.
+
+** After learning to criticise, can we recognise our own mistakes?
+
+Letter to a Person, No. 14 begins with the recipient's habit of judging others. Drawing on the Analects, Gu turns attention back towards the person making those judgments. Discussion is not prohibited; its contribution to recognising one's own faults is questioned. The sayings he attributes to Confucius are not Gu's inventions, and the letter is not a statement of modern research method. ([[https://zh.wikisource.org/wiki/與人書十四][Original text]])
+
+Today we can quickly ask AI for ten weaknesses in a paper or a persuasive defence of a preferred proposal. Either may be useful. But a polished critique does not show that we have encountered a serious objection. Sometimes an apparent rebuttal only supplies a more elaborate version of our original position.
+
+We might ask more plainly: which claim do I believe, what supports it, and what would make me narrow or abandon it? This does not make every disagreement about values experimentally decidable. Whether a proposal works and whether its costs are worth bearing are connected but different questions. Those who bear the costs also belong in the latter discussion.
+
+Scientific exploration makes this distinction particularly clear. The AI co-scientist study investigates generating, comparing and improving hypotheses, with experimental validation in selected biomedical tasks. The connection between generation and testing deserves attention; a contest between model outputs is not nature's answer. If an experiment fails to support a hypothesis, commissioning a more persuasive explanation may change nothing. Revisiting measurement, conditions and the hypothesis may instead open another direction. ([[https://www.nature.com/articles/s41586-026-10644-y][Research article]])
+
+Self-examination must not become a demand that less powerful people remain silent. Difficulties in learning or research may involve teaching resources, collaboration and working conditions. Being able to examine oneself and being able to question unfair arrangements should coexist. AI should not rewrite every difficulty as a need for the individual to try harder.
+
+** Once writing has travelled, correction is no longer private
+
+In the Preface to the First Printing of the Record of Daily Knowledge, Gu acknowledges shortcomings in an earlier printing that has already circulated. He continues revising and invites fellow scholars' scrutiny. This is an author facing what he has already left in the world, not someone who has always been right instructing others in humility. ([[https://zh.wikisource.org/wiki/日知錄/自序][Preface]])
+
+We draw a present question from that predicament: can a correction catch up with the original account? AI-assisted explanations may enter teaching materials, reports, research notes and project decisions. Getting the next conversation right does not automatically repair judgments already adopted elsewhere. Improving an output and reaching its earlier users are different achievements.
+
+What deserves keeping may not be the whole conversation, but a limited history relevant to consequential judgments: their grounds, what later failed, and which adopted conclusions need reconsideration. A minor wording change need not summon everyone. A change to a proposal's essential conditions may require more than a note at the end of a page. Whom to inform and how must be considered in relation to the effects; correction does not justify collecting everyone's reading and actions.
+
+Acknowledging a mistake may also cost someone their reputation. Where changing one's mind means losing face, people may learn concealment instead. Yet candour does not remove the work of repair. We should seek both a climate where someone can say they were wrong and a way for affected people to obtain an explanation.
+
+** Learning together need not demand proof of daily improvement
+
+Gu's opening insistence on advancing rather than falling back has the urgency of an exhortation to study. We can respect that seriousness without making it a rule for all of life. Resting, working competently or choosing not to investigate further does not make a person lesser.
+
+Learning with AI may matter because someone finally feels able to ask, can check a source previously out of reach, or can restart a collaboration caught in error. People need neither the model's entire range of knowledge nor the ability to audit everything alone. Finding trustworthy help and knowing when to ask again are capacities of shared life, not failures of independence.
+
+For models themselves, higher scores, altered prompts, updated training and practical help answer different questions. Our philosophical claim supplies no technical proof of any of them. The progress at issue here is allowing experience to change judgment, while facing the effects an earlier judgment has had on others.
+* Counterexamples
+
+Constant questioning can prevent action. A well-supported, low-impact and easily reversible choice should not require starting the argument again. Scrutiny must consider consequences and people's time. Turning ordinary users into unpaid auditors is not the learning relationship we seek.
+
+Different views are not always equally credible. Keeping disagreements visible does not require equal weight for thoroughly discredited claims, or paralysis whenever someone objects. Grounds and remaining uncertainty matter more than a numerical balance of opinions.
+
+An ability exercised with assistance may still be a real ability and opportunity. Disabled people using assistive technology and researchers relying on specialist colleagues need not establish their standing by losing that help. Unassisted performance is relevant when independent completion is genuinely the intended learning outcome, not as a universal measure of people.
+
+If later observation finds that reflection prompts merely produce longer explanations, without better error recognition and while discouraging necessary help, we should change them. Correction records that create surveillance, humiliation or unreasonable work cannot be justified merely by calling them responsible.
+* Provisional Conclusion
+
+Knowing more should offer more than answers: ways to encounter other experiences, examine grounds and begin again. Gu helps us consider unnoticed habits, self-examination and responsibility after publication. How to share scrutiny, respect rest and involve affected people remains our task to argue.
+
+This remains a Reflection. It neither adds nor changes a Principle, nor presents the discussion as an admitted Governance requirement. Whether the proposed help works still needs investigation in actual learning and collaboration; a contract check cannot establish that.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.reflection.30.340-learning-to-change-our-minds-en-dialogue
+:END:
+Gu asks people to discover their faults through learning. But who decides what counts as a fault? Moral cultivation in the [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][two letters]] has its own direction; it is not a contemporary institution of open deliberation. We cannot borrow its seriousness to demand obedience to teachers or models, nor dismiss every correction as an attack on individuality. An arithmetic error can be checked; an unconventional ambition is not thereby an error. Confusing the two can turn self-examination into submission.
+
+Another difficulty is harder to admit: sometimes people know they should change but cannot see how to continue afterwards. Abandoning a research hypothesis means facing time already spent. Correcting a lesson means facing students again. If AI excels at pointing out errors but does little to help find a practicable next step, it may not make honesty easier. The collaboration we seek should leave a way forward after correction, without promising to remove every cost.
+
+Yet a way forward need not mean immediately scheduling a new goal. Letting go of an old idea may leave a period that needs to be lived through slowly. Learning can include enthusiasm and pauses. If our relationship with others cannot accommodate those pauses, Gu's seriousness may become another contemporary demand to hurry.
+* Questions That Remain
+
+We need accounts of how learners, teachers, research collaborators and maintainers actually handle changing their minds, rather than only asking whether a proposed design sounds reasonable. In particular: did a correction reach people who adopted the earlier claim, who did the work, and did anyone lose opportunities by disagreeing?
+
+** Reading and Writing Progress [3/6] [50%]
+- [X] Read the two letters and preface, recording transcription and interpretation limits.
+- [X] Bring learning, research and public maintenance evidence into the discussion without erasing its scope.
+- [X] Develop counterexamples and further conversation distinguishing reflection, obedience and endless self-demands.
+- [ ] Compare the transcriptions and work identifications against edition images.
+- [ ] Trace a public correction and its downstream use, distinguishing publication from arrival.
+- [ ] Find different participants' accounts of correction work and examine the proposed collaboration against them.
+* Navigation
+[[file:30.350-making-difficult-ideas-clear.org][Continue: Making Difficult Ideas Clear]]
+[[file:../README.org][language index]]
+[[file:30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu source note]] · [[file:../40-sources/40.330-ai-public-problems.org][Contemporary problems and research evidence]]

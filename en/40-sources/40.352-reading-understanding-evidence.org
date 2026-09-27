@@ -1,0 +1,73 @@
+#+TITLE: Readable, but Understood? Studies of Simplification and Explanation
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-352-EN
+:SEMANTIC_ID: philosophy.source-note.40.352-reading-understanding-evidence
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.352-reading-understanding-evidence.org
+:SOURCE_ID: source.reading-understanding-evidence
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Theo Guidroz et al.; Yue Guo et al.; Nadine Beks van Raaij, Daan Kolkman and Ksenia Podoynitsyna; Helena Vasconcelos et al.
+:SOURCE_WORK: Text simplification and comprehension; plain-language summaries; governmental communication; explanations and overreliance
+:SOURCE_EDITION: arXiv 2505.01980v1 and 2505.10409v1; DeTermIt 2024; CSCW 2023 author PDF; accessed 2026-09-27
+:SOURCE_DATE: 2023–2025
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: arxiv:2505.01980v1 arxiv:2505.10409v1 acl:2024.determit-1.15 arxiv:2212.06823v2
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.352-reading-understanding-evidence
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.352-reading-understanding-evidence-en
+:END:
+This note brings four original studies into [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]]. We examined designs, main results and relevant limitations, without reproducing analyses or auditing every supplement. The two 2025 items are identified as the arXiv v1 preprints read; the others are a DeTermIt 2024 workshop paper and a CSCW 2023 paper. Model names refer to experimental versions, not every current model.
+
+#+NAME: reading-evidence-comparisons-en
+#+EXPLANATION: Different controls and tasks cannot be combined into a verdict that AI is always easier or always harder to understand.
+| Study | Comparison and result | Limit |
+|-------+-----------------------+-------|
+| [[https://arxiv.org/abs/2505.01980v1][Guidroz et al., LLM-based Text Simplification and its Effect on User Comprehension and Cognitive Load, 2025]] | 4,563 participants, 31 texts, six domains; originals versus a specific Gemini simplification method. Overall comprehension MCQ accuracy rose 3.9 percentage points. | Not generic chat rewriting. Distortion remains possible; MCQs do not exhaust understanding or establish long-term learning. |
+| [[https://arxiv.org/html/2505.10409v1][Guo et al., Are LLM-generated plain language summaries truly understandable?, 2025]] | 150 crowd participants; human and GPT-4 plain-language summaries from 50 material pairs. Generally similar subjective ratings accompanied better MCQ performance with human summaries. | Different from comparing professional originals; US English-language sampling and filtering limit transfer. Model-assisted question generation does not measure real-world decisions comprehensively. |
+| [[https://aclanthology.org/2024.determit-1.15/][Beks van Raaij et al., Clearer Governmental Communication, 2024]] | After expert assessment, 72 participants compared original and ChatGPT-simplified versions of three Dutch government letters. Comprehension and action-question answers improved. | Convenience sample and limited letters. Answering action questions is not completing real procedures; ability to appeal was not directly measured. |
+| [[https://hci.stanford.edu/publications/2023/xai-cscw-2023.pdf][Vasconcelos et al., Explanations Can Reduce Overreliance on AI Systems During Decision-Making, 2023]] | Five studies, 731 participants; simulated-AI maze tasks examined factors including explanation difficulty in overreliance. | Not open-ended LLM teaching or actual code review. Transferring verification-cost arguments needs further testing. |
+* Context
+
+The first two studies ask whether simplification improves on an original and whether generated summaries match human plain-language summaries, respectively. Their different directions do not cancel one another out. The third addresses public information; the fourth addresses explanation and verification. Together they help formulate questions, not replicate one intervention across settings.
+
+We distinguish subjective appraisal, understanding within a specified task and consequences in actual practice. Evidence on text reading also cannot automatically establish effects in code maintenance, research collaboration or reading Chinese classics.
+* Interpretation Boundaries
+
+Readability scores do not directly measure understanding. Preference and confidence still matter, but should not replace other evidence. We infer neither that more demanding interfaces are better nor that every AI interaction should become an examination.
+
+This is not a systematic review and claims neither exhaustive coverage, absence of bias nor universal effectiveness. These materials support bounded comparisons; other languages, reading needs and practical consequences require separate observation.
+
+Making choices and routes of appeal intelligible is our normative question, not an outcome established by the government-letter study. Research findings, modern interpretation and shared principles remain distinct.
+* Influence
+
+The essay moves from outputs resembling human prose towards what readers can now distinguish, while retaining simplification's positive possibilities. Responsibility does not fall entirely on readers, nor can producers establish benefit by scoring themselves. This round changes no Principle, Governance or engineering acceptance requirement.
+* Interpretation Chain
+
+Different controls and reading tasks → distinctions between readability, understanding and verification → the essay's proposal to compare accounts against real purposes and watch for missing conditions.
+
+This interpretation enters a conversation with [[file:40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi's poetic aims]] and [[file:40.350-feynman-explanation-and-teaching.org][Feynman's explanation and self-questioning]], not an experiment spanning centuries. Contract checks establish document conformance, not whether readers understand.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.352-reading-understanding-evidence-en-dialogue
+:END:
+
+If simplification makes compliance faster, did it also reveal when a person need not comply? Expression can serve a publisher without equally serving a reader. The [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][essay]] therefore distinguishes understanding from agreement and keeps room for questions, refusal and pause.
+
+Readers' time is also a real cost. Demanding lengthy tests from everyone to demonstrate reliable explanation can recreate exclusion. We want to observe a few distinctions consequential to the actual matter, while allowing trustworthy delegation. An average score alone cannot settle the balance.
+* Navigation
+[[file:../README.org][navigation]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] · [[file:40.270-understanding-and-reliance.org][Feeling Clear and Having Grounds to Judge]] · [[file:40.351-bai-juyi-clarity-and-credibility.org][Bai Juyi]]

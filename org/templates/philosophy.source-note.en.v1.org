@@ -37,5 +37,12 @@
 # State how the source influences this repository's principles before admission.
 * Interpretation Chain
 # State the traceable chain from the source to the current interpretation before admission.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: <CUSTOM_ID>-dialogue
+:END:
+# Develop an unresolved tension in this piece, not another summary or a list of questions.
+# Distinguish the source from your interpretation and link to a source or related discussion; scripted speakers are not required.
 * Navigation
 [[file:../README.org][navigation]]

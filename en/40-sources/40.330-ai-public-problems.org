@@ -1,0 +1,103 @@
+#+TITLE: Starting from Public Problems: Evidence on Learning, Making and Maintenance with AI
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-330-EN
+:SEMANTIC_ID: philosophy.source-note.40.330-ai-public-problems
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.330-ai-public-problems.org
+:SOURCE_ID: source.ai-public-problems
+:SOURCE_KIND: SYNTHESIS
+:SOURCE_AUTHOR: Public contributors; Stack Overflow; Bastani et al.; Kestin et al.; Gottweis et al.; Daniel Stenberg
+:SOURCE_WORK: Forum accounts, issue 35358, Developer Survey 2025, tutoring studies, Co-Scientist, curl maintainer account
+:SOURCE_EDITION: Linked web originals and research articles; accessed 2026-09-26; author-hosted Bastani PDF identified separately
+:SOURCE_DATE: 2025-2026 materials; exact forum dates not independently verified
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: reddit:1iuw85i reddit:1nz4tgj stackoverflow:survey-2025-ai github:anthropics/claude-code/35358 daniel.haxx.se:2026-01-26 doi:10.1073/pnas.2422633122 doi:10.1038/s41598-025-97652-6 doi:10.1038/s41586-026-10644-y
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.330-ai-public-problems
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.330-ai-public-problems-en
+:END:
+
+This note records the public problems behind [[file:../30-reflections/30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]]. Accounts, survey, issue, maintenance report and experiments were read on 2026-09-26. Pages may change; links do not replace verification. No interviews or experimental replications were conducted here.
+
+#+NAME: public-problem-evidence-en
+#+EXPLANATION: The materials carry different evidential responsibilities; adding them together does not establish a universal result.
+| Material | Original entry | Use here |
+|----------+----------------+----------|
+| Application-building account | [[https://www.reddit.com/r/ChatGPTCoding/comments/1iuw85i/i_thought_ai_would_build_my_app_for_me_heres_what/][I thought AI would build my app for me]] | Entry into previously inaccessible work and changing understanding |
+| Learner's question | [[https://www.reddit.com/r/learnprogramming/comments/1nz4tgj/how_do_you_balance_learning_vs_using_too_much_ai/][How do you balance learning vs using too much AI]] | Tension between output and felt learning |
+| Developer survey | [[https://survey.stackoverflow.co/2025/ai][Stack Overflow 2025 AI]] | Bounded evidence beyond an individual account |
+| Session-resume report | [[https://github.com/anthropics/claude-code/issues/35358][Issue 35358]] | Context continuity in sustained work |
+| Maintainer's account | [[https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/][The end of the curl bug-bounty]] | Submission volume and maintenance effort |
+| High-school mathematics trial | [[https://doi.org/10.1073/pnas.2422633122][Bastani et al., PNAS 2025]]; [[https://hamsabastani.github.io/education_llm.pdf][author-hosted full text]] | Assisted performance and subsequent unassisted learning |
+| University physics trial | [[https://www.nature.com/articles/s41598-025-97652-6][Kestin et al., Scientific Reports 2025]] | Positive evidence for a particular structured tutor |
+| Research-system study | [[https://www.nature.com/articles/s41586-026-10644-y][Gottweis et al., Nature 2026]] | Different roles of hypothesis generation, selection and experiment |
+
+* Context
+
+Problems and evidence precede the philosophical narrative. Accessible developer material does not make other people's needs less important. This is neither a systematic sample of internet concerns nor a cross-disciplinary popularity ranking.
+
+** Two accounts, not a prescribed sequence of growth
+
+A motion designer describes AI-assisted application development, repeated repairs and beginning to read errors and documentation. A web-development learner describes relying on generation while feeling that deeper learning has diminished. These are separate self-reports, not verified skills, product quality or lasting changes. Comments are not validated teaching methods. Agreement does not establish prevalence. Relative timestamps did not establish exact posting dates here; links and access date are recorded instead.
+
+** Survey and issue: breadth and a specific report are not interchangeable
+
+The Stack Overflow frustration question received 31,476 responses. Almost-right solutions and more time-consuming debugging were selected by 66% and 45%, respectively. These concerns were widely reported within that question's respondents; the figures are not error rates, measured time or random population estimates.
+
+Issue 35358, opened 2026-03-17, concerns SDK 0.2.76 and reduced context after resuming. It was closed as not planned with a stale label when read. The author reports one observation. We neither reproduced it nor obtained maintainer confirmation of the proposed cause. Closure does not establish a fix; token-count changes alone do not independently establish a proportion of semantic loss.
+
+** Curl: a project's pressure is not every contribution's destiny
+
+On 2026-01-26 Stenberg described ending rewards and the burden of low-quality reports while retaining private vulnerability reporting. He distinguished curl's experience from less-affected peer programs and left the reasons uncertain. We use a maintainer's account, not an independent audit of report classifications. It does not establish repository closure, abandonment of security maintenance or equal harm across open source.
+
+** Teaching studies: a tool's name does not establish how it helps
+
+Bastani and colleagues compared two GPT-4 aids with a control in mathematics revision involving roughly a thousand students at one Turkish high school. Ordinary assistance improved practice but worsened later unassisted performance; the specialized tutor showed neither the same significant harm nor a significant gain on that later measure. We read the author-hosted PDF and publication entry, without establishing word-for-word identity with the published final text. Generalization across subjects, adults or current models is unwarranted.
+
+Kestin and colleagues' 2025 paper studied a Harvard introductory physics course in autumn 2023, using a two-lesson crossover design and reporting better post-lesson performance with a structured AI tutor. This does not establish long-term retention, open-ended research ability or effects across all schools. The two studies are not positive and negative replications of one setting.
+
+** Co-Scientist: experimental contact does not close scientific discovery
+
+Gottweis and colleagues' 2026 paper links scientist-provided goals with multi-agent hypothesis generation and review, reporting validation in drug repurposing, new-target discovery and antimicrobial-resistance questions. Limitations include literature access, errors, absent negative findings and preliminary validation. We read the main text's methods, validation and limitations, without replicating the system or exhaustively examining supplements. In-vitro results are not clinical effectiveness; internal rankings are not independent experiments.
+
+* Interpretation Boundaries
+
+Public sources establish origins, not freedom from selection bias. Accounts identify people's questions; surveys describe bounded respondent patterns; issues locate reported versions and phenomena; papers support specific research findings. None establishes that TAO3K has solved learning, creation or maintenance.
+
+We did not study city operations on site or equate general AI optimization with language-model agents. A city or public-service inquiry needs deployment material, actual results and affected voices of its own. Importance does not itself supply sufficient evidence for conclusions.
+
+* Influence
+
+The main essay no longer rests on box-making details or an invented equipment fault. Public problems lead to a question about turning AI-enabled entry into one's own inquiry, judgment and sustained work. This revises content priorities and argument, not engineering capabilities.
+
+* Interpretation Chain
+
+Named original materials and version scopes → distinctions and limits in this note → [[file:../30-reflections/30.330-finding-a-way-of-our-own.org][the essay's philosophical interpretation]] → further observation and disagreement still needed. A later Principle would require its own normative reasons; neither survey nor forum opinion replaces a Governance admission process.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.330-ai-public-problems-en-dialogue
+:END:
+
+Public discussion can pull us toward two voices: someone finally made a wanted thing; someone else fears merely accepting answers. Choosing sides too quickly misses that both wishes can coexist. A person can welcome help and want to learn more. Finishing and understanding need not always be alternatives.
+
+The [[file:40.20-gu-yanwu-practical-learning.org][reading of Gu Yanwu]] keeps the question of use alive. Yet usefulness cannot be measured only by who delivers first. Who checks the result, who can repair it and what remains when assistance ends participate in whether it helps.
+
+Maintainers' burdens also do not automatically justify excluding newcomers. The more worthwhile question is how access and reliable contribution can become possible together: approachable materials, help identifying duplicate problems and ways for contributors to respond to revision, not merely increased submission. This is a direction to test, not an effect already observed by this note.
+
+* Navigation
+[[file:../README.org][English index]] · [[file:../30-reflections/30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]]

@@ -1,0 +1,145 @@
+#+TITLE: Learning from Others, Finding a Way of Our Own
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-26
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-330-EN
+:SEMANTIC_ID: philosophy.reflection.30.330-finding-a-way-of-our-own
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.330-finding-a-way-of-our-own.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.330-finding-a-way-of-our-own-en
+:END:
+
+A motion designer describes building a wanted application with AI, enduring repeated repairs and eventually recognizing why a suggestion was wrong. Another person learning web development asks why projects keep moving while the feeling of genuinely learning recedes. These are not successive stages of one story; we have not verified either person's work or abilities. Together their accounts pose a real question: when AI makes previously inaccessible undertakings possible, how can a person make use of that possibility over time? ([[https://www.reddit.com/r/ChatGPTCoding/comments/1iuw85i/i_thought_ai_would_build_my_app_for_me_heres_what/][application-building account]]; [[https://www.reddit.com/r/learnprogramming/comments/1nz4tgj/how_do_you_balance_learning_vs_using_too_much_ai/][learner's question]])
+
+Rather than invent a domestic story to establish AI's usefulness, this essay begins with public learning discussions, a developer survey, a particular issue, a maintainer's account and research. It asks how making, understanding, exploring and maintaining relate. Original links, samples and limitations appear in the [[file:../40-sources/40.330-ai-public-problems.org][source note]]. Different people's experiences are not assembled into an inevitable story of growth.
+
+* Argument
+
+We prioritize learning and knowledge work, then connect them to scientific exploration and public software maintenance: AI already participates in explanation, generation, comparison and revision, changing how people enter complex problems. Everyday matters retain a place without supplying the main evidence here. Frequency of use does not establish greatest value, nor does an individual setback establish universal uselessness.
+
+** Accomplishing something and gradually finding one's own way
+
+The designer's account matters for more than its difficulties. Something wanted but previously out of reach acquired a beginning. Saying that they did not write every line themselves cannot erase that gain. A tool can let someone enter an undertaking and learn through its demands rather than finish an entire curriculum before beginning.
+
+The other learner's unease cannot be concealed by a finished project either. They want not only delivery but the ability to understand and address later problems. If assistance merely makes the next generation easier without helping identify where understanding falters, output and learning may diverge. The account alone does not establish this causal explanation, but the question belongs in an assessment of help.
+
+Nobody need understand every underlying detail. Using a reliable library does not require rewriting it; collaboration does not require duplicating a colleague's entire competence. The closer question is whether, when requirements change, results fail or opinions differ, I can identify the difficulty, find grounds, seek suitable help and decide what comes next. Ability can develop within these relationships.
+
+** Desire can precede competence, and questions can precede answers
+
+Someone wishing to make an application or understand an unfamiliar discipline may have no complete plan. Curiosity, dissatisfaction, the need for a livelihood and the excitement of making can all draw a person toward previously daunting questions. Their wish need not wait for proof of sufficient ability before receiving serious attention.
+
+AI's breadth has a positive role here. It can bring unfamiliar concepts within reach, offer different paths toward understanding and help compare approaches someone did not know existed. This is more than saving keystrokes: it may allow entry into another kind of work and thought.
+
+Possibilities also shape desire. Someone addressing a particular difficulty can lose sight of the beginning amid new features and proposals. Independent thought includes accepting inspiration, saying that this is not the intended undertaking, or discovering that the original purpose deserves to change. We seek no pure wish untouched by influence; we ask whether revision and refusal remain possible.
+
+Thus, the timing of independent thought should not become a qualification awarded by a model. Someone unable to implement a proposal may still identify a different need; someone using extensive generated code may still exercise design judgment. Conversely, confidence does not establish reliability. A wish deserves a hearing, while claims about reality still need grounds.
+
+** Why almost-right answers become a shared difficulty
+
+In Stack Overflow's 2025 survey, 66% of respondents to the AI-frustrations question selected almost-right solutions, and 45% selected more time-consuming debugging of AI-generated code. These are reports by respondents to that question, not code-defect rates or findings about all developers. ([[https://survey.stackoverflow.co/2025/ai][survey source]])
+
+Attention moves from generation to the work afterward: output may suffice to keep going without sufficing for confidence. Telling a learner to review everything does not explain how to obtain support when they cannot yet review it well. Asking AI to explain its own output again is not independent verification either.
+
+The help worth exploring makes an apparently complete result open to understanding and challenge: which requirement it serves, which assumptions it makes, what would count against it, and what reliable tests or experienced collaborators can check. Every exchange need not become a lesson. Judgments the person wants to practise should be distinguished from repetitive work they can delegate, according to the present purpose.
+
+Two teaching studies also discourage settling this by intuition alone. Structured AI tutoring improved post-lesson performance in particular university physics lessons. A high-school mathematics trial found that ordinary chat-style assistance improved practice performance but was followed by worse unassisted exam performance; its specially designed tutor did not show the same significant negative difference. The contexts differ and establish no universal method. They do prompt a distinction between assisted completion and what was subsequently learned. ([[https://www.nature.com/articles/s41598-025-97652-6][physics trial]]; [[https://doi.org/10.1073/pnas.2422633122][mathematics trial]])
+
+** Exploration is not endless answers, and focus is not obedience to old routes
+
+When a problem remains unclear, AI can help propose different explanations, find connections across fields and display incompatible approaches. Allowing only established answers from the outset makes it harder to discover another way to ask the question. We want room not only for accurate repetition but for new questions.
+
+When an experiment or practical undertaking approaches, piling up possibilities may cease to help. The task becomes identifying which disagreement is worth investigating, what result would change a judgment and what attempt the available conditions permit. This is not a one-way journey from freedom to obedience. A result that contradicts expectations may require opening out again.
+
+Co-Scientist offers a firmer entry than an invented example: it generates, critiques and refines hypotheses under scientist-provided goals, with experimental validation reported for particular biomedical problems. Ranking candidates is not an experimental finding; local validation is not clinical benefit. Our further question is how a person's research interests can meet unfamiliar connections proposed by a model without being wholly displaced by its favored directions. ([[https://www.nature.com/articles/s41586-026-10644-y][Co-Scientist study]])
+
+#+NAME: exploration-and-judgment-en
+#+EXPLANATION: These distinctions concern work, not ranks of people. A project may move between them or contain exploratory and established parts at once.
+| The present difficulty | What AI might help do more of | What people and collaborators still need to establish |
+|------------------------+------------------------------+------------------------------------------------------|
+| Not knowing the possibilities | Find different explanations, materials and routes | Which address the question that matters to us |
+| Several plausible accounts | Compare assumptions, evidence and alternatives | What observation could distinguish them |
+| Preparing to test an idea | Help formulate a limited, reviewable attempt | Whether conditions, costs, permissions and responsibilities fit |
+| An unexpected result | Help investigate differences and revise records | Whether the idea, implementation or original question needs changing |
+
+Thinking independently does not require disagreeing with the model. Adopting a good suggestion can follow careful comparison; proposing something different does not make it better. Reasons and evidence must still be able to change direction, while people's purposes remain open to discussion.
+
+** Continuing together requires more than the next conversation
+
+A particular issue reports loss of earlier context after resuming a session. Its author supplies observations from logs while noting a single occurrence and difficulty reproducing it on demand. It is not a defect we have reproduced or a basis for estimating incidence. ([[https://github.com/anthropics/claude-code/issues/35358][original issue 35358]]) It does make a difficulty visible: sustained help needs continuity with earlier work, not merely a complete-sounding answer each time.
+
+In learning and research, what deserves continuation includes why a route was chosen, what was rejected and what remains unverified, not just a task list. Losing these can make people repeat the same work of discernment. Keeping all old words indiscriminately can instead bind a changed purpose to an obsolete record.
+
+The shared memory we seek is therefore not an unchanging judgment of who someone is. It keeps relevant grounds that they can inspect and revise. Necessary materials should remain available when tools change or assistance ends. This is a philosophical and design question, not proof from one issue that a particular TAO3K architecture is correct.
+
+** Entering a shared world makes contribution more than submission
+
+In 2026, curl maintainer Daniel Stenberg announced the end of its bug-bounty program and described the burden of low-quality reports. He also noted that curl had been affected more severely than the other open-source programs compared and that the reasons remained uncertain. This is not evidence that every AI-assisted contribution harms projects. ([[https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/][maintainer's account]])
+
+It does give expanding value a practical question: when someone can produce a report more easily, does someone else find the project easier to maintain? Finding a lead, submitting a sound report, helping repair and caring for a project over time are different acts. A wish may be sincere while its result creates more work for others.
+
+This should not exclude newcomers. AI can help read project material, formulate clear reproductions, check known issues and understand maintainers' responses, enabling participation previously out of reach. These uses should reduce shared difficulties, not merely make it easier to pass poorly understood guesses to someone else. Which help actually reduces maintenance work needs observation.
+
+This is a contemporary direction for practical learning. Knowledge does not enter the world beneficially merely by leaving a private notebook as public output. It encounters responses in actual collaboration, sometimes requiring its contributor to explain, revise or withdraw. Creative desire meets what a shared world can bear.
+
+* Counterexamples
+
+Avoiding AI is no proof of authentic learning. Explanation and generation may give someone their first way into a field. Requiring complete mastery beforehand could close that entrance again. Conversely, one successful output cannot establish a suitable learning method for everyone.
+
+Nor should every discussion become software development. We chose it because public experiences, surveys and maintenance records can be read together, not because programming represents all human progress. Science, city maintenance and public services need their own investigation of problems, specialized tools and affected people. Replacing code with roads or medicines does not make the same story adequate.
+
+Every learning activity need not become a research project either. Sometimes a reliable existing method suffices; sometimes foundational practice is needed; sometimes there is no known answer. Freedom to explore includes choosing a mature route. Limited resources are not evidence of limited aspiration.
+
+Public discussion more readily preserves strong dissatisfaction or success worth displaying. Those who remain silent do not cease to exist. Forum attention, issue counts and bounded research outcomes cannot individually determine priorities or tell us what unheard people need.
+
+* Provisional Conclusion
+
+Learning from others is not merely copying their answers. AI can bring existing knowledge and previously inaccessible work within reach, while helping someone recognize what deserves a question, what needs checking and how to continue with others.
+
+Independent thought begins within learning, not after help ends. Desire gives exploration direction and can change through actual responses. Imagination deserves room, investigation deserves care, and contributions affecting others require follow-through. These demands need not cancel one another.
+
+Our provisional claim is to begin with important problems people already face, then ask how AI changes their possibilities and difficulties. A familiar story cannot substitute for real importance, a grand topic for particular evidence, or a few successes and failures for everyone's future.
+
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.reflection.30.330-finding-a-way-of-our-own-en-dialogue
+:END:
+
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Guangshi]] locates qualities worth learning from in different people. Bringing the question into the present, one conversational window should not erase the origins and grounds of different knowledge. Seeking explanation from a model, evidence from literature and objections from colleagues can all participate in judgment. Independence does not demand the absence of help.
+
+The Letter to a Friend on Disciples raises another question about teaching: does refusing to lower scholarly demands for recruitment require everyone to follow a teacher's approved route first? We retain seriousness without requiring learners to fit an established ideal before they may question it. Demanding accuracy and deciding another person's direction are different kinds of authority.
+
+After building something, a developer may choose deeper study or collaboration with someone able to maintain it. Ancient writing cannot rank those paths for us. We need to ask whether someone actually undertakes the shared work and whether the person can understand choices that matter to them, not whether they wrote every line.
+
+The [[file:../40-sources/40.320-laozi-action-and-room.org][reading of Laozi and Wang Bi]] asks whether help must own what follows. Broader possibilities should not make every possibility an assignment. Yet leaving room does not mean leaving every repair, check and maintenance task to someone else. Freedom needs room and the serious work that makes room possible.
+
+Curl's account questions our enthusiasm in return: has knowledge we believe we contributed actually helped anyone? This does not let a maintainer's dissatisfaction negate all exploration. It asks contributors to continue listening and checking. Practical learning concerns not only generating something useful, but entering a world already sustained by other people's work.
+
+* Questions That Remain
+
+This reading cannot establish which collaboration improves independent judgment over time. We need further accounts from learners, experienced workers and maintainers, including people who need help after success, stopped using the tools or never spoke publicly. Confidence, output and understanding must not become one score.
+
+City maintenance and public services remain separate investigations to undertake. We have not checked local deployments, budgets, incidents or effects on different residents. A phrase about AI managing cities cannot stand in for a completed case study. That inquiry should begin with material from responsible institutions and affected people.
+
+** Writing and verification still to come [3/7] [42%]
+:PROPERTIES:
+:COOKIE_DATA: checkbox
+:END:
+- [X] Replace the box and equipment-anomaly inventions with public problems, distinguishing accounts, survey, issue and experimental evidence.
+- [X] Develop independent judgment, desire and exploration positively alongside checking, continuity and shared maintenance.
+- [X] Complete paired sources and local dialogue with historical and evidential limits.
+- [ ] Examine further cross-disciplinary public discussions, including needs absent from developer communities.
+- [ ] With willing participants, observe particular judgments and later maintenance rather than treating accounts or output as long-term learning evidence.
+- [ ] Where appropriate, reproduce the selected issue or obtain maintainer confirmation and track later changes without inferring prevalence.
+- [ ] Select a separate city or public-service problem with deployment and affected-person evidence, without transferring programming conclusions directly.
+
+* Navigation
+[[file:../README.org][English index]] · [[file:../40-sources/40.330-ai-public-problems.org][Public problems and research evidence]] · [[file:30.320-learning-in-ordinary-life.org][Bringing Learning into Life]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu]]

@@ -14,7 +14,7 @@
 :SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: 笪重光; 老子文本传统; William Morris
 :SOURCE_WORK: 《画筌》; 《道德经》王弼本第十一章; Useful Work versus Useless Toil
-:SOURCE_EDITION: received texts; Commonweal 1884 essay
+:SOURCE_EDITION: received texts; Morris text transcribed by Marxists Internet Archive, works/1884
 :SOURCE_DATE: Qing dynasty; received text; 1884
 :SOURCE_LANGUAGE: lzh; en
 :SOURCE_REPOSITORIES: not-applicable
@@ -29,13 +29,15 @@
 :PROPERTIES:
 :CUSTOM_ID: philosophy.source-note.40.140-unfilled-space-and-rest-en
 :END:
-This note brings together three materials from different settings: Dai Chongguang's [[https://zh.wikisource.org/wiki/%E7%95%AB%E7%AD%8C][/Huaxuan/]]; chapter 11 of the Wang Bi recension of the [[https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)][/Laozi/]]; and William Morris's 1884 /Commonweal/ essay [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]].
+This note brings together three materials from different settings: Dai Chongguang's [[https://zh.wikisource.org/wiki/%E7%95%AB%E7%AD%8C][/Huaxuan/]]; chapter 11 of the Wang Bi recension of the [[https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)][/Laozi/]]; and William Morris's 1884 text [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]].
 * Context
 /Huaxuan/ discusses composition, the relations of empty and solid, density and openness, and the whole in landscape painting. Its statement that painted and unpainted give rise to one another occurs in a criticism of painted places becoming excrescences. The empty is not an arbitrary omission; it composes with what is painted.
 
 Chapter 11 of the /Laozi/ uses the hub, vessel and room to present the joint operation of presence and absence. It does not praise every vacancy and is not a modern theory of time management.
 
 Within a critique of labor under industrial capitalism, Morris distinguishes hopeful work from hopeless toil. His hopes include rest, a product worth having and pleasure in work itself. Rest should last long enough to enjoy, not merely restore spent strength, and should not be broken by anxiety. His class analysis, historical setting and socialist argument cannot be removed from these sentences.
+For a closer reading of Laozi, see [[file:40.320-laozi-action-and-room.org][Laozi and Wang Bi: Use, Non-action, and Accomplishment]], which also reads chapters 17 and 48 and distinguishes text from commentary. This note retains its three-source comparison; painting, the use of things and rest from labor do not become one argument already completed by an ancient author.
+
 * Interpretation Boundaries
 None of the texts directly demonstrates that an AI product works or independently specifies reminder frequency, recommendation algorithms or data permissions. Pictorial unpainted space cannot simply be equated with calendar openings; the /Laozi/'s absence cannot excuse neglected responsibility; and Morris's demand for rest does not show that everyone wishes to inhabit leisure in one way.
 

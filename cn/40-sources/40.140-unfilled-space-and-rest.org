@@ -14,7 +14,7 @@
 :SOURCE_KIND: SYNTHESIS
 :SOURCE_AUTHOR: 笪重光; 老子文本传统; William Morris
 :SOURCE_WORK: 《画筌》; 《道德经》王弼本第十一章; Useful Work versus Useless Toil
-:SOURCE_EDITION: received texts; Commonweal 1884 essay
+:SOURCE_EDITION: received texts; Morris text transcribed by Marxists Internet Archive, works/1884
 :SOURCE_DATE: Qing dynasty; received text; 1884
 :SOURCE_LANGUAGE: lzh; en
 :SOURCE_REPOSITORIES: not-applicable
@@ -30,7 +30,7 @@
 :CUSTOM_ID: philosophy.source-note.40.140-unfilled-space-and-rest-cn
 :END:
 本说明并置三份不同语境的材料：笪重光《[[https://zh.wikisource.org/wiki/%E7%95%AB%E7%AD%8C][画筌]]》；《[[https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)][道德经]]》王弼本
-第十一章；William Morris 1884 年发表于 /Commonweal/ 的 [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]]。
+第十一章；William Morris 的 1884 年文本 [[https://www.marxists.org/archive/morris/works/1884/useful.htm][Useful Work versus Useless Toil]]。
 * 语境
 《画筌》讨论山水画的章法、虚实、疏密与全局关系。“虚实相生，无画处皆成妙境”位于对
 “有画处”可能成为赘疣的批评中；这里的空不是随意遗漏，而是与所画之物共同组织画面。
@@ -41,6 +41,9 @@
 Morris 在工业资本主义劳动批判中区分有希望的工作和无望的苦役。他所说的希望包括休息、
 值得拥有的产物与工作本身的乐趣；休息应长到足以享用，而不只是恢复已消耗的力气，并且不被
 焦虑破坏。其阶级分析、历史处境和社会主义论证不能从这几句话中删去。
+
+关于老子的进一步细读见[[file:40.320-laozi-action-and-room.org][《老子与王弼注：有无、无为与功成》]]，另读第十七、四十八章，并区分经文与注。本篇仍保留三路来源的并读，不把绘画、器用与劳动中的休息合成一个古人已经说完的道理。
+
 * 解释边界
 三份文本都不能直接证明某种 AI 产品有效，也不能单独给出提醒频率、推荐算法或数据权限规则。
 画面留白不能被简单等同于日历空档；《老子》的“无”不能被包装成拒绝责任；Morris 对休息的

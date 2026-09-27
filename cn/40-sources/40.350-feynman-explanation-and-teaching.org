@@ -1,0 +1,71 @@
+#+TITLE: 费曼：解释的入口与教学的难处
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:cn:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.cn.v1
+:DOC_ID: PHIL-SRC-350-CN
+:SEMANTIC_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: zh-CN
+:COUNTERPART: ../../en/40-sources/40.350-feynman-explanation-and-teaching.org
+:SOURCE_ID: source.feynman.explanation-and-teaching
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Richard P. Feynman; Robert B. Leighton; Matthew Sands (Lectures); Richard P. Feynman (preface)
+:SOURCE_WORK: The Feynman Lectures on Physics, volume I, section 4-1; Feynman’s Preface
+:SOURCE_EDITION: Caltech online edition; section 4-1 and preface read 2026-09-27; no audio or print collation
+:SOURCE_DATE: 1963 preface; online edition
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.350-feynman-explanation-and-teaching
+:END:
+* 来源
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching-cn
+:END:
+本篇核读加州理工学院在线版《费曼物理学讲义》第一卷[[https://www.feynmanlectures.caltech.edu/I_04.html][第 4 章第 1 节“能量是什么”]]与[[https://www.feynmanlectures.caltech.edu/I_91.html][费曼序言]]。前者作为解释文本来读，后者是费曼署于 1963 年 6 月的教学回顾。读的是网页文字，没有核对录音或纸本；不以本轮阅读代表全套讲义，也不把网上流传的学习步骤归于费曼本人。
+
+本文的中文篇名与概述为本仓库译述。“把深的事情讲明白”是我们的研究问题，不是原书标题，也不声称费曼使用了 Humanized 这一概念。
+* 语境
+
+第 4–1 节的类比从积木计数走向计算看不见的部分，并明确提醒读者，能量不是那些积木。我们关心的是它如何进入抽象关系又限制直观图景，而不在此重述全部物理推导。
+
+序言说明讲座只是课程的一部分，另有习题讨论与实验；它也承认反馈与教学结果方面的困难。作为作者回顾，这不是独立的效果研究，更不能凭作者的自我怀疑便宣布整套课程无效。
+
+将两处并读，是我们的解释选择：一处便于观察讲解怎样展开，一处防止把精彩讲解当成人人学会的保证。两者不提供当代大模型帮助读者理解的直接证据。
+* 解释边界
+
+本篇不据这两处文字确立一套普遍有效的“费曼学习法”，也不援引没有核对出处的名言。可亲近不等于不需要准备，富于启发的文本也不自动适合每位读者。
+
+我们讨论的是解释方式，不以历史教材中的每个表述概括今日物理学的全部进展。关于 AI 应如何回应追问、提供来源或支持阅读障碍者，是当代设计与哲学问题，仍需单独论证和观察。
+* 影响
+
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]]据此把浅显与削薄、类比与对象、讲述与学会分开。主文关心读者能否辨认根据和适用条件，不只评价文字是否顺口；这些取舍属于本仓库提出的方向，不是已取得的教学效果。
+
+本轮不修改 Principle、Governance 或 Org 合约，也不规定所有输出必须增加解释。与生成相比，阅读帮助是否更有价值，要看当次目的和读者的实际处境。
+* 解释链
+
+第 4–1 节的具体解释 → 我们对入口与类比边界的阅读 → 主文提出保留关键条件，而非只把词句换得浅显。
+
+序言中的教学回顾 → 不以讲述者声望替代读者经验 → 主文区分可读感、理解、错误识别和时间负担，留下尚未实施的比较研究。
+
+这些是解释迁移而非实证结论。相邻的[[file:40.270-understanding-and-reliance.org][理解与判断来源笔记]]另有经验研究，不能与费曼的回顾合成一个统一实验；[[file:40.330-ai-public-problems.org][公开问题笔记]]记录的是不同使用情境，也不证明本篇建议已经奏效。
+* 论道
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching-cn-dialogue
+:END:
+
+一种直观讲法值得留下，可能正因为它让人愿意继续；但人也可能只记住了直观画面，忘记它试图说明的关系。我们的回应不必是撤掉所有比喻，而应问能不能从比喻回到问题，认出不能照搬的地方。对 AI 来说，这意味着再加一个生动例子未必就是下一步，有时需要停在原来的例子上，把一个差别讲清。
+
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][主文]]还留下另一种不安：帮助读者节省力气，与替他决定什么值得想，可能只隔一步。不能因为解释者比较懂，就默认读者的问题可以被省略。照顾理解，应当包括让对方改变解释的方向，而不是只调节同一份讲稿的难度。
+* 导航
+[[file:40.351-bai-juyi-clarity-and-credibility.org][白居易：易懂与可信]] · [[file:40.352-reading-understanding-evidence.org][现代简化与解释研究]]
+[[file:../README.org][导航]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][把深的事情讲明白]] · [[file:40.20-gu-yanwu-practical-learning.org][顾炎武：经世致用与实学]]
