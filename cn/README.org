@@ -79,6 +79,8 @@ runtime，不代替项目 RFC。英文对应文档见 [[file:../en/README.org][E
 
 * 在各篇的论道中接着读
 
+- [[file:30-reflections/30.340-learning-to-change-our-minds.org][知道更多之后：不同意见怎样改变我们，更正怎样到达别人？]]
+
 “论道”就在相关来源与反思中，接着正文没有说尽的地方展开，不需要先进入一个总专题。可以从眼前的问题往返：
 
 - [[file:30-reflections/30.290-beginning-something-unfamiliar.org][喜欢一件事，为什么总要走向学会它？]]

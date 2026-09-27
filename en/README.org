@@ -81,6 +81,8 @@ Source strands include [[file:40-sources/40.95-sen-capability-and-opportunity.or
 
 * Continue within Each Essay
 
+- [[file:30-reflections/30.340-learning-to-change-our-minds.org][Knowing More: how do other views change us, and how do corrections reach others?]]
+
 Further Conversation develops what a source note or reflection has not finished saying, within that piece rather than behind a central topic entrance. Follow a particular question:
 
 - [[file:30-reflections/30.290-beginning-something-unfamiliar.org][Why must liking something lead to learning it?]]
