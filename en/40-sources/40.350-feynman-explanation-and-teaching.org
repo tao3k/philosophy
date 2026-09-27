@@ -1,0 +1,70 @@
+#+TITLE: Feynman: Ways into an Idea and the Difficulty of Teaching
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:en:source:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.source-note.en.v1
+:DOC_ID: PHIL-SRC-350-EN
+:SEMANTIC_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching
+:DOC_KIND: source-note
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/40-sources/40.350-feynman-explanation-and-teaching.org
+:SOURCE_ID: source.feynman.explanation-and-teaching
+:SOURCE_KIND: PRIMARY
+:SOURCE_AUTHOR: Richard P. Feynman; Robert B. Leighton; Matthew Sands (Lectures); Richard P. Feynman (preface)
+:SOURCE_WORK: The Feynman Lectures on Physics, volume I, section 4-1; Feynman’s Preface
+:SOURCE_EDITION: Caltech online edition; section 4-1 and preface read 2026-09-27; no audio or print collation
+:SOURCE_DATE: 1963 preface; online edition
+:SOURCE_LANGUAGE: en
+:SOURCE_REPOSITORIES: not-applicable
+:SOURCE_REVISIONS: not-applicable
+:SOURCE_PATHS: not-applicable
+:OBSERVATION_DATE: not-applicable
+:CONSTITUENT_SOURCES: not-applicable
+:INTERPRETATION_STATUS: MODERNIZED
+:CLAIM_SCOPE: philosophy.source-note.40.350-feynman-explanation-and-teaching
+:END:
+* Source
+:PROPERTIES:
+:CUSTOM_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching-en
+:END:
+This note reads [[https://www.feynmanlectures.caltech.edu/I_04.html][volume I, section 4-1, What is energy?]] and [[https://www.feynmanlectures.caltech.edu/I_91.html][Feynman's Preface]] in Caltech's online edition of The Feynman Lectures on Physics. The first is an explanatory text; the second is Feynman's teaching retrospective dated June 1963. We read the web text, without checking recordings or print editions. This is not a reading of the entire collection or an attribution of popular learning routines to Feynman.
+
+Chinese titles and summaries are our renderings. Making Difficult Ideas Clear names our inquiry, not a title in the original; we do not claim that Feynman used humanized in this sense.
+* Context
+
+Section 4-1 moves from counting blocks to calculating unseen portions, while warning that energy is not those blocks. Our concern is the entrance into an abstract relationship and the limit on its illustration, not a retelling of the whole physical argument.
+
+The preface situates lectures alongside recitations and laboratory work and acknowledges difficulties with feedback and results. It is an author's retrospective, not an independent effectiveness study; self-doubt alone cannot establish that the whole course failed.
+
+Reading these together is our interpretive choice: one permits examination of an explanation, the other resists treating an impressive explanation as a guarantee of everyone's learning. Neither directly establishes how present-day language models help readers.
+* Interpretation Boundaries
+
+These passages establish no universally effective Feynman learning method. We use no quotation whose attribution we have not checked. Approachability does not remove the need for preparation, and an inspiring text need not suit every reader.
+
+Our topic is explanation, not treating every formulation in a historical textbook as a complete account of physics today. AI responses to questions, source access and assistance with reading difficulties remain present-day design and philosophical questions needing separate argument and observation.
+* Influence
+
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] distinguishes accessibility from thinning a subject, analogy from its object, and exposition from learning. It asks whether readers can recognise grounds and conditions, not just whether prose sounds natural. These are directions we propose, not educational benefits already achieved.
+
+This round changes no Principle, Governance or Org contract and requires no explanation to accompany every output. Whether reading assistance is more valuable than generation depends on purpose and the reader's circumstances.
+* Interpretation Chain
+
+The explanation in section 4-1 → our reading of its entrance and the limits of analogy → the essay's proposal to retain consequential conditions rather than merely replace difficult words.
+
+The teaching retrospective → refusing to substitute a speaker's reputation for readers' experience → distinguishing readability, understanding, error recognition and time, with comparative inquiry still to be undertaken.
+
+These are interpretive moves, not empirical findings. The adjacent [[file:40.270-understanding-and-reliance.org][understanding and judgment note]] contains separate research, not one experiment shared with Feynman's retrospective. The [[file:40.330-ai-public-problems.org][public-problems note]] concerns different situations of use and likewise does not demonstrate that this essay's proposals work.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.source-note.40.350-feynman-explanation-and-teaching-en-dialogue
+:END:
+
+An intuitive account may deserve keeping because it invites further inquiry. Yet someone may remember its image and lose the relationship it was meant to explain. We need not remove every analogy; we can ask whether the reader can return from it to the problem and recognise where it stops applying. For AI, another vivid example need not be the next useful step. Sometimes the useful step is to remain with an existing example and clarify one difference.
+
+The [[file:../30-reflections/30.350-making-difficult-ideas-clear.org][essay]] leaves another concern open: saving readers effort can come close to deciding what deserves their thought. Knowing more does not entitle an explainer to discard the reader's question. Care for understanding should include the reader's ability to change the direction, not merely the difficulty, of the explanation.
+* Navigation
+[[file:../README.org][navigation]]
+[[file:../30-reflections/30.350-making-difficult-ideas-clear.org][Making Difficult Ideas Clear]] · [[file:40.20-gu-yanwu-practical-learning.org][Gu Yanwu: Practical Learning and Statecraft]]

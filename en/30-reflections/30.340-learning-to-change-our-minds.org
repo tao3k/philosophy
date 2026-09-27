@@ -107,5 +107,6 @@ We need accounts of how learners, teachers, research collaborators and maintaine
 - [ ] Trace a public correction and its downstream use, distinguishing publication from arrival.
 - [ ] Find different participants' accounts of correction work and examine the proposed collaboration against them.
 * Navigation
+[[file:30.350-making-difficult-ideas-clear.org][Continue: Making Difficult Ideas Clear]]
 [[file:../README.org][language index]]
 [[file:30.330-finding-a-way-of-our-own.org][Learning from Others, Finding a Way of Our Own]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu source note]] · [[file:../40-sources/40.330-ai-public-problems.org][Contemporary problems and research evidence]]

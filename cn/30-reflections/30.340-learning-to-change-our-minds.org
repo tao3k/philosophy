@@ -107,5 +107,6 @@ AI 在这里可以帮助新人读懂已有讨论、整理复现条件，也可�
 - [ ] 查找并追踪一条公开更正及其下游采用情况，不把发布更正当作已经到达。
 - [ ] 寻找不同参与者对纠错劳动的记录，检验上述协作设想。
 * 导航
+[[file:30.350-making-difficult-ideas-clear.org][继续读：把深的事情讲明白]]
 [[file:../README.org][语言入口]]
 [[file:30.330-finding-a-way-of-our-own.org][借前人的路，走向自己想去的地方]] · [[file:../40-sources/40.20-gu-yanwu-practical-learning.org][顾炎武来源笔记]] · [[file:../40-sources/40.330-ai-public-problems.org][现代问题与研究依据]]

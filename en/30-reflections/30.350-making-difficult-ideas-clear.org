@@ -1,0 +1,117 @@
+#+TITLE: Making Difficult Ideas Clear
+#+AUTHOR: Tao3k
+#+DATE: 2026-09-27
+#+FILETAGS: :philosophy:en:reflection:
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.document.v1 philosophy.reflection.en.v1
+:DOC_ID: PHIL-REF-350-EN
+:SEMANTIC_ID: philosophy.reflection.30.350-making-difficult-ideas-clear
+:DOC_KIND: reflection
+:DOC_STATUS: draft
+:LANGUAGE: en
+:COUNTERPART: ../../cn/30-reflections/30.350-making-difficult-ideas-clear.org
+:END:
+* Question
+:PROPERTIES:
+:CUSTOM_ID: philosophy.reflection.30.350-making-difficult-ideas-clear-en
+:END:
+When we discussed “something that aids reading is more valuable,” the comparison was not between paper and screens. It was between producing another article, analysis or piece of code and helping someone understand, judge and use material already before them. Here the phrase begins an inquiry; it is neither attributed to a famous author nor treated as a ranking valid in every circumstance.
+
+The difficulty already appears in working life. The 2025 Stack Overflow survey records almost-correct solutions and time spent debugging AI-generated code among respondents' frustrations. It does not establish that more explanation would solve them, but it directs attention beyond time saved during generation. People still need to know what a result does, where reliance is warranted and where to begin investigating a problem. ([[https://survey.stackoverflow.co/2025/ai][Survey]]; [[file:../40-sources/40.330-ai-public-problems.org][Evidence and sample limits]])
+
+Writing that feels human therefore deserves another look. Removing mechanical phrases and adding conversational language is not enough. Warm, natural prose can still leave someone lost; concise, precise prose need not be uncaring. Our concern is whether an explanation attends to its reader, rather than merely imitating a person speaking.
+* Argument
+
+This essay moves from reading assistance to the responsibilities of explanation: making difficult ideas approachable without hiding the conditions that matter. We read a specific explanation and preface by Feynman for possibilities and doubts, not as a method validated by fame. The [[file:../40-sources/40.350-feynman-explanation-and-teaching.org][source note]] identifies the reading and its limits.
+
+** Accessibility means supplying a missing step, not thinning the subject
+
+Some explanations are difficult because their words are unfamiliar. Others contain no unfamiliar words yet give us no way in. They introduce a concept without showing the problem that makes it worth introducing. A step available to the writer is silently assumed available to the reader.
+
+Feynman's account of energy conservation uses counting blocks to introduce an invariant, then warns against treating energy as those blocks. The turn matters: an analogy offers access without being allowed to stand in for the thing explained. ([[https://www.feynmanlectures.caltech.edu/I_04.html][Chapter 4, section 1]])
+
+Our writing lesson is not to invent a small story for everything. Code, statistical findings and research papers involve different relationships. A comparison table may serve better than a story; sometimes an exact definition must remain. Is the reader struggling with a word, the context, a jump in the reasoning, or the relevance to their question? One style of simplification cannot address all these difficulties.
+
+A good explanation may be brief or need considerable preparation. Its measure is not simply words saved, but which connections the reader no longer has to supply alone.
+
+** Redundancy says more without making more apparent
+
+Restating a conclusion three ways and repeating it in a summary can increase length without increasing understanding. A reader may even search those near-identical sentences for a distinction that is not there.
+
+Yet repetition can be considerate. An abstract account, a suitable example and a limit on its use each do different work. Reviewing a point may help someone listening, learning for the first time or returning after an interval. Reducing everything to keywords may merely transfer the explanatory work to them.
+
+We propose asking whether a passage adds necessary grounds, distinctions or connections. What would the reader lose if it disappeared? If nothing, completeness need not keep it there. If what disappears is a condition determining whether the conclusion applies, concision cannot justify the cut.
+
+** Articles, data and code call for different kinds of reading
+
+“Please explain” may still be too broad a request about a generated result. A longer description may never reach the actual difficulty. These are proposed directions for reading, not a compulsory procedure for every task.
+
+#+NAME: reading-what-matters-en
+#+EXPLANATION: One consequential question for each kind of material; expand what matters without requiring readers to master every detail.
+| Material | What fluent presentation can conceal | What useful explanation can make visible |
+|----------+--------------------------------------+-------------------------------------------|
+| An analytical article | An unstated premise between evidence and conclusion | Which grounds support which claim, and what remains conjecture |
+| A data report | Similar numbers produced by different counting rules | Who is counted or omitted, and what another denominator changes |
+| Generated code | An example runs while crucial conditions remain untested | Required input conditions and which test checks which requirement |
+
+Such explanations must return to the actual material. A plausible account of a design does not establish its author's intention; a lucid explanation of a report does not show that the underlying data was inspected. Reading assistance should bring checkable grounds closer, not wrap one fluent output in another.
+
+Here AI has a positive possibility. It can cross terminological and language barriers, bring scattered definitions alongside a passage, compare materials in relation to a question, or make a complicated change history easier to follow. Discussions previously open mainly to insiders may become more accessible. Whether that happens requires readers' experience, not the explainer's declaration.
+
+** Following an explanation is not yet the same as being able to judge
+
+The moment something makes sense is valuable. It may begin learning. It does not tell us whether someone can recognise the relationship when conditions change.
+
+In his preface, Feynman expresses reservations, even pessimism, about the course's results and identifies the difficulty of missing student feedback. Admiring his explanations and taking learning outcomes seriously can therefore coexist. ([[https://www.feynmanlectures.caltech.edu/I_91.html][Feynman's preface]])
+
+We need not turn every reading into an examination. Someone trying to learn a judgment might be invited to compare two accounts, locate a remaining difficulty or consider a changed condition. When they struggle, the response should help locate the difficulty rather than insist that it has already been explained. Someone seeking reliable completion, however, has not thereby agreed to take a course.
+
+Further investigation should distinguish experience from performance: willingness to read, grasp of important relationships, recognition of errors and time required. These may support one another or diverge. They should not disappear into one score for being more human. Such comparisons are proposals to investigate, not learning outcomes established by this essay.
+
+** Respect includes letting readers depart from our explanation
+
+Explanation involves selection, but selection need not provide the only entrance. Readers should be able to return to a source, identify material that matters more to them or reject an analogy that does not fit their experience.
+
+An inarticulate question still deserves care. Naming and classifying it too quickly may miss the difficulty behind it. AI can offer what it thinks the question is and invite correction without building a permanent cognitive profile of the person.
+
+This gives leaving room a practical meaning: explain the core and keep further grounds accessible, without opening every branch in advance. Readers can continue or stop here. Every explanation need not end by assigning something else to learn.
+
+Warmth also need not depend on pretence. Generated prose need not invent lived experience or feelings to earn trust. Hearing a question accurately, admitting uncertainty and patiently finding another grounded account are already ways of taking someone seriously.
+* Counterexamples
+
+Reading assistance is not inherently more valuable than generation. A usable result may give someone unable to perform a particular act of expression or implementation their first opportunity to participate. They need not first demonstrate complete understanding. Established delegation may also suit the moment better than a lengthy explanation.
+
+Not all difficulty comes from poor expression. Some concepts require preparation; some derivations cannot be mastered through one analogy. Hiding this may leave readers blaming themselves later. Explaining what preparation remains is part of helping.
+
+Technical terms and precise formulae can be easier than everyday language. An expert may need one exact difference, not an introduction. Conversely, shortening a text should not remove context needed by newcomers or people using assistive reading methods.
+
+If later observation finds that a rewrite increases confidence while making errors harder to detect or removing checkable grounds, we should reject that rewrite. A presentation that helps some readers and burdens others cannot be called universally accessible.
+* Provisional Conclusion
+
+We want writing that feels human to mean more than a style preference: does it attend to understanding, time and choice? Making difficult ideas clear does not make every subject simple. It helps people know what they are approaching, why they might believe it and how they can continue questioning.
+
+This remains a Reflection. It changes no Principle or Governance requirement and creates no score based on word count or conversational tone. The next inquiry should compare explanations through actual materials and readers' difficulties, rather than asking AI alone to declare its own output understandable.
+* Further Conversation
+:PROPERTIES:
+:CONTRACT_ORG: philosophy.dialogue-extension.v1
+:CUSTOM_ID: philosophy.reflection.30.350-making-difficult-ideas-clear-en-dialogue
+:END:
+[[file:../40-sources/40.20-gu-yanwu-practical-learning.org][Gu Yanwu's discussions of writing and learning]] direct our attention to knowledge entering shared life. [[file:../40-sources/40.350-feynman-explanation-and-teaching.org][Feynman's explanation and self-questioning]] invite attention to the work of reaching a reader. They do not constitute one doctrine, and we do not invent agreement across time. The connection is our question: even well-grounded knowledge has not realised its usefulness merely by existing if those who need it cannot approach it.
+
+Approachability does not require every idea to be immediately intelligible to everyone. Readers may need preparation; writers may explore subjects for which no mature explanation yet exists. Our objection is not to difficulty, but to using difficulty to protect authority unwilling to explain; not to accessible language, but to using it to erase what deserves attention.
+
+Another tension remains: choosing what to explain first influences how a reader sees. We cannot pretend otherwise, yet abandoning guidance does not solve the problem. A more honest relationship might make its selections discussable, offer another route and allow a reader to reach a different judgment. Helping someone understand is not the same as securing agreement.
+* Questions That Remain
+
+The comparison worth making concerns not only which version is preferred, but whether readers can better distinguish grounds, conditions and disagreements. Inquiry must respect the purpose of the occasion: learning, reference and delegation call for different help. Performance without tools cannot be the universal measure.
+
+** Reading and Writing Progress [3/6] [50%]
+- [X] Read Feynman's explanation and preface, retaining limits of analogy and claims about teaching.
+- [X] Extend the discussion to articles, data and code, distinguishing explanation from inspection.
+- [X] Complete the bilingual essay, counterexamples and further conversation without a universal humanization score.
+- [ ] Select a public technical explanation with documented reader difficulties and preserve the relationship between its original and proposed rewrite.
+- [ ] With voluntary participants' agreement, compare understanding, error recognition and time required by different accounts.
+- [ ] Include different backgrounds and assistive reading needs, recording absent benefits and misleading effects.
+* Navigation
+[[file:../README.org][language index]]
+[[file:30.340-learning-to-change-our-minds.org][Knowing More, Learning to Change Our Minds]] · [[file:../40-sources/40.350-feynman-explanation-and-teaching.org][Feynman source note]] · [[file:../40-sources/40.270-understanding-and-reliance.org][Feeling Clear and Having Grounds to Judge]]
